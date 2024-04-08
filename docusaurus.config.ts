@@ -38,11 +38,12 @@ let config: Config = {
           path: 'content',
           routeBasePath: 'content',
           sidebarPath: './sidebars.ts',
+          
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //   'https://github.com/amareshui/TM-Manual_Dino.git',
-          
+         
           },
         blog: {
           showReadingTime: true,
@@ -60,7 +61,7 @@ let config: Config = {
 
   themeConfig: {
 
-    
+    homePage: 'TourMaster-Manual/content/Dashboard',
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
@@ -69,7 +70,7 @@ let config: Config = {
       logo: {
         alt: 'Tour Master',
         src: 'img/TourMaster-Logo.png',
-        href: '/content/Dashboard'
+        href: '/TourMaster-Manual/content/Dashboard'
       },
       hideOnScroll: true,
       items: [
