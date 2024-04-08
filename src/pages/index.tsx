@@ -11,7 +11,7 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <Redirect to="/docs/Dashboard" />
+      <Redirect to="/content/Dashboard" />
       {/* เมื่อผู้ใช้เข้าเว็บไซต์ จะถูก Redirect ไปที่หน้า Dashboard โดยอัตโนมัติ */}
       <main>
         <HomepageFeatures />

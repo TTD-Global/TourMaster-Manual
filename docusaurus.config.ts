@@ -35,6 +35,8 @@ let config: Config = {
       'classic',
       {
         docs: {
+          path: 'content',
+          routeBasePath: 'content',
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -67,7 +69,7 @@ let config: Config = {
       logo: {
         alt: 'Tour Master',
         src: 'img/TourMaster-Logo.png',
-        href: '/docs/Dashboard'
+        href: '/content/Dashboard'
       },
       hideOnScroll: true,
       items: [
@@ -88,7 +90,7 @@ let config: Config = {
     //       items: [
     //         {
     //           label: 'User Manual',
-    //           to: '/docs/Dashboard',
+    //           to: '/content/Dashboard',
     //         },
     //       ],
     //     },
