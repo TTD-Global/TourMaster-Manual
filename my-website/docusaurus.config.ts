@@ -39,15 +39,15 @@ let config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
-          //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //   'https://github.com/amareshui/TM-Manual_Dino.git',
           
           },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          //   'https://github.com/amareshui/TM-Manual_Dino.git',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -65,7 +65,7 @@ let config: Config = {
       disableSwitch: true,},
     navbar: {
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Tour Master',
         src: 'img/TourMaster-Logo.png',
         href: '/docs/Dashboard'
       },
