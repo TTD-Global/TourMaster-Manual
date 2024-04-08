@@ -46,3 +46,10 @@ strong{
 em{
   color: #fd8647;
 }
+
+/* .table-of-contents__left-border {
+  display: none !important;
+} */
+.col--3{
+  display: none !important;
+}

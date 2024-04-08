@@ -61,6 +61,7 @@ let config: Config = {
   ],
 
   themeConfig: {
+    hide_table_of_contents: true,
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
