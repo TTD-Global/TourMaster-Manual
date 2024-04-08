@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1326],{332:s=>{s.exports=JSON.parse('{"label":"docusaurus","permalink":"/TourMaster-Manual/blog/tags/docusaurus","allTagsPath":"/TourMaster-Manual/blog/tags","count":4,"unlisted":false}')}}]);

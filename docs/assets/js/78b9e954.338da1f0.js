@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[4024],{1311:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/TourMaster-Manual/blog/tags/hello","allTagsPath":"/TourMaster-Manual/blog/tags","count":2,"unlisted":false}')}}]);
