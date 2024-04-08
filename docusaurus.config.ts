@@ -3,6 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 
+
 let config: Config = {
   title: 'Tour Master',
   tagline: 'User Manaul',
@@ -60,8 +61,6 @@ let config: Config = {
   ],
 
   themeConfig: {
-
-    homePage: 'TourMaster-Manual/content/Dashboard',
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     colorMode: {
@@ -133,7 +132,7 @@ let config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-  } satisfies Preset.ThemeConfig,
+  }   satisfies Preset.ThemeConfig,
 };
 
 export default config
