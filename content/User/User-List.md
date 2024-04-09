@@ -16,7 +16,6 @@ title: User List
     * _Image_ การแนบรูปภาพขนาดที่กำหนดคือ 200 x 200 px โดยมีสกุลรูปภาพดังนี้
     1. JPEG
     2. PNG
-
     * _Employee Code_ รหัสพนักงาน
     * _First Name - Last Name_ ชื่อ นามสกุล
     * _Email_ อีเมล
