@@ -74,7 +74,7 @@ let config: Config = {
       logo: {
         alt: 'Tour Master',
         src: 'img/TourMaster-Logo.png',
-        href: '/TourMaster-Manual/content/Dashboard'
+        href: '/TourMaster-Manual/content/Dashboard/Company-Overview'
       },
       hideOnScroll: true,
       items: [
