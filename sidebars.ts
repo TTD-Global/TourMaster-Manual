@@ -63,7 +63,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Program',
-      items: ['Program/Program','Program/Items-Type','Program/Unit']
+      items: ['Program/Program-list','Program/Items-Type','Program/Unit']
     },
     {
       type:'category',

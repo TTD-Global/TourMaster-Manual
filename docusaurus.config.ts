@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 let config: Config = {
   title: 'Tour Master',
   tagline: 'User Manaul',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/LogoTM.png',
 
   // Set the production url of your site here
   url: 'https://ttd-global.github.io/',
@@ -67,7 +67,7 @@ let config: Config = {
     },
     // hide_table_of_contents: true,
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/TourMaster-Logo.png',
     colorMode: {
       disableSwitch: true,},
     navbar: {
