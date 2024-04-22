@@ -17,58 +17,66 @@ const sidebars: SidebarsConfig = {
   // But you can create a sidebar manually
   
   tutorialSidebar: [
-    'Dashboard',
     {
       type: 'category',
-      label: 'Booking',
-      items: ['Booking/Overview', 'Booking/Booking-List'],
+      label: 'Dashboard',
+      items: ['Dashboard/Company-Overview', 'Dashboard/Booking', 'Dashboard/Tour', 'Dashboard/Transfer', 'Dashboard/Expense', 'Dashboard/Check-In', 'Dashboard/Vehicle', 'Dashboard/Guide', 'Dashboard/KPI'],
     },
+    { // ขีดเส้นใต้
+      type: 'html',
+          value: '<hr style="border-color: black; margin: 8px 0;">',
+    }, 
+'Booking',
     {
       type: 'category',
       label: 'Tour',
-      items: ['Tour/Manage-Group','Tour/Job-Order', 'Tour/Report'],
+      items: ['Tour/Manage-Group','Tour/Job-Order'],
     }
     ,
     {
       type: 'category',
       label: 'Transfer',
-      items: ['Transfer/Manage-Transfer', 'Transfer/Transfer-Order', 'Transfer/Zone', 'Transfer/Report'],
+      items: ['Transfer/Manage-Transfer', 'Transfer/Transfer-Order'],
     }
     ,
     {
       type: 'category',
       label: 'Check In',
-      items: ['Check In/Check-In-List', 'Check In/Check-In', 'Check In/Report'],
+      items: ['Check In/Check-In', 'Check In/Check-In-List'],
     }
     ,
     {
       type: 'category',
-      label: 'Payment',
-      items: ['Payment/Advance', 'Payment/Expenses', 'Payment/Balance', 'Payment/Report'],
+      label: 'Expense',
+      items: ['Expense/Advance', 'Expense/Actual', 'Expense/Accrued'],
     }
     ,
-    {
-      type: 'category',
-      label: 'Guide',
-      items: ['Guide/Guide-List', 'Guide/Guide-Task', 'Guide/Report'],
-    }
+'Vehicle-Task'
     ,
-    {
-      type: 'category',
-      label: 'Vehicle',
-      items: ['Vehicle/Supplier-List', 'Vehicle/Supplier-Task', 'Vehicle/Own-vehicle', 'Vehicle/Group-Type', 'Vehicle/Report'],
-    }
+'Guide-Task'
     ,
-    'Agent' ,
+    { // ขีดเส้นใต้
+      type: 'html',
+          value: '<hr style="border-color: black; margin: 8px 0;">',
+    }, 
     {
       type: 'category',
       label: 'Program',
       items: ['Program/Program-list','Program/Items-Type','Program/Unit']
     },
+'Agent' ,
+    {
+      type: 'category',
+      label: 'Vehicle',
+      items: ['Vehicle/Supplier','Vehicle/Own-vehicle', 'Vehicle/Group-Type'],
+    }
+    ,
+'Guide-List' ,
+'Zone-Transfer' ,
     {
       type:'category',
       label: 'User',
-      items: ['User/User-List','User/Roles','User/KPI', 'User/Access-Log']
+      items: ['User/User-List','User/Roles','User/Access-Log']
     }
   ],
    

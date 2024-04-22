@@ -77,7 +77,9 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="Guide" label="Guide" default>
     - **Guide fee** ค่าใช้จ่ายเกี่ยวกับ Guide
-            - _**Check Box : Cash Advance**_ หากติ๊กจะแสดงให้รู้ว่าต้องการให้จ่ายก่อน-หากไม่ติ๊กจ่ายหลัง
+            - _**DropDown : Payment Option**_ โดนมีให้เลือกดังนี้
+                - _Pay first_ ชำระเงินก่อน / เบิกเงินชำระให้ไกด์ก่อน
+                - _Pay later_ ชำระเงินทีหลัง / หลังจบงานค่อยจ่ายเงินให้กับไกด์
             - _**Guide Item**_ ให้เลือกระหว่างเป็น Guide หรือ Staff
             - _**Cost Type**_ มีทั้งหมด 3 ประเภท ดังนี้
                 - _All_ คือ ราคาทั้งหมดกี่บาท (แบบเหมา)
@@ -89,7 +91,9 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="Vehicle" label="Vehicle">
     - **Vehicle Cost** ค่าใช้จ่ายเกี่ยวกับ Vehicle
-            - _**Check Box : Cash Advance**_ หากติ๊กจะแสดงให้รู้ว่าต้องการให้จ่ายก่อน-หากไม่ติ๊กจ่ายหลัง
+            - _**DropDown : Payment Option**_ โดนมีให้เลือกดังนี้
+                - _Pay first_ ชำระเงินก่อน / เบิกเงินชำระให้ผู้ให้บริการยานพาหนะก่อน
+                - _Pay later_ ชำระเงินทีหลัง / หลังจบงานจ่ายเงินให้กับผู้ให้บริการยานพาหนะทีหลัง
             - _**Supplier**_ ข้อมูลมาจาก Supplier หากไม่่ได้เพิ่ม Supplier ไว้จะไม่แสดงข้อมูล (สามารถมาใส่ทีหลังได้)
             - _**Vehicle**_ ข้อมูลมาจาก Group Type ของ Vehicle
             - _**Option**_ คือ ช่องทางเสริม/โปรแกรมเสริมที่ระบุไว้ในขั้นตอน Program Detail หากไม่ได้ระบุจะไม่แสดง "-" 
@@ -98,7 +102,9 @@ import TabItem from '@theme/TabItem';
   </TabItem>
   <TabItem value="OtherEx" label="Other Expense">
     - **Other Expense** ค่าใช้จ่ายอื่นๆ
-            - _**Check Box : Cash Advance**_ หากติ๊กจะแสดงให้รู้ว่าต้องการให้จ่ายก่อน-หากไม่ติ๊กจ่ายหลัง
+            - _**DropDown : Payment Option**_ โดนมีให้เลือกดังนี้
+                - _Pay first_ ชำระเงินก่อน / เบิกเงินชำระให้ค่าใช้จ่ายอื่นๆก่อน
+                - _Pay later_ ชำระเงินทีหลัง / หลังจบงานจ่ายเงินให้กับผู้ให้บริการยานพาหนะทีหลัง
             - _**Items**_ ข้อมูลตัวเลือกมาจาก Items Type ของ Program
             - _**Remark**_ กรอกข้อมูลที่ต้องการแจ้งได้เกี่ยวกับ Items
             - _**Cost Type**_ มีทั้งหมด 3 ประเภท ดังนี้

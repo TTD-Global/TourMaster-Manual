@@ -1,0 +1,90 @@
+---
+title: Supplier
+---
+
+import TOCInline from '@theme/TOCInline';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+**Supplier List** รายชื่อผู้ให้บริการยานพาหนะ โดยมีรายละเอียดสำคัญดังนี้
+- **ปุ่ม Create** สำหรับสร้างรายชื่อผู้ให้บริการยานพาหนะ
+- **Group Type Quantity** แสดงจำนวนประเภทยานพาหนะนั้นๆ
+- **Status** แสดงสถานะ เปิด-ปิด การใช้งานผู้ให้บริการยานพาหนะ
+- **Last Modify Date** แสดงวันที่ สร้างหรือแก้ไขล่าสุด
+- **Action** สำหรับจัดการรายชื่อผู้ให้บริการยานพาหนะ
+
+---
+
+## **Create**
+เมื่อกด Create จะเข้าสู่หน้าสร้างรายชื่อผู้ให้บริการยานพาหนะ โดยมีข้อมูลที่ต้องกรอกทั้งหมด 2 ส่วน ดังนี้
+
+<Tabs className="unique-tabs">
+<TabItem value="General Detail">
+
+## **General Detail** 
+ข้อมูลทั่วไปของ Supplier มีทั้งหมด 3 ส่วนดังนี้
+<Tabs>
+  <TabItem value="General Detail" label="General Detail" default>
+    - **General Detail** ข้อมูลทั่วไปของ Supplier มีดังนี้
+        - _**Supplier Name**_ ชื่อของ Supplier
+        - _**Contract Person**_ ชื่อผู้ทำสัญญา
+        - _**Line ID**_ ชื่อบัญชี Line
+        - _**Phone Number**_ หมายเลขเบอร์โทรศัพท์
+        - _**Email**_ Email ของ Supplier
+        - _**Address**_ ที่อยู่
+        - _**Country**_ ประเทศ
+        - _**Province**_ จังหวัด
+        - _**District**_ ตำบล/แขวง
+        - _**Sub-district**_ อำเภอ/เขต
+        - _**Postal Code**_ หมายเลขไปรษณีย์
+  </TabItem>
+  <TabItem value="Bank Detail" label="Bank Detail">
+    - **Bank Detail** ข้อมูลของธนาคาร
+        - _**Payment Method**_ โดยจะมีให้เลือกทั้งหมด 4 แบบ ดังนี้
+            - _Bank Transfer_ โอนเงิน โดยข้อมูลจะต้องเลือก ธนาคาร กรอกเลขบัญชีธนาคาร และชื่อผู้ถือบัญชี
+            - _Cash_ เงินสด
+            - _Credit Card_ บัตรเครดิต โดยจะต้องเลือกประเภทบัตรเครดิต และกรอกชื่อผู้ถือบัตรเครดิต
+            - _Cheque_ เช็คธนาคาร
+  </TabItem>
+  <TabItem value="Group Type Detail" label="Group Type Detail">
+    - **Group Type Detail** ข้อมูลประเภทรถที่จะใช้
+        - _**Group Type**_ สามารถเลือกข้อมูลได้มากกว่า 1 ตัวเลือก หากเลือก Select All ระบบจะดำเนินการเลือกตัวเลือกที่มีอยู่ทั้งหมด
+        - _**Add Group Type**_ ระบบแสดง Modal : Create Group Type แบ่งเป็นแสดงข้อมูล Group Type ที่มีอยู่ และ สร้าง
+  </TabItem>
+
+</Tabs>
+</TabItem>
+
+  <TabItem value="Supplier login">
+  
+- **Supplier login** 
+    สร้างบัญชีที่จะใช้ Login : Driver เพื่อตรวจสอบ จัดการ และสร้างคนขับ
+    - **Username** ชื่อบัญชีเข้าสู่ระบบ
+    - **Password** รหัสผ่านในการเข้าสู่ระบบ
+    - **Confirm Password** ยืนยันรหัสผ่านในการเข้าสู่ระบบ
+</TabItem>
+</Tabs>
+
+---
+
+ ## **Group Type Quantity** 
+ แสดงจำนวนของยานพาหนะที่มีการเลือกผูกไว้ตอนสร้างหรือแก้ไขข้อมูลล่าสุด
+
+ ---
+
+ ## **Last Modify Date**
+ แสดงวันที่ที่มีการสร้างหรือแก้ไขข้อมูลล่าสุด
+
+ ---
+
+## **Action**
+สามารถจัดการข้อมูลด้วยคำสั่งต่างๆ ได้ดังรูป
+    - **View**
+เพื่อเข้าตรวจสอบข้อมูลที่มีการสร้างขึ้นหรือแก้ไขล่าสุดแต่จะ _ไม่สามารถแก้ไขข้อมูล_  หากต้องการแก้ไขข้อมูลสามารถกด **Edit** ได้
+        
+        - _**Edit**_ ใช้ในการแก้ไขข้อมูลต่างๆรวมถึง สถานะ _เปิด-ปิดการใช้งาน_ และสามารถ _Reset Password_ ได้ 
+
+    - **Delete**
+เพื่อใช้ในการลบข้อมูล Supplier ที่ไม่ได้ใช้งานแล้วหรือต้องการลบออกจากระบบ   
+        
+---
