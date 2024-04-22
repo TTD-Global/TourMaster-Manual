@@ -26,6 +26,10 @@ const sidebars: SidebarsConfig = {
       type: 'html',
           value: '<hr style="border-color: black; margin: 8px 0;">',
     }, 
+    {
+      type: 'html',
+      value: '<span style="opacity: 0.6; font-size: 14px; color:#FD5C04;">Management</span>'
+    },
 'Booking',
     {
       type: 'category',
@@ -59,6 +63,10 @@ const sidebars: SidebarsConfig = {
       type: 'html',
           value: '<hr style="border-color: black; margin: 8px 0;">',
     }, 
+    {
+      type: 'html',
+      value: '<span style="opacity: 0.6; font-size: 14px; color:#FD5C04;">Setting</span>'
+    },
     {
       type: 'category',
       label: 'Program',
