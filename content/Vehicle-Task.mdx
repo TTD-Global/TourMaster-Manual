@@ -2,3 +2,65 @@
 title: Vehicle Task
 ---
 
+import TOCInline from '@theme/TOCInline';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+**Vehicle Task**  การจัดการพนักงานขับรถของแต่ละ Program โดยมีรายละเอียดสำคัญดังนี้
+- **Pending** สถานะรอการตรวจสอบพนักงานขับรถแต่ละ Program
+- **Completed** สถานะตรวจสอบพนักงานขับรถแต่ละ Program เรียบร้อย
+- **Trip Code** อ้างอิงหมายเลขจากตอน Manage Group 
+- **Pax** แสดงจำนวนคนที่เข้าร่วม Program นั้นๆ
+- **Action** สำหรับจัดการพนักงานขับรถ
+
+---
+
+## **Pending**
+เป็นสถานะรอการตรวจสอบพนักงานขับรถแต่ละ Program หากต้องการตรวจสอบข้อมูลหรือต้องการแก้ไข ยังสามารถ **แก้ไขข้อมูลพนักงานขับรถได้** 
+โดยเราสามารถกด Action หรือ Trip Code ของ Program นั้นๆ เพื่อเข้าตรวจสอบข้อมูลได้
+
+---
+
+## **Completed**
+เป็นสถานะตรวจสอบพนักงานขับรถแต่ละ Program เรียบร้อยแล้ว ในส่วนนี้จะ **ไม่สามารถดำเนินการแก้ไขข้อมูลพนักงานขับรถได้** สามารถตรวจสอบข้อมูลได้เท่านั้น
+
+---
+
+## **Trip Code**
+หมายเลข Trip Code อ้างอิงมาจากตอน Manage Group และเมื่อกด Trip Code จะเป็นการเข้าสู่หน้าต่าง View เพื่อให้ตรวจสอบข้อมูลของ Program นั้นๆ
+
+---
+
+## **Pax**
+แสดงจำนวนคนที่เข้าร่วม Program นั้นๆ
+
+---
+
+## **Action**
+ไว้สำหรับการจัดการพนักงานขับรถ โดยจะแบ่งเป็นสองรูปแบบ ดังนี้
+
+<Tabs className="unique-tabs">
+
+<TabItem value="With Vehicle Plate">
+
+## **With Vehicle Plate** 
+หากไม่มีการผูกพนักงานขับรถไว้ Action จะปรากฏดังนี้
+    - **View** ใช้ในการตรวจสอบข้อมูลพนักงานขับรถและข้อมูล Program ของ Tour นั้นๆ หากต้องการเพิ่มพนักงานขับรถของ Program สามารถกด _Add Detail_ ได้
+        - **Add Detail** จะสามารถกรอกข้อมูล _Vehicle Detail_ ดังนี้
+            - **Vehicle Plate** ป้ายทะเบียนรถ
+            - **Driver Name** ชื่อของพนักงานขับรถ
+            - **Driver Tel.**  เบอร์โทรศัพท์ของพนักงานขับรถ
+    - **Print** พิมพ์ข้อมูล Program ออกมาเป็นไฟล์ PDF
+    
+</TabItem>
+
+  <TabItem value="Without Vehicle Plate">
+  
+## **Without Vehicle Plate** 
+หากมีการผูกพนักงานขับรถไว้ Action จะปรากฏ ดังนี้
+    - **View** ใช้ในการตรวจสอบข้อมูลพนักงานขับรถและข้อมูล Program ของ Tour นั้นๆ หากต้องการแก้ไขพนักงานขับรถสามารถกด _Edit_ เพื่อแก้ไขได้ หากกด _Submit_ จะปรับเปลี่ยนสถานะเป็น Completed ทันที
+    - **Print** พิมพ์ข้อมูล Program ออกมาเป็นไฟล์ PDF
+    - **Submit** จะปรับเปลี่ยนสถานะเป็น Completed ทันที
+    
+</TabItem>
+</Tabs>
