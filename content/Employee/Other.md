@@ -1,5 +1,5 @@
 ---
-title: Other (พนักงานอื่นๆ)
+title: Other
 sidebar_position: 3
 ---
 

@@ -1,4 +1,4 @@
-import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
+import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 /**
  * Creating a sidebar enables you to:
@@ -18,121 +18,134 @@ const sidebars: SidebarsConfig = {
 
   tutorialSidebar: [
     {
-      type: 'category',
-      label: 'Dashboard',
+      type: "category",
+      label: "Dashboard",
       items: [
-        'Dashboard/Company-Overview',
-        'Dashboard/Booking',
-        'Dashboard/Tour',
-        'Dashboard/Transfer',
-        'Dashboard/Expense',
-        'Dashboard/Check-In',
-        'Dashboard/Vehicle',
-        'Dashboard/Guide',
-        'Dashboard/KPI',
+        "Dashboard/Company-Overview",
+        // "Dashboard/Booking",
+        // "Dashboard/Tour",
+        // "Dashboard/Transfer",
+        // "Dashboard/Expense",
+        // "Dashboard/Check-In",
+        // "Dashboard/Vehicle",
+        // "Dashboard/Guide",
+        // "Dashboard/KPI",
       ],
     },
     {
-      type: 'html',
+      type: "html",
       value: '<hr style="border-color: black; margin: 8px 0;">',
     },
     {
-      type: 'html',
-      value: '<span style="opacity: 0.6; font-size: 14px; color:#FD5C04;">Management</span>',
+      type: "html",
+      value:
+        '<span class="sidebar-section-label sidebar-section-label--management">Management</span>',
     },
     {
-      type: 'category',
-      label: 'Bookings',
-      items: ['Booking', 'Bookings/Create-Booking'],
+      type: "category",
+      label: "Bookings",
+      items: ["Booking", "Bookings/Create-Booking"],
     },
     {
-      type: 'category',
-      label: 'Excursion',
+      type: "category",
+      label: "Excursion",
       items: [
-        'Excursion/Manage-Group',
-        'Excursion/Supplier-Group',
-        'Excursion/Own-Vehicle-Group',
-        'Excursion/Job-Order',
-        'Excursion/Report',
+        "Excursion/Manage-Group",
+        "Excursion/Supplier-Group",
+        "Excursion/Own-Vehicle-Group",
+        "Excursion/Job-Order",
+        // "Excursion/Report",
       ],
     },
     {
-      type: 'category',
-      label: 'Pick-up Transport',
+      type: "category",
+      label: "Pick-up Transport",
       items: [
-        'Pick-up-Transport/Manage-Group',
-        'Pick-up-Transport/Supplier-Group',
-        'Pick-up-Transport/Own-Vehicle-Group',
-        'Pick-up-Transport/Job-Order',
-        'Pick-up-Transport/Report',
+        "Pick-up-Transport/Manage-Group",
+        "Pick-up-Transport/Supplier-Group",
+        "Pick-up-Transport/Own-Vehicle-Group",
+        "Pick-up-Transport/Job-Order",
+        // "Pick-up-Transport/Report",
       ],
     },
     {
-      type: 'category',
-      label: 'Drop-off Transport',
+      type: "category",
+      label: "Drop-off Transport",
       items: [
-        'Drop-off-Transport/Manage-Group',
-        'Drop-off-Transport/Supplier-Group',
-        'Drop-off-Transport/Own-Vehicle-Group',
-        'Drop-off-Transport/Job-Order',
-        'Drop-off-Transport/Report',
+        "Drop-off-Transport/Manage-Group",
+        "Drop-off-Transport/Supplier-Group",
+        "Drop-off-Transport/Own-Vehicle-Group",
+        "Drop-off-Transport/Job-Order",
+        // "Drop-off-Transport/Report",
       ],
     },
     {
-      type: 'category',
-      label: 'Check In',
+      type: "category",
+      label: "Check In",
       items: [
-        'Check In/Check-In',
-        'Check In/Check-In-List',
-        'Check In/Report',
+        "Check In/Check-In", 
+        "Check In/Check-In-List", 
+        // "Check In/Report"
       ],
     },
     {
-      type: 'category',
-      label: 'Expense',
+      type: "category",
+      label: "Expense",
       items: [
-        'Expense/Advance',
-        'Expense/Actual',
-        'Expense/Accrued',
-        'Expense/Report',
+        "Expense/Advance",
+        "Expense/Actual",
+        "Expense/Accrued",
+        "Expense/Report",
       ],
     },
-    'Vehicle-Task',
-    'Guide-Task',
+    "Guide-Task",
     {
-      type: 'html',
+      type: "html",
       value: '<hr style="border-color: black; margin: 8px 0;">',
     },
     {
-      type: 'html',
-      value: '<span style="opacity: 0.6; font-size: 14px; color:#FD5C04;">Setting</span>',
+      type: "html",
+      value:
+        '<span class="sidebar-section-label sidebar-section-label--management">Setting</span>',
     },
     {
-      type: 'category',
-      label: 'Program',
-      items: ['Program/Program-list', 'Program/Items-Type', 'Program/Unit'],
-    },
-    'Agent',
-    {
-      type: 'category',
-      label: 'Vehicle',
-      items: ['Vehicle/Supplier', 'Vehicle/Own-vehicle', 'Vehicle/Group-Type'],
-    },
-    {
-      type: 'category',
-      label: 'Employee',
+      type: "category",
+      label: "Program",
       items: [
-        'Employee/Employee-Summary',
-        'Employee/Guide-Staff',
-        'Employee/Other',
-        'Employee/Positions',
+        "Program/Program-list", 
+        "Program/Items-Type", 
+        "Program/Unit"
       ],
     },
-    'Zone-Transfer',
+    "Agent",
     {
-      type: 'category',
-      label: 'User',
-      items: ['User/User-List', 'User/Roles', 'User/Access-Log'],
+      type: "category",
+      label: "Vehicle",
+      items: [
+        "Vehicle/Supplier", 
+        "Vehicle/Own-vehicle", 
+        "Vehicle/Group-Type"
+      ],
+    },
+    {
+      type: "category",
+      label: "Employee",
+      items: [
+        "Employee/Employee-Summary",
+        "Employee/Guide-Staff",
+        "Employee/Other",
+        "Employee/Positions",
+      ],
+    },
+    "Zone-Transfer",
+    {
+      type: "category",
+      label: "User",
+      items: [
+        "User/User-List",
+        "User/Roles",
+        //  'User/Access-Log'
+      ],
     },
   ],
 };

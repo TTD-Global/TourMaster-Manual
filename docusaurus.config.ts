@@ -73,17 +73,18 @@ let config: Config = {
     navbar: {
       logo: {
         alt: 'Tour Master',
-        src: 'img/TourMaster-Logo.png',
-        href: '/TourMaster-Manual/content/Dashboard/Company-Overview'
+        src: 'img/LogoTS.svg',
+        href: '/TourMaster-Manual/content/Dashboard/Company-Overview',
       },
-      hideOnScroll: true,
+      hideOnScroll: false,
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'User Manual',
-        }
+          className: 'navbar__link--user-manual',
+        },
       ],
     },
     

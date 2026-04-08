@@ -1,55 +1,307 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * TourMaster Manual — Custom Theme
+ *
+ * Blue Primary Palette:
+ *  #142B41  →  darkest  (sidebar bg, table header)
+ *  #2A4B6A  →  dark     (navbar, headings)
+ *  #265ED6  →  mid-dark (active menu, links)
+ *  #006AFF  →  primary  (CTA, highlights)
+ *  #97BEE4  →  light    (subtle borders)
+ *  #DCEEFF  →  lighter  (hover rows, backgrounds)
+ *  #F8FCFF  →  lightest (content bg)
  */
 
-/* You can override the default Infima variables here. */
+/* ─── CSS Variables ──────────────────────────────────────────────── */
 :root {
-  --ifm-color-primary: #FD5C04;
-  --ifm-color-primary-dark: #142B41;
-  --ifm-color-primary-darker: #142B41;
-  --ifm-color-primary-darkest: #142B41;
-  --ifm-color-primary-light: #142B41;
-  --ifm-color-primary-lighter: #142B41;
-  --ifm-color-primary-lightest: #142B41;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --ifm-font-color-base: #142B41;
+  /* Infima primary scale → mapped to blue palette */
+  --ifm-color-primary:          #006AFF;
+  --ifm-color-primary-dark:     #265ED6;
+  --ifm-color-primary-darker:   #2A4B6A;
+  --ifm-color-primary-darkest:  #142B41;
+  --ifm-color-primary-light:    #97BEE4;
+  --ifm-color-primary-lighter:  #DCEEFF;
+  --ifm-color-primary-lightest: #F8FCFF;
+
+  /* Typography */
+  --ifm-font-color-base:   #142B41;
+  --ifm-heading-color:     #142B41;
+  --ifm-link-color:        #006AFF;
+  --ifm-link-hover-color:  #265ED6;
+  --ifm-code-font-size:    95%;
+
+  /* Navbar */
+  --ifm-navbar-background-color: #142B41;
+  --ifm-navbar-link-color:       #DCEEFF;
+  --ifm-navbar-link-hover-color: #006AFF;
+  --ifm-navbar-height:           56px;
+
+  /* Sidebar */
+  --ifm-sidebar-background-color: #142B41;
+  --ifm-menu-color:               #DCEEFF;
+  --ifm-menu-color-active:        #ffffff;
+  --ifm-menu-link-padding-vertical:   0.45rem;
+  --ifm-menu-link-padding-horizontal: 0.9rem;
+
+  /* Table */
+  --ifm-table-head-background: #142B41;
+  --ifm-table-head-color:      #ffffff;
+
+  /* Misc */
+  --ifm-toc-border-color:                    #006AFF;
+  --docusaurus-highlighted-code-line-bg:     rgba(0, 106, 255, 0.08);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #FD5C04;
-  --ifm-color-primary-dark: #142B41;
-  --ifm-color-primary-darker: #142B41;
-  --ifm-color-primary-darkest: #142B41;
-  --ifm-color-primary-light: #142B41;
-  --ifm-color-primary-lighter: #142B41;
-  --ifm-color-primary-lightest: #142B41;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+/* ─── Navbar ─────────────────────────────────────────────────────── */
+.navbar {
+  background-color: #142B41 !important;
+  box-shadow: 0 2px 10px rgba(20, 43, 65, 0.5);
 }
-.navbar__brand {
-  align-items: center;
-  color: var(--ifm-navbar-link-color);
+
+.navbar__brand { align-items: center; display: flex; margin-right: 0 !important; min-width: 0; }
+.navbar__logo img {
+  height: 40px;
+  width: auto;
+}
+.navbar__title { color: #ffffff; font-weight: 700; }
+
+.navbar__link              { color: #DCEEFF !important; }
+.navbar__link:hover,
+.navbar__link--active      { color: #006AFF !important; }
+
+/* User Manual เท่านั้น: สีขาว (รวม hover / หน้าที่ active) */
+.navbar__link.navbar__link--user-manual,
+.navbar__link.navbar__link--user-manual:hover,
+.navbar__link.navbar__link--user-manual.navbar__link--active {
+  color: #ffffff !important;
+}
+
+/* เมนูมือถือ (hamburger) */
+.navbar-sidebar .menu__link.navbar__link--user-manual,
+.navbar-sidebar .menu__link.navbar__link--user-manual:hover,
+.navbar-sidebar .menu__link.navbar__link--user-manual.menu__link--active {
+  color: #ffffff !important;
+}
+
+/* ─── Sidebar ────────────────────────────────────────────────────── */
+.theme-doc-sidebar-container,
+.theme-doc-sidebar-container nav,
+nav.menu {
+  background-color: #142B41 !important;
+}
+
+/* Expand/collapse chevrons (caret button + sublist ::after) → white on dark sidebar */
+.theme-doc-sidebar-container {
+  --ifm-menu-link-sublist-icon-filter: brightness(0) invert(1);
+}
+
+.theme-doc-sidebar-container .menu__caret:before,
+.theme-doc-sidebar-container .menu__link--sublist-caret:after {
+  filter: brightness(0) invert(1) !important;
+}
+
+/* Top-level single doc links (รายการเดียว ไม่ใช่หมวด) ให้เป็นสีขาว */
+.theme-doc-sidebar-container
+  nav.menu
+  > .menu__list
+  > .menu__list-item
+  > a.menu__link:not(.menu__link--sublist) {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.theme-doc-sidebar-container
+  nav.menu
+  > .menu__list
+  > .menu__list-item
+  > a.menu__link:not(.menu__link--sublist):hover {
+  color: #ffffff !important;
+}
+
+/* All menu links */
+.menu__link {
+  color: #97BEE4 !important;
+  border-radius: 6px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.menu__link:hover {
+  background-color: rgba(0, 106, 255, 0.15) !important;
+  color: #ffffff !important;
+}
+
+/* Active page */
+.menu__link--active,
+.menu__link--active:hover {
+  background-color: #006AFF !important;
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+/* Category collapse titles */
+.menu__list-item-collapsible > .menu__link {
+  color: #ffffff !important;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+/* Section dividers (Management / Setting HTML) */
+.menu__list hr {
+  border-color: rgba(151, 190, 228, 0.2) !important;
+  margin: 6px 0 !important;
+}
+
+/* Sidebar section headings (Management / Setting) — high contrast on #142B41 */
+.menu__list .sidebar-section-label {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  padding: 0.65rem var(--ifm-menu-link-padding-horizontal) 0.4rem;
+  margin-top: 0.15rem;
+}
+
+.menu__list .sidebar-section-label--management {
+  color: #7dd3fc;
+}
+
+.menu__list .sidebar-section-label--setting {
+  color: #fdba74;
+}
+
+html[data-theme='dark'] .menu__list .sidebar-section-label--management {
+  color: #bae6fd;
+}
+
+html[data-theme='dark'] .menu__list .sidebar-section-label--setting {
+  color: #fed7aa;
+}
+
+/* ─── Content Area ───────────────────────────────────────────────── */
+.main-wrapper {
+  background-color: #F8F8F8;
+}
+
+article {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 1px 4px rgba(0, 106, 255, 0.08);
+  border: 1px solid #F8F8F8;
+}
+
+/* ฟิลด์จำเป็น — แสดงเฉพาะเครื่องหมาย * เป็นสีแดง (เช่น Roles.md) */
+.required-asterisk {
+  color: #dc2626;
+  font-weight: 700;
+}
+
+/* content/User/Roles.md — รูปสถานะ (Markdown ล้วน ไม่ใช้ HTML) */
+.theme-doc-markdown img[src$='roles-status2.jpg'] {
+  display: block;
+  width: 400px;
+  height: 400px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* ─── Hide right TOC column ──────────────────────────────────────── */
+
+/* ─── Headings ───────────────────────────────────────────────────── */
+h1 {
+  color: #142B41;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 3px solid #006AFF;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  color: #2A4B6A;
+  font-size: 1.45rem;
+  font-weight: 600;
+  border-bottom: 1.5px solid #DCEEFF;
+  padding-bottom: 0.25rem;
+  margin-top: 2rem;
+}
+
+h3 { color: #2A4B6A; font-size: 1.15rem; font-weight: 600; }
+h4 { color: #006AFF; font-size: 1rem; font-weight: 600; }
+
+/* ─── Text Emphasis ──────────────────────────────────────────────── */
+strong { color: #142B41; }
+em     { color: #265ED6; font-style: normal; font-weight: 500; }
+a      { color: #006AFF; }
+a:hover { color: #265ED6; text-decoration: underline; }
+
+/* ─── Table ──────────────────────────────────────────────────────── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+table thead tr {
+  background-color: #142B41 !important;
+}
+
+table thead tr th {
+  color: #ffffff !important;
+  font-weight: 600;
+  padding: 0.65rem 0.9rem;
+  text-align: left;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #F0F6FF;
+}
+
+table tbody tr:hover {
+  background-color: #DCEEFF;
+}
+
+table tbody td {
+  padding: 0.55rem 0.9rem;
+  border-bottom: 1px solid #DCEEFF;
+  color: #142B41;
+}
+
+/* ─── Breadcrumb ─────────────────────────────────────────────────── */
+.breadcrumbs__link                        { color: #97BEE4 !important; }
+.breadcrumbs__item--active .breadcrumbs__link {
+  color: #006AFF !important;
+  font-weight: 600;
+}
+
+/* ─── Inline Code ────────────────────────────────────────────────── */
+code {
+  background-color: #DCEEFF;
+  border: 1px solid #97BEE4;
+  color: #2A4B6A;
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+}
+
+/* ─── Pagination ─────────────────────────────────────────────────── */
+.pagination-nav__link          { border-color: #97BEE4; }
+.pagination-nav__link:hover    { border-color: #006AFF; background-color: #F8FCFF; }
+.pagination-nav__label         { color: #006AFF; }
+.pagination-nav__sublabel      { color: #2A4B6A; }
+
+/* ─── Hide right TOC ─────────────────────────────────────────────── */
+.col--3 { display: none !important; }
+
+/* ─── Scrollbar (sidebar) ────────────────────────────────────────── */
+.theme-doc-sidebar-container ::-webkit-scrollbar       { width: 4px; }
+.theme-doc-sidebar-container ::-webkit-scrollbar-track { background: #142B41; }
+.theme-doc-sidebar-container ::-webkit-scrollbar-thumb {
+  background: #265ED6;
+  border-radius: 4px;
+}
+.row{
   display: flex;
-  margin-right: 0rem !important;
-  min-width: 0;
-}
-
-h1{
-  color: #FD5C04;
-}
-strong{
-  color:#FD5C04
-}
-em{
-  color: #fd8647;
-}
-
-/* .table-of-contents__left-border {
-  display: none !important;
-} */
-.col--3{
-  display: none !important;
+  justify-content: center;
 }

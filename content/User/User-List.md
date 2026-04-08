@@ -5,15 +5,7 @@ sidebar_position: 1
 
 # User List
 
-หน้า **User List** แสดงรายชื่อผู้ใช้งานทั้งหมดในระบบ พร้อมเครื่องมือค้นหาและกรองข้อมูล
-
-มีรายละเอียดที่สำคัญ ดังนี้
-
-- **ปุ่ม Create User** สำหรับเพิ่มผู้ใช้งานใหม่ (มุมบนขวา)
-- **Search** ช่องค้นหาผู้ใช้งาน
-- **Filter** กรองข้อมูลตามเงื่อนไขที่ต้องการ
-- **Export** ส่งออกข้อมูลรายชื่อผู้ใช้งาน
-- **Action (···)** สำหรับจัดการผู้ใช้งานรายบุคคล
+หน้า **User List** แสดงรายชื่อผู้ใช้งาน
 
 ตารางแสดงคอลัมน์ดังนี้
 
@@ -22,12 +14,12 @@ sidebar_position: 1
 | **#** | ลำดับที่ |
 | **Image** | รูปภาพโปรไฟล์ |
 | **Employee Code** | รหัสพนักงาน |
-| **Role** | สิทธิ์การเข้าถึงที่กำหนดให้ผู้ใช้งาน |
-| **Username** | ชื่อผู้ใช้งานสำหรับเข้าสู่ระบบ |
+| **Role** | สิทธิ์การเข้าถึง |
+| **Username** | ชื่อผู้ใช้งาน |
 | **Name** | ชื่อ-นามสกุล |
 | **Email** | อีเมล |
 | **Last Login** | วันและเวลาที่เข้าสู่ระบบล่าสุด |
-| **Action** | ปุ่มจัดการ (···) |
+| **Action** | ปุ่มคำสั่ง |
 
 ![](/img/User-list.jpeg)
 
@@ -39,48 +31,30 @@ sidebar_position: 1
 
 ### General Detail — ข้อมูลทั่วไป
 
-- **Image** — อัปโหลดรูปโปรไฟล์ โดยกดที่ไอคอนกล้องบนรูปภาพ
+- **Image** — อัปโหลดรูปภาพ
 - **Employee Code** — รหัสพนักงาน
 - **First Name** — ชื่อ
 - **Last Name** — นามสกุล
 - **Email** — อีเมล
-- **Phone** — เบอร์โทรศัพท์ (รูปแบบ ex. 099-xxxxxxx)
+- **Phone** — เบอร์โทรศัพท์ 
 
-### Security — ข้อมูลความปลอดภัย
+### Security — ข้อมูลสำคัญ
 
-ฟิลด์ที่มีเครื่องหมาย * จำเป็นต้องกรอก หากไม่ครบจะไม่สามารถบันทึกข้อมูลได้
-
-- **Role \*** — สิทธิ์การเข้าถึง เลือกจาก Dropdown _ต้องสร้าง Role ไว้ก่อน_
-- **Username \*** — ชื่อ หรือ ID สำหรับเข้าสู่ระบบ Tour Master
-- **Password \*** — รหัสผ่าน (กดไอคอนตาเพื่อดูรหัสผ่านที่กรอก)
-- **Confirm Password \*** — ยืนยันรหัสผ่านให้ตรงกับ Password
-
-กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+- **Role <span class="required-asterisk">*</span>** — สิทธิ์การเข้าถึง 
+- **Username <span class="required-asterisk">*</span>** — ชื่อ หรือ ID สำหรับเข้าสู่ระบบ
+- **Password <span class="required-asterisk">*</span>** — รหัสผ่าน
+- **Confirm Password <span class="required-asterisk">*</span>** — ยืนยันรหัสผ่านให้ตรงกับ Password
+- กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
 
 ![](/img/Create-User.jpeg)
 
 ---
 
-## Last Login
-
-คอลัมน์ **Last Login** ในตารางแสดงวันและเวลาที่ผู้ใช้งานเข้าสู่ระบบล่าสุด หากยังไม่เคยเข้าสู่ระบบจะแสดงเป็น **-**
-
-![](/img/Last-log-user.jpeg)
-
----
-
-## Action (···)
-
-กดปุ่ม **···** ที่แถวผู้ใช้งาน จะปรากฏเมนูให้เลือก
-
-![](/img/Action-user.jpeg)
-
 ### View
 
-เพื่อเข้าตรวจสอบข้อมูลผู้ใช้งาน _ไม่สามารถแก้ไขข้อมูลได้ในโหมดนี้_
+![](/img/Action-user.png)
 
-- แสดง **Status** ที่มุมบนขวาของ General Detail (Active — สีเขียว)
-- แสดงข้อมูลทั้งหมดของ General Detail และ Security แบบ read-only
+- แสดงข้อมูลของ General Detail และ Security
 - **Close** — ปิดหน้าและกลับไปหน้ารายการ
 - **Edit** — กดเพื่อเข้าสู่โหมดแก้ไข
 
@@ -90,20 +64,16 @@ sidebar_position: 1
 
 กดปุ่ม **Edit** จากหน้า View เพื่อแก้ไขข้อมูลผู้ใช้งาน
 
-- **Status** — Dropdown เลือกสถานะ **Active** (เปิดใช้งาน) หรือ **Inactive** (ปิดใช้งานชั่วคราว)
-- แก้ไขได้ทุกฟิลด์ใน General Detail และ Security
-- **Reset Password** — กดลิงก์นี้ใต้ช่อง Password เพื่อเปลี่ยนรหัสผ่าน
+- **Status** — เลือกสถานะ **Active** (เปิดใช้งาน) หรือ **Inactive** (ปิดใช้งาน)
+- **Reset Password** — กดเพื่อเปลี่ยนรหัสผ่าน
 - กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
 
-![Edit](/img/Edit-user.jpeg)
+![Edit](/img/Edit-user.jpg)
 
 #### Reset Password
 
-กด **Reset Password** จะเปิด Popup ขึ้นมา ให้กรอก
+- **New Password <span class="required-asterisk">*</span>** — รหัสผ่านใหม่
+- **Confirm Password <span class="required-asterisk">*</span>** — ยืนยันรหัสผ่านใหม่
+- กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
 
-- **New Password \*** — รหัสผ่านใหม่
-- **Confirm Password \*** — ยืนยันรหัสผ่านใหม่
-
-กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
-
-![resetpassword](/img/reset-password.jpeg)
+![resetpassword](/img/reset-password.png)

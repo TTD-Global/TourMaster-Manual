@@ -1,5 +1,5 @@
 ---
-title: Positions (ตำแหน่งงาน)
+title: Positions
 sidebar_position: 4
 ---
 

@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build --out-dir docs",
+    "start": "node scripts/ensure-local-docusaurus-cache.mjs && docusaurus start",
+    "build": "node scripts/ensure-local-docusaurus-cache.mjs && docusaurus build --out-dir docs",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
