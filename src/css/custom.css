@@ -30,14 +30,14 @@
   --ifm-code-font-size:    95%;
 
   /* Navbar */
-  --ifm-navbar-background-color: #142B41;
-  --ifm-navbar-link-color:       #DCEEFF;
-  --ifm-navbar-link-hover-color: #006AFF;
+  --ifm-navbar-background-color: #2b2d31;
+  --ifm-navbar-link-color:       #f2f3f5;
+  --ifm-navbar-link-hover-color: #ffffff;
   --ifm-navbar-height:           56px;
 
-  /* Sidebar */
-  --ifm-sidebar-background-color: #142B41;
-  --ifm-menu-color:               #DCEEFF;
+  /* Sidebar (พื้นหลังขาว — ข้อความเมนูเป็นสีเข้ม) */
+  --ifm-sidebar-background-color: #ffffff;
+  --ifm-menu-color:               #313338;
   --ifm-menu-color-active:        #ffffff;
   --ifm-menu-link-padding-vertical:   0.45rem;
   --ifm-menu-link-padding-horizontal: 0.9rem;
@@ -53,8 +53,8 @@
 
 /* ─── Navbar ─────────────────────────────────────────────────────── */
 .navbar {
-  background-color: #142B41 !important;
-  box-shadow: 0 2px 10px rgba(20, 43, 65, 0.5);
+  background-color: #2b2d31 !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
 }
 
 .navbar__brand { align-items: center; display: flex; margin-right: 0 !important; min-width: 0; }
@@ -64,9 +64,9 @@
 }
 .navbar__title { color: #ffffff; font-weight: 700; }
 
-.navbar__link              { color: #DCEEFF !important; }
+.navbar__link              { color: #e3e5e8 !important; }
 .navbar__link:hover,
-.navbar__link--active      { color: #006AFF !important; }
+.navbar__link--active      { color: #ffffff !important; }
 
 /* User Manual เท่านั้น: สีขาว (รวม hover / หน้าที่ active) */
 .navbar__link.navbar__link--user-manual,
@@ -82,30 +82,63 @@
   color: #ffffff !important;
 }
 
-/* ─── Sidebar ────────────────────────────────────────────────────── */
+.navbar-sidebar {
+  background-color: #2b2d31 !important;
+}
+
+/* ต้นไม้ docs ใน drawer มือถือ (พื้นเข้ม — ใช้ตัวอักษรอ่อน) */
+.navbar-sidebar .menu__link:not(.navbar__link) {
+  color: #e3e5e8 !important;
+}
+
+.navbar-sidebar .menu__link:not(.navbar__link):hover {
+  color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.navbar-sidebar .menu__link--active:not(.navbar__link) {
+  background-color: #006aff !important;
+  color: #ffffff !important;
+}
+
+.navbar-sidebar .menu__list-item-collapsible > .menu__link:not(.navbar__link) {
+  color: #f2f3f5 !important;
+}
+
+.navbar-sidebar .menu__caret:before,
+.navbar-sidebar .menu__link--sublist-caret:after {
+  filter: brightness(0) invert(1) !important;
+  opacity: 0.85;
+}
+
+.navbar-sidebar .menu__list .sidebar-section-label--management {
+  color: #93b4ff !important;
+}
+
+.navbar-sidebar .menu__list .sidebar-section-label--setting {
+  color: #fdba74 !important;
+}
+
+/* ─── Sidebar (พื้นขาว) ─────────────────────────────────────────── */
+.theme-doc-sidebar-container {
+  --ifm-menu-color-background-hover: rgba(43, 45, 49, 0.06);
+  --ifm-menu-link-sublist-icon-filter: brightness(0) opacity(0.45);
+}
+
 .theme-doc-sidebar-container,
 .theme-doc-sidebar-container nav,
-nav.menu {
-  background-color: #142B41 !important;
+.theme-doc-sidebar-container nav.menu {
+  background-color: #ffffff !important;
+  border-right: 1px solid #e3e5e8;
 }
 
-/* Expand/collapse chevrons (caret button + sublist ::after) → white on dark sidebar */
-.theme-doc-sidebar-container {
-  --ifm-menu-link-sublist-icon-filter: brightness(0) invert(1);
-}
-
-.theme-doc-sidebar-container .menu__caret:before,
-.theme-doc-sidebar-container .menu__link--sublist-caret:after {
-  filter: brightness(0) invert(1) !important;
-}
-
-/* Top-level single doc links (รายการเดียว ไม่ใช่หมวด) ให้เป็นสีขาว */
+/* รายการเดียวระดับบนสุด */
 .theme-doc-sidebar-container
   nav.menu
   > .menu__list
   > .menu__list-item
   > a.menu__link:not(.menu__link--sublist) {
-  color: #ffffff !important;
+  color: #2b2d31 !important;
   font-weight: 600;
 }
 
@@ -114,44 +147,107 @@ nav.menu {
   > .menu__list
   > .menu__list-item
   > a.menu__link:not(.menu__link--sublist):hover {
+  color: #006aff !important;
+}
+
+.theme-doc-sidebar-container
+  nav.menu
+  > .menu__list
+  > .menu__list-item
+  > a.menu__link:not(.menu__link--sublist).menu__link--active,
+.theme-doc-sidebar-container
+  nav.menu
+  > .menu__list
+  > .menu__list-item
+  > a.menu__link:not(.menu__link--sublist).menu__link--active:hover {
+  background-color: #006aff !important;
   color: #ffffff !important;
 }
 
-/* All menu links */
-.menu__link {
-  color: #97BEE4 !important;
+.theme-doc-sidebar-container .menu__link {
+  color: #4e5058 !important;
   border-radius: 6px;
   transition: background 0.15s, color 0.15s;
 }
 
-.menu__link:hover {
-  background-color: rgba(0, 106, 255, 0.15) !important;
-  color: #ffffff !important;
+.theme-doc-sidebar-container .menu__link:hover {
+  background-color: rgba(43, 45, 49, 0.06) !important;
+  color: #2b2d31 !important;
 }
 
-/* Active page */
-.menu__link--active,
-.menu__link--active:hover {
-  background-color: #006AFF !important;
+/* หน้าที่ถูกเลือก (ไม่ใช่แถบหัวข้อหมวดแม่) — เด่นชัด */
+.theme-doc-sidebar-container .menu__link--active,
+.theme-doc-sidebar-container .menu__link--active:hover {
+  background-color: #006aff !important;
   color: #ffffff !important;
   font-weight: 600;
 }
 
-/* Category collapse titles */
-.menu__list-item-collapsible > .menu__link {
-  color: #ffffff !important;
+/* หัวข้อหมวด (แม่) — โทนอ่อน ไม่แย่งโฟกัสกับรายการย่อย */
+.theme-doc-sidebar-container .menu__list-item-collapsible > .menu__link {
+  color: #4e5058 !important;
   font-weight: 600;
   letter-spacing: 0.01em;
 }
 
-/* Section dividers (Management / Setting HTML) */
-.menu__list hr {
-  border-color: rgba(151, 190, 228, 0.2) !important;
+/*
+ * หมวดแม่ตอนมีหน้าลูกถูกเลือก: ยังเป็นโทนอ่อน (ไม่เต็มแถบน้ำเงิน)
+ * แก้กรณี Infima ทำให้ตัวหนังสือขาวบนพื้นขาว
+ */
+.theme-doc-sidebar-container
+  .menu__list-item-collapsible
+  > .menu__link.menu__link--active {
+  background-color: rgba(0, 106, 255, 0.08) !important;
+  color: #7e8188 !important;
+  font-weight: 600;
+}
+
+.theme-doc-sidebar-container
+  .menu__list-item-collapsible
+  > .menu__link:hover:not(.menu__link--active) {
+  color: #2b2d31 !important;
+}
+
+/* รายการย่อย / หน้า docs ภายใต้หมวดที่กำลังเปิดอยู่ — เด่นกว่าหัวข้อแม่ */
+.theme-doc-sidebar-container
+  .menu__list-item-collapsible
+  .menu__list
+  .menu__link--active,
+.theme-doc-sidebar-container
+  .menu__list-item-collapsible
+  .menu__list
+  .menu__link--active:hover {
+  background-color: #006aff !important;
+  color: #ffffff !important;
+  font-weight: 700;
+}
+
+/* ลูกศรหมวดแม่ — โทนเดียวกับหัวข้ออ่อน */
+.theme-doc-sidebar-container
+  .menu__list-item-collapsible:has(> .menu__link.menu__link--active)
+  .menu__caret:before,
+.theme-doc-sidebar-container
+  .menu__list-item-collapsible
+  > .menu__link.menu__link--sublist-caret.menu__link--active:after,
+.theme-doc-sidebar-container
+  .menu__list-item-collapsible
+  > .menu__link.menu__link--sublist.menu__link--active:after {
+  filter: brightness(0) opacity(0.42) !important;
+}
+
+/* ลูกศรหมวดปกติ (ยังไม่ได้เลือก) ให้เข้มขึ้นเล็กน้อย */
+.theme-doc-sidebar-container .menu__caret:before,
+.theme-doc-sidebar-container .menu__link--sublist-caret:after {
+  filter: brightness(0) opacity(0.55) !important;
+}
+
+.theme-doc-sidebar-container .menu__list hr {
+  border-color: #e3e5e8 !important;
   margin: 6px 0 !important;
 }
 
-/* Sidebar section headings (Management / Setting) — high contrast on #142B41 */
-.menu__list .sidebar-section-label {
+/* หัวข้อ Management / Setting — อ่านชัดบนพื้นขาว */
+.theme-doc-sidebar-container .menu__list .sidebar-section-label {
   display: block;
   font-size: 1.05rem;
   font-weight: 800;
@@ -162,20 +258,12 @@ nav.menu {
   margin-top: 0.15rem;
 }
 
-.menu__list .sidebar-section-label--management {
-  color: #7dd3fc;
+.theme-doc-sidebar-container .menu__list .sidebar-section-label--management {
+  color: #2563eb;
 }
 
-.menu__list .sidebar-section-label--setting {
-  color: #fdba74;
-}
-
-html[data-theme='dark'] .menu__list .sidebar-section-label--management {
-  color: #bae6fd;
-}
-
-html[data-theme='dark'] .menu__list .sidebar-section-label--setting {
-  color: #fed7aa;
+.theme-doc-sidebar-container .menu__list .sidebar-section-label--setting {
+  color: #ea580c;
 }
 
 /* ─── Content Area ───────────────────────────────────────────────── */
@@ -296,9 +384,9 @@ code {
 
 /* ─── Scrollbar (sidebar) ────────────────────────────────────────── */
 .theme-doc-sidebar-container ::-webkit-scrollbar       { width: 4px; }
-.theme-doc-sidebar-container ::-webkit-scrollbar-track { background: #142B41; }
+.theme-doc-sidebar-container ::-webkit-scrollbar-track { background: #f2f3f5; }
 .theme-doc-sidebar-container ::-webkit-scrollbar-thumb {
-  background: #265ED6;
+  background: #c4c6ca;
   border-radius: 4px;
 }
 .row{
