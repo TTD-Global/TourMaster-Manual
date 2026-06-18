@@ -14,18 +14,29 @@ import TabItem from '@theme/TabItem';
 
 ## ตารางรายการ Program
 
+<div className="manual-img-500">
+
+![Program List](/img/program/program-list.png)
+
+</div>
+
 ตารางแสดงรายการ Program ทั้งหมด ประกอบด้วยคอลัมน์ดังนี้
 
 | คอลัมน์ | คำอธิบาย |
 |---------|----------|
 | # | ลำดับที่ |
 | Program Name | ชื่อ Program |
-| Agent Quantity | จำนวน Agent ที่ผูกกับ Program นั้นๆ |
-| Status | สถานะ เปิด/ปิดการใช้งาน |
+| Seller Quantity | จำนวน Seller ที่ผูกกับ Program นั้นๆ |
+| Status | สถานะการใช้งาน  |
+| | **Draft**: ร่างข้อมูล ยังไม่สามารถใช้งานได้ |
+| | **Active**: เปิดใช้งาน (Badge สีเขียว) |
+| | **Inactive**: ปิดใช้งาน (Badge สีแดง) |
 | Last Modify Date | วันที่สร้างหรือแก้ไขล่าสุด |
-| Action | ปุ่มจัดการ |
+| Action | ปุ่มจัดการสำหรับการ View / Edit |
 
----
+:::caution
+ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
+:::
 
 ## Create
 
@@ -93,15 +104,12 @@ Join In คือประเภทการเข้าร่วมกับก
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
 | **Minimum to run** | จำนวนลูกค้าขั้นต่ำสำหรับเริ่มต้นกิจกรรมนั้นๆ (กรอกหรือไม่กรอกก็ได้) |
-| **Meet up point / Pick up point** | จุดนัดพบ — เลือกอย่างใดอย่างหนึ่ง |
+| **Meeting point** | จุดรวมพลหรือรวมกลุ่มเพื่อรับผู้โดยสาร |
 | **Start Trip** | เวลาออกเดินทาง พร้อม _Detail_ รายละเอียดเพิ่มเติม |
 | **Time** | ช่วงเวลาท่องเที่ยว พร้อม _Detail_ และปุ่ม **Add Time** เพื่อเพิ่มช่วงเวลา |
 | **Drop off point** | จุดส่งผู้โดยสาร ประกอบด้วย _End Trip_, _Drop off point_ และปุ่ม **Add Drop off** |
 
-:::info
-- **Meet up point** — จุดรวมพลหรือรวมกลุ่มเพื่อรับผู้โดยสาร
-- **Pick up point** — จุดนัดรับที่จะเข้ารับผู้โดยสาร
-:::
+
 
 ### Trip Type: Private
 
@@ -109,6 +117,7 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
+| **Meeting point** | จุดรวมพลหรือรวมกลุ่มเพื่อรับผู้โดยสาร |
 | **Start Trip** | เวลาออกเดินทาง พร้อม _Detail_ รายละเอียดเพิ่มเติม |
 | **Time** | ช่วงเวลาท่องเที่ยว พร้อม _Detail_ และปุ่ม **Add Time** เพื่อเพิ่มช่วงเวลา |
 | **Drop off point** | จุดส่งผู้โดยสาร ประกอบด้วย _End Trip_, _Drop off point_ และปุ่ม **Add Drop off** |
@@ -131,8 +140,8 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 | ตัวเลือก | คำอธิบาย |
 |---------|----------|
-| **Cash** | เงินสด — ให้กับเจ้าหน้าที่ (Guide/Staff) โดยตรง |
-| **Credit** | บริษัทโอนตรง / จ่ายที่หลัง |
+| **Cash** | เงินสด |
+| **Credit** | เครดิต |
 
 **Cost Type** มี 3 ประเภท
 
@@ -162,7 +171,7 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 ### Guide Fee
 
-**Guide Fee** คือค่าตัวไกด์ โดยมีตัวเลือก **Included** / **Not Included**
+**Guide Fee** คือค่าจ้างไกด์ โดยมีตัวเลือก **Included** / **Not Included**
 
 ![Guide Fee](/img/program/program-guide-fee.png)
 
@@ -179,7 +188,7 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
 | **Guide Type** | เลือกประเภท Guide (Guide 1 / Guide 2 / Staff) |
-| **Payment Option** | _Cash_ — เงินสด / _Credit_ — บริษัทโอนตรง |
+| **Payment Option** | _Cash_ — เงินสด / _Credit_ — เครดิต |
 | **Cost Type** | _All_ / _Person_ / _Fix_ |
 | **Option** | โปรแกรมเสริมที่ระบุใน Program Detail (หากไม่ระบุจะแสดง "–") |
 | **Cost (THB)** | ระบุค่าใช้จ่ายเป็นตัวเลขทศนิยม |
@@ -224,7 +233,7 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
-| **Payment Option** | _Cash_ — เงินสด / _Credit_ — บริษัทโอนตรง |
+| **Payment Option** | _Cash_ — เงินสด / _Credit_ — เครดิต |
 | **Supplier / Own Vehicle** | เลือก Supplier หรือ Own Vehicle |
 | **Vehicle (Group Type)** | ข้อมูลจาก Group Type ของ Vehicle |
 | **Option** | โปรแกรมเสริมที่ระบุใน Program Detail (หากไม่ระบุจะแสดง "–") |
@@ -258,7 +267,7 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
-| **Payment Option** | _Cash_ — เงินสด / _Credit_ — บริษัทโอนตรง |
+| **Payment Option** | _Cash_ — เงินสด / _Credit_ — เครดิต |
 | **Items** | ตัวเลือกมาจาก Items Type ของ Program (รองรับ Sub Items) |
 | **Remark** | หมายเหตุเกี่ยวกับ Items |
 | **Cost Type** | _All_ / _Person_ / _Fix_ |
@@ -373,43 +382,5 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 </Tabs>
 
----
 
-## Agent Quantity
 
-แสดงจำนวน Agent ที่ผูกกับ Program นั้นๆ เมื่อนำเมาส์ชี้จะแสดงรายชื่อ Agent ทั้งหมดที่ใช้ Program นี้
-
----
-
-## Status
-
-แสดงสถานะการใช้งาน Program แบ่งเป็น 2 สถานะ
-
-| สถานะ | ความหมาย |
-|-------|----------|
-| **Active** | เปิดการใช้งาน — แสดงเป็น Badge สีเขียว |
-| **Inactive** | ปิดการใช้งาน — แสดงเป็น Badge สีแดง |
-
----
-
-## Last Modify Date
-
-แสดงวันที่ที่ทำการสร้างหรือแก้ไขข้อมูลล่าสุด
-
----
-
-## Action
-
-### View
-
-เข้าตรวจสอบข้อมูล Program แบบ read-only
-
-:::caution
-ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
-:::
-
-### Delete
-
-กดปุ่ม **Delete** เพื่อลบ Program ที่ไม่ได้ใช้งานออกจากระบบ
-
----

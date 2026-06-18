@@ -342,6 +342,14 @@ article {
   object-fit: contain;
 }
 
+/* รูปคู่มือขนาดกลาง (~500px) — ใช้กับ <div className="manual-img-500"> */
+.manual-img-500 img {
+  display: block;
+  width: 1500px;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ─── Headings ───────────────────────────────────────────────────── */
 h1 {
   color: #142B41;
