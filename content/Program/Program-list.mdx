@@ -2,164 +2,414 @@
 title: Program List
 sidebar_position: 1
 ---
-import TOCInline from '@theme/TOCInline';
+
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Program List** รายละเอียด Product หรือรายละเอียด Program ของ Tour นั้นๆ โดยมีรายละเอียดสำคัญดังนี้
-- **ปุ่ม Create** สำหรับสร้าง Program ของ Tour 
-- **Agent Quantity** แสดงจำนวน Agent ของ Program นั้นๆ
-- **Status** แสดงสถานะ เปิด-ปิด การใช้งาน Program
-- **Last Modify Date** แสดงวันที่ สร้างหรือแก้ไขล่าสุด
-- **Action** สำหรับจัดการโปรแกรมทัวร์
+# Program List
+
+**Program List** คือรายละเอียด Product หรือรายละเอียด Program ของ Tour นั้นๆ
 
 ---
 
-## **Create**
-เมื่อกด Create จะเข้าสู่หน้าสร้าง Program ของ Tour โดยมีข้อมูลที่ต้องกรอกทั้งหมด 5 ส่วนใหญ่ๆ ดังนี้
+## ตารางรายการ Program
 
+ตารางแสดงรายการ Program ทั้งหมด ประกอบด้วยคอลัมน์ดังนี้
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| # | ลำดับที่ |
+| Program Name | ชื่อ Program |
+| Agent Quantity | จำนวน Agent ที่ผูกกับ Program นั้นๆ |
+| Status | สถานะ เปิด/ปิดการใช้งาน |
+| Last Modify Date | วันที่สร้างหรือแก้ไขล่าสุด |
+| Action | ปุ่มจัดการ |
+
+---
+
+## Create
+
+กดปุ่ม **Create** เพื่อสร้าง Program ของ Tour ใหม่ โดยมีข้อมูลที่ต้องกรอก 5 ส่วน ดังนี้
 
 <Tabs className="unique-tabs">
 
-<TabItem value="Program Detail">
+<TabItem value="program-detail" label="Program Detail">
 
-## **Program Detail** 
-    หน้าต่างนี้กรอกข้อมูลเบื้องต้นของ Program
-    - **Program Name** ชื่อของ Program นั้นๆ
-    - **Province** จังหวัดของ Program นั้นๆ
-    - **Language** ภาษาที่ใช้ใน Program นั้นๆ
-    - **Package Availability** วันเปิดให้บริการของ Program
-    - **Option** หมายถึง ช่องทางเสริมหรือโปรแกรมเสริมจากโปรแกรมหลัก เป็นส่วนที่กรอกหรือไม่กรอกก็ได้ เช่น โปรแกรม 1 มี Option เป็น บวกอาหารกลางวัน เป็นต้น
+## Program Detail
 
-    
+กรอกข้อมูลเบื้องต้นของ Program
+
+![Program Detail](/img/program/program-detail.png)
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Program Name** | ชื่อของ Program tour นั้นๆ |
+| **Destination** | จังหวัดของ Program นั้นๆ |
+| **Service Language** | ภาษาที่ให้บริการใน Program นั้นๆ |
+| **Package Availability** | วันที่เปิดขาย / วันเปิดให้บริการของ Program |
+| **Arrangement Type** | ประเภทการจัดโปรแกรม (ดูรายละเอียดด้านล่าง) |
+| **Booking Management** | รูปแบบการยืนยัน Booking |
+| **Option** | แพ็กเกจเสริมหรือโปรแกรมเสริมจากโปรแกรมหลัก (กรอกหรือไม่กรอกก็ได้) เช่น เก็บค่าธรรมเนียมอุทยาน หรือ รวมค่าธรรมเนียมอุทยาน |
+
+### Arrangement Type
+
+เลือกประเภทการจัดโปรแกรม มี 3 ตัวเลือก
+
+| ประเภท | คำอธิบาย | ตัวอย่าง |
+|--------|----------|---------|
+| **Excursion** | กิจกรรมหรือโปรแกรมท่องเที่ยว (เป็นได้ทั้งเรือและรถ) | Safari เป็นต้น |
+| **Transport** | จัดรถรับ-ส่ง | ไปรับส่งสนามบิน-โรงแรม เป็นต้น |
+| **Excursion + Transport** | รถรับ-ส่งเพื่อไปทำกิจกรรม หลังจบกิจกรรมจะนำลูกค้ากลับจุดเดิมหรือจุดที่ลูกค้าแจ้ง | รับลูกค้าจากจุดหนึ่งไปอีกจุดเพื่อทำกิจกรรม เป็นต้น |
+
+### Booking Management
+
+| ตัวเลือก | คำอธิบาย |
+|---------|----------|
+| **Auto Confirm** | เมื่อสร้าง Booking จะ Confirm อัตโนมัติ |
+| **Manual** | เมื่อสร้าง Booking ต้องการกด Confirm ด้วยตนเอง |
+
 </TabItem>
 
-  <TabItem value="Itinerary">
-  
-## **Itinerary** 
-    หน้าต่างนี้กรอกเกี่ยวกับข้อมูลรายละเอียด Trip ของ Program
-    - **Trip Round** กำหนดช่วงเวลารอบ Trip นั้นๆ
-    - **Trip Type** แบ่งออกเป็น 2 ประเภท
-        - **Join In** คือ ประเภทการเข้าร่วมกับกลุ่มอื่นๆ โดยเมื่อกดเลือก _Join In_ แล้ว จะแสดง _Minimum to run_ หากต้องการกำหนดจำนวนคนที่ต่ำที่สุดที่จะออกเดินทาง
-        และมีรายละเอียดที่ต้องกรอกข้อมูลเพิ่มเติม ดังนี้
-            - **Meet up point / Pick up point** โดยมีให้เลือกอย่างใดอย่างหนึ่ง และกรอกเพื่อกำหนดสถานที่นัดพบ
-                - _Meet up point_ หมายถึงจุดรวมพลหรือรวมกลุ่มเพื่อรับผู้โดยสาร
-                - _Pick up point_ หมายถึงจุดนัดรับที่จะเข้ารับผู้โดยสาร
-            - **Start Trip** หมายถึง เวลาในการออกเดินทาง
-                - _Detail_ รายละเอียดใน Start Trip
-            - **Time** หมายถึง ช่วงเวลาที่เดินทางถึงสถานที่ท่องเที่ยว/ช่วงเวลาท่องเที่ยว
-                - _Detail_ รายละเอียดในการท่องเที่ยวของช่วงเวลาที่กำหนด
-                - _Add Time_ เพื่อใช้ในการเพิ่มช่วงเวลาท่องเที่ยว
-            - **Drop off point** กำหนดช่วงเวลาและสถานที่ที่จัดส่งผู้โดยสาร
-                - _End Trip_ ช่วงเวลาที่ถึงสถานที่จัดส่งผู้โดยสาร
-                - _Drop off point_ สถานที่ที่จัดส่งผู้โดยสาร
-                - _Add Drop off_ เพื่อใช้ในการเพิ่มช่วงเวลาและสถานที่ที่จัดส่งผู้โดยสาร
-            
-        - **Private** คือ ประเภทการ Trip แบบกลุ่มเดียวหรือ ส่วนตัว มีรายละเอียดที่ต้องกรอกข้อมูลเพิ่มเติม ดังนี้
-            - **Start Trip** หมายถึง เวลาในการออกเดินทาง
-                - _Detail_ รายละเอียดใน Start Trip
-            - **Time** หมายถึง ช่วงเวลาที่เดินทางถึงสถานที่ท่องเที่ยว/ช่วงเวลาท่องเที่ยว
-                - _Detail_ รายละเอียดในการท่องเที่ยวของช่วงเวลาที่กำหนด
-                - _Add Time_ เพื่อใช้ในการเพิ่มช่วงเวลาท่องเที่ยว
-            - **Drop off point** กำหนดช่วงเวลาและสถานที่ที่จัดส่งผู้โดยสาร
-                - _End Trip_ ช่วงเวลาที่ถึงสถานที่จัดส่งผู้โดยสาร
-                - _Drop off point_ สถานที่ที่จัดส่งผู้โดยสาร
-                - _Add Drop off_ เพื่อใช้ในการเพิ่มช่วงเวลาและสถานที่ที่จัดส่งผู้โดยสา
-    - **Preview** ไว้ใช้ตรวจสอบข้อมูลหลังจากกรอกข้อมูลเรียบร้อยแล้ว
-    
+<TabItem value="itinerary" label="Itinerary">
+
+## Itinerary
+
+กรอกรายละเอียด Trip ของ Program
+
+![Itinerary](/img/program/program-itinerary.png)
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Trip Round** | รอบกิจกรรม / ช่วงเวลารอบ Trip นั้นๆ |
+| **Trip Type** | ประเภทการเดินทาง แบ่งเป็น **Join In** และ **Private** |
+| **Meeting Point** | จุดนัดพบ เช่น ท่าเรือ หรือสถานที่ต่างๆ |
+| **Itinerary** | รายละเอียดโปรแกรมทัวร์ |
+| **Preview** | ตรวจสอบข้อมูลหลังจากกรอกเรียบร้อยแล้ว |
+
+### Trip Type: Join In
+
+Join In คือประเภทการเข้าร่วมกับกลุ่มอื่นๆ (รวมกลุ่ม)
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Minimum to run** | จำนวนลูกค้าขั้นต่ำสำหรับเริ่มต้นกิจกรรมนั้นๆ (กรอกหรือไม่กรอกก็ได้) |
+| **Meet up point / Pick up point** | จุดนัดพบ — เลือกอย่างใดอย่างหนึ่ง |
+| **Start Trip** | เวลาออกเดินทาง พร้อม _Detail_ รายละเอียดเพิ่มเติม |
+| **Time** | ช่วงเวลาท่องเที่ยว พร้อม _Detail_ และปุ่ม **Add Time** เพื่อเพิ่มช่วงเวลา |
+| **Drop off point** | จุดส่งผู้โดยสาร ประกอบด้วย _End Trip_, _Drop off point_ และปุ่ม **Add Drop off** |
+
+:::info
+- **Meet up point** — จุดรวมพลหรือรวมกลุ่มเพื่อรับผู้โดยสาร
+- **Pick up point** — จุดนัดรับที่จะเข้ารับผู้โดยสาร
+:::
+
+### Trip Type: Private
+
+Private คือประเภทการ Trip แบบกลุ่มเดียวหรือส่วนตัว
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Start Trip** | เวลาออกเดินทาง พร้อม _Detail_ รายละเอียดเพิ่มเติม |
+| **Time** | ช่วงเวลาท่องเที่ยว พร้อม _Detail_ และปุ่ม **Add Time** เพื่อเพิ่มช่วงเวลา |
+| **Drop off point** | จุดส่งผู้โดยสาร ประกอบด้วย _End Trip_, _Drop off point_ และปุ่ม **Add Drop off** |
+
 </TabItem>
 
-  <TabItem value="Cost">
-  
- ## **Cost** 
-เกี่ยวกับค่าใช้จ่ายใน Program โดยแบ่งออกเป็น 3 ส่วน ดังนี้ (หาก Itinerary มีการเลือก Trip Type 2 ประเภท จะปรากฏในหน้านี้ 2 ประเภทด้วยเช่นกัน โดยมีปุ่ม Copy เพื่อให้สะดวกสิ่งที่กรอกไปยัง Trip Type หนึ่ง)
+<TabItem value="cost" label="Cost">
+
+## Cost Details
+
+ค่าใช้จ่ายใน Program แบ่งออกเป็น 5 ส่วน ดังนี้
+
+![Cost Details](/img/program/program-cost-header.png)
+
+:::tip
+หาก Itinerary เลือก Trip Type ทั้ง 2 ประเภท ส่วน Cost จะแสดงทั้ง 2 ประเภทด้วยเช่นกัน พร้อมปุ่ม **Copy** เพื่อคัดลอกข้อมูลจาก Trip Type หนึ่งไปยังอีกประเภท
+:::
+
+**Payment Option** มี 2 ตัวเลือก
+
+| ตัวเลือก | คำอธิบาย |
+|---------|----------|
+| **Cash** | เงินสด — ให้กับเจ้าหน้าที่ (Guide/Staff) โดยตรง |
+| **Credit** | บริษัทโอนตรง / จ่ายที่หลัง |
+
+**Cost Type** มี 3 ประเภท
+
+| ประเภท | คำอธิบาย |
+|--------|----------|
+| **All** | รวมทั้งหมด (ราคาเหมา) |
+| **Person** | ต่อคน |
+| **Fix** | คิดตามจำนวนที่ระบุ โดยมี **Min (Pax)** และ **Max (Pax)** ช่วงจำนวนคน (ผู้เดินทาง) ต่ำสุด–สูงสุด สำหรับเรทราคานั้นๆ |
+
+![Cost Type (Fix)](/img/program/program-cost-type.png)
+
+:::info ตัวอย่าง Fix Cost
+- Min Pax = 1, Max Pax = 10, Cost = 100 → กลุ่ม 1–10 คน คิดราคา 100 บาท
+- กด **Add Fix Cost** เพื่อเพิ่มช่วงถัดไป → Min Pax = 11, Max Pax = 20, Cost = 200
+:::
+
+:::caution
+- หากเลือก **Included** จะต้องกรอกข้อมูลให้ครบถ้วน หากไม่มีข้อมูลแนะนำให้เลือก **Not Included**
+- หากทำการเลือกข้อมูลมาแล้วจะต้องกรอกข้อมูลให้ครบถ้วน ไม่เช่นนั้นจะบันทึกไม่ได้
+:::
 
 ---
+
 <Tabs>
-  <TabItem value="Guide" label="Guide" default>
-    - **Guide fee** ค่าใช้จ่ายเกี่ยวกับ Guide
-            - _**DropDown : Payment Option**_ โดนมีให้เลือกดังนี้
-                - _Pay first_ ชำระเงินก่อน / เบิกเงินชำระให้ไกด์ก่อน
-                - _Pay later_ ชำระเงินทีหลัง / หลังจบงานค่อยจ่ายเงินให้กับไกด์
-            - _**Guide Item**_ ให้เลือกระหว่างเป็น Guide หรือ Staff
-            - _**Cost Type**_ มีทั้งหมด 3 ประเภท ดังนี้
-                - _All_ คือ ราคาทั้งหมดกี่บาท (แบบเหมา)
-                - _Person_ คือ ราคาต่อคนกี่บาท
-                - _Fix_ คือ จะมาพร้อมกับจำนวนคนเพื่อระบุว่า จำนวนคน(น้อยสุด) / จำนวนคน(มากสุด) ราคากี่บาท
-            - _**Option**_ คือ ช่องทางเสริม/โปรแกรมเสริมที่ระบุไว้ในขั้นตอน Program Detail หากไม่ได้ระบุจะไม่แสดง "-" 
-            - _**Cost(THB)**_ ระบุค่าใ้ช้จ่าย กำหนดเป็นตัวเลข จุดทศนิยม
-            - _**Add Guide Cost**_ ไว้สำหรับเพิ่มจำนวนค่าใช้จ่าย Guide
-  </TabItem>
-  <TabItem value="Vehicle" label="Vehicle">
-    - **Vehicle Cost** ค่าใช้จ่ายเกี่ยวกับ Vehicle
-            - _**DropDown : Payment Option**_ โดนมีให้เลือกดังนี้
-                - _Pay first_ ชำระเงินก่อน / เบิกเงินชำระให้ผู้ให้บริการยานพาหนะก่อน
-                - _Pay later_ ชำระเงินทีหลัง / หลังจบงานจ่ายเงินให้กับผู้ให้บริการยานพาหนะทีหลัง
-            - _**Supplier**_ ข้อมูลมาจาก Supplier หากไม่่ได้เพิ่ม Supplier ไว้จะไม่แสดงข้อมูล (สามารถมาใส่ทีหลังได้)
-            - _**Vehicle**_ ข้อมูลมาจาก Group Type ของ Vehicle
-            - _**Option**_ คือ ช่องทางเสริม/โปรแกรมเสริมที่ระบุไว้ในขั้นตอน Program Detail หากไม่ได้ระบุจะไม่แสดง "-" 
-            - _**Cost(THB)**_ ระบุค่าใ้ช้จ่าย กำหนดเป็นตัวเลข จุดทศนิยม
-            - _**Add Vehicle**_ ไว้สำหรับเพิ่มจำนวนค่าใช้จ่าย Vehicle
-  </TabItem>
-  <TabItem value="OtherEx" label="Other Expense">
-    - **Other Expense** ค่าใช้จ่ายอื่นๆ
-            - _**DropDown : Payment Option**_ โดนมีให้เลือกดังนี้
-                - _Pay first_ ชำระเงินก่อน / เบิกเงินชำระให้ค่าใช้จ่ายอื่นๆก่อน
-                - _Pay later_ ชำระเงินทีหลัง / หลังจบงานจ่ายเงินให้กับผู้ให้บริการยานพาหนะทีหลัง
-            - _**Items**_ ข้อมูลตัวเลือกมาจาก Items Type ของ Program
-            - _**Remark**_ กรอกข้อมูลที่ต้องการแจ้งได้เกี่ยวกับ Items
-            - _**Cost Type**_ มีทั้งหมด 3 ประเภท ดังนี้
-                - _All_ คือ ราคาทั้งหมดกี่บาท (แบบเหมา)
-                - _Person_ คือ ราคาต่อคนกี่บาท
-                - _Fix_ คือ จะมาพร้อมกับจำนวนคนเพื่อระบุว่า จำนวนคน(น้อยสุด) / จำนวนคน(มากสุด) ราคากี่บาท
-            - _**Option**_ คือ ช่องทางเสริม/โปรแกรมเสริมที่ระบุไว้ในขั้นตอน Program Detail หากไม่ได้ระบุจะไม่แสดง "-" 
-            - _**Cost(THB)**_ ระบุค่าใ้ช้จ่าย กำหนดเป็นตัวเลข จุดทศนิยม
-            - _**Add Other Expense**_ ไว้สำหรับเพิ่มจำนวนค่าใช้จ่าย Guide
-  </TabItem>
+
+<TabItem value="guide-fee" label="Guide Fee" default>
+
+### Guide Fee
+
+**Guide Fee** คือค่าตัวไกด์ โดยมีตัวเลือก **Included** / **Not Included**
+
+![Guide Fee](/img/program/program-guide-fee.png)
+
+กดปุ่ม **Add Guide** เพื่อเลือกประเภท Guide ที่ต้องการ
+
+![Add Guide Cost](/img/program/program-guide-add-dialog.png)
+
+| Guide Item | คำอธิบาย |
+|-----------|----------|
+| **Guide 1** | ไกด์หลัก |
+| **Guide 2** | ไกด์รอง |
+| **Staff** | ผู้ช่วย (สามารถระบุจำนวนผู้ช่วยสูงสุดในกิจกรรมนั้นๆ ได้) |
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Guide Type** | เลือกประเภท Guide (Guide 1 / Guide 2 / Staff) |
+| **Payment Option** | _Cash_ — เงินสด / _Credit_ — บริษัทโอนตรง |
+| **Cost Type** | _All_ / _Person_ / _Fix_ |
+| **Option** | โปรแกรมเสริมที่ระบุใน Program Detail (หากไม่ระบุจะแสดง "–") |
+| **Cost (THB)** | ระบุค่าใช้จ่ายเป็นตัวเลขทศนิยม |
+
+</TabItem>
+
+<TabItem value="vehicle-cost" label="Vehicle Cost">
+
+### Vehicle Cost
+
+**Vehicle Cost** คือค่าใช้จ่ายยานพาหนะ
+
+![Vehicle Cost](/img/program/program-vehicle-header.png)
+
+กดปุ่ม **Add Vehicle** เพื่อเลือก Supplier หรือ Own Vehicle ที่มีการสร้างไว้
+
+#### กรณีเลือก Supplier
+
+![Supplier Selection](/img/program/program-vehicle-supplier-popup.png)
+
+ระบบจะกรอง Supplier และ Group Type ตาม Arrangement Type ของ Program อัตโนมัติ
+
+| Arrangement Type | Supplier / Group Type ที่แสดง |
+|-----------------|------------------------------|
+| **Excursion** | Excursion และ Excursion+Transport |
+| **Transport** | Transport และ Excursion+Transport |
+| **Excursion+Transport** | Excursion, Transport และ Excursion+Transport |
+
+เมื่อเลือก Supplier และ Group Type แล้วจะแสดงตามตัวอย่าง
+
+![Vehicle Supplier Result](/img/program/program-vehicle-supplier-result.png)
+
+#### กรณีเลือก Own Vehicle
+
+![Own Vehicle Selection](/img/program/program-vehicle-ownvehicle-popup.png)
+
+ระบบจะกรอง Group Type ตาม Arrangement Type เช่นเดียวกับ Supplier
+
+เมื่อเลือก Group Type ของ Own Vehicle แล้วจะต้องเลือก **Item Type** เพื่อระบุว่าเป็นค่าอะไร เช่น ค่าน้ำมัน 91, ค่าที่จอดรถ เป็นต้น
+
+![Own Vehicle Result](/img/program/program-vehicle-ownvehicle-result.png)
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Payment Option** | _Cash_ — เงินสด / _Credit_ — บริษัทโอนตรง |
+| **Supplier / Own Vehicle** | เลือก Supplier หรือ Own Vehicle |
+| **Vehicle (Group Type)** | ข้อมูลจาก Group Type ของ Vehicle |
+| **Option** | โปรแกรมเสริมที่ระบุใน Program Detail (หากไม่ระบุจะแสดง "–") |
+| **Cost (THB)** | ระบุค่าใช้จ่ายเป็นตัวเลขทศนิยม |
+
+</TabItem>
+
+<TabItem value="other-expense" label="Other Expense">
+
+### Other Expense
+
+**Other Expense** คือค่าใช้จ่ายอื่นๆ
+
+![Other Expense](/img/program/program-other-expense-header.png)
+
+กดปุ่ม **Add Other Expense** เพื่อเลือก Item Type ที่มีการสร้างไว้
+
+![Other Expense Items](/img/program/program-other-expense-items.png)
+
+หากยังไม่มี Item Type สามารถกด **Create Item Type** ได้เลย
+
+![Create Item Type](/img/program/program-create-itemtype.png)
+
+หากมี Item Type แล้วแต่ยังไม่มี Sub Item ที่ต้องการ สามารถกด **+ Sub Items** ได้
+
+![Add Sub Items](/img/program/program-sub-items-dialog.png)
+
+เมื่อเลือก Item Type แล้วจะแสดงตามตัวอย่าง
+
+![Other Expense Result](/img/program/program-other-expense-result.png)
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Payment Option** | _Cash_ — เงินสด / _Credit_ — บริษัทโอนตรง |
+| **Items** | ตัวเลือกมาจาก Items Type ของ Program (รองรับ Sub Items) |
+| **Remark** | หมายเหตุเกี่ยวกับ Items |
+| **Cost Type** | _All_ / _Person_ / _Fix_ |
+| **Option** | โปรแกรมเสริมที่ระบุใน Program Detail (หากไม่ระบุจะแสดง "–") |
+| **Cost (THB)** | ระบุค่าใช้จ่ายเป็นตัวเลขทศนิยม |
+
+</TabItem>
+
+<TabItem value="allowance" label="Allowance">
+
+### Allowance
+
+**Allowance** คือค่าเบี้ยเลี้ยงพนักงาน
+
+![Allowance](/img/program/program-allowance-header.png)
+
+กดปุ่ม **Add Allowance** เพื่อเลือก Item Type ที่มีการสร้างไว้
+
+![Allowance Items](/img/program/program-allowance-items.png)
+
+เมื่อเลือก Item Type แล้วสามารถเลือก **Position** ที่ทำการสร้างไว้ได้ หากไม่มีที่ต้องการสามารถสร้างจาก **Create Position** ได้
+
+![Allowance Result](/img/program/program-allowance-result.png)
+
+</TabItem>
+
+<TabItem value="extra-cost" label="Extra Cost">
+
+### Extra Cost
+
+**Extra Cost** คือค่าใช้จ่ายอื่นๆ เพิ่มเติมสำหรับแพ็กเกจเสริม (Option) นั้นๆ
+
+![Extra Cost](/img/program/program-extra-cost-header.png)
+
+เช่น รวมค่าธรรมเนียมอุทยาน และไม่รวมค่าธรรมเนียมอุทยาน เป็นต้น (ขึ้นอยู่กับดุลพินิจของคนสร้าง)
+
+กดปุ่ม **Add Other Item** เพื่อเลือก Item Type ที่มีการสร้างไว้
+
+![Extra Cost Items](/img/program/program-extra-cost-items.png)
+
+เมื่อเลือกแล้วจะแสดงตามตัวอย่าง
+
+![Extra Cost Result](/img/program/program-extra-cost-result.png)
+
+</TabItem>
 
 </Tabs>
-  </TabItem>
-  <TabItem value="Unit">
-## **Unit**
-    _Unit_ เป็นหน่วยการจอง โดยค่าตั้งต้นที่มีมาให้คือ ชื่อ Infant ประเภท Infant (ประเภทนี้เป็นการเข้าหน้างานไม่ได้มีการจอง เช่น เด็กเล็ก เป็นต้น)
-    โดยจะแบ่งเป็น Trip Type หากเลือกเข้ามาเป็น Join In และ Private ระบบจะขึ้นมาให้กรอกสองประเภท 
 
-    โดยสามารถเลือก Create Unit ในหน้านี้ได้เลย
-    
-    สามารถ _Add Unit_ เพิ่มได้ เพื่อระบุ เช่น ขายเป็นกลุ่ม, ขายเดี่ยว หรือขายเด็ก 
-  </TabItem>
-  <TabItem value="Agent">
-## **Agent**
-    _Agent_ เป็นการระบุว่า Agent ใดใช้โปรแกรมนี้บ้าง (ยังไม่ต้องใส่ได้เช่นกัน) หากไม่มีการสร้าง Agent ก่อนจะไม่มีข้อมูลปรากฏขึ้น
-  </TabItem>
+</TabItem>
+
+<TabItem value="unit" label="Unit">
+
+## Unit
+
+**Unit** คือตัวเลือกการจอง โดยค่าตั้งต้นที่มีมาให้คือ _Infant (Default)_ ประเภท Infant (ประเภทนี้เป็นการเข้าหน้างานโดยไม่มีการจอง เช่น เด็กเล็ก)
+
+![Unit](/img/program/program-unit-header.png)
+
+กดปุ่ม **Add Unit** เพื่อเลือก Unit ตามที่มีการสร้างไว้ หากไม่มีสามารถกด **Create New Unit** ได้
+
+![Add Unit](/img/program/program-unit-add-popup.png)
+
+![Unit Form](/img/program/program-unit-form.png)
+
+**Unit Name** คือชื่อที่ใช้เรียกสำหรับตัวเลือกการจองนั้นๆ
+
+**Type** มี 2 ประเภท
+
+| Type | คำอธิบาย |
+|------|----------|
+| **Person** | บุคคล — นับจำนวนคน |
+| **Option** | ตัวเลือกเสริม — ไม่นับจำนวนคน เช่น ค่าธรรมเนียมอุทยานเป็นตัวเลือก |
+
+![Unit Result](/img/program/program-unit-result.png)
+
+:::info
+- หากเลือก Trip Type ทั้ง Join In และ Private ระบบจะแสดงฟิลด์ Unit ทั้ง 2 ประเภท
+:::
+
+</TabItem>
+
+<TabItem value="seller" label="Seller">
+
+## Seller
+
+**Seller** คือตัวแทนขาย
+
+![Seller](/img/program/program-seller-header.png)
+
+กดปุ่ม **Add Seller** เพื่อเลือก Seller ตามที่มีการสร้างไว้ หากไม่มีสามารถกด **Create Seller** ได้
+
+![Add Seller](/img/program/program-seller-add-popup.png)
+
+![Seller Form](/img/program/program-seller-form.png)
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Seller Name** | ชื่อตัวแทนขาย |
+| **Booking No.** | หากเลือก **Auto Booking No.** ระบบจะสร้างหมายเลข Booking ให้อัตโนมัติ (สามารถแก้ไขได้) หากไม่เลือกต้องกรอกหมายเลขเอง |
+| **Time Date Detail** | ช่วงวันที่ให้บริการ (From / End) |
+| **Unit Detail & Selling Price** | กำหนดราคาขายแยกตาม Unit |
+
+เมื่อเลือก Seller แล้วจะแสดงตามตัวอย่าง (หากยังไม่ต้องการกรอกข้อมูลสามารถกดย่อที่ลูกศรได้)
+
+![Seller Result](/img/program/program-seller-result.png)
+
+:::info
+หากยังไม่มีการสร้าง Seller ไว้ในระบบ จะไม่มีข้อมูลให้เลือก ยังไม่ต้องใส่ในขั้นตอนนี้ก็ได้
+:::
+
+</TabItem>
+
 </Tabs>
 
 ---
 
-## **Agent Quantity**
-แสดงจำนวนของ Agent ที่มีการใช้งาน เมื่อนำเม้าส์ชี้ จะแสดงรายชื่อ Agent ที่มีการผูกกับ Program นั้นๆ
+## Agent Quantity
+
+แสดงจำนวน Agent ที่ผูกกับ Program นั้นๆ เมื่อนำเมาส์ชี้จะแสดงรายชื่อ Agent ทั้งหมดที่ใช้ Program นี้
 
 ---
 
-## **Status**
-แสดงบอกสถานะ เปิด-ปิด การใช้งานสิทธิการเข้าถึงนั้นๆ โดยแบ่งออกเป็น 2 สถานะดังนี้
-- **Active** บ่งบอกถึงสถานะนี้ _เปิดการใช้งาน_ สิทธิการเข้าถึง แสดงสีเป็นสีเขียว
-- **Inactivate** บ่งบอกถึงสถานะนี้ _ปิดการใช้งาน_ สิทธิการเข้าถึง แสดงสีเป็นสีแดง
+## Status
+
+แสดงสถานะการใช้งาน Program แบ่งเป็น 2 สถานะ
+
+| สถานะ | ความหมาย |
+|-------|----------|
+| **Active** | เปิดการใช้งาน — แสดงเป็น Badge สีเขียว |
+| **Inactive** | ปิดการใช้งาน — แสดงเป็น Badge สีแดง |
 
 ---
 
-## **Last Modify Date**
+## Last Modify Date
+
 แสดงวันที่ที่ทำการสร้างหรือแก้ไขข้อมูลล่าสุด
 
 ---
 
-## **Action**
-สามารถจัดการข้อมูลด้วยคำสั่งต่างๆ ได้ดังรูป
-    - **View**
-เพื่อเข้าตรวจสอบข้อมูลที่มีการสร้างขึ้นหรือแก้ไขล่าสุดแต่จะ _ไม่สามารถแก้ไขข้อมูล_  หากต้องการแก้ไขข้อมูลสามารถกด **Edit** ได้ 
+## Action
 
-    - **Delete**
-เพื่อใช้ในการลบข้อมูล Program ที่ไม่ได้ใช้งานแล้วหรือต้องการลบออกจากระบบ   
-        
+### View
+
+เข้าตรวจสอบข้อมูล Program แบบ read-only
+
+:::caution
+ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
+:::
+
+### Delete
+
+กดปุ่ม **Delete** เพื่อลบ Program ที่ไม่ได้ใช้งานออกจากระบบ
+
 ---
-        
