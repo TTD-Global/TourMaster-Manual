@@ -279,6 +279,54 @@ article {
   border: 1px solid #F8F8F8;
 }
 
+/*
+ * หน้าคู่มือ (Docusaurus ใส่คลาส docs-doc-page ที่ <html>)
+ * ให้กล่องเนื้อหากว้างเต็มช่องระหว่าง sidebar กับขอบขวา
+ */
+.docs-doc-page .container {
+  max-width: 100%;
+}
+
+.docs-doc-page main[class*='docMainContainer'],
+.docs-doc-page [class*='docItemContainer'],
+.docs-doc-page [class*='docItemWrapper'] {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+/*
+ * ธีมใส่ .docItemCol_* { max-width: 75% !important } ไว้ให้คอลัมน์ TOC
+ * เราซ่อน TOC แล้ว — ต้อง override ด้วย !important ไม่งั้นจะเหลือพื้นว่างทางขวา (แถบม่วงใน DevTools)
+ */
+.docs-doc-page [class*='docItemCol'] {
+  --ifm-col-width: 100% !important;
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
+.docs-doc-page article {
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* ระยะห่างระหว่างบทความกับแถบนำทางถัดไป (Previous / Next) — เดิมจากธีม 3rem */
+.docs-doc-page nav.pagination-nav.docusaurus-mt-lg {
+  margin-top: 1rem !important;
+}
+
+/* แถว Infima: อย่าจัดกึ่งกลาง — จะทำให้คอลัมน์เนื้อหาลอยกลางและเห็น margin เทาเยอะ */
+.docs-doc-page .row {
+  justify-content: flex-start;
+}
+
+/* ซ่อน TOC แล้ว — คอลัมน์เนื้อหาเต็มแถว (สำรองคู่กับ docItemCol ด้านบน) */
+.docs-doc-page .row > .col:not(.col--3) {
+  --ifm-col-width: 100% !important;
+  flex: 0 0 100% !important;
+  max-width: 100% !important;
+}
+
 /* ฟิลด์จำเป็น — แสดงเฉพาะเครื่องหมาย * เป็นสีแดง (เช่น Roles.md) */
 .required-asterisk {
   color: #dc2626;
@@ -293,8 +341,6 @@ article {
   max-width: 100%;
   object-fit: contain;
 }
-
-/* ─── Hide right TOC column ──────────────────────────────────────── */
 
 /* ─── Headings ───────────────────────────────────────────────────── */
 h1 {
@@ -388,8 +434,4 @@ code {
 .theme-doc-sidebar-container ::-webkit-scrollbar-thumb {
   background: #c4c6ca;
   border-radius: 4px;
-}
-.row{
-  display: flex;
-  justify-content: center;
 }
