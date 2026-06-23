@@ -1,0 +1,19 @@
+[     102ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…yMTd9.JtkULYU2HxHBXnEmqGJxQ4HbXjTvNy-C7LV8tB5OWuE, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-293d217f2e08ccdc.js:0
+[     103ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-293d217f2e08ccdc.js:0
+[     113ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-293d217f2e08ccdc.js:0
+[     113ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-293d217f2e08ccdc.js:0
+[     147ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     147ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     189ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/guide?page=1&page_size=15&guide_type=other:0
+[     189ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/guide?page=1&page_size=15&guide_type=other:0
+[     189ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/guide?page=1&page_size=15&guide_type=other:0
+[     249ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-293d217f2e08ccdc.js:0
+[     252ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     252ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   65842ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   65842ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   65956ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   65957ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   66524ms] [LOG] result [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-293d217f2e08ccdc.js:0
+[   66635ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   66635ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0

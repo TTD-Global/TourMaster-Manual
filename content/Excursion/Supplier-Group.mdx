@@ -1,0 +1,81 @@
+---
+title: Supplier Group
+sidebar_position: 2
+---
+
+# Supplier Group
+
+หน้า **Supplier Group** ใช้จัดสรร Booking ให้กับยานพาหนะของ Supplier ภายนอก โดยการลาก Booking เข้ากลุ่มรถที่ต้องการ
+
+เข้าถึงได้จาก **Excursion → Supplier Group** หรือผ่าน Action `...` บนหน้า Summary
+
+---
+
+## ภาพรวม
+
+![Excursion Supplier Group](/img/Excursion/excursion-supplier-group.png)
+
+ด้านบนแสดง Summary Card ของวันที่เลือก
+
+| Card | คำอธิบาย |
+|------|----------|
+| **Booking Travel Date** | วันที่เดินทางที่กำลังจัดการ |
+| **Total Bookings** | จำนวน Booking ทั้งหมดของวันนั้น |
+| **Unassigned** | จำนวน Booking ที่ยังไม่ได้จัดสรรรถ (แสดงสีแดงเมื่อยังมีเหลือ) |
+| **Pax (Assigned/Total)** | จำนวนผู้เดินทางที่จัดสรรแล้ว / ทั้งหมด |
+| **Supplier in Use** | จำนวน Supplier ที่ใช้งานในวันนั้น |
+| **Total Group** | จำนวนกลุ่มที่สร้างแล้ว |
+
+---
+
+## Panel ซ้าย — รายการ Booking
+
+แสดงรายการ Booking ที่ยังรอการจัดสรร จัดกลุ่มตาม Destination → Program Name → เวลาเดินทาง
+
+**ตัวกรอง:**
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Program** | กรองตามชื่อ Program (dropdown) |
+| **Booking No. / Customer Name** | ค้นหา Booking |
+| **Trip Type** | กรองตามประเภท Trip |
+| **Language** | กรองตามภาษา |
+
+**แต่ละ Booking Card แสดง:**
+
+| ข้อมูล | คำอธิบาย |
+|--------|----------|
+| **Booking No.** | เลขที่ Booking (กดเพื่อดูรายละเอียด) |
+| **Join In** | Badge แสดงว่า Booking นี้เป็นแบบ Join In |
+| **Option** | ตัวเลือกของ Program |
+| **Travel Time** | เวลาเดินทาง |
+| **Customer Name** | ชื่อลูกค้า |
+| **Pick-up location** | จุดรับลูกค้า |
+| **Pax** | จำนวนผู้เดินทาง |
+| **Remark** | หมายเหตุพิเศษ |
+
+---
+
+## Panel ขวา — จัดกลุ่ม Supplier
+
+ใช้สำหรับสร้างและจัดการกลุ่มรถ Supplier โดย Drag & Drop Booking จาก Panel ซ้ายมาวาง
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Search** | ค้นหา Vehicle, Booking No., Customer |
+| **Drag and drop to group** | พื้นที่สำหรับสร้างกลุ่มใหม่ |
+
+---
+
+## ขั้นตอนการจัดสรร Supplier
+
+1. เลือก **Booking Travel Date** ที่ต้องการจัดการ
+2. ตรวจสอบ **Unassigned** ว่ายังมี Booking ที่รอจัดสรรอยู่
+3. เลือก Booking ที่ต้องการโดยกด checkbox หรือ **Select all booking**
+4. ลาก Booking ไปวางในพื้นที่ **Drag and drop to group** ทางขวา
+5. เลือก Supplier และรถที่ต้องการมอบหมาย
+6. ทำซ้ำจนครบทุก Booking (Unassigned = 0)
+
+:::tip เคล็ดลับ
+ต้องสร้าง Supplier และผูก Registration ไว้ใน **Setting → Vehicle → Supplier List** ก่อน จึงจะมีรถให้เลือก
+:::

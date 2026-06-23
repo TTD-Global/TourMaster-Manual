@@ -1,0 +1,18 @@
+[      90ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…g0MX0.xCPWIyzUGU8vlGVil1EBk7cGgb--nVboBrPs08qs1Oc, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      90ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     101ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     101ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     187ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     187ms] [LOG] permissions [EXPENSE_ACCRUED_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     230ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/balance:0
+[     230ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/balance:0
+[     230ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/balance:0
+[     258ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     261ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     261ms] [LOG] permissions [EXPENSE_ACCRUED_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     303ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     303ms] [LOG] permissions [EXPENSE_ACCRUED_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     720ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     720ms] [LOG] permissions [EXPENSE_ACCRUED_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     905ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     905ms] [LOG] permissions [EXPENSE_ACCRUED_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0

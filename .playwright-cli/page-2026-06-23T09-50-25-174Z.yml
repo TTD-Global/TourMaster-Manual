@@ -1,0 +1,148 @@
+- generic [ref=e1]:
+  - alert [ref=e37]: Tour System
+  - generic [ref=e46]:
+    - complementary [ref=e47]:
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img "Tour Master Logo" [ref=e53]
+          - img [ref=e55] [cursor=pointer]
+        - menu [ref=e60]:
+          - separator [ref=e61]
+          - text: Management
+          - group [ref=e62]:
+            - menuitem "Bookings" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - generic [ref=e67]: Bookings
+            - menuitem "Excursion" [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Excursion
+            - menuitem "Pick up Transport" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e78]: Pick up Transport
+            - menuitem "Drop off Transport" [expanded] [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - generic [ref=e85]: Drop off Transport
+            - menu [ref=e1579]:
+              - menuitem "Summary" [active] [ref=e1580] [cursor=pointer]:
+                - img [ref=e1581]
+                - generic [ref=e1583]: Summary
+              - menuitem "Supplier Group" [ref=e1584] [cursor=pointer]:
+                - img [ref=e1585]
+                - generic [ref=e1587]: Supplier Group
+              - menuitem "Own Vehicle Group" [ref=e1588] [cursor=pointer]:
+                - img [ref=e1589]
+                - generic [ref=e1591]: Own Vehicle Group
+              - menuitem "Job Order" [ref=e1592] [cursor=pointer]:
+                - img [ref=e1593]
+                - generic [ref=e1595]: Job Order
+              - menuitem "Report" [ref=e1596] [cursor=pointer]:
+                - img [ref=e1597]
+                - generic [ref=e1599]: Report
+            - menuitem "Check In" [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+              - generic [ref=e90]: Check In
+            - menuitem "Guide Task" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - generic [ref=e95]: Guide Task
+          - separator [ref=e96]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e102]: Program
+          - menuitem "Seller" [ref=e103] [cursor=pointer]:
+            - img [ref=e104]
+            - generic [ref=e106]: Seller
+          - menuitem "Vehicle" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Vehicle
+          - menuitem "Employee" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e116]: Employee
+          - menuitem "Zone Transfer" [ref=e117] [cursor=pointer]:
+            - img [ref=e118]
+            - generic [ref=e122]: Zone Transfer
+          - menuitem "User" [ref=e123] [cursor=pointer]:
+            - img [ref=e124]
+            - generic [ref=e127]: User
+          - menuitem "Company" [ref=e128] [cursor=pointer]:
+            - img [ref=e129]
+            - generic [ref=e131]: Company
+          - menuitem "User Manual" [ref=e132] [cursor=pointer]:
+            - img [ref=e133]
+            - generic [ref=e135]: User Manual
+    - generic [ref=e136]:
+      - banner [ref=e137]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: "Tue : 23 Jun 2026, 16:50"
+          - generic [ref=e142] [cursor=pointer]:
+            - generic [ref=e144]: AM
+            - generic [ref=e145]:
+              - generic [ref=e146]: amares123
+              - generic [ref=e147]: Claude test
+            - img [ref=e149]
+      - main [ref=e151]:
+        - generic [ref=e1600]:
+          - generic [ref=e1601]:
+            - generic [ref=e1603]:
+              - generic [ref=e1604]: Excursion
+              - img [ref=e1605]
+              - generic [ref=e1607]: Manage Group
+            - generic [ref=e1608]:
+              - generic [ref=e1610]:
+                - img [ref=e1612]
+                - textbox "Select Travel Date" [ref=e1616]: 23/06/2026
+              - generic [ref=e1619]:
+                - img [ref=e1621]
+                - textbox "Search Program" [ref=e1624]
+              - button "Manage Group" [ref=e1627] [cursor=pointer]:
+                - img [ref=e1629]
+                - text: Manage Group
+          - generic [ref=e1637]:
+            - table [ref=e1641]:
+              - rowgroup [ref=e1649]:
+                - row "# Program Name Destination Unit Total Action" [ref=e1650]:
+                  - columnheader "#" [ref=e1651]
+                  - columnheader "Program Name" [ref=e1652]
+                  - columnheader "Destination" [ref=e1653]
+                  - columnheader "Unit" [ref=e1654]
+                  - columnheader "Total" [ref=e1655]
+                  - columnheader "Action" [ref=e1656]
+              - rowgroup [ref=e1657]:
+                - 'row "1 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch Phuket Person x 44 44" [ref=e1658]':
+                  - cell "1" [ref=e1659]
+                  - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e1660]':
+                    - generic [ref=e1661]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                  - cell "Phuket" [ref=e1662]:
+                    - generic [ref=e1663]: Phuket
+                  - cell "Person x 44" [ref=e1664]
+                  - cell "44" [ref=e1665]
+                  - cell [ref=e1666]:
+                    - img [ref=e1669] [cursor=pointer]
+              - rowgroup [ref=e1673]:
+                - row "Total 44" [ref=e1674]:
+                  - cell "Total" [ref=e1675]
+                  - cell [ref=e1676]
+                  - cell [ref=e1677]
+                  - cell [ref=e1678]
+                  - cell "44" [ref=e1679]
+                  - cell [ref=e1680]
+            - list [ref=e1681]:
+              - listitem "Previous Page" [ref=e1682]:
+                - button "left" [disabled] [ref=e1683]:
+                  - img "left" [ref=e1684]:
+                    - img [ref=e1685]
+              - listitem "1" [ref=e1687] [cursor=pointer]:
+                - generic [ref=e1688]: "1"
+              - listitem "Next Page" [ref=e1689]:
+                - button "right" [disabled] [ref=e1690]:
+                  - img "right" [ref=e1691]:
+                    - img [ref=e1692]
+              - listitem [ref=e1694]:
+                - generic "Page Size" [ref=e1695] [cursor=pointer]:
+                  - generic [ref=e1697]:
+                    - combobox "Page Size" [ref=e1699]
+                    - generic "15 / page" [ref=e1700]
+                  - generic:
+                    - img:
+                      - img

@@ -1,0 +1,175 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menuitem "Seller" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - generic [ref=e72]: Seller
+          - menuitem "Vehicle" [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Zone Transfer
+          - menuitem "User" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e93]: User
+          - menuitem "Company" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e97]: Company
+          - menuitem "User Manual" [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+            - generic [ref=e101]: User Manual
+    - generic [ref=e102]:
+      - banner [ref=e103]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: "Tue : 23 Jun 2026, 15:41"
+          - generic [ref=e108] [cursor=pointer]:
+            - generic [ref=e110]: AM
+            - generic [ref=e111]:
+              - generic [ref=e112]: amares
+              - generic [ref=e113]: Superadmin
+            - img [ref=e115]
+      - main [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e121]: Company Profile
+          - generic [ref=e123]:
+            - generic [ref=e125]:
+              - generic [ref=e127] [cursor=pointer]: General Detail
+              - generic [ref=e129]: Company Authorization
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - generic [ref=e271]:
+                  - paragraph [ref=e312]: General Detail
+                  - paragraph [ref=e313]: This information will be displayed in system-generated documents such as Job Orders.
+                - generic [ref=e277]:
+                  - paragraph [ref=e278]: Company Logo
+                  - generic [ref=e314]:
+                    - img "Profile preview" [ref=e317]
+                    - img [ref=e320] [cursor=pointer]
+                - generic [ref=e297]:
+                  - generic [ref=e325]:
+                    - generic [ref=e326]: Company Name (ภาษาไทย) *
+                    - generic [ref=e327]:
+                      - textbox "Please enter" [ref=e328]: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด
+                      - button "close-circle" [ref=e330] [cursor=pointer]:
+                        - img "close-circle" [ref=e331]:
+                          - img [ref=e332]
+                  - generic [ref=e334]:
+                    - generic [ref=e335]: Address (ภาษาไทย) *
+                    - generic [ref=e336]:
+                      - textbox "Please enter" [ref=e337]: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3
+                      - button "close-circle" [ref=e339] [cursor=pointer]:
+                        - img "close-circle" [ref=e340]:
+                          - img [ref=e341]
+                  - generic [ref=e343]:
+                    - generic [ref=e344]: Destination *
+                    - generic [ref=e346] [cursor=pointer]:
+                      - generic [ref=e348]:
+                        - combobox [ref=e350]
+                        - generic "กรุงเทพมหานคร" [ref=e351]
+                      - generic:
+                        - img
+                      - img [ref=e353]:
+                        - img [ref=e354]
+                  - generic [ref=e356]:
+                    - generic [ref=e357]: District *
+                    - generic [ref=e359] [cursor=pointer]:
+                      - generic [ref=e361]:
+                        - combobox [ref=e363]
+                        - generic "จตุจักร" [ref=e364]
+                      - generic:
+                        - img
+                      - img [ref=e366]:
+                        - img [ref=e367]
+                  - generic [ref=e369]:
+                    - generic [ref=e370]: Sub-district *
+                    - generic [ref=e372] [cursor=pointer]:
+                      - generic [ref=e374]:
+                        - combobox [ref=e376]
+                        - generic "จอมพล" [ref=e377]
+                      - generic:
+                        - img
+                      - img [ref=e379]:
+                        - img [ref=e380]
+                  - generic [ref=e382]:
+                    - generic [ref=e383]: Postal Code *
+                    - generic [ref=e384]:
+                      - textbox "Please enter" [ref=e385]: "10900"
+                      - button "close-circle" [ref=e387] [cursor=pointer]:
+                        - img "close-circle" [ref=e388]:
+                          - img [ref=e389]
+                  - generic [ref=e391]:
+                    - generic [ref=e392]:
+                      - generic [ref=e393]: Phone Number *
+                      - generic [ref=e394]:
+                        - textbox "Please enter" [ref=e395]: +66 2-114-3816
+                        - button "close-circle" [ref=e397] [cursor=pointer]:
+                          - img "close-circle" [ref=e398]:
+                            - img [ref=e399]
+                    - generic [ref=e401]:
+                      - generic [ref=e402]: Email
+                      - generic [ref=e403]:
+                        - textbox "Please enter" [ref=e404]: booking@oneasia.company
+                        - button "close-circle" [ref=e406] [cursor=pointer]:
+                          - img "close-circle" [ref=e407]:
+                            - img [ref=e408]
+                    - generic [ref=e410]:
+                      - generic [ref=e411]: TAT License *
+                      - generic [ref=e412]:
+                        - textbox "Please enter" [ref=e413]: "0815564000636"
+                        - button "close-circle" [ref=e415] [cursor=pointer]:
+                          - img "close-circle" [ref=e416]:
+                            - img [ref=e417]
+                    - generic [ref=e419]:
+                      - generic [ref=e420]: Company registration number
+                      - textbox "Please enter" [ref=e422]
+                    - generic [ref=e424]:
+                      - generic [ref=e425]: Website and social media
+                      - textbox "Please enter" [ref=e427]
+              - generic [ref=e429]:
+                - button "Cancel" [ref=e430] [cursor=pointer]
+                - button "Save" [ref=e431] [cursor=pointer]:
+                  - img [ref=e433]
+                  - text: Save

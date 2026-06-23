@@ -1,0 +1,149 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e46]
+          - text: Management
+          - group [ref=e47]:
+            - menuitem "Bookings" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e52]: Bookings
+            - menuitem "Excursion" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e56]: Excursion
+            - menuitem "Pick up Transport" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e63]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e70]: Drop off Transport
+            - menuitem "Check In" [ref=e71] [cursor=pointer]:
+              - img [ref=e72]
+              - generic [ref=e75]: Check In
+            - menuitem "Payment" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e80]: Payment
+            - menuitem "Guide Task" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e85]: Guide Task
+          - separator [ref=e86]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e87] [cursor=pointer]:
+            - img [ref=e88]
+            - generic [ref=e92]: Program
+          - menuitem "Seller" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Seller
+          - menuitem "Vehicle" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e100]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e106]: Employee
+          - menu [ref=e145]:
+            - menuitem "Employee summary" [ref=e146] [cursor=pointer]:
+              - img [ref=e147]
+              - generic [ref=e149]: Employee summary
+            - menuitem "Guide / Staff" [ref=e150] [cursor=pointer]:
+              - img [ref=e151]
+              - generic [ref=e153]: Guide / Staff
+            - menuitem "Other" [ref=e154] [cursor=pointer]:
+              - img [ref=e155]
+              - generic [ref=e157]: Other
+            - menuitem "Positions" [ref=e158] [cursor=pointer]:
+              - img [ref=e159]
+              - generic [ref=e161]: Positions
+          - menuitem "Zone Transfer" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e112]: Zone Transfer
+          - menuitem "User" [ref=e113] [cursor=pointer]:
+            - img [ref=e114]
+            - generic [ref=e117]: User
+          - menuitem "Company" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: Company
+          - menuitem "User Manual" [ref=e122] [cursor=pointer]:
+            - img [ref=e123]
+            - generic [ref=e125]: User Manual
+    - generic [ref=e126]:
+      - banner [ref=e127]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: "Tue : 23 Jun 2026, 12:08"
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e134]: AM
+            - generic [ref=e135]:
+              - generic [ref=e136]: amares
+              - generic [ref=e137]: Superadmin
+            - img [ref=e139]
+      - main [ref=e141]:
+        - generic [ref=e799]:
+          - generic [ref=e800]:
+            - generic [ref=e801]:
+              - generic [ref=e802]: Guide
+              - img [ref=e803]
+              - generic [ref=e805] [cursor=pointer]: Guide List
+              - img [ref=e806]
+              - generic [ref=e808]: Create Guide
+            - button "Cancel" [ref=e810] [cursor=pointer]
+          - generic [ref=e811]:
+            - generic [ref=e812]:
+              - generic [ref=e814] [cursor=pointer]:
+                - generic [ref=e815]:
+                  - img [ref=e948]
+                  - generic [ref=e817]: General Detail
+                - generic [ref=e818]: Add General details
+              - img [ref=e820]
+              - generic [ref=e822]:
+                - generic [ref=e823]:
+                  - img [ref=e1194]
+                  - generic [ref=e825]: Guide Detail
+                - generic [ref=e826]: Add required details for guide assignment
+              - img [ref=e828]
+              - generic [ref=e830]:
+                - generic [ref=e831]:
+                  - generic [ref=e1196]: "3"
+                  - generic [ref=e833]: Bank Detail
+                - generic [ref=e834]: Add Bank Detail
+            - generic [ref=e1197]:
+              - paragraph [ref=e1200]: Bank Detail
+              - generic [ref=e1201]:
+                - generic [ref=e1202]:
+                  - generic [ref=e1203]: Bank Account
+                  - generic [ref=e1205] [cursor=pointer]:
+                    - generic [ref=e1207]:
+                      - combobox [ref=e1209]
+                      - generic: Please select
+                    - generic:
+                      - img
+                - generic [ref=e1210]:
+                  - generic [ref=e1211]: Account Name
+                  - textbox "Please enter" [ref=e1213]
+                - generic [ref=e1215]:
+                  - generic [ref=e1216]: Account Number
+                  - textbox "Please enter" [ref=e1218]
+              - generic [ref=e1220]:
+                - paragraph [ref=e1221]: Upload Bank passbook page
+                - generic [ref=e1222]:
+                  - generic [ref=e1224] [cursor=pointer]:
+                    - img [ref=e1225]
+                    - generic [ref=e1227]:
+                      - generic [ref=e1228]: Upload photos here
+                      - generic [ref=e1229]: Please upload file. according to the specified type and size
+                      - button "Upload" [ref=e1230]
+                  - paragraph [ref=e1231]: "Supported files: JPG, PNG, Heic, JPEG, size not exceeding 5 MB."
+            - generic [ref=e1232]:
+              - button "Previous" [ref=e1233] [cursor=pointer]:
+                - img [ref=e1235]
+                - text: Previous
+              - button "Save & Approve" [ref=e1237] [cursor=pointer]:
+                - img [ref=e1239]
+                - text: Save & Approve

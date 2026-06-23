@@ -1,0 +1,100 @@
+---
+title: Supplier Group
+sidebar_position: 2
+---
+
+# Supplier Group
+
+หน้า **Supplier Group** ใช้จัดสรร Booking Pick-up Transport ให้กับยานพาหนะของ Supplier ภายนอก โดยกำหนด Zone ของแต่ละ Booking ก่อน แล้วจึงลาก Booking เข้ากลุ่มรถ
+
+เข้าถึงได้จาก **Pick up Transport → Supplier Group** หรือผ่าน Action `...` บนหน้า Summary
+
+---
+
+## ภาพรวม
+
+![Pick-up Supplier Group](/img/Pick-up-Transport/pickup-supplier-group.png)
+
+ด้านบนแสดง Summary Card ของวันที่เลือก
+
+| Card | คำอธิบาย |
+|------|----------|
+| **Booking Travel Date** | วันที่เดินทางที่กำลังจัดการ |
+| **Total Bookings** | จำนวน Booking ทั้งหมดของวันนั้น |
+| **Unassigned** | จำนวน Booking ที่ยังไม่ได้จัดสรรรถ (แสดงสีแดงเมื่อยังมีเหลือ) |
+| **Pax (Assigned/Total)** | จำนวนผู้เดินทางที่จัดสรรแล้ว / ทั้งหมด |
+| **Supplier in Use** | จำนวน Supplier ที่ใช้งานในวันนั้น |
+| **Total Group** | จำนวนกลุ่มที่สร้างแล้ว |
+
+---
+
+## Panel ซ้าย — รายการ Booking
+
+แสดงรายการ Booking ที่ยังรอการจัดสรร จัดกลุ่มตาม Destination → Program Name → เวลาเดินทาง
+
+**ตัวกรอง:**
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Program** | กรองตามชื่อ Program (dropdown) |
+| **Booking No. / Customer Name** | ค้นหา Booking |
+| **Trip Type** | กรองตามประเภท Trip |
+| **Language** | กรองตามภาษา |
+
+### Filter by Zone
+
+![Pick-up Supplier Group — Zone](/img/Pick-up-Transport/pickup-supplier-zone.png)
+
+ส่วนนี้ใช้กรองรายการ Booking ตาม Zone ก่อนจัดกลุ่ม
+
+| องค์ประกอบ | คำอธิบาย |
+|-----------|----------|
+| **All** | แสดง Booking ทั้งหมด |
+| **Unassigned** | แสดงเฉพาะ Booking ที่ยังไม่ได้กำหนด Zone (แสดงสีส้ม) |
+| **All Zone** | กดเพื่อดูทุก Zone พร้อมกัน |
+| สีของ Zone | โซนที่เลือกอยู่ (สว่าง) / โซนที่ยังไม่ได้เลือก (หม่น) / Unassigned (สีส้ม) |
+
+**แต่ละ Booking Card แสดง:**
+
+| ข้อมูล | คำอธิบาย |
+|--------|----------|
+| **Booking No.** | เลขที่ Booking |
+| **Join In** | Badge แสดงว่า Booking นี้เป็นแบบ Join In |
+| **Program** | ชื่อโปรแกรม |
+| **Customer Name** | ชื่อลูกค้า |
+| **Pick-up location** | จุดรับลูกค้า |
+| **Zone** | Dropdown เลือก Zone สำหรับ Booking นี้ |
+| **Travel Time** | เวลาเดินทาง |
+| **Pax** | จำนวนผู้เดินทาง |
+| **Remark** | หมายเหตุพิเศษ |
+
+:::info
+ต้องกำหนด **Zone** ให้กับทุก Booking ก่อน จึงจะสามารถลาก Booking เข้ากลุ่มรถได้ — Zone สร้างจาก **Setting → Zone Transfer**
+:::
+
+---
+
+## Panel ขวา — จัดกลุ่ม Supplier
+
+ใช้สำหรับสร้างและจัดการกลุ่มรถ Supplier โดย Drag & Drop Booking จาก Panel ซ้ายมาวาง
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Search** | ค้นหา Vehicle, Booking No., Customer |
+| **Drag and drop to group** | พื้นที่สำหรับสร้างกลุ่มใหม่ |
+
+---
+
+## ขั้นตอนการจัดสรร Supplier
+
+1. เลือก **Booking Travel Date** ที่ต้องการจัดการ
+2. กำหนด **Zone** ให้กับแต่ละ Booking จาก dropdown ในการ์ด (Unassigned = ยังไม่ได้กำหนด)
+3. กรอง Booking ตาม Zone ที่ต้องการจาก **Filter by Zone**
+4. เลือก Booking ด้วย checkbox หรือ **Select all booking**
+5. ลาก Booking ไปวางในพื้นที่ **Drag and drop to group** ทางขวา
+6. เลือก Supplier และรถที่ต้องการมอบหมาย
+7. ทำซ้ำจนครบทุก Zone (Unassigned = 0)
+
+:::tip เคล็ดลับ
+ต้องสร้าง Zone ไว้ใน **Setting → Zone Transfer** และสร้าง Supplier ไว้ใน **Setting → Vehicle → Supplier List** ก่อน
+:::

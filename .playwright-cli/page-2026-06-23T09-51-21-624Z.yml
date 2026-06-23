@@ -1,0 +1,563 @@
+- generic [ref=e1]:
+  - alert [ref=e37]: Tour System
+  - generic [ref=e46]:
+    - complementary [ref=e47]:
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img "Tour Master Logo" [ref=e53]
+          - img [ref=e55] [cursor=pointer]
+        - menu [ref=e60]:
+          - separator [ref=e61]
+          - text: Management
+          - group [ref=e62]:
+            - menuitem "Bookings" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - generic [ref=e67]: Bookings
+            - menuitem "Excursion" [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Excursion
+            - menuitem "Pick up Transport" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e78]: Pick up Transport
+            - menuitem "Drop off Transport" [expanded] [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - generic [ref=e85]: Drop off Transport
+            - menu [ref=e1579]:
+              - menuitem "Summary" [ref=e1580] [cursor=pointer]:
+                - img [ref=e1581]
+                - generic [ref=e1583]: Summary
+              - menuitem "Supplier Group" [ref=e1584] [cursor=pointer]:
+                - img [ref=e1585]
+                - generic [ref=e1587]: Supplier Group
+              - menuitem "Own Vehicle Group" [active] [ref=e1588] [cursor=pointer]:
+                - img [ref=e1589]
+                - generic [ref=e1591]: Own Vehicle Group
+              - menuitem "Job Order" [ref=e1592] [cursor=pointer]:
+                - img [ref=e1593]
+                - generic [ref=e1595]: Job Order
+              - menuitem "Report" [ref=e1596] [cursor=pointer]:
+                - img [ref=e1597]
+                - generic [ref=e1599]: Report
+            - menuitem "Check In" [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+              - generic [ref=e90]: Check In
+            - menuitem "Guide Task" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - generic [ref=e95]: Guide Task
+          - separator [ref=e96]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e102]: Program
+          - menuitem "Seller" [ref=e103] [cursor=pointer]:
+            - img [ref=e104]
+            - generic [ref=e106]: Seller
+          - menuitem "Vehicle" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Vehicle
+          - menuitem "Employee" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e116]: Employee
+          - menuitem "Zone Transfer" [ref=e117] [cursor=pointer]:
+            - img [ref=e118]
+            - generic [ref=e122]: Zone Transfer
+          - menuitem "User" [ref=e123] [cursor=pointer]:
+            - img [ref=e124]
+            - generic [ref=e127]: User
+          - menuitem "Company" [ref=e128] [cursor=pointer]:
+            - img [ref=e129]
+            - generic [ref=e131]: Company
+          - menuitem "User Manual" [ref=e132] [cursor=pointer]:
+            - img [ref=e133]
+            - generic [ref=e135]: User Manual
+    - generic [ref=e136]:
+      - banner [ref=e137]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: "Tue : 23 Jun 2026, 16:51"
+          - generic [ref=e142] [cursor=pointer]:
+            - generic [ref=e144]: AM
+            - generic [ref=e145]:
+              - generic [ref=e146]: amares123
+              - generic [ref=e147]: Claude test
+            - img [ref=e149]
+      - main [ref=e151]:
+        - generic [ref=e2293]:
+          - generic [ref=e2294]:
+            - generic [ref=e2295]:
+              - img [ref=e2297]
+              - generic [ref=e2300]:
+                - paragraph [ref=e2301]: Own Vehicle Group
+                - paragraph [ref=e2302]: Bookings - 23 Jun 2026
+            - generic [ref=e2303]:
+              - generic [ref=e2304] [cursor=pointer]:
+                - generic: Booking Travel Date
+                - generic [ref=e2305]:
+                  - img [ref=e2306]
+                  - generic: 23/06/2026
+                - generic [ref=e2308]:
+                  - generic:
+                    - textbox "Select date": 23/06/2026
+              - generic [ref=e2309]:
+                - paragraph [ref=e2310]: Total Bookings
+                - paragraph [ref=e2311]: "11"
+              - generic [ref=e2312]:
+                - paragraph [ref=e2313]: Unassigned
+                - paragraph [ref=e2314]: "3"
+              - generic [ref=e2315]:
+                - paragraph [ref=e2316]: Pax (Assigned/Total)
+                - paragraph [ref=e2317]: 32 / 44
+              - generic [ref=e2319]:
+                - paragraph [ref=e2320]: Vehicle in Use
+                - paragraph [ref=e2321]: 3 / 10
+              - generic [ref=e2322]:
+                - paragraph [ref=e2323]: Available
+                - paragraph [ref=e2324]: "10"
+          - generic [ref=e2325]:
+            - generic [ref=e2326]:
+              - generic [ref=e2328]:
+                - generic [ref=e2330] [cursor=pointer]:
+                  - generic [ref=e2333]:
+                    - 'generic "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e2337]'
+                    - generic:
+                      - generic: + 0 ...
+                    - combobox [ref=e2340]
+                  - generic:
+                    - img:
+                      - img
+                - generic [ref=e2341]:
+                  - generic [ref=e2343]:
+                    - img [ref=e2345]
+                    - textbox "Booking No., Customer Name" [ref=e2348]
+                  - generic [ref=e2350] [cursor=pointer]:
+                    - generic [ref=e2351]:
+                      - img [ref=e2353]
+                      - generic [ref=e2358]:
+                        - combobox [ref=e2360]
+                        - generic: Trip Type
+                    - generic:
+                      - img:
+                        - img
+                  - generic [ref=e2361] [cursor=pointer]:
+                    - generic [ref=e2362]:
+                      - img [ref=e2364]
+                      - generic [ref=e2372]:
+                        - combobox [ref=e2376]
+                        - generic: Language
+                    - generic:
+                      - img:
+                        - img
+              - generic [ref=e2377]:
+                - generic [ref=e2379]:
+                  - generic [ref=e2380]:
+                    - generic [ref=e2381]:
+                      - img [ref=e2383]
+                      - paragraph [ref=e2386]: Filter by Zone
+                    - generic [ref=e2387]: All Zone
+                  - generic [ref=e2388]:
+                    - button "All 12" [ref=e2389] [cursor=pointer]:
+                      - paragraph [ref=e2390]: All
+                      - generic [ref=e2391]: "12"
+                    - button "Unassigned 12" [ref=e2392] [cursor=pointer]:
+                      - paragraph [ref=e2393]: Unassigned
+                      - generic [ref=e2394]: "12"
+                  - generic [ref=e2396]:
+                    - paragraph [ref=e2399]: โซนที่เลือกอยู่
+                    - paragraph [ref=e2402]: โซนที่ยังไม่ได้เลือก
+                    - paragraph [ref=e2405]: Unassigned (ยังไม่มีโซน)
+                - generic [ref=e2407]:
+                  - generic [ref=e2408]:
+                    - img [ref=e2410]
+                    - paragraph [ref=e2414]: Phuket
+                  - generic [ref=e2416]:
+                    - paragraph [ref=e2419]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                    - generic [ref=e2420]:
+                      - tablist [ref=e2421]:
+                        - img [ref=e2424]
+                        - tab "07:30 3" [selected] [ref=e2430] [cursor=pointer]:
+                          - generic [ref=e2432]:
+                            - text: 07:30
+                            - generic [ref=e2434]: "3"
+                      - tabpanel "07:30 3" [ref=e2437]:
+                        - generic [ref=e2438]:
+                          - generic [ref=e2439]:
+                            - checkbox [ref=e2443] [cursor=pointer]
+                            - generic [ref=e2445]: Select all booking
+                          - generic [ref=e2446]:
+                            - generic [ref=e2447]:
+                              - generic [ref=e2449]:
+                                - checkbox [ref=e2452] [cursor=pointer]
+                                - generic [ref=e2454] [cursor=pointer]: TSB-0627JUPV
+                              - generic [ref=e2455]:
+                                - img [ref=e2457]
+                                - generic [ref=e2462]: Join In
+                              - generic [ref=e2463]:
+                                - img [ref=e2464]
+                                - generic [ref=e2467]: 07:30
+                              - generic [ref=e2469]:
+                                - generic:
+                                  - img [ref=e2470]
+                                  - generic: EN
+                                - generic [ref=e2480]:
+                                  - img [ref=e2481]
+                                  - generic [ref=e2484]: "Pax : 4"
+                                - img [ref=e2487] [cursor=pointer]
+                            - generic [ref=e2491]:
+                              - generic [ref=e2492]:
+                                - generic [ref=e2493]: Program
+                                - generic [ref=e2494]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                              - generic [ref=e2495]:
+                                - generic [ref=e2496]: Customer Name
+                                - generic [ref=e2497]: John Smith
+                              - generic [ref=e2498]:
+                                - generic [ref=e2499]: Drop-off location
+                                - generic [ref=e2500]: klp hotel
+                              - generic [ref=e2501]:
+                                - paragraph [ref=e2502]: Zone
+                                - generic "Zone" [ref=e2503] [cursor=pointer]:
+                                  - generic [ref=e2505]:
+                                    - combobox [ref=e2507]
+                                    - generic: Please select
+                                  - generic:
+                                    - img:
+                                      - img
+                            - generic [ref=e2508]:
+                              - generic [ref=e2509]: "Remark :"
+                              - generic [ref=e2510]: RemarkRemarkRemark
+                          - generic [ref=e2511]:
+                            - generic [ref=e2512]:
+                              - generic [ref=e2514]:
+                                - checkbox [ref=e2517] [cursor=pointer]
+                                - generic [ref=e2519] [cursor=pointer]: TSB-0628JUPV
+                              - generic [ref=e2520]:
+                                - img [ref=e2522]
+                                - generic [ref=e2527]: Join In
+                              - generic [ref=e2528]:
+                                - img [ref=e2529]
+                                - generic [ref=e2532]: 07:30
+                              - generic [ref=e2534]:
+                                - generic:
+                                  - img [ref=e2535]
+                                  - generic: EN
+                                - generic [ref=e2545]:
+                                  - img [ref=e2546]
+                                  - generic [ref=e2549]: "Pax : 4"
+                                - img [ref=e2552] [cursor=pointer]
+                            - generic [ref=e2556]:
+                              - generic [ref=e2557]:
+                                - generic [ref=e2558]: Program
+                                - generic [ref=e2559]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                              - generic [ref=e2560]:
+                                - generic [ref=e2561]: Customer Name
+                                - generic [ref=e2562]: John Smith
+                              - generic [ref=e2563]:
+                                - generic [ref=e2564]: Drop-off location
+                                - generic [ref=e2565]: klp hotel
+                              - generic [ref=e2566]:
+                                - paragraph [ref=e2567]: Zone
+                                - generic "Zone" [ref=e2568] [cursor=pointer]:
+                                  - generic [ref=e2570]:
+                                    - combobox [ref=e2572]
+                                    - generic: Please select
+                                  - generic:
+                                    - img:
+                                      - img
+                            - generic [ref=e2573]:
+                              - generic [ref=e2574]: "Remark :"
+                              - generic [ref=e2575]: RemarkRemarkRemark
+                          - generic [ref=e2576]:
+                            - generic [ref=e2577]:
+                              - generic [ref=e2579]:
+                                - checkbox [ref=e2582] [cursor=pointer]
+                                - generic [ref=e2584] [cursor=pointer]: TSB-0629JUPV
+                              - generic [ref=e2585]:
+                                - img [ref=e2587]
+                                - generic [ref=e2592]: Join In
+                              - generic [ref=e2593]:
+                                - img [ref=e2594]
+                                - generic [ref=e2597]: 07:30
+                              - generic [ref=e2599]:
+                                - generic:
+                                  - img [ref=e2600]
+                                  - generic: EN
+                                - generic [ref=e2610]:
+                                  - img [ref=e2611]
+                                  - generic [ref=e2614]: "Pax : 4"
+                                - img [ref=e2617] [cursor=pointer]
+                            - generic [ref=e2621]:
+                              - generic [ref=e2622]:
+                                - generic [ref=e2623]: Program
+                                - generic [ref=e2624]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                              - generic [ref=e2625]:
+                                - generic [ref=e2626]: Customer Name
+                                - generic [ref=e2627]: John Smith
+                              - generic [ref=e2628]:
+                                - generic [ref=e2629]: Drop-off location
+                                - generic [ref=e2630]: klp hotel
+                              - generic [ref=e2631]:
+                                - paragraph [ref=e2632]: Zone
+                                - generic "Zone" [ref=e2633] [cursor=pointer]:
+                                  - generic [ref=e2635]:
+                                    - combobox [ref=e2637]
+                                    - generic: Please select
+                                  - generic:
+                                    - img:
+                                      - img
+                            - generic [ref=e2638]:
+                              - generic [ref=e2639]: "Remark :"
+                              - generic [ref=e2640]: RemarkRemarkRemark
+            - generic [ref=e2641]:
+              - generic [ref=e2642]:
+                - generic [ref=e2645]:
+                  - img [ref=e2647]
+                  - textbox "Vehicle, Booking No., Customer Name" [ref=e2650]
+                - button [ref=e2653] [cursor=pointer]:
+                  - img [ref=e2655]
+                - button [ref=e2658] [cursor=pointer]:
+                  - img [ref=e2660]
+              - generic [ref=e2663]:
+                - generic [ref=e2664]:
+                  - generic [ref=e2666] [cursor=pointer]:
+                    - generic [ref=e2667]:
+                      - generic [ref=e2668]:
+                        - img [ref=e2670]
+                        - generic [ref=e2673]: "BUS (34) : กข-2222"
+                      - generic [ref=e2675]: Available
+                    - generic [ref=e2677]: GGGood
+                    - generic [ref=e2678]:
+                      - generic [ref=e2679]:
+                        - generic [ref=e2680]:
+                          - img [ref=e2681]
+                          - paragraph [ref=e2683]: TF26LO4D
+                        - generic [ref=e2684]:
+                          - img [ref=e2686]
+                          - generic [ref=e2691]: Join In
+                      - generic [ref=e2692]:
+                        - generic [ref=e2693]:
+                          - img [ref=e2694]
+                          - paragraph [ref=e2697]: 07:30
+                        - generic [ref=e2699]:
+                          - img [ref=e2700]
+                          - paragraph [ref=e2708]: EN, ZH
+                      - generic [ref=e2709]:
+                        - generic [ref=e2710]:
+                          - img [ref=e2711]
+                          - paragraph [ref=e2714]: 12/34
+                        - paragraph [ref=e2715]: 22 Available
+                    - progressbar [ref=e2716]
+                    - generic [ref=e2720]:
+                      - generic [ref=e2721]: Drag and drop to group
+                      - img [ref=e2724]
+                  - generic [ref=e2728]:
+                    - button "Hotels (2)" [ref=e2729] [cursor=pointer]:
+                      - paragraph [ref=e2730]:
+                        - img [ref=e2731]
+                        - text: Hotels
+                        - generic [ref=e2734]: (2)
+                      - img [ref=e2735]
+                    - generic [ref=e2737]:
+                      - generic [ref=e2738]:
+                        - generic [ref=e2739]:
+                          - img [ref=e2740]
+                          - text: Central World Hug Thai Zone
+                        - paragraph [ref=e2743]: 8 Pax
+                      - generic [ref=e2744]:
+                        - generic [ref=e2745]:
+                          - img [ref=e2746]
+                          - text: Angsana Laguna Phuket
+                        - paragraph [ref=e2749]: 4 Pax
+                - generic [ref=e2750]:
+                  - generic [ref=e2752] [cursor=pointer]:
+                    - generic [ref=e2753]:
+                      - generic [ref=e2754]:
+                        - img [ref=e2756]
+                        - generic [ref=e2759]: "BUS (39) : กข-8888"
+                      - generic [ref=e2761]: Available
+                    - generic [ref=e2763]: JJJames
+                    - generic [ref=e2764]:
+                      - generic [ref=e2765]:
+                        - generic [ref=e2766]:
+                          - img [ref=e2767]
+                          - paragraph [ref=e2769]: TF269CHL
+                        - generic [ref=e2770]:
+                          - img [ref=e2772]
+                          - generic [ref=e2777]: Join In
+                      - generic [ref=e2778]:
+                        - generic [ref=e2779]:
+                          - img [ref=e2780]
+                          - paragraph [ref=e2783]: 07:30
+                        - generic [ref=e2785]:
+                          - img [ref=e2786]
+                          - paragraph [ref=e2794]: EN, ZH
+                      - generic [ref=e2795]:
+                        - generic [ref=e2796]:
+                          - img [ref=e2797]
+                          - paragraph [ref=e2800]: 8/39
+                        - paragraph [ref=e2801]: 31 Available
+                    - progressbar [ref=e2802]
+                    - generic [ref=e2806]:
+                      - generic [ref=e2807]: Drag and drop to group
+                      - img [ref=e2810]
+                  - generic [ref=e2814]:
+                    - button "Hotels (2)" [ref=e2815] [cursor=pointer]:
+                      - paragraph [ref=e2816]:
+                        - img [ref=e2817]
+                        - text: Hotels
+                        - generic [ref=e2820]: (2)
+                      - img [ref=e2821]
+                    - generic [ref=e2823]:
+                      - generic [ref=e2824]:
+                        - generic [ref=e2825]:
+                          - img [ref=e2826]
+                          - text: Karma Royal Boat Lagoon (Premier Lagoon Deluxe), Karma Royal Boat Lagoon (Premier Lagoon Deluxe), Ko Kaeo, Mueang Phuket District, Phuket, Thailand
+                        - paragraph [ref=e2829]: 4 Pax
+                      - generic [ref=e2830]:
+                        - generic [ref=e2831]:
+                          - img [ref=e2832]
+                          - text: Central World Hug Thai Zone
+                        - paragraph [ref=e2835]: 4 Pax
+                - generic [ref=e2836]:
+                  - generic [ref=e2838] [cursor=pointer]:
+                    - generic [ref=e2839]:
+                      - generic [ref=e2840]:
+                        - img [ref=e2842]
+                        - generic [ref=e2845]: "BUS (39) : กข-9999"
+                      - generic [ref=e2847]: Available
+                    - generic [ref=e2848]:
+                      - generic [ref=e2849]:
+                        - generic [ref=e2850]:
+                          - img [ref=e2851]
+                          - paragraph [ref=e2853]: TF26R8EH
+                        - generic [ref=e2854]:
+                          - img [ref=e2856]
+                          - generic [ref=e2861]: Join In
+                      - generic [ref=e2862]:
+                        - generic [ref=e2863]:
+                          - img [ref=e2864]
+                          - paragraph [ref=e2867]: 07:30
+                        - generic [ref=e2869]:
+                          - img [ref=e2870]
+                          - paragraph [ref=e2878]: EN, ZH
+                      - generic [ref=e2879]:
+                        - generic [ref=e2880]:
+                          - img [ref=e2881]
+                          - paragraph [ref=e2884]: 12/39
+                        - paragraph [ref=e2885]: 27 Available
+                    - progressbar [ref=e2886]
+                    - generic [ref=e2890]:
+                      - generic [ref=e2891]: Drag and drop to group
+                      - img [ref=e2894]
+                  - generic [ref=e2898]:
+                    - button "Hotels (3)" [ref=e2899] [cursor=pointer]:
+                      - paragraph [ref=e2900]:
+                        - img [ref=e2901]
+                        - text: Hotels
+                        - generic [ref=e2904]: (3)
+                      - img [ref=e2905]
+                    - generic [ref=e2907]:
+                      - generic [ref=e2908]:
+                        - generic [ref=e2909]:
+                          - img [ref=e2910]
+                          - text: Best Western Premier Bangtao Beach Resort 124/29 Moo 3 - Bangtao Beach Cheung Thalay อำเภอถลาง ภูเก็ต 83110
+                        - paragraph [ref=e2913]: 4 Pax
+                      - generic [ref=e2914]:
+                        - generic [ref=e2915]:
+                          - img [ref=e2916]
+                          - text: Central World Hug Thai Zone
+                        - paragraph [ref=e2919]: 4 Pax
+                      - generic [ref=e2920]:
+                        - generic [ref=e2921]:
+                          - img [ref=e2922]
+                          - text: Outrigger Laguna Phuket Beach Resort
+                        - paragraph [ref=e2925]: 4 Pax
+                - generic [ref=e2928]:
+                  - generic [ref=e2929]:
+                    - generic [ref=e2930]:
+                      - img [ref=e2932]
+                      - generic [ref=e2936]: "speed (30) : รร-1133"
+                    - generic [ref=e2938]: Available
+                  - generic [ref=e2940]:
+                    - generic [ref=e2941]:
+                      - img [ref=e2942]
+                      - paragraph [ref=e2945]: 0/30
+                    - paragraph [ref=e2946]: 30 Available
+                  - progressbar [ref=e2947]
+                  - generic [ref=e2951]: Drag and drop to group
+                - generic [ref=e2954]:
+                  - generic [ref=e2955]:
+                    - generic [ref=e2956]:
+                      - img [ref=e2958]
+                      - generic [ref=e2962]: "speed (30) : รร-1122"
+                    - generic [ref=e2964]: Available
+                  - generic [ref=e2966]:
+                    - generic [ref=e2967]:
+                      - img [ref=e2968]
+                      - paragraph [ref=e2971]: 0/30
+                    - paragraph [ref=e2972]: 30 Available
+                  - progressbar [ref=e2973]
+                  - generic [ref=e2977]: Drag and drop to group
+                - generic [ref=e2980]:
+                  - generic [ref=e2981]:
+                    - generic [ref=e2982]:
+                      - img [ref=e2984]
+                      - generic [ref=e2988]: "speed (30) : รร-1111"
+                    - generic [ref=e2990]: Available
+                  - generic [ref=e2992]:
+                    - generic [ref=e2993]:
+                      - img [ref=e2994]
+                      - paragraph [ref=e2997]: 0/30
+                    - paragraph [ref=e2998]: 30 Available
+                  - progressbar [ref=e2999]
+                  - generic [ref=e3003]: Drag and drop to group
+                - generic [ref=e3006]:
+                  - generic [ref=e3007]:
+                    - generic [ref=e3008]:
+                      - img [ref=e3010]
+                      - generic [ref=e3013]: "BUS (39) : กข-1234"
+                    - generic [ref=e3015]: Available
+                  - generic [ref=e3017]:
+                    - generic [ref=e3018]:
+                      - img [ref=e3019]
+                      - paragraph [ref=e3022]: 0/39
+                    - paragraph [ref=e3023]: 39 Available
+                  - progressbar [ref=e3024]
+                  - generic [ref=e3028]: Drag and drop to group
+                - generic [ref=e3031]:
+                  - generic [ref=e3032]:
+                    - generic [ref=e3033]:
+                      - img [ref=e3035]
+                      - generic [ref=e3038]: "BUS (36) : นน-1133"
+                    - generic [ref=e3040]: Available
+                  - generic [ref=e3042]:
+                    - generic [ref=e3043]:
+                      - img [ref=e3044]
+                      - paragraph [ref=e3047]: 0/36
+                    - paragraph [ref=e3048]: 36 Available
+                  - progressbar [ref=e3049]
+                  - generic [ref=e3053]: Drag and drop to group
+                - generic [ref=e3056]:
+                  - generic [ref=e3057]:
+                    - generic [ref=e3058]:
+                      - img [ref=e3060]
+                      - generic [ref=e3063]: "BUS (36) : นน-1122"
+                    - generic [ref=e3065]: Available
+                  - generic [ref=e3067]:
+                    - generic [ref=e3068]:
+                      - img [ref=e3069]
+                      - paragraph [ref=e3072]: 0/36
+                    - paragraph [ref=e3073]: 36 Available
+                  - progressbar [ref=e3074]
+                  - generic [ref=e3078]: Drag and drop to group
+                - generic [ref=e3081]:
+                  - generic [ref=e3082]:
+                    - generic [ref=e3083]:
+                      - img [ref=e3085]
+                      - generic [ref=e3088]: "BUS (36) : นน-1111"
+                    - generic [ref=e3090]: Available
+                  - generic [ref=e3092]:
+                    - generic [ref=e3093]:
+                      - img [ref=e3094]
+                      - paragraph [ref=e3097]: 0/36
+                    - paragraph [ref=e3098]: 36 Available
+                  - progressbar [ref=e3099]
+                  - generic [ref=e3103]: Drag and drop to group

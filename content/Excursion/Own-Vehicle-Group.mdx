@@ -1,0 +1,85 @@
+---
+title: Own Vehicle Group
+sidebar_position: 3
+---
+
+# Own Vehicle Group
+
+หน้า **Own Vehicle Group** ใช้จัดสรร Booking ให้กับยานพาหนะของบริษัทเอง (Own Vehicle) โดยการลาก Booking เข้ากลุ่มรถที่ต้องการ
+
+เข้าถึงได้จาก **Excursion → Own Vehicle Group** หรือผ่าน Action `...` บนหน้า Summary
+
+---
+
+## ภาพรวม
+
+![Excursion Own Vehicle Group](/img/Excursion/excursion-own-vehicle-group.png)
+
+ด้านบนแสดง Summary Card ของวันที่เลือก
+
+| Card | คำอธิบาย |
+|------|----------|
+| **Booking Travel Date** | วันที่เดินทางที่กำลังจัดการ |
+| **Total Bookings** | จำนวน Booking ทั้งหมดของวันนั้น |
+| **Unassigned** | จำนวน Booking ที่ยังไม่ได้จัดสรรรถ (แสดงสีแดงเมื่อยังมีเหลือ) |
+| **Pax (Assigned/Total)** | จำนวนผู้เดินทางที่จัดสรรแล้ว / ทั้งหมด |
+| **Vehicle in Use** | จำนวนรถ Own Vehicle ที่ใช้งานในวันนั้น |
+| **Total Group** | จำนวนกลุ่มที่สร้างแล้ว |
+
+:::info
+โครงสร้างหน้านี้เหมือนกับ **Supplier Group** ทุกประการ ต่างกันที่ Panel ขวาแสดงรายการรถของบริษัทเองแทน Supplier ภายนอก
+:::
+
+---
+
+## Panel ซ้าย — รายการ Booking
+
+แสดงรายการ Booking ที่ยังรอการจัดสรร จัดกลุ่มตาม Destination → Program Name → เวลาเดินทาง
+
+**ตัวกรอง:**
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Program** | กรองตามชื่อ Program (dropdown) |
+| **Booking No. / Customer Name** | ค้นหา Booking |
+| **Trip Type** | กรองตามประเภท Trip |
+| **Language** | กรองตามภาษา |
+
+**แต่ละ Booking Card แสดง:**
+
+| ข้อมูล | คำอธิบาย |
+|--------|----------|
+| **Booking No.** | เลขที่ Booking (กดเพื่อดูรายละเอียด) |
+| **Join In** | Badge แสดงว่า Booking นี้เป็นแบบ Join In |
+| **Option** | ตัวเลือกของ Program |
+| **Travel Time** | เวลาเดินทาง |
+| **Customer Name** | ชื่อลูกค้า |
+| **Pick-up location** | จุดรับลูกค้า |
+| **Pax** | จำนวนผู้เดินทาง |
+| **Remark** | หมายเหตุพิเศษ |
+
+---
+
+## Panel ขวา — รายการรถ Own Vehicle
+
+แสดงรายการยานพาหนะของบริษัทที่พร้อมใช้งานในวันนั้น
+
+| ข้อมูล | คำอธิบาย |
+|--------|----------|
+| **ชื่อ Group Type (จำนวนที่นั่ง)** | เช่น speed (30), BUS (14) |
+| **ทะเบียนรถ** | หมายเลขป้ายทะเบียน |
+| **Available** | จำนวนรถที่ว่างอยู่ |
+
+---
+
+## ขั้นตอนการจัดสรร Own Vehicle
+
+1. เลือก **Booking Travel Date** ที่ต้องการจัดการ
+2. ตรวจสอบ **Unassigned** ว่ายังมี Booking ที่รอจัดสรรอยู่
+3. เลือก Booking ที่ต้องการโดยกด checkbox หรือ **Select all booking**
+4. ลาก Booking ไปวางในรถที่ต้องการจาก Panel ขวา
+5. ทำซ้ำจนครบทุก Booking (Unassigned = 0)
+
+:::tip เคล็ดลับ
+ต้องเพิ่ม Registration รถไว้ใน **Setting → Vehicle → Own Vehicle** ก่อน จึงจะมีรถปรากฏใน Panel ขวา
+:::

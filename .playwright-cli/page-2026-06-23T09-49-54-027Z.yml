@@ -1,0 +1,239 @@
+- generic [ref=e1]:
+  - alert [ref=e37]: Tour System
+  - generic [ref=e46]:
+    - complementary [ref=e47]:
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img "Tour Master Logo" [ref=e53]
+          - img [ref=e55] [cursor=pointer]
+        - menu [ref=e60]:
+          - separator [ref=e61]
+          - text: Management
+          - group [ref=e62]:
+            - menuitem "Bookings" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - generic [ref=e67]: Bookings
+            - menuitem "Excursion" [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Excursion
+            - menuitem "Pick up Transport" [expanded] [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e78]: Pick up Transport
+            - menu [ref=e154]:
+              - menuitem "Summary" [ref=e155] [cursor=pointer]:
+                - img [ref=e156]
+                - generic [ref=e158]: Summary
+              - menuitem "Supplier Group" [ref=e159] [cursor=pointer]:
+                - img [ref=e160]
+                - generic [ref=e162]: Supplier Group
+              - menuitem "Own Vehicle Group" [ref=e163] [cursor=pointer]:
+                - img [ref=e164]
+                - generic [ref=e166]: Own Vehicle Group
+              - menuitem "Job Order" [active] [ref=e167] [cursor=pointer]:
+                - img [ref=e168]
+                - generic [ref=e170]: Job Order
+              - menuitem "Report" [ref=e171] [cursor=pointer]:
+                - img [ref=e172]
+                - generic [ref=e174]: Report
+            - menuitem "Drop off Transport" [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - generic [ref=e85]: Drop off Transport
+            - menuitem "Check In" [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+              - generic [ref=e90]: Check In
+            - menuitem "Guide Task" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - generic [ref=e95]: Guide Task
+          - separator [ref=e96]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e102]: Program
+          - menuitem "Seller" [ref=e103] [cursor=pointer]:
+            - img [ref=e104]
+            - generic [ref=e106]: Seller
+          - menuitem "Vehicle" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Vehicle
+          - menuitem "Employee" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e116]: Employee
+          - menuitem "Zone Transfer" [ref=e117] [cursor=pointer]:
+            - img [ref=e118]
+            - generic [ref=e122]: Zone Transfer
+          - menuitem "User" [ref=e123] [cursor=pointer]:
+            - img [ref=e124]
+            - generic [ref=e127]: User
+          - menuitem "Company" [ref=e128] [cursor=pointer]:
+            - img [ref=e129]
+            - generic [ref=e131]: Company
+          - menuitem "User Manual" [ref=e132] [cursor=pointer]:
+            - img [ref=e133]
+            - generic [ref=e135]: User Manual
+    - generic [ref=e136]:
+      - banner [ref=e137]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: "Tue : 23 Jun 2026, 16:49"
+          - generic [ref=e142] [cursor=pointer]:
+            - generic [ref=e144]: AM
+            - generic [ref=e145]:
+              - generic [ref=e146]: amares123
+              - generic [ref=e147]: Claude test
+            - img [ref=e149]
+      - main [ref=e151]:
+        - generic [ref=e1350]:
+          - generic [ref=e1351]:
+            - generic [ref=e1354]:
+              - generic [ref=e1355]: Pick Up Transport
+              - img [ref=e1356]
+              - generic [ref=e1358]: Job Order
+            - generic [ref=e1359]:
+              - button "Export" [ref=e1360] [cursor=pointer]:
+                - img [ref=e1362]
+                - generic [ref=e1365]: Export
+                - img [ref=e1367]
+              - generic [ref=e1369]:
+                - img [ref=e1371]
+                - textbox "Select Travel Date" [ref=e1375]: 23/06/2026
+              - generic [ref=e1378]:
+                - img [ref=e1380]
+                - textbox "Search" [ref=e1383]
+          - generic [ref=e1386]:
+            - tablist [ref=e1387]:
+              - generic [ref=e1389]:
+                - tab "All 3" [selected] [ref=e1391] [cursor=pointer]:
+                  - generic [ref=e1393]:
+                    - text: All
+                    - generic [ref=e1395]: "3"
+                - tab "Pending 1" [ref=e1397] [cursor=pointer]:
+                  - generic [ref=e1399]:
+                    - text: Pending
+                    - generic [ref=e1401]: "1"
+                - tab "Completed 2" [ref=e1403] [cursor=pointer]:
+                  - generic [ref=e1405]:
+                    - text: Completed
+                    - generic [ref=e1407]: "2"
+            - tabpanel "All 3" [ref=e1410]:
+              - generic [ref=e1416]:
+                - table [ref=e1420]:
+                  - rowgroup [ref=e1432]:
+                    - 'row "Select all # Trip Code Destination Zone Personnel Registration Pax Pick-up Time Status Action" [ref=e1433]':
+                      - 'columnheader "Select all #" [ref=e1434]':
+                        - generic [ref=e1435]:
+                          - checkbox "Select all" [ref=e1438] [cursor=pointer]
+                          - generic [ref=e1440]: "#"
+                      - columnheader "Trip Code" [ref=e1441]
+                      - columnheader "Destination" [ref=e1442]
+                      - columnheader "Zone" [ref=e1443]
+                      - columnheader "Personnel" [ref=e1444]
+                      - columnheader "Registration" [ref=e1445]
+                      - columnheader "Pax" [ref=e1446]
+                      - columnheader "Pick-up Time" [ref=e1447]
+                      - columnheader "Status" [ref=e1448]
+                      - columnheader "Action" [ref=e1449]
+                  - rowgroup [ref=e1450]:
+                    - 'row "1 TF26W0SF Phuket Phuket Town, Rawai, Kamala - BUS (39) : กข-9999 12/39 06:00 Pending" [ref=e1451]':
+                      - cell "1" [ref=e1452]:
+                        - generic [ref=e1453]:
+                          - checkbox [ref=e1457] [cursor=pointer]
+                          - generic [ref=e1459]: "1"
+                      - cell "TF26W0SF" [ref=e1460]:
+                        - link "TF26W0SF" [ref=e1461] [cursor=pointer]:
+                          - /url: /tour/pick-up/job-order/560
+                          - paragraph [ref=e1462]: TF26W0SF
+                      - cell "Phuket" [ref=e1463]
+                      - cell "Phuket Town, Rawai, Kamala" [ref=e1464]:
+                        - generic [ref=e1465] [cursor=pointer]: Phuket Town, Rawai, Kamala
+                      - cell "-" [ref=e1466]
+                      - 'cell "BUS (39) : กข-9999" [ref=e1467]':
+                        - generic [ref=e1468]: "BUS (39) : กข-9999"
+                      - cell "12/39" [ref=e1469]:
+                        - link "12/39" [ref=e1470] [cursor=pointer]:
+                          - /url: "#"
+                          - paragraph [ref=e1471]: 12/39
+                      - cell "06:00" [ref=e1472]:
+                        - generic [ref=e1473]:
+                          - img [ref=e1474]
+                          - generic [ref=e1477]: 06:00
+                      - cell "Pending" [ref=e1478]:
+                        - generic [ref=e1481]: Pending
+                      - cell [ref=e1482]:
+                        - img [ref=e1485] [cursor=pointer]
+                    - 'row "2 TF26BA0K Phuket Phuket Town, Rawai - BUS (39) : กข-8888 8/39 06:00 Completed" [ref=e1489]':
+                      - cell "2" [ref=e1490]:
+                        - generic [ref=e1491]:
+                          - generic [ref=e1493]:
+                            - generic:
+                              - checkbox [disabled]
+                          - generic [ref=e1494]: "2"
+                      - cell "TF26BA0K" [ref=e1495]:
+                        - link "TF26BA0K" [ref=e1496] [cursor=pointer]:
+                          - /url: /tour/pick-up/job-order/559
+                          - paragraph [ref=e1497]: TF26BA0K
+                      - cell "Phuket" [ref=e1498]
+                      - cell "Phuket Town, Rawai" [ref=e1499]:
+                        - generic [ref=e1500] [cursor=pointer]: Phuket Town, Rawai
+                      - cell "-" [ref=e1501]
+                      - 'cell "BUS (39) : กข-8888" [ref=e1502]':
+                        - generic [ref=e1503]: "BUS (39) : กข-8888"
+                      - cell "8/39" [ref=e1504]:
+                        - link "8/39" [ref=e1505] [cursor=pointer]:
+                          - /url: "#"
+                          - paragraph [ref=e1506]: 8/39
+                      - cell "06:00" [ref=e1507]:
+                        - generic [ref=e1508]:
+                          - img [ref=e1509]
+                          - generic [ref=e1512]: 06:00
+                      - cell "Completed" [ref=e1513]:
+                        - generic [ref=e1516]: Completed
+                      - cell [ref=e1517]:
+                        - img [ref=e1520] [cursor=pointer]
+                    - 'row "3 TF26KIZL Phuket Patong, Kata - BUS (34) : กข-2222 12/34 06:00 Completed" [ref=e1524]':
+                      - cell "3" [ref=e1525]:
+                        - generic [ref=e1526]:
+                          - generic [ref=e1528]:
+                            - generic:
+                              - checkbox [disabled]
+                          - generic [ref=e1529]: "3"
+                      - cell "TF26KIZL" [ref=e1530]:
+                        - link "TF26KIZL" [ref=e1531] [cursor=pointer]:
+                          - /url: /tour/pick-up/job-order/558
+                          - paragraph [ref=e1532]: TF26KIZL
+                      - cell "Phuket" [ref=e1533]
+                      - cell "Patong, Kata" [ref=e1534]:
+                        - generic [ref=e1535] [cursor=pointer]: Patong, Kata
+                      - cell "-" [ref=e1536]
+                      - 'cell "BUS (34) : กข-2222" [ref=e1537]':
+                        - generic [ref=e1538]: "BUS (34) : กข-2222"
+                      - cell "12/34" [ref=e1539]:
+                        - link "12/34" [ref=e1540] [cursor=pointer]:
+                          - /url: "#"
+                          - paragraph [ref=e1541]: 12/34
+                      - cell "06:00" [ref=e1542]:
+                        - generic [ref=e1543]:
+                          - img [ref=e1544]
+                          - generic [ref=e1547]: 06:00
+                      - cell "Completed" [ref=e1548]:
+                        - generic [ref=e1551]: Completed
+                      - cell [ref=e1552]:
+                        - img [ref=e1555] [cursor=pointer]
+                - list [ref=e1559]:
+                  - listitem "Previous Page" [ref=e1560]:
+                    - button "left" [disabled] [ref=e1561]:
+                      - img "left" [ref=e1562]:
+                        - img [ref=e1563]
+                  - listitem "1" [ref=e1565] [cursor=pointer]:
+                    - generic [ref=e1566]: "1"
+                  - listitem "Next Page" [ref=e1567]:
+                    - button "right" [disabled] [ref=e1568]:
+                      - img "right" [ref=e1569]:
+                        - img [ref=e1570]
+                  - listitem [ref=e1572]:
+                    - generic "Page Size" [ref=e1573] [cursor=pointer]:
+                      - generic [ref=e1575]:
+                        - combobox "Page Size" [ref=e1577]
+                        - generic "10 / page" [ref=e1578]
+                      - generic:
+                        - img:
+                          - img

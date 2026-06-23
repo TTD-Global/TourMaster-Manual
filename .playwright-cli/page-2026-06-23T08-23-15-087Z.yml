@@ -1,0 +1,187 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menuitem "Seller" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - generic [ref=e72]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Vehicle
+          - menu [ref=e217]:
+            - menuitem "Group Type" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Group Type
+            - menuitem "Supplier List" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]: Supplier List
+            - menuitem "Own Vehicle" [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+              - generic [ref=e88]: Own Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 23 Jun 2026, 15:22"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e218]:
+          - generic [ref=e221]:
+            - generic [ref=e222] [cursor=pointer]: Own Vehicle
+            - img [ref=e223]
+            - generic [ref=e225] [cursor=pointer]: Registration
+            - img [ref=e226]
+            - generic [ref=e228]: Add Registration
+          - generic [ref=e230]:
+            - generic [ref=e233]:
+              - generic [ref=e235]: Registration Detail
+              - button "Add group type" [ref=e239] [cursor=pointer]:
+                - img [ref=e241]
+                - text: Add group type
+            - generic [ref=e243]:
+              - button "Cancel" [ref=e244] [cursor=pointer]
+              - button "Save" [disabled] [ref=e245]:
+                - img [ref=e247]
+                - text: Save
+  - generic [ref=e251]:
+    - dialog:
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - generic [ref=e257]: Add Group Type
+            - img [ref=e259] [cursor=pointer]
+          - generic [ref=e262]:
+            - generic [ref=e263]:
+              - button "Excursion" [ref=e264] [cursor=pointer]
+              - button "Transport" [ref=e265] [cursor=pointer]
+            - generic [ref=e267]:
+              - img [ref=e269]
+              - textbox "Search" [ref=e272]
+            - generic [ref=e274]:
+              - paragraph [ref=e275]: Please select Group Type
+              - generic [ref=e277]:
+                - generic [ref=e281] [cursor=pointer]: Select All
+                - generic [ref=e285] [cursor=pointer]: 1 เครื่องยนต์ (10ที่นั่ง) (10) (10)
+                - generic [ref=e289] [cursor=pointer]: 2 เครื่องยนต์ (25 ที่นั่ง) (20) (20)
+                - generic [ref=e293] [cursor=pointer]: Alphard (5)
+                - generic [ref=e297] [cursor=pointer]: AutoTest_1774410167980 (10)
+                - generic [ref=e301] [cursor=pointer]: Bus (39)
+                - generic [ref=e305] [cursor=pointer]: BUS (30)
+                - generic [ref=e309] [cursor=pointer]: BUS (39)
+                - generic [ref=e313] [cursor=pointer]: BUS (45)
+                - generic [ref=e317] [cursor=pointer]: BUS (30)
+                - generic [ref=e321] [cursor=pointer]: BUS (36)
+                - generic [ref=e325] [cursor=pointer]: BUS (34)
+                - generic [ref=e329] [cursor=pointer]: BUS (43)
+                - generic [ref=e333] [cursor=pointer]: BUS (44)
+                - generic [ref=e337] [cursor=pointer]: Bus 40 SEAT (40) (40)
+                - generic [ref=e341] [cursor=pointer]: BUS:44 (44)
+                - generic [ref=e345] [cursor=pointer]: CAR (4)
+                - generic [ref=e349] [cursor=pointer]: Charge (40)
+                - generic [ref=e353] [cursor=pointer]: CreateGroupTypePassProgramCost (15)
+                - generic [ref=e357] [cursor=pointer]: GTWaaN_TEST (25)
+                - generic [ref=e361] [cursor=pointer]: GTWaaN_TEST2 (35)
+                - generic [ref=e365] [cursor=pointer]: Guide Only (16)
+                - generic [ref=e369] [cursor=pointer]: Guide Only (30)
+                - generic [ref=e373] [cursor=pointer]: Guide Only (12)
+                - generic [ref=e377] [cursor=pointer]: Guide Only (20)
+                - generic [ref=e381] [cursor=pointer]: Guide Only (25)
+                - generic [ref=e385] [cursor=pointer]: guitar type (90)
+                - generic [ref=e389] [cursor=pointer]: HRK (15)
+                - generic [ref=e393] [cursor=pointer]: itueioru (12)
+                - generic [ref=e397] [cursor=pointer]: rrrr (11)
+                - generic [ref=e401] [cursor=pointer]: speed (30)
+                - generic [ref=e405] [cursor=pointer]: tar (1)
+                - generic [ref=e409] [cursor=pointer]: tar2 (4)
+                - generic [ref=e413] [cursor=pointer]: test (20)
+                - generic [ref=e417] [cursor=pointer]: TEST5456 (40)
+                - generic [ref=e421] [cursor=pointer]: TEST5645 (30)
+                - generic [ref=e425] [cursor=pointer]: test999999 (12)
+                - generic [ref=e429] [cursor=pointer]: TESTDDD (20)
+                - generic [ref=e433] [cursor=pointer]: Test Icon (15)
+                - generic [ref=e437] [cursor=pointer]: testt (5)
+                - generic [ref=e441] [cursor=pointer]: testt (5)
+                - generic [ref=e445] [cursor=pointer]: testt123 (6)
+                - generic [ref=e449] [cursor=pointer]: testt56498 (6)
+                - generic [ref=e453] [cursor=pointer]: testt566+456 (5)
+                - generic [ref=e457] [cursor=pointer]: testt566+456 (5)
+                - generic [ref=e461] [cursor=pointer]: testt566+456 (5)
+                - generic [ref=e465] [cursor=pointer]: testtjhgfhjgh (6)
+                - generic [ref=e469] [cursor=pointer]: testtjhgfhjgh (6)
+                - generic [ref=e473] [cursor=pointer]: testtjhgfhjgh (6)
+                - generic [ref=e477] [cursor=pointer]: testtkmlk (5)
+                - generic [ref=e481] [cursor=pointer]: testttt (50)
+                - generic [ref=e485] [cursor=pointer]: testttt (50)
+                - generic [ref=e489] [cursor=pointer]: testtyghighik (20)
+                - generic [ref=e493] [cursor=pointer]: TestWW1 (95)
+                - generic [ref=e497] [cursor=pointer]: TESTYYY (50)
+                - generic [ref=e501] [cursor=pointer]: uyrytrytoiyiy56798 (12)
+                - generic [ref=e505] [cursor=pointer]: VAN (12)
+                - generic [ref=e509] [cursor=pointer]: VAN (10)
+                - generic [ref=e513] [cursor=pointer]: VAN(12) (12)
+                - generic [ref=e517] [cursor=pointer]: VAN No Guide (12)
+                - generic [ref=e521] [cursor=pointer]: yuyuyuyu (12)
+                - generic [ref=e525] [cursor=pointer]: yyyyyy (7777)
+            - button "Create Group type" [ref=e529] [cursor=pointer]:
+              - img [ref=e531]
+              - text: Create Group type
+        - generic [ref=e533]:
+          - button "Cancel" [ref=e534] [cursor=pointer]
+          - button "Confirm" [ref=e535] [cursor=pointer]

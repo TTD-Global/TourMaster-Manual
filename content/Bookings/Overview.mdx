@@ -1,0 +1,60 @@
+---
+title: Overview
+sidebar_position: 1
+---
+
+# Overview
+
+หน้า **Overview** แสดงภาพรวมสถิติ Booking ในระบบ สามารถกรองตามช่วงเวลา, Destination และ Program ได้
+
+---
+
+## ภาพรวม
+
+![Booking Overview](/img/Bookings/booking-overview.png)
+
+### ตัวกรองข้อมูล
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **All Destinations** | กรองตาม Destination |
+| **All Programs** | กรองตามชื่อ Program |
+| **Date Range** | เลือกช่วงวันที่ |
+| **Booking Date / Travel Date** | สลับระหว่างกรองตามวันที่จอง หรือวันที่เดินทาง |
+
+### ช่วงเวลา
+
+| ปุ่ม | คำอธิบาย |
+|------|----------|
+| **Today** | แสดงข้อมูลวันนี้ |
+| **Weekly** | แสดงข้อมูลรายสัปดาห์ |
+| **Monthly** | แสดงข้อมูลรายเดือน |
+| **Yearly** | แสดงข้อมูลรายปี |
+
+---
+
+## Summary
+
+แสดง Card สรุปข้อมูล 3 ส่วน
+
+### Booking Over View
+
+Donut Chart แสดงสัดส่วน Booking แบ่งตามสถานะ
+
+| สถานะ | คำอธิบาย |
+|-------|----------|
+| **Completed** | Booking ที่เสร็จสมบูรณ์ |
+| **Confirmed** | Booking ที่ยืนยันแล้ว |
+| **Waiting** | Booking ที่รอยืนยัน |
+| **Canceled** | Booking ที่ถูกยกเลิก |
+
+ตรงกลาง Donut แสดง **Total Booking** (จำนวน Booking ทั้งหมด)
+
+### Total Participants
+
+แสดงจำนวนผู้เดินทางทั้งหมด พร้อมอัตราการเติบโตเทียบช่วงก่อนหน้า และสัดส่วนแยกตามภาษา เช่น English, Chinese
+
+### Booking Summary
+
+Bar Chart แสดงแนวโน้ม **Total Booking** และ **Participants** รายเดือน สามารถเลือกปีได้จาก dropdown
+

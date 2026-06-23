@@ -1,0 +1,31 @@
+[      90ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…0Nzh9.mDXNnL8BbuB8GWH-hCYEpBQPAqtgZC-r1Xp4qJ21_G8, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/dashboard/page-fb590b365b40219b.js:0
+[      90ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/dashboard/page-fb590b365b40219b.js:0
+[     102ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/dashboard/page-fb590b365b40219b.js:0
+[     102ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/dashboard/page-fb590b365b40219b.js:0
+[     238ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/dashboard/page-fb590b365b40219b.js:0
+[     243ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[     243ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[     243ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[  306491ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[  306491ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[  306616ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[  306617ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[  307331ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[  307331ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1410322ms] [LOG] beforeSave {is_continue: true, id: 987, current_step: guide-detail, guide_license: Object, status_license: undefined} @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1446654ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1446654ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1446803ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1446803ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1447478ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1447478ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1451926ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1451926ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1452608ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1452608ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1519184ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1519184ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1519313ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1519313ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1519987ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[ 1519987ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0

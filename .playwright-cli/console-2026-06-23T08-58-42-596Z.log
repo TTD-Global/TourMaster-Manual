@@ -1,0 +1,18 @@
+[     358ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: null, isAuthenticated: false} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:0
+[     739ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/login:0
+[    4359ms] [LOG] Attempting login... @ https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:0
+[    4645ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://dev-green-api.techmaster.in.th/api/auth/login:0
+[    4646ms] [ERROR] Login failed: Error: ไม่พบข้อมูล
+    at i (https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:1:5613)
+    at async Object.post (https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:1:7013)
+    at async login (https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:1:1110)
+    at async j (https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:1:26433)
+    at async https://dev-green.techmaster.in.th/_next/static/chunks/396-24f8bfc2997d2c90.js:1:1302001 @ https://dev-green.techmaster.in.th/_next/static/chunks/1684-68efaae8b20bdbab.js:0
+[   12444ms] [LOG] Attempting login... @ https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:0
+[   12658ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://dev-green-api.techmaster.in.th/api/auth/login:0
+[   12659ms] [ERROR] Login failed: Error: ไม่พบข้อมูล
+    at i (https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:1:5613)
+    at async Object.post (https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:1:7013)
+    at async login (https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:1:1110)
+    at async j (https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:1:26433)
+    at async https://dev-green.techmaster.in.th/_next/static/chunks/396-24f8bfc2997d2c90.js:1:1302001 @ https://dev-green.techmaster.in.th/_next/static/chunks/1684-68efaae8b20bdbab.js:0

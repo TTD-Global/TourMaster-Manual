@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menuitem "Seller" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - generic [ref=e72]: Seller
+          - menuitem "Vehicle" [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Zone Transfer
+          - menuitem "User" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e93]: User
+          - menuitem "Company" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e97]: Company
+          - menuitem "User Manual" [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+            - generic [ref=e101]: User Manual
+    - generic [ref=e102]:
+      - banner [ref=e103]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: "Tue : 23 Jun 2026, 15:41"
+          - generic [ref=e108] [cursor=pointer]:
+            - generic [ref=e110]: AM
+            - generic [ref=e111]:
+              - generic [ref=e112]: amares
+              - generic [ref=e113]: Superadmin
+            - img [ref=e115]
+      - main [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e121]: Company Profile
+          - generic [ref=e123]:
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - generic [ref=e127] [cursor=pointer]: General Detail
+                - generic [ref=e129] [cursor=pointer]: Company Authorization
+              - button "Edit" [ref=e243] [cursor=pointer]:
+                - img [ref=e245]
+                - text: Edit
+            - generic [ref=e270]:
+              - generic [ref=e271]:
+                - generic [ref=e272]:
+                  - paragraph [ref=e273]: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด
+                  - paragraph [ref=e274]: Company Profile Overview
+                - img "company" [ref=e276]
+              - generic [ref=e277]:
+                - paragraph [ref=e278]: Company Information
+                - generic [ref=e279]:
+                  - generic [ref=e280]:
+                    - img [ref=e281]
+                    - paragraph [ref=e284]: ":"
+                    - paragraph [ref=e285]: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3, จอมพล, จตุจักร, กรุงเทพมหานคร, 10900
+                  - generic [ref=e286]:
+                    - img [ref=e287]
+                    - paragraph [ref=e289]: ":"
+                    - paragraph [ref=e290]: +66 2-114-3816
+                  - generic [ref=e291]:
+                    - img [ref=e292]
+                    - paragraph [ref=e295]: ":"
+                    - paragraph [ref=e296]: booking@oneasia.company
+              - generic [ref=e297]:
+                - paragraph [ref=e298]: Registration & Links
+                - generic [ref=e299]:
+                  - generic [ref=e300]:
+                    - paragraph [ref=e301]: TAT License
+                    - paragraph [ref=e302]: ":"
+                    - paragraph [ref=e303]: "0815564000636"
+                  - generic [ref=e304]:
+                    - paragraph [ref=e305]: Company registration number
+                    - paragraph [ref=e306]: ":"
+                    - paragraph [ref=e307]: "-"
+                  - generic [ref=e308]:
+                    - paragraph [ref=e309]: Website and social media
+                    - paragraph [ref=e310]: ":"
+                    - paragraph [ref=e311]: "-"

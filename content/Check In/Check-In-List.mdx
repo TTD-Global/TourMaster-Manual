@@ -1,0 +1,91 @@
+---
+title: Check In List
+sidebar_position: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Check In List
+
+หน้า **Check In List** แสดงสรุปสถานะการ Check In ของลูกค้าในแต่ละวัน จัดกลุ่มตาม Trip พร้อมตัวเลข Waiting, Checked In และ No show แยกต่อ Trip
+
+มี 2 ประเภท เข้าถึงได้จาก **Check In → Excursion → Check In List** และ **Check In → Transport → Check In List**
+
+---
+
+## ตารางรายการ
+
+<Tabs className="unique-tabs">
+
+<TabItem value="excursion" label="Excursion" default>
+
+![Check In List — Excursion](/img/CheckIn/checkin-list-excursion.png)
+
+</TabItem>
+
+<TabItem value="transport" label="Transport">
+
+![Check In List — Transport](/img/CheckIn/checkin-list-transport.png)
+
+</TabItem>
+
+</Tabs>
+
+### Status Card
+
+ด้านบนแสดง 5 Card สรุปภาพรวมของวันที่เลือก
+
+| Card | คำอธิบาย |
+|------|----------|
+| **Waiting** | จำนวน Pax ที่ยังรอ Check In |
+| **Checked In** | จำนวน Pax ที่ Check In แล้ว |
+| **No show** | จำนวน Pax ที่ไม่มาตามนัด |
+| **Amount Trip** | จำนวน Trip ทั้งหมดของวันนั้น |
+| **Amount Pax** | จำนวน Pax รวมทั้งหมด |
+
+### แท็บสถานะ
+
+| แท็บ | คำอธิบาย |
+|------|----------|
+| **All** | แสดงทุก Trip |
+| **Pending** | Trip ที่ยังมี Waiting อยู่ |
+| **Completed** | Trip ที่ Waiting = 0 |
+
+### คอลัมน์ตาราง
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Trip Code** | รหัส Trip (คลิกได้เพื่อดูรายละเอียด) |
+| **Travel Date** | วันที่เดินทาง |
+| **Trip Type** | ประเภท Trip (แสดง Join In badge ถ้าเป็น Join In) |
+| **Trip Round** | รอบเวลาเดินทาง |
+| **Program** | ชื่อโปรแกรม |
+| **Pax** | จำนวน Pax รวมของ Trip นี้ |
+| **Waiting** | จำนวน Pax ที่ยังรอ (แสดงสีเหลือง) |
+| **Checked In** | จำนวน Pax ที่ Check In แล้ว (แสดงสีเขียว) |
+| **No show** | จำนวน Pax ที่ไม่มาตามนัด (แสดงสีแดง) |
+| **Action** | ปุ่ม `...` สำหรับจัดการ |
+
+แถวสุดท้ายแสดง **Total** รวม Pax, Waiting, Checked In, No show ทั้งหมด
+
+---
+
+## ฟังก์ชันบนหน้า
+
+| ปุ่ม / ฟังก์ชัน | คำอธิบาย |
+|----------------|----------|
+| **Date Filter** | เลือกวันที่ที่ต้องการดูรายการ |
+| **Search** | ค้นหา Trip หรือ Program |
+| **Export** | ส่งออกรายการ Check In เป็นไฟล์ (dropdown เลือกรูปแบบ) |
+
+---
+
+## Action
+
+กดปุ่ม `...` หรือคลิก **Trip Code** เพื่อดูรายละเอียดภายใน Trip นั้น
+
+### View
+
+แสดงรายชื่อลูกค้าทั้งหมดภายใน Trip พร้อมสถานะ Waiting / Checked In / No show รายบุคคล สามารถเปลี่ยนสถานะหรือทำ Check In เพิ่มเติมได้จากหน้านี้

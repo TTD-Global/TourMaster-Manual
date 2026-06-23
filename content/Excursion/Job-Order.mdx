@@ -1,0 +1,68 @@
+---
+title: Job Order
+sidebar_position: 4
+---
+
+# Job Order
+
+หน้า **Job Order** แสดงรายการใบสั่งงาน Excursion ที่สร้างขึ้นจากการจัดกลุ่ม สามารถดาวน์โหลดเพื่อส่งให้ Driver หรือ Supplier รับทราบงานได้
+
+เข้าถึงได้จาก **Excursion → Job Order**
+
+---
+
+## ตารางรายการ
+
+![Excursion Job Order](/img/Excursion/excursion-job-order.png)
+
+### แท็บสถานะ
+
+| แท็บ | คำอธิบาย |
+|------|----------|
+| **All** | แสดง Job Order ทั้งหมด |
+| **Pending** | Job Order ที่ยังไม่ดำเนินการ |
+| **Completed** | Job Order ที่ดำเนินการเสร็จสิ้นแล้ว |
+
+### คอลัมน์ตาราง
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Trip Code** | รหัส Trip |
+| **Travel Date** | วันที่เดินทาง |
+| **Trip Type** | ประเภท Trip |
+| **Trip Round** | รอบเวลาเดินทาง |
+| **Program** | ชื่อโปรแกรม Excursion |
+| **Pax** | จำนวนผู้เดินทาง |
+| **Registration** | ทะเบียนรถที่จัดสรร |
+| **Status** | สถานะ Job Order (Pending / Completed) |
+| **Action** | ปุ่มจัดการ |
+
+:::info
+Job Order จะถูกสร้างอัตโนมัติเมื่อมีการจัดสรร Booking เข้ากลุ่มใน **Supplier Group** หรือ **Own Vehicle Group** เสร็จสมบูรณ์
+:::
+
+---
+
+## ฟังก์ชันบนหน้า
+
+| ปุ่ม / ฟังก์ชัน | คำอธิบาย |
+|----------------|----------|
+| **Export** | ส่งออกรายการ Job Order (dropdown เลือกรูปแบบไฟล์) |
+| **Date Filter** | เลือกวันที่ที่ต้องการดู Job Order |
+| **Search** | ค้นหา Job Order |
+| **Advance Search** | ค้นหาขั้นสูงตามเงื่อนไขหลายอย่าง |
+
+---
+
+## Action
+
+กดปุ่มในคอลัมน์ **Action** เพื่อจัดการ Job Order
+
+### View
+
+แสดงรายละเอียด Job Order แบบ read-only พร้อมรายชื่อผู้โดยสารและข้อมูลรถ
+
+### Download / Print
+
+ดาวน์โหลดหรือพิมพ์ใบ Job Order เพื่อส่งให้ Driver หรือ Supplier

@@ -1,0 +1,19 @@
+[     430ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/login:0
+[     456ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: null, isAuthenticated: false} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   32289ms] [LOG] Attempting login... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   32722ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://dev-green-api.techmaster.in.th/api/auth/login:0
+[   32723ms] [ERROR] Login failed: Error: ไม่พบข้อมูล
+    at s (https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:1:100687)
+    at async Object.post (https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:1:102087)
+    at async login (https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:1:9307)
+    at async j (https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:1:26433)
+    at async https://dev-green.techmaster.in.th/_next/static/chunks/396-24f8bfc2997d2c90.js:1:1302001 @ https://dev-green.techmaster.in.th/_next/static/chunks/1684-68efaae8b20bdbab.js:0
+[   94362ms] [LOG] Attempting login... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   94710ms] [LOG] Login successful, setting tokens @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   94710ms] [LOG] Fetching profile after login... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   94710ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   94710ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   94852ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   95197ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[   95197ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[   95197ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0

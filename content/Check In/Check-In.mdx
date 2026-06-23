@@ -1,0 +1,60 @@
+---
+title: Check In
+sidebar_position: 1
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Check In
+
+หน้า **Check In** ใช้สำหรับเช็คอินลูกค้าที่มาถึงในวันเดินทาง โดยกรอก Booking ID หรือสแกน QR Code เพื่อยืนยันการเข้าร่วม
+
+มี 2 ประเภท เข้าถึงได้จาก **Check In → Excursion → Check In** และ **Check In → Transport → Check In**
+
+---
+
+## หน้า Check In
+
+<Tabs className="unique-tabs">
+
+<TabItem value="excursion" label="Excursion" default>
+
+![Check In — Excursion](/img/CheckIn/checkin-excursion.png)
+
+</TabItem>
+
+<TabItem value="transport" label="Transport">
+
+{/* ![Check In — Transport](/img/CheckIn/checkin-transport.png) */}
+
+:::info
+หน้า Check In ของ Transport มีหน้าตาเหมือนกับ Excursion ทุกประการ ต่างกันที่ URL parameter `tour_type=transport`
+:::
+
+</TabItem>
+
+</Tabs>
+
+---
+
+## วิธีใช้งาน
+
+| ช่องทาง | คำอธิบาย |
+|---------|----------|
+| **Enter Booking ID** | พิมพ์เลข Booking ID แล้วกดปุ่ม **Check In** |
+| **QR Code Scanner** | กดไอคอนสแกนเนอร์ (ด้านขวาของช่องกรอก) เพื่อสแกน QR Code จาก Booking |
+
+---
+
+## ขั้นตอนการ Check In
+
+1. พิมพ์ **Booking ID** ในช่องกรอก หรือกดไอคอนสแกนเพื่อสแกน QR Code
+2. ระบบจะแสดงข้อมูลลูกค้าและ Booking ที่ตรงกัน
+3. ตรวจสอบข้อมูลให้ถูกต้อง (ชื่อลูกค้า, โปรแกรม, จำนวน Pax)
+4. กดปุ่ม **Check In** เพื่อยืนยัน
+5. ระบบจะอัปเดตสถานะเป็น **Checked In** ทันที
+
+:::caution ข้อควรระวัง
+เมื่อกด Check In แล้ว สถานะจะเปลี่ยนทันที กรุณาตรวจสอบข้อมูลให้ถูกต้องก่อนยืนยัน
+:::

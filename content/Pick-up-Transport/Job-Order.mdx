@@ -1,0 +1,67 @@
+---
+title: Job Order
+sidebar_position: 4
+---
+
+# Job Order
+
+หน้า **Job Order** แสดงรายการใบสั่งงาน Pick-up Transport ที่สร้างขึ้นจากการจัดกลุ่ม สามารถดาวน์โหลดเพื่อส่งให้ Driver หรือ Supplier รับทราบจุดรับลูกค้าและ Zone ที่รับผิดชอบ
+
+เข้าถึงได้จาก **Pick up Transport → Job Order**
+
+---
+
+## ตารางรายการ
+
+![Pick-up Job Order](/img/Pick-up-Transport/pickup-job-order.png)
+
+### แท็บสถานะ
+
+| แท็บ | คำอธิบาย |
+|------|----------|
+| **All** | แสดง Job Order ทั้งหมด |
+| **Pending** | Job Order ที่ยังไม่ดำเนินการ |
+| **Completed** | Job Order ที่ดำเนินการเสร็จสิ้นแล้ว |
+
+### คอลัมน์ตาราง
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Trip Code** | รหัส Trip |
+| **Destination** | จุดหมายปลายทาง |
+| **Zone** | Zone ที่รถรับผิดชอบ (เช่น Phuket Town, Rawai, Kamala) |
+| **Personnel** | บุคลากรที่มอบหมาย |
+| **Registration** | ทะเบียนรถที่จัดสรร |
+| **Status** | สถานะ Job Order |
+| | **Pending**: รอดำเนินการ (Badge สีส้ม) |
+| | **Completed**: เสร็จสมบูรณ์ (Badge สีเขียว) |
+| **Action** | ปุ่มจัดการ |
+
+:::info
+Job Order จะถูกสร้างอัตโนมัติเมื่อมีการจัดสรร Booking เข้ากลุ่มใน **Supplier Group** หรือ **Own Vehicle Group** เสร็จสมบูรณ์
+:::
+
+---
+
+## ฟังก์ชันบนหน้า
+
+| ปุ่ม / ฟังก์ชัน | คำอธิบาย |
+|----------------|----------|
+| **Export** | ส่งออกรายการ Job Order (dropdown เลือกรูปแบบไฟล์) |
+| **Date Filter** | เลือกวันที่ที่ต้องการดู Job Order |
+| **Search** | ค้นหา Job Order |
+
+---
+
+## Action
+
+กดปุ่ม `...` ในคอลัมน์ **Action** หรือกดที่ **Trip Code** เพื่อจัดการ Job Order
+
+### View
+
+แสดงรายละเอียด Job Order แบบ read-only พร้อมรายชื่อผู้โดยสาร, จุดรับ และ Zone ที่รับผิดชอบ
+
+### Download / Print
+
+ดาวน์โหลดหรือพิมพ์ใบ Job Order เพื่อส่งให้ Driver หรือ Supplier

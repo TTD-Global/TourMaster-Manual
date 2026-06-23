@@ -1,91 +1,140 @@
 ---
 title: Supplier List
-sidebar_position: 1
+sidebar_position: 3
 ---
 
-import TOCInline from '@theme/TOCInline';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-**Supplier List** รายชื่อผู้ให้บริการยานพาหนะ โดยมีรายละเอียดสำคัญดังนี้
-- **ปุ่ม Create** สำหรับสร้างรายชื่อผู้ให้บริการยานพาหนะ
-- **Group Type Quantity** แสดงจำนวนประเภทยานพาหนะนั้นๆ
-- **Status** แสดงสถานะ เปิด-ปิด การใช้งานผู้ให้บริการยานพาหนะ
-- **Last Modify Date** แสดงวันที่ สร้างหรือแก้ไขล่าสุด
-- **Action** สำหรับจัดการรายชื่อผู้ให้บริการยานพาหนะ
+# Supplier List
+
+หน้า **Supplier List** ใช้จัดการรายชื่อผู้ให้บริการยานพาหนะภายนอก (Supplier) ที่บริษัทใช้งาน
+
+เข้าถึงได้จาก **Setting → Vehicle → Supplier List**
 
 ---
 
-## **Create**
-เมื่อกด Create จะเข้าสู่หน้าสร้างรายชื่อผู้ให้บริการยานพาหนะ โดยมีข้อมูลที่ต้องกรอกทั้งหมด 2 ส่วน ดังนี้
+## ตารางรายการ
+
+![Supplier List](/img/Vehicle/supplier-list.png)
+
+ตารางแสดงรายการ Supplier ทั้งหมด ประกอบด้วยคอลัมน์ดังนี้
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Image** | รูปโปรไฟล์ |
+| **Supplier Name** | ชื่อ Supplier (คลิกได้เพื่อดูรายละเอียด) |
+| **Group Type quantity** | จำนวนประเภทรถที่ผูกไว้ (คลิกได้) |
+| **Status** | สถานะการใช้งาน |
+| | **Active**: เปิดใช้งาน (Badge สีเขียว) |
+| | **Inactive**: ปิดใช้งาน (Badge สีแดง) |
+| **Last Modify Date** | วันที่แก้ไขล่าสุด |
+| **Action** | ปุ่ม `...` สำหรับจัดการ |
+
+---
+
+## ฟังก์ชันบนหน้า
+
+| ปุ่ม | คำอธิบาย |
+|------|----------|
+| **Create Supplier** | สร้าง Supplier ใหม่ |
+| **Search** | ค้นหา Supplier |
+| **Filter** | กรองข้อมูลตามเงื่อนไข |
+| **Export** | ดาวน์โหลดรายชื่อ Supplier |
+
+---
+
+## Action
+
+กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Supplier เพื่อดูรายละเอียด
+
+:::caution ข้อควรระวัง
+ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
+:::
+
+### View
+
+แสดงข้อมูล Supplier แบบ read-only ประกอบด้วย 4 แท็บ ได้แก่ **General Detail**, **Supplier Login**, **Registration** และ **Personnel list**
+
+- กดปุ่ม **Edit** เพื่อเข้าสู่โหมดแก้ไข
+- **Status** — เปลี่ยนสถานะ Active / Inactive ได้จากหน้า View โดยตรง
+
+### Edit
+
+แก้ไขข้อมูล Supplier ได้ทุกส่วน รวมถึง Reset Password ของ Supplier Login
+
+1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
+2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+
+### Delete
+
+กดเพื่อลบ Supplier ออกจากระบบ
+
+:::caution ข้อควรระวัง
+การลบ Supplier จะไม่สามารถกู้คืนได้
+:::
+
+---
+
+## Create
+
+กดปุ่ม **Create Supplier** แล้วกรอกข้อมูลตาม 2 ขั้นตอน
 
 <Tabs className="unique-tabs">
-<TabItem value="General Detail">
 
-## **General Detail** 
-ข้อมูลทั่วไปของ Supplier มีทั้งหมด 3 ส่วนดังนี้
-<Tabs>
-  <TabItem value="General Detail" label="General Detail" default>
-    - **General Detail** ข้อมูลทั่วไปของ Supplier มีดังนี้
-        - _**Supplier Name**_ ชื่อของ Supplier
-        - _**Contract Person**_ ชื่อผู้ทำสัญญา
-        - _**Line ID**_ ชื่อบัญชี Line
-        - _**Phone Number**_ หมายเลขเบอร์โทรศัพท์
-        - _**Email**_ Email ของ Supplier
-        - _**Address**_ ที่อยู่
-        - _**Country**_ ประเทศ
-        - _**Province**_ จังหวัด
-        - _**District**_ ตำบล/แขวง
-        - _**Sub-district**_ อำเภอ/เขต
-        - _**Postal Code**_ หมายเลขไปรษณีย์
-  </TabItem>
-  <TabItem value="Bank Detail" label="Bank Detail">
-    - **Bank Detail** ข้อมูลของธนาคาร
-        - _**Payment Method**_ โดยจะมีให้เลือกทั้งหมด 4 แบบ ดังนี้
-            - _Bank Transfer_ โอนเงิน โดยข้อมูลจะต้องเลือก ธนาคาร กรอกเลขบัญชีธนาคาร และชื่อผู้ถือบัญชี
-            - _Cash_ เงินสด
-            - _Credit Card_ บัตรเครดิต โดยจะต้องเลือกประเภทบัตรเครดิต และกรอกชื่อผู้ถือบัตรเครดิต
-            - _Cheque_ เช็คธนาคาร
-  </TabItem>
-  <TabItem value="Group Type Detail" label="Group Type Detail">
-    - **Group Type Detail** ข้อมูลประเภทรถที่จะใช้
-        - _**Group Type**_ สามารถเลือกข้อมูลได้มากกว่า 1 ตัวเลือก หากเลือก Select All ระบบจะดำเนินการเลือกตัวเลือกที่มีอยู่ทั้งหมด
-        - _**Add Group Type**_ ระบบแสดง Modal : Create Group Type แบ่งเป็นแสดงข้อมูล Group Type ที่มีอยู่ และ สร้าง
-  </TabItem>
+<TabItem value="step1" label="Step 1 — General Detail" default>
 
-</Tabs>
+### General Detail
+
+![Create Supplier - General Detail](/img/Vehicle/supplier-create-general.png)
+
+**General Detail** — ข้อมูลทั่วไปของ Supplier
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| รูปโปรไฟล์ | อัปโหลดรูป Supplier | — |
+| **Supplier Name** | ชื่อ Supplier | ✅ |
+| **Contract Person** | ชื่อผู้ติดต่อ | — |
+| **Line ID** | Line ID สำหรับติดต่อ | — |
+| **Phone Number** | เบอร์โทรศัพท์ | — |
+| **Email** | อีเมล | — |
+| **Address** | ที่อยู่ | — |
+| **Country** | ประเทศ (dropdown) | — |
+| **Destination** | จังหวัด / ปลายทาง (dropdown) | — |
+| **District** | เขต/อำเภอ (dropdown) | — |
+| **Sub-district** | แขวง/ตำบล (dropdown) | — |
+| **Postal Code** | รหัสไปรษณีย์ | — |
+| **Arrangement Type** | ประเภทการจัดรถ — เลือกได้: **Excursion** / **Transport** | ✅ |
+
+**Bank Detail** — ข้อมูลการชำระเงิน
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Payment Method** | วิธีชำระเงิน: Bank Transfer / Cash / Credit Card / Cheque (dropdown) | — |
+
+กด **Continue →** เพื่อไปขั้นตอนถัดไป หรือ **Save and exit** เพื่อบันทึกแล้วกลับมาแก้ไขภายหลัง
+
 </TabItem>
 
-  <TabItem value="Supplier login">
-  
-- **Supplier login** 
-    สร้างบัญชีที่จะใช้ Login : Driver เพื่อตรวจสอบ จัดการ และสร้างคนขับ
-    - **Username** ชื่อบัญชีเข้าสู่ระบบ
-    - **Password** รหัสผ่านในการเข้าสู่ระบบ
-    - **Confirm Password** ยืนยันรหัสผ่านในการเข้าสู่ระบบ
+<TabItem value="step2" label="Step 2 — Supplier Login">
+
+### Supplier Login
+
+สร้างบัญชีสำหรับ Supplier Login เพื่อให้ Driver ของ Supplier เข้าสู่ระบบตรวจสอบงานได้
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Username** | ชื่อบัญชีเข้าสู่ระบบ | ✅ |
+| **Password** | รหัสผ่าน | ✅ |
+| **Confirm Password** | ยืนยันรหัสผ่าน | ✅ |
+
+กด **Save** เพื่อบันทึกข้อมูลทั้งหมดและสร้าง Supplier
+
+:::tip เคล็ดลับ
+สามารถกด **Save and exit** ในขั้นตอนที่ 1 เพื่อบันทึกข้อมูลทั่วไปก่อน แล้วกลับมาสร้าง Supplier Login ภายหลังได้
+:::
+
 </TabItem>
+
 </Tabs>
-
----
-
- ## **Group Type Quantity** 
- แสดงจำนวนของยานพาหนะที่มีการเลือกผูกไว้ตอนสร้างหรือแก้ไขข้อมูลล่าสุด
-
- ---
-
- ## **Last Modify Date**
- แสดงวันที่ที่มีการสร้างหรือแก้ไขข้อมูลล่าสุด
-
- ---
-
-## **Action**
-สามารถจัดการข้อมูลด้วยคำสั่งต่างๆ ได้ดังรูป
-    - **View**
-เพื่อเข้าตรวจสอบข้อมูลที่มีการสร้างขึ้นหรือแก้ไขล่าสุดแต่จะ _ไม่สามารถแก้ไขข้อมูล_  หากต้องการแก้ไขข้อมูลสามารถกด **Edit** ได้
-        
-        - _**Edit**_ ใช้ในการแก้ไขข้อมูลต่างๆรวมถึง สถานะ _เปิด-ปิดการใช้งาน_ และสามารถ _Reset Password_ ได้ 
-
-    - **Delete**
-เพื่อใช้ในการลบข้อมูล Supplier ที่ไม่ได้ใช้งานแล้วหรือต้องการลบออกจากระบบ   
-        
----

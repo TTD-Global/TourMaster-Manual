@@ -44,13 +44,13 @@ const sidebars: SidebarsConfig = {
     {
       type: "category",
       label: "Bookings",
-      items: ["Booking", "Bookings/Create-Booking"],
+      items: ["Bookings/Overview", "Bookings/Booking-List", "Bookings/Create-Booking"],
     },
     {
       type: "category",
       label: "Excursion",
       items: [
-        "Excursion/Manage-Group",
+        "Excursion/Summary",
         "Excursion/Supplier-Group",
         "Excursion/Own-Vehicle-Group",
         "Excursion/Job-Order",
@@ -61,7 +61,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Pick-up Transport",
       items: [
-        "Pick-up-Transport/Manage-Group",
+        "Pick-up-Transport/Summary",
         "Pick-up-Transport/Supplier-Group",
         "Pick-up-Transport/Own-Vehicle-Group",
         "Pick-up-Transport/Job-Order",
@@ -72,7 +72,7 @@ const sidebars: SidebarsConfig = {
       type: "category",
       label: "Drop-off Transport",
       items: [
-        "Drop-off-Transport/Manage-Group",
+        "Drop-off-Transport/Summary",
         "Drop-off-Transport/Supplier-Group",
         "Drop-off-Transport/Own-Vehicle-Group",
         "Drop-off-Transport/Job-Order",
@@ -90,12 +90,12 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "Expense",
+      label: "Payment",
       items: [
-        "Expense/Advance",
-        "Expense/Actual",
-        "Expense/Accrued",
-        "Expense/Report",
+        "Payment/Advance",
+        "Payment/Expenses",
+        "Payment/Balance",
+        "Payment/Report",
       ],
     },
     "Guide-Task",

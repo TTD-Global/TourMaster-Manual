@@ -1,0 +1,64 @@
+---
+title: Own Vehicle Group
+sidebar_position: 3
+---
+
+# Own Vehicle Group
+
+หน้า **Own Vehicle Group** ใช้จัดสรร Booking Drop-off Transport ให้กับยานพาหนะของบริษัทเอง โดยกำหนด Zone ของแต่ละ Booking ก่อน แล้วจึงลาก Booking เข้ากลุ่มรถ
+
+เข้าถึงได้จาก **Drop off Transport → Own Vehicle Group** หรือผ่าน Action `...` บนหน้า Summary
+
+---
+
+## ภาพรวม
+
+![Drop-off Own Vehicle Group](/img/Drop-off-Transport/dropoff-own-vehicle-group.png)
+
+ด้านบนแสดง Summary Card ของวันที่เลือก
+
+| Card | คำอธิบาย |
+|------|----------|
+| **Booking Travel Date** | วันที่เดินทางที่กำลังจัดการ |
+| **Total Bookings** | จำนวน Booking ทั้งหมดของวันนั้น |
+| **Unassigned** | จำนวน Booking ที่ยังไม่ได้จัดสรรรถ (แสดงสีแดงเมื่อยังมีเหลือ) |
+| **Pax (Assigned/Total)** | จำนวนผู้เดินทางที่จัดสรรแล้ว / ทั้งหมด |
+| **Vehicle in Use** | จำนวนรถ Own Vehicle ที่ใช้งานในวันนั้น |
+| **Total Group** | จำนวนกลุ่มที่สร้างแล้ว |
+
+:::info
+โครงสร้างหน้านี้เหมือนกับ **Supplier Group** ทุกประการ ต่างกันที่ Panel ขวาแสดงรายการรถของบริษัทเองแทน Supplier ภายนอก
+:::
+
+---
+
+## Panel ซ้าย — รายการ Booking
+
+แสดงรายการ Booking พร้อม **Zone** dropdown และ **Drop-off location** บน Booking Card ทุกใบ โครงสร้างและตัวกรองเหมือนกับ [Supplier Group](./Supplier-Group) ทุกประการ
+
+---
+
+## Panel ขวา — รายการรถ Own Vehicle
+
+แสดงรายการยานพาหนะของบริษัทที่พร้อมใช้งานในวันนั้น
+
+| ข้อมูล | คำอธิบาย |
+|--------|----------|
+| **ชื่อ Group Type (จำนวนที่นั่ง)** | เช่น speed (30), BUS (14) |
+| **ทะเบียนรถ** | หมายเลขป้ายทะเบียน |
+| **Available** | จำนวนรถที่ว่างอยู่ |
+
+---
+
+## ขั้นตอนการจัดสรร Own Vehicle
+
+1. เลือก **Booking Travel Date** ที่ต้องการจัดการ
+2. กำหนด **Zone** ให้กับแต่ละ Booking จาก dropdown ในการ์ด
+3. กรอง Booking ตาม Zone ที่ต้องการจาก **Filter by Zone**
+4. เลือก Booking ด้วย checkbox หรือ **Select all booking**
+5. ลาก Booking ไปวางในรถที่ต้องการจาก Panel ขวา
+6. ทำซ้ำจนครบทุก Zone (Unassigned = 0)
+
+:::tip เคล็ดลับ
+ต้องสร้าง Zone ไว้ใน **Setting → Zone Transfer** และเพิ่ม Registration รถใน **Setting → Vehicle → Own Vehicle** ก่อน
+:::

@@ -1,0 +1,75 @@
+---
+title: Balance
+sidebar_position: 3
+---
+
+# Balance
+
+**Balance** คือหน้าสรุปยอดเงินคงเหลือของแต่ละ Trip เปรียบเทียบระหว่างเงิน Advance ที่เบิกไปกับค่าใช้จ่ายจริงที่เกิดขึ้น
+
+เข้าถึงได้จาก **Payment → Balance**
+
+---
+
+## ตารางรายการ
+
+![Balance](/img/Payment/payment-balance.png)
+
+### Summary Card
+
+ด้านบนแสดง Card สรุปภาพรวม
+
+| Card | คำอธิบาย |
+|------|----------|
+| **Amount Trip** | จำนวน Trip ทั้งหมด |
+| **Total Advance** | ยอดเงิน Advance รวม |
+| **Total Actual** | ยอดค่าใช้จ่ายจริงรวม |
+| **Return to company** | ยอดเงินที่ต้องคืนบริษัท (Advance > Actual) |
+| **Company pays additional** | ยอดที่บริษัทต้องจ่ายเพิ่ม (Actual > Advance) |
+
+### แท็บสถานะ
+
+| แท็บ | คำอธิบาย |
+|------|----------|
+| **Pending** | Trip ที่ยังรอดำเนินการ |
+| **Completed** | Trip ที่ดำเนินการเสร็จแล้ว |
+
+### คอลัมน์ตาราง
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Trip Code** | รหัส Trip |
+| **Trip Type** | ประเภท Trip (เช่น Join In) |
+| **Program** | ชื่อโปรแกรม |
+| **Guide** | ชื่อ Guide ที่รับผิดชอบ |
+| **Adv.Pax** | จำนวน Pax ที่ใช้คำนวณ Advance |
+| **Adv.Cost** | ยอดเงิน Advance |
+| **Act.Pax** | จำนวน Pax ที่เกิดขึ้นจริง |
+| **Expense** | ยอดค่าใช้จ่ายจริง |
+| **Balance** | ยอดคงเหลือ (Adv.Cost − Expense) |
+| **Slip** | หลักฐานการโอนเงิน / สลิป |
+| **Action** | ปุ่มจัดการ |
+
+---
+
+## การตีความ Balance
+
+| ผลลัพธ์ | ความหมาย |
+|---------|----------|
+| **Balance > 0** (บวก) | Advance มากกว่า Expense → Guide คืนเงินส่วนเกิน |
+| **Balance = 0** | ค่าใช้จ่ายตรงกับ Advance พอดี |
+| **Balance < 0** (ลบ) | Expense เกิน Advance → บริษัทจ่ายเพิ่มให้ Guide |
+
+---
+
+## ฟังก์ชันบนหน้า
+
+| ปุ่ม / ฟังก์ชัน | คำอธิบาย |
+|----------------|----------|
+| **Date Filter** | กรองรายการตามวันที่ |
+| **Export** | ส่งออกรายงาน Balance เป็นไฟล์ |
+
+:::info
+Balance คำนวณอัตโนมัติจากข้อมูล Advance และ Expenses ที่บันทึกไว้ สามารถดูสรุปภาพรวมทุก Trip ได้ใน **Report**
+:::

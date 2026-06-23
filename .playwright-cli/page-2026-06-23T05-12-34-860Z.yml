@@ -1,0 +1,406 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e46]
+          - text: Management
+          - group [ref=e47]:
+            - menuitem "Bookings" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e52]: Bookings
+            - menuitem "Excursion" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e56]: Excursion
+            - menuitem "Pick up Transport" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e63]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e70]: Drop off Transport
+            - menuitem "Check In" [ref=e71] [cursor=pointer]:
+              - img [ref=e72]
+              - generic [ref=e75]: Check In
+            - menuitem "Payment" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e80]: Payment
+            - menuitem "Guide Task" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e85]: Guide Task
+          - separator [ref=e86]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e87] [cursor=pointer]:
+            - img [ref=e88]
+            - generic [ref=e92]: Program
+          - menuitem "Seller" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Seller
+          - menuitem "Vehicle" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e100]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e106]: Employee
+          - menu [ref=e145]:
+            - menuitem "Employee summary" [ref=e146] [cursor=pointer]:
+              - img [ref=e147]
+              - generic [ref=e149]: Employee summary
+            - menuitem "Guide / Staff" [ref=e150] [cursor=pointer]:
+              - img [ref=e151]
+              - generic [ref=e153]: Guide / Staff
+            - menuitem "Other" [ref=e154] [cursor=pointer]:
+              - img [ref=e155]
+              - generic [ref=e157]: Other
+            - menuitem "Positions" [ref=e158] [cursor=pointer]:
+              - img [ref=e159]
+              - generic [ref=e161]: Positions
+          - menuitem "Zone Transfer" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e112]: Zone Transfer
+          - menuitem "User" [ref=e113] [cursor=pointer]:
+            - img [ref=e114]
+            - generic [ref=e117]: User
+          - menuitem "Company" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: Company
+          - menuitem "User Manual" [ref=e122] [cursor=pointer]:
+            - img [ref=e123]
+            - generic [ref=e125]: User Manual
+    - generic [ref=e126]:
+      - banner [ref=e127]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: "Tue : 23 Jun 2026, 12:12"
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e134]: AM
+            - generic [ref=e135]:
+              - generic [ref=e136]: amares
+              - generic [ref=e137]: Superadmin
+            - img [ref=e139]
+      - main [ref=e141]:
+        - generic [ref=e1241]:
+          - generic [ref=e1242]:
+            - generic [ref=e1243]:
+              - generic [ref=e1244]: Employee
+              - img [ref=e1245]
+              - generic [ref=e1247]: Guide / Staff
+            - button "Create Staff" [ref=e1878] [cursor=pointer]:
+              - img [ref=e1251]
+              - text: Create Staff
+          - generic [ref=e1253]:
+            - tablist [ref=e1254]:
+              - generic [ref=e1256]:
+                - tab "Guide List 491" [ref=e1258] [cursor=pointer]:
+                  - generic [ref=e1260]:
+                    - text: Guide List
+                    - generic [ref=e1262]: "491"
+                - tab "Staff List 15" [active] [selected] [ref=e1264] [cursor=pointer]:
+                  - generic [ref=e1266]:
+                    - text: Staff List
+                    - generic [ref=e1268]: "15"
+              - generic [ref=e1270]:
+                - generic [ref=e1273]:
+                  - img [ref=e1275]
+                  - textbox "Search" [ref=e1278]
+                - button "Filter" [ref=e1280] [cursor=pointer]:
+                  - img [ref=e1282]
+                  - text: Filter
+                - button "Export" [ref=e1285] [cursor=pointer]:
+                  - img [ref=e1287]
+                  - generic [ref=e1290]: Export
+                  - img [ref=e1292]
+            - tabpanel "Staff List 15" [ref=e1879]:
+              - generic [ref=e1883]:
+                - table [ref=e1887]:
+                  - rowgroup [ref=e1897]:
+                    - row "# Image Nickname Staff Name Phone Number Status Last Modify Date Action" [ref=e1898]:
+                      - columnheader "#" [ref=e1899]
+                      - columnheader "Image" [ref=e1900]
+                      - columnheader "Nickname" [ref=e1901]
+                      - columnheader "Staff Name" [ref=e1902]
+                      - columnheader "Phone Number" [ref=e1903]
+                      - columnheader "Status" [ref=e1904]
+                      - columnheader "Last Modify Date" [ref=e1905]
+                      - columnheader "Action" [ref=e1906]
+                  - rowgroup [ref=e1907]:
+                    - row "1 Staff.SF StaffAllStep1779244035853Full 0881234568 Draft 20/05/2026" [ref=e1908]:
+                      - cell "1" [ref=e1909]
+                      - cell [ref=e1910]:
+                        - img [ref=e1913]
+                      - cell "Staff.SF" [ref=e1915]:
+                        - generic [ref=e1916]: Staff.SF
+                      - cell "StaffAllStep1779244035853Full" [ref=e1917]:
+                        - link "StaffAllStep1779244035853Full" [ref=e1918] [cursor=pointer]:
+                          - /url: guide/create?id=986&guide_type=staff
+                          - generic [ref=e1919]: StaffAllStep1779244035853Full
+                      - cell "0881234568" [ref=e1920]:
+                        - generic [ref=e1921]: "0881234568"
+                      - cell "Draft" [ref=e1922]:
+                        - generic [ref=e1925]: Draft
+                      - cell "20/05/2026" [ref=e1926]
+                      - cell [ref=e1927]:
+                        - img [ref=e1930] [cursor=pointer]
+                    - row "2 Staff.SAS StaffAllStep1779244035853 0881234567 Draft 20/05/2026" [ref=e1934]:
+                      - cell "2" [ref=e1935]
+                      - cell [ref=e1936]:
+                        - img [ref=e1939]
+                      - cell "Staff.SAS" [ref=e1941]:
+                        - generic [ref=e1942]: Staff.SAS
+                      - cell "StaffAllStep1779244035853" [ref=e1943]:
+                        - link "StaffAllStep1779244035853" [ref=e1944] [cursor=pointer]:
+                          - /url: guide/create?id=985&guide_type=staff
+                          - generic [ref=e1945]: StaffAllStep1779244035853
+                      - cell "0881234567" [ref=e1946]:
+                        - generic [ref=e1947]: "0881234567"
+                      - cell "Draft" [ref=e1948]:
+                        - generic [ref=e1951]: Draft
+                      - cell "20/05/2026" [ref=e1952]
+                      - cell [ref=e1953]:
+                        - img [ref=e1956] [cursor=pointer]
+                    - row "3 Staff.SAS StaffAllStep1779244035853 0881234567 Draft 20/05/2026" [ref=e1960]:
+                      - cell "3" [ref=e1961]
+                      - cell [ref=e1962]:
+                        - img [ref=e1965]
+                      - cell "Staff.SAS" [ref=e1967]:
+                        - generic [ref=e1968]: Staff.SAS
+                      - cell "StaffAllStep1779244035853" [ref=e1969]:
+                        - link "StaffAllStep1779244035853" [ref=e1970] [cursor=pointer]:
+                          - /url: guide/create?id=984&guide_type=staff
+                          - generic [ref=e1971]: StaffAllStep1779244035853
+                      - cell "0881234567" [ref=e1972]:
+                        - generic [ref=e1973]: "0881234567"
+                      - cell "Draft" [ref=e1974]:
+                        - generic [ref=e1977]: Draft
+                      - cell "20/05/2026" [ref=e1978]
+                      - cell [ref=e1979]:
+                        - img [ref=e1982] [cursor=pointer]
+                    - row "4 Staff.SF StaffAllStep1779243926864Full 0881234568 Draft 20/05/2026" [ref=e1986]:
+                      - cell "4" [ref=e1987]
+                      - cell [ref=e1988]:
+                        - img [ref=e1991]
+                      - cell "Staff.SF" [ref=e1993]:
+                        - generic [ref=e1994]: Staff.SF
+                      - cell "StaffAllStep1779243926864Full" [ref=e1995]:
+                        - link "StaffAllStep1779243926864Full" [ref=e1996] [cursor=pointer]:
+                          - /url: guide/create?id=975&guide_type=staff
+                          - generic [ref=e1997]: StaffAllStep1779243926864Full
+                      - cell "0881234568" [ref=e1998]:
+                        - generic [ref=e1999]: "0881234568"
+                      - cell "Draft" [ref=e2000]:
+                        - generic [ref=e2003]: Draft
+                      - cell "20/05/2026" [ref=e2004]
+                      - cell [ref=e2005]:
+                        - img [ref=e2008] [cursor=pointer]
+                    - row "5 Staff.SAS StaffAllStep1779243926864 0881234567 Draft 20/05/2026" [ref=e2012]:
+                      - cell "5" [ref=e2013]
+                      - cell [ref=e2014]:
+                        - img [ref=e2017]
+                      - cell "Staff.SAS" [ref=e2019]:
+                        - generic [ref=e2020]: Staff.SAS
+                      - cell "StaffAllStep1779243926864" [ref=e2021]:
+                        - link "StaffAllStep1779243926864" [ref=e2022] [cursor=pointer]:
+                          - /url: guide/create?id=974&guide_type=staff
+                          - generic [ref=e2023]: StaffAllStep1779243926864
+                      - cell "0881234567" [ref=e2024]:
+                        - generic [ref=e2025]: "0881234567"
+                      - cell "Draft" [ref=e2026]:
+                        - generic [ref=e2029]: Draft
+                      - cell "20/05/2026" [ref=e2030]
+                      - cell [ref=e2031]:
+                        - img [ref=e2034] [cursor=pointer]
+                    - row "6 Staff.SAS StaffAllStep1779243926864 0881234567 Draft 20/05/2026" [ref=e2038]:
+                      - cell "6" [ref=e2039]
+                      - cell [ref=e2040]:
+                        - img [ref=e2043]
+                      - cell "Staff.SAS" [ref=e2045]:
+                        - generic [ref=e2046]: Staff.SAS
+                      - cell "StaffAllStep1779243926864" [ref=e2047]:
+                        - link "StaffAllStep1779243926864" [ref=e2048] [cursor=pointer]:
+                          - /url: guide/create?id=973&guide_type=staff
+                          - generic [ref=e2049]: StaffAllStep1779243926864
+                      - cell "0881234567" [ref=e2050]:
+                        - generic [ref=e2051]: "0881234567"
+                      - cell "Draft" [ref=e2052]:
+                        - generic [ref=e2055]: Draft
+                      - cell "20/05/2026" [ref=e2056]
+                      - cell [ref=e2057]:
+                        - img [ref=e2060] [cursor=pointer]
+                    - row "7 Staff.TS TestStaff 0881234567 Draft 19/05/2026" [ref=e2064]:
+                      - cell "7" [ref=e2065]
+                      - cell [ref=e2066]:
+                        - img [ref=e2069]
+                      - cell "Staff.TS" [ref=e2071]:
+                        - generic [ref=e2072]: Staff.TS
+                      - cell "TestStaff" [ref=e2073]:
+                        - link "TestStaff" [ref=e2074] [cursor=pointer]:
+                          - /url: guide/create?id=962&guide_type=staff
+                          - generic [ref=e2075]: TestStaff
+                      - cell "0881234567" [ref=e2076]:
+                        - generic [ref=e2077]: "0881234567"
+                      - cell "Draft" [ref=e2078]:
+                        - generic [ref=e2081]: Draft
+                      - cell "19/05/2026" [ref=e2082]
+                      - cell [ref=e2083]:
+                        - img [ref=e2086] [cursor=pointer]
+                    - row "8 Staff.dawdawd awdwad adawdaw 23423423324 Draft 07/05/2026" [ref=e2090]:
+                      - cell "8" [ref=e2091]
+                      - cell [ref=e2092]:
+                        - img [ref=e2095]
+                      - cell "Staff.dawdawd" [ref=e2097]:
+                        - generic [ref=e2098]: Staff.dawdawd
+                      - cell "awdwad adawdaw" [ref=e2099]:
+                        - link "awdwad adawdaw" [ref=e2100] [cursor=pointer]:
+                          - /url: guide/create?id=35&guide_type=staff
+                          - generic [ref=e2101]: awdwad adawdaw
+                      - cell "23423423324" [ref=e2102]:
+                        - generic [ref=e2103]: "23423423324"
+                      - cell "Draft" [ref=e2104]:
+                        - generic [ref=e2107]: Draft
+                      - cell "07/05/2026" [ref=e2108]
+                      - cell [ref=e2109]:
+                        - img [ref=e2112] [cursor=pointer]
+                    - row "9 Staff.เจริญ (STAFF DPU) เจริญ สระทองใจ 0988843529 Active 19/05/2026" [ref=e2116]:
+                      - cell "9" [ref=e2117]
+                      - cell [ref=e2118]:
+                        - img [ref=e2121]
+                      - cell "Staff.เจริญ (STAFF DPU)" [ref=e2123]:
+                        - generic [ref=e2124]: Staff.เจริญ (STAFF DPU)
+                      - cell "เจริญ สระทองใจ" [ref=e2125]:
+                        - link "เจริญ สระทองใจ" [ref=e2126] [cursor=pointer]:
+                          - /url: guide/953?guide_type=staff
+                          - generic [ref=e2127]: เจริญ สระทองใจ
+                      - cell "0988843529" [ref=e2128]:
+                        - generic [ref=e2129]: "0988843529"
+                      - cell "Active" [ref=e2130]:
+                        - generic [ref=e2133]: Active
+                      - cell "19/05/2026" [ref=e2134]
+                      - cell [ref=e2135]:
+                        - img [ref=e2138] [cursor=pointer]
+                    - row "10 Staff.Earn ( OP ) อริสา โทศรี (Staff) 0924200733 Active 19/05/2026" [ref=e2142]:
+                      - cell "10" [ref=e2143]
+                      - cell [ref=e2144]:
+                        - img [ref=e2147]
+                      - cell "Staff.Earn ( OP )" [ref=e2149]:
+                        - generic [ref=e2150]: Staff.Earn ( OP )
+                      - cell "อริสา โทศรี (Staff)" [ref=e2151]:
+                        - link "อริสา โทศรี (Staff)" [ref=e2152] [cursor=pointer]:
+                          - /url: guide/949?guide_type=staff
+                          - generic [ref=e2153]: อริสา โทศรี (Staff)
+                      - cell "0924200733" [ref=e2154]:
+                        - generic [ref=e2155]: "0924200733"
+                      - cell "Active" [ref=e2156]:
+                        - generic [ref=e2159]: Active
+                      - cell "19/05/2026" [ref=e2160]
+                      - cell [ref=e2161]:
+                        - img [ref=e2164] [cursor=pointer]
+                    - row "11 Staff.Staff WIN สรวิชญ์ จิระธนาไพบูลย์ 0828916265 Active 19/05/2026" [ref=e2168]:
+                      - cell "11" [ref=e2169]
+                      - cell [ref=e2170]:
+                        - img [ref=e2173]
+                      - cell "Staff.Staff WIN" [ref=e2175]:
+                        - generic [ref=e2176]: Staff.Staff WIN
+                      - cell "สรวิชญ์ จิระธนาไพบูลย์" [ref=e2177]:
+                        - link "สรวิชญ์ จิระธนาไพบูลย์" [ref=e2178] [cursor=pointer]:
+                          - /url: guide/950?guide_type=staff
+                          - generic [ref=e2179]: สรวิชญ์ จิระธนาไพบูลย์
+                      - cell "0828916265" [ref=e2180]:
+                        - generic [ref=e2181]: "0828916265"
+                      - cell "Active" [ref=e2182]:
+                        - generic [ref=e2185]: Active
+                      - cell "19/05/2026" [ref=e2186]
+                      - cell [ref=e2187]:
+                        - img [ref=e2190] [cursor=pointer]
+                    - row "12 Staff.จารุวรรณ (STAFF DPU) จารุวรรณ สิงห์จันทร์ 0628876336 Active 19/05/2026" [ref=e2194]:
+                      - cell "12" [ref=e2195]
+                      - cell [ref=e2196]:
+                        - img [ref=e2199]
+                      - cell "Staff.จารุวรรณ (STAFF DPU)" [ref=e2201]:
+                        - generic [ref=e2202] [cursor=pointer]: Staff.จารุวรรณ (STAFF DPU)
+                      - cell "จารุวรรณ สิงห์จันทร์" [ref=e2203]:
+                        - link "จารุวรรณ สิงห์จันทร์" [ref=e2204] [cursor=pointer]:
+                          - /url: guide/951?guide_type=staff
+                          - generic [ref=e2205]: จารุวรรณ สิงห์จันทร์
+                      - cell "0628876336" [ref=e2206]:
+                        - generic [ref=e2207]: "0628876336"
+                      - cell "Active" [ref=e2208]:
+                        - generic [ref=e2211]: Active
+                      - cell "19/05/2026" [ref=e2212]
+                      - cell [ref=e2213]:
+                        - img [ref=e2216] [cursor=pointer]
+                    - row "13 Staff.ธันยพร (STAFF DPU) จันต่อ null 0844154109 Active 19/05/2026" [ref=e2220]:
+                      - cell "13" [ref=e2221]
+                      - cell [ref=e2222]:
+                        - img [ref=e2225]
+                      - cell "Staff.ธันยพร (STAFF DPU)" [ref=e2227]:
+                        - generic [ref=e2228] [cursor=pointer]: Staff.ธันยพร (STAFF DPU)
+                      - cell "จันต่อ null" [ref=e2229]:
+                        - link "จันต่อ null" [ref=e2230] [cursor=pointer]:
+                          - /url: guide/952?guide_type=staff
+                          - generic [ref=e2231]: จันต่อ null
+                      - cell "0844154109" [ref=e2232]:
+                        - generic [ref=e2233]: "0844154109"
+                      - cell "Active" [ref=e2234]:
+                        - generic [ref=e2237]: Active
+                      - cell "19/05/2026" [ref=e2238]
+                      - cell [ref=e2239]:
+                        - img [ref=e2242] [cursor=pointer]
+                    - row "14 Staff.พรสิน (STAFF DPU) พรสิน ติง 0610697710 Active 19/05/2026" [ref=e2246]:
+                      - cell "14" [ref=e2247]
+                      - cell [ref=e2248]:
+                        - img [ref=e2251]
+                      - cell "Staff.พรสิน (STAFF DPU)" [ref=e2253]:
+                        - generic [ref=e2254]: Staff.พรสิน (STAFF DPU)
+                      - cell "พรสิน ติง" [ref=e2255]:
+                        - link "พรสิน ติง" [ref=e2256] [cursor=pointer]:
+                          - /url: guide/954?guide_type=staff
+                          - generic [ref=e2257]: พรสิน ติง
+                      - cell "0610697710" [ref=e2258]:
+                        - generic [ref=e2259]: "0610697710"
+                      - cell "Active" [ref=e2260]:
+                        - generic [ref=e2263]: Active
+                      - cell "19/05/2026" [ref=e2264]
+                      - cell [ref=e2265]:
+                        - img [ref=e2268] [cursor=pointer]
+                    - row "15 Staff.Gojo Gojo Satoru 0894566879 Active 06/05/2026" [ref=e2272]:
+                      - cell "15" [ref=e2273]
+                      - cell [ref=e2274]:
+                        - img [ref=e2277]
+                      - cell "Staff.Gojo" [ref=e2279]:
+                        - generic [ref=e2280]: Staff.Gojo
+                      - cell "Gojo Satoru" [ref=e2281]:
+                        - link "Gojo Satoru" [ref=e2282] [cursor=pointer]:
+                          - /url: guide/2?guide_type=staff
+                          - generic [ref=e2283]: Gojo Satoru
+                      - cell "0894566879" [ref=e2284]:
+                        - generic [ref=e2285]: "0894566879"
+                      - cell "Active" [ref=e2286]:
+                        - generic [ref=e2289]: Active
+                      - cell "06/05/2026" [ref=e2290]
+                      - cell [ref=e2291]:
+                        - img [ref=e2294] [cursor=pointer]
+                - list [ref=e2298]:
+                  - listitem "Previous Page" [ref=e2299]:
+                    - button "left" [disabled] [ref=e2300]:
+                      - img "left" [ref=e2301]:
+                        - img [ref=e2302]
+                  - listitem "1" [ref=e2304] [cursor=pointer]:
+                    - generic [ref=e2305]: "1"
+                  - listitem "Next Page" [ref=e2306]:
+                    - button "right" [disabled] [ref=e2307]:
+                      - img "right" [ref=e2308]:
+                        - img [ref=e2309]
+                  - listitem [ref=e2311]:
+                    - generic "Page Size" [ref=e2312] [cursor=pointer]:
+                      - generic [ref=e2314]:
+                        - combobox "Page Size" [ref=e2316]
+                        - generic "15 / page" [ref=e2317]
+                      - generic:
+                        - img:
+                          - img

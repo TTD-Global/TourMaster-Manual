@@ -1,0 +1,589 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - separator [ref=e18]
+          - text: Management
+          - group [ref=e19]:
+            - menuitem "Bookings" [expanded] [ref=e20] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e24]: Bookings
+            - menu [ref=e184]:
+              - menuitem "Overview" [ref=e25] [cursor=pointer]:
+                - img [ref=e26]
+                - generic [ref=e28]: Overview
+              - menuitem "Create Booking" [active] [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e32]: Create Booking
+              - menuitem "Booking List" [ref=e33] [cursor=pointer]:
+                - img [ref=e34]
+                - generic [ref=e36]: Booking List
+            - menuitem "Excursion" [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - generic [ref=e40]: Excursion
+            - menuitem "Pick up Transport" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e47]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e54]: Drop off Transport
+            - menuitem "Check In" [ref=e55] [cursor=pointer]:
+              - img [ref=e56]
+              - generic [ref=e59]: Check In
+            - menuitem "Guide Task" [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e64]: Guide Task
+          - separator [ref=e65]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e66] [cursor=pointer]:
+            - img [ref=e67]
+            - generic [ref=e71]: Program
+          - menuitem "Seller" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e75]: Seller
+          - menuitem "Vehicle" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Vehicle
+          - menuitem "Employee" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e85]: Employee
+          - menuitem "Zone Transfer" [ref=e86] [cursor=pointer]:
+            - img [ref=e87]
+            - generic [ref=e91]: Zone Transfer
+          - menuitem "User" [ref=e92] [cursor=pointer]:
+            - img [ref=e93]
+            - generic [ref=e96]: User
+          - menuitem "Company" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e100]: Company
+          - menuitem "User Manual" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: User Manual
+    - generic [ref=e105]:
+      - banner [ref=e106]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: "Tue : 23 Jun 2026, 16:07"
+          - generic [ref=e111] [cursor=pointer]:
+            - generic [ref=e113]: AM
+            - generic [ref=e114]:
+              - generic [ref=e115]: amares123
+              - generic [ref=e116]: Claude test
+            - img [ref=e118]
+      - main [ref=e120]:
+        - generic [ref=e185]:
+          - generic [ref=e187]:
+            - generic [ref=e188]: Booking
+            - img [ref=e189]
+            - generic [ref=e191]: Create Booking
+          - generic [ref=e193]:
+            - generic [ref=e194]:
+              - generic [ref=e195]:
+                - paragraph [ref=e196]: Create New Booking
+                - generic [ref=e197] [cursor=pointer]:
+                  - generic: Booking Travel Date
+                  - generic [ref=e198]:
+                    - img [ref=e199]
+                    - generic: 23/06/2026
+                  - generic [ref=e201]:
+                    - generic:
+                      - textbox "Select date": 23/06/2026
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - generic [ref=e205]:
+                    - img [ref=e207]
+                    - text: Booking Details
+                  - img [ref=e211] [cursor=pointer]
+                - generic [ref=e215]:
+                  - generic [ref=e216]:
+                    - generic [ref=e217]:
+                      - generic [ref=e218]: Seller *
+                      - generic [ref=e220] [cursor=pointer]:
+                        - generic [ref=e222]:
+                          - combobox [ref=e224]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e225]:
+                      - generic [ref=e226]: Booking No. *
+                      - textbox "Please enter" [ref=e228]
+                    - generic [ref=e230]:
+                      - generic [ref=e231]: Program Name *
+                      - generic [ref=e233] [cursor=pointer]:
+                        - generic [ref=e235]:
+                          - combobox [ref=e237]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e238]:
+                      - generic [ref=e239]: Payment
+                      - generic [ref=e241] [cursor=pointer]:
+                        - generic [ref=e243]:
+                          - combobox [ref=e245]
+                          - generic: Please select
+                        - generic:
+                          - img
+                  - generic [ref=e246]:
+                    - generic [ref=e247]:
+                      - generic [ref=e248]: Option
+                      - generic [ref=e250] [cursor=pointer]:
+                        - generic [ref=e252]:
+                          - combobox [ref=e254]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e255]:
+                      - generic [ref=e256]: Trip Type *
+                      - generic [ref=e258] [cursor=pointer]:
+                        - generic [ref=e260]:
+                          - combobox [ref=e262]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e263]:
+                      - generic [ref=e264]: Trip round *
+                      - generic [ref=e266] [cursor=pointer]:
+                        - generic [ref=e267]:
+                          - img [ref=e269]
+                          - generic [ref=e272]:
+                            - combobox [ref=e274]
+                            - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e275]:
+                      - generic [ref=e276]: Language *
+                      - generic [ref=e278] [cursor=pointer]:
+                        - generic [ref=e280]:
+                          - combobox [ref=e282]
+                          - generic: Please select
+                        - generic:
+                          - img
+              - generic [ref=e283]:
+                - generic [ref=e284]:
+                  - generic [ref=e286]:
+                    - img [ref=e288]
+                    - text: Customer Details
+                  - img [ref=e292] [cursor=pointer]
+                - generic [ref=e296]:
+                  - generic [ref=e297]:
+                    - generic [ref=e298]: Customer Name *
+                    - textbox "Please enter" [ref=e300]
+                  - generic [ref=e302]:
+                    - generic [ref=e303]: Nationality
+                    - textbox "Please enter" [ref=e305]
+                  - generic [ref=e307]:
+                    - generic [ref=e308]: Email
+                    - textbox "Please enter" [ref=e310]
+                  - generic [ref=e312]:
+                    - generic [ref=e313]: Phone number
+                    - textbox "Please enter" [ref=e315]
+                  - generic [ref=e317]:
+                    - generic [ref=e318]: Contact method
+                    - generic [ref=e320] [cursor=pointer]:
+                      - generic [ref=e322]:
+                        - combobox [ref=e324]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - textbox [disabled] [ref=e328]
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - generic [ref=e333]:
+                    - img [ref=e335]
+                    - text: Unit Details
+                  - img [ref=e341] [cursor=pointer]
+                - generic [ref=e344]:
+                  - generic [ref=e345]:
+                    - generic [ref=e346]: Unit
+                    - generic [ref=e347]: Price
+                    - generic [ref=e348]: Quantity
+                    - generic [ref=e349]: KB
+                    - generic [ref=e350]: Total
+                  - generic [ref=e351]:
+                    - img [ref=e353]
+                    - generic [ref=e370]:
+                      - generic [ref=e371]: Sub total
+                      - generic [ref=e372]: ฿ 0.00
+                    - generic [ref=e373]:
+                      - generic [ref=e374]:
+                        - img [ref=e376]
+                        - text: Discount
+                      - generic [ref=e383]:
+                        - generic:
+                          - paragraph: ฿
+                        - generic [ref=e384]:
+                          - generic:
+                            - button "Increase Value":
+                              - img "up":
+                                - img
+                            - button "Decrease Value":
+                              - img "down":
+                                - img
+                          - spinbutton "0.00" [ref=e386]
+                    - generic [ref=e387]:
+                      - generic [ref=e389]:
+                        - paragraph [ref=e390]: Total Pax
+                        - paragraph [ref=e391]: "0"
+                      - generic [ref=e393]:
+                        - paragraph [ref=e394]: Total KB
+                        - paragraph [ref=e395]: ฿ 0.00
+                      - generic [ref=e397]:
+                        - paragraph [ref=e398]: Total Price
+                        - paragraph [ref=e399]: ฿ 0.00
+              - generic [ref=e400]:
+                - generic [ref=e401]:
+                  - generic [ref=e403]:
+                    - img [ref=e405]
+                    - text: Location Details
+                  - img [ref=e409] [cursor=pointer]
+                - generic [ref=e414]:
+                  - generic [ref=e415]:
+                    - generic [ref=e416]: Drop - off point
+                    - generic [ref=e420]:
+                      - combobox [ref=e422]
+                      - generic: Please select or enter
+                  - generic [ref=e423]:
+                    - generic [ref=e424]: Drop - off remark
+                    - textbox "Please enter" [ref=e426]
+              - generic [ref=e428]:
+                - generic [ref=e429]:
+                  - generic [ref=e431]:
+                    - img [ref=e433]
+                    - text: Remark
+                  - img [ref=e438] [cursor=pointer]
+                - generic [ref=e442]:
+                  - generic [ref=e443]: Remark
+                  - textbox "Enter any special requests or additional information..." [ref=e444]
+            - generic [ref=e446]:
+              - button "Clear Form" [ref=e447] [cursor=pointer]
+              - button "Create Booking" [disabled] [ref=e449]:
+                - img [ref=e451]
+                - text: Create Booking
+              - button "Create & Confirm" [disabled] [ref=e452]:
+                - img [ref=e454]
+                - text: Create & Confirm
+            - generic [ref=e458]:
+              - generic [ref=e459]:
+                - generic [ref=e460]:
+                  - paragraph [ref=e461]: All Bookings
+                  - generic [ref=e462]:
+                    - generic [ref=e463]:
+                      - text: Total Booking
+                      - generic [ref=e464]: "11"
+                    - generic [ref=e465]:
+                      - text: Total Pax
+                      - generic [ref=e466]: "44"
+                    - generic [ref=e467]:
+                      - text: Total Income
+                      - generic [ref=e468]: ฿ 64,900.00
+                - generic [ref=e471]:
+                  - img [ref=e473]
+                  - textbox "Search by Booking No, Customer na..." [ref=e476]
+              - generic [ref=e478]:
+                - generic [ref=e479]:
+                  - generic [ref=e480]:
+                    - img [ref=e482]
+                    - paragraph [ref=e487]: Join In Booking
+                  - button "Route Summary" [ref=e488] [cursor=pointer]:
+                    - img [ref=e490]
+                    - text: Route Summary
+                - generic [ref=e493]:
+                  - generic [ref=e494]:
+                    - generic [ref=e495]:
+                      - text: Total Booking
+                      - generic [ref=e496]: "11"
+                    - generic [ref=e497]:
+                      - text: Total Pax
+                      - generic [ref=e498]: "44"
+                    - generic [ref=e499]:
+                      - text: Total Income
+                      - generic [ref=e500]: ฿ 64,900.00
+                  - generic [ref=e501]:
+                    - img [ref=e502]
+                    - text: Minimum to run
+                - generic [ref=e512]:
+                  - table [ref=e516]:
+                    - rowgroup [ref=e529]:
+                      - row "# Seller Travel Date Booking Date Booking No. Travel Time Program Pax Trip Code Status Action" [ref=e530]:
+                        - columnheader "#" [ref=e531]
+                        - columnheader "Seller" [ref=e532]
+                        - columnheader "Travel Date" [ref=e533]
+                        - columnheader "Booking Date" [ref=e534]
+                        - columnheader "Booking No." [ref=e535]
+                        - columnheader "Travel Time" [ref=e536]
+                        - columnheader "Program" [ref=e537]
+                        - columnheader "Pax" [ref=e538]
+                        - columnheader "Trip Code" [ref=e539]
+                        - columnheader "Status" [ref=e540]
+                        - columnheader "Action" [ref=e541]
+                    - rowgroup [ref=e542]:
+                      - 'row "1 One asia 23/06/2026 23/06/2026 TSB-0629JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 - Confirmed" [ref=e543]':
+                        - cell "1" [ref=e544]
+                        - cell "One asia" [ref=e545]:
+                          - generic [ref=e547]: One asia
+                        - cell "23/06/2026" [ref=e548]
+                        - cell "23/06/2026" [ref=e549]
+                        - cell "TSB-0629JUPV" [ref=e550]:
+                          - generic [ref=e552] [cursor=pointer]: TSB-0629JUPV
+                        - cell "07:30" [ref=e553]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e554]':
+                          - generic [ref=e555] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e556]:
+                          - generic [ref=e559] [cursor=pointer]: "4"
+                        - cell "-" [ref=e560]
+                        - cell "Confirmed" [ref=e561]:
+                          - generic [ref=e564]: Confirmed
+                        - cell [ref=e565]:
+                          - img [ref=e568] [cursor=pointer]
+                      - 'row "2 One asia 23/06/2026 23/06/2026 TSB-0628JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 - Confirmed" [ref=e572]':
+                        - cell "2" [ref=e573]
+                        - cell "One asia" [ref=e574]:
+                          - generic [ref=e576]: One asia
+                        - cell "23/06/2026" [ref=e577]
+                        - cell "23/06/2026" [ref=e578]
+                        - cell "TSB-0628JUPV" [ref=e579]:
+                          - generic [ref=e581] [cursor=pointer]: TSB-0628JUPV
+                        - cell "07:30" [ref=e582]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e583]':
+                          - generic [ref=e584] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e585]:
+                          - generic [ref=e588] [cursor=pointer]: "4"
+                        - cell "-" [ref=e589]
+                        - cell "Confirmed" [ref=e590]:
+                          - generic [ref=e593]: Confirmed
+                        - cell [ref=e594]:
+                          - img [ref=e597] [cursor=pointer]
+                      - 'row "3 One asia 23/06/2026 23/06/2026 TSB-0627JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 - Confirmed" [ref=e601]':
+                        - cell "3" [ref=e602]
+                        - cell "One asia" [ref=e603]:
+                          - generic [ref=e605]: One asia
+                        - cell "23/06/2026" [ref=e606]
+                        - cell "23/06/2026" [ref=e607]
+                        - cell "TSB-0627JUPV" [ref=e608]:
+                          - generic [ref=e610] [cursor=pointer]: TSB-0627JUPV
+                        - cell "07:30" [ref=e611]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e612]':
+                          - generic [ref=e613] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e614]:
+                          - generic [ref=e617] [cursor=pointer]: "4"
+                        - cell "-" [ref=e618]
+                        - cell "Confirmed" [ref=e619]:
+                          - generic [ref=e622]: Confirmed
+                        - cell [ref=e623]:
+                          - img [ref=e626] [cursor=pointer]
+                      - 'row "4 One asia 23/06/2026 23/06/2026 TSB-0625JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 TF26W0SF Confirmed" [ref=e630]':
+                        - cell "4" [ref=e631]
+                        - cell "One asia" [ref=e632]:
+                          - generic [ref=e634]: One asia
+                        - cell "23/06/2026" [ref=e635]
+                        - cell "23/06/2026" [ref=e636]
+                        - cell "TSB-0625JUPV" [ref=e637]:
+                          - generic [ref=e639] [cursor=pointer]: TSB-0625JUPV
+                        - cell "07:30" [ref=e640]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e641]':
+                          - generic [ref=e642] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e643]:
+                          - generic [ref=e646] [cursor=pointer]: "4"
+                        - cell "TF26W0SF" [ref=e647]:
+                          - generic [ref=e650] [cursor=pointer]: TF26W0SF
+                        - cell "Confirmed" [ref=e651]:
+                          - generic [ref=e654]: Confirmed
+                        - cell [ref=e655]:
+                          - img [ref=e658] [cursor=pointer]
+                      - 'row "5 One asia 23/06/2026 23/06/2026 TSB-0624JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 TF26W0SF Confirmed" [ref=e662]':
+                        - cell "5" [ref=e663]
+                        - cell "One asia" [ref=e664]:
+                          - generic [ref=e666]: One asia
+                        - cell "23/06/2026" [ref=e667]
+                        - cell "23/06/2026" [ref=e668]
+                        - cell "TSB-0624JUPV" [ref=e669]:
+                          - generic [ref=e671] [cursor=pointer]: TSB-0624JUPV
+                        - cell "07:30" [ref=e672]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e673]':
+                          - generic [ref=e674] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e675]:
+                          - generic [ref=e678] [cursor=pointer]: "4"
+                        - cell "TF26W0SF" [ref=e679]:
+                          - generic [ref=e682] [cursor=pointer]: TF26W0SF
+                        - cell "Confirmed" [ref=e683]:
+                          - generic [ref=e686]: Confirmed
+                        - cell [ref=e687]:
+                          - img [ref=e690] [cursor=pointer]
+                      - 'row "6 One asia 23/06/2026 23/06/2026 TSB-0623JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 TF26W0SF Confirmed" [ref=e694]':
+                        - cell "6" [ref=e695]
+                        - cell "One asia" [ref=e696]:
+                          - generic [ref=e698]: One asia
+                        - cell "23/06/2026" [ref=e699]
+                        - cell "23/06/2026" [ref=e700]
+                        - cell "TSB-0623JUPV" [ref=e701]:
+                          - generic [ref=e703] [cursor=pointer]: TSB-0623JUPV
+                        - cell "07:30" [ref=e704]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e705]':
+                          - generic [ref=e706] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e707]:
+                          - generic [ref=e710] [cursor=pointer]: "4"
+                        - cell "TF26W0SF" [ref=e711]:
+                          - generic [ref=e714] [cursor=pointer]: TF26W0SF
+                        - cell "Confirmed" [ref=e715]:
+                          - generic [ref=e718]: Confirmed
+                        - cell [ref=e719]:
+                          - img [ref=e722] [cursor=pointer]
+                      - 'row "7 One asia 23/06/2026 23/06/2026 TSB-0622JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 TF26BA0K Confirmed" [ref=e726]':
+                        - cell "7" [ref=e727]
+                        - cell "One asia" [ref=e728]:
+                          - generic [ref=e730]: One asia
+                        - cell "23/06/2026" [ref=e731]
+                        - cell "23/06/2026" [ref=e732]
+                        - cell "TSB-0622JUPV" [ref=e733]:
+                          - generic [ref=e735] [cursor=pointer]: TSB-0622JUPV
+                        - cell "07:30" [ref=e736]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e737]':
+                          - generic [ref=e738] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e739]:
+                          - generic [ref=e742] [cursor=pointer]: "4"
+                        - cell "TF26BA0K" [ref=e743]:
+                          - generic [ref=e746] [cursor=pointer]: TF26BA0K
+                        - cell "Confirmed" [ref=e747]:
+                          - generic [ref=e750]: Confirmed
+                        - cell [ref=e751]:
+                          - img [ref=e754] [cursor=pointer]
+                      - 'row "8 One asia 23/06/2026 23/06/2026 TSB-0621JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 TF26BA0K Confirmed" [ref=e758]':
+                        - cell "8" [ref=e759]
+                        - cell "One asia" [ref=e760]:
+                          - generic [ref=e762]: One asia
+                        - cell "23/06/2026" [ref=e763]
+                        - cell "23/06/2026" [ref=e764]
+                        - cell "TSB-0621JUPV" [ref=e765]:
+                          - generic [ref=e767] [cursor=pointer]: TSB-0621JUPV
+                        - cell "07:30" [ref=e768]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e769]':
+                          - generic [ref=e770] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e771]:
+                          - generic [ref=e774] [cursor=pointer]: "4"
+                        - cell "TF26BA0K" [ref=e775]:
+                          - generic [ref=e778] [cursor=pointer]: TF26BA0K
+                        - cell "Confirmed" [ref=e779]:
+                          - generic [ref=e782]: Confirmed
+                        - cell [ref=e783]:
+                          - img [ref=e786] [cursor=pointer]
+                      - 'row "9 One asia 23/06/2026 23/06/2026 TSB-0620JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 TF26KIZL Confirmed" [ref=e790]':
+                        - cell "9" [ref=e791]
+                        - cell "One asia" [ref=e792]:
+                          - generic [ref=e794]: One asia
+                        - cell "23/06/2026" [ref=e795]
+                        - cell "23/06/2026" [ref=e796]
+                        - cell "TSB-0620JUPV" [ref=e797]:
+                          - generic [ref=e799] [cursor=pointer]: TSB-0620JUPV
+                        - cell "07:30" [ref=e800]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e801]':
+                          - generic [ref=e802] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e803]:
+                          - generic [ref=e806] [cursor=pointer]: "4"
+                        - cell "TF26KIZL" [ref=e807]:
+                          - generic [ref=e810] [cursor=pointer]: TF26KIZL
+                        - cell "Confirmed" [ref=e811]:
+                          - generic [ref=e814]: Confirmed
+                        - cell [ref=e815]:
+                          - img [ref=e818] [cursor=pointer]
+                      - 'row "10 One asia 23/06/2026 23/06/2026 TSB-0626JUPV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 TF26KIZL Confirmed" [ref=e822]':
+                        - cell "10" [ref=e823]
+                        - cell "One asia" [ref=e824]:
+                          - generic [ref=e826]: One asia
+                        - cell "23/06/2026" [ref=e827]
+                        - cell "23/06/2026" [ref=e828]
+                        - cell "TSB-0626JUPV" [ref=e829]:
+                          - generic [ref=e831] [cursor=pointer]: TSB-0626JUPV
+                        - cell "07:30" [ref=e832]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e833]':
+                          - generic [ref=e834] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e835]:
+                          - generic [ref=e838] [cursor=pointer]: "4"
+                        - cell "TF26KIZL" [ref=e839]:
+                          - generic [ref=e842] [cursor=pointer]: TF26KIZL
+                        - cell "Confirmed" [ref=e843]:
+                          - generic [ref=e846]: Confirmed
+                        - cell [ref=e847]:
+                          - img [ref=e850] [cursor=pointer]
+                      - 'row "11 One asia 23/06/2026 23/06/2026 TSB-0626TOGV 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 4 TF26KIZL Confirmed" [ref=e854]':
+                        - cell "11" [ref=e855]
+                        - cell "One asia" [ref=e856]:
+                          - generic [ref=e858]: One asia
+                        - cell "23/06/2026" [ref=e859]
+                        - cell "23/06/2026" [ref=e860]
+                        - cell "TSB-0626TOGV" [ref=e861]:
+                          - generic [ref=e863] [cursor=pointer]: TSB-0626TOGV
+                        - cell "07:30" [ref=e864]
+                        - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e865]':
+                          - generic [ref=e866] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                        - cell "4" [ref=e867]:
+                          - generic [ref=e870] [cursor=pointer]: "4"
+                        - cell "TF26KIZL" [ref=e871]:
+                          - generic [ref=e874] [cursor=pointer]: TF26KIZL
+                        - cell "Confirmed" [ref=e875]:
+                          - generic [ref=e878]: Confirmed
+                        - cell [ref=e879]:
+                          - img [ref=e882] [cursor=pointer]
+                  - list [ref=e886]:
+                    - listitem "Previous Page" [ref=e887]:
+                      - button "left" [disabled] [ref=e888]:
+                        - img "left" [ref=e889]:
+                          - img [ref=e890]
+                    - listitem "1" [ref=e892] [cursor=pointer]:
+                      - generic [ref=e893]: "1"
+                    - listitem "Next Page" [ref=e894]:
+                      - button "right" [disabled] [ref=e895]:
+                        - img "right" [ref=e896]:
+                          - img [ref=e897]
+                    - listitem [ref=e899]:
+                      - generic "Page Size" [ref=e900] [cursor=pointer]:
+                        - generic [ref=e902]:
+                          - combobox "Page Size" [ref=e904]
+                          - generic "20 / page" [ref=e905]
+                        - generic:
+                          - img:
+                            - img
+              - generic [ref=e906]:
+                - generic [ref=e907]:
+                  - generic [ref=e908]:
+                    - img [ref=e910]
+                    - paragraph [ref=e913]: Private Booking
+                  - button "Route Summary" [ref=e914] [cursor=pointer]:
+                    - img [ref=e916]
+                    - text: Route Summary
+                - generic [ref=e919]:
+                  - generic [ref=e920]:
+                    - generic [ref=e921]:
+                      - text: Total Booking
+                      - generic [ref=e922]: "0"
+                    - generic [ref=e923]:
+                      - text: Total Pax
+                      - generic [ref=e924]: "0"
+                    - generic [ref=e925]:
+                      - text: Total Income
+                      - generic [ref=e926]: ฿ 0.00
+                  - generic [ref=e927]:
+                    - img [ref=e928]
+                    - text: Minimum to run
+                - table [ref=e942]:
+                  - rowgroup [ref=e955]:
+                    - row "# Seller Travel Date Booking Date Booking No. Travel Time Program Pax Trip Code Status Action" [ref=e956]:
+                      - columnheader "#" [ref=e957]
+                      - columnheader "Seller" [ref=e958]
+                      - columnheader "Travel Date" [ref=e959]
+                      - columnheader "Booking Date" [ref=e960]
+                      - columnheader "Booking No." [ref=e961]
+                      - columnheader "Travel Time" [ref=e962]
+                      - columnheader "Program" [ref=e963]
+                      - columnheader "Pax" [ref=e964]
+                      - columnheader "Trip Code" [ref=e965]
+                      - columnheader "Status" [ref=e966]
+                      - columnheader "Action" [ref=e967]
+                  - rowgroup [ref=e968]:
+                    - row [ref=e969]:
+                      - cell [ref=e970]:
+                        - img [ref=e972]

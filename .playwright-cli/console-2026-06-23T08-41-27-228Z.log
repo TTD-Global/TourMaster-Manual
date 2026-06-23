@@ -1,0 +1,30 @@
+[     116ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…0ODF9._JLAMKNe2xkR888XrGzI9J_HXR6QD0JqVU6gMhgeKbo, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     116ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     126ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     126ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     199ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     199ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     206ms] [LOG] initialData.region_code undefined @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     206ms] [LOG] companyData null @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     268ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     270ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     270ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     306ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/company:0
+[     306ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/company:0
+[     306ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/company:0
+[     379ms] [LOG] initialData.region_code 10 @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[     379ms] [LOG] companyData {id: 1, logo: Object, name: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด, address: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   26166ms] [LOG] companySealFile null @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   26166ms] [LOG] authorizedSignatureFile null @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   26177ms] [LOG] companySealFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/6415da27-6663-4021-812e-9b12706d48aa.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   26177ms] [LOG] authorizedSignatureFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/cebc5617-1dfb-4e90-9ff0-c60eda1eea91.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   37838ms] [LOG] companySealFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/6415da27-6663-4021-812e-9b12706d48aa.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   37839ms] [LOG] authorizedSignatureFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/cebc5617-1dfb-4e90-9ff0-c60eda1eea91.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   81094ms] [LOG] companySealFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/6415da27-6663-4021-812e-9b12706d48aa.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   81094ms] [LOG] authorizedSignatureFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/cebc5617-1dfb-4e90-9ff0-c60eda1eea91.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   81104ms] [LOG] companySealFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/6415da27-6663-4021-812e-9b12706d48aa.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   81104ms] [LOG] authorizedSignatureFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/cebc5617-1dfb-4e90-9ff0-c60eda1eea91.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   83200ms] [LOG] initialData.region_code 10 @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   83201ms] [LOG] companyData {id: 1, logo: Object, name: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด, address: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[   86307ms] [LOG] companyData {id: 1, logo: Object, name: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด, address: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0
+[  111032ms] [LOG] companyData {id: 1, logo: Object, name: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด, address: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-ca373b45cc0718f3.js:0

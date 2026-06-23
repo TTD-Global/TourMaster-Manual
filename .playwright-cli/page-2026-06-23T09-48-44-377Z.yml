@@ -1,0 +1,320 @@
+- generic [ref=e1]:
+  - alert [ref=e37]: Tour System
+  - generic [ref=e46]:
+    - complementary [ref=e47]:
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img "Tour Master Logo" [ref=e53]
+          - img [ref=e55] [cursor=pointer]
+        - menu [ref=e60]:
+          - separator [ref=e61]
+          - text: Management
+          - group [ref=e62]:
+            - menuitem "Bookings" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - generic [ref=e67]: Bookings
+            - menuitem "Excursion" [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Excursion
+            - menuitem "Pick up Transport" [expanded] [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e78]: Pick up Transport
+            - menu [ref=e154]:
+              - menuitem "Summary" [ref=e155] [cursor=pointer]:
+                - img [ref=e156]
+                - generic [ref=e158]: Summary
+              - menuitem "Supplier Group" [active] [ref=e159] [cursor=pointer]:
+                - img [ref=e160]
+                - generic [ref=e162]: Supplier Group
+              - menuitem "Own Vehicle Group" [ref=e163] [cursor=pointer]:
+                - img [ref=e164]
+                - generic [ref=e166]: Own Vehicle Group
+              - menuitem "Job Order" [ref=e167] [cursor=pointer]:
+                - img [ref=e168]
+                - generic [ref=e170]: Job Order
+              - menuitem "Report" [ref=e171] [cursor=pointer]:
+                - img [ref=e172]
+                - generic [ref=e174]: Report
+            - menuitem "Drop off Transport" [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - generic [ref=e85]: Drop off Transport
+            - menuitem "Check In" [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+              - generic [ref=e90]: Check In
+            - menuitem "Guide Task" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - generic [ref=e95]: Guide Task
+          - separator [ref=e96]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e102]: Program
+          - menuitem "Seller" [ref=e103] [cursor=pointer]:
+            - img [ref=e104]
+            - generic [ref=e106]: Seller
+          - menuitem "Vehicle" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Vehicle
+          - menuitem "Employee" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e116]: Employee
+          - menuitem "Zone Transfer" [ref=e117] [cursor=pointer]:
+            - img [ref=e118]
+            - generic [ref=e122]: Zone Transfer
+          - menuitem "User" [ref=e123] [cursor=pointer]:
+            - img [ref=e124]
+            - generic [ref=e127]: User
+          - menuitem "Company" [ref=e128] [cursor=pointer]:
+            - img [ref=e129]
+            - generic [ref=e131]: Company
+          - menuitem "User Manual" [ref=e132] [cursor=pointer]:
+            - img [ref=e133]
+            - generic [ref=e135]: User Manual
+    - generic [ref=e136]:
+      - banner [ref=e137]:
+        - generic [ref=e139]:
+          - generic [ref=e140]: "Tue : 23 Jun 2026, 16:48"
+          - generic [ref=e142] [cursor=pointer]:
+            - generic [ref=e144]: AM
+            - generic [ref=e145]:
+              - generic [ref=e146]: amares123
+              - generic [ref=e147]: Claude test
+            - img [ref=e149]
+      - main [ref=e151]:
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - generic [ref=e278]:
+              - img [ref=e280]
+              - generic [ref=e285]:
+                - paragraph [ref=e286]: Supplier Group
+                - paragraph [ref=e287]: Bookings - 23 Jun 2026
+            - generic [ref=e288]:
+              - generic [ref=e289] [cursor=pointer]:
+                - generic: Booking Travel Date
+                - generic [ref=e290]:
+                  - img [ref=e291]
+                  - generic: 23/06/2026
+                - generic [ref=e293]:
+                  - generic:
+                    - textbox "Select date": 23/06/2026
+              - generic [ref=e294]:
+                - paragraph [ref=e295]: Total Bookings
+                - paragraph [ref=e296]: "3"
+              - generic [ref=e297]:
+                - paragraph [ref=e298]: Unassigned
+                - paragraph [ref=e299]: "3"
+              - generic [ref=e300]:
+                - paragraph [ref=e301]: Pax (Assigned/Total)
+                - paragraph [ref=e302]: 0 / 12
+              - generic [ref=e304]:
+                - paragraph [ref=e305]: Supplier in Use
+                - paragraph [ref=e306]: "0"
+              - generic [ref=e307]:
+                - paragraph [ref=e308]: Total Group
+                - paragraph [ref=e309]: "0"
+          - generic [ref=e310]:
+            - generic [ref=e311]:
+              - generic [ref=e313]:
+                - generic [ref=e315] [cursor=pointer]:
+                  - generic [ref=e318]:
+                    - 'generic "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e322]'
+                    - generic:
+                      - generic: + 0 ...
+                    - combobox [ref=e325]
+                  - generic:
+                    - img:
+                      - img
+                - generic [ref=e326]:
+                  - generic [ref=e328]:
+                    - img [ref=e330]
+                    - textbox "Booking No., Customer Name" [ref=e333]
+                  - generic [ref=e335] [cursor=pointer]:
+                    - generic [ref=e336]:
+                      - img [ref=e338]
+                      - generic [ref=e343]:
+                        - combobox [ref=e345]
+                        - generic: Trip Type
+                    - generic:
+                      - img:
+                        - img
+                  - generic [ref=e346] [cursor=pointer]:
+                    - generic [ref=e347]:
+                      - img [ref=e349]
+                      - generic [ref=e357]:
+                        - combobox [ref=e361]
+                        - generic: Language
+                    - generic:
+                      - img:
+                        - img
+              - generic [ref=e362]:
+                - generic [ref=e364]:
+                  - generic [ref=e365]:
+                    - generic [ref=e366]:
+                      - img [ref=e368]
+                      - paragraph [ref=e371]: Filter by Zone
+                    - generic [ref=e372]: All Zone
+                  - generic [ref=e373]:
+                    - button "All 12" [ref=e374] [cursor=pointer]:
+                      - paragraph [ref=e375]: All
+                      - generic [ref=e376]: "12"
+                    - button "Unassigned 12" [ref=e377] [cursor=pointer]:
+                      - paragraph [ref=e378]: Unassigned
+                      - generic [ref=e379]: "12"
+                  - generic [ref=e381]:
+                    - paragraph [ref=e384]: โซนที่เลือกอยู่
+                    - paragraph [ref=e387]: โซนที่ยังไม่ได้เลือก
+                    - paragraph [ref=e390]: Unassigned (ยังไม่มีโซน)
+                - generic [ref=e392]:
+                  - generic [ref=e393]:
+                    - img [ref=e395]
+                    - paragraph [ref=e399]: Phuket
+                  - generic [ref=e401]:
+                    - paragraph [ref=e404]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                    - generic [ref=e405]:
+                      - tablist [ref=e406]:
+                        - img [ref=e409]
+                        - tab "07:30 3" [selected] [ref=e415] [cursor=pointer]:
+                          - generic [ref=e417]:
+                            - text: 07:30
+                            - generic [ref=e419]: "3"
+                      - tabpanel "07:30 3" [ref=e422]:
+                        - generic [ref=e423]:
+                          - generic [ref=e424]:
+                            - checkbox [ref=e428] [cursor=pointer]
+                            - generic [ref=e430]: Select all booking
+                          - generic [ref=e431]:
+                            - generic [ref=e432]:
+                              - generic [ref=e434]:
+                                - checkbox [ref=e437] [cursor=pointer]
+                                - generic [ref=e439] [cursor=pointer]: TSB-0627JUPV
+                              - generic [ref=e440]:
+                                - img [ref=e442]
+                                - generic [ref=e447]: Join In
+                              - generic [ref=e448]:
+                                - img [ref=e449]
+                                - generic [ref=e452]: 07:30
+                              - generic [ref=e454]:
+                                - generic:
+                                  - img [ref=e455]
+                                  - generic: EN
+                                - generic [ref=e465]:
+                                  - img [ref=e466]
+                                  - generic [ref=e469]: "Pax : 4"
+                                - img [ref=e472] [cursor=pointer]
+                            - generic [ref=e476]:
+                              - generic [ref=e477]:
+                                - generic [ref=e478]: Program
+                                - generic [ref=e479]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                              - generic [ref=e480]:
+                                - generic [ref=e481]: Customer Name
+                                - generic [ref=e482]: John Smith
+                              - generic [ref=e483]:
+                                - generic [ref=e484]: Pick-up location
+                                - generic [ref=e485]: klp hotel
+                              - generic [ref=e486]:
+                                - paragraph [ref=e487]: Zone
+                                - generic "Zone" [ref=e488] [cursor=pointer]:
+                                  - generic [ref=e490]:
+                                    - combobox [ref=e492]
+                                    - generic: Please select
+                                  - generic:
+                                    - img:
+                                      - img
+                            - generic [ref=e493]:
+                              - generic [ref=e494]: "Remark :"
+                              - generic [ref=e495]: RemarkRemarkRemark
+                          - generic [ref=e496]:
+                            - generic [ref=e497]:
+                              - generic [ref=e499]:
+                                - checkbox [ref=e502] [cursor=pointer]
+                                - generic [ref=e504] [cursor=pointer]: TSB-0628JUPV
+                              - generic [ref=e505]:
+                                - img [ref=e507]
+                                - generic [ref=e512]: Join In
+                              - generic [ref=e513]:
+                                - img [ref=e514]
+                                - generic [ref=e517]: 07:30
+                              - generic [ref=e519]:
+                                - generic:
+                                  - img [ref=e520]
+                                  - generic: EN
+                                - generic [ref=e530]:
+                                  - img [ref=e531]
+                                  - generic [ref=e534]: "Pax : 4"
+                                - img [ref=e537] [cursor=pointer]
+                            - generic [ref=e541]:
+                              - generic [ref=e542]:
+                                - generic [ref=e543]: Program
+                                - generic [ref=e544]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                              - generic [ref=e545]:
+                                - generic [ref=e546]: Customer Name
+                                - generic [ref=e547]: John Smith
+                              - generic [ref=e548]:
+                                - generic [ref=e549]: Pick-up location
+                                - generic [ref=e550]: klp hotel
+                              - generic [ref=e551]:
+                                - paragraph [ref=e552]: Zone
+                                - generic "Zone" [ref=e553] [cursor=pointer]:
+                                  - generic [ref=e555]:
+                                    - combobox [ref=e557]
+                                    - generic: Please select
+                                  - generic:
+                                    - img:
+                                      - img
+                            - generic [ref=e558]:
+                              - generic [ref=e559]: "Remark :"
+                              - generic [ref=e560]: RemarkRemarkRemark
+                          - generic [ref=e561]:
+                            - generic [ref=e562]:
+                              - generic [ref=e564]:
+                                - checkbox [ref=e567] [cursor=pointer]
+                                - generic [ref=e569] [cursor=pointer]: TSB-0629JUPV
+                              - generic [ref=e570]:
+                                - img [ref=e572]
+                                - generic [ref=e577]: Join In
+                              - generic [ref=e578]:
+                                - img [ref=e579]
+                                - generic [ref=e582]: 07:30
+                              - generic [ref=e584]:
+                                - generic:
+                                  - img [ref=e585]
+                                  - generic: EN
+                                - generic [ref=e595]:
+                                  - img [ref=e596]
+                                  - generic [ref=e599]: "Pax : 4"
+                                - img [ref=e602] [cursor=pointer]
+                            - generic [ref=e606]:
+                              - generic [ref=e607]:
+                                - generic [ref=e608]: Program
+                                - generic [ref=e609]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                              - generic [ref=e610]:
+                                - generic [ref=e611]: Customer Name
+                                - generic [ref=e612]: John Smith
+                              - generic [ref=e613]:
+                                - generic [ref=e614]: Pick-up location
+                                - generic [ref=e615]: klp hotel
+                              - generic [ref=e616]:
+                                - paragraph [ref=e617]: Zone
+                                - generic "Zone" [ref=e618] [cursor=pointer]:
+                                  - generic [ref=e620]:
+                                    - combobox [ref=e622]
+                                    - generic: Please select
+                                  - generic:
+                                    - img:
+                                      - img
+                            - generic [ref=e623]:
+                              - generic [ref=e624]: "Remark :"
+                              - generic [ref=e625]: RemarkRemarkRemark
+            - generic [ref=e626]:
+              - generic [ref=e627]:
+                - generic [ref=e630]:
+                  - img [ref=e632]
+                  - textbox "Vehicle, Booking No., Customer Name" [ref=e635]
+                - button [ref=e638] [cursor=pointer]:
+                  - img [ref=e640]
+                - button [ref=e643] [cursor=pointer]:
+                  - img [ref=e645]
+              - generic [ref=e649]:
+                - img [ref=e650]
+                - paragraph [ref=e652]: Drag and drop to group

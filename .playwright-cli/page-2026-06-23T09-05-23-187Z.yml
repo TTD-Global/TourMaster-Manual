@@ -1,0 +1,69 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - separator [ref=e18]
+          - text: Management
+          - group [ref=e19]:
+            - menuitem "Bookings" [ref=e20] [cursor=pointer]:
+              - img [ref=e21]
+              - generic [ref=e24]: Bookings
+            - menuitem "Excursion" [ref=e25] [cursor=pointer]:
+              - img [ref=e26]
+              - generic [ref=e28]: Excursion
+            - menuitem "Pick up Transport" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e35]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e42]: Drop off Transport
+            - menuitem "Check In" [ref=e43] [cursor=pointer]:
+              - img [ref=e44]
+              - generic [ref=e47]: Check In
+            - menuitem "Guide Task" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e52]: Guide Task
+          - separator [ref=e53]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e54] [cursor=pointer]:
+            - img [ref=e55]
+            - generic [ref=e59]: Program
+          - menuitem "Seller" [ref=e60] [cursor=pointer]:
+            - img [ref=e61]
+            - generic [ref=e63]: Seller
+          - menuitem "Vehicle" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Vehicle
+          - menuitem "Employee" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e73]: Employee
+          - menuitem "Zone Transfer" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+            - generic [ref=e79]: Zone Transfer
+          - menuitem "User" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e84]: User
+          - menuitem "Company" [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+            - generic [ref=e88]: Company
+          - menuitem "User Manual" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e92]: User Manual
+    - generic [ref=e93]:
+      - banner [ref=e94]:
+        - generic [ref=e96]:
+          - generic [ref=e97]: "Tue : 23 Jun 2026, 16:05"
+          - generic [ref=e99] [cursor=pointer]:
+            - generic [ref=e101]: AM
+            - generic [ref=e102]:
+              - generic [ref=e103]: amares123
+              - generic [ref=e104]: Claude test
+            - img [ref=e106]
+      - main [ref=e108]:
+        - heading "Welcome back, t hui" [level=1] [ref=e110]

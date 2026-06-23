@@ -1,0 +1,100 @@
+---
+title: Create Booking
+sidebar_position: 3
+---
+
+# Create Booking
+
+หน้า **Create Booking** ใช้สำหรับสร้าง Booking ใหม่ให้ลูกค้า ฟอร์มแบ่งออกเป็น 5 ส่วน
+
+กดปุ่ม **Create Booking** จากหน้า Booking List เพื่อเข้าสู่หน้านี้
+
+---
+
+## Booking Details
+
+![Create Booking — Booking Details](/img/Bookings/booking-create.png)
+
+เลือก **Booking Travel Date** (วันที่เดินทาง) ที่มุมขวาบนก่อน แล้วกรอกข้อมูลส่วน Booking Details
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Seller** | Seller หรือตัวแทนที่รับจอง (dropdown) | ✅ |
+| **Booking No.** | เลขที่ Booking | ✅ |
+| **Program Name** | ชื่อโปรแกรมทัวร์ (dropdown) | ✅ |
+| **Payment** | ประเภทการชำระเงิน (dropdown) | — |
+| **Option** | Option เพิ่มเติม (dropdown) | — |
+| **Trip Type** | ประเภท Trip (dropdown) | ✅ |
+| **Trip round** | รอบเวลา Trip (dropdown) | ✅ |
+| **Language** | ภาษาที่ต้องการ (dropdown) | ✅ |
+
+---
+
+## Customer Details
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Customer Name** | ชื่อลูกค้า | ✅ |
+| **Nationality** | สัญชาติของลูกค้า | — |
+| **Email** | อีเมลลูกค้า | — |
+| **Phone number** | เบอร์โทรลูกค้า | — |
+| **Contact method** | ช่องทางการติดต่อ (dropdown) | — |
+
+---
+
+## Unit Details
+
+![Create Booking — Unit Details](/img/Bookings/booking-create-unit.png)
+
+ส่วน **Unit Details** แสดงรายการบริการที่รวมอยู่ใน Program ที่เลือก (โหลดอัตโนมัติหลังเลือก Program Name)
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **Unit** | ชื่อรายการบริการ |
+| **Price** | ราคาต่อหน่วย |
+| **Quantity** | จำนวน (กรอกได้) |
+| **KB** | ราคา KB |
+| **Total** | ราคารวมของรายการนั้น |
+
+สรุปยอดท้ายส่วน Unit Details
+
+| รายการ | คำอธิบาย |
+|--------|----------|
+| **Sub total** | ราคารวมก่อนหักส่วนลด |
+| **Discount** | ส่วนลด (กรอกได้) |
+| **Total Pax** | จำนวนผู้เดินทางรวม |
+| **Total KB** | ยอดรวม KB |
+| **Total Price** | ราคารวมสุทธิ (บาท) |
+
+---
+
+## Location Details
+
+![Create Booking — Location & Remark](/img/Bookings/booking-create-location.png)
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Drop - off point** | จุด Drop-off ที่ต้องการ | — |
+| **Drop - off remark** | หมายเหตุเพิ่มเติมเกี่ยวกับ Drop-off | — |
+
+---
+
+## Remark
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Remark** | ข้อความพิเศษหรือความต้องการพิเศษของลูกค้า | — |
+
+---
+
+## บันทึก Booking
+
+| ปุ่ม | คำอธิบาย |
+|------|----------|
+| **Clear Form** | ล้างข้อมูลทั้งหมดในฟอร์ม |
+| **+ Create Booking** | บันทึก Booking ด้วยสถานะ **Reserved** |
+| **Create & Confirm** | บันทึกและยืนยัน Booking ทันที (สถานะ **Confirmed**) |
+
+:::tip เคล็ดลับ
+ควรสร้าง Seller, Program และ Trip round ใน Setting ก่อน เพื่อให้มีข้อมูลให้เลือกในฟอร์ม
+:::
