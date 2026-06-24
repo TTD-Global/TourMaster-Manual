@@ -1,0 +1,13 @@
+[     109ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…U0OH0.Ps3pKy24kAbolzyXKjkkzMoNHGVAI8kECcq-SAObgfw, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     109ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     124ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     124ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     188ms] [LOG] company null @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     198ms] [LOG] company null @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     271ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     296ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle?page=1&page_size=15:0
+[     296ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle?page=1&page_size=15:0
+[     296ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle?page=1&page_size=15:0
+[     359ms] [LOG] company {id: 1, logo: Object, name: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด, address: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     714ms] [LOG] company {id: 1, logo: Object, name: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด, address: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     876ms] [LOG] company {id: 1, logo: Object, name: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด, address: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0

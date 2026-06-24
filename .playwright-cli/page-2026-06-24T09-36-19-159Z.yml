@@ -1,0 +1,145 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: Vehicle
+          - menuitem "Employee" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e77]: Employee
+          - menuitem "Zone Transfer" [ref=e78] [cursor=pointer]:
+            - img [ref=e79]
+            - generic [ref=e83]: Zone Transfer
+          - menuitem "User" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e88]: User
+          - menuitem "Company" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e92]: Company
+          - menuitem "User Manual" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: User Manual
+    - generic [ref=e97]:
+      - banner [ref=e98]:
+        - generic [ref=e100]:
+          - generic [ref=e101]: "Wed : 24 Jun 2026, 16:36"
+          - generic [ref=e103] [cursor=pointer]:
+            - generic [ref=e105]: AM
+            - generic [ref=e106]:
+              - generic [ref=e107]: amares123
+              - generic [ref=e108]: Claude test
+            - img [ref=e110]
+      - main [ref=e112]:
+        - generic [ref=e362]:
+          - generic [ref=e365]:
+            - generic [ref=e366] [cursor=pointer]: Seller
+            - img [ref=e367]
+            - generic [ref=e369]: Create Seller
+          - generic [ref=e371]:
+            - generic [ref=e375]:
+              - generic [ref=e377]: General Detail
+              - generic [ref=e379]:
+                - generic [ref=e380]:
+                  - paragraph [ref=e381]: Image
+                  - generic [ref=e383]:
+                    - img [ref=e385]
+                    - img [ref=e389] [cursor=pointer]
+                - generic [ref=e394]:
+                  - generic [ref=e395]: Seller Name *
+                  - textbox "Please enter" [ref=e397]
+                - generic [ref=e399]:
+                  - generic [ref=e400]: Phone Number
+                  - textbox "Please enter" [ref=e402]
+                - generic [ref=e404]:
+                  - generic [ref=e405]: Email
+                  - textbox "Please enter" [ref=e407]
+                - generic [ref=e410]:
+                  - generic [ref=e411]: Address
+                  - textbox "Please enter" [ref=e413]
+                - generic [ref=e415]:
+                  - generic [ref=e416]:
+                    - generic [ref=e417]: Country
+                    - generic [ref=e419] [cursor=pointer]:
+                      - generic [ref=e421]:
+                        - combobox [ref=e423]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - generic [ref=e424]:
+                    - generic [ref=e425]: Destination
+                    - generic [ref=e427] [cursor=pointer]:
+                      - generic [ref=e429]:
+                        - combobox [ref=e431]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - generic [ref=e432]:
+                    - generic [ref=e433]: District
+                    - generic [ref=e435] [cursor=pointer]:
+                      - generic [ref=e437]:
+                        - combobox [ref=e439]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - generic [ref=e440]:
+                    - generic [ref=e441]: Sub-district
+                    - generic [ref=e443] [cursor=pointer]:
+                      - generic [ref=e445]:
+                        - combobox [ref=e447]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - generic [ref=e448]:
+                    - generic [ref=e449]: Postal Code
+                    - textbox "Please enter" [ref=e451]
+                - generic [ref=e453]:
+                  - generic [ref=e456]:
+                    - paragraph [ref=e457]: Booking No.
+                    - img [ref=e459]
+                  - generic [ref=e463] [cursor=pointer]:
+                    - checkbox "Auto Booking No." [ref=e465]
+                    - paragraph [ref=e469]: Auto Booking No.
+            - generic [ref=e470]:
+              - button "Cancel" [ref=e471] [cursor=pointer]
+              - button "Save" [disabled] [ref=e472]:
+                - img [ref=e474]
+                - text: Save

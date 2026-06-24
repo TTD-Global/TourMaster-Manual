@@ -1,0 +1,262 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e34]
+          - text: Management
+          - group [ref=e35]:
+            - menuitem "Bookings" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e40]: Bookings
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [expanded] [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menu [ref=e128]:
+            - menuitem "Program List" [ref=e129] [cursor=pointer]:
+              - img [ref=e130]
+              - generic [ref=e132]: Program List
+            - menuitem "Item Type" [ref=e133] [cursor=pointer]:
+              - img [ref=e134]
+              - generic [ref=e136]: Item Type
+            - menuitem "Unit" [active] [ref=e137] [cursor=pointer]:
+              - img [ref=e138]
+              - generic [ref=e140]: Unit
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Vehicle
+          - menuitem "Employee" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Wed : 24 Jun 2026, 16:26"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares123
+              - generic [ref=e120]: Claude test
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e527]:
+          - generic [ref=e529]:
+            - generic [ref=e530]:
+              - generic [ref=e531]: Program
+              - img [ref=e532]
+              - generic [ref=e534]: Unit
+            - button "Create Unit" [ref=e536] [cursor=pointer]:
+              - img [ref=e538]
+              - text: Create Unit
+          - generic [ref=e541]:
+            - generic [ref=e544]:
+              - img [ref=e546]
+              - textbox "Search" [ref=e549]
+            - button "Filter" [ref=e551] [cursor=pointer]:
+              - img [ref=e553]
+              - text: Filter
+            - button "Export" [ref=e556] [cursor=pointer]:
+              - img [ref=e558]
+              - generic [ref=e561]: Export
+              - img [ref=e563]
+          - generic [ref=e568]:
+            - table [ref=e572]:
+              - rowgroup [ref=e579]:
+                - row "# Unit Name Status Last Modify Date Action" [ref=e580]:
+                  - columnheader "#" [ref=e581]
+                  - columnheader "Unit Name" [ref=e582]
+                  - columnheader "Status" [ref=e583]
+                  - columnheader "Last Modify Date" [ref=e584]
+                  - columnheader "Action" [ref=e585]
+              - rowgroup [ref=e586]:
+                - row "1 Per Person (Group of 6-8) Active 22/01/2026" [ref=e587]:
+                  - cell "1" [ref=e588]
+                  - cell "Per Person (Group of 6-8)" [ref=e589]:
+                    - link "Per Person (Group of 6-8)" [ref=e590] [cursor=pointer]:
+                      - /url: /program/units/11
+                      - paragraph [ref=e591]: Per Person (Group of 6-8)
+                  - cell "Active" [ref=e592]:
+                    - generic [ref=e595]: Active
+                  - cell "22/01/2026" [ref=e596]
+                  - cell [ref=e597]:
+                    - img [ref=e600] [cursor=pointer]
+                - row "2 Per Person (Group of 9) Active 22/01/2026" [ref=e604]:
+                  - cell "2" [ref=e605]
+                  - cell "Per Person (Group of 9)" [ref=e606]:
+                    - link "Per Person (Group of 9)" [ref=e607] [cursor=pointer]:
+                      - /url: /program/units/12
+                      - paragraph [ref=e608]: Per Person (Group of 9)
+                  - cell "Active" [ref=e609]:
+                    - generic [ref=e612]: Active
+                  - cell "22/01/2026" [ref=e613]
+                  - cell [ref=e614]:
+                    - img [ref=e617] [cursor=pointer]
+                - row "3 Per Person (Group of 3-5) Active 22/01/2026" [ref=e621]:
+                  - cell "3" [ref=e622]
+                  - cell "Per Person (Group of 3-5)" [ref=e623]:
+                    - link "Per Person (Group of 3-5)" [ref=e624] [cursor=pointer]:
+                      - /url: /program/units/10
+                      - paragraph [ref=e625]: Per Person (Group of 3-5)
+                  - cell "Active" [ref=e626]:
+                    - generic [ref=e629]: Active
+                  - cell "22/01/2026" [ref=e630]
+                  - cell [ref=e631]:
+                    - img [ref=e634] [cursor=pointer]
+                - row "4 Person Active 22/01/2026" [ref=e638]:
+                  - cell "4" [ref=e639]
+                  - cell "Person" [ref=e640]:
+                    - link "Person" [ref=e641] [cursor=pointer]:
+                      - /url: /program/units/9
+                      - paragraph [ref=e642]: Person
+                  - cell "Active" [ref=e643]:
+                    - generic [ref=e646]: Active
+                  - cell "22/01/2026" [ref=e647]
+                  - cell [ref=e648]:
+                    - img [ref=e651] [cursor=pointer]
+                - row "5 Per Person (Group of 10-25) Active 22/01/2026" [ref=e655]:
+                  - cell "5" [ref=e656]
+                  - cell "Per Person (Group of 10-25)" [ref=e657]:
+                    - link "Per Person (Group of 10-25)" [ref=e658] [cursor=pointer]:
+                      - /url: /program/units/8
+                      - paragraph [ref=e659]: Per Person (Group of 10-25)
+                  - cell "Active" [ref=e660]:
+                    - generic [ref=e663]: Active
+                  - cell "22/01/2026" [ref=e664]
+                  - cell [ref=e665]:
+                    - img [ref=e668] [cursor=pointer]
+                - row "6 Per Person (Group of 8-9) Active 22/01/2026" [ref=e672]:
+                  - cell "6" [ref=e673]
+                  - cell "Per Person (Group of 8-9)" [ref=e674]:
+                    - link "Per Person (Group of 8-9)" [ref=e675] [cursor=pointer]:
+                      - /url: /program/units/7
+                      - paragraph [ref=e676]: Per Person (Group of 8-9)
+                  - cell "Active" [ref=e677]:
+                    - generic [ref=e680]: Active
+                  - cell "22/01/2026" [ref=e681]
+                  - cell [ref=e682]:
+                    - img [ref=e685] [cursor=pointer]
+                - row "7 Per Person (Group of 5-7) Active 22/01/2026" [ref=e689]:
+                  - cell "7" [ref=e690]
+                  - cell "Per Person (Group of 5-7)" [ref=e691]:
+                    - link "Per Person (Group of 5-7)" [ref=e692] [cursor=pointer]:
+                      - /url: /program/units/6
+                      - paragraph [ref=e693]: Per Person (Group of 5-7)
+                  - cell "Active" [ref=e694]:
+                    - generic [ref=e697]: Active
+                  - cell "22/01/2026" [ref=e698]
+                  - cell [ref=e699]:
+                    - img [ref=e702] [cursor=pointer]
+                - row "8 Per Person (Group of 3-4) Active 22/01/2026" [ref=e706]:
+                  - cell "8" [ref=e707]
+                  - cell "Per Person (Group of 3-4)" [ref=e708]:
+                    - link "Per Person (Group of 3-4)" [ref=e709] [cursor=pointer]:
+                      - /url: /program/units/5
+                      - paragraph [ref=e710]: Per Person (Group of 3-4)
+                  - cell "Active" [ref=e711]:
+                    - generic [ref=e714]: Active
+                  - cell "22/01/2026" [ref=e715]
+                  - cell [ref=e716]:
+                    - img [ref=e719] [cursor=pointer]
+                - row "9 Per Person (Group of 2) Active 22/01/2026" [ref=e723]:
+                  - cell "9" [ref=e724]
+                  - cell "Per Person (Group of 2)" [ref=e725]:
+                    - link "Per Person (Group of 2)" [ref=e726] [cursor=pointer]:
+                      - /url: /program/units/4
+                      - paragraph [ref=e727]: Per Person (Group of 2)
+                  - cell "Active" [ref=e728]:
+                    - generic [ref=e731]: Active
+                  - cell "22/01/2026" [ref=e732]
+                  - cell [ref=e733]:
+                    - img [ref=e736] [cursor=pointer]
+                - row "10 Child Active 22/01/2026" [ref=e740]:
+                  - cell "10" [ref=e741]
+                  - cell "Child" [ref=e742]:
+                    - link "Child" [ref=e743] [cursor=pointer]:
+                      - /url: /program/units/3
+                      - paragraph [ref=e744]: Child
+                  - cell "Active" [ref=e745]:
+                    - generic [ref=e748]: Active
+                  - cell "22/01/2026" [ref=e749]
+                  - cell [ref=e750]:
+                    - img [ref=e753] [cursor=pointer]
+                - row "11 Adult Active 22/01/2026" [ref=e757]:
+                  - cell "11" [ref=e758]
+                  - cell "Adult" [ref=e759]:
+                    - link "Adult" [ref=e760] [cursor=pointer]:
+                      - /url: /program/units/2
+                      - paragraph [ref=e761]: Adult
+                  - cell "Active" [ref=e762]:
+                    - generic [ref=e765]: Active
+                  - cell "22/01/2026" [ref=e766]
+                  - cell [ref=e767]:
+                    - img [ref=e770] [cursor=pointer]
+                - row "12 infant Active 21/01/2026" [ref=e774]:
+                  - cell "12" [ref=e775]
+                  - cell "infant" [ref=e776]:
+                    - link "infant" [ref=e777] [cursor=pointer]:
+                      - /url: /program/units/1
+                      - paragraph [ref=e778]: infant
+                  - cell "Active" [ref=e779]:
+                    - generic [ref=e782]: Active
+                  - cell "21/01/2026" [ref=e783]
+                  - cell [ref=e784]:
+                    - img [ref=e787] [cursor=pointer]
+            - list [ref=e791]:
+              - listitem "Previous Page" [ref=e792]:
+                - button "left" [disabled] [ref=e793]:
+                  - img "left" [ref=e794]:
+                    - img [ref=e795]
+              - listitem "1" [ref=e797] [cursor=pointer]:
+                - generic [ref=e798]: "1"
+              - listitem "Next Page" [ref=e799]:
+                - button "right" [disabled] [ref=e800]:
+                  - img "right" [ref=e801]:
+                    - img [ref=e802]
+              - listitem [ref=e804]:
+                - generic "Page Size" [ref=e805] [cursor=pointer]:
+                  - generic [ref=e807]:
+                    - combobox "Page Size" [ref=e809]
+                    - generic "15 / page" [ref=e810]
+                  - generic:
+                    - img:
+                      - img

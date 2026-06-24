@@ -1,0 +1,378 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: Vehicle
+          - menu [ref=e212]:
+            - menuitem "Group Type" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e75]: Group Type
+            - menuitem "Supplier List" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e79]: Supplier List
+            - menuitem "Own Vehicle" [ref=e80] [cursor=pointer]:
+              - img [ref=e81]
+              - generic [ref=e83]: Own Vehicle
+          - menuitem "Employee" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Wed : 24 Jun 2026, 16:38"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares123
+              - generic [ref=e120]: Claude test
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e541]:
+          - generic [ref=e544]:
+            - generic [ref=e545]: Vehicle
+            - img [ref=e546]
+            - generic [ref=e548]: Own Vehicle
+            - img [ref=e549]
+            - generic [ref=e551]: View
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - img "own vehicle" [ref=e556]
+              - generic [ref=e557]: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด
+            - generic [ref=e559]:
+              - generic [ref=e560]:
+                - generic [ref=e562] [cursor=pointer]: Registration
+                - generic [ref=e564] [cursor=pointer]: Personnel list
+              - button "Add Personnel" [ref=e902] [cursor=pointer]:
+                - img [ref=e904]
+                - text: Add Personnel
+            - generic [ref=e908]:
+              - generic [ref=e909]:
+                - generic [ref=e910]: Personnel List
+                - generic [ref=e913]:
+                  - img [ref=e915]
+                  - textbox "Search" [ref=e918]
+              - generic [ref=e926]:
+                - table [ref=e930]:
+                  - rowgroup [ref=e939]:
+                    - row "# Image Position Name Phone Number Registration Action" [ref=e940]:
+                      - columnheader "#" [ref=e941]
+                      - columnheader "Image" [ref=e942]
+                      - columnheader "Position" [ref=e943]
+                      - columnheader "Name" [ref=e944]
+                      - columnheader "Phone Number" [ref=e945]
+                      - columnheader "Registration" [ref=e946]
+                      - columnheader "Action" [ref=e947]
+                  - rowgroup [ref=e948]:
+                    - row "1 Driver เฮียตี๋ฮุย +6658974949 V10-00006" [ref=e949]:
+                      - cell "1" [ref=e950]
+                      - cell [ref=e951]:
+                        - img [ref=e954]
+                      - cell "Driver" [ref=e956]:
+                        - generic [ref=e957]: Driver
+                      - cell "เฮียตี๋ฮุย" [ref=e958]:
+                        - link "เฮียตี๋ฮุย" [ref=e959] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/111
+                          - paragraph [ref=e960]: เฮียตี๋ฮุย
+                      - cell "+6658974949" [ref=e961]:
+                        - generic [ref=e962]: "+6658974949"
+                      - cell "V10-00006" [ref=e963]:
+                        - generic [ref=e964]: V10-00006
+                      - cell [ref=e965]:
+                        - img [ref=e968] [cursor=pointer]
+                    - row "2 Assistant captain yee 06879864644 -" [ref=e972]:
+                      - cell "2" [ref=e973]
+                      - cell [ref=e974]:
+                        - img [ref=e977]
+                      - cell "Assistant captain" [ref=e979]:
+                        - generic [ref=e980]: Assistant captain
+                      - cell "yee" [ref=e981]:
+                        - link "yee" [ref=e982] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/108
+                          - paragraph [ref=e983]: yee
+                      - cell "06879864644" [ref=e984]:
+                        - generic [ref=e985]: "06879864644"
+                      - cell "-" [ref=e986]:
+                        - generic [ref=e987]: "-"
+                      - cell [ref=e988]:
+                        - img [ref=e991] [cursor=pointer]
+                    - row "3 Assistant captain wee 06879864677 -" [ref=e995]:
+                      - cell "3" [ref=e996]
+                      - cell [ref=e997]:
+                        - img [ref=e1000]
+                      - cell "Assistant captain" [ref=e1002]:
+                        - generic [ref=e1003]: Assistant captain
+                      - cell "wee" [ref=e1004]:
+                        - link "wee" [ref=e1005] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/107
+                          - paragraph [ref=e1006]: wee
+                      - cell "06879864677" [ref=e1007]:
+                        - generic [ref=e1008]: "06879864677"
+                      - cell "-" [ref=e1009]:
+                        - generic [ref=e1010]: "-"
+                      - cell [ref=e1011]:
+                        - img [ref=e1014] [cursor=pointer]
+                    - row "4 Driver Romio 06879864897 -" [ref=e1018]:
+                      - cell "4" [ref=e1019]
+                      - cell [ref=e1020]:
+                        - img [ref=e1023]
+                      - cell "Driver" [ref=e1025]:
+                        - generic [ref=e1026]: Driver
+                      - cell "Romio" [ref=e1027]:
+                        - link "Romio" [ref=e1028] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/104
+                          - paragraph [ref=e1029]: Romio
+                      - cell "06879864897" [ref=e1030]:
+                        - generic [ref=e1031]: "06879864897"
+                      - cell "-" [ref=e1032]:
+                        - generic [ref=e1033]: "-"
+                      - cell [ref=e1034]:
+                        - img [ref=e1037] [cursor=pointer]
+                    - row "5 Driver K.Ar 06879864644 -" [ref=e1041]:
+                      - cell "5" [ref=e1042]
+                      - cell [ref=e1043]:
+                        - img [ref=e1046]
+                      - cell "Driver" [ref=e1048]:
+                        - generic [ref=e1049]: Driver
+                      - cell "K.Ar" [ref=e1050]:
+                        - link "K.Ar" [ref=e1051] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/103
+                          - paragraph [ref=e1052]: K.Ar
+                      - cell "06879864644" [ref=e1053]:
+                        - generic [ref=e1054]: "06879864644"
+                      - cell "-" [ref=e1055]:
+                        - generic [ref=e1056]: "-"
+                      - cell [ref=e1057]:
+                        - img [ref=e1060] [cursor=pointer]
+                    - row "6 Captain Siriporn Kaewta 082-555-7788 -" [ref=e1064]:
+                      - cell "6" [ref=e1065]
+                      - cell [ref=e1066]:
+                        - img [ref=e1069]
+                      - cell "Captain" [ref=e1071]:
+                        - generic [ref=e1072]: Captain
+                      - cell "Siriporn Kaewta" [ref=e1073]:
+                        - link "Siriporn Kaewta" [ref=e1074] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/98
+                          - paragraph [ref=e1075]: Siriporn Kaewta
+                      - cell "082-555-7788" [ref=e1076]:
+                        - generic [ref=e1077]: 082-555-7788
+                      - cell "-" [ref=e1078]:
+                        - generic [ref=e1079]: "-"
+                      - cell [ref=e1080]:
+                        - img [ref=e1083] [cursor=pointer]
+                    - row "7 Driver TestOtherE2E 0991234567 กข-3333" [ref=e1087]:
+                      - cell "7" [ref=e1088]
+                      - cell [ref=e1089]:
+                        - img [ref=e1092]
+                      - cell "Driver" [ref=e1094]:
+                        - generic [ref=e1095]: Driver
+                      - cell "TestOtherE2E" [ref=e1096]:
+                        - link "TestOtherE2E" [ref=e1097] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/87
+                          - paragraph [ref=e1098]: TestOtherE2E
+                      - cell "0991234567" [ref=e1099]:
+                        - generic [ref=e1100]: "0991234567"
+                      - cell "กข-3333" [ref=e1101]:
+                        - generic [ref=e1102]: กข-3333
+                      - cell [ref=e1103]:
+                        - img [ref=e1106] [cursor=pointer]
+                    - row "8 Driver OtherE2E1779332501400Edited 0991234567 กง-1234" [ref=e1110]:
+                      - cell "8" [ref=e1111]
+                      - cell [ref=e1112]:
+                        - img [ref=e1115]
+                      - cell "Driver" [ref=e1117]:
+                        - generic [ref=e1118]: Driver
+                      - cell "OtherE2E1779332501400Edited" [ref=e1119]:
+                        - link "OtherE2E1779332501400Edited" [ref=e1120] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/89
+                          - paragraph [ref=e1121]: OtherE2E1779332501400Edited
+                      - cell "0991234567" [ref=e1122]:
+                        - generic [ref=e1123]: "0991234567"
+                      - cell "กง-1234" [ref=e1124]:
+                        - generic [ref=e1125]: กง-1234
+                      - cell [ref=e1126]:
+                        - img [ref=e1129] [cursor=pointer]
+                    - row "9 Driver OtherE2E1779331786677Edited 0991234567 กง-1234" [ref=e1133]:
+                      - cell "9" [ref=e1134]
+                      - cell [ref=e1135]:
+                        - img [ref=e1138]
+                      - cell "Driver" [ref=e1140]:
+                        - generic [ref=e1141]: Driver
+                      - cell "OtherE2E1779331786677Edited" [ref=e1142]:
+                        - link "OtherE2E1779331786677Edited" [ref=e1143] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/88
+                          - paragraph [ref=e1144]: OtherE2E1779331786677Edited
+                      - cell "0991234567" [ref=e1145]:
+                        - generic [ref=e1146]: "0991234567"
+                      - cell "กง-1234" [ref=e1147]:
+                        - generic [ref=e1148]: กง-1234
+                      - cell [ref=e1149]:
+                        - img [ref=e1152] [cursor=pointer]
+                    - row "10 Captain 1dwad 23 -" [ref=e1156]:
+                      - cell "10" [ref=e1157]
+                      - cell [ref=e1158]:
+                        - img [ref=e1161]
+                      - cell "Captain" [ref=e1163]:
+                        - generic [ref=e1164]: Captain
+                      - cell "1dwad" [ref=e1165]:
+                        - link "1dwad" [ref=e1166] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/75
+                          - paragraph [ref=e1167]: 1dwad
+                      - cell "23" [ref=e1168]:
+                        - generic [ref=e1169]: "23"
+                      - cell "-" [ref=e1170]:
+                        - generic [ref=e1171]: "-"
+                      - cell [ref=e1172]:
+                        - img [ref=e1175] [cursor=pointer]
+                    - row "11 Driver fgdsgdfgd 05464546468 -" [ref=e1179]:
+                      - cell "11" [ref=e1180]
+                      - cell [ref=e1181]:
+                        - img [ref=e1184]
+                      - cell "Driver" [ref=e1186]:
+                        - generic [ref=e1187]: Driver
+                      - cell "fgdsgdfgd" [ref=e1188]:
+                        - link "fgdsgdfgd" [ref=e1189] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/19
+                          - paragraph [ref=e1190]: fgdsgdfgd
+                      - cell "05464546468" [ref=e1191]:
+                        - generic [ref=e1192]: "05464546468"
+                      - cell "-" [ref=e1193]:
+                        - generic [ref=e1194]: "-"
+                      - cell [ref=e1195]:
+                        - img [ref=e1198] [cursor=pointer]
+                    - row "12 Driver TEST22 098-0221123 -" [ref=e1202]:
+                      - cell "12" [ref=e1203]
+                      - cell [ref=e1204]:
+                        - img [ref=e1207]
+                      - cell "Driver" [ref=e1209]:
+                        - generic [ref=e1210]: Driver
+                      - cell "TEST22" [ref=e1211]:
+                        - link "TEST22" [ref=e1212] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/16
+                          - paragraph [ref=e1213]: TEST22
+                      - cell "098-0221123" [ref=e1214]:
+                        - generic [ref=e1215]: 098-0221123
+                      - cell "-" [ref=e1216]:
+                        - generic [ref=e1217]: "-"
+                      - cell [ref=e1218]:
+                        - img [ref=e1221] [cursor=pointer]
+                    - row "13 IT Support surang##310 093-9999999 กข-8888" [ref=e1225]:
+                      - cell "13" [ref=e1226]
+                      - cell [ref=e1227]:
+                        - img [ref=e1230]
+                      - cell "IT Support" [ref=e1232]:
+                        - generic [ref=e1233]: IT Support
+                      - cell "surang##310" [ref=e1234]:
+                        - link "surang##310" [ref=e1235] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/12
+                          - paragraph [ref=e1236]: surang##310
+                      - cell "093-9999999" [ref=e1237]:
+                        - generic [ref=e1238]: 093-9999999
+                      - cell "กข-8888" [ref=e1239]:
+                        - generic [ref=e1240]: กข-8888
+                      - cell [ref=e1241]:
+                        - img [ref=e1244] [cursor=pointer]
+                    - row "14 Driver surang##309 4444444444 กข-1234" [ref=e1248]:
+                      - cell "14" [ref=e1249]
+                      - cell [ref=e1250]:
+                        - img [ref=e1253]
+                      - cell "Driver" [ref=e1255]:
+                        - generic [ref=e1256]: Driver
+                      - cell "surang##309" [ref=e1257]:
+                        - link "surang##309" [ref=e1258] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/7
+                          - paragraph [ref=e1259]: surang##309
+                      - cell "4444444444" [ref=e1260]:
+                        - generic [ref=e1261]: "4444444444"
+                      - cell "กข-1234" [ref=e1262]:
+                        - generic [ref=e1263]: กข-1234
+                      - cell [ref=e1264]:
+                        - img [ref=e1267] [cursor=pointer]
+                    - row "15 IT Support surang##311 092-5555555 กข-9999" [ref=e1271]:
+                      - cell "15" [ref=e1272]
+                      - cell [ref=e1273]:
+                        - img [ref=e1276]
+                      - cell "IT Support" [ref=e1278]:
+                        - generic [ref=e1279]: IT Support
+                      - cell "surang##311" [ref=e1280]:
+                        - link "surang##311" [ref=e1281] [cursor=pointer]:
+                          - /url: /vehicle/own-vehicle/personnel/13
+                          - paragraph [ref=e1282]: surang##311
+                      - cell "092-5555555" [ref=e1283]:
+                        - generic [ref=e1284]: 092-5555555
+                      - cell "กข-9999" [ref=e1285]:
+                        - generic [ref=e1286]: กข-9999
+                      - cell [ref=e1287]:
+                        - img [ref=e1290] [cursor=pointer]
+                - list [ref=e1294]:
+                  - listitem "Previous Page" [ref=e1295]:
+                    - button "left" [disabled] [ref=e1296]:
+                      - img "left" [ref=e1297]:
+                        - img [ref=e1298]
+                  - listitem "1" [ref=e1300] [cursor=pointer]:
+                    - generic [ref=e1301]: "1"
+                  - listitem "2" [ref=e1302] [cursor=pointer]:
+                    - generic [ref=e1303]: "2"
+                  - listitem "Next Page" [ref=e1304] [cursor=pointer]:
+                    - button "right" [ref=e1305]:
+                      - img "right" [ref=e1306]:
+                        - img [ref=e1307]
+                  - listitem [ref=e1309]:
+                    - generic "Page Size" [ref=e1310] [cursor=pointer]:
+                      - generic [ref=e1312]:
+                        - combobox "Page Size" [ref=e1314]
+                        - generic "15 / page" [ref=e1315]
+                      - generic:
+                        - img:
+                          - img

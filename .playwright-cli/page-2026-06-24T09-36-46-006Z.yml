@@ -1,0 +1,159 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: Vehicle
+          - menu [ref=e209]:
+            - menuitem "Group Type" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e75]: Group Type
+            - menuitem "Supplier List" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e79]: Supplier List
+            - menuitem "Own Vehicle" [ref=e80] [cursor=pointer]:
+              - img [ref=e81]
+              - generic [ref=e83]: Own Vehicle
+          - menuitem "Employee" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Wed : 24 Jun 2026, 16:36"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares123
+              - generic [ref=e120]: Claude test
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e525]:
+          - generic [ref=e528]:
+            - generic [ref=e529]: Vehicle
+            - img [ref=e530]
+            - generic [ref=e532] [cursor=pointer]: Group Type
+            - img [ref=e533]
+            - generic [ref=e535]: Create Group Type
+          - generic [ref=e537]:
+            - generic [ref=e541]:
+              - generic [ref=e543]: Group Type Detail
+              - generic [ref=e545]:
+                - generic [ref=e546]:
+                  - paragraph [ref=e547]: Arrangement Type *
+                  - generic [ref=e551]:
+                    - generic [ref=e553] [cursor=pointer]:
+                      - checkbox "Excursion" [ref=e555]
+                      - generic [ref=e558]:
+                        - paragraph [ref=e559]: Excursion
+                        - paragraph
+                    - generic [ref=e561] [cursor=pointer]:
+                      - checkbox "Transport" [ref=e563]
+                      - generic [ref=e566]:
+                        - paragraph [ref=e567]: Transport
+                        - paragraph
+                - generic [ref=e569]:
+                  - generic [ref=e570]: Group Type Name *
+                  - textbox "Please enter" [ref=e572]
+                - generic [ref=e574]:
+                  - generic [ref=e575]: Capacity *
+                  - generic [ref=e576]:
+                    - generic:
+                      - button "Increase Value" [ref=e577] [cursor=pointer]:
+                        - img "up" [ref=e578]:
+                          - img [ref=e579]
+                      - button "Decrease Value" [ref=e581] [cursor=pointer]:
+                        - img "down" [ref=e582]:
+                          - img [ref=e583]
+                    - spinbutton "0" [ref=e586]
+                - generic [ref=e587]:
+                  - generic [ref=e588]: Recommend
+                  - generic [ref=e589]:
+                    - generic:
+                      - button "Increase Value" [ref=e590] [cursor=pointer]:
+                        - img "up" [ref=e591]:
+                          - img [ref=e592]
+                      - button "Decrease Value" [ref=e594] [cursor=pointer]:
+                        - img "down" [ref=e595]:
+                          - img [ref=e596]
+                    - spinbutton "0" [ref=e599]
+                - generic [ref=e600]:
+                  - paragraph [ref=e601]: Type *
+                  - generic [ref=e602]:
+                    - generic [ref=e603] [cursor=pointer]:
+                      - img [ref=e605]
+                      - generic [ref=e608]: Car
+                    - generic [ref=e609] [cursor=pointer]:
+                      - img [ref=e611]
+                      - generic [ref=e615]: MPV / SUV
+                    - generic [ref=e616] [cursor=pointer]:
+                      - img [ref=e618]
+                      - generic [ref=e621]: Bus
+                    - generic [ref=e622] [cursor=pointer]:
+                      - img [ref=e624]
+                      - generic [ref=e629]: Van
+                    - generic [ref=e630] [cursor=pointer]:
+                      - img [ref=e632]
+                      - generic [ref=e636]: Boat
+                    - generic [ref=e637] [cursor=pointer]:
+                      - img [ref=e639]
+                      - generic [ref=e643]: Motorcycle
+                    - generic [ref=e644] [cursor=pointer]:
+                      - img [ref=e646]
+                      - generic [ref=e649]: Guide
+            - generic [ref=e650]:
+              - button "Cancel" [ref=e651] [cursor=pointer]
+              - button "Save" [disabled] [ref=e652]:
+                - img [ref=e654]
+                - text: Save

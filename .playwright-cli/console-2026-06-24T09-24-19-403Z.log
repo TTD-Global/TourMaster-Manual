@@ -1,0 +1,17 @@
+[      87ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…U0OH0.Ps3pKy24kAbolzyXKjkkzMoNHGVAI8kECcq-SAObgfw, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      87ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      96ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      96ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     228ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     228ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     252ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     255ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     255ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     373ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/other:0
+[     373ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/other:0
+[     373ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/other:0
+[     391ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     391ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[     930ms] [LOG] result [Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[    1152ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0
+[    1152ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-5679d279d97322c8.js:0

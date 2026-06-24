@@ -1,0 +1,204 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [expanded] [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menu:
+              - menuitem "Advance" [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+                - generic [ref=e60]: Advance
+              - menuitem "Expenses" [ref=e61] [cursor=pointer]:
+                - img [ref=e62]
+                - generic [ref=e64]: Expenses
+              - menuitem "Balance" [ref=e65] [cursor=pointer]:
+                - img [ref=e66]
+                - generic [ref=e68]: Balance
+              - menuitem "Report" [ref=e69] [cursor=pointer]:
+                - img [ref=e70]
+                - generic [ref=e72]: Report
+          - separator [ref=e73]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+            - generic [ref=e79]: Program
+          - menuitem "Seller" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Seller
+          - menuitem "Vehicle" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e87]: Vehicle
+          - menuitem "Employee" [ref=e88] [cursor=pointer]:
+            - img [ref=e89]
+            - generic [ref=e93]: Employee
+          - menuitem "Zone Transfer" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e99]: Zone Transfer
+          - menuitem "User" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e104]: User
+          - menuitem "Company" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: Company
+          - menuitem "User Manual" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]
+            - generic [ref=e112]: User Manual
+    - generic [ref=e113]:
+      - banner [ref=e114]:
+        - generic [ref=e116]:
+          - generic [ref=e117]: "Wed : 24 Jun 2026, 16:29"
+          - generic [ref=e119] [cursor=pointer]:
+            - generic [ref=e121]: AM
+            - generic [ref=e122]:
+              - generic [ref=e123]: amares123
+              - generic [ref=e124]: Claude test
+            - img [ref=e126]
+      - main [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Payment
+              - img [ref=e134]
+              - generic [ref=e136]: Report
+            - generic [ref=e137]:
+              - generic [ref=e140]:
+                - img [ref=e142]
+                - generic [ref=e144]:
+                  - textbox "Start date" [ref=e146]: 01/06/2026
+                  - generic [ref=e148]: "-"
+                  - textbox "End date" [ref=e150]: 30/06/2026
+              - button "Export" [ref=e151] [cursor=pointer]:
+                - img [ref=e153]
+                - generic [ref=e156]: Export
+                - img [ref=e158]
+          - generic [ref=e160]:
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - paragraph [ref=e163]: "0.00"
+                - paragraph [ref=e164]: Total Expense
+              - img [ref=e166]
+            - generic [ref=e171]:
+              - generic [ref=e172]:
+                - paragraph [ref=e173]: "0.00"
+                - paragraph [ref=e174]: Supplier Cost
+              - img [ref=e176]
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - paragraph [ref=e181]: "0.00"
+                - paragraph [ref=e182]: Own Vehicle Cost
+              - img [ref=e184]
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: "0.00"
+                - paragraph [ref=e190]: Guide Cost
+              - img [ref=e192]
+          - generic [ref=e196]:
+            - generic [ref=e198]:
+              - tablist [ref=e199]:
+                - generic [ref=e201]:
+                  - tab "Expense" [selected] [ref=e203] [cursor=pointer]:
+                    - generic [ref=e205]: Expense
+                  - tab "Supplier" [ref=e207] [cursor=pointer]:
+                    - generic [ref=e209]: Supplier
+                  - tab "Own Vehicle" [ref=e211] [cursor=pointer]:
+                    - generic [ref=e213]: Own Vehicle
+                  - tab "Guide" [ref=e215] [cursor=pointer]:
+                    - generic [ref=e217]: Guide
+              - generic:
+                - generic:
+                  - tabpanel "Expense"
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - button "All" [ref=e222] [cursor=pointer]
+                - button "Guide fee" [ref=e223] [cursor=pointer]
+                - button "Vehicle Cost" [ref=e224] [cursor=pointer]
+                - button "Other Expense" [ref=e225] [cursor=pointer]
+                - button "Allowance" [ref=e226] [cursor=pointer]
+                - button "Extra Cost" [ref=e227] [cursor=pointer]
+              - generic [ref=e228]:
+                - generic [ref=e229]:
+                  - img [ref=e230]
+                  - generic [ref=e235]: Expense Cost
+                - generic [ref=e236]:
+                  - generic [ref=e237]: 0 Trips
+                  - generic [ref=e238]: •
+                  - generic [ref=e239]: Totel Expense Cost (THB)
+                  - generic [ref=e240]: "0.00"
+              - generic [ref=e243]:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - table:
+                          - rowgroup:
+                            - row "# Type List Total Trips Total (Baht)":
+                              - columnheader "#"
+                              - columnheader "Type":
+                                - generic:
+                                  - generic: Type
+                                  - generic:
+                                    - generic:
+                                      - img:
+                                        - img
+                                      - img:
+                                        - img
+                              - columnheader "List":
+                                - generic:
+                                  - generic: List
+                                  - generic:
+                                    - generic:
+                                      - img:
+                                        - img
+                                      - img:
+                                        - img
+                              - columnheader "Total Trips":
+                                - generic:
+                                  - generic: Total Trips
+                                  - generic:
+                                    - generic:
+                                      - img:
+                                        - img
+                                      - img:
+                                        - img
+                              - columnheader "Total (Baht)":
+                                - generic:
+                                  - generic: Total (Baht)
+                                  - generic:
+                                    - generic:
+                                      - img:
+                                        - img
+                                      - img:
+                                        - img
+                          - rowgroup:
+                            - row:
+                              - cell:
+                                - generic:
+                                  - img

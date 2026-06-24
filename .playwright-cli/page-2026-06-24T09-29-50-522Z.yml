@@ -1,0 +1,102 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: Vehicle
+          - menuitem "Employee" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e77]: Employee
+          - menuitem "Zone Transfer" [ref=e78] [cursor=pointer]:
+            - img [ref=e79]
+            - generic [ref=e83]: Zone Transfer
+          - menuitem "User" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e88]: User
+          - menuitem "Company" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e92]: Company
+          - menuitem "User Manual" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: User Manual
+    - generic [ref=e97]:
+      - banner [ref=e98]:
+        - generic [ref=e100]:
+          - generic [ref=e101]: "Wed : 24 Jun 2026, 16:29"
+          - generic [ref=e103] [cursor=pointer]:
+            - generic [ref=e105]: AM
+            - generic [ref=e106]:
+              - generic [ref=e107]: amares123
+              - generic [ref=e108]: Claude test
+            - img [ref=e110]
+      - main [ref=e112]:
+        - generic [ref=e113]:
+          - generic [ref=e115]:
+            - generic [ref=e117]: Seller
+            - button "Create Seller" [ref=e119] [cursor=pointer]:
+              - img [ref=e121]
+              - text: Create Seller
+          - generic [ref=e124]:
+            - generic [ref=e127]:
+              - img [ref=e129]
+              - textbox "Search" [ref=e132]
+            - button "Filter" [ref=e134] [cursor=pointer]:
+              - img [ref=e136]
+              - text: Filter
+            - button "Export" [ref=e139] [cursor=pointer]:
+              - img [ref=e141]
+              - generic [ref=e144]: Export
+              - img [ref=e146]
+          - table [ref=e155]:
+            - rowgroup [ref=e164]:
+              - row "# Image Seller Name Program Quantity Status Last Modify Date Action" [ref=e165]:
+                - columnheader "#" [ref=e166]
+                - columnheader "Image" [ref=e167]
+                - columnheader "Seller Name" [ref=e168]
+                - columnheader "Program Quantity" [ref=e169]
+                - columnheader "Status" [ref=e170]
+                - columnheader "Last Modify Date" [ref=e171]
+                - columnheader "Action" [ref=e172]
+            - rowgroup [ref=e173]:
+              - row [ref=e174]:
+                - cell [ref=e175]:
+                  - img [ref=e177]

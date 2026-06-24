@@ -1,0 +1,131 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e77]: Employee
+          - menu [ref=e78]:
+            - menuitem "Employee summary" [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - generic [ref=e82]: Employee summary
+            - menuitem "Guide / Staff" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: Guide / Staff
+            - menuitem "Other" [ref=e87] [cursor=pointer]:
+              - img [ref=e88]
+              - generic [ref=e90]: Other
+            - menuitem "Positions" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - generic [ref=e94]: Positions
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Wed : 24 Jun 2026, 16:30"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares123
+              - generic [ref=e125]: Claude test
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Employee
+              - img [ref=e134]
+              - generic [ref=e136]: Guide / Staff
+            - button "Create Staff" [ref=e138] [cursor=pointer]:
+              - img [ref=e140]
+              - text: Create Staff
+          - generic [ref=e142]:
+            - tablist [ref=e143]:
+              - generic [ref=e145]:
+                - tab "Guide List 0" [ref=e147] [cursor=pointer]:
+                  - generic [ref=e149]:
+                    - text: Guide List
+                    - generic [ref=e151]: "0"
+                - tab "Staff List 0" [selected] [ref=e153] [cursor=pointer]:
+                  - generic [ref=e155]:
+                    - text: Staff List
+                    - generic [ref=e157]: "0"
+              - generic [ref=e159]:
+                - generic [ref=e162]:
+                  - img [ref=e164]
+                  - textbox "Search" [ref=e167]
+                - button "Filter" [ref=e169] [cursor=pointer]:
+                  - img [ref=e171]
+                  - text: Filter
+                - button "Export" [ref=e174] [cursor=pointer]:
+                  - img [ref=e176]
+                  - generic [ref=e179]: Export
+                  - img [ref=e181]
+            - tabpanel "Staff List 0" [ref=e185]:
+              - table [ref=e193]:
+                - rowgroup [ref=e203]:
+                  - row "# Image Nickname Staff Name Phone Number Status Last Modify Date Action" [ref=e204]:
+                    - columnheader "#" [ref=e205]
+                    - columnheader "Image" [ref=e206]
+                    - columnheader "Nickname" [ref=e207]
+                    - columnheader "Staff Name" [ref=e208]
+                    - columnheader "Phone Number" [ref=e209]
+                    - columnheader "Status" [ref=e210]
+                    - columnheader "Last Modify Date" [ref=e211]
+                    - columnheader "Action" [ref=e212]
+                - rowgroup [ref=e213]:
+                  - row [ref=e214]:
+                    - cell [ref=e215]:
+                      - img [ref=e217]

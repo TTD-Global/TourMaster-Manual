@@ -1,0 +1,273 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: Vehicle
+          - menu [ref=e212]:
+            - menuitem "Group Type" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e75]: Group Type
+            - menuitem "Supplier List" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e79]: Supplier List
+            - menuitem "Own Vehicle" [ref=e80] [cursor=pointer]:
+              - img [ref=e81]
+              - generic [ref=e83]: Own Vehicle
+          - menuitem "Employee" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Wed : 24 Jun 2026, 16:37"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares123
+              - generic [ref=e120]: Claude test
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e541]:
+          - generic [ref=e544]:
+            - generic [ref=e545]: Vehicle
+            - img [ref=e546]
+            - generic [ref=e548]: Own Vehicle
+            - img [ref=e549]
+            - generic [ref=e551]: View
+          - generic [ref=e553]:
+            - generic [ref=e554]:
+              - img "own vehicle" [ref=e556]
+              - generic [ref=e557]: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด
+            - generic [ref=e559]:
+              - generic [ref=e560]:
+                - generic [ref=e562] [cursor=pointer]: Registration
+                - generic [ref=e564] [cursor=pointer]: Personnel list
+              - button "Add Registration" [ref=e565] [cursor=pointer]:
+                - img [ref=e567]
+                - text: Add Registration
+            - generic [ref=e571]:
+              - generic [ref=e572]:
+                - generic [ref=e573]: Registration
+                - generic [ref=e576]:
+                  - img [ref=e578]
+                  - textbox "Search" [ref=e581]
+              - generic [ref=e589]:
+                - table [ref=e593]:
+                  - rowgroup [ref=e600]:
+                    - row "# Registration Group Type Active Action" [ref=e601]:
+                      - columnheader "#" [ref=e602]
+                      - columnheader "Registration" [ref=e603]
+                      - columnheader "Group Type" [ref=e604]
+                      - columnheader "Active" [ref=e605]
+                      - columnheader "Action" [ref=e606]
+                  - rowgroup [ref=e607]:
+                    - row "1 กข-2222 BUS (34)" [ref=e608]:
+                      - cell "1" [ref=e609]
+                      - cell "กข-2222" [ref=e610]
+                      - cell "BUS (34)" [ref=e611]:
+                        - generic [ref=e612]: BUS (34)
+                      - cell [ref=e613]:
+                        - switch [checked] [ref=e616] [cursor=pointer]
+                      - cell [ref=e619]:
+                        - img [ref=e622] [cursor=pointer]
+                    - row "2 นน-1133 BUS (36)" [ref=e626]:
+                      - cell "2" [ref=e627]
+                      - cell "นน-1133" [ref=e628]
+                      - cell "BUS (36)" [ref=e629]:
+                        - generic [ref=e630]: BUS (36)
+                      - cell [ref=e631]:
+                        - switch [checked] [ref=e634] [cursor=pointer]
+                      - cell [ref=e637]:
+                        - img [ref=e640] [cursor=pointer]
+                    - row "3 นน-1122 BUS (36)" [ref=e644]:
+                      - cell "3" [ref=e645]
+                      - cell "นน-1122" [ref=e646]
+                      - cell "BUS (36)" [ref=e647]:
+                        - generic [ref=e648]: BUS (36)
+                      - cell [ref=e649]:
+                        - switch [checked] [ref=e652] [cursor=pointer]
+                      - cell [ref=e655]:
+                        - img [ref=e658] [cursor=pointer]
+                    - row "4 นน-1111 BUS (36)" [ref=e662]:
+                      - cell "4" [ref=e663]
+                      - cell "นน-1111" [ref=e664]
+                      - cell "BUS (36)" [ref=e665]:
+                        - generic [ref=e666]: BUS (36)
+                      - cell [ref=e667]:
+                        - switch [checked] [ref=e670] [cursor=pointer]
+                      - cell [ref=e673]:
+                        - img [ref=e676] [cursor=pointer]
+                    - row "5 รร-1111 speed (30)" [ref=e680]:
+                      - cell "5" [ref=e681]
+                      - cell "รร-1111" [ref=e682]
+                      - cell "speed (30)" [ref=e683]:
+                        - generic [ref=e684]: speed (30)
+                      - cell [ref=e685]:
+                        - switch [checked] [ref=e688] [cursor=pointer]
+                      - cell [ref=e691]:
+                        - img [ref=e694] [cursor=pointer]
+                    - row "6 รร-1133 speed (30)" [ref=e698]:
+                      - cell "6" [ref=e699]
+                      - cell "รร-1133" [ref=e700]
+                      - cell "speed (30)" [ref=e701]:
+                        - generic [ref=e702]: speed (30)
+                      - cell [ref=e703]:
+                        - switch [checked] [ref=e706] [cursor=pointer]
+                      - cell [ref=e709]:
+                        - img [ref=e712] [cursor=pointer]
+                    - row "7 รร-1122 speed (30)" [ref=e716]:
+                      - cell "7" [ref=e717]
+                      - cell "รร-1122" [ref=e718]
+                      - cell "speed (30)" [ref=e719]:
+                        - generic [ref=e720]: speed (30)
+                      - cell [ref=e721]:
+                        - switch [checked] [ref=e724] [cursor=pointer]
+                      - cell [ref=e727]:
+                        - img [ref=e730] [cursor=pointer]
+                    - row "8 กข-4444 BUS (30)" [ref=e734]:
+                      - cell "8" [ref=e735]
+                      - cell "กข-4444" [ref=e736]
+                      - cell "BUS (30)" [ref=e737]:
+                        - generic [ref=e738]: BUS (30)
+                      - cell [ref=e739]:
+                        - switch [checked] [ref=e742] [cursor=pointer]
+                      - cell [ref=e745]:
+                        - img [ref=e748] [cursor=pointer]
+                    - row "9 กข-5555 Guide Only (16)" [ref=e752]:
+                      - cell "9" [ref=e753]
+                      - cell "กข-5555" [ref=e754]
+                      - cell "Guide Only (16)" [ref=e755]:
+                        - generic [ref=e756]: Guide Only (16)
+                      - cell [ref=e757]:
+                        - switch [checked] [ref=e760] [cursor=pointer]
+                      - cell [ref=e763]:
+                        - img [ref=e766] [cursor=pointer]
+                    - row "10 กข-3333 Bus (39)" [ref=e770]:
+                      - cell "10" [ref=e771]
+                      - cell "กข-3333" [ref=e772]
+                      - cell "Bus (39)" [ref=e773]:
+                        - generic [ref=e774]: Bus (39)
+                      - cell [ref=e775]:
+                        - switch [checked] [ref=e778] [cursor=pointer]
+                      - cell [ref=e781]:
+                        - img [ref=e784] [cursor=pointer]
+                    - row "11 กข-1111 Alphard (5)" [ref=e788]:
+                      - cell "11" [ref=e789]
+                      - cell "กข-1111" [ref=e790]
+                      - cell "Alphard (5)" [ref=e791]:
+                        - generic [ref=e792]: Alphard (5)
+                      - cell [ref=e793]:
+                        - switch [checked] [ref=e796] [cursor=pointer]
+                      - cell [ref=e799]:
+                        - img [ref=e802] [cursor=pointer]
+                    - row "12 b2 CAR (4)" [ref=e806]:
+                      - cell "12" [ref=e807]
+                      - cell "b2" [ref=e808]
+                      - cell "CAR (4)" [ref=e809]:
+                        - generic [ref=e810]: CAR (4)
+                      - cell [ref=e811]:
+                        - switch [checked] [ref=e814] [cursor=pointer]
+                      - cell [ref=e817]:
+                        - img [ref=e820] [cursor=pointer]
+                    - row "13 a2 Alphard (5)" [ref=e824]:
+                      - cell "13" [ref=e825]
+                      - cell "a2" [ref=e826]
+                      - cell "Alphard (5)" [ref=e827]:
+                        - generic [ref=e828]: Alphard (5)
+                      - cell [ref=e829]:
+                        - switch [checked] [ref=e832] [cursor=pointer]
+                      - cell [ref=e835]:
+                        - img [ref=e838] [cursor=pointer]
+                    - row "14 a1 Alphard (5)" [ref=e842]:
+                      - cell "14" [ref=e843]
+                      - cell "a1" [ref=e844]
+                      - cell "Alphard (5)" [ref=e845]:
+                        - generic [ref=e846]: Alphard (5)
+                      - cell [ref=e847]:
+                        - switch [checked] [ref=e850] [cursor=pointer]
+                      - cell [ref=e853]:
+                        - img [ref=e856] [cursor=pointer]
+                    - row "15 b1 CAR (4)" [ref=e860]:
+                      - cell "15" [ref=e861]
+                      - cell "b1" [ref=e862]
+                      - cell "CAR (4)" [ref=e863]:
+                        - generic [ref=e864]: CAR (4)
+                      - cell [ref=e865]:
+                        - switch [checked] [ref=e868] [cursor=pointer]
+                      - cell [ref=e871]:
+                        - img [ref=e874] [cursor=pointer]
+                - list [ref=e878]:
+                  - listitem "Previous Page" [ref=e879]:
+                    - button "left" [disabled] [ref=e880]:
+                      - img "left" [ref=e881]:
+                        - img [ref=e882]
+                  - listitem "1" [ref=e884] [cursor=pointer]:
+                    - generic [ref=e885]: "1"
+                  - listitem "2" [ref=e886] [cursor=pointer]:
+                    - generic [ref=e887]: "2"
+                  - listitem "3" [ref=e888] [cursor=pointer]:
+                    - generic [ref=e889]: "3"
+                  - listitem "Next Page" [ref=e890] [cursor=pointer]:
+                    - button "right" [ref=e891]:
+                      - img "right" [ref=e892]:
+                        - img [ref=e893]
+                  - listitem [ref=e895]:
+                    - generic "Page Size" [ref=e896] [cursor=pointer]:
+                      - generic [ref=e898]:
+                        - combobox "Page Size" [ref=e900]
+                        - generic "15 / page" [ref=e901]
+                      - generic:
+                        - img:
+                          - img

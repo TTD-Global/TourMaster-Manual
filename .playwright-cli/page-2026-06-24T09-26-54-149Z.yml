@@ -1,0 +1,350 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e34]
+          - text: Management
+          - group [ref=e35]:
+            - menuitem "Bookings" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e40]: Bookings
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Vehicle
+          - menu [ref=e128]:
+            - menuitem "Group Type" [ref=e129] [cursor=pointer]:
+              - img [ref=e130]
+              - generic [ref=e132]: Group Type
+            - menuitem "Supplier List" [ref=e133] [cursor=pointer]:
+              - img [ref=e134]
+              - generic [ref=e136]: Supplier List
+            - menuitem "Own Vehicle" [ref=e137] [cursor=pointer]:
+              - img [ref=e138]
+              - generic [ref=e140]: Own Vehicle
+          - menuitem "Employee" [expanded] [active] [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menu [ref=e521]:
+            - menuitem "Employee summary" [ref=e522] [cursor=pointer]:
+              - img [ref=e523]
+              - generic [ref=e525]: Employee summary
+            - menuitem "Guide / Staff" [ref=e526] [cursor=pointer]:
+              - img [ref=e527]
+              - generic [ref=e529]: Guide / Staff
+            - menuitem "Other" [ref=e530] [cursor=pointer]:
+              - img [ref=e531]
+              - generic [ref=e533]: Other
+            - menuitem "Positions" [ref=e534] [cursor=pointer]:
+              - img [ref=e535]
+              - generic [ref=e537]: Positions
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Wed : 24 Jun 2026, 16:26"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares123
+              - generic [ref=e120]: Claude test
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e141]:
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: Vehicle
+              - img [ref=e146]
+              - generic [ref=e148]: Group Type
+            - button "Create Group Type" [ref=e150] [cursor=pointer]:
+              - img [ref=e152]
+              - text: Create Group Type
+          - generic [ref=e155]:
+            - generic [ref=e158]:
+              - img [ref=e160]
+              - textbox "Search" [ref=e163]
+            - button "Filter" [ref=e165] [cursor=pointer]:
+              - img [ref=e167]
+              - text: Filter
+            - button "Export" [ref=e170] [cursor=pointer]:
+              - img [ref=e172]
+              - generic [ref=e175]: Export
+              - img [ref=e177]
+          - generic [ref=e183]:
+            - table [ref=e187]:
+              - rowgroup [ref=e196]:
+                - row "# Group type Name Capacity Arrangement Type Status Last Modify Date Action" [ref=e197]:
+                  - columnheader "#" [ref=e198]
+                  - columnheader "Group type Name" [ref=e199]
+                  - columnheader "Capacity" [ref=e200]
+                  - columnheader "Arrangement Type" [ref=e201]
+                  - columnheader "Status" [ref=e202]
+                  - columnheader "Last Modify Date" [ref=e203]
+                  - columnheader "Action" [ref=e204]
+              - rowgroup [ref=e205]:
+                - row "1 CAR 2 Excursion Active 24/06/2026" [ref=e206]:
+                  - cell "1" [ref=e207]
+                  - cell "CAR" [ref=e208]:
+                    - link "CAR" [ref=e209] [cursor=pointer]:
+                      - /url: /vehicle/group-type/85
+                      - paragraph [ref=e210]: CAR
+                  - cell "2" [ref=e211]
+                  - cell "Excursion" [ref=e212]
+                  - cell "Active" [ref=e213]:
+                    - generic [ref=e216]: Active
+                  - cell "24/06/2026" [ref=e217]
+                  - cell [ref=e218]:
+                    - img [ref=e221] [cursor=pointer]
+                - row "2 BUS 39 Excursion Active 17/06/2026" [ref=e225]:
+                  - cell "2" [ref=e226]
+                  - cell "BUS" [ref=e227]:
+                    - link "BUS" [ref=e228] [cursor=pointer]:
+                      - /url: /vehicle/group-type/16
+                      - paragraph [ref=e229]: BUS
+                  - cell "39" [ref=e230]
+                  - cell "Excursion" [ref=e231]
+                  - cell "Active" [ref=e232]:
+                    - generic [ref=e235]: Active
+                  - cell "17/06/2026" [ref=e236]
+                  - cell [ref=e237]:
+                    - img [ref=e240] [cursor=pointer]
+                - row "3 2 เครื่องยนต์ (25 ที่นั่ง) (20) 20 Excursion, Transport Active 26/05/2026" [ref=e244]:
+                  - cell "3" [ref=e245]
+                  - cell "2 เครื่องยนต์ (25 ที่นั่ง) (20)" [ref=e246]:
+                    - link "2 เครื่องยนต์ (25 ที่นั่ง) (20)" [ref=e247] [cursor=pointer]:
+                      - /url: /vehicle/group-type/84
+                      - paragraph [ref=e248]: 2 เครื่องยนต์ (25 ที่นั่ง) (20)
+                  - cell "20" [ref=e249]
+                  - cell "Excursion, Transport" [ref=e250]
+                  - cell "Active" [ref=e251]:
+                    - generic [ref=e254]: Active
+                  - cell "26/05/2026" [ref=e255]
+                  - cell [ref=e256]:
+                    - img [ref=e259] [cursor=pointer]
+                - row "4 1 เครื่องยนต์ (10ที่นั่ง) (10) 10 Excursion, Transport Active 26/05/2026" [ref=e263]:
+                  - cell "4" [ref=e264]
+                  - cell "1 เครื่องยนต์ (10ที่นั่ง) (10)" [ref=e265]:
+                    - link "1 เครื่องยนต์ (10ที่นั่ง) (10)" [ref=e266] [cursor=pointer]:
+                      - /url: /vehicle/group-type/83
+                      - paragraph [ref=e267]: 1 เครื่องยนต์ (10ที่นั่ง) (10)
+                  - cell "10" [ref=e268]
+                  - cell "Excursion, Transport" [ref=e269]
+                  - cell "Active" [ref=e270]:
+                    - generic [ref=e273]: Active
+                  - cell "26/05/2026" [ref=e274]
+                  - cell [ref=e275]:
+                    - img [ref=e278] [cursor=pointer]
+                - row "5 Bus 40 SEAT (40) 40 Excursion, Transport Active 26/05/2026" [ref=e282]:
+                  - cell "5" [ref=e283]
+                  - cell "Bus 40 SEAT (40)" [ref=e284]:
+                    - link "Bus 40 SEAT (40)" [ref=e285] [cursor=pointer]:
+                      - /url: /vehicle/group-type/82
+                      - paragraph [ref=e286]: Bus 40 SEAT (40)
+                  - cell "40" [ref=e287]
+                  - cell "Excursion, Transport" [ref=e288]
+                  - cell "Active" [ref=e289]:
+                    - generic [ref=e292]: Active
+                  - cell "26/05/2026" [ref=e293]
+                  - cell [ref=e294]:
+                    - img [ref=e297] [cursor=pointer]
+                - row "6 TESTUUU 50 Transport Active 22/04/2026" [ref=e301]:
+                  - cell "6" [ref=e302]
+                  - cell "TESTUUU" [ref=e303]:
+                    - link "TESTUUU" [ref=e304] [cursor=pointer]:
+                      - /url: /vehicle/group-type/81
+                      - paragraph [ref=e305]: TESTUUU
+                  - cell "50" [ref=e306]
+                  - cell "Transport" [ref=e307]
+                  - cell "Active" [ref=e308]:
+                    - generic [ref=e311]: Active
+                  - cell "22/04/2026" [ref=e312]
+                  - cell [ref=e313]:
+                    - img [ref=e316] [cursor=pointer]
+                - row "7 TESTYYY 50 Excursion Active 22/04/2026" [ref=e320]:
+                  - cell "7" [ref=e321]
+                  - cell "TESTYYY" [ref=e322]:
+                    - link "TESTYYY" [ref=e323] [cursor=pointer]:
+                      - /url: /vehicle/group-type/80
+                      - paragraph [ref=e324]: TESTYYY
+                  - cell "50" [ref=e325]
+                  - cell "Excursion" [ref=e326]
+                  - cell "Active" [ref=e327]:
+                    - generic [ref=e330]: Active
+                  - cell "22/04/2026" [ref=e331]
+                  - cell [ref=e332]:
+                    - img [ref=e335] [cursor=pointer]
+                - row "8 TESTFFF 30 Transport Active 21/04/2026" [ref=e339]:
+                  - cell "8" [ref=e340]
+                  - cell "TESTFFF" [ref=e341]:
+                    - link "TESTFFF" [ref=e342] [cursor=pointer]:
+                      - /url: /vehicle/group-type/79
+                      - paragraph [ref=e343]: TESTFFF
+                  - cell "30" [ref=e344]
+                  - cell "Transport" [ref=e345]
+                  - cell "Active" [ref=e346]:
+                    - generic [ref=e349]: Active
+                  - cell "21/04/2026" [ref=e350]
+                  - cell [ref=e351]:
+                    - img [ref=e354] [cursor=pointer]
+                - row "9 TESTDDD 20 Excursion Active 21/04/2026" [ref=e358]:
+                  - cell "9" [ref=e359]
+                  - cell "TESTDDD" [ref=e360]:
+                    - link "TESTDDD" [ref=e361] [cursor=pointer]:
+                      - /url: /vehicle/group-type/78
+                      - paragraph [ref=e362]: TESTDDD
+                  - cell "20" [ref=e363]
+                  - cell "Excursion" [ref=e364]
+                  - cell "Active" [ref=e365]:
+                    - generic [ref=e368]: Active
+                  - cell "21/04/2026" [ref=e369]
+                  - cell [ref=e370]:
+                    - img [ref=e373] [cursor=pointer]
+                - row "10 asdaw 11 Transport Active 21/04/2026" [ref=e377]:
+                  - cell "10" [ref=e378]
+                  - cell "asdaw" [ref=e379]:
+                    - link "asdaw" [ref=e380] [cursor=pointer]:
+                      - /url: /vehicle/group-type/77
+                      - paragraph [ref=e381]: asdaw
+                  - cell "11" [ref=e382]
+                  - cell "Transport" [ref=e383]
+                  - cell "Active" [ref=e384]:
+                    - generic [ref=e387]: Active
+                  - cell "21/04/2026" [ref=e388]
+                  - cell [ref=e389]:
+                    - img [ref=e392] [cursor=pointer]
+                - row "11 test 20 Excursion Active 20/04/2026" [ref=e396]:
+                  - cell "11" [ref=e397]
+                  - cell "test" [ref=e398]:
+                    - link "test" [ref=e399] [cursor=pointer]:
+                      - /url: /vehicle/group-type/76
+                      - paragraph [ref=e400]: test
+                  - cell "20" [ref=e401]
+                  - cell "Excursion" [ref=e402]
+                  - cell "Active" [ref=e403]:
+                    - generic [ref=e406]: Active
+                  - cell "20/04/2026" [ref=e407]
+                  - cell [ref=e408]:
+                    - img [ref=e411] [cursor=pointer]
+                - row "12 Guide Only 25 Excursion, Transport Active 25/03/2026" [ref=e415]:
+                  - cell "12" [ref=e416]
+                  - cell "Guide Only" [ref=e417]:
+                    - link "Guide Only" [ref=e418] [cursor=pointer]:
+                      - /url: /vehicle/group-type/75
+                      - paragraph [ref=e419]: Guide Only
+                  - cell "25" [ref=e420]
+                  - cell "Excursion, Transport" [ref=e421]
+                  - cell "Active" [ref=e422]:
+                    - generic [ref=e425]: Active
+                  - cell "25/03/2026" [ref=e426]
+                  - cell [ref=e427]:
+                    - img [ref=e430] [cursor=pointer]
+                - row "13 AutoTest_1774410167980 10 Excursion Active 25/03/2026" [ref=e434]:
+                  - cell "13" [ref=e435]
+                  - cell "AutoTest_1774410167980" [ref=e436]:
+                    - link "AutoTest_1774410167980" [ref=e437] [cursor=pointer]:
+                      - /url: /vehicle/group-type/74
+                      - paragraph [ref=e438]: AutoTest_1774410167980
+                  - cell "10" [ref=e439]
+                  - cell "Excursion" [ref=e440]
+                  - cell "Active" [ref=e441]:
+                    - generic [ref=e444]: Active
+                  - cell "25/03/2026" [ref=e445]
+                  - cell [ref=e446]:
+                    - img [ref=e449] [cursor=pointer]
+                - row "14 Charge 40 Excursion Active 23/03/2026" [ref=e453]:
+                  - cell "14" [ref=e454]
+                  - cell "Charge" [ref=e455]:
+                    - link "Charge" [ref=e456] [cursor=pointer]:
+                      - /url: /vehicle/group-type/69
+                      - paragraph [ref=e457]: Charge
+                  - cell "40" [ref=e458]
+                  - cell "Excursion" [ref=e459]
+                  - cell "Active" [ref=e460]:
+                    - generic [ref=e463]: Active
+                  - cell "23/03/2026" [ref=e464]
+                  - cell [ref=e465]:
+                    - img [ref=e468] [cursor=pointer]
+                - row "15 Guide Only 20 Excursion Active 23/03/2026" [ref=e472]:
+                  - cell "15" [ref=e473]
+                  - cell "Guide Only" [ref=e474]:
+                    - link "Guide Only" [ref=e475] [cursor=pointer]:
+                      - /url: /vehicle/group-type/68
+                      - paragraph [ref=e476]: Guide Only
+                  - cell "20" [ref=e477]
+                  - cell "Excursion" [ref=e478]
+                  - cell "Active" [ref=e479]:
+                    - generic [ref=e482]: Active
+                  - cell "23/03/2026" [ref=e483]
+                  - cell [ref=e484]:
+                    - img [ref=e487] [cursor=pointer]
+            - list [ref=e491]:
+              - listitem "Previous Page" [ref=e492]:
+                - button "left" [disabled] [ref=e493]:
+                  - img "left" [ref=e494]:
+                    - img [ref=e495]
+              - listitem "1" [ref=e497] [cursor=pointer]:
+                - generic [ref=e498]: "1"
+              - listitem "2" [ref=e499] [cursor=pointer]:
+                - generic [ref=e500]: "2"
+              - listitem "3" [ref=e501] [cursor=pointer]:
+                - generic [ref=e502]: "3"
+              - listitem "4" [ref=e503] [cursor=pointer]:
+                - generic [ref=e504]: "4"
+              - listitem "5" [ref=e505] [cursor=pointer]:
+                - generic [ref=e506]: "5"
+              - listitem "6" [ref=e507] [cursor=pointer]:
+                - generic [ref=e508]: "6"
+              - listitem "Next Page" [ref=e509] [cursor=pointer]:
+                - button "right" [ref=e510]:
+                  - img "right" [ref=e511]:
+                    - img [ref=e512]
+              - listitem [ref=e514]:
+                - generic "Page Size" [ref=e515] [cursor=pointer]:
+                  - generic [ref=e517]:
+                    - combobox "Page Size" [ref=e519]
+                    - generic "15 / page" [ref=e520]
+                  - generic:
+                    - img:
+                      - img

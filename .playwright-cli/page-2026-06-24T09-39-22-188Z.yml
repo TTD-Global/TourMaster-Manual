@@ -1,0 +1,170 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e77]: Employee
+          - menu [ref=e238]:
+            - menuitem "Employee summary" [ref=e78] [cursor=pointer]:
+              - img [ref=e79]
+              - generic [ref=e81]: Employee summary
+            - menuitem "Guide / Staff" [ref=e82] [cursor=pointer]:
+              - img [ref=e83]
+              - generic [ref=e85]: Guide / Staff
+            - menuitem "Other" [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+              - generic [ref=e89]: Other
+            - menuitem "Positions" [ref=e90] [cursor=pointer]:
+              - img [ref=e91]
+              - generic [ref=e93]: Positions
+          - menuitem "Zone Transfer" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e99]: Zone Transfer
+          - menuitem "User" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e104]: User
+          - menuitem "Company" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: Company
+          - menuitem "User Manual" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]
+            - generic [ref=e112]: User Manual
+    - generic [ref=e113]:
+      - banner [ref=e114]:
+        - generic [ref=e116]:
+          - generic [ref=e117]: "Wed : 24 Jun 2026, 16:39"
+          - generic [ref=e119] [cursor=pointer]:
+            - generic [ref=e121]: AM
+            - generic [ref=e122]:
+              - generic [ref=e123]: amares123
+              - generic [ref=e124]: Claude test
+            - img [ref=e126]
+      - main [ref=e128]:
+        - generic [ref=e788]:
+          - generic [ref=e789]:
+            - generic [ref=e790]:
+              - generic [ref=e791]: Guide
+              - img [ref=e792]
+              - generic [ref=e794] [cursor=pointer]: Guide List
+              - img [ref=e795]
+              - generic [ref=e797]: Create Guide
+            - button "Cancel" [ref=e799] [cursor=pointer]
+          - generic [ref=e800]:
+            - generic [ref=e801]:
+              - generic [ref=e803] [cursor=pointer]:
+                - generic [ref=e804]:
+                  - generic [ref=e805]: "1"
+                  - generic [ref=e806]: General Detail
+                - generic [ref=e807]: Add General details
+              - img [ref=e809]
+              - generic [ref=e811]:
+                - generic [ref=e812]:
+                  - generic [ref=e813]: "2"
+                  - generic [ref=e814]: Guide Detail
+                - generic [ref=e815]: Add required details for guide assignment
+              - img [ref=e817]
+              - generic [ref=e819]:
+                - generic [ref=e820]:
+                  - generic [ref=e821]: "3"
+                  - generic [ref=e822]: Bank Detail
+                - generic [ref=e823]: Add Bank Detail
+            - generic [ref=e824]:
+              - paragraph [ref=e827]: General Detail
+              - generic [ref=e828]:
+                - img [ref=e830]
+                - img [ref=e834] [cursor=pointer]
+              - generic [ref=e838]:
+                - generic [ref=e839]:
+                  - generic [ref=e841]:
+                    - generic [ref=e842]: Title
+                    - generic [ref=e844] [cursor=pointer]:
+                      - generic [ref=e846]:
+                        - combobox [ref=e848]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - generic [ref=e849]:
+                    - generic [ref=e850]: First Name *
+                    - textbox "Please enter" [ref=e852]
+                - generic [ref=e854]:
+                  - generic [ref=e855]: Last Name
+                  - textbox "Please enter" [ref=e857]
+                - generic [ref=e859]:
+                  - generic [ref=e860]: Nickname *
+                  - textbox "Please enter" [ref=e862]
+                - generic [ref=e865]:
+                  - generic [ref=e866]: ID Card Number *
+                  - textbox "Please enter" [ref=e868]
+                - generic [ref=e871]:
+                  - generic [ref=e872]: Date of Birth
+                  - generic [ref=e873]:
+                    - img [ref=e875]
+                    - textbox "Select date" [ref=e879]
+                - generic [ref=e881]:
+                  - generic [ref=e882]: Line ID
+                  - textbox "Please enter" [ref=e884]
+                - generic [ref=e887]:
+                  - generic [ref=e888]: Phone Number *
+                  - textbox "Please enter" [ref=e890]
+                - generic [ref=e893]:
+                  - generic [ref=e894]: Line User ID
+                  - textbox "Please enter" [ref=e896]
+              - generic [ref=e898]:
+                - paragraph [ref=e899]: Upload ID Card Number Photos
+                - generic [ref=e900]:
+                  - generic [ref=e902] [cursor=pointer]:
+                    - img [ref=e903]
+                    - generic [ref=e905]:
+                      - generic [ref=e906]: Upload photos here
+                      - generic [ref=e907]: Please upload file. according to the specified type and size
+                      - button "Upload" [ref=e908]
+                  - paragraph [ref=e909]: "Supported files: JPG, PNG, Heic, JPEG, size not exceeding 5 MB."
+            - generic [ref=e910]:
+              - button "Save and exit" [disabled] [ref=e911]:
+                - img [ref=e913]
+                - text: Save and exit
+              - button "Continue" [disabled] [ref=e917]:
+                - text: Continue
+                - img [ref=e919]
