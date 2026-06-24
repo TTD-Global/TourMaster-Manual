@@ -12,7 +12,11 @@ title: Zone Transfer
 
 ## ตารางรายการ
 
+<div className="manual-img-500">
+
 ![Zone Transfer List](/img/ZoneTransfer/zone-transfer-list.png)
+
+</div>
 
 ตารางแสดงรายการ Zone Transfer ทั้งหมด ประกอบด้วยคอลัมน์ดังนี้
 
@@ -40,6 +44,26 @@ title: Zone Transfer
 
 ---
 
+## ตัวกรอง
+
+<div className="manual-img-500">
+
+![Zone Transfer Filter](/img/Filter/filter-zonetransfer-modal.png)
+
+</div>
+
+กดปุ่ม **Filter** เพื่อเปิด Modal กรองข้อมูลตามเงื่อนไขที่ต้องการ
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Destination** | กรองตามจังหวัด/ปลายทาง |
+| **Zone Transfer name** | กรองตามชื่อโซน |
+| **Status** | กรองตามสถานะ Active / Inactive |
+
+กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+
+---
+
 ## Action
 
 กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อโซนเพื่อเข้าดูรายละเอียด
@@ -59,21 +83,15 @@ title: Zone Transfer
 1. แก้ไขข้อมูลที่ต้องการ
 2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
 
-### Delete
-
-กดเพื่อลบ Zone Transfer ออกจากระบบ
-
-:::caution ข้อควรระวัง
-การลบ Zone Transfer จะไม่สามารถกู้คืนได้
-:::
-
----
-
 ## Create
 
 กดปุ่ม **Create Zone Transfer** แล้วกรอกข้อมูลในฟอร์ม
 
+<div className="manual-img-500">
+
 ![Create Zone Transfer](/img/ZoneTransfer/zone-transfer-create.png)
+
+</div>
 
 | ฟิลด์ | คำอธิบาย | จำเป็น |
 |-------|----------|:------:|

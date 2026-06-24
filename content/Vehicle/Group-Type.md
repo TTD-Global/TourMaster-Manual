@@ -13,7 +13,11 @@ sidebar_position: 1
 
 ## ตารางรายการ
 
+<div className="manual-img-500">
+
 ![Group Type List](/img/Vehicle/group-type-list.png)
+
+</div>
 
 ตารางแสดงรายการประเภทยานพาหนะทั้งหมด ประกอบด้วยคอลัมน์ดังนี้
 
@@ -42,6 +46,25 @@ sidebar_position: 1
 
 ---
 
+## ตัวกรอง
+
+<div className="manual-img-500">
+
+![Vehicle Group Type Filter](/img/Filter/filter-vehicle-grouptype-modal.png)
+
+</div>
+
+กดปุ่ม **Filter** เพื่อเปิด Modal กรองข้อมูลตามเงื่อนไขที่ต้องการ
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Group Type Name** | กรองตามชื่อประเภทยานพาหนะ |
+| **Status** | กรองตามสถานะ Active / Inactive |
+
+กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+
+---
+
 ## Action
 
 กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Group Type เพื่อดูรายละเอียด
@@ -63,21 +86,15 @@ sidebar_position: 1
 1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
 2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
 
-### Delete
-
-กดเพื่อลบประเภทยานพาหนะออกจากระบบ
-
-:::caution ข้อควรระวัง
-ไม่ควรลบ Group Type ที่มีการใช้งานอยู่ใน Own Vehicle หรือ Supplier
-:::
-
----
-
 ## Create
 
 กดปุ่ม **Create Group Type** แล้วกรอกข้อมูลในฟอร์ม
 
+<div className="manual-img-500">
+
 ![Create Group Type](/img/Vehicle/group-type-create.png)
+
+</div>
 
 | ฟิลด์ | คำอธิบาย | จำเป็น |
 |-------|----------|:------:|

@@ -17,7 +17,11 @@ sidebar_position: 2
 
 ### Registration
 
+<div className="manual-img-500">
+
 ![Own Vehicle Registration](/img/Vehicle/own-vehicle-registration.png)
+
+</div>
 
 ตารางแสดงรายการทะเบียนรถทั้งหมด ประกอบด้วยคอลัมน์ดังนี้
 
@@ -31,7 +35,11 @@ sidebar_position: 2
 
 ### Personnel list
 
+<div className="manual-img-500">
+
 ![Own Vehicle Personnel](/img/Vehicle/own-vehicle-personnel.png)
+
+</div>
 
 ตารางแสดงรายชื่อบุคลากรที่ผูกกับยานพาหนะ ประกอบด้วยคอลัมน์ดังนี้
 
@@ -69,17 +77,15 @@ sidebar_position: 2
 
 แก้ไขข้อมูลได้ทุกส่วน รวมถึงเปลี่ยนสถานะ Active / Inactive
 
-### Delete
-
-กดเพื่อลบรายการออกจากระบบ
-
----
-
 ## Add Registration
 
 กดปุ่ม **Add Registration** บนแท็บ Registration
 
+<div className="manual-img-500">
+
 ![Add Registration](/img/Vehicle/own-vehicle-add-registration.png)
+
+</div>
 
 1. กด **Add group type** เพื่อเปิด modal เลือกประเภทรถ
 2. เลือกแท็บ **Excursion** หรือ **Transport** เพื่อกรองประเภทรถ

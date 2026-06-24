@@ -1,0 +1,6 @@
+[      81ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://dev-green.techmaster.in.th/pickup-transport/job-order:0
+[      89ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…M4N30.hYoqNaIjWFnv3cixT0PeVn5H8rvvhejJLFVsm_LOZPk, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      90ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      98ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      98ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     240ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0

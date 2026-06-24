@@ -1,0 +1,28 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img "Logo" [ref=e5]
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: Login
+          - generic [ref=e9]: Welcome to login
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - generic [ref=e13]: Username
+            - generic [ref=e14]:
+              - img [ref=e16]
+              - textbox "Please enter" [ref=e18]: amares123
+              - button "close-circle" [ref=e38] [cursor=pointer]:
+                - img "close-circle" [ref=e39]:
+                  - img [ref=e40]
+          - generic [ref=e20]:
+            - generic [ref=e21]: Password
+            - generic [ref=e22]:
+              - img [ref=e24]
+              - textbox "Please enter" [active] [ref=e30]
+              - img "eye-invisible" [ref=e32] [cursor=pointer]:
+                - img [ref=e33]
+            - generic [ref=e42]: Password is required
+          - button "LOGIN" [ref=e36] [cursor=pointer]
+    - generic [ref=e37]: "v.0.0.51 : 2026-06-22"

@@ -1,0 +1,120 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menuitem "Seller" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - generic [ref=e72]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Vehicle
+          - menu:
+            - menuitem "Group Type" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Group Type
+            - menuitem "Supplier List" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]: Supplier List
+            - menuitem "Own Vehicle" [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+              - generic [ref=e88]: Own Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Wed : 24 Jun 2026, 14:08"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares123
+              - generic [ref=e125]: Claude test
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: Vehicle
+            - img [ref=e135]
+            - generic [ref=e137]: Own Vehicle
+            - img [ref=e138]
+            - generic [ref=e140]: View
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - img [ref=e145]
+              - generic [ref=e147]: Own Vehicle
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e152] [cursor=pointer]: Registration
+                - generic [ref=e154] [cursor=pointer]: Personnel list
+              - button "Add Registration" [ref=e155] [cursor=pointer]:
+                - img [ref=e157]
+                - text: Add Registration
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]: Registration
+                - generic [ref=e166]:
+                  - img [ref=e168]
+                  - textbox "Search" [ref=e171]
+              - table [ref=e183]:
+                - rowgroup [ref=e190]:
+                  - row "# Registration Group Type Active Action" [ref=e191]:
+                    - columnheader "#" [ref=e192]
+                    - columnheader "Registration" [ref=e193]
+                    - columnheader "Group Type" [ref=e194]
+                    - columnheader "Active" [ref=e195]
+                    - columnheader "Action" [ref=e196]
+                - rowgroup [ref=e197]:
+                  - row [ref=e198]:
+                    - cell [ref=e199]:
+                      - img [ref=e201]

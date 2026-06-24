@@ -350,6 +350,13 @@ article {
   height: auto;
 }
 
+.manual-img-1000 img {
+  display: block;
+  width: 1000px;
+  max-width: 100%;
+  height: auto;
+}
+
 /* ─── Headings ───────────────────────────────────────────────────── */
 h1 {
   color: #142B41;

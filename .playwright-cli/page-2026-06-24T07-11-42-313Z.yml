@@ -1,0 +1,390 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menuitem "Seller" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - generic [ref=e72]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Vehicle
+          - menu [ref=e214]:
+            - menuitem "Group Type" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Group Type
+            - menuitem "Supplier List" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]: Supplier List
+            - menuitem "Own Vehicle" [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+              - generic [ref=e88]: Own Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Wed : 24 Jun 2026, 14:11"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares123
+              - generic [ref=e125]: Claude test
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: Vehicle
+              - img [ref=e135]
+              - generic [ref=e137]: Supplier List
+            - button "Create Supplier" [ref=e139] [cursor=pointer]:
+              - img [ref=e141]
+              - text: Create Supplier
+          - generic [ref=e144]:
+            - generic [ref=e147]:
+              - img [ref=e149]
+              - textbox "Search" [ref=e152]
+            - button "Filter" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
+              - text: Filter
+            - button "Export" [ref=e159] [cursor=pointer]:
+              - img [ref=e161]
+              - generic [ref=e164]: Export
+              - img [ref=e166]
+          - generic [ref=e172]:
+            - table [ref=e176]:
+              - rowgroup [ref=e185]:
+                - row "# Image Supplier Name Group Type quantity Status Last Modify Date Action" [ref=e186]:
+                  - columnheader "#" [ref=e187]
+                  - columnheader "Image" [ref=e188]
+                  - columnheader "Supplier Name" [ref=e189]
+                  - columnheader "Group Type quantity" [ref=e190]
+                  - columnheader "Status" [ref=e191]
+                  - columnheader "Last Modify Date" [ref=e192]
+                  - columnheader "Action" [ref=e193]
+              - rowgroup [ref=e194]:
+                - row "1 testsuptr 3 Active 09/06/2026" [ref=e215]:
+                  - cell "1" [ref=e216]
+                  - cell [ref=e217]:
+                    - img [ref=e220]
+                  - cell "testsuptr" [ref=e222]:
+                    - link "testsuptr" [ref=e223] [cursor=pointer]:
+                      - /url: /vehicle/supplier/70
+                      - paragraph [ref=e224]: testsuptr
+                  - cell "3" [ref=e225]:
+                    - generic [ref=e227] [cursor=pointer]: "3"
+                  - cell "Active" [ref=e228]:
+                    - generic [ref=e231]: Active
+                  - cell "09/06/2026" [ref=e232]
+                  - cell [ref=e233]:
+                    - img [ref=e236] [cursor=pointer]
+                - row "2 testsupextr 4 Active 09/06/2026" [ref=e240]:
+                  - cell "2" [ref=e241]
+                  - cell [ref=e242]:
+                    - img [ref=e245]
+                  - cell "testsupextr" [ref=e247]:
+                    - link "testsupextr" [ref=e248] [cursor=pointer]:
+                      - /url: /vehicle/supplier/71
+                      - paragraph [ref=e249]: testsupextr
+                  - cell "4" [ref=e250]:
+                    - generic [ref=e252] [cursor=pointer]: "4"
+                  - cell "Active" [ref=e253]:
+                    - generic [ref=e256]: Active
+                  - cell "09/06/2026" [ref=e257]
+                  - cell [ref=e258]:
+                    - img [ref=e261] [cursor=pointer]
+                - row "3 testsupex 4 Active 09/06/2026" [ref=e265]:
+                  - cell "3" [ref=e266]
+                  - cell [ref=e267]:
+                    - img [ref=e270]
+                  - cell "testsupex" [ref=e272]:
+                    - link "testsupex" [ref=e273] [cursor=pointer]:
+                      - /url: /vehicle/supplier/69
+                      - paragraph [ref=e274]: testsupex
+                  - cell "4" [ref=e275]:
+                    - generic [ref=e277] [cursor=pointer]: "4"
+                  - cell "Active" [ref=e278]:
+                    - generic [ref=e281]: Active
+                  - cell "09/06/2026" [ref=e282]
+                  - cell [ref=e283]:
+                    - img [ref=e286] [cursor=pointer]
+                - row "4 user Dash MV 8 Active 09/06/2026" [ref=e290]:
+                  - cell "4" [ref=e291]
+                  - cell "user" [ref=e292]:
+                    - img "user" [ref=e295]
+                  - cell "Dash MV" [ref=e296]:
+                    - link "Dash MV" [ref=e297] [cursor=pointer]:
+                      - /url: /vehicle/supplier/18
+                      - paragraph [ref=e298]: Dash MV
+                  - cell "8" [ref=e299]:
+                    - generic [ref=e301] [cursor=pointer]: "8"
+                  - cell "Active" [ref=e302]:
+                    - generic [ref=e305]: Active
+                  - cell "09/06/2026" [ref=e306]
+                  - cell [ref=e307]:
+                    - img [ref=e310] [cursor=pointer]
+                - row "5 heeeeeee 1 Active 28/04/2026" [ref=e314]:
+                  - cell "5" [ref=e315]
+                  - cell [ref=e316]:
+                    - img [ref=e319]
+                  - cell "heeeeeee" [ref=e321]:
+                    - link "heeeeeee" [ref=e322] [cursor=pointer]:
+                      - /url: /vehicle/supplier/68
+                      - paragraph [ref=e323]: heeeeeee
+                  - cell "1" [ref=e324]:
+                    - generic [ref=e326] [cursor=pointer]: "1"
+                  - cell "Active" [ref=e327]:
+                    - generic [ref=e330]: Active
+                  - cell "28/04/2026" [ref=e331]
+                  - cell [ref=e332]:
+                    - img [ref=e335] [cursor=pointer]
+                - row "6 Junior Plus 4 Active 27/04/2026" [ref=e339]:
+                  - cell "6" [ref=e340]
+                  - cell [ref=e341]:
+                    - img [ref=e344]
+                  - cell "Junior Plus" [ref=e346]:
+                    - link "Junior Plus" [ref=e347] [cursor=pointer]:
+                      - /url: /vehicle/supplier/20
+                      - paragraph [ref=e348]: Junior Plus
+                  - cell "4" [ref=e349]:
+                    - generic [ref=e351] [cursor=pointer]: "4"
+                  - cell "Active" [ref=e352]:
+                    - generic [ref=e355]: Active
+                  - cell "27/04/2026" [ref=e356]
+                  - cell [ref=e357]:
+                    - img [ref=e360] [cursor=pointer]
+                - row "7 TESTFFF 2 Active 22/04/2026" [ref=e364]:
+                  - cell "7" [ref=e365]
+                  - cell [ref=e366]:
+                    - img [ref=e369]
+                  - cell "TESTFFF" [ref=e371]:
+                    - link "TESTFFF" [ref=e372] [cursor=pointer]:
+                      - /url: /vehicle/supplier/67
+                      - paragraph [ref=e373]: TESTFFF
+                  - cell "2" [ref=e374]:
+                    - generic [ref=e376] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e377]:
+                    - generic [ref=e380]: Active
+                  - cell "22/04/2026" [ref=e381]
+                  - cell [ref=e382]:
+                    - img [ref=e385] [cursor=pointer]
+                - row "8 TESTDDD 2 Active 22/04/2026" [ref=e389]:
+                  - cell "8" [ref=e390]
+                  - cell [ref=e391]:
+                    - img [ref=e394]
+                  - cell "TESTDDD" [ref=e396]:
+                    - link "TESTDDD" [ref=e397] [cursor=pointer]:
+                      - /url: /vehicle/supplier/66
+                      - paragraph [ref=e398]: TESTDDD
+                  - cell "2" [ref=e399]:
+                    - generic [ref=e401] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e402]:
+                    - generic [ref=e405]: Active
+                  - cell "22/04/2026" [ref=e406]
+                  - cell [ref=e407]:
+                    - img [ref=e410] [cursor=pointer]
+                - row "9 testt 2 Active 20/04/2026" [ref=e414]:
+                  - cell "9" [ref=e415]
+                  - cell [ref=e416]:
+                    - img [ref=e419]
+                  - cell "testt" [ref=e421]:
+                    - link "testt" [ref=e422] [cursor=pointer]:
+                      - /url: /vehicle/supplier/65
+                      - paragraph [ref=e423]: testt
+                  - cell "2" [ref=e424]:
+                    - generic [ref=e426] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e427]:
+                    - generic [ref=e430]: Active
+                  - cell "20/04/2026" [ref=e431]
+                  - cell [ref=e432]:
+                    - img [ref=e435] [cursor=pointer]
+                - row "10 qqqq 7 Active 25/03/2026" [ref=e439]:
+                  - cell "10" [ref=e440]
+                  - cell [ref=e441]:
+                    - img [ref=e444]
+                  - cell "qqqq" [ref=e446]:
+                    - link "qqqq" [ref=e447] [cursor=pointer]:
+                      - /url: /vehicle/supplier/57
+                      - paragraph [ref=e448]: qqqq
+                  - cell "7" [ref=e449]:
+                    - generic [ref=e451] [cursor=pointer]: "7"
+                  - cell "Active" [ref=e452]:
+                    - generic [ref=e455]: Active
+                  - cell "25/03/2026" [ref=e456]
+                  - cell [ref=e457]:
+                    - img [ref=e460] [cursor=pointer]
+                - row "11 TEST 6 Active 23/03/2026" [ref=e464]:
+                  - cell "11" [ref=e465]
+                  - cell [ref=e466]:
+                    - img [ref=e469]
+                  - cell "TEST" [ref=e471]:
+                    - link "TEST" [ref=e472] [cursor=pointer]:
+                      - /url: /vehicle/supplier/36
+                      - paragraph [ref=e473]: TEST
+                  - cell "6" [ref=e474]:
+                    - generic [ref=e476] [cursor=pointer]: "6"
+                  - cell "Active" [ref=e477]:
+                    - generic [ref=e480]: Active
+                  - cell "23/03/2026" [ref=e481]
+                  - cell [ref=e482]:
+                    - img [ref=e485] [cursor=pointer]
+                - row "12 aaaa 3 Active 23/03/2026" [ref=e489]:
+                  - cell "12" [ref=e490]
+                  - cell [ref=e491]:
+                    - img [ref=e494]
+                  - cell "aaaa" [ref=e496]:
+                    - link "aaaa" [ref=e497] [cursor=pointer]:
+                      - /url: /vehicle/supplier/54
+                      - paragraph [ref=e498]: aaaa
+                  - cell "3" [ref=e499]:
+                    - generic [ref=e501] [cursor=pointer]: "3"
+                  - cell "Active" [ref=e502]:
+                    - generic [ref=e505]: Active
+                  - cell "23/03/2026" [ref=e506]
+                  - cell [ref=e507]:
+                    - img [ref=e510] [cursor=pointer]
+                - row "13 guitar sup 2 Active 23/03/2026" [ref=e514]:
+                  - cell "13" [ref=e515]
+                  - cell [ref=e516]:
+                    - img [ref=e519]
+                  - cell "guitar sup" [ref=e521]:
+                    - link "guitar sup" [ref=e522] [cursor=pointer]:
+                      - /url: /vehicle/supplier/55
+                      - paragraph [ref=e523]: guitar sup
+                  - cell "2" [ref=e524]:
+                    - generic [ref=e526] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e527]:
+                    - generic [ref=e530]: Active
+                  - cell "23/03/2026" [ref=e531]
+                  - cell [ref=e532]:
+                    - img [ref=e535] [cursor=pointer]
+                - row "14 uuu 2 Active 23/03/2026" [ref=e539]:
+                  - cell "14" [ref=e540]
+                  - cell [ref=e541]:
+                    - img [ref=e544]
+                  - cell "uuu" [ref=e546]:
+                    - link "uuu" [ref=e547] [cursor=pointer]:
+                      - /url: /vehicle/supplier/56
+                      - paragraph [ref=e548]: uuu
+                  - cell "2" [ref=e549]:
+                    - generic [ref=e551] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e552]:
+                    - generic [ref=e555]: Active
+                  - cell "23/03/2026" [ref=e556]
+                  - cell [ref=e557]:
+                    - img [ref=e560] [cursor=pointer]
+                - row "15 Lotte 3 Active 23/03/2026" [ref=e564]:
+                  - cell "15" [ref=e565]
+                  - cell [ref=e566]:
+                    - img [ref=e569]
+                  - cell "Lotte" [ref=e571]:
+                    - link "Lotte" [ref=e572] [cursor=pointer]:
+                      - /url: /vehicle/supplier/24
+                      - paragraph [ref=e573]: Lotte
+                  - cell "3" [ref=e574]:
+                    - generic [ref=e576] [cursor=pointer]: "3"
+                  - cell "Active" [ref=e577]:
+                    - generic [ref=e580]: Active
+                  - cell "23/03/2026" [ref=e581]
+                  - cell [ref=e582]:
+                    - img [ref=e585] [cursor=pointer]
+            - list [ref=e589]:
+              - listitem "Previous Page" [ref=e590]:
+                - button "left" [disabled] [ref=e591]:
+                  - img "left" [ref=e592]:
+                    - img [ref=e593]
+              - listitem "1" [ref=e595] [cursor=pointer]:
+                - generic [ref=e596]: "1"
+              - listitem "2" [ref=e597] [cursor=pointer]:
+                - generic [ref=e598]: "2"
+              - listitem "3" [ref=e599] [cursor=pointer]:
+                - generic [ref=e600]: "3"
+              - listitem "4" [ref=e601] [cursor=pointer]:
+                - generic [ref=e602]: "4"
+              - listitem "Next Page" [ref=e603] [cursor=pointer]:
+                - button "right" [ref=e604]:
+                  - img "right" [ref=e605]:
+                    - img [ref=e606]
+              - listitem [ref=e608]:
+                - generic "Page Size" [ref=e609] [cursor=pointer]:
+                  - generic [ref=e611]:
+                    - combobox "Page Size" [ref=e613]
+                    - generic "15 / page" [ref=e614]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e615]:
+    - dialog:
+      - generic [ref=e617]:
+        - generic [ref=e618]:
+          - generic [ref=e619]:
+            - generic [ref=e621]: Filter
+            - img [ref=e623] [cursor=pointer]
+          - generic [ref=e627]:
+            - generic [ref=e628]:
+              - generic [ref=e629]: Supplier Name
+              - textbox "Please enter" [ref=e631]
+            - generic [ref=e633]:
+              - generic [ref=e634]: Status
+              - generic [ref=e636] [cursor=pointer]:
+                - generic [ref=e638]:
+                  - combobox [ref=e640]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e641]:
+          - button "Clear all" [ref=e642] [cursor=pointer]
+          - button "Search" [ref=e643] [cursor=pointer]:
+            - img [ref=e645]
+            - text: Search

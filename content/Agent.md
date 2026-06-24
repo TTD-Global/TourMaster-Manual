@@ -12,7 +12,11 @@ title: Seller
 
 ## ตารางรายการ
 
+<div className="manual-img-500">
+
 ![Seller List](/img/Seller/seller-list.png)
+
+</div>
 
 ตารางแสดงรายการ Seller ทั้งหมด ประกอบด้วยคอลัมน์ดังนี้
 
@@ -41,6 +45,25 @@ title: Seller
 
 ---
 
+## ตัวกรอง
+
+<div className="manual-img-500">
+
+![Seller Filter](/img/Filter/filter-seller-modal.png)
+
+</div>
+
+กดปุ่ม **Filter** เพื่อเปิด Modal กรองข้อมูลตามเงื่อนไขที่ต้องการ
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Seller Name** | กรองตามชื่อ Seller |
+| **Status** | กรองตามสถานะ Active / Inactive |
+
+กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+
+---
+
 ## Action
 
 กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Seller เพื่อเข้าดูรายละเอียด
@@ -63,21 +86,15 @@ title: Seller
 1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
 2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
 
-### Delete
-
-กดเพื่อลบ Seller ออกจากระบบ
-
-:::caution ข้อควรระวัง
-การลบ Seller จะไม่สามารถกู้คืนได้
-:::
-
----
-
 ## Create
 
 กดปุ่ม **Create Seller** แล้วกรอกข้อมูลในฟอร์ม
 
+<div className="manual-img-500">
+
 ![Create Seller](/img/Seller/seller-create.png)
+
+</div>
 
 ### General Detail
 

@@ -1,0 +1,11 @@
+[     181ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…AxOX0.2H2g2kEts64lffxCLDgBVKZZc7bHK9P4G4pVZtfIu04, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     181ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     194ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     194ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     226ms] [LOG] company null @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     238ms] [LOG] company null @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     334ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle:0
+[     334ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle:0
+[     334ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle:0
+[     440ms] [LOG] company {id: 1, logo: Object, name: บริษัท วัน เอเชีย คอร์ปอร์เรชั่น จำกัด, address: พร้อมพันธุ์ 3 ชั้น 5 ห้อง 505-507 ถนนลาดพร้าวซอย 3, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     443ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0

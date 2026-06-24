@@ -1,0 +1,147 @@
+---
+title: User List
+sidebar_position: 1
+---
+
+# User List
+
+หน้า **User List** ใช้จัดการบัญชีผู้ใช้งานในระบบ ทั้งการสร้าง แก้ไขข้อมูล และกำหนดสิทธิ์การเข้าถึง
+
+เข้าถึงได้จาก **Setting → User → User List**
+
+---
+
+## ตารางรายการ
+
+<div className="manual-img-500">
+
+![User List](/img/User-list.jpeg)
+
+</div>
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Image** | รูปภาพโปรไฟล์ |
+| **Employee Code** | รหัสพนักงาน |
+| **Role** | สิทธิ์การเข้าถึงที่กำหนดให้ผู้ใช้งาน |
+| **Username** | ชื่อผู้ใช้สำหรับเข้าสู่ระบบ |
+| **Name** | ชื่อ-นามสกุล |
+| **Email** | อีเมล |
+| **Last Login** | วันและเวลาที่เข้าสู่ระบบล่าสุด |
+| **Action** | ปุ่ม `...` สำหรับจัดการ |
+
+---
+
+## ฟังก์ชันบนหน้า
+
+| ปุ่ม / ฟังก์ชัน | คำอธิบาย |
+|----------------|----------|
+| **Create User** | สร้างบัญชีผู้ใช้งานใหม่ |
+| **Search** | ค้นหาผู้ใช้งาน |
+| **Filter** | กรองข้อมูลตามเงื่อนไข |
+
+---
+
+## ตัวกรอง
+
+<div className="manual-img-500">
+
+![User List Filter](/img/Filter/filter-userlist-modal.png)
+
+</div>
+
+กดปุ่ม **Filter** เพื่อเปิด Modal กรองข้อมูลตามเงื่อนไขที่ต้องการ
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Role** | กรองตาม Role ที่กำหนดให้ User |
+| **Employee code** | กรองตามรหัสพนักงาน |
+| **Username** | กรองตาม Username |
+
+กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+
+---
+
+## Action
+
+กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อจัดการผู้ใช้งาน
+
+### View
+
+<div className="manual-img-500">
+
+![View User](/img/View-user.jpeg)
+
+</div>
+
+แสดงข้อมูล General Detail และ Security ของผู้ใช้งานแบบ read-only
+
+- กดปุ่ม **Edit** เพื่อเข้าสู่โหมดแก้ไข
+- กดปุ่ม **Close** เพื่อปิดและกลับไปหน้ารายการ
+
+### Edit
+
+<div className="manual-img-500">
+
+![Edit User](/img/Edit-user.jpg)
+
+</div>
+
+กดปุ่ม **Edit** จากหน้า View เพื่อแก้ไขข้อมูลผู้ใช้งาน
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Status** | เปลี่ยนสถานะ <span class="badge badge-active">Active</span> หรือ <span class="badge badge-inactive">Inactive</span> |
+| **Reset Password** | กดเพื่อเปลี่ยนรหัสผ่าน |
+
+กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+
+#### Reset Password
+
+<div className="manual-img-500">
+
+![Reset Password](/img/reset-password.png)
+
+</div>
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **New Password** | รหัสผ่านใหม่ | ✅ |
+| **Confirm Password** | ยืนยันรหัสผ่านใหม่ให้ตรงกัน | ✅ |
+
+กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+
+---
+
+## Create
+
+<div className="manual-img-500">
+
+![Create User](/img/Create-User.jpeg)
+
+</div>
+
+กดปุ่ม **Create User** มุมขวาบน ระบบจะนำไปยังฟอร์มสร้างผู้ใช้งาน แบ่งเป็น 2 ส่วน
+
+### General Detail
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Image** | รูปภาพโปรไฟล์ | — |
+| **Employee Code** | รหัสพนักงาน | — |
+| **First Name** | ชื่อ | — |
+| **Last Name** | นามสกุล | — |
+| **Email** | อีเมล | — |
+| **Phone** | เบอร์โทรศัพท์ | — |
+
+### Security
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Role** | สิทธิ์การเข้าถึงระบบ | ✅ |
+| **Username** | ชื่อหรือ ID สำหรับเข้าสู่ระบบ | ✅ |
+| **Password** | รหัสผ่าน | ✅ |
+| **Confirm Password** | ยืนยันรหัสผ่านให้ตรงกับ Password | ✅ |
+
+กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก

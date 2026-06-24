@@ -1,0 +1,14 @@
+[      90ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…QzMH0.4KWdKXv7rSX1YIq2kM2pqX0bHf5kzCc6GyEfQKDQcPo, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      90ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     100ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     101ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     169ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     188ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     188ms] [LOG] permissions [ZONE_TRANSFER_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     237ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/zone-transfer:0
+[     237ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/zone-transfer:0
+[     237ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/zone-transfer:0
+[     306ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     306ms] [LOG] permissions [ZONE_TRANSFER_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     969ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     969ms] [LOG] permissions [ZONE_TRANSFER_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0

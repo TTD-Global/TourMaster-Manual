@@ -38,6 +38,38 @@ import TabItem from '@theme/TabItem';
 ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
 :::
 
+---
+
+## ฟังก์ชันบนหน้า
+
+| ปุ่ม | คำอธิบาย |
+|------|----------|
+| **Create** | สร้าง Program ใหม่ |
+| **Search** | ค้นหา Program ตามชื่อ |
+| **Filter** | กรองข้อมูลตามเงื่อนไข |
+
+---
+
+## ตัวกรอง
+
+<div className="manual-img-500">
+
+![Program List Filter](/img/Filter/filter-program-list-modal.png)
+
+</div>
+
+กดปุ่ม **Filter** เพื่อเปิด Modal กรองข้อมูลตามเงื่อนไขที่ต้องการ
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Program code** | กรองตามรหัส Program |
+| **Program name** | กรองตามชื่อ Program |
+| **Status** | กรองตามสถานะ Draft / Active / Inactive |
+
+กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+
+---
+
 ## Create
 
 กดปุ่ม **Create** เพื่อสร้าง Program ของ Tour ใหม่ โดยมีข้อมูลที่ต้องกรอก 5 ส่วน ดังนี้
@@ -50,7 +82,11 @@ import TabItem from '@theme/TabItem';
 
 กรอกข้อมูลเบื้องต้นของ Program
 
+<div className="manual-img-500">
+
 ![Program Detail](/img/program/program-detail.png)
+
+</div>
 
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
@@ -87,7 +123,11 @@ import TabItem from '@theme/TabItem';
 
 กรอกรายละเอียด Trip ของ Program
 
+<div className="manual-img-500">
+
 ![Itinerary](/img/program/program-itinerary.png)
+
+</div>
 
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
@@ -130,7 +170,11 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 ค่าใช้จ่ายใน Program แบ่งออกเป็น 5 ส่วน ดังนี้
 
+<div className="manual-img-500">
+
 ![Cost Details](/img/program/program-cost-header.png)
+
+</div>
 
 :::tip
 หาก Itinerary เลือก Trip Type ทั้ง 2 ประเภท ส่วน Cost จะแสดงทั้ง 2 ประเภทด้วยเช่นกัน พร้อมปุ่ม **Copy** เพื่อคัดลอกข้อมูลจาก Trip Type หนึ่งไปยังอีกประเภท
@@ -151,7 +195,11 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 | **Person** | ต่อคน |
 | **Fix** | คิดตามจำนวนที่ระบุ โดยมี **Min (Pax)** และ **Max (Pax)** ช่วงจำนวนคน (ผู้เดินทาง) ต่ำสุด–สูงสุด สำหรับเรทราคานั้นๆ |
 
+<div className="manual-img-500">
+
 ![Cost Type (Fix)](/img/program/program-cost-type.png)
+
+</div>
 
 :::info ตัวอย่าง Fix Cost
 - Min Pax = 1, Max Pax = 10, Cost = 100 → กลุ่ม 1–10 คน คิดราคา 100 บาท
@@ -173,11 +221,19 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 **Guide Fee** คือค่าจ้างไกด์ โดยมีตัวเลือก **Included** / **Not Included**
 
+<div className="manual-img-500">
+
 ![Guide Fee](/img/program/program-guide-fee.png)
+
+</div>
 
 กดปุ่ม **Add Guide** เพื่อเลือกประเภท Guide ที่ต้องการ
 
+<div className="manual-img-500">
+
 ![Add Guide Cost](/img/program/program-guide-add-dialog.png)
+
+</div>
 
 | Guide Item | คำอธิบาย |
 |-----------|----------|
@@ -201,13 +257,21 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 **Vehicle Cost** คือค่าใช้จ่ายยานพาหนะ
 
+<div className="manual-img-500">
+
 ![Vehicle Cost](/img/program/program-vehicle-header.png)
+
+</div>
 
 กดปุ่ม **Add Vehicle** เพื่อเลือก Supplier หรือ Own Vehicle ที่มีการสร้างไว้
 
 #### กรณีเลือก Supplier
 
+<div className="manual-img-500">
+
 ![Supplier Selection](/img/program/program-vehicle-supplier-popup.png)
+
+</div>
 
 ระบบจะกรอง Supplier และ Group Type ตาม Arrangement Type ของ Program อัตโนมัติ
 
@@ -219,17 +283,29 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 เมื่อเลือก Supplier และ Group Type แล้วจะแสดงตามตัวอย่าง
 
+<div className="manual-img-500">
+
 ![Vehicle Supplier Result](/img/program/program-vehicle-supplier-result.png)
+
+</div>
 
 #### กรณีเลือก Own Vehicle
 
+<div className="manual-img-500">
+
 ![Own Vehicle Selection](/img/program/program-vehicle-ownvehicle-popup.png)
+
+</div>
 
 ระบบจะกรอง Group Type ตาม Arrangement Type เช่นเดียวกับ Supplier
 
 เมื่อเลือก Group Type ของ Own Vehicle แล้วจะต้องเลือก **Item Type** เพื่อระบุว่าเป็นค่าอะไร เช่น ค่าน้ำมัน 91, ค่าที่จอดรถ เป็นต้น
 
+<div className="manual-img-500">
+
 ![Own Vehicle Result](/img/program/program-vehicle-ownvehicle-result.png)
+
+</div>
 
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
@@ -247,23 +323,43 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 **Other Expense** คือค่าใช้จ่ายอื่นๆ
 
+<div className="manual-img-500">
+
 ![Other Expense](/img/program/program-other-expense-header.png)
+
+</div>
 
 กดปุ่ม **Add Other Expense** เพื่อเลือก Item Type ที่มีการสร้างไว้
 
+<div className="manual-img-500">
+
 ![Other Expense Items](/img/program/program-other-expense-items.png)
+
+</div>
 
 หากยังไม่มี Item Type สามารถกด **Create Item Type** ได้เลย
 
+<div className="manual-img-500">
+
 ![Create Item Type](/img/program/program-create-itemtype.png)
+
+</div>
 
 หากมี Item Type แล้วแต่ยังไม่มี Sub Item ที่ต้องการ สามารถกด **+ Sub Items** ได้
 
+<div className="manual-img-500">
+
 ![Add Sub Items](/img/program/program-sub-items-dialog.png)
+
+</div>
 
 เมื่อเลือก Item Type แล้วจะแสดงตามตัวอย่าง
 
+<div className="manual-img-500">
+
 ![Other Expense Result](/img/program/program-other-expense-result.png)
+
+</div>
 
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
@@ -282,15 +378,27 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 **Allowance** คือค่าเบี้ยเลี้ยงพนักงาน
 
+<div className="manual-img-500">
+
 ![Allowance](/img/program/program-allowance-header.png)
+
+</div>
 
 กดปุ่ม **Add Allowance** เพื่อเลือก Item Type ที่มีการสร้างไว้
 
+<div className="manual-img-500">
+
 ![Allowance Items](/img/program/program-allowance-items.png)
+
+</div>
 
 เมื่อเลือก Item Type แล้วสามารถเลือก **Position** ที่ทำการสร้างไว้ได้ หากไม่มีที่ต้องการสามารถสร้างจาก **Create Position** ได้
 
+<div className="manual-img-500">
+
 ![Allowance Result](/img/program/program-allowance-result.png)
+
+</div>
 
 </TabItem>
 
@@ -300,17 +408,29 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 **Extra Cost** คือค่าใช้จ่ายอื่นๆ เพิ่มเติมสำหรับแพ็กเกจเสริม (Option) นั้นๆ
 
+<div className="manual-img-500">
+
 ![Extra Cost](/img/program/program-extra-cost-header.png)
+
+</div>
 
 เช่น รวมค่าธรรมเนียมอุทยาน และไม่รวมค่าธรรมเนียมอุทยาน เป็นต้น (ขึ้นอยู่กับดุลพินิจของคนสร้าง)
 
 กดปุ่ม **Add Other Item** เพื่อเลือก Item Type ที่มีการสร้างไว้
 
+<div className="manual-img-500">
+
 ![Extra Cost Items](/img/program/program-extra-cost-items.png)
+
+</div>
 
 เมื่อเลือกแล้วจะแสดงตามตัวอย่าง
 
+<div className="manual-img-500">
+
 ![Extra Cost Result](/img/program/program-extra-cost-result.png)
+
+</div>
 
 </TabItem>
 
@@ -324,13 +444,25 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 **Unit** คือตัวเลือกการจอง โดยค่าตั้งต้นที่มีมาให้คือ _Infant (Default)_ ประเภท Infant (ประเภทนี้เป็นการเข้าหน้างานโดยไม่มีการจอง เช่น เด็กเล็ก)
 
+<div className="manual-img-500">
+
 ![Unit](/img/program/program-unit-header.png)
+
+</div>
 
 กดปุ่ม **Add Unit** เพื่อเลือก Unit ตามที่มีการสร้างไว้ หากไม่มีสามารถกด **Create New Unit** ได้
 
+<div className="manual-img-500">
+
 ![Add Unit](/img/program/program-unit-add-popup.png)
 
+</div>
+
+<div className="manual-img-500">
+
 ![Unit Form](/img/program/program-unit-form.png)
+
+</div>
 
 **Unit Name** คือชื่อที่ใช้เรียกสำหรับตัวเลือกการจองนั้นๆ
 
@@ -341,7 +473,11 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 | **Person** | บุคคล — นับจำนวนคน |
 | **Option** | ตัวเลือกเสริม — ไม่นับจำนวนคน เช่น ค่าธรรมเนียมอุทยานเป็นตัวเลือก |
 
+<div className="manual-img-500">
+
 ![Unit Result](/img/program/program-unit-result.png)
+
+</div>
 
 :::info
 - หากเลือก Trip Type ทั้ง Join In และ Private ระบบจะแสดงฟิลด์ Unit ทั้ง 2 ประเภท
@@ -355,13 +491,25 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 **Seller** คือตัวแทนขาย
 
+<div className="manual-img-500">
+
 ![Seller](/img/program/program-seller-header.png)
+
+</div>
 
 กดปุ่ม **Add Seller** เพื่อเลือก Seller ตามที่มีการสร้างไว้ หากไม่มีสามารถกด **Create Seller** ได้
 
+<div className="manual-img-500">
+
 ![Add Seller](/img/program/program-seller-add-popup.png)
 
+</div>
+
+<div className="manual-img-500">
+
 ![Seller Form](/img/program/program-seller-form.png)
+
+</div>
 
 | ฟิลด์ | คำอธิบาย |
 |-------|----------|
@@ -372,7 +520,11 @@ Private คือประเภทการ Trip แบบกลุ่มเด
 
 เมื่อเลือก Seller แล้วจะแสดงตามตัวอย่าง (หากยังไม่ต้องการกรอกข้อมูลสามารถกดย่อที่ลูกศรได้)
 
+<div className="manual-img-500">
+
 ![Seller Result](/img/program/program-seller-result.png)
+
+</div>
 
 :::info
 หากยังไม่มีการสร้าง Seller ไว้ในระบบ จะไม่มีข้อมูลให้เลือก ยังไม่ต้องใส่ในขั้นตอนนี้ก็ได้

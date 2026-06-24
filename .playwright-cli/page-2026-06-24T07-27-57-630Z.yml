@@ -1,0 +1,228 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menuitem "Seller" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - generic [ref=e72]: Seller
+          - menuitem "Vehicle" [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Zone Transfer
+          - menuitem "User" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e93]: User
+          - menuitem "Company" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e97]: Company
+          - menuitem "User Manual" [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+            - generic [ref=e101]: User Manual
+    - generic [ref=e102]:
+      - banner [ref=e103]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: "Wed : 24 Jun 2026, 14:27"
+          - generic [ref=e108] [cursor=pointer]:
+            - generic [ref=e110]: AM
+            - generic [ref=e111]:
+              - generic [ref=e112]: amares123
+              - generic [ref=e113]: Claude test
+            - img [ref=e115]
+      - main [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e120]:
+            - generic [ref=e122]: Zone Transfer
+            - button "Create Zone Transfer" [ref=e124] [cursor=pointer]:
+              - img [ref=e126]
+              - text: Create Zone Transfer
+          - generic [ref=e129]:
+            - generic [ref=e132]:
+              - img [ref=e134]
+              - textbox "Search" [ref=e137]
+            - button "Filter" [ref=e139] [cursor=pointer]:
+              - img [ref=e141]
+              - text: Filter
+            - button "Export" [ref=e144] [cursor=pointer]:
+              - img [ref=e146]
+              - generic [ref=e149]: Export
+              - img [ref=e151]
+          - generic [ref=e157]:
+            - table [ref=e161]:
+              - rowgroup [ref=e169]:
+                - row "# Zone Transfer Name Zone Transfer Quantity Status Last Modify Date Action" [ref=e170]:
+                  - columnheader "#" [ref=e171]
+                  - columnheader "Zone Transfer Name" [ref=e172]
+                  - columnheader "Zone Transfer Quantity" [ref=e173]
+                  - columnheader "Status" [ref=e174]
+                  - columnheader "Last Modify Date" [ref=e175]
+                  - columnheader "Action" [ref=e176]
+              - rowgroup [ref=e177]:
+                - row "1 Bangkok 4 Active 03/02/2026" [ref=e197]:
+                  - cell "1" [ref=e198]
+                  - cell "Bangkok" [ref=e199]:
+                    - link "Bangkok" [ref=e200] [cursor=pointer]:
+                      - /url: /zone-transfer/1
+                      - paragraph [ref=e201]: Bangkok
+                  - cell "4" [ref=e202]:
+                    - link "4" [ref=e203] [cursor=pointer]:
+                      - /url: /zone-transfer/1
+                      - paragraph [ref=e204]: "4"
+                  - cell "Active" [ref=e205]:
+                    - generic [ref=e208]: Active
+                  - cell "03/02/2026" [ref=e209]
+                  - cell [ref=e210]:
+                    - img [ref=e213] [cursor=pointer]
+                - row "2 Samut Prakan 3 Active 03/02/2026" [ref=e217]:
+                  - cell "2" [ref=e218]
+                  - cell "Samut Prakan" [ref=e219]:
+                    - link "Samut Prakan" [ref=e220] [cursor=pointer]:
+                      - /url: /zone-transfer/2
+                      - paragraph [ref=e221]: Samut Prakan
+                  - cell "3" [ref=e222]:
+                    - link "3" [ref=e223] [cursor=pointer]:
+                      - /url: /zone-transfer/2
+                      - paragraph [ref=e224]: "3"
+                  - cell "Active" [ref=e225]:
+                    - generic [ref=e228]: Active
+                  - cell "03/02/2026" [ref=e229]
+                  - cell [ref=e230]:
+                    - img [ref=e233] [cursor=pointer]
+                - row "3 Phuket 6 Inactive 31/03/2026" [ref=e237]:
+                  - cell "3" [ref=e238]
+                  - cell "Phuket" [ref=e239]:
+                    - link "Phuket" [ref=e240] [cursor=pointer]:
+                      - /url: /zone-transfer/3
+                      - paragraph [ref=e241]: Phuket
+                  - cell "6" [ref=e242]:
+                    - link "6" [ref=e243] [cursor=pointer]:
+                      - /url: /zone-transfer/3
+                      - paragraph [ref=e244]: "6"
+                  - cell "Inactive" [ref=e245]:
+                    - generic [ref=e248]: Inactive
+                  - cell "31/03/2026" [ref=e249]
+                  - cell [ref=e250]:
+                    - img [ref=e253] [cursor=pointer]
+                - row "4 Krabi 2 Active 24/03/2026" [ref=e257]:
+                  - cell "4" [ref=e258]
+                  - cell "Krabi" [ref=e259]:
+                    - link "Krabi" [ref=e260] [cursor=pointer]:
+                      - /url: /zone-transfer/4
+                      - paragraph [ref=e261]: Krabi
+                  - cell "2" [ref=e262]:
+                    - link "2" [ref=e263] [cursor=pointer]:
+                      - /url: /zone-transfer/4
+                      - paragraph [ref=e264]: "2"
+                  - cell "Active" [ref=e265]:
+                    - generic [ref=e268]: Active
+                  - cell "24/03/2026" [ref=e269]
+                  - cell [ref=e270]:
+                    - img [ref=e273] [cursor=pointer]
+                - row "5 Chiang Mai 7 Active 21/04/2026" [ref=e277]:
+                  - cell "5" [ref=e278]
+                  - cell "Chiang Mai" [ref=e279]:
+                    - link "Chiang Mai" [ref=e280] [cursor=pointer]:
+                      - /url: /zone-transfer/5
+                      - paragraph [ref=e281]: Chiang Mai
+                  - cell "7" [ref=e282]:
+                    - link "7" [ref=e283] [cursor=pointer]:
+                      - /url: /zone-transfer/5
+                      - paragraph [ref=e284]: "7"
+                  - cell "Active" [ref=e285]:
+                    - generic [ref=e288]: Active
+                  - cell "21/04/2026" [ref=e289]
+                  - cell [ref=e290]:
+                    - img [ref=e293] [cursor=pointer]
+            - list [ref=e297]:
+              - listitem "Previous Page" [ref=e298]:
+                - button "left" [disabled] [ref=e299]:
+                  - img "left" [ref=e300]:
+                    - img [ref=e301]
+              - listitem "1" [ref=e303] [cursor=pointer]:
+                - generic [ref=e304]: "1"
+              - listitem "Next Page" [ref=e305]:
+                - button "right" [disabled] [ref=e306]:
+                  - img "right" [ref=e307]:
+                    - img [ref=e308]
+              - listitem [ref=e310]:
+                - generic "Page Size" [ref=e311] [cursor=pointer]:
+                  - generic [ref=e313]:
+                    - combobox "Page Size" [ref=e315]
+                    - generic "15 / page" [ref=e316]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e317]:
+    - dialog:
+      - generic [ref=e319]:
+        - generic [ref=e320]:
+          - generic [ref=e321]:
+            - generic [ref=e323]: Filter
+            - img [ref=e325] [cursor=pointer]
+          - generic [ref=e329]:
+            - generic [ref=e330]:
+              - generic [ref=e331]: Destination
+              - generic [ref=e333] [cursor=pointer]:
+                - generic [ref=e335]:
+                  - combobox [ref=e337]
+                  - generic: Please select
+                - generic:
+                  - img
+            - generic [ref=e338]:
+              - generic [ref=e339]: Zone Transfer name
+              - textbox "Please enter" [ref=e341]
+            - generic [ref=e343]:
+              - generic [ref=e344]: Status
+              - generic [ref=e346] [cursor=pointer]:
+                - generic [ref=e348]:
+                  - combobox [ref=e350]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e351]:
+          - button "Clear all" [ref=e352] [cursor=pointer]
+          - button "Search" [ref=e353] [cursor=pointer]:
+            - img [ref=e355]
+            - text: Search

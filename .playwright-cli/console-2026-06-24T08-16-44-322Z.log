@@ -1,0 +1,14 @@
+[      88ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…M4N30.hYoqNaIjWFnv3cixT0PeVn5H8rvvhejJLFVsm_LOZPk, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:0
+[      88ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:0
+[     105ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:0
+[     105ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:0
+[     251ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/app/page-33eea77fdd1ef502.js:0
+[     334ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[     334ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[     334ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[   11714ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[   11714ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[   11919ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[   11919ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[   12513ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[   12513ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0

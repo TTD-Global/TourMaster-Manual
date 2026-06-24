@@ -16,7 +16,11 @@ title: Company
 
 ### General Detail
 
+<div className="manual-img-500">
+
 ![Company General Detail](/img/Company/company-general.png)
+
+</div>
 
 แสดงข้อมูลทั่วไปของบริษัท ประกอบด้วย
 
@@ -41,7 +45,11 @@ title: Company
 
 ### Company Authorization
 
+<div className="manual-img-500">
+
 ![Company Authorization](/img/Company/company-authorization.png)
+
+</div>
 
 แสดงข้อมูลที่จะปรากฏในเอกสารระบบ เช่น Job Order
 
@@ -56,7 +64,11 @@ title: Company
 
 กดปุ่ม **Edit** บนแท็บที่ต้องการแก้ไข เพื่อเข้าสู่โหมดแก้ไขของแท็บนั้น
 
+<div className="manual-img-500">
+
 ![Company Edit](/img/Company/company-edit.png)
+
+</div>
 
 ### แก้ไข General Detail
 

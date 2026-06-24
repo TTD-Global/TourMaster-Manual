@@ -1,0 +1,132 @@
+[     221ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…U0OH0.Ps3pKy24kAbolzyXKjkkzMoNHGVAI8kECcq-SAObgfw, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     221ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     251ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     251ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     283ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[     283ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[     417ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/tour/job-order?page=1&page_size=15&date=2026-06-24:0
+[     417ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/tour/job-order?page=1&page_size=15&date=2026-06-24:0
+[     417ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/tour/job-order?page=1&page_size=15&date=2026-06-24:0
+[     462ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     466ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[     466ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   54771ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…U0OH0.Ps3pKy24kAbolzyXKjkkzMoNHGVAI8kECcq-SAObgfw, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   54771ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   54782ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   54782ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   54814ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   54814ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   54937ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/tour/manage-group?tour_type=excursion&type=supplier&date=2026-06-24:0
+[   54937ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/tour/manage-group?tour_type=excursion&type=supplier&date=2026-06-24:0
+[   54937ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/tour/manage-group?tour_type=excursion&type=supplier&date=2026-06-24:0
+[   54952ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[   54955ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   54955ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55031ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55032ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55051ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55051ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55089ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55089ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55118ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55118ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55124ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55124ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55141ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55141ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55229ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55229ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55238ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55238ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55330ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   55330ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   60932ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   60932ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   61164ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   61164ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   61768ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   61768ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   79457ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   79457ms] [LOG] permissions [TRANSPORT_DROP_SUMMARY_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   79566ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   79566ms] [LOG] permissions [TRANSPORT_DROP_SUMMARY_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   80255ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   80256ms] [LOG] permissions [TRANSPORT_DROP_SUMMARY_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   89855ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   89856ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   89858ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   89859ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   89937ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   89937ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90087ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90087ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90108ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90108ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90123ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90123ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90145ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90145ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90161ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   90161ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92383ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92384ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92385ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92385ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92398ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92398ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92479ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92479ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92490ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92491ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92550ms] [LOG] [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   92550ms] [LOG] [Object, Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   94978ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   94978ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   95152ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   95153ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   95741ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[   95741ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  123336ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  123336ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  123451ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  123451ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  123864ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  123864ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  124023ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  124023ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134082ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134082ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134345ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134345ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134356ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134356ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134442ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134442ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134864ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  134865ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  135009ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  135009ms] [LOG] permissions [CHECKIN_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  396891ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  396892ms] [LOG] permissions [CHECKIN_MANAGE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  411736ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  411736ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  411845ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  411845ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  412528ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  412528ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-bfca0ebfa4b19bba.js:0
+[  750429ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…U0OH0.Ps3pKy24kAbolzyXKjkkzMoNHGVAI8kECcq-SAObgfw, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[  750429ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[  750490ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[  750490ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[  750527ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-7d6fbefa1278d8f4.js:0
+[  750527ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-7d6fbefa1278d8f4.js:0
+[  750653ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-7d6fbefa1278d8f4.js:0
+[  750653ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-7d6fbefa1278d8f4.js:0
+[  750659ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/guide?page=1&page_size=15&guide_type=guide:0
+[  750659ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/guide?page=1&page_size=15&guide_type=guide:0
+[  750660ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/guide?page=1&page_size=15&guide_type=guide:0
+[  750743ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[  750746ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-7d6fbefa1278d8f4.js:0
+[  750746ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-7d6fbefa1278d8f4.js:0
+[  751358ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-7d6fbefa1278d8f4.js:0
+[  751358ms] [LOG] permissions [GUIDE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-7d6fbefa1278d8f4.js:0

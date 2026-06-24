@@ -1,0 +1,164 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e59]: Pick up Transport
+            - menuitem "Drop off Transport" [expanded] [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e66]: Drop off Transport
+            - menu [ref=e2810]:
+              - menuitem "Summary" [active] [ref=e2811] [cursor=pointer]:
+                - img [ref=e2812]
+                - generic [ref=e2814]: Summary
+              - menuitem "Supplier Group" [ref=e2815] [cursor=pointer]:
+                - img [ref=e2816]
+                - generic [ref=e2818]: Supplier Group
+              - menuitem "Own Vehicle Group" [ref=e2819] [cursor=pointer]:
+                - img [ref=e2820]
+                - generic [ref=e2822]: Own Vehicle Group
+              - menuitem "Job Order" [ref=e2823] [cursor=pointer]:
+                - img [ref=e2824]
+                - generic [ref=e2826]: Job Order
+              - menuitem "Report" [ref=e2827] [cursor=pointer]:
+                - img [ref=e2828]
+                - generic [ref=e2830]: Report
+            - menuitem "Check In" [ref=e67] [cursor=pointer]:
+              - img [ref=e68]
+              - generic [ref=e71]: Check In
+            - menuitem "Payment" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e76]: Payment
+            - menuitem "Guide Task" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e81]: Guide Task
+          - separator [ref=e82]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Program
+          - menuitem "Seller" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e92]: Seller
+          - menuitem "Vehicle" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Vehicle
+          - menuitem "Employee" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e102]: Employee
+          - menuitem "Zone Transfer" [ref=e103] [cursor=pointer]:
+            - img [ref=e104]
+            - generic [ref=e108]: Zone Transfer
+          - menuitem "User" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]
+            - generic [ref=e113]: User
+          - menuitem "Company" [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e117]: Company
+          - menuitem "User Manual" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: User Manual
+    - generic [ref=e122]:
+      - banner [ref=e123]:
+        - generic [ref=e125]:
+          - generic [ref=e126]: "Wed : 24 Jun 2026, 15:43"
+          - generic [ref=e128] [cursor=pointer]:
+            - generic [ref=e130]: AM
+            - generic [ref=e131]:
+              - generic [ref=e132]: amares123
+              - generic [ref=e133]: Claude test
+            - img [ref=e135]
+      - main [ref=e137]:
+        - generic [ref=e2831]:
+          - generic [ref=e2832]:
+            - generic [ref=e2834]:
+              - generic [ref=e2835]: Excursion
+              - img [ref=e2836]
+              - generic [ref=e2838]: Manage Group
+            - generic [ref=e2839]:
+              - generic [ref=e2841]:
+                - img [ref=e2843]
+                - textbox "Select Travel Date" [ref=e2847]: 24/06/2026
+              - generic [ref=e2850]:
+                - img [ref=e2852]
+                - textbox "Search Program" [ref=e2855]
+              - button "Manage Group" [ref=e2858] [cursor=pointer]:
+                - img [ref=e2860]
+                - text: Manage Group
+          - generic [ref=e2868]:
+            - table [ref=e2872]:
+              - rowgroup [ref=e2880]:
+                - row "# Program Name Destination Unit Total Action" [ref=e2881]:
+                  - columnheader "#" [ref=e2882]
+                  - columnheader "Program Name" [ref=e2883]
+                  - columnheader "Destination" [ref=e2884]
+                  - columnheader "Unit" [ref=e2885]
+                  - columnheader "Total" [ref=e2886]
+                  - columnheader "Action" [ref=e2887]
+              - rowgroup [ref=e2888]:
+                - 'row "1 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch Phuket infant x 6, Person x 76 82" [ref=e2889]':
+                  - cell "1" [ref=e2890]
+                  - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e2891]':
+                    - generic [ref=e2892]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                  - cell "Phuket" [ref=e2893]:
+                    - generic [ref=e2894]: Phuket
+                  - cell "infant x 6, Person x 76" [ref=e2895]
+                  - cell "82" [ref=e2896]
+                  - cell [ref=e2897]:
+                    - img [ref=e2900] [cursor=pointer]
+                - row "2 Ancient City + Erawan Museum + shared Taransfer Bangkok infant x 9, Adult x 20 29" [ref=e2904]:
+                  - cell "2" [ref=e2905]
+                  - cell "Ancient City + Erawan Museum + shared Taransfer" [ref=e2906]:
+                    - generic [ref=e2907]: Ancient City + Erawan Museum + shared Taransfer
+                  - cell "Bangkok" [ref=e2908]:
+                    - generic [ref=e2909]: Bangkok
+                  - cell "infant x 9, Adult x 20" [ref=e2910]
+                  - cell "29" [ref=e2911]
+                  - cell [ref=e2912]:
+                    - img [ref=e2915] [cursor=pointer]
+              - rowgroup [ref=e2919]:
+                - row "Total 111" [ref=e2920]:
+                  - cell "Total" [ref=e2921]
+                  - cell [ref=e2922]
+                  - cell [ref=e2923]
+                  - cell [ref=e2924]
+                  - cell "111" [ref=e2925]
+                  - cell [ref=e2926]
+            - list [ref=e2927]:
+              - listitem "Previous Page" [ref=e2928]:
+                - button "left" [disabled] [ref=e2929]:
+                  - img "left" [ref=e2930]:
+                    - img [ref=e2931]
+              - listitem "1" [ref=e2933] [cursor=pointer]:
+                - generic [ref=e2934]: "1"
+              - listitem "Next Page" [ref=e2935]:
+                - button "right" [disabled] [ref=e2936]:
+                  - img "right" [ref=e2937]:
+                    - img [ref=e2938]
+              - listitem [ref=e2940]:
+                - generic "Page Size" [ref=e2941] [cursor=pointer]:
+                  - generic [ref=e2943]:
+                    - combobox "Page Size" [ref=e2945]
+                    - generic "15 / page" [ref=e2946]
+                  - generic:
+                    - img:
+                      - img

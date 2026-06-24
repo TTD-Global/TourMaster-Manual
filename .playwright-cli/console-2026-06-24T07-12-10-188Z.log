@@ -1,0 +1,22 @@
+[     109ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…AxOX0.2H2g2kEts64lffxCLDgBVKZZc7bHK9P4G4pVZtfIu04, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     109ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     120ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     120ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     152ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     152ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     153ms] [LOG] {page: 1, page_size: 15, name: , status: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/employee/positions/page-1afcb61b50fc3b64.js:0
+[     266ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     266ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     266ms] [LOG] {page: 1, page_size: 15, name: , status: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/employee/positions/page-1afcb61b50fc3b64.js:0
+[     272ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     274ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     274ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     275ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/positions?page=1&page_size=15:0
+[     275ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/positions?page=1&page_size=15:0
+[     275ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/positions?page=1&page_size=15:0
+[     684ms] [LOG] {page: 1, page_size: 15, name: , status: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/employee/positions/page-1afcb61b50fc3b64.js:0
+[     845ms] [LOG] {page: 1, page_size: 15, name: , status: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/employee/positions/page-1afcb61b50fc3b64.js:0
+[     952ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     952ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-700b2ec6d3cb7694.js:0
+[     952ms] [LOG] {page: 1, page_size: 15, name: , status: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/employee/positions/page-1afcb61b50fc3b64.js:0
+[    3270ms] [LOG] {page: 1, page_size: 15, name: , status: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/employee/positions/page-1afcb61b50fc3b64.js:0

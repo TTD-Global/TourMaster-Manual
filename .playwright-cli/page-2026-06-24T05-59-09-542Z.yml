@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [expanded] [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menu [ref=e57]:
+              - menuitem "Advance" [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+                - generic [ref=e61]: Advance
+              - menuitem "Expenses" [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+                - generic [ref=e65]: Expenses
+              - menuitem "Balance" [ref=e66] [cursor=pointer]:
+                - img [ref=e67]
+                - generic [ref=e69]: Balance
+              - menuitem "Report" [ref=e70] [cursor=pointer]:
+                - img [ref=e71]
+                - generic [ref=e73]: Report
+            - menuitem "Guide Task" [ref=e74] [cursor=pointer]:
+              - img [ref=e75]
+              - generic [ref=e78]: Guide Task
+          - separator [ref=e79]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e85]: Program
+          - menuitem "Seller" [ref=e86] [cursor=pointer]:
+            - img [ref=e87]
+            - generic [ref=e89]: Seller
+          - menuitem "Vehicle" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e93]: Vehicle
+          - menuitem "Employee" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e99]: Employee
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Wed : 24 Jun 2026, 12:59"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares123
+              - generic [ref=e130]: Claude test
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e138]:
+              - generic [ref=e139]: Payment
+              - img [ref=e140]
+              - generic [ref=e142]: Expense
+            - generic [ref=e143]:
+              - generic [ref=e145]:
+                - img [ref=e147]
+                - textbox "Select Date" [ref=e151]: 24/06/2026
+              - generic [ref=e154]:
+                - img [ref=e156]
+                - textbox "Enter search" [ref=e159]
+              - button "Export" [ref=e161] [cursor=pointer]:
+                - img [ref=e163]
+                - generic [ref=e166]: Export
+                - img [ref=e168]
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e172]:
+                - paragraph [ref=e173]: "0"
+                - paragraph [ref=e174]: Amount Trip
+              - img [ref=e176]
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - paragraph [ref=e181]: "0.00"
+                - paragraph [ref=e182]: Total Advance
+              - img [ref=e184]
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: "0.00"
+                - paragraph [ref=e190]: Total Expense
+              - img [ref=e192]
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - paragraph [ref=e199]: "0.00"
+                - paragraph [ref=e200]: Total
+              - img [ref=e202]
+          - generic [ref=e206]:
+            - generic [ref=e207]:
+              - tablist [ref=e208]:
+                - generic [ref=e210]:
+                  - tab "Pending 0" [selected] [ref=e212] [cursor=pointer]:
+                    - generic [ref=e214]:
+                      - text: Pending
+                      - generic [ref=e216]: "0"
+                  - tab "Completed 0" [ref=e218] [cursor=pointer]:
+                    - generic [ref=e220]:
+                      - text: Completed
+                      - generic [ref=e222]: "0"
+              - generic:
+                - generic:
+                  - tabpanel "Pending 0"
+            - table [ref=e230]:
+              - rowgroup [ref=e243]:
+                - 'row "Select all # Trip Code Trip Type Trip Round Program Guide Bank Detail Pax Advance Expense Action" [ref=e244]':
+                  - 'columnheader "Select all #" [ref=e245]':
+                    - generic [ref=e246]:
+                      - generic [ref=e247]:
+                        - generic:
+                          - checkbox "Select all" [disabled]
+                      - text: "#"
+                  - columnheader "Trip Code" [ref=e248]
+                  - columnheader "Trip Type" [ref=e249]
+                  - columnheader "Trip Round" [ref=e250]
+                  - columnheader "Program" [ref=e251]
+                  - columnheader "Guide" [ref=e252]
+                  - columnheader "Bank Detail" [ref=e253]
+                  - columnheader "Pax" [ref=e254]
+                  - columnheader "Advance" [ref=e255]
+                  - columnheader "Expense" [ref=e256]
+                  - columnheader "Action" [ref=e257]
+              - rowgroup [ref=e258]:
+                - row [ref=e259]:
+                  - cell [ref=e260]:
+                    - img [ref=e262]

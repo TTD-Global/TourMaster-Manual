@@ -1,0 +1,376 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menuitem "Seller" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - generic [ref=e72]: Seller
+          - menuitem "Vehicle" [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Zone Transfer
+          - menuitem "User" [expanded] [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e93]: User
+          - menu [ref=e204]:
+            - menuitem "User List" [active] [ref=e94] [cursor=pointer]:
+              - img [ref=e95]
+              - generic [ref=e97]: User List
+            - menuitem "Role" [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+              - generic [ref=e101]: Role
+          - menuitem "Company" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e105]: Company
+          - menuitem "User Manual" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: User Manual
+    - generic [ref=e110]:
+      - banner [ref=e111]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: "Wed : 24 Jun 2026, 14:06"
+          - generic [ref=e116] [cursor=pointer]:
+            - generic [ref=e118]: AM
+            - generic [ref=e119]:
+              - generic [ref=e120]: amares123
+              - generic [ref=e121]: Claude test
+            - img [ref=e123]
+      - main [ref=e125]:
+        - generic [ref=e589]:
+          - generic [ref=e590]:
+            - generic [ref=e591]:
+              - generic [ref=e592]: User
+              - img [ref=e593]
+              - generic [ref=e595]: User List
+            - button "Create User" [ref=e597] [cursor=pointer]:
+              - img [ref=e599]
+              - text: Create User
+          - generic [ref=e602]:
+            - generic [ref=e605]:
+              - img [ref=e607]
+              - textbox "Search" [ref=e610]
+            - button "Filter" [ref=e612] [cursor=pointer]:
+              - img [ref=e614]
+              - text: Filter
+            - button "Export" [ref=e617] [cursor=pointer]:
+              - img [ref=e619]
+              - generic [ref=e622]: Export
+              - img [ref=e624]
+          - generic [ref=e629]:
+            - table [ref=e633]:
+              - rowgroup [ref=e644]:
+                - row "# Image Employee Code Role Username Name Email Last Login Action" [ref=e645]:
+                  - columnheader "#" [ref=e646]
+                  - columnheader "Image" [ref=e647]
+                  - columnheader "Employee Code" [ref=e648]
+                  - columnheader "Role" [ref=e649]
+                  - columnheader "Username" [ref=e650]
+                  - columnheader "Name" [ref=e651]
+                  - columnheader "Email" [ref=e652]
+                  - columnheader "Last Login" [ref=e653]
+                  - columnheader "Action" [ref=e654]
+              - rowgroup [ref=e655]:
+                - row "1 teehui Claude test amares123 t hui - latest" [ref=e656]:
+                  - cell "1" [ref=e657]
+                  - cell [ref=e658]:
+                    - img [ref=e661]
+                  - cell "teehui" [ref=e663]
+                  - cell "Claude test" [ref=e664]
+                  - cell "amares123" [ref=e665]:
+                    - link "amares123" [ref=e666] [cursor=pointer]:
+                      - /url: /user/user-list/46
+                      - paragraph [ref=e667]: amares123
+                  - cell "t hui" [ref=e668]
+                  - cell "-" [ref=e669]
+                  - cell "latest" [ref=e670]:
+                    - generic [ref=e671]: latest
+                  - cell [ref=e672]:
+                    - img [ref=e675] [cursor=pointer]
+                - row "2 70ZJBD Superadmin guitar2 - - 77 mins ago" [ref=e679]:
+                  - cell "2" [ref=e680]
+                  - cell [ref=e681]:
+                    - img [ref=e684]
+                  - cell "70ZJBD" [ref=e686]
+                  - cell "Superadmin" [ref=e687]
+                  - cell "guitar2" [ref=e688]:
+                    - link "guitar2" [ref=e689] [cursor=pointer]:
+                      - /url: /user/user-list/12
+                      - paragraph [ref=e690]: guitar2
+                  - cell "-" [ref=e691]
+                  - cell "-" [ref=e692]
+                  - cell "77 mins ago" [ref=e693]:
+                    - generic [ref=e694]: 77 mins ago
+                  - cell [ref=e695]:
+                    - img [ref=e698] [cursor=pointer]
+                - row "3 user L0PJC4 Superadmin guitar Jirasin Charuayphongphasuk - 81 mins ago" [ref=e702]:
+                  - cell "3" [ref=e703]
+                  - cell "user" [ref=e704]:
+                    - img "user" [ref=e707]
+                  - cell "L0PJC4" [ref=e708]
+                  - cell "Superadmin" [ref=e709]
+                  - cell "guitar" [ref=e710]:
+                    - link "guitar" [ref=e711] [cursor=pointer]:
+                      - /url: /user/user-list/4
+                      - paragraph [ref=e712]: guitar
+                  - cell "Jirasin Charuayphongphasuk" [ref=e713]
+                  - cell "-" [ref=e714]
+                  - cell "81 mins ago" [ref=e715]:
+                    - generic [ref=e716]: 81 mins ago
+                  - cell [ref=e717]:
+                    - img [ref=e720] [cursor=pointer]
+                - row "4 SYUBK4 Superadmin benz123 salinthip bamrungkid - 82 mins ago" [ref=e724]:
+                  - cell "4" [ref=e725]
+                  - cell [ref=e726]:
+                    - img [ref=e729]
+                  - cell "SYUBK4" [ref=e731]
+                  - cell "Superadmin" [ref=e732]
+                  - cell "benz123" [ref=e733]:
+                    - link "benz123" [ref=e734] [cursor=pointer]:
+                      - /url: /user/user-list/3
+                      - paragraph [ref=e735]: benz123
+                  - cell "salinthip bamrungkid" [ref=e736]
+                  - cell "-" [ref=e737]
+                  - cell "82 mins ago" [ref=e738]:
+                    - generic [ref=e739]: 82 mins ago
+                  - cell [ref=e740]:
+                    - img [ref=e743] [cursor=pointer]
+                - row "5 manuiuxui Superadmin manuiuxui manui uxui - 3 hour ago" [ref=e747]:
+                  - cell "5" [ref=e748]
+                  - cell [ref=e749]:
+                    - img [ref=e752]
+                  - cell "manuiuxui" [ref=e754]
+                  - cell "Superadmin" [ref=e755]
+                  - cell "manuiuxui" [ref=e756]:
+                    - link "manuiuxui" [ref=e757] [cursor=pointer]:
+                      - /url: /user/user-list/6
+                      - paragraph [ref=e758]: manuiuxui
+                  - cell "manui uxui" [ref=e759]
+                  - cell "-" [ref=e760]
+                  - cell "3 hour ago" [ref=e761]:
+                    - generic [ref=e762]: 3 hour ago
+                  - cell [ref=e763]:
+                    - img [ref=e766] [cursor=pointer]
+                - row "6 JDHBPV Superadmin amares - - 3 hour ago" [ref=e770]:
+                  - cell "6" [ref=e771]
+                  - cell [ref=e772]:
+                    - img [ref=e775]
+                  - cell "JDHBPV" [ref=e777]
+                  - cell "Superadmin" [ref=e778]
+                  - cell "amares" [ref=e779]:
+                    - link "amares" [ref=e780] [cursor=pointer]:
+                      - /url: /user/user-list/2
+                      - paragraph [ref=e781]: amares
+                  - cell "-" [ref=e782]
+                  - cell "-" [ref=e783]
+                  - cell "3 hour ago" [ref=e784]:
+                    - generic [ref=e785]: 3 hour ago
+                  - cell [ref=e786]:
+                    - img [ref=e789] [cursor=pointer]
+                - row "7 3W1YLA Superadmin adminta admin ta adminta@gmail.com 3 hour ago" [ref=e793]:
+                  - cell "7" [ref=e794]
+                  - cell [ref=e795]:
+                    - img [ref=e798]
+                  - cell "3W1YLA" [ref=e800]
+                  - cell "Superadmin" [ref=e801]
+                  - cell "adminta" [ref=e802]:
+                    - link "adminta" [ref=e803] [cursor=pointer]:
+                      - /url: /user/user-list/14
+                      - paragraph [ref=e804]: adminta
+                  - cell "admin ta" [ref=e805]
+                  - cell "adminta@gmail.com" [ref=e806]
+                  - cell "3 hour ago" [ref=e807]:
+                    - generic [ref=e808]: 3 hour ago
+                  - cell [ref=e809]:
+                    - img [ref=e812] [cursor=pointer]
+                - row "8 superta Superadmin superta superta superta - 3 hour ago" [ref=e816]:
+                  - cell "8" [ref=e817]
+                  - cell [ref=e818]:
+                    - img [ref=e821]
+                  - cell "superta" [ref=e823]
+                  - cell "Superadmin" [ref=e824]
+                  - cell "superta" [ref=e825]:
+                    - link "superta" [ref=e826] [cursor=pointer]:
+                      - /url: /user/user-list/9
+                      - paragraph [ref=e827]: superta
+                  - cell "superta superta" [ref=e828]
+                  - cell "-" [ref=e829]
+                  - cell "3 hour ago" [ref=e830]:
+                    - generic [ref=e831]: 3 hour ago
+                  - cell [ref=e832]:
+                    - img [ref=e835] [cursor=pointer]
+                - row "9 SUPER00000 Superadmin superadmin tenant_tester Admin superadmin@gmail.com 4 hour ago" [ref=e839]:
+                  - cell "9" [ref=e840]
+                  - cell [ref=e841]:
+                    - img [ref=e844]
+                  - cell "SUPER00000" [ref=e846]
+                  - cell "Superadmin" [ref=e847]
+                  - cell "superadmin" [ref=e848]:
+                    - link "superadmin" [ref=e849] [cursor=pointer]:
+                      - /url: /user/user-list/1
+                      - paragraph [ref=e850]: superadmin
+                  - cell "tenant_tester Admin" [ref=e851]
+                  - cell "superadmin@gmail.com" [ref=e852]
+                  - cell "4 hour ago" [ref=e853]:
+                    - generic [ref=e854]: 4 hour ago
+                  - cell [ref=e855]:
+                    - img [ref=e858] [cursor=pointer]
+                - row "10 DCD6G4 Superadmin phet - - 4 hour ago" [ref=e862]:
+                  - cell "10" [ref=e863]
+                  - cell [ref=e864]:
+                    - img [ref=e867]
+                  - cell "DCD6G4" [ref=e869]
+                  - cell "Superadmin" [ref=e870]
+                  - cell "phet" [ref=e871]:
+                    - link "phet" [ref=e872] [cursor=pointer]:
+                      - /url: /user/user-list/7
+                      - paragraph [ref=e873]: phet
+                  - cell "-" [ref=e874]
+                  - cell "-" [ref=e875]
+                  - cell "4 hour ago" [ref=e876]:
+                    - generic [ref=e877]: 4 hour ago
+                  - cell [ref=e878]:
+                    - img [ref=e881] [cursor=pointer]
+                - row "11 BFZSTD OP op - - 3 days ago" [ref=e885]:
+                  - cell "11" [ref=e886]
+                  - cell [ref=e887]:
+                    - img [ref=e890]
+                  - cell "BFZSTD" [ref=e892]
+                  - cell "OP" [ref=e893]
+                  - cell "op" [ref=e894]:
+                    - link "op" [ref=e895] [cursor=pointer]:
+                      - /url: /user/user-list/38
+                      - paragraph [ref=e896]: op
+                  - cell "-" [ref=e897]
+                  - cell "-" [ref=e898]
+                  - cell "3 days ago" [ref=e899]:
+                    - generic [ref=e900]: 3 days ago
+                  - cell [ref=e901]:
+                    - img [ref=e904] [cursor=pointer]
+                - row "12 tatata Superadmin tatata tatata tatata - 3 days ago" [ref=e908]:
+                  - cell "12" [ref=e909]
+                  - cell [ref=e910]:
+                    - img [ref=e913]
+                  - cell "tatata" [ref=e915]
+                  - cell "Superadmin" [ref=e916]
+                  - cell "tatata" [ref=e917]:
+                    - link "tatata" [ref=e918] [cursor=pointer]:
+                      - /url: /user/user-list/10
+                      - paragraph [ref=e919]: tatata
+                  - cell "tatata tatata" [ref=e920]
+                  - cell "-" [ref=e921]
+                  - cell "3 days ago" [ref=e922]:
+                    - generic [ref=e923]: 3 days ago
+                  - cell [ref=e924]:
+                    - img [ref=e927] [cursor=pointer]
+                - row "13 IRPDAB Superadmin tester - - 3 days ago" [ref=e931]:
+                  - cell "13" [ref=e932]
+                  - cell [ref=e933]:
+                    - img [ref=e936]
+                  - cell "IRPDAB" [ref=e938]
+                  - cell "Superadmin" [ref=e939]
+                  - cell "tester" [ref=e940]:
+                    - link "tester" [ref=e941] [cursor=pointer]:
+                      - /url: /user/user-list/13
+                      - paragraph [ref=e942]: tester
+                  - cell "-" [ref=e943]
+                  - cell "-" [ref=e944]
+                  - cell "3 days ago" [ref=e945]:
+                    - generic [ref=e946]: 3 days ago
+                  - cell [ref=e947]:
+                    - img [ref=e950] [cursor=pointer]
+                - row "14 lstl12 Superadmin Lstl12 lstl lifestea - 5 days ago" [ref=e954]:
+                  - cell "14" [ref=e955]
+                  - cell [ref=e956]:
+                    - img [ref=e959]
+                  - cell "lstl12" [ref=e961]
+                  - cell "Superadmin" [ref=e962]
+                  - cell "Lstl12" [ref=e963]:
+                    - link "Lstl12" [ref=e964] [cursor=pointer]:
+                      - /url: /user/user-list/39
+                      - paragraph [ref=e965]: Lstl12
+                  - cell "lstl lifestea" [ref=e966]
+                  - cell "-" [ref=e967]
+                  - cell "5 days ago" [ref=e968]:
+                    - generic [ref=e969]: 5 days ago
+                  - cell [ref=e970]:
+                    - img [ref=e973] [cursor=pointer]
+                - row "15 surang Superadmin surang surang super_ad surang.techanamaster@gmail.com 7 days ago" [ref=e977]:
+                  - cell "15" [ref=e978]
+                  - cell [ref=e979]:
+                    - img [ref=e982]
+                  - cell "surang" [ref=e984]
+                  - cell "Superadmin" [ref=e985]
+                  - cell "surang" [ref=e986]:
+                    - link "surang" [ref=e987] [cursor=pointer]:
+                      - /url: /user/user-list/8
+                      - paragraph [ref=e988]: surang
+                  - cell "surang super_ad" [ref=e989]
+                  - cell "surang.techanamaster@gmail.com" [ref=e990]
+                  - cell "7 days ago" [ref=e991]:
+                    - generic [ref=e992]: 7 days ago
+                  - cell [ref=e993]:
+                    - img [ref=e996] [cursor=pointer]
+            - list [ref=e1000]:
+              - listitem "Previous Page" [ref=e1001]:
+                - button "left" [disabled] [ref=e1002]:
+                  - img "left" [ref=e1003]:
+                    - img [ref=e1004]
+              - listitem "1" [ref=e1006] [cursor=pointer]:
+                - generic [ref=e1007]: "1"
+              - listitem "2" [ref=e1008] [cursor=pointer]:
+                - generic [ref=e1009]: "2"
+              - listitem "Next Page" [ref=e1010] [cursor=pointer]:
+                - button "right" [ref=e1011]:
+                  - img "right" [ref=e1012]:
+                    - img [ref=e1013]
+              - listitem [ref=e1015]:
+                - generic "Page Size" [ref=e1016] [cursor=pointer]:
+                  - generic [ref=e1018]:
+                    - combobox "Page Size" [ref=e1020]
+                    - generic "15 / page" [ref=e1021]
+                  - generic:
+                    - img:
+                      - img

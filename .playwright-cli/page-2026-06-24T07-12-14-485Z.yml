@@ -1,0 +1,265 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menuitem "Seller" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - generic [ref=e72]: Seller
+          - menuitem "Vehicle" [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menu [ref=e212]:
+            - menuitem "Employee summary" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: Employee summary
+            - menuitem "Guide / Staff" [ref=e87] [cursor=pointer]:
+              - img [ref=e88]
+              - generic [ref=e90]: Guide / Staff
+            - menuitem "Other" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - generic [ref=e94]: Other
+            - menuitem "Positions" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Positions
+          - menuitem "Zone Transfer" [ref=e99] [cursor=pointer]:
+            - img [ref=e100]
+            - generic [ref=e104]: Zone Transfer
+          - menuitem "User" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e109]: User
+          - menuitem "Company" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: Company
+          - menuitem "User Manual" [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e117]: User Manual
+    - generic [ref=e118]:
+      - banner [ref=e119]:
+        - generic [ref=e121]:
+          - generic [ref=e122]: "Wed : 24 Jun 2026, 14:12"
+          - generic [ref=e124] [cursor=pointer]:
+            - generic [ref=e126]: AM
+            - generic [ref=e127]:
+              - generic [ref=e128]: amares123
+              - generic [ref=e129]: Claude test
+            - img [ref=e131]
+      - main [ref=e133]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: Employee
+              - img [ref=e138]
+              - generic [ref=e140]: Positions
+            - button "Create Position" [ref=e142] [cursor=pointer]:
+              - img [ref=e144]
+              - text: Create Position
+          - generic [ref=e147]:
+            - generic [ref=e150]:
+              - img [ref=e152]
+              - textbox "Search" [ref=e155]
+            - button "Filter" [ref=e157] [cursor=pointer]:
+              - img [ref=e159]
+              - text: Filter
+            - button "Export" [ref=e162] [cursor=pointer]:
+              - img [ref=e164]
+              - generic [ref=e167]: Export
+              - img [ref=e169]
+          - generic [ref=e174]:
+            - table [ref=e178]:
+              - rowgroup [ref=e185]:
+                - row "# Position List Status Last Modify Date Action" [ref=e186]:
+                  - columnheader "#" [ref=e187]
+                  - columnheader "Position List" [ref=e188]
+                  - columnheader "Status" [ref=e189]
+                  - columnheader "Last Modify Date" [ref=e190]
+                  - columnheader "Action" [ref=e191]
+              - rowgroup [ref=e192]:
+                - row "1 Guide ( Default ) Active 21/01/2026" [ref=e213]:
+                  - cell "1" [ref=e214]
+                  - cell "Guide ( Default )" [ref=e215]:
+                    - generic [ref=e216]:
+                      - link "Guide" [ref=e217] [cursor=pointer]:
+                        - /url: /employee/positions/1
+                        - paragraph [ref=e218]: Guide
+                      - generic [ref=e219]: ( Default )
+                  - cell "Active" [ref=e220]:
+                    - generic [ref=e223]: Active
+                  - cell "21/01/2026" [ref=e224]
+                  - cell [ref=e225]:
+                    - img [ref=e228] [cursor=pointer]
+                - row "2 Staff ( Default ) Active 21/01/2026" [ref=e232]:
+                  - cell "2" [ref=e233]
+                  - cell "Staff ( Default )" [ref=e234]:
+                    - generic [ref=e235]:
+                      - link "Staff" [ref=e236] [cursor=pointer]:
+                        - /url: /employee/positions/2
+                        - paragraph [ref=e237]: Staff
+                      - generic [ref=e238]: ( Default )
+                  - cell "Active" [ref=e239]:
+                    - generic [ref=e242]: Active
+                  - cell "21/01/2026" [ref=e243]
+                  - cell [ref=e244]:
+                    - img [ref=e247] [cursor=pointer]
+                - row "3 Driver ( Default ) Active 21/01/2026" [ref=e251]:
+                  - cell "3" [ref=e252]
+                  - cell "Driver ( Default )" [ref=e253]:
+                    - generic [ref=e254]:
+                      - link "Driver" [ref=e255] [cursor=pointer]:
+                        - /url: /employee/positions/3
+                        - paragraph [ref=e256]: Driver
+                      - generic [ref=e257]: ( Default )
+                  - cell "Active" [ref=e258]:
+                    - generic [ref=e261]: Active
+                  - cell "21/01/2026" [ref=e262]
+                  - cell [ref=e263]:
+                    - img [ref=e266] [cursor=pointer]
+                - row "4 Captain Active 28/01/2026" [ref=e270]:
+                  - cell "4" [ref=e271]
+                  - cell "Captain" [ref=e272]:
+                    - link "Captain" [ref=e274] [cursor=pointer]:
+                      - /url: /employee/positions/9
+                      - paragraph [ref=e275]: Captain
+                  - cell "Active" [ref=e276]:
+                    - generic [ref=e279]: Active
+                  - cell "28/01/2026" [ref=e280]
+                  - cell [ref=e281]:
+                    - img [ref=e284] [cursor=pointer]
+                - row "5 testt Active 18/02/2026" [ref=e288]:
+                  - cell "5" [ref=e289]
+                  - cell "testt" [ref=e290]:
+                    - link "testt" [ref=e292] [cursor=pointer]:
+                      - /url: /employee/positions/10
+                      - paragraph [ref=e293]: testt
+                  - cell "Active" [ref=e294]:
+                    - generic [ref=e297]: Active
+                  - cell "18/02/2026" [ref=e298]
+                  - cell [ref=e299]:
+                    - img [ref=e302] [cursor=pointer]
+                - row "6 Assistant captain Active 16/03/2026" [ref=e306]:
+                  - cell "6" [ref=e307]
+                  - cell "Assistant captain" [ref=e308]:
+                    - link "Assistant captain" [ref=e310] [cursor=pointer]:
+                      - /url: /employee/positions/11
+                      - paragraph [ref=e311]: Assistant captain
+                  - cell "Active" [ref=e312]:
+                    - generic [ref=e315]: Active
+                  - cell "16/03/2026" [ref=e316]
+                  - cell [ref=e317]:
+                    - img [ref=e320] [cursor=pointer]
+                - row "7 TestPositionEdited Active 20/05/2026" [ref=e324]:
+                  - cell "7" [ref=e325]
+                  - cell "TestPositionEdited" [ref=e326]:
+                    - link "TestPositionEdited" [ref=e328] [cursor=pointer]:
+                      - /url: /employee/positions/32
+                      - paragraph [ref=e329]: TestPositionEdited
+                  - cell "Active" [ref=e330]:
+                    - generic [ref=e333]: Active
+                  - cell "20/05/2026" [ref=e334]
+                  - cell [ref=e335]:
+                    - img [ref=e338] [cursor=pointer]
+                - row "8 Pos E2E 1779248991474 Edited Active 20/05/2026" [ref=e342]:
+                  - cell "8" [ref=e343]
+                  - cell "Pos E2E 1779248991474 Edited" [ref=e344]:
+                    - link "Pos E2E 1779248991474 Edited" [ref=e346] [cursor=pointer]:
+                      - /url: /employee/positions/33
+                      - paragraph [ref=e347]: Pos E2E 1779248991474 Edited
+                  - cell "Active" [ref=e348]:
+                    - generic [ref=e351]: Active
+                  - cell "20/05/2026" [ref=e352]
+                  - cell [ref=e353]:
+                    - img [ref=e356] [cursor=pointer]
+                - row "9 Pos E2E 1779249294418 Edited Active 20/05/2026" [ref=e360]:
+                  - cell "9" [ref=e361]
+                  - cell "Pos E2E 1779249294418 Edited" [ref=e362]:
+                    - link "Pos E2E 1779249294418 Edited" [ref=e364] [cursor=pointer]:
+                      - /url: /employee/positions/34
+                      - paragraph [ref=e365]: Pos E2E 1779249294418 Edited
+                  - cell "Active" [ref=e366]:
+                    - generic [ref=e369]: Active
+                  - cell "20/05/2026" [ref=e370]
+                  - cell [ref=e371]:
+                    - img [ref=e374] [cursor=pointer]
+            - list [ref=e378]:
+              - listitem "Previous Page" [ref=e379]:
+                - button "left" [disabled] [ref=e380]:
+                  - img "left" [ref=e381]:
+                    - img [ref=e382]
+              - listitem "1" [ref=e384] [cursor=pointer]:
+                - generic [ref=e385]: "1"
+              - listitem "Next Page" [ref=e386]:
+                - button "right" [disabled] [ref=e387]:
+                  - img "right" [ref=e388]:
+                    - img [ref=e389]
+              - listitem [ref=e391]:
+                - generic "Page Size" [ref=e392] [cursor=pointer]:
+                  - generic [ref=e394]:
+                    - combobox "Page Size" [ref=e396]
+                    - generic "15 / page" [ref=e397]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e398]:
+    - dialog:
+      - generic [ref=e400]:
+        - generic [ref=e401]:
+          - generic [ref=e402]:
+            - generic [ref=e404]: Filter
+            - img [ref=e406] [cursor=pointer]
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - generic [ref=e412]: Positions
+              - textbox "Please enter" [ref=e414]
+            - generic [ref=e416]:
+              - generic [ref=e417]: Status
+              - generic [ref=e419] [cursor=pointer]:
+                - generic [ref=e421]:
+                  - combobox [ref=e423]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e424]:
+          - button "Clear all" [ref=e425] [cursor=pointer]
+          - button "Search" [ref=e426] [cursor=pointer]:
+            - img [ref=e428]
+            - text: Search

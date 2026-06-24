@@ -1,0 +1,164 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e47]
+          - text: Management
+          - group [ref=e48]:
+            - menuitem "Bookings" [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+              - generic [ref=e53]: Bookings
+            - menuitem "Excursion" [expanded] [ref=e54] [cursor=pointer]:
+              - img [ref=e55]
+              - generic [ref=e57]: Excursion
+            - menu [ref=e145]:
+              - menuitem "Summary" [active] [ref=e146] [cursor=pointer]:
+                - img [ref=e147]
+                - generic [ref=e149]: Summary
+              - menuitem "Supplier Group" [ref=e150] [cursor=pointer]:
+                - img [ref=e151]
+                - generic [ref=e153]: Supplier Group
+              - menuitem "Own Vehicle Group" [ref=e154] [cursor=pointer]:
+                - img [ref=e155]
+                - generic [ref=e157]: Own Vehicle Group
+              - menuitem "Job Order" [ref=e158] [cursor=pointer]:
+                - img [ref=e159]
+                - generic [ref=e161]: Job Order
+              - menuitem "Report" [ref=e162] [cursor=pointer]:
+                - img [ref=e163]
+                - generic [ref=e165]: Report
+            - menuitem "Pick up Transport" [ref=e58] [cursor=pointer]:
+              - img [ref=e59]
+              - generic [ref=e64]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e71]: Drop off Transport
+            - menuitem "Check In" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e76]: Check In
+            - menuitem "Payment" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e81]: Payment
+            - menuitem "Guide Task" [ref=e82] [cursor=pointer]:
+              - img [ref=e83]
+              - generic [ref=e86]: Guide Task
+          - separator [ref=e87]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e88] [cursor=pointer]:
+            - img [ref=e89]
+            - generic [ref=e93]: Program
+          - menuitem "Seller" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e97]: Seller
+          - menuitem "Vehicle" [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+            - generic [ref=e101]: Vehicle
+          - menuitem "Employee" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e107]: Employee
+          - menuitem "Zone Transfer" [ref=e108] [cursor=pointer]:
+            - img [ref=e109]
+            - generic [ref=e113]: Zone Transfer
+          - menuitem "User" [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e118]: User
+          - menuitem "Company" [ref=e119] [cursor=pointer]:
+            - img [ref=e120]
+            - generic [ref=e122]: Company
+          - menuitem "User Manual" [ref=e123] [cursor=pointer]:
+            - img [ref=e124]
+            - generic [ref=e126]: User Manual
+    - generic [ref=e127]:
+      - banner [ref=e128]:
+        - generic [ref=e130]:
+          - generic [ref=e131]: "Wed : 24 Jun 2026, 15:39"
+          - generic [ref=e133] [cursor=pointer]:
+            - generic [ref=e135]: AM
+            - generic [ref=e136]:
+              - generic [ref=e137]: amares123
+              - generic [ref=e138]: Claude test
+            - img [ref=e140]
+      - main [ref=e142]:
+        - generic [ref=e166]:
+          - generic [ref=e167]:
+            - generic [ref=e169]:
+              - generic [ref=e170]: Excursion
+              - img [ref=e171]
+              - generic [ref=e173]: Manage Group
+            - generic [ref=e174]:
+              - generic [ref=e176]:
+                - img [ref=e178]
+                - textbox "Select Travel Date" [ref=e182]: 24/06/2026
+              - generic [ref=e185]:
+                - img [ref=e187]
+                - textbox "Search Program" [ref=e190]
+              - button "Manage Group" [ref=e193] [cursor=pointer]:
+                - img [ref=e195]
+                - text: Manage Group
+          - generic [ref=e203]:
+            - table [ref=e207]:
+              - rowgroup [ref=e215]:
+                - row "# Program Name Destination Unit Total Action" [ref=e216]:
+                  - columnheader "#" [ref=e217]
+                  - columnheader "Program Name" [ref=e218]
+                  - columnheader "Destination" [ref=e219]
+                  - columnheader "Unit" [ref=e220]
+                  - columnheader "Total" [ref=e221]
+                  - columnheader "Action" [ref=e222]
+              - rowgroup [ref=e223]:
+                - 'row "1 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch Phuket infant x 6, Person x 76 82" [ref=e224]':
+                  - cell "1" [ref=e225]
+                  - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e226]':
+                    - generic [ref=e227]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                  - cell "Phuket" [ref=e228]:
+                    - generic [ref=e229]: Phuket
+                  - cell "infant x 6, Person x 76" [ref=e230]
+                  - cell "82" [ref=e231]
+                  - cell [ref=e232]:
+                    - img [ref=e235] [cursor=pointer]
+                - row "2 Damnoen + Buffalo Cafe + Maeklong Bangkok Child x 26, infant x 11, Adult x 101, Per Person (Group of 5-7) x 66 204" [ref=e239]:
+                  - cell "2" [ref=e240]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e241]:
+                    - generic [ref=e242]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "Bangkok" [ref=e243]:
+                    - generic [ref=e244]: Bangkok
+                  - cell "Child x 26, infant x 11, Adult x 101, Per Person (Group of 5-7) x 66" [ref=e245]
+                  - cell "204" [ref=e246]
+                  - cell [ref=e247]:
+                    - img [ref=e250] [cursor=pointer]
+              - rowgroup [ref=e254]:
+                - row "Total 286" [ref=e255]:
+                  - cell "Total" [ref=e256]
+                  - cell [ref=e257]
+                  - cell [ref=e258]
+                  - cell [ref=e259]
+                  - cell "286" [ref=e260]
+                  - cell [ref=e261]
+            - list [ref=e262]:
+              - listitem "Previous Page" [ref=e263]:
+                - button "left" [disabled] [ref=e264]:
+                  - img "left" [ref=e265]:
+                    - img [ref=e266]
+              - listitem "1" [ref=e268] [cursor=pointer]:
+                - generic [ref=e269]: "1"
+              - listitem "Next Page" [ref=e270]:
+                - button "right" [disabled] [ref=e271]:
+                  - img "right" [ref=e272]:
+                    - img [ref=e273]
+              - listitem [ref=e275]:
+                - generic "Page Size" [ref=e276] [cursor=pointer]:
+                  - generic [ref=e278]:
+                    - combobox "Page Size" [ref=e280]
+                    - generic "15 / page" [ref=e281]
+                  - generic:
+                    - img:
+                      - img

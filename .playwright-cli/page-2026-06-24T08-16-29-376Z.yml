@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e43]:
+    - complementary [ref=e44]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - img "Tour Master Logo" [ref=e50]
+          - img [ref=e52] [cursor=pointer]
+        - menu [ref=e57]:
+          - menuitem "Dashboard" [expanded] [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e61]: Dashboard
+          - menu [ref=e62]:
+            - menuitem "Company Overview" [ref=e63] [cursor=pointer]:
+              - img [ref=e64]
+              - generic [ref=e66]: Company Overview
+            - menuitem "Tour" [ref=e67] [cursor=pointer]:
+              - img [ref=e68]
+              - generic [ref=e70]: Tour
+            - menuitem "Vehicle" [ref=e71] [cursor=pointer]:
+              - img [ref=e72]
+              - generic [ref=e74]: Vehicle
+            - menuitem "Guide" [ref=e75] [cursor=pointer]:
+              - img [ref=e76]
+              - generic [ref=e78]: Guide
+            - menuitem "Expense" [ref=e79] [cursor=pointer]:
+              - img [ref=e80]
+              - generic [ref=e82]: Expense
+            - menuitem "KPI" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: KPI
+          - separator [ref=e87]
+          - text: Management
+          - group [ref=e88]:
+            - menuitem "Bookings" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e93]: Bookings
+            - menuitem "Excursion" [ref=e94] [cursor=pointer]:
+              - img [ref=e95]
+              - generic [ref=e97]: Excursion
+            - menuitem "Pick up Transport" [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+              - generic [ref=e104]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e105] [cursor=pointer]:
+              - img [ref=e106]
+              - generic [ref=e111]: Drop off Transport
+            - menuitem "Check In" [ref=e112] [cursor=pointer]:
+              - img [ref=e113]
+              - generic [ref=e116]: Check In
+            - menuitem "Payment" [ref=e117] [cursor=pointer]:
+              - img [ref=e118]
+              - generic [ref=e121]: Payment
+            - menuitem "Guide Task" [ref=e122] [cursor=pointer]:
+              - img [ref=e123]
+              - generic [ref=e126]: Guide Task
+          - separator [ref=e127]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e128] [cursor=pointer]:
+            - img [ref=e129]
+            - generic [ref=e133]: Program
+          - menuitem "Seller" [ref=e134] [cursor=pointer]:
+            - img [ref=e135]
+            - generic [ref=e137]: Seller
+          - menuitem "Vehicle" [ref=e138] [cursor=pointer]:
+            - img [ref=e139]
+            - generic [ref=e141]: Vehicle
+          - menuitem "Employee" [ref=e142] [cursor=pointer]:
+            - img [ref=e143]
+            - generic [ref=e147]: Employee
+          - menuitem "Zone Transfer" [ref=e148] [cursor=pointer]:
+            - img [ref=e149]
+            - generic [ref=e153]: Zone Transfer
+          - menuitem "User" [ref=e154] [cursor=pointer]:
+            - img [ref=e155]
+            - generic [ref=e158]: User
+          - menuitem "Company" [ref=e159] [cursor=pointer]:
+            - img [ref=e160]
+            - generic [ref=e162]: Company
+          - menuitem "User Manual" [ref=e163] [cursor=pointer]:
+            - img [ref=e164]
+            - generic [ref=e166]: User Manual
+    - generic [ref=e167]:
+      - banner [ref=e168]:
+        - generic [ref=e170]:
+          - generic [ref=e171]: "Wed : 24 Jun 2026, 15:16"
+          - generic [ref=e173] [cursor=pointer]:
+            - generic [ref=e175]: AM
+            - generic [ref=e176]:
+              - generic [ref=e177]: amares123
+              - generic [ref=e178]: Claude test
+            - img [ref=e180]
+      - main [ref=e182]:
+        - heading "Welcome back, t hui" [level=1] [ref=e184]

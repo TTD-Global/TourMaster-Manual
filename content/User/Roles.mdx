@@ -1,0 +1,120 @@
+---
+title: Roles
+sidebar_position: 2
+---
+
+# Roles
+
+หน้า **Roles** ใช้จัดการสิทธิ์การเข้าถึงระบบ สามารถสร้าง Role ใหม่และกำหนดว่า Role นั้นสามารถเข้าถึง Function ใดได้บ้าง
+
+เข้าถึงได้จาก **Setting → User → Roles**
+
+---
+
+## ตารางรายการ
+
+<div className="manual-img-500">
+
+![Roles List](/img/roles-table.png)
+
+</div>
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Roles List** | ชื่อ Role |
+| **Status** | สถานะการใช้งาน |
+| | <span class="badge badge-active">Active</span> เปิดใช้งาน |
+| | <span class="badge badge-inactive">Inactive</span> ปิดใช้งาน |
+| **Last Modify Date** | วันที่สร้าง/แก้ไขล่าสุด |
+| **Action** | ปุ่ม `...` สำหรับจัดการ |
+
+---
+
+## ฟังก์ชันบนหน้า
+
+| ปุ่ม / ฟังก์ชัน | คำอธิบาย |
+|----------------|----------|
+| **Create Roles** | สร้าง Role ใหม่ |
+| **Search** | ค้นหา Role |
+| **Filter** | กรองข้อมูลตามเงื่อนไข |
+
+---
+
+## ตัวกรอง
+
+<div className="manual-img-500">
+
+![Roles Filter](/img/Filter/filter-roles-modal.png)
+
+</div>
+
+กดปุ่ม **Filter** เพื่อเปิด Modal กรองข้อมูลตามเงื่อนไขที่ต้องการ
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Status** | กรองตามสถานะ Active / Inactive |
+
+กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+
+---
+
+## Action
+
+กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อจัดการ Role
+
+### View
+
+แสดงรายละเอียด Role แบบ read-only
+
+- **Role Detail** — ชื่อ Role และ Status
+- **Role Permissions** — ตารางสิทธิ์ทั้งหมดที่กำหนดไว้ แบ่งกลุ่มตาม Function
+- กดปุ่ม **Edit** เพื่อเข้าสู่โหมดแก้ไข
+- กดปุ่ม **Close** เพื่อปิดและกลับไปหน้ารายการ
+
+### Edit
+
+กดปุ่ม **Edit** จากหน้า View เพื่อแก้ไขข้อมูล Role
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Role Name** | ชื่อ Role | ✅ |
+| **Status** | เลือก <span class="badge badge-active">Active</span> หรือ <span class="badge badge-inactive">Inactive</span> | — |
+| **Role Permissions** | กำหนดสิทธิ์แต่ละ Function (Select All / Unselect All) | — |
+
+กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+
+---
+
+## Create
+
+กดปุ่ม **Create Roles** มุมขวาบน ระบบจะนำไปยังฟอร์มสร้าง Role ใหม่ แบ่งเป็น 2 ส่วน
+
+### Role Detail
+
+<div className="manual-img-500">
+
+![Role Name](/img/roles-rolename.png)
+
+</div>
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Role Name** | ตั้งชื่อสิทธิ์การเข้าถึง | ✅ |
+| **Status** | กำหนดสถานะ Active หรือ Inactive | — |
+
+### Role Permissions
+
+<div className="manual-img-1000">
+
+![Role Permissions](/img/roles-rolepermiss.jpeg)
+
+</div>
+
+กำหนดสิทธิ์การใช้งานแต่ละ Function
+
+- **Select All / Unselect All** — เลือกหรือยกเลิกสิทธิ์ทั้งหมดพร้อมกัน
+- เลือก checkbox แต่ละ Function ที่ต้องการให้ Role นี้เข้าถึงได้
+
+กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+

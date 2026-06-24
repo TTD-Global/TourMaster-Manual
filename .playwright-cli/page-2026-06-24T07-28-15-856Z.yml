@@ -1,0 +1,372 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e46]
+          - text: Management
+          - group [ref=e47]:
+            - menuitem "Bookings" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e52]: Bookings
+            - menuitem "Excursion" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e56]: Excursion
+            - menuitem "Pick up Transport" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e63]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e70]: Drop off Transport
+            - menuitem "Check In" [ref=e71] [cursor=pointer]:
+              - img [ref=e72]
+              - generic [ref=e75]: Check In
+            - menuitem "Payment" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e80]: Payment
+            - menuitem "Guide Task" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e85]: Guide Task
+          - separator [ref=e86]
+          - text: Setting
+          - group
+          - menuitem "Program" [expanded] [ref=e87] [cursor=pointer]:
+            - img [ref=e88]
+            - generic [ref=e92]: Program
+          - menu [ref=e145]:
+            - menuitem "Program List" [active] [ref=e146] [cursor=pointer]:
+              - img [ref=e147]
+              - generic [ref=e149]: Program List
+            - menuitem "Item Type" [ref=e150] [cursor=pointer]:
+              - img [ref=e151]
+              - generic [ref=e153]: Item Type
+            - menuitem "Unit" [ref=e154] [cursor=pointer]:
+              - img [ref=e155]
+              - generic [ref=e157]: Unit
+          - menuitem "Seller" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Seller
+          - menuitem "Vehicle" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e100]: Vehicle
+          - menuitem "Employee" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e106]: Employee
+          - menuitem "Zone Transfer" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e112]: Zone Transfer
+          - menuitem "User" [ref=e113] [cursor=pointer]:
+            - img [ref=e114]
+            - generic [ref=e117]: User
+          - menuitem "Company" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: Company
+          - menuitem "User Manual" [ref=e122] [cursor=pointer]:
+            - img [ref=e123]
+            - generic [ref=e125]: User Manual
+    - generic [ref=e126]:
+      - banner [ref=e127]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: "Wed : 24 Jun 2026, 14:28"
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e134]: AM
+            - generic [ref=e135]:
+              - generic [ref=e136]: amares123
+              - generic [ref=e137]: Claude test
+            - img [ref=e139]
+      - main [ref=e141]:
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - generic [ref=e161]: Program
+              - img [ref=e162]
+              - generic [ref=e164]: Program List
+            - button "Create Program" [ref=e166] [cursor=pointer]:
+              - img [ref=e168]
+              - text: Create Program
+          - generic [ref=e170]:
+            - tablist [ref=e171]:
+              - generic [ref=e173]:
+                - tab "All product 41" [selected] [ref=e175] [cursor=pointer]:
+                  - generic [ref=e177]:
+                    - text: All product
+                    - generic [ref=e179]: "41"
+                - tab "Active 38" [ref=e181] [cursor=pointer]:
+                  - generic [ref=e183]:
+                    - text: Active
+                    - generic [ref=e185]: "38"
+                - tab "Inactive 2" [ref=e187] [cursor=pointer]:
+                  - generic [ref=e189]:
+                    - text: Inactive
+                    - generic [ref=e191]: "2"
+                - tab "Draft 1" [ref=e193] [cursor=pointer]:
+                  - generic [ref=e195]:
+                    - text: Draft
+                    - generic [ref=e197]: "1"
+              - button "ellipsis" [ref=e199]:
+                - img "ellipsis" [ref=e200]:
+                  - img [ref=e201]
+              - generic [ref=e204]:
+                - generic [ref=e207]:
+                  - img [ref=e209]
+                  - textbox "Search" [ref=e212]
+                - button "Filter" [ref=e214] [cursor=pointer]:
+                  - img [ref=e216]
+                  - text: Filter
+                - button "Export" [ref=e219] [cursor=pointer]:
+                  - img [ref=e221]
+                  - generic [ref=e224]: Export
+                  - img [ref=e226]
+            - tabpanel "All product 41" [ref=e230]:
+              - generic [ref=e234]:
+                - table [ref=e238]:
+                  - rowgroup [ref=e247]:
+                    - row "# Program Code Program Name Seller Quantity Status Last Modify Date Action" [ref=e248]:
+                      - columnheader "#" [ref=e249]
+                      - columnheader "Program Code" [ref=e250]
+                      - columnheader "Program Name" [ref=e251]
+                      - columnheader "Seller Quantity" [ref=e252]
+                      - columnheader "Status" [ref=e253]
+                      - columnheader "Last Modify Date" [ref=e254]
+                      - columnheader "Action" [ref=e255]
+                  - rowgroup [ref=e256]:
+                    - row "1 Program-00037 dfasdfsdfsad - Draft 29/04/2026" [ref=e257]:
+                      - cell "1" [ref=e258]
+                      - cell "Program-00037" [ref=e259]
+                      - cell "dfasdfsdfsad" [ref=e260]:
+                        - link "dfasdfsdfsad" [ref=e261] [cursor=pointer]:
+                          - /url: /program/program-list/create?id=41
+                          - paragraph [ref=e262]: dfasdfsdfsad
+                      - cell "-" [ref=e263]:
+                        - generic [ref=e265] [cursor=pointer]: "-"
+                      - cell "Draft" [ref=e266]:
+                        - generic [ref=e269]: Draft
+                      - cell "29/04/2026" [ref=e270]
+                      - cell [ref=e271]:
+                        - img [ref=e274] [cursor=pointer]
+                    - 'row "2 Program-00005 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 2 Active 23/06/2026" [ref=e278]':
+                      - cell "2" [ref=e279]
+                      - cell "Program-00005" [ref=e280]
+                      - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e281]':
+                        - 'link "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e282] [cursor=pointer]':
+                          - /url: /program/program-list/5
+                          - paragraph [ref=e283]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                      - cell "2" [ref=e284]:
+                        - generic [ref=e286] [cursor=pointer]: "2"
+                      - cell "Active" [ref=e287]:
+                        - generic [ref=e290]: Active
+                      - cell "23/06/2026" [ref=e291]
+                      - cell [ref=e292]:
+                        - img [ref=e295] [cursor=pointer]
+                    - row "3 Program-00041 testcost - Active 17/06/2026" [ref=e299]:
+                      - cell "3" [ref=e300]
+                      - cell "Program-00041" [ref=e301]
+                      - cell "testcost" [ref=e302]:
+                        - link "testcost" [ref=e303] [cursor=pointer]:
+                          - /url: /program/program-list/45
+                          - paragraph [ref=e304]: testcost
+                      - cell "-" [ref=e305]:
+                        - generic [ref=e307] [cursor=pointer]: "-"
+                      - cell "Active" [ref=e308]:
+                        - generic [ref=e311]: Active
+                      - cell "17/06/2026" [ref=e312]
+                      - cell [ref=e313]:
+                        - img [ref=e316] [cursor=pointer]
+                    - row "4 Program-00003 Ancient City + Erawan Museum + shared Taransfer 2 Active 16/06/2026" [ref=e320]:
+                      - cell "4" [ref=e321]
+                      - cell "Program-00003" [ref=e322]
+                      - cell "Ancient City + Erawan Museum + shared Taransfer" [ref=e323]:
+                        - link "Ancient City + Erawan Museum + shared Taransfer" [ref=e324] [cursor=pointer]:
+                          - /url: /program/program-list/3
+                          - paragraph [ref=e325]: Ancient City + Erawan Museum + shared Taransfer
+                      - cell "2" [ref=e326]:
+                        - generic [ref=e328] [cursor=pointer]: "2"
+                      - cell "Active" [ref=e329]:
+                        - generic [ref=e332]: Active
+                      - cell "16/06/2026" [ref=e333]
+                      - cell [ref=e334]:
+                        - img [ref=e337] [cursor=pointer]
+                    - 'row "5 Program-00044 Bangkok : Temple Tour Hidden Streets 1 Active 11/06/2026" [ref=e341]':
+                      - cell "5" [ref=e342]
+                      - cell "Program-00044" [ref=e343]
+                      - 'cell "Bangkok : Temple Tour Hidden Streets" [ref=e344]':
+                        - 'link "Bangkok : Temple Tour Hidden Streets" [ref=e345] [cursor=pointer]':
+                          - /url: /program/program-list/48
+                          - paragraph [ref=e346]: "Bangkok : Temple Tour Hidden Streets"
+                      - cell "1" [ref=e347]:
+                        - generic [ref=e349] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e350]:
+                        - generic [ref=e353]: Active
+                      - cell "11/06/2026" [ref=e354]
+                      - cell [ref=e355]:
+                        - img [ref=e358] [cursor=pointer]
+                    - row "6 Program-00001 Damnoen + Buffalo Cafe + Maeklong 1 Active 09/06/2026" [ref=e362]:
+                      - cell "6" [ref=e363]
+                      - cell "Program-00001" [ref=e364]
+                      - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e365]:
+                        - link "Damnoen + Buffalo Cafe + Maeklong" [ref=e366] [cursor=pointer]:
+                          - /url: /program/program-list/1
+                          - paragraph [ref=e367]: Damnoen + Buffalo Cafe + Maeklong
+                      - cell "1" [ref=e368]:
+                        - generic [ref=e370] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e371]:
+                        - generic [ref=e374]: Active
+                      - cell "09/06/2026" [ref=e375]
+                      - cell [ref=e376]:
+                        - img [ref=e379] [cursor=pointer]
+                    - row "7 Program-00038 Program-Agent-Connection 3 Active 28/05/2026" [ref=e383]:
+                      - cell "7" [ref=e384]
+                      - cell "Program-00038" [ref=e385]
+                      - cell "Program-Agent-Connection" [ref=e386]:
+                        - link "Program-Agent-Connection" [ref=e387] [cursor=pointer]:
+                          - /url: /program/program-list/42
+                          - paragraph [ref=e388]: Program-Agent-Connection
+                      - cell "3" [ref=e389]:
+                        - generic [ref=e391] [cursor=pointer]: "3"
+                      - cell "Active" [ref=e392]:
+                        - generic [ref=e395]: Active
+                      - cell "28/05/2026" [ref=e396]
+                      - cell [ref=e397]:
+                        - img [ref=e400] [cursor=pointer]
+                    - row "8 Program-00043 wat pho and wat arun half day walking tour 1 Active 28/05/2026" [ref=e404]:
+                      - cell "8" [ref=e405]
+                      - cell "Program-00043" [ref=e406]
+                      - cell "wat pho and wat arun half day walking tour" [ref=e407]:
+                        - link "wat pho and wat arun half day walking tour" [ref=e408] [cursor=pointer]:
+                          - /url: /program/program-list/47
+                          - paragraph [ref=e409]: wat pho and wat arun half day walking tour
+                      - cell "1" [ref=e410]:
+                        - generic [ref=e412] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e413]:
+                        - generic [ref=e416]: Active
+                      - cell "28/05/2026" [ref=e417]
+                      - cell [ref=e418]:
+                        - img [ref=e421] [cursor=pointer]
+                    - row "9 Program-00042 testjoinprivate 1 Active 26/05/2026" [ref=e425]:
+                      - cell "9" [ref=e426]
+                      - cell "Program-00042" [ref=e427]
+                      - cell "testjoinprivate" [ref=e428]:
+                        - link "testjoinprivate" [ref=e429] [cursor=pointer]:
+                          - /url: /program/program-list/46
+                          - paragraph [ref=e430]: testjoinprivate
+                      - cell "1" [ref=e431]:
+                        - generic [ref=e433] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e434]:
+                        - generic [ref=e437]: Active
+                      - cell "26/05/2026" [ref=e438]
+                      - cell [ref=e439]:
+                        - img [ref=e442] [cursor=pointer]
+                    - row "10 Program-00040 ทัวร์หมู่เกาะพีพี(ONE DAY TOUR) 1 Active 26/05/2026" [ref=e446]:
+                      - cell "10" [ref=e447]
+                      - cell "Program-00040" [ref=e448]
+                      - cell "ทัวร์หมู่เกาะพีพี(ONE DAY TOUR)" [ref=e449]:
+                        - link "ทัวร์หมู่เกาะพีพี(ONE DAY TOUR)" [ref=e450] [cursor=pointer]:
+                          - /url: /program/program-list/44
+                          - paragraph [ref=e451]: ทัวร์หมู่เกาะพีพี(ONE DAY TOUR)
+                      - cell "1" [ref=e452]:
+                        - generic [ref=e454] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e455]:
+                        - generic [ref=e458]: Active
+                      - cell "26/05/2026" [ref=e459]
+                      - cell [ref=e460]:
+                        - img [ref=e463] [cursor=pointer]
+                    - row "11 Program-00036 TESTREREGDSDRGDESRG 1 Active 21/05/2026" [ref=e467]:
+                      - cell "11" [ref=e468]
+                      - cell "Program-00036" [ref=e469]
+                      - cell "TESTREREGDSDRGDESRG" [ref=e470]:
+                        - link "TESTREREGDSDRGDESRG" [ref=e471] [cursor=pointer]:
+                          - /url: /program/program-list/40
+                          - paragraph [ref=e472]: TESTREREGDSDRGDESRG
+                      - cell "1" [ref=e473]:
+                        - generic [ref=e475] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e476]:
+                        - generic [ref=e479]: Active
+                      - cell "21/05/2026" [ref=e480]
+                      - cell [ref=e481]:
+                        - img [ref=e484] [cursor=pointer]
+                    - row "12 Program-00039 ghfdjhdfhsopfguhoidufgh - Active 21/05/2026" [ref=e488]:
+                      - cell "12" [ref=e489]
+                      - cell "Program-00039" [ref=e490]
+                      - cell "ghfdjhdfhsopfguhoidufgh" [ref=e491]:
+                        - link "ghfdjhdfhsopfguhoidufgh" [ref=e492] [cursor=pointer]:
+                          - /url: /program/program-list/43
+                          - paragraph [ref=e493]: ghfdjhdfhsopfguhoidufgh
+                      - cell "-" [ref=e494]:
+                        - generic [ref=e496] [cursor=pointer]: "-"
+                      - cell "Active" [ref=e497]:
+                        - generic [ref=e500]: Active
+                      - cell "21/05/2026" [ref=e501]
+                      - cell [ref=e502]:
+                        - img [ref=e505] [cursor=pointer]
+                    - row "13 Program-00012 AJRED 2 Active 21/05/2026" [ref=e509]:
+                      - cell "13" [ref=e510]
+                      - cell "Program-00012" [ref=e511]
+                      - cell "AJRED" [ref=e512]:
+                        - link "AJRED" [ref=e513] [cursor=pointer]:
+                          - /url: /program/program-list/16
+                          - paragraph [ref=e514]: AJRED
+                      - cell "2" [ref=e515]:
+                        - generic [ref=e517] [cursor=pointer]: "2"
+                      - cell "Active" [ref=e518]:
+                        - generic [ref=e521]: Active
+                      - cell "21/05/2026" [ref=e522]
+                      - cell [ref=e523]:
+                        - img [ref=e526] [cursor=pointer]
+                    - row "14 Program-00032 testt156544 - Active 21/05/2026" [ref=e530]:
+                      - cell "14" [ref=e531]
+                      - cell "Program-00032" [ref=e532]
+                      - cell "testt156544" [ref=e533]:
+                        - link "testt156544" [ref=e534] [cursor=pointer]:
+                          - /url: /program/program-list/36
+                          - paragraph [ref=e535]: testt156544
+                      - cell "-" [ref=e536]:
+                        - generic [ref=e538] [cursor=pointer]: "-"
+                      - cell "Active" [ref=e539]:
+                        - generic [ref=e542]: Active
+                      - cell "21/05/2026" [ref=e543]
+                      - cell [ref=e544]:
+                        - img [ref=e547] [cursor=pointer]
+                    - row "15 Program-00029 huitest1 2 Active 21/05/2026" [ref=e551]:
+                      - cell "15" [ref=e552]
+                      - cell "Program-00029" [ref=e553]
+                      - cell "huitest1" [ref=e554]:
+                        - link "huitest1" [ref=e555] [cursor=pointer]:
+                          - /url: /program/program-list/33
+                          - paragraph [ref=e556]: huitest1
+                      - cell "2" [ref=e557]:
+                        - generic [ref=e559] [cursor=pointer]: "2"
+                      - cell "Active" [ref=e560]:
+                        - generic [ref=e563]: Active
+                      - cell "21/05/2026" [ref=e564]
+                      - cell [ref=e565]:
+                        - img [ref=e568] [cursor=pointer]
+                - list [ref=e572]:
+                  - listitem "Previous Page" [ref=e573]:
+                    - button "left" [disabled] [ref=e574]:
+                      - img "left" [ref=e575]:
+                        - img [ref=e576]
+                  - listitem "1" [ref=e578] [cursor=pointer]:
+                    - generic [ref=e579]: "1"
+                  - listitem "2" [ref=e580] [cursor=pointer]:
+                    - generic [ref=e581]: "2"
+                  - listitem "3" [ref=e582] [cursor=pointer]:
+                    - generic [ref=e583]: "3"
+                  - listitem "Next Page" [ref=e584] [cursor=pointer]:
+                    - button "right" [ref=e585]:
+                      - img "right" [ref=e586]:
+                        - img [ref=e587]
+                  - listitem [ref=e589]:
+                    - generic "Page Size" [ref=e590] [cursor=pointer]:
+                      - generic [ref=e592]:
+                        - combobox "Page Size" [ref=e594]
+                        - generic "15 / page" [ref=e595]
+                      - generic:
+                        - img:
+                          - img

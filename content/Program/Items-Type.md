@@ -13,7 +13,11 @@ sidebar_position: 2
 
 ## ตารางรายการ
 
+<div className="manual-img-500">
+
 ![Item Type List](/img/Program/item-type-list.png)
+
+</div>
 
 ตารางแสดงรายการ Item Type ทั้งหมด ประกอบด้วยคอลัมน์ดังนี้
 
@@ -41,6 +45,25 @@ sidebar_position: 2
 
 ---
 
+## ตัวกรอง
+
+<div className="manual-img-500">
+
+![Items Type Filter](/img/Filter/filter-program-itemstype-modal.png)
+
+</div>
+
+กดปุ่ม **Filter** เพื่อเปิด Modal กรองข้อมูลตามเงื่อนไขที่ต้องการ
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Item Type Name** | กรองตามชื่อ Item Type |
+| **Status** | กรองตามสถานะ Active / Inactive |
+
+กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+
+---
+
 ## Action
 
 กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Item Type เพื่อดูรายละเอียด
@@ -62,21 +85,15 @@ sidebar_position: 2
 1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
 2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
 
-### Delete
-
-กดเพื่อลบ Item Type ออกจากระบบ
-
-:::caution ข้อควรระวัง
-การลบ Item Type จะลบ Sub Item ทั้งหมดที่อยู่ภายใต้ด้วย และไม่สามารถกู้คืนได้
-:::
-
----
-
 ## Create
 
 กดปุ่ม **Create Item Type** แล้วกรอกข้อมูลในฟอร์ม
 
+<div className="manual-img-500">
+
 ![Create Item Type](/img/Program/item-type-create.png)
+
+</div>
 
 ### General Detail
 

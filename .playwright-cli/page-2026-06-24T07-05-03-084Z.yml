@@ -1,0 +1,398 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e46]
+          - text: Management
+          - group [ref=e47]:
+            - menuitem "Bookings" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e52]: Bookings
+            - menuitem "Excursion" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e56]: Excursion
+            - menuitem "Pick up Transport" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e63]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e70]: Drop off Transport
+            - menuitem "Check In" [ref=e71] [cursor=pointer]:
+              - img [ref=e72]
+              - generic [ref=e75]: Check In
+            - menuitem "Payment" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e80]: Payment
+            - menuitem "Guide Task" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e85]: Guide Task
+          - separator [ref=e86]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e87] [cursor=pointer]:
+            - img [ref=e88]
+            - generic [ref=e92]: Program
+          - menuitem "Seller" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Seller
+          - menuitem "Vehicle" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e100]: Vehicle
+          - menuitem "Employee" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e106]: Employee
+          - menuitem "Zone Transfer" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e112]: Zone Transfer
+          - menuitem "User" [expanded] [ref=e113] [cursor=pointer]:
+            - img [ref=e114]
+            - generic [ref=e117]: User
+          - menu [ref=e145]:
+            - menuitem "User List" [ref=e146] [cursor=pointer]:
+              - img [ref=e147]
+              - generic [ref=e149]: User List
+            - menuitem "Role" [ref=e150] [cursor=pointer]:
+              - img [ref=e151]
+              - generic [ref=e153]: Role
+          - menuitem "Company" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: Company
+          - menuitem "User Manual" [ref=e122] [cursor=pointer]:
+            - img [ref=e123]
+            - generic [ref=e125]: User Manual
+    - generic [ref=e126]:
+      - banner [ref=e127]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: "Wed : 24 Jun 2026, 14:04"
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e134]: AM
+            - generic [ref=e135]:
+              - generic [ref=e136]: amares123
+              - generic [ref=e137]: Claude test
+            - img [ref=e139]
+      - main [ref=e141]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - generic [ref=e157]: User
+              - img [ref=e158]
+              - generic [ref=e160]: Roles
+            - button "Create Roles" [ref=e162] [cursor=pointer]:
+              - img [ref=e164]
+              - text: Create Roles
+          - generic [ref=e167]:
+            - generic [ref=e170]:
+              - img [ref=e172]
+              - textbox "Search" [ref=e175]
+            - button "Filter" [ref=e177] [cursor=pointer]:
+              - img [ref=e179]
+              - text: Filter
+            - button "Export" [ref=e182] [cursor=pointer]:
+              - img [ref=e184]
+              - generic [ref=e187]: Export
+              - img [ref=e189]
+          - generic [ref=e194]:
+            - table [ref=e198]:
+              - rowgroup [ref=e205]:
+                - row "# Roles List Status Last Modify Date Action" [ref=e206]:
+                  - columnheader "#" [ref=e207]
+                  - columnheader "Roles List" [ref=e208]
+                  - columnheader "Status" [ref=e209]
+                  - columnheader "Last Modify Date" [ref=e210]
+                  - columnheader "Action" [ref=e211]
+              - rowgroup [ref=e212]:
+                - row "1 Claude test Active 24/06/2026" [ref=e213]:
+                  - cell "1" [ref=e214]
+                  - cell "Claude test" [ref=e215]:
+                    - link "Claude test" [ref=e216] [cursor=pointer]:
+                      - /url: /user/roles/2
+                      - paragraph [ref=e217]: Claude test
+                  - cell "Active" [ref=e218]:
+                    - generic [ref=e221]: Active
+                  - cell "24/06/2026" [ref=e222]:
+                    - generic [ref=e223]: 24/06/2026
+                  - cell [ref=e224]:
+                    - img [ref=e227] [cursor=pointer]
+                - row "2 FullPermRole-1780369332661 Active 02/06/2026" [ref=e231]:
+                  - cell "2" [ref=e232]
+                  - cell "FullPermRole-1780369332661" [ref=e233]:
+                    - link "FullPermRole-1780369332661" [ref=e234] [cursor=pointer]:
+                      - /url: /user/roles/59
+                      - paragraph [ref=e235]: FullPermRole-1780369332661
+                  - cell "Active" [ref=e236]:
+                    - generic [ref=e239]: Active
+                  - cell "02/06/2026" [ref=e240]:
+                    - generic [ref=e241]: 02/06/2026
+                  - cell [ref=e242]:
+                    - img [ref=e245] [cursor=pointer]
+                - row "3 QA-Role-1780369332661 Active 02/06/2026" [ref=e249]:
+                  - cell "3" [ref=e250]
+                  - cell "QA-Role-1780369332661" [ref=e251]:
+                    - link "QA-Role-1780369332661" [ref=e252] [cursor=pointer]:
+                      - /url: /user/roles/58
+                      - paragraph [ref=e253]: QA-Role-1780369332661
+                  - cell "Active" [ref=e254]:
+                    - generic [ref=e257]: Active
+                  - cell "02/06/2026" [ref=e258]:
+                    - generic [ref=e259]: 02/06/2026
+                  - cell [ref=e260]:
+                    - img [ref=e263] [cursor=pointer]
+                - row "4 QA!@#$%1780369332661 Active 02/06/2026" [ref=e267]:
+                  - cell "4" [ref=e268]
+                  - cell "QA!@#$%1780369332661" [ref=e269]:
+                    - link "QA!@#$%1780369332661" [ref=e270] [cursor=pointer]:
+                      - /url: /user/roles/57
+                      - paragraph [ref=e271]: QA!@#$%1780369332661
+                  - cell "Active" [ref=e272]:
+                    - generic [ref=e275]: Active
+                  - cell "02/06/2026" [ref=e276]:
+                    - generic [ref=e277]: 02/06/2026
+                  - cell [ref=e278]:
+                    - img [ref=e281] [cursor=pointer]
+                - row "5 FullPermRole-1780369079417 Active 02/06/2026" [ref=e285]:
+                  - cell "5" [ref=e286]
+                  - cell "FullPermRole-1780369079417" [ref=e287]:
+                    - link "FullPermRole-1780369079417" [ref=e288] [cursor=pointer]:
+                      - /url: /user/roles/56
+                      - paragraph [ref=e289]: FullPermRole-1780369079417
+                  - cell "Active" [ref=e290]:
+                    - generic [ref=e293]: Active
+                  - cell "02/06/2026" [ref=e294]:
+                    - generic [ref=e295]: 02/06/2026
+                  - cell [ref=e296]:
+                    - img [ref=e299] [cursor=pointer]
+                - row "6 QA-Role-1780369079417 Active 02/06/2026" [ref=e303]:
+                  - cell "6" [ref=e304]
+                  - cell "QA-Role-1780369079417" [ref=e305]:
+                    - link "QA-Role-1780369079417" [ref=e306] [cursor=pointer]:
+                      - /url: /user/roles/55
+                      - paragraph [ref=e307]: QA-Role-1780369079417
+                  - cell "Active" [ref=e308]:
+                    - generic [ref=e311]: Active
+                  - cell "02/06/2026" [ref=e312]:
+                    - generic [ref=e313]: 02/06/2026
+                  - cell [ref=e314]:
+                    - img [ref=e317] [cursor=pointer]
+                - row "7 QA!@#$%1780369079417 Active 02/06/2026" [ref=e321]:
+                  - cell "7" [ref=e322]
+                  - cell "QA!@#$%1780369079417" [ref=e323]:
+                    - link "QA!@#$%1780369079417" [ref=e324] [cursor=pointer]:
+                      - /url: /user/roles/54
+                      - paragraph [ref=e325]: QA!@#$%1780369079417
+                  - cell "Active" [ref=e326]:
+                    - generic [ref=e329]: Active
+                  - cell "02/06/2026" [ref=e330]:
+                    - generic [ref=e331]: 02/06/2026
+                  - cell [ref=e332]:
+                    - img [ref=e335] [cursor=pointer]
+                - row "8 FullPermRole-1780368865384 Active 02/06/2026" [ref=e339]:
+                  - cell "8" [ref=e340]
+                  - cell "FullPermRole-1780368865384" [ref=e341]:
+                    - link "FullPermRole-1780368865384" [ref=e342] [cursor=pointer]:
+                      - /url: /user/roles/53
+                      - paragraph [ref=e343]: FullPermRole-1780368865384
+                  - cell "Active" [ref=e344]:
+                    - generic [ref=e347]: Active
+                  - cell "02/06/2026" [ref=e348]:
+                    - generic [ref=e349]: 02/06/2026
+                  - cell [ref=e350]:
+                    - img [ref=e353] [cursor=pointer]
+                - row "9 QA-Role-1780368865384 Active 02/06/2026" [ref=e357]:
+                  - cell "9" [ref=e358]
+                  - cell "QA-Role-1780368865384" [ref=e359]:
+                    - link "QA-Role-1780368865384" [ref=e360] [cursor=pointer]:
+                      - /url: /user/roles/52
+                      - paragraph [ref=e361]: QA-Role-1780368865384
+                  - cell "Active" [ref=e362]:
+                    - generic [ref=e365]: Active
+                  - cell "02/06/2026" [ref=e366]:
+                    - generic [ref=e367]: 02/06/2026
+                  - cell [ref=e368]:
+                    - img [ref=e371] [cursor=pointer]
+                - row "10 QA!@#$%1780368865384 Active 02/06/2026" [ref=e375]:
+                  - cell "10" [ref=e376]
+                  - cell "QA!@#$%1780368865384" [ref=e377]:
+                    - link "QA!@#$%1780368865384" [ref=e378] [cursor=pointer]:
+                      - /url: /user/roles/51
+                      - paragraph [ref=e379]: QA!@#$%1780368865384
+                  - cell "Active" [ref=e380]:
+                    - generic [ref=e383]: Active
+                  - cell "02/06/2026" [ref=e384]:
+                    - generic [ref=e385]: 02/06/2026
+                  - cell [ref=e386]:
+                    - img [ref=e389] [cursor=pointer]
+                - row "11 FullPermRole-1780367376783 Active 02/06/2026" [ref=e393]:
+                  - cell "11" [ref=e394]
+                  - cell "FullPermRole-1780367376783" [ref=e395]:
+                    - link "FullPermRole-1780367376783" [ref=e396] [cursor=pointer]:
+                      - /url: /user/roles/50
+                      - paragraph [ref=e397]: FullPermRole-1780367376783
+                  - cell "Active" [ref=e398]:
+                    - generic [ref=e401]: Active
+                  - cell "02/06/2026" [ref=e402]:
+                    - generic [ref=e403]: 02/06/2026
+                  - cell [ref=e404]:
+                    - img [ref=e407] [cursor=pointer]
+                - row "12 QA-Role-1780367376783 Active 02/06/2026" [ref=e411]:
+                  - cell "12" [ref=e412]
+                  - cell "QA-Role-1780367376783" [ref=e413]:
+                    - link "QA-Role-1780367376783" [ref=e414] [cursor=pointer]:
+                      - /url: /user/roles/49
+                      - paragraph [ref=e415]: QA-Role-1780367376783
+                  - cell "Active" [ref=e416]:
+                    - generic [ref=e419]: Active
+                  - cell "02/06/2026" [ref=e420]:
+                    - generic [ref=e421]: 02/06/2026
+                  - cell [ref=e422]:
+                    - img [ref=e425] [cursor=pointer]
+                - row "13 QA!@#$%1780367376783 Active 02/06/2026" [ref=e429]:
+                  - cell "13" [ref=e430]
+                  - cell "QA!@#$%1780367376783" [ref=e431]:
+                    - link "QA!@#$%1780367376783" [ref=e432] [cursor=pointer]:
+                      - /url: /user/roles/48
+                      - paragraph [ref=e433]: QA!@#$%1780367376783
+                  - cell "Active" [ref=e434]:
+                    - generic [ref=e437]: Active
+                  - cell "02/06/2026" [ref=e438]:
+                    - generic [ref=e439]: 02/06/2026
+                  - cell [ref=e440]:
+                    - img [ref=e443] [cursor=pointer]
+                - row "14 FullPermRole-1780366950588 Active 02/06/2026" [ref=e447]:
+                  - cell "14" [ref=e448]
+                  - cell "FullPermRole-1780366950588" [ref=e449]:
+                    - link "FullPermRole-1780366950588" [ref=e450] [cursor=pointer]:
+                      - /url: /user/roles/47
+                      - paragraph [ref=e451]: FullPermRole-1780366950588
+                  - cell "Active" [ref=e452]:
+                    - generic [ref=e455]: Active
+                  - cell "02/06/2026" [ref=e456]:
+                    - generic [ref=e457]: 02/06/2026
+                  - cell [ref=e458]:
+                    - img [ref=e461] [cursor=pointer]
+                - row "15 QA-Role-1780366950588 Active 02/06/2026" [ref=e465]:
+                  - cell "15" [ref=e466]
+                  - cell "QA-Role-1780366950588" [ref=e467]:
+                    - link "QA-Role-1780366950588" [ref=e468] [cursor=pointer]:
+                      - /url: /user/roles/46
+                      - paragraph [ref=e469]: QA-Role-1780366950588
+                  - cell "Active" [ref=e470]:
+                    - generic [ref=e473]: Active
+                  - cell "02/06/2026" [ref=e474]:
+                    - generic [ref=e475]: 02/06/2026
+                  - cell [ref=e476]:
+                    - img [ref=e479] [cursor=pointer]
+                - row "16 QA!@#$%1780366950588 Active 02/06/2026" [ref=e483]:
+                  - cell "16" [ref=e484]
+                  - cell "QA!@#$%1780366950588" [ref=e485]:
+                    - link "QA!@#$%1780366950588" [ref=e486] [cursor=pointer]:
+                      - /url: /user/roles/45
+                      - paragraph [ref=e487]: QA!@#$%1780366950588
+                  - cell "Active" [ref=e488]:
+                    - generic [ref=e491]: Active
+                  - cell "02/06/2026" [ref=e492]:
+                    - generic [ref=e493]: 02/06/2026
+                  - cell [ref=e494]:
+                    - img [ref=e497] [cursor=pointer]
+                - row "17 FullPermRole-1780366453521 Active 02/06/2026" [ref=e501]:
+                  - cell "17" [ref=e502]
+                  - cell "FullPermRole-1780366453521" [ref=e503]:
+                    - link "FullPermRole-1780366453521" [ref=e504] [cursor=pointer]:
+                      - /url: /user/roles/44
+                      - paragraph [ref=e505]: FullPermRole-1780366453521
+                  - cell "Active" [ref=e506]:
+                    - generic [ref=e509]: Active
+                  - cell "02/06/2026" [ref=e510]:
+                    - generic [ref=e511]: 02/06/2026
+                  - cell [ref=e512]:
+                    - img [ref=e515] [cursor=pointer]
+                - row "18 QA-Role-1780366453521 Active 02/06/2026" [ref=e519]:
+                  - cell "18" [ref=e520]
+                  - cell "QA-Role-1780366453521" [ref=e521]:
+                    - link "QA-Role-1780366453521" [ref=e522] [cursor=pointer]:
+                      - /url: /user/roles/43
+                      - paragraph [ref=e523]: QA-Role-1780366453521
+                  - cell "Active" [ref=e524]:
+                    - generic [ref=e527]: Active
+                  - cell "02/06/2026" [ref=e528]:
+                    - generic [ref=e529]: 02/06/2026
+                  - cell [ref=e530]:
+                    - img [ref=e533] [cursor=pointer]
+                - row "19 QA!@#$%1780366453521 Active 02/06/2026" [ref=e537]:
+                  - cell "19" [ref=e538]
+                  - cell "QA!@#$%1780366453521" [ref=e539]:
+                    - link "QA!@#$%1780366453521" [ref=e540] [cursor=pointer]:
+                      - /url: /user/roles/42
+                      - paragraph [ref=e541]: QA!@#$%1780366453521
+                  - cell "Active" [ref=e542]:
+                    - generic [ref=e545]: Active
+                  - cell "02/06/2026" [ref=e546]:
+                    - generic [ref=e547]: 02/06/2026
+                  - cell [ref=e548]:
+                    - img [ref=e551] [cursor=pointer]
+                - row "20 QA!@#$%1780366219600 Active 02/06/2026" [ref=e555]:
+                  - cell "20" [ref=e556]
+                  - cell "QA!@#$%1780366219600" [ref=e557]:
+                    - link "QA!@#$%1780366219600" [ref=e558] [cursor=pointer]:
+                      - /url: /user/roles/41
+                      - paragraph [ref=e559]: QA!@#$%1780366219600
+                  - cell "Active" [ref=e560]:
+                    - generic [ref=e563]: Active
+                  - cell "02/06/2026" [ref=e564]:
+                    - generic [ref=e565]: 02/06/2026
+                  - cell [ref=e566]:
+                    - img [ref=e569] [cursor=pointer]
+            - list [ref=e573]:
+              - listitem "Previous Page" [ref=e574]:
+                - button "left" [disabled] [ref=e575]:
+                  - img "left" [ref=e576]:
+                    - img [ref=e577]
+              - listitem "1" [ref=e579] [cursor=pointer]:
+                - generic [ref=e580]: "1"
+              - listitem "2" [ref=e581] [cursor=pointer]:
+                - generic [ref=e582]: "2"
+              - listitem "3" [ref=e583] [cursor=pointer]:
+                - generic [ref=e584]: "3"
+              - listitem "Next Page" [ref=e585] [cursor=pointer]:
+                - button "right" [ref=e586]:
+                  - img "right" [ref=e587]:
+                    - img [ref=e588]
+              - listitem [ref=e590]:
+                - generic "Page Size" [ref=e591] [cursor=pointer]:
+                  - generic [ref=e593]:
+                    - combobox "Page Size" [ref=e595]
+                    - generic "20 / page" [ref=e596]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e597]:
+    - dialog:
+      - generic [ref=e599]:
+        - generic [ref=e600]:
+          - generic [ref=e601]:
+            - generic [ref=e603]: Filter
+            - img [ref=e605] [cursor=pointer]
+          - generic [ref=e609]:
+            - generic [ref=e610]:
+              - generic [ref=e611]: Roles
+              - textbox "Please enter" [ref=e613]
+            - generic [ref=e615]:
+              - generic [ref=e616]: Status
+              - generic [ref=e618] [cursor=pointer]:
+                - generic [ref=e620]:
+                  - combobox [ref=e622]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e623]:
+          - button "Clear all" [ref=e624] [cursor=pointer]
+          - button "Search" [ref=e625] [cursor=pointer]:
+            - img [ref=e627]
+            - text: Search

@@ -1,0 +1,231 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [expanded] [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - menu:
+            - menuitem "Company Overview" [ref=e22] [cursor=pointer]:
+              - img [ref=e23]
+              - generic [ref=e25]: Company Overview
+            - menuitem "Tour" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+              - generic [ref=e29]: Tour
+            - menuitem "Vehicle" [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+              - generic [ref=e33]: Vehicle
+            - menuitem "Guide" [ref=e34] [cursor=pointer]:
+              - img [ref=e35]
+              - generic [ref=e37]: Guide
+            - menuitem "Expense" [ref=e38] [cursor=pointer]:
+              - img [ref=e39]
+              - generic [ref=e41]: Expense
+            - menuitem "KPI" [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+              - generic [ref=e45]: KPI
+          - separator [ref=e46]
+          - text: Management
+          - group [ref=e47]:
+            - menuitem "Bookings" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e52]: Bookings
+            - menuitem "Excursion" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e56]: Excursion
+            - menuitem "Pick up Transport" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e63]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e70]: Drop off Transport
+            - menuitem "Check In" [ref=e71] [cursor=pointer]:
+              - img [ref=e72]
+              - generic [ref=e75]: Check In
+            - menuitem "Payment" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e80]: Payment
+            - menuitem "Guide Task" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e85]: Guide Task
+          - separator [ref=e86]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e87] [cursor=pointer]:
+            - img [ref=e88]
+            - generic [ref=e92]: Program
+          - menuitem "Seller" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Seller
+          - menuitem "Vehicle" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e100]: Vehicle
+          - menuitem "Employee" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e106]: Employee
+          - menuitem "Zone Transfer" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e112]: Zone Transfer
+          - menuitem "User" [ref=e113] [cursor=pointer]:
+            - img [ref=e114]
+            - generic [ref=e117]: User
+          - menuitem "Company" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: Company
+          - menuitem "User Manual" [ref=e122] [cursor=pointer]:
+            - img [ref=e123]
+            - generic [ref=e125]: User Manual
+    - generic [ref=e126]:
+      - banner [ref=e127]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: "Wed : 24 Jun 2026, 10:38"
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e134]: AM
+            - generic [ref=e135]:
+              - generic [ref=e136]: amares123
+              - generic [ref=e137]: Claude test
+            - img [ref=e139]
+      - main [ref=e141]:
+        - generic [ref=e142]:
+          - generic [ref=e145]: Expense Dashboard
+          - generic [ref=e146]:
+            - generic "Destination" [ref=e147] [cursor=pointer]:
+              - generic [ref=e149]:
+                - combobox "Destination" [ref=e151]
+                - generic: All Destinations
+              - generic:
+                - img:
+                  - img
+            - generic "Program" [ref=e152] [cursor=pointer]:
+              - generic [ref=e154]:
+                - combobox "Program" [ref=e156]
+                - generic: All Programs
+              - img [ref=e157]:
+                - img [ref=e158]
+            - generic [ref=e160]:
+              - textbox "Expense date range" [ref=e162]:
+                - /placeholder: Start date
+                - text: 24/06/2026
+              - generic "to" [ref=e164]:
+                - img "swap-right" [ref=e165]:
+                  - img [ref=e166]
+              - textbox "Expense date range" [ref=e169]:
+                - /placeholder: End date
+                - text: 24/06/2026
+              - generic:
+                - img
+              - button "close-circle" [ref=e170] [cursor=pointer]:
+                - img "close-circle" [ref=e171]:
+                  - img [ref=e172]
+          - generic [ref=e174]:
+            - heading "June 24, 2026" [level=1] [ref=e175]
+            - generic [ref=e176]:
+              - button "Today" [ref=e177]
+              - button "Weekly" [ref=e178]
+              - button "Monthly" [ref=e179]
+              - button "Yearly" [ref=e180]
+          - generic [ref=e181]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                      - generic:
+                        - heading "Expense Breakdown by Type" [level=2]
+                        - paragraph: Summary of Expenses by Type
+                    - generic:
+                      - generic:
+                        - img "Expense distribution donut chart"
+                        - generic:
+                          - generic: Total Expense
+                          - strong: ฿ 0.00
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                      - generic:
+                        - heading "Expenses" [level=2]
+                        - paragraph: Total expense amount by month
+                      - generic:
+                        - generic "Chart year":
+                          - generic:
+                            - generic:
+                              - generic:
+                                - combobox "Chart year"
+                              - generic "2026"
+                          - generic:
+                            - img:
+                              - img
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: "1"
+                          - generic: "0.9"
+                          - generic: "0.7"
+                          - generic: "0.6"
+                          - generic: "0.4"
+                          - generic: "0.3"
+                          - generic: "0.1"
+                          - generic: "0"
+                    - generic:
+                      - generic: Expense
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - heading "Monthly Expense Comparison by Type" [level=2]
+                      - paragraph: Compare expense by type across months
+                    - generic:
+                      - generic "Table year":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - combobox "Table year"
+                            - generic "2026"
+                        - generic:
+                          - img:
+                            - img
+                  - generic:
+                    - table:
+                      - rowgroup:
+                        - row "Amount (฿) Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Total % of total":
+                          - columnheader "Amount (฿)"
+                          - columnheader "Jan"
+                          - columnheader "Feb"
+                          - columnheader "Mar"
+                          - columnheader "Apr"
+                          - columnheader "May"
+                          - columnheader "Jun"
+                          - columnheader "Jul"
+                          - columnheader "Aug"
+                          - columnheader "Sep"
+                          - columnheader "Oct"
+                          - columnheader "Nov"
+                          - columnheader "Dec"
+                          - columnheader "Total"
+                          - columnheader "% of total"
+                      - rowgroup:
+                        - row "Total Expense - - - - - - - - - - - - 0.00 -":
+                          - rowheader "Total Expense"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "-"
+                          - cell "0.00"
+                          - cell "-"

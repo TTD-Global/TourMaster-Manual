@@ -1,0 +1,9 @@
+[      81ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…I0MH0.IgHurAvacypQbKHt5cogwvq1tSYvHbqbmGk8W2rfHac, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      81ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      92ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[      92ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     127ms] [LOG] hasAccess false @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     127ms] [LOG] permissions [GUIDE_REPORT_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     163ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     165ms] [LOG] hasAccess false @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     165ms] [LOG] permissions [GUIDE_REPORT_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0

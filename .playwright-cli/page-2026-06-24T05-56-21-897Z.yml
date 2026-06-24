@@ -1,0 +1,586 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [expanded] [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menu [ref=e29]:
+              - menuitem "Overview" [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+                - generic [ref=e33]: Overview
+              - menuitem "Create Booking" [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+                - generic [ref=e37]: Create Booking
+              - menuitem "Booking List" [ref=e38] [cursor=pointer]:
+                - img [ref=e39]
+                - generic [ref=e41]: Booking List
+            - menuitem "Excursion" [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+              - generic [ref=e45]: Excursion
+            - menuitem "Pick up Transport" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+              - generic [ref=e52]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e59]: Drop off Transport
+            - menuitem "Check In" [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e64]: Check In
+            - menuitem "Payment" [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e69]: Payment
+            - menuitem "Guide Task" [ref=e70] [cursor=pointer]:
+              - img [ref=e71]
+              - generic [ref=e74]: Guide Task
+          - separator [ref=e75]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e81]: Program
+          - menuitem "Seller" [ref=e82] [cursor=pointer]:
+            - img [ref=e83]
+            - generic [ref=e85]: Seller
+          - menuitem "Vehicle" [ref=e86] [cursor=pointer]:
+            - img [ref=e87]
+            - generic [ref=e89]: Vehicle
+          - menuitem "Employee" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Employee
+          - menuitem "Zone Transfer" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e101]: Zone Transfer
+          - menuitem "User" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e106]: User
+          - menuitem "Company" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Company
+          - menuitem "User Manual" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: User Manual
+    - generic [ref=e115]:
+      - banner [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "Wed : 24 Jun 2026, 12:56"
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: AM
+            - generic [ref=e124]:
+              - generic [ref=e125]: amares123
+              - generic [ref=e126]: Claude test
+            - img [ref=e128]
+      - main [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e135]:
+              - generic [ref=e136]: Booking
+              - img [ref=e137]
+              - generic [ref=e139]: Booking List
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - img [ref=e143]
+                - textbox "Select Travel Date" [ref=e147]: 24/06/2026
+              - button "Export" [ref=e148] [cursor=pointer]:
+                - img [ref=e150]
+                - generic [ref=e153]: Export
+                - img [ref=e155]
+              - button "Advance Search" [ref=e158] [cursor=pointer]:
+                - img [ref=e160]
+                - text: Advance Search
+              - button "Create Booking" [ref=e163] [cursor=pointer]:
+                - img [ref=e165]
+                - text: Create Booking
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - paragraph [ref=e170]: In Progress
+              - generic [ref=e171]:
+                - generic [ref=e172] [cursor=pointer]:
+                  - generic [ref=e173]:
+                    - paragraph [ref=e174]: "0"
+                    - paragraph [ref=e175]: Reserved
+                  - img [ref=e177]
+                - generic [ref=e179] [cursor=pointer]:
+                  - generic [ref=e180]:
+                    - paragraph [ref=e181]: "60"
+                    - paragraph [ref=e182]: Confirmed
+                  - img [ref=e184]
+            - generic [ref=e189]:
+              - generic [ref=e190]:
+                - paragraph [ref=e191]: Processed
+                - paragraph [ref=e192]:
+                  - img [ref=e193]
+                  - text: Filtered to Completed and Canceled in June 2026
+              - generic [ref=e195]:
+                - generic [ref=e196] [cursor=pointer]:
+                  - generic [ref=e197]:
+                    - paragraph [ref=e198]: "0"
+                    - paragraph [ref=e199]: Completed
+                  - img [ref=e201]
+                - generic [ref=e204] [cursor=pointer]:
+                  - generic [ref=e205]:
+                    - paragraph [ref=e206]: "1"
+                    - paragraph [ref=e207]: Canceled
+                  - img [ref=e209]
+          - generic [ref=e216]:
+            - table [ref=e220]:
+              - rowgroup [ref=e234]:
+                - row "# Seller Travel Date Booking Date Booking No. Trip Type Travel Time Program Pax Trip Code Status Action" [ref=e235]:
+                  - columnheader "#" [ref=e236]
+                  - columnheader "Seller" [ref=e237]
+                  - columnheader "Travel Date" [ref=e238]
+                  - columnheader "Booking Date" [ref=e239]
+                  - columnheader "Booking No." [ref=e240]
+                  - columnheader "Trip Type" [ref=e241]
+                  - columnheader "Travel Time" [ref=e242]
+                  - columnheader "Program" [ref=e243]
+                  - columnheader "Pax" [ref=e244]
+                  - columnheader "Trip Code" [ref=e245]
+                  - columnheader "Status" [ref=e246]
+                  - columnheader "Action" [ref=e247]
+              - rowgroup [ref=e248]:
+                - row "1 KLOOK 24/06/2026 24/06/2026 TSB-06294KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC26UGQN Confirmed" [ref=e268]:
+                  - cell "1" [ref=e269]
+                  - cell "KLOOK" [ref=e270]:
+                    - generic [ref=e272]: KLOOK
+                  - cell "24/06/2026" [ref=e273]
+                  - cell "24/06/2026" [ref=e274]
+                  - cell "TSB-06294KQ0" [ref=e275]:
+                    - generic [ref=e277] [cursor=pointer]: TSB-06294KQ0
+                  - cell "Private" [ref=e278]:
+                    - generic [ref=e280]:
+                      - img [ref=e282]
+                      - generic [ref=e285]: Private
+                  - cell "07:30" [ref=e286]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e287]:
+                    - generic [ref=e288]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e289]:
+                    - generic [ref=e292] [cursor=pointer]: "6"
+                  - cell "EC26UGQN" [ref=e293]:
+                    - generic [ref=e296] [cursor=pointer]: EC26UGQN
+                  - cell "Confirmed" [ref=e297]:
+                    - generic [ref=e300]: Confirmed
+                  - cell [ref=e301]:
+                    - img [ref=e304] [cursor=pointer]
+                - row "2 KLOOK 24/06/2026 24/06/2026 TSB-06284KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC26LBAW Confirmed" [ref=e308]:
+                  - cell "2" [ref=e309]
+                  - cell "KLOOK" [ref=e310]:
+                    - generic [ref=e312]: KLOOK
+                  - cell "24/06/2026" [ref=e313]
+                  - cell "24/06/2026" [ref=e314]
+                  - cell "TSB-06284KQ0" [ref=e315]:
+                    - generic [ref=e317] [cursor=pointer]: TSB-06284KQ0
+                  - cell "Private" [ref=e318]:
+                    - generic [ref=e320]:
+                      - img [ref=e322]
+                      - generic [ref=e325]: Private
+                  - cell "07:30" [ref=e326]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e327]:
+                    - generic [ref=e328]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e329]:
+                    - generic [ref=e332] [cursor=pointer]: "6"
+                  - cell "EC26LBAW" [ref=e333]:
+                    - generic [ref=e336] [cursor=pointer]: EC26LBAW
+                  - cell "Confirmed" [ref=e337]:
+                    - generic [ref=e340]: Confirmed
+                  - cell [ref=e341]:
+                    - img [ref=e344] [cursor=pointer]
+                - row "3 KLOOK 24/06/2026 24/06/2026 TSB-06274KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC26LBAW Confirmed" [ref=e348]:
+                  - cell "3" [ref=e349]
+                  - cell "KLOOK" [ref=e350]:
+                    - generic [ref=e352]: KLOOK
+                  - cell "24/06/2026" [ref=e353]
+                  - cell "24/06/2026" [ref=e354]
+                  - cell "TSB-06274KQ0" [ref=e355]:
+                    - generic [ref=e357] [cursor=pointer]: TSB-06274KQ0
+                  - cell "Private" [ref=e358]:
+                    - generic [ref=e360]:
+                      - img [ref=e362]
+                      - generic [ref=e365]: Private
+                  - cell "07:30" [ref=e366]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e367]:
+                    - generic [ref=e368]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e369]:
+                    - generic [ref=e372] [cursor=pointer]: "6"
+                  - cell "EC26LBAW" [ref=e373]:
+                    - generic [ref=e376] [cursor=pointer]: EC26LBAW
+                  - cell "Confirmed" [ref=e377]:
+                    - generic [ref=e380]: Confirmed
+                  - cell [ref=e381]:
+                    - img [ref=e384] [cursor=pointer]
+                - row "4 KLOOK 24/06/2026 24/06/2026 TSB-06254KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC26LBAW Confirmed" [ref=e388]:
+                  - cell "4" [ref=e389]
+                  - cell "KLOOK" [ref=e390]:
+                    - generic [ref=e392]: KLOOK
+                  - cell "24/06/2026" [ref=e393]
+                  - cell "24/06/2026" [ref=e394]
+                  - cell "TSB-06254KQ0" [ref=e395]:
+                    - generic [ref=e397] [cursor=pointer]: TSB-06254KQ0
+                  - cell "Private" [ref=e398]:
+                    - generic [ref=e400]:
+                      - img [ref=e402]
+                      - generic [ref=e405]: Private
+                  - cell "07:30" [ref=e406]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e407]:
+                    - generic [ref=e408]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e409]:
+                    - generic [ref=e412] [cursor=pointer]: "6"
+                  - cell "EC26LBAW" [ref=e413]:
+                    - generic [ref=e416] [cursor=pointer]: EC26LBAW
+                  - cell "Confirmed" [ref=e417]:
+                    - generic [ref=e420]: Confirmed
+                  - cell [ref=e421]:
+                    - img [ref=e424] [cursor=pointer]
+                - row "5 KLOOK 24/06/2026 24/06/2026 TSB-06244KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC26LBAW Confirmed" [ref=e428]:
+                  - cell "5" [ref=e429]
+                  - cell "KLOOK" [ref=e430]:
+                    - generic [ref=e432]: KLOOK
+                  - cell "24/06/2026" [ref=e433]
+                  - cell "24/06/2026" [ref=e434]
+                  - cell "TSB-06244KQ0" [ref=e435]:
+                    - generic [ref=e437] [cursor=pointer]: TSB-06244KQ0
+                  - cell "Private" [ref=e438]:
+                    - generic [ref=e440]:
+                      - img [ref=e442]
+                      - generic [ref=e445]: Private
+                  - cell "07:30" [ref=e446]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e447]:
+                    - generic [ref=e448]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e449]:
+                    - generic [ref=e452] [cursor=pointer]: "6"
+                  - cell "EC26LBAW" [ref=e453]:
+                    - generic [ref=e456] [cursor=pointer]: EC26LBAW
+                  - cell "Confirmed" [ref=e457]:
+                    - generic [ref=e460]: Confirmed
+                  - cell [ref=e461]:
+                    - img [ref=e464] [cursor=pointer]
+                - row "6 KLOOK 24/06/2026 24/06/2026 TSB-06234KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC262UPI Confirmed" [ref=e468]:
+                  - cell "6" [ref=e469]
+                  - cell "KLOOK" [ref=e470]:
+                    - generic [ref=e472]: KLOOK
+                  - cell "24/06/2026" [ref=e473]
+                  - cell "24/06/2026" [ref=e474]
+                  - cell "TSB-06234KQ0" [ref=e475]:
+                    - generic [ref=e477] [cursor=pointer]: TSB-06234KQ0
+                  - cell "Private" [ref=e478]:
+                    - generic [ref=e480]:
+                      - img [ref=e482]
+                      - generic [ref=e485]: Private
+                  - cell "07:30" [ref=e486]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e487]:
+                    - generic [ref=e488]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e489]:
+                    - generic [ref=e492] [cursor=pointer]: "6"
+                  - cell "EC262UPI" [ref=e493]:
+                    - generic [ref=e496] [cursor=pointer]: EC262UPI
+                  - cell "Confirmed" [ref=e497]:
+                    - generic [ref=e500]: Confirmed
+                  - cell [ref=e501]:
+                    - img [ref=e504] [cursor=pointer]
+                - row "7 KLOOK 24/06/2026 24/06/2026 TSB-06224KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC26BSJS Confirmed" [ref=e508]:
+                  - cell "7" [ref=e509]
+                  - cell "KLOOK" [ref=e510]:
+                    - generic [ref=e512]: KLOOK
+                  - cell "24/06/2026" [ref=e513]
+                  - cell "24/06/2026" [ref=e514]
+                  - cell "TSB-06224KQ0" [ref=e515]:
+                    - generic [ref=e517] [cursor=pointer]: TSB-06224KQ0
+                  - cell "Private" [ref=e518]:
+                    - generic [ref=e520]:
+                      - img [ref=e522]
+                      - generic [ref=e525]: Private
+                  - cell "07:30" [ref=e526]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e527]:
+                    - generic [ref=e528]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e529]:
+                    - generic [ref=e532] [cursor=pointer]: "6"
+                  - cell "EC26BSJS" [ref=e533]:
+                    - generic [ref=e536] [cursor=pointer]: EC26BSJS
+                  - cell "Confirmed" [ref=e537]:
+                    - generic [ref=e540]: Confirmed
+                  - cell [ref=e541]:
+                    - img [ref=e544] [cursor=pointer]
+                - row "8 KLOOK 24/06/2026 24/06/2026 TSB-06214KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC26VKPI Confirmed" [ref=e548]:
+                  - cell "8" [ref=e549]
+                  - cell "KLOOK" [ref=e550]:
+                    - generic [ref=e552]: KLOOK
+                  - cell "24/06/2026" [ref=e553]
+                  - cell "24/06/2026" [ref=e554]
+                  - cell "TSB-06214KQ0" [ref=e555]:
+                    - generic [ref=e557] [cursor=pointer]: TSB-06214KQ0
+                  - cell "Private" [ref=e558]:
+                    - generic [ref=e560]:
+                      - img [ref=e562]
+                      - generic [ref=e565]: Private
+                  - cell "07:30" [ref=e566]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e567]:
+                    - generic [ref=e568]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e569]:
+                    - generic [ref=e572] [cursor=pointer]: "6"
+                  - cell "EC26VKPI" [ref=e573]:
+                    - generic [ref=e576] [cursor=pointer]: EC26VKPI
+                  - cell "Confirmed" [ref=e577]:
+                    - generic [ref=e580]: Confirmed
+                  - cell [ref=e581]:
+                    - img [ref=e584] [cursor=pointer]
+                - row "9 KLOOK 24/06/2026 24/06/2026 TSB-06204KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC26VKPI Confirmed" [ref=e588]:
+                  - cell "9" [ref=e589]
+                  - cell "KLOOK" [ref=e590]:
+                    - generic [ref=e592]: KLOOK
+                  - cell "24/06/2026" [ref=e593]
+                  - cell "24/06/2026" [ref=e594]
+                  - cell "TSB-06204KQ0" [ref=e595]:
+                    - generic [ref=e597] [cursor=pointer]: TSB-06204KQ0
+                  - cell "Private" [ref=e598]:
+                    - generic [ref=e600]:
+                      - img [ref=e602]
+                      - generic [ref=e605]: Private
+                  - cell "07:30" [ref=e606]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e607]:
+                    - generic [ref=e608]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e609]:
+                    - generic [ref=e612] [cursor=pointer]: "6"
+                  - cell "EC26VKPI" [ref=e613]:
+                    - generic [ref=e616] [cursor=pointer]: EC26VKPI
+                  - cell "Confirmed" [ref=e617]:
+                    - generic [ref=e620]: Confirmed
+                  - cell [ref=e621]:
+                    - img [ref=e624] [cursor=pointer]
+                - row "10 KLOOK 24/06/2026 24/06/2026 TSB-06264KQ0 Private 07:30 Damnoen + Buffalo Cafe + Maeklong 6 EC26UGQN Confirmed" [ref=e628]:
+                  - cell "10" [ref=e629]
+                  - cell "KLOOK" [ref=e630]:
+                    - generic [ref=e632]: KLOOK
+                  - cell "24/06/2026" [ref=e633]
+                  - cell "24/06/2026" [ref=e634]
+                  - cell "TSB-06264KQ0" [ref=e635]:
+                    - generic [ref=e637] [cursor=pointer]: TSB-06264KQ0
+                  - cell "Private" [ref=e638]:
+                    - generic [ref=e640]:
+                      - img [ref=e642]
+                      - generic [ref=e645]: Private
+                  - cell "07:30" [ref=e646]
+                  - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e647]:
+                    - generic [ref=e648]: Damnoen + Buffalo Cafe + Maeklong
+                  - cell "6" [ref=e649]:
+                    - generic [ref=e652] [cursor=pointer]: "6"
+                  - cell "EC26UGQN" [ref=e653]:
+                    - generic [ref=e656] [cursor=pointer]: EC26UGQN
+                  - cell "Confirmed" [ref=e657]:
+                    - generic [ref=e660]: Confirmed
+                  - cell [ref=e661]:
+                    - img [ref=e664] [cursor=pointer]
+                - 'row "11 One asia 24/06/2026 24/06/2026 TSB-0629PCAB Join In 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 5 - Confirmed" [ref=e668]':
+                  - cell "11" [ref=e669]
+                  - cell "One asia" [ref=e670]:
+                    - generic [ref=e672]: One asia
+                  - cell "24/06/2026" [ref=e673]
+                  - cell "24/06/2026" [ref=e674]
+                  - cell "TSB-0629PCAB" [ref=e675]:
+                    - generic [ref=e677] [cursor=pointer]: TSB-0629PCAB
+                  - cell "Join In" [ref=e678]:
+                    - generic [ref=e680]:
+                      - img [ref=e682]
+                      - generic [ref=e687]: Join In
+                  - cell "07:30" [ref=e688]
+                  - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e689]':
+                    - generic [ref=e690] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                  - cell "5" [ref=e691]:
+                    - generic [ref=e694] [cursor=pointer]: "5"
+                  - cell "-" [ref=e695]
+                  - cell "Confirmed" [ref=e696]:
+                    - generic [ref=e699]: Confirmed
+                  - cell [ref=e700]:
+                    - img [ref=e703] [cursor=pointer]
+                - 'row "12 One asia 24/06/2026 24/06/2026 TSB-0628PCAB Join In 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 5 - Confirmed" [ref=e707]':
+                  - cell "12" [ref=e708]
+                  - cell "One asia" [ref=e709]:
+                    - generic [ref=e711]: One asia
+                  - cell "24/06/2026" [ref=e712]
+                  - cell "24/06/2026" [ref=e713]
+                  - cell "TSB-0628PCAB" [ref=e714]:
+                    - generic [ref=e716] [cursor=pointer]: TSB-0628PCAB
+                  - cell "Join In" [ref=e717]:
+                    - generic [ref=e719]:
+                      - img [ref=e721]
+                      - generic [ref=e726]: Join In
+                  - cell "07:30" [ref=e727]
+                  - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e728]':
+                    - generic [ref=e729] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                  - cell "5" [ref=e730]:
+                    - generic [ref=e733] [cursor=pointer]: "5"
+                  - cell "-" [ref=e734]
+                  - cell "Confirmed" [ref=e735]:
+                    - generic [ref=e738]: Confirmed
+                  - cell [ref=e739]:
+                    - img [ref=e742] [cursor=pointer]
+                - 'row "13 One asia 24/06/2026 24/06/2026 TSB-0627PCAB Join In 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 5 - Confirmed" [ref=e746]':
+                  - cell "13" [ref=e747]
+                  - cell "One asia" [ref=e748]:
+                    - generic [ref=e750]: One asia
+                  - cell "24/06/2026" [ref=e751]
+                  - cell "24/06/2026" [ref=e752]
+                  - cell "TSB-0627PCAB" [ref=e753]:
+                    - generic [ref=e755] [cursor=pointer]: TSB-0627PCAB
+                  - cell "Join In" [ref=e756]:
+                    - generic [ref=e758]:
+                      - img [ref=e760]
+                      - generic [ref=e765]: Join In
+                  - cell "07:30" [ref=e766]
+                  - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e767]':
+                    - generic [ref=e768] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                  - cell "5" [ref=e769]:
+                    - generic [ref=e772] [cursor=pointer]: "5"
+                  - cell "-" [ref=e773]
+                  - cell "Confirmed" [ref=e774]:
+                    - generic [ref=e777]: Confirmed
+                  - cell [ref=e778]:
+                    - img [ref=e781] [cursor=pointer]
+                - 'row "14 One asia 24/06/2026 24/06/2026 TSB-0625PCAB Join In 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 6 EC26YYJB Confirmed" [ref=e785]':
+                  - cell "14" [ref=e786]
+                  - cell "One asia" [ref=e787]:
+                    - generic [ref=e789]: One asia
+                  - cell "24/06/2026" [ref=e790]
+                  - cell "24/06/2026" [ref=e791]
+                  - cell "TSB-0625PCAB" [ref=e792]:
+                    - generic [ref=e794] [cursor=pointer]: TSB-0625PCAB
+                  - cell "Join In" [ref=e795]:
+                    - generic [ref=e797]:
+                      - img [ref=e799]
+                      - generic [ref=e804]: Join In
+                  - cell "07:30" [ref=e805]
+                  - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e806]':
+                    - generic [ref=e807] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                  - cell "6" [ref=e808]:
+                    - generic [ref=e811] [cursor=pointer]: "6"
+                  - cell "EC26YYJB" [ref=e812]:
+                    - generic [ref=e815] [cursor=pointer]: EC26YYJB
+                  - cell "Confirmed" [ref=e816]:
+                    - generic [ref=e819]: Confirmed
+                  - cell [ref=e820]:
+                    - img [ref=e823] [cursor=pointer]
+                - 'row "15 One asia 24/06/2026 24/06/2026 TSB-0624PCAB Join In 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch 6 - Confirmed" [ref=e827]':
+                  - cell "15" [ref=e828]
+                  - cell "One asia" [ref=e829]:
+                    - generic [ref=e831]: One asia
+                  - cell "24/06/2026" [ref=e832]
+                  - cell "24/06/2026" [ref=e833]
+                  - cell "TSB-0624PCAB" [ref=e834]:
+                    - generic [ref=e836] [cursor=pointer]: TSB-0624PCAB
+                  - cell "Join In" [ref=e837]:
+                    - generic [ref=e839]:
+                      - img [ref=e841]
+                      - generic [ref=e846]: Join In
+                  - cell "07:30" [ref=e847]
+                  - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e848]':
+                    - generic [ref=e849] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                  - cell "6" [ref=e850]:
+                    - generic [ref=e853] [cursor=pointer]: "6"
+                  - cell "-" [ref=e854]
+                  - cell "Confirmed" [ref=e855]:
+                    - generic [ref=e858]: Confirmed
+                  - cell [ref=e859]:
+                    - img [ref=e862] [cursor=pointer]
+            - list [ref=e866]:
+              - listitem "Previous Page" [ref=e867]:
+                - button "left" [disabled] [ref=e868]:
+                  - img "left" [ref=e869]:
+                    - img [ref=e870]
+              - listitem "1" [ref=e872] [cursor=pointer]:
+                - generic [ref=e873]: "1"
+              - listitem "2" [ref=e874] [cursor=pointer]:
+                - generic [ref=e875]: "2"
+              - listitem "3" [ref=e876] [cursor=pointer]:
+                - generic [ref=e877]: "3"
+              - listitem "4" [ref=e878] [cursor=pointer]:
+                - generic [ref=e879]: "4"
+              - listitem "Next Page" [ref=e880] [cursor=pointer]:
+                - button "right" [ref=e881]:
+                  - img "right" [ref=e882]:
+                    - img [ref=e883]
+              - listitem [ref=e885]:
+                - generic "Page Size" [ref=e886] [cursor=pointer]:
+                  - generic [ref=e888]:
+                    - combobox "Page Size" [ref=e890]
+                    - generic "15 / page" [ref=e891]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e892]:
+    - dialog:
+      - generic [ref=e894]:
+        - generic [ref=e895]:
+          - generic [ref=e896]:
+            - generic [ref=e898]: Advance Search
+            - img [ref=e900] [cursor=pointer]
+          - generic [ref=e904]:
+            - generic [ref=e905]:
+              - generic [ref=e906]: Filter by
+              - generic [ref=e908] [cursor=pointer]:
+                - generic [ref=e910]:
+                  - combobox [ref=e912]
+                  - generic: Please select
+                - generic:
+                  - img
+            - generic [ref=e913]:
+              - generic [ref=e914]: Date From
+              - generic [ref=e915]:
+                - img [ref=e917]
+                - generic [ref=e919]:
+                  - textbox "Start date" [disabled] [ref=e921]
+                  - generic [ref=e923]: "-"
+                  - textbox "End date" [disabled] [ref=e925]
+            - generic [ref=e926]:
+              - generic [ref=e927]: Program
+              - generic [ref=e929] [cursor=pointer]:
+                - generic [ref=e931]:
+                  - combobox [ref=e933]
+                  - generic: Please select
+                - generic:
+                  - img
+            - generic [ref=e934]:
+              - generic [ref=e935]: Booking No.
+              - textbox "Please enter" [ref=e937]
+            - generic [ref=e939]:
+              - generic [ref=e940]: Trip type
+              - generic [ref=e942] [cursor=pointer]:
+                - generic [ref=e944]:
+                  - combobox [ref=e946]
+                  - generic: Please select
+                - generic:
+                  - img
+            - generic [ref=e947]:
+              - generic [ref=e948]: Trip code
+              - textbox "Please enter" [ref=e950]
+            - generic [ref=e952]:
+              - generic [ref=e953]: Seller
+              - generic [ref=e955] [cursor=pointer]:
+                - generic [ref=e957]:
+                  - combobox [ref=e959]
+                  - generic: Please select
+                - generic:
+                  - img
+            - generic [ref=e960]:
+              - generic [ref=e961]: Status
+              - generic [ref=e963] [cursor=pointer]:
+                - generic [ref=e965]:
+                  - combobox [ref=e967]
+                  - generic "Confirmed" [ref=e968]
+                - generic:
+                  - img
+        - generic [ref=e969]:
+          - button "Close" [ref=e970] [cursor=pointer]
+          - button "Clear all" [ref=e972] [cursor=pointer]
+          - button "Search" [ref=e973] [cursor=pointer]:
+            - img [ref=e975]
+            - text: Search

@@ -1,0 +1,559 @@
+- generic [ref=e1]:
+  - alert [ref=e37]: Tour System
+  - generic [ref=e42]:
+    - complementary [ref=e43]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img "Tour Master Logo" [ref=e49]
+          - img [ref=e51] [cursor=pointer]
+        - menu [ref=e56]:
+          - menuitem "Dashboard" [ref=e57] [cursor=pointer]:
+            - img [ref=e58]
+            - generic [ref=e60]: Dashboard
+          - separator [ref=e86]
+          - text: Management
+          - group [ref=e87]:
+            - menuitem "Bookings" [expanded] [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+              - generic [ref=e92]: Bookings
+            - menu [ref=e1062]:
+              - menuitem "Overview" [active] [ref=e1063] [cursor=pointer]:
+                - img [ref=e1064]
+                - generic [ref=e1066]: Overview
+              - menuitem "Create Booking" [ref=e1067] [cursor=pointer]:
+                - img [ref=e1068]
+                - generic [ref=e1070]: Create Booking
+              - menuitem "Booking List" [ref=e1071] [cursor=pointer]:
+                - img [ref=e1072]
+                - generic [ref=e1074]: Booking List
+            - menuitem "Excursion" [ref=e93] [cursor=pointer]:
+              - img [ref=e94]
+              - generic [ref=e96]: Excursion
+            - menuitem "Pick up Transport" [ref=e97] [cursor=pointer]:
+              - img [ref=e98]
+              - generic [ref=e103]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e104] [cursor=pointer]:
+              - img [ref=e105]
+              - generic [ref=e110]: Drop off Transport
+            - menuitem "Check In" [ref=e111] [cursor=pointer]:
+              - img [ref=e112]
+              - generic [ref=e115]: Check In
+            - menuitem "Payment" [ref=e116] [cursor=pointer]:
+              - img [ref=e117]
+              - generic [ref=e120]: Payment
+            - menuitem "Guide Task" [ref=e121] [cursor=pointer]:
+              - img [ref=e122]
+              - generic [ref=e125]: Guide Task
+          - separator [ref=e126]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e127] [cursor=pointer]:
+            - img [ref=e128]
+            - generic [ref=e132]: Program
+          - menuitem "Seller" [ref=e133] [cursor=pointer]:
+            - img [ref=e134]
+            - generic [ref=e136]: Seller
+          - menuitem "Vehicle" [ref=e137] [cursor=pointer]:
+            - img [ref=e138]
+            - generic [ref=e140]: Vehicle
+          - menuitem "Employee" [ref=e141] [cursor=pointer]:
+            - img [ref=e142]
+            - generic [ref=e146]: Employee
+          - menuitem "Zone Transfer" [ref=e147] [cursor=pointer]:
+            - img [ref=e148]
+            - generic [ref=e152]: Zone Transfer
+          - menuitem "User" [ref=e153] [cursor=pointer]:
+            - img [ref=e154]
+            - generic [ref=e157]: User
+          - menuitem "Company" [ref=e158] [cursor=pointer]:
+            - img [ref=e159]
+            - generic [ref=e161]: Company
+          - menuitem "User Manual" [ref=e162] [cursor=pointer]:
+            - img [ref=e163]
+            - generic [ref=e165]: User Manual
+    - generic [ref=e166]:
+      - banner [ref=e167]:
+        - generic [ref=e169]:
+          - generic [ref=e170]: "Wed : 24 Jun 2026, 15:37"
+          - generic [ref=e172] [cursor=pointer]:
+            - generic [ref=e174]: AM
+            - generic [ref=e175]:
+              - generic [ref=e176]: amares123
+              - generic [ref=e177]: Claude test
+            - img [ref=e179]
+      - main [ref=e181]:
+        - generic [ref=e1075]:
+          - generic [ref=e1076]:
+            - generic [ref=e1077]:
+              - generic [ref=e1078] [cursor=pointer]:
+                - generic [ref=e1080]:
+                  - combobox [ref=e1082]
+                  - generic: All Destinations
+                - generic:
+                  - img:
+                    - img
+              - generic [ref=e1083] [cursor=pointer]:
+                - generic [ref=e1085]:
+                  - combobox [ref=e1087]
+                  - generic: All Programs
+                - generic:
+                  - img:
+                    - img
+              - generic [ref=e1088]:
+                - textbox "Start date" [ref=e1090]: 24/06/2026
+                - generic "to" [ref=e1092]:
+                  - img "swap-right" [ref=e1093]:
+                    - img [ref=e1094]
+                - textbox "End date" [ref=e1097]: 24/06/2026
+                - generic:
+                  - img
+                - button "close-circle" [ref=e1098] [cursor=pointer]:
+                  - img "close-circle" [ref=e1099]:
+                    - img [ref=e1100]
+            - generic [ref=e1102]:
+              - generic [ref=e1103]:
+                - button "Booking Date" [ref=e1104]
+                - button "Travel Date" [ref=e1105]
+              - generic [ref=e1106]:
+                - paragraph [ref=e1107]: June 24, 2026
+                - generic [ref=e1108]:
+                  - button "Today" [ref=e1109]
+                  - button "Weekly" [ref=e1110]
+                  - button "Monthly" [ref=e1111]
+                  - button "Yearly" [ref=e1112]
+            - generic [ref=e1114]:
+              - heading "Summary" [level=1] [ref=e1115]
+              - img [ref=e1116]
+            - generic [ref=e1120]:
+              - generic [ref=e1121]:
+                - heading "Booking Over View" [level=2] [ref=e1122]
+                - generic [ref=e1123]:
+                  - generic [ref=e1127]:
+                    - generic [ref=e1128]: Total Booking
+                    - generic [ref=e1129]: "21"
+                  - generic [ref=e1130]:
+                    - generic [ref=e1133]:
+                      - generic [ref=e1134]: Completed
+                      - generic [ref=e1135]: "0"
+                    - generic [ref=e1138]:
+                      - generic [ref=e1139]: Confirmed
+                      - generic [ref=e1140]: "21"
+                    - generic [ref=e1143]:
+                      - generic [ref=e1144]: Waiting
+                      - generic [ref=e1145]: "0"
+                    - generic [ref=e1148]:
+                      - generic [ref=e1149]: Canceled
+                      - generic [ref=e1150]: "0"
+              - generic [ref=e1151]:
+                - generic [ref=e1152]:
+                  - generic [ref=e1153]:
+                    - heading "Total Participants" [level=2] [ref=e1154]
+                    - paragraph [ref=e1155]: "111"
+                  - img [ref=e1157]
+                - generic [ref=e1162]:
+                  - generic [ref=e1163]: ↓
+                  - generic [ref=e1164]: "-56%"
+                - generic [ref=e1165]:
+                  - generic [ref=e1167]:
+                    - generic [ref=e1168]: English
+                    - generic [ref=e1169]: "110"
+                    - generic [ref=e1170]: 99.1%
+                  - generic [ref=e1174]:
+                    - generic [ref=e1175]: Other
+                    - generic [ref=e1176]: "1"
+                    - generic [ref=e1177]: 0.9%
+              - generic [ref=e1180]:
+                - generic [ref=e1181]:
+                  - img [ref=e1183]
+                  - generic [ref=e1185]:
+                    - heading "Booking Summary" [level=2] [ref=e1186]
+                    - paragraph [ref=e1187]: Total Booking & Participants
+                  - button "2026" [ref=e1188]:
+                    - generic [ref=e1189]: "2026"
+                - img [ref=e1191]:
+                  - generic [ref=e1192]: "115"
+                  - generic [ref=e1193]: "92"
+                  - generic [ref=e1194]: "69"
+                  - generic [ref=e1195]: "46"
+                  - generic [ref=e1196]: "23"
+                  - generic [ref=e1197]: "0"
+                  - generic [ref=e1200]: Jan
+                  - generic [ref=e1201]: Feb
+                  - generic [ref=e1202]: Mar
+                  - generic [ref=e1203]: Apr
+                  - generic [ref=e1204]: May
+                  - generic [ref=e1205]: Jun
+                  - generic [ref=e1206]: Jul
+                  - generic [ref=e1207]: Aug
+                  - generic [ref=e1208]: Sep
+                  - generic [ref=e1209]: Oct
+                  - generic [ref=e1210]: Nov
+                  - generic [ref=e1211]: Dec
+                - generic [ref=e1212]:
+                  - generic [ref=e1213]: Booking
+                  - generic [ref=e1215]: Participants
+          - generic [ref=e1220]:
+            - generic [ref=e1221]:
+              - generic [ref=e1222] [cursor=pointer]:
+                - generic [ref=e1224]:
+                  - combobox [ref=e1226]
+                  - generic: All Destinations
+                - generic:
+                  - img:
+                    - img
+              - generic [ref=e1227] [cursor=pointer]:
+                - generic [ref=e1229]:
+                  - combobox [ref=e1231]
+                  - generic: All Programs
+                - generic:
+                  - img:
+                    - img
+            - generic [ref=e1232]:
+              - button "Today" [ref=e1233]
+              - generic [ref=e1235]:
+                - textbox "Select month" [ref=e1236]: June, 2026
+                - generic:
+                  - img "calendar":
+                    - img
+                - button "close-circle" [ref=e1237] [cursor=pointer]:
+                  - img "close-circle" [ref=e1238]:
+                    - img [ref=e1239]
+              - generic [ref=e1241]:
+                - button [ref=e1242]:
+                  - img [ref=e1243]
+                - button [ref=e1245]:
+                  - img [ref=e1246]
+            - generic [ref=e1248]:
+              - generic [ref=e1249]:
+                - img [ref=e1250]
+                - text: Booking
+              - generic [ref=e1252]:
+                - img [ref=e1253]
+                - text: Participants
+            - generic [ref=e1256]:
+              - generic [ref=e1257]:
+                - generic [ref=e1258]: Sun
+                - generic [ref=e1259]: Mon
+                - generic [ref=e1260]: Tue
+                - generic [ref=e1261]: Wed
+                - generic [ref=e1262]: Thu
+                - generic [ref=e1263]: Fri
+                - generic [ref=e1264]: Sat
+              - generic [ref=e1265]:
+                - button "View booking details for May 31, 2026" [disabled] [ref=e1266]:
+                  - generic [ref=e1268]: "31"
+                  - generic [ref=e1269]:
+                    - generic [ref=e1270]:
+                      - img [ref=e1271]
+                      - text: "0"
+                    - generic [ref=e1273]:
+                      - img [ref=e1274]
+                      - text: "0"
+                - button "View booking details for June 1, 2026" [ref=e1277] [cursor=pointer]:
+                  - generic [ref=e1279]: "1"
+                  - generic [ref=e1280]:
+                    - generic [ref=e1281]:
+                      - img [ref=e1282]
+                      - text: "2"
+                    - generic [ref=e1284]:
+                      - img [ref=e1285]
+                      - text: "8"
+                - button "View booking details for June 2, 2026" [ref=e1288] [cursor=pointer]:
+                  - generic [ref=e1290]: "2"
+                  - generic [ref=e1291]:
+                    - generic [ref=e1292]:
+                      - img [ref=e1293]
+                      - text: "5"
+                    - generic [ref=e1295]:
+                      - img [ref=e1296]
+                      - text: "38"
+                - button "View booking details for June 3, 2026" [ref=e1299] [cursor=pointer]:
+                  - generic [ref=e1301]: "3"
+                  - generic [ref=e1302]:
+                    - generic [ref=e1303]:
+                      - img [ref=e1304]
+                      - text: "1"
+                    - generic [ref=e1306]:
+                      - img [ref=e1307]
+                      - text: "7"
+                - button "View booking details for June 4, 2026" [ref=e1310] [cursor=pointer]:
+                  - generic [ref=e1312]: "4"
+                  - generic [ref=e1313]:
+                    - generic [ref=e1314]:
+                      - img [ref=e1315]
+                      - text: "0"
+                    - generic [ref=e1317]:
+                      - img [ref=e1318]
+                      - text: "0"
+                - button "View booking details for June 5, 2026" [ref=e1321] [cursor=pointer]:
+                  - generic [ref=e1323]: "5"
+                  - generic [ref=e1324]:
+                    - generic [ref=e1325]:
+                      - img [ref=e1326]
+                      - text: "0"
+                    - generic [ref=e1328]:
+                      - img [ref=e1329]
+                      - text: "0"
+                - button "View booking details for June 6, 2026" [ref=e1332] [cursor=pointer]:
+                  - generic [ref=e1334]: "6"
+                  - generic [ref=e1335]:
+                    - generic [ref=e1336]:
+                      - img [ref=e1337]
+                      - text: "0"
+                    - generic [ref=e1339]:
+                      - img [ref=e1340]
+                      - text: "0"
+                - button "View booking details for June 7, 2026" [ref=e1343] [cursor=pointer]:
+                  - generic [ref=e1345]: "7"
+                  - generic [ref=e1346]:
+                    - generic [ref=e1347]:
+                      - img [ref=e1348]
+                      - text: "0"
+                    - generic [ref=e1350]:
+                      - img [ref=e1351]
+                      - text: "0"
+                - button "View booking details for June 8, 2026" [ref=e1354] [cursor=pointer]:
+                  - generic [ref=e1356]: "8"
+                  - generic [ref=e1357]:
+                    - generic [ref=e1358]:
+                      - img [ref=e1359]
+                      - text: "1"
+                    - generic [ref=e1361]:
+                      - img [ref=e1362]
+                      - text: "5"
+                - button "View booking details for June 9, 2026" [ref=e1365] [cursor=pointer]:
+                  - generic [ref=e1367]: "9"
+                  - generic [ref=e1368]:
+                    - generic [ref=e1369]:
+                      - img [ref=e1370]
+                      - text: "13"
+                    - generic [ref=e1372]:
+                      - img [ref=e1373]
+                      - text: "35"
+                - button "View booking details for June 10, 2026" [ref=e1376] [cursor=pointer]:
+                  - generic [ref=e1378]: "10"
+                  - generic [ref=e1379]:
+                    - generic [ref=e1380]:
+                      - img [ref=e1381]
+                      - text: "9"
+                    - generic [ref=e1383]:
+                      - img [ref=e1384]
+                      - text: "32"
+                - button "View booking details for June 11, 2026" [ref=e1387] [cursor=pointer]:
+                  - generic [ref=e1389]: "11"
+                  - generic [ref=e1390]:
+                    - generic [ref=e1391]:
+                      - img [ref=e1392]
+                      - text: "1"
+                    - generic [ref=e1394]:
+                      - img [ref=e1395]
+                      - text: "4"
+                - button "View booking details for June 12, 2026" [ref=e1398] [cursor=pointer]:
+                  - generic [ref=e1400]: "12"
+                  - generic [ref=e1401]:
+                    - generic [ref=e1402]:
+                      - img [ref=e1403]
+                      - text: "10"
+                    - generic [ref=e1405]:
+                      - img [ref=e1406]
+                      - text: "20"
+                - button "View booking details for June 13, 2026" [ref=e1409] [cursor=pointer]:
+                  - generic [ref=e1411]: "13"
+                  - generic [ref=e1412]:
+                    - generic [ref=e1413]:
+                      - img [ref=e1414]
+                      - text: "0"
+                    - generic [ref=e1416]:
+                      - img [ref=e1417]
+                      - text: "0"
+                - button "View booking details for June 14, 2026" [ref=e1420] [cursor=pointer]:
+                  - generic [ref=e1422]: "14"
+                  - generic [ref=e1423]:
+                    - generic [ref=e1424]:
+                      - img [ref=e1425]
+                      - text: "0"
+                    - generic [ref=e1427]:
+                      - img [ref=e1428]
+                      - text: "0"
+                - button "View booking details for June 15, 2026" [ref=e1431] [cursor=pointer]:
+                  - generic [ref=e1433]: "15"
+                  - generic [ref=e1434]:
+                    - generic [ref=e1435]:
+                      - img [ref=e1436]
+                      - text: "2"
+                    - generic [ref=e1438]:
+                      - img [ref=e1439]
+                      - text: "12"
+                - button "View booking details for June 16, 2026" [ref=e1442] [cursor=pointer]:
+                  - generic [ref=e1444]: "16"
+                  - generic [ref=e1445]:
+                    - generic [ref=e1446]:
+                      - img [ref=e1447]
+                      - text: "31"
+                    - generic [ref=e1449]:
+                      - img [ref=e1450]
+                      - text: "119"
+                - button "View booking details for June 17, 2026" [ref=e1453] [cursor=pointer]:
+                  - generic [ref=e1455]: "17"
+                  - generic [ref=e1456]:
+                    - generic [ref=e1457]:
+                      - img [ref=e1458]
+                      - text: "0"
+                    - generic [ref=e1460]:
+                      - img [ref=e1461]
+                      - text: "0"
+                - button "View booking details for June 18, 2026" [ref=e1464] [cursor=pointer]:
+                  - generic [ref=e1466]: "18"
+                  - generic [ref=e1467]:
+                    - generic [ref=e1468]:
+                      - img [ref=e1469]
+                      - text: "11"
+                    - generic [ref=e1471]:
+                      - img [ref=e1472]
+                      - text: "55"
+                - button "View booking details for June 19, 2026" [ref=e1475] [cursor=pointer]:
+                  - generic [ref=e1477]: "19"
+                  - generic [ref=e1478]:
+                    - generic [ref=e1479]:
+                      - img [ref=e1480]
+                      - text: "172"
+                    - generic [ref=e1482]:
+                      - img [ref=e1483]
+                      - text: "711"
+                - button "View booking details for June 20, 2026" [ref=e1486] [cursor=pointer]:
+                  - generic [ref=e1488]: "20"
+                  - generic [ref=e1489]:
+                    - generic [ref=e1490]:
+                      - img [ref=e1491]
+                      - text: "0"
+                    - generic [ref=e1493]:
+                      - img [ref=e1494]
+                      - text: "0"
+                - button "View booking details for June 21, 2026" [ref=e1497] [cursor=pointer]:
+                  - generic [ref=e1499]: "21"
+                  - generic [ref=e1500]:
+                    - generic [ref=e1501]:
+                      - img [ref=e1502]
+                      - text: "0"
+                    - generic [ref=e1504]:
+                      - img [ref=e1505]
+                      - text: "0"
+                - button "View booking details for June 22, 2026" [ref=e1508] [cursor=pointer]:
+                  - generic [ref=e1510]: "22"
+                  - generic [ref=e1511]:
+                    - generic [ref=e1512]:
+                      - img [ref=e1513]
+                      - text: "3"
+                    - generic [ref=e1515]:
+                      - img [ref=e1516]
+                      - text: "10"
+                - button "View booking details for June 23, 2026" [ref=e1519] [cursor=pointer]:
+                  - generic [ref=e1521]: "23"
+                  - generic [ref=e1522]:
+                    - generic [ref=e1523]:
+                      - img [ref=e1524]
+                      - text: "58"
+                    - generic [ref=e1526]:
+                      - img [ref=e1527]
+                      - text: "252"
+                - button "View booking details for June 24, 2026" [ref=e1530] [cursor=pointer]:
+                  - generic [ref=e1531]:
+                    - generic [ref=e1532]: "24"
+                    - generic [ref=e1533]: Today
+                  - generic [ref=e1534]:
+                    - generic [ref=e1535]:
+                      - img [ref=e1536]
+                      - text: "21"
+                    - generic [ref=e1538]:
+                      - img [ref=e1539]
+                      - text: "111"
+                - button "View booking details for June 25, 2026" [ref=e1542] [cursor=pointer]:
+                  - generic [ref=e1544]: "25"
+                  - generic [ref=e1545]:
+                    - generic [ref=e1546]:
+                      - img [ref=e1547]
+                      - text: "0"
+                    - generic [ref=e1549]:
+                      - img [ref=e1550]
+                      - text: "0"
+                - button "View booking details for June 26, 2026" [ref=e1553] [cursor=pointer]:
+                  - generic [ref=e1555]: "26"
+                  - generic [ref=e1556]:
+                    - generic [ref=e1557]:
+                      - img [ref=e1558]
+                      - text: "0"
+                    - generic [ref=e1560]:
+                      - img [ref=e1561]
+                      - text: "0"
+                - button "View booking details for June 27, 2026" [ref=e1564] [cursor=pointer]:
+                  - generic [ref=e1566]: "27"
+                  - generic [ref=e1567]:
+                    - generic [ref=e1568]:
+                      - img [ref=e1569]
+                      - text: "0"
+                    - generic [ref=e1571]:
+                      - img [ref=e1572]
+                      - text: "0"
+                - button "View booking details for June 28, 2026" [ref=e1575] [cursor=pointer]:
+                  - generic [ref=e1577]: "28"
+                  - generic [ref=e1578]:
+                    - generic [ref=e1579]:
+                      - img [ref=e1580]
+                      - text: "0"
+                    - generic [ref=e1582]:
+                      - img [ref=e1583]
+                      - text: "0"
+                - button "View booking details for June 29, 2026" [ref=e1586] [cursor=pointer]:
+                  - generic [ref=e1588]: "29"
+                  - generic [ref=e1589]:
+                    - generic [ref=e1590]:
+                      - img [ref=e1591]
+                      - text: "0"
+                    - generic [ref=e1593]:
+                      - img [ref=e1594]
+                      - text: "0"
+                - button "View booking details for June 30, 2026" [ref=e1597] [cursor=pointer]:
+                  - generic [ref=e1599]: "30"
+                  - generic [ref=e1600]:
+                    - generic [ref=e1601]:
+                      - img [ref=e1602]
+                      - text: "0"
+                    - generic [ref=e1604]:
+                      - img [ref=e1605]
+                      - text: "0"
+                - button "View booking details for July 1, 2026" [disabled] [ref=e1608]:
+                  - generic [ref=e1610]: "1"
+                  - generic [ref=e1611]:
+                    - generic [ref=e1612]:
+                      - img [ref=e1613]
+                      - text: "0"
+                    - generic [ref=e1615]:
+                      - img [ref=e1616]
+                      - text: "0"
+                - button "View booking details for July 2, 2026" [disabled] [ref=e1619]:
+                  - generic [ref=e1621]: "2"
+                  - generic [ref=e1622]:
+                    - generic [ref=e1623]:
+                      - img [ref=e1624]
+                      - text: "0"
+                    - generic [ref=e1626]:
+                      - img [ref=e1627]
+                      - text: "0"
+                - button "View booking details for July 3, 2026" [disabled] [ref=e1630]:
+                  - generic [ref=e1632]: "3"
+                  - generic [ref=e1633]:
+                    - generic [ref=e1634]:
+                      - img [ref=e1635]
+                      - text: "0"
+                    - generic [ref=e1637]:
+                      - img [ref=e1638]
+                      - text: "0"
+                - button "View booking details for July 4, 2026" [disabled] [ref=e1641]:
+                  - generic [ref=e1643]: "4"
+                  - generic [ref=e1644]:
+                    - generic [ref=e1645]:
+                      - img [ref=e1646]
+                      - text: "0"
+                    - generic [ref=e1648]:
+                      - img [ref=e1649]
+                      - text: "0"

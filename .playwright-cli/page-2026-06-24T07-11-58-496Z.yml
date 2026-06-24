@@ -1,0 +1,357 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [expanded] [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menu [ref=e211]:
+            - menuitem "Program List" [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+              - generic [ref=e72]: Program List
+            - menuitem "Item Type" [ref=e73] [cursor=pointer]:
+              - img [ref=e74]
+              - generic [ref=e76]: Item Type
+            - menuitem "Unit" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Unit
+          - menuitem "Seller" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e84]: Seller
+          - menuitem "Vehicle" [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Wed : 24 Jun 2026, 14:11"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares123
+              - generic [ref=e125]: Claude test
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: Program
+              - img [ref=e135]
+              - generic [ref=e137]: Item Type
+            - button "Create Item Type" [ref=e139] [cursor=pointer]:
+              - img [ref=e141]
+              - text: Create Item Type
+          - generic [ref=e144]:
+            - generic [ref=e147]:
+              - img [ref=e149]
+              - textbox "Search" [ref=e152]
+            - button "Filter" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
+              - text: Filter
+            - button "Export" [ref=e159] [cursor=pointer]:
+              - img [ref=e161]
+              - generic [ref=e164]: Export
+              - img [ref=e166]
+          - generic [ref=e171]:
+            - table [ref=e175]:
+              - rowgroup [ref=e183]:
+                - row "# Item Type Items quantity Status Last Modify Date Action" [ref=e184]:
+                  - columnheader "#" [ref=e185]
+                  - columnheader "Item Type" [ref=e186]
+                  - columnheader "Items quantity" [ref=e187]
+                  - columnheader "Status" [ref=e188]
+                  - columnheader "Last Modify Date" [ref=e189]
+                  - columnheader "Action" [ref=e190]
+              - rowgroup [ref=e191]:
+                - row "1 ปืน 2 Active 17/06/2026" [ref=e212]:
+                  - cell "1" [ref=e213]
+                  - cell "ปืน" [ref=e214]:
+                    - link "ปืน" [ref=e215] [cursor=pointer]:
+                      - /url: /program/items-type/161
+                      - paragraph [ref=e216]: ปืน
+                  - cell "2" [ref=e217]:
+                    - generic [ref=e219] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e220]:
+                    - generic [ref=e223]: Active
+                  - cell "17/06/2026" [ref=e224]
+                  - cell [ref=e225]:
+                    - img [ref=e228] [cursor=pointer]
+                - row "2 Test Other 8 Active 17/06/2026" [ref=e232]:
+                  - cell "2" [ref=e233]
+                  - cell "Test Other" [ref=e234]:
+                    - link "Test Other" [ref=e235] [cursor=pointer]:
+                      - /url: /program/items-type/146
+                      - paragraph [ref=e236]: Test Other
+                  - cell "8" [ref=e237]:
+                    - generic [ref=e239] [cursor=pointer]: "8"
+                  - cell "Active" [ref=e240]:
+                    - generic [ref=e243]: Active
+                  - cell "17/06/2026" [ref=e244]
+                  - cell [ref=e245]:
+                    - img [ref=e248] [cursor=pointer]
+                - row "3 ค่าเบี้ยเลี้ยง 5 Active 17/06/2026" [ref=e252]:
+                  - cell "3" [ref=e253]
+                  - cell "ค่าเบี้ยเลี้ยง" [ref=e254]:
+                    - link "ค่าเบี้ยเลี้ยง" [ref=e255] [cursor=pointer]:
+                      - /url: /program/items-type/145
+                      - paragraph [ref=e256]: ค่าเบี้ยเลี้ยง
+                  - cell "5" [ref=e257]:
+                    - generic [ref=e259] [cursor=pointer]: "5"
+                  - cell "Active" [ref=e260]:
+                    - generic [ref=e263]: Active
+                  - cell "17/06/2026" [ref=e264]
+                  - cell [ref=e265]:
+                    - img [ref=e268] [cursor=pointer]
+                - row "4 ค่าใช้จ่ายรถ 6 Active 16/06/2026" [ref=e272]:
+                  - cell "4" [ref=e273]
+                  - cell "ค่าใช้จ่ายรถ" [ref=e274]:
+                    - link "ค่าใช้จ่ายรถ" [ref=e275] [cursor=pointer]:
+                      - /url: /program/items-type/136
+                      - paragraph [ref=e276]: ค่าใช้จ่ายรถ
+                  - cell "6" [ref=e277]:
+                    - generic [ref=e279] [cursor=pointer]: "6"
+                  - cell "Active" [ref=e280]:
+                    - generic [ref=e283]: Active
+                  - cell "16/06/2026" [ref=e284]
+                  - cell [ref=e285]:
+                    - img [ref=e288] [cursor=pointer]
+                - row "5 ค่าเบี้ยเลี้ยง 4 Active 26/05/2026" [ref=e292]:
+                  - cell "5" [ref=e293]
+                  - cell "ค่าเบี้ยเลี้ยง" [ref=e294]:
+                    - link "ค่าเบี้ยเลี้ยง" [ref=e295] [cursor=pointer]:
+                      - /url: /program/items-type/57
+                      - paragraph [ref=e296]: ค่าเบี้ยเลี้ยง
+                  - cell "4" [ref=e297]:
+                    - generic [ref=e299] [cursor=pointer]: "4"
+                  - cell "Active" [ref=e300]:
+                    - generic [ref=e303]: Active
+                  - cell "26/05/2026" [ref=e304]
+                  - cell [ref=e305]:
+                    - img [ref=e308] [cursor=pointer]
+                - row "6 ค่าใช้จ่ายของเรือ 7 Active 26/05/2026" [ref=e312]:
+                  - cell "6" [ref=e313]
+                  - cell "ค่าใช้จ่ายของเรือ" [ref=e314]:
+                    - link "ค่าใช้จ่ายของเรือ" [ref=e315] [cursor=pointer]:
+                      - /url: /program/items-type/128
+                      - paragraph [ref=e316]: ค่าใช้จ่ายของเรือ
+                  - cell "7" [ref=e317]:
+                    - generic [ref=e319] [cursor=pointer]: "7"
+                  - cell "Active" [ref=e320]:
+                    - generic [ref=e323]: Active
+                  - cell "26/05/2026" [ref=e324]
+                  - cell [ref=e325]:
+                    - img [ref=e328] [cursor=pointer]
+                - row "7 ค่าอุทยาน 1 Active 25/05/2026" [ref=e332]:
+                  - cell "7" [ref=e333]
+                  - cell "ค่าอุทยาน" [ref=e334]:
+                    - link "ค่าอุทยาน" [ref=e335] [cursor=pointer]:
+                      - /url: /program/items-type/125
+                      - paragraph [ref=e336]: ค่าอุทยาน
+                  - cell "1" [ref=e337]:
+                    - generic [ref=e339] [cursor=pointer]: "1"
+                  - cell "Active" [ref=e340]:
+                    - generic [ref=e343]: Active
+                  - cell "25/05/2026" [ref=e344]
+                  - cell [ref=e345]:
+                    - img [ref=e348] [cursor=pointer]
+                - row "8 TESTreeth 9 Active 29/04/2026" [ref=e352]:
+                  - cell "8" [ref=e353]
+                  - cell "TESTreeth" [ref=e354]:
+                    - link "TESTreeth" [ref=e355] [cursor=pointer]:
+                      - /url: /program/items-type/114
+                      - paragraph [ref=e356]: TESTreeth
+                  - cell "9" [ref=e357]:
+                    - generic [ref=e359] [cursor=pointer]: "9"
+                  - cell "Active" [ref=e360]:
+                    - generic [ref=e363]: Active
+                  - cell "29/04/2026" [ref=e364]
+                  - cell [ref=e365]:
+                    - img [ref=e368] [cursor=pointer]
+                - row "9 7489789798 2 Active 21/04/2026" [ref=e372]:
+                  - cell "9" [ref=e373]
+                  - cell "7489789798" [ref=e374]:
+                    - link "7489789798" [ref=e375] [cursor=pointer]:
+                      - /url: /program/items-type/112
+                      - paragraph [ref=e376]: "7489789798"
+                  - cell "2" [ref=e377]:
+                    - generic [ref=e379] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e380]:
+                    - generic [ref=e383]: Active
+                  - cell "21/04/2026" [ref=e384]
+                  - cell [ref=e385]:
+                    - img [ref=e388] [cursor=pointer]
+                - row "10 123456789 - Active 21/04/2026" [ref=e392]:
+                  - cell "10" [ref=e393]
+                  - cell "123456789" [ref=e394]:
+                    - link "123456789" [ref=e395] [cursor=pointer]:
+                      - /url: /program/items-type/111
+                      - paragraph [ref=e396]: "123456789"
+                  - cell "-" [ref=e397]:
+                    - generic [ref=e399] [cursor=pointer]: "-"
+                  - cell "Active" [ref=e400]:
+                    - generic [ref=e403]: Active
+                  - cell "21/04/2026" [ref=e404]
+                  - cell [ref=e405]:
+                    - img [ref=e408] [cursor=pointer]
+                - row "11 olo 2 Active 21/04/2026" [ref=e412]:
+                  - cell "11" [ref=e413]
+                  - cell "olo" [ref=e414]:
+                    - link "olo" [ref=e415] [cursor=pointer]:
+                      - /url: /program/items-type/108
+                      - paragraph [ref=e416]: olo
+                  - cell "2" [ref=e417]:
+                    - generic [ref=e419] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e420]:
+                    - generic [ref=e423]: Active
+                  - cell "21/04/2026" [ref=e424]
+                  - cell [ref=e425]:
+                    - img [ref=e428] [cursor=pointer]
+                - row "12 bbbb 2 Active 21/04/2026" [ref=e432]:
+                  - cell "12" [ref=e433]
+                  - cell "bbbb" [ref=e434]:
+                    - link "bbbb" [ref=e435] [cursor=pointer]:
+                      - /url: /program/items-type/105
+                      - paragraph [ref=e436]: bbbb
+                  - cell "2" [ref=e437]:
+                    - generic [ref=e439] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e440]:
+                    - generic [ref=e443]: Active
+                  - cell "21/04/2026" [ref=e444]
+                  - cell [ref=e445]:
+                    - img [ref=e448] [cursor=pointer]
+                - row "13 a - Active 21/04/2026" [ref=e452]:
+                  - cell "13" [ref=e453]
+                  - cell "a" [ref=e454]:
+                    - link "a" [ref=e455] [cursor=pointer]:
+                      - /url: /program/items-type/104
+                      - paragraph [ref=e456]: a
+                  - cell "-" [ref=e457]:
+                    - generic [ref=e459] [cursor=pointer]: "-"
+                  - cell "Active" [ref=e460]:
+                    - generic [ref=e463]: Active
+                  - cell "21/04/2026" [ref=e464]
+                  - cell [ref=e465]:
+                    - img [ref=e468] [cursor=pointer]
+                - row "14 guitar222 3 Active 21/04/2026" [ref=e472]:
+                  - cell "14" [ref=e473]
+                  - cell "guitar222" [ref=e474]:
+                    - link "guitar222" [ref=e475] [cursor=pointer]:
+                      - /url: /program/items-type/100
+                      - paragraph [ref=e476]: guitar222
+                  - cell "3" [ref=e477]:
+                    - generic [ref=e479] [cursor=pointer]: "3"
+                  - cell "Active" [ref=e480]:
+                    - generic [ref=e483]: Active
+                  - cell "21/04/2026" [ref=e484]
+                  - cell [ref=e485]:
+                    - img [ref=e488] [cursor=pointer]
+                - row "15 guitar - Active 21/04/2026" [ref=e492]:
+                  - cell "15" [ref=e493]
+                  - cell "guitar" [ref=e494]:
+                    - link "guitar" [ref=e495] [cursor=pointer]:
+                      - /url: /program/items-type/99
+                      - paragraph [ref=e496]: guitar
+                  - cell "-" [ref=e497]:
+                    - generic [ref=e499] [cursor=pointer]: "-"
+                  - cell "Active" [ref=e500]:
+                    - generic [ref=e503]: Active
+                  - cell "21/04/2026" [ref=e504]
+                  - cell [ref=e505]:
+                    - img [ref=e508] [cursor=pointer]
+            - list [ref=e512]:
+              - listitem "Previous Page" [ref=e513]:
+                - button "left" [disabled] [ref=e514]:
+                  - img "left" [ref=e515]:
+                    - img [ref=e516]
+              - listitem "1" [ref=e518] [cursor=pointer]:
+                - generic [ref=e519]: "1"
+              - listitem "2" [ref=e520] [cursor=pointer]:
+                - generic [ref=e521]: "2"
+              - listitem "3" [ref=e522] [cursor=pointer]:
+                - generic [ref=e523]: "3"
+              - listitem "Next Page" [ref=e524] [cursor=pointer]:
+                - button "right" [ref=e525]:
+                  - img "right" [ref=e526]:
+                    - img [ref=e527]
+              - listitem [ref=e529]:
+                - generic "Page Size" [ref=e530] [cursor=pointer]:
+                  - generic [ref=e532]:
+                    - combobox "Page Size" [ref=e534]
+                    - generic "15 / page" [ref=e535]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e536]:
+    - dialog:
+      - generic [ref=e538]:
+        - generic [ref=e539]:
+          - generic [ref=e540]:
+            - generic [ref=e542]: Filter
+            - img [ref=e544] [cursor=pointer]
+          - generic [ref=e548]:
+            - generic [ref=e549]:
+              - generic [ref=e550]: Item Type Name
+              - textbox "Please enter" [ref=e552]
+            - generic [ref=e554]:
+              - generic [ref=e555]: Status
+              - generic [ref=e557] [cursor=pointer]:
+                - generic [ref=e559]:
+                  - combobox [ref=e561]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e562]:
+          - button "Clear all" [ref=e563] [cursor=pointer]
+          - button "Search" [ref=e564] [cursor=pointer]:
+            - img [ref=e566]
+            - text: Search

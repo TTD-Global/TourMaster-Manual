@@ -1,0 +1,12 @@
+[     183ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NTMsI…I0MH0.IgHurAvacypQbKHt5cogwvq1tSYvHbqbmGk8W2rfHac, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     183ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     198ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     198ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     230ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     230ms] [LOG] permissions [EXPENSE_REPORT_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     351ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard/dashboard-expense:0
+[     351ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard/dashboard-expense:0
+[     351ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard/dashboard-expense:0
+[     379ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/3264-d9459b95a7c0863a.js:0
+[     381ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0
+[     381ms] [LOG] permissions [EXPENSE_REPORT_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5395-f127fedd895e3d1c.js:0

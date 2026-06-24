@@ -1,0 +1,154 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [expanded] [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menu:
+              - menuitem "Overview" [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e32]: Overview
+              - menuitem "Create Booking" [ref=e33] [cursor=pointer]:
+                - img [ref=e34]
+                - generic [ref=e36]: Create Booking
+              - menuitem "Booking List" [ref=e37] [cursor=pointer]:
+                - img [ref=e38]
+                - generic [ref=e40]: Booking List
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+            - menuitem "Guide Task" [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+              - generic [ref=e73]: Guide Task
+          - separator [ref=e74]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e75] [cursor=pointer]:
+            - img [ref=e76]
+            - generic [ref=e80]: Program
+          - menuitem "Seller" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e84]: Seller
+          - menuitem "Vehicle" [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Wed : 24 Jun 2026, 14:28"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares123
+              - generic [ref=e125]: Claude test
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: Booking
+              - img [ref=e136]
+              - generic [ref=e138]: Booking List
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - img [ref=e142]
+                - textbox "Select Travel Date" [ref=e146]: 24/06/2026
+              - button "Export" [ref=e147] [cursor=pointer]:
+                - img [ref=e149]
+                - generic [ref=e152]: Export
+                - img [ref=e154]
+              - button "Advance Search" [ref=e157] [cursor=pointer]:
+                - img [ref=e159]
+                - text: Advance Search
+              - button "Create Booking" [ref=e162] [cursor=pointer]:
+                - img [ref=e164]
+                - text: Create Booking
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - paragraph [ref=e169]: In Progress
+              - generic [ref=e170]:
+                - generic [ref=e171] [cursor=pointer]:
+                  - generic [ref=e172]:
+                    - paragraph [ref=e173]: "0"
+                    - paragraph [ref=e174]: Reserved
+                  - img [ref=e176]
+                - generic [ref=e178] [cursor=pointer]:
+                  - generic [ref=e179]:
+                    - paragraph [ref=e180]: "0"
+                    - paragraph [ref=e181]: Confirmed
+                  - img [ref=e183]
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - paragraph [ref=e190]: Processed
+                - paragraph [ref=e191]:
+                  - img [ref=e192]
+                  - text: Filtered to Completed and Canceled in June 2026
+              - generic [ref=e194]:
+                - generic [ref=e195] [cursor=pointer]:
+                  - generic [ref=e196]:
+                    - paragraph [ref=e197]: "0"
+                    - paragraph [ref=e198]: Completed
+                  - img [ref=e200]
+                - generic [ref=e203] [cursor=pointer]:
+                  - generic [ref=e204]:
+                    - paragraph [ref=e205]: "0"
+                    - paragraph [ref=e206]: Canceled
+                  - img [ref=e208]
+          - table [ref=e219]:
+            - rowgroup [ref=e233]:
+              - row "# Seller Travel Date Booking Date Booking No. Trip Type Travel Time Program Pax Trip Code Status Action" [ref=e234]:
+                - columnheader "#" [ref=e235]
+                - columnheader "Seller" [ref=e236]
+                - columnheader "Travel Date" [ref=e237]
+                - columnheader "Booking Date" [ref=e238]
+                - columnheader "Booking No." [ref=e239]
+                - columnheader "Trip Type" [ref=e240]
+                - columnheader "Travel Time" [ref=e241]
+                - columnheader "Program" [ref=e242]
+                - columnheader "Pax" [ref=e243]
+                - columnheader "Trip Code" [ref=e244]
+                - columnheader "Status" [ref=e245]
+                - columnheader "Action" [ref=e246]
+            - rowgroup [ref=e247]:
+              - row [ref=e248]:
+                - cell [ref=e249]:
+                  - img [ref=e251]

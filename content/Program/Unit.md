@@ -13,7 +13,11 @@ sidebar_position: 3
 
 ## ตารางรายการ
 
+<div className="manual-img-500">
+
 ![Unit List](/img/Program/unit-list.png)
+
+</div>
 
 ตารางแสดงรายการ Unit ทั้งหมด ประกอบด้วยคอลัมน์ดังนี้
 
@@ -40,6 +44,25 @@ sidebar_position: 3
 
 ---
 
+## ตัวกรอง
+
+<div className="manual-img-500">
+
+![Program Unit Filter](/img/Filter/filter-program-unit-modal.png)
+
+</div>
+
+กดปุ่ม **Filter** เพื่อเปิด Modal กรองข้อมูลตามเงื่อนไขที่ต้องการ
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Unit Name** | กรองตามชื่อ Unit |
+| **Status** | กรองตามสถานะ Active / Inactive |
+
+กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+
+---
+
 ## Action
 
 กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Unit เพื่อดูรายละเอียด
@@ -61,21 +84,15 @@ sidebar_position: 3
 1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
 2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
 
-### Delete
-
-กดเพื่อลบ Unit ออกจากระบบ
-
-:::caution ข้อควรระวัง
-ไม่ควรลบ Unit ที่กำลังใช้งานอยู่ใน Program เนื่องจากอาจส่งผลต่อการคำนวณราคา
-:::
-
----
-
 ## Create
 
 กดปุ่ม **Create Unit** แล้วกรอกข้อมูลในฟอร์ม
 
+<div className="manual-img-500">
+
 ![Create Unit](/img/Program/unit-create.png)
+
+</div>
 
 | ฟิลด์ | คำอธิบาย | จำเป็น |
 |-------|----------|:------:|

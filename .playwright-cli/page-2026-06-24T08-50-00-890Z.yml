@@ -1,0 +1,518 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e59]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e66]: Drop off Transport
+            - menuitem "Check In" [ref=e67] [cursor=pointer]:
+              - img [ref=e68]
+              - generic [ref=e71]: Check In
+            - menuitem "Payment" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e76]: Payment
+            - menuitem "Guide Task" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e81]: Guide Task
+          - separator [ref=e82]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Program
+          - menuitem "Seller" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e92]: Seller
+          - menuitem "Vehicle" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e102]: Employee
+          - menu [ref=e5493]:
+            - menuitem "Employee summary" [ref=e5494] [cursor=pointer]:
+              - img [ref=e5495]
+              - generic [ref=e5497]: Employee summary
+            - menuitem "Guide / Staff" [ref=e5498] [cursor=pointer]:
+              - img [ref=e5499]
+              - generic [ref=e5501]: Guide / Staff
+            - menuitem "Other" [ref=e5502] [cursor=pointer]:
+              - img [ref=e5503]
+              - generic [ref=e5505]: Other
+            - menuitem "Positions" [ref=e5506] [cursor=pointer]:
+              - img [ref=e5507]
+              - generic [ref=e5509]: Positions
+          - menuitem "Zone Transfer" [ref=e103] [cursor=pointer]:
+            - img [ref=e104]
+            - generic [ref=e108]: Zone Transfer
+          - menuitem "User" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]
+            - generic [ref=e113]: User
+          - menuitem "Company" [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e117]: Company
+          - menuitem "User Manual" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: User Manual
+    - generic [ref=e122]:
+      - banner [ref=e123]:
+        - generic [ref=e125]:
+          - generic [ref=e126]: "Wed : 24 Jun 2026, 15:48"
+          - generic [ref=e128] [cursor=pointer]:
+            - generic [ref=e130]: AM
+            - generic [ref=e131]:
+              - generic [ref=e132]: amares123
+              - generic [ref=e133]: Claude test
+            - img [ref=e135]
+      - main [ref=e137]:
+        - generic [ref=e5510]:
+          - generic [ref=e5511]:
+            - generic [ref=e5512]:
+              - generic [ref=e5513]: Employee
+              - img [ref=e5514]
+              - generic [ref=e5516]: Guide / Staff
+            - button "Create Guide" [ref=e5518] [cursor=pointer]:
+              - img [ref=e5520]
+              - text: Create Guide
+          - generic [ref=e5522]:
+            - tablist [ref=e5523]:
+              - generic [ref=e5525]:
+                - tab "Guide List 220" [selected] [ref=e5527] [cursor=pointer]:
+                  - generic [ref=e5529]:
+                    - text: Guide List
+                    - generic [ref=e5531]: "220"
+                - tab "Staff List 7" [ref=e5533] [cursor=pointer]:
+                  - generic [ref=e5535]:
+                    - text: Staff List
+                    - generic [ref=e5537]: "7"
+              - generic [ref=e5539]:
+                - generic [ref=e5542]:
+                  - img [ref=e5544]
+                  - textbox "Search" [ref=e5547]
+                - button "Filter" [ref=e5549] [cursor=pointer]:
+                  - img [ref=e5551]
+                  - text: Filter
+                - button "Export" [ref=e5554] [cursor=pointer]:
+                  - img [ref=e5556]
+                  - generic [ref=e5559]: Export
+                  - img [ref=e5561]
+            - tabpanel "Guide List 220" [active] [ref=e5565]:
+              - generic [ref=e5569]:
+                - table [ref=e5573]:
+                  - rowgroup [ref=e5586]:
+                    - row "# Image Nickname Guide Name Phone Number License No. Work Area Language Status Last Modify Date Action" [ref=e5587]:
+                      - columnheader "#" [ref=e5588]
+                      - columnheader "Image" [ref=e5589]
+                      - columnheader "Nickname" [ref=e5590]
+                      - columnheader "Guide Name" [ref=e5591]
+                      - columnheader "Phone Number" [ref=e5592]
+                      - columnheader "License No." [ref=e5593]
+                      - columnheader "Work Area" [ref=e5594]
+                      - columnheader "Language" [ref=e5595]
+                      - columnheader "Status" [ref=e5596]
+                      - columnheader "Last Modify Date" [ref=e5597]
+                      - columnheader "Action" [ref=e5598]
+                  - rowgroup [ref=e5599]:
+                    - row "1 G.Rei Rei knfksdn 0895423695 235654546545454 3 3 Draft 08/05/2026" [ref=e5600]:
+                      - cell "1" [ref=e5601]
+                      - cell [ref=e5602]:
+                        - img [ref=e5605]
+                      - cell "G.Rei" [ref=e5607]:
+                        - generic [ref=e5608]: G.Rei
+                      - cell "Rei knfksdn" [ref=e5609]:
+                        - link "Rei knfksdn" [ref=e5610] [cursor=pointer]:
+                          - /url: guide/create?id=36&guide_type=guide
+                          - generic [ref=e5611]: Rei knfksdn
+                      - cell "0895423695" [ref=e5612]:
+                        - generic [ref=e5613]: "0895423695"
+                      - cell "235654546545454" [ref=e5614]:
+                        - generic [ref=e5615]: "235654546545454"
+                      - cell "3" [ref=e5616]:
+                        - generic [ref=e5618] [cursor=pointer]: "3"
+                      - cell "3" [ref=e5619]:
+                        - generic [ref=e5621] [cursor=pointer]: "3"
+                      - cell "Draft" [ref=e5622]:
+                        - generic [ref=e5625]: Draft
+                      - cell "08/05/2026" [ref=e5626]
+                      - cell [ref=e5627]:
+                        - img [ref=e5630] [cursor=pointer]
+                    - row "2 G.Tahhhh P.Jatuporn 098-0221123 22222 3 3 Draft 07/05/2026" [ref=e5634]:
+                      - cell "2" [ref=e5635]
+                      - cell [ref=e5636]:
+                        - img [ref=e5639]
+                      - cell "G.Tahhhh" [ref=e5641]:
+                        - generic [ref=e5642]: G.Tahhhh
+                      - cell "P.Jatuporn" [ref=e5643]:
+                        - link "P.Jatuporn" [ref=e5644] [cursor=pointer]:
+                          - /url: guide/create?id=31&guide_type=guide
+                          - generic [ref=e5645]: P.Jatuporn
+                      - cell "098-0221123" [ref=e5646]:
+                        - generic [ref=e5647]: 098-0221123
+                      - cell "22222" [ref=e5648]:
+                        - generic [ref=e5649]: "22222"
+                      - cell "3" [ref=e5650]:
+                        - generic [ref=e5652] [cursor=pointer]: "3"
+                      - cell "3" [ref=e5653]:
+                        - generic [ref=e5655] [cursor=pointer]: "3"
+                      - cell "Draft" [ref=e5656]:
+                        - generic [ref=e5659]: Draft
+                      - cell "07/05/2026" [ref=e5660]
+                      - cell [ref=e5661]:
+                        - img [ref=e5664] [cursor=pointer]
+                    - row "3 G.anya anya forger 081 1221313123 1 1 Draft 07/05/2026" [ref=e5668]:
+                      - cell "3" [ref=e5669]
+                      - cell [ref=e5670]:
+                        - img [ref=e5673]
+                      - cell "G.anya" [ref=e5675]:
+                        - generic [ref=e5676]: G.anya
+                      - cell "anya forger" [ref=e5677]:
+                        - link "anya forger" [ref=e5678] [cursor=pointer]:
+                          - /url: guide/create?id=34&guide_type=guide
+                          - generic [ref=e5679]: anya forger
+                      - cell "081" [ref=e5680]:
+                        - generic [ref=e5681]: "081"
+                      - cell "1221313123" [ref=e5682]:
+                        - generic [ref=e5683]: "1221313123"
+                      - cell "1" [ref=e5684]:
+                        - generic [ref=e5686] [cursor=pointer]: "1"
+                      - cell "1" [ref=e5687]:
+                        - generic [ref=e5689] [cursor=pointer]: "1"
+                      - cell "Draft" [ref=e5690]:
+                        - generic [ref=e5693]: Draft
+                      - cell "07/05/2026" [ref=e5694]
+                      - cell [ref=e5695]:
+                        - img [ref=e5698] [cursor=pointer]
+                    - row "4 G.Jab Jetsada Naithong 0642564685 - - - Draft 28/04/2026" [ref=e5702]:
+                      - cell "4" [ref=e5703]
+                      - cell [ref=e5704]:
+                        - img [ref=e5707]
+                      - cell "G.Jab" [ref=e5709]:
+                        - generic [ref=e5710]: G.Jab
+                      - cell "Jetsada Naithong" [ref=e5711]:
+                        - link "Jetsada Naithong" [ref=e5712] [cursor=pointer]:
+                          - /url: guide/create?id=32&guide_type=guide
+                          - generic [ref=e5713]: Jetsada Naithong
+                      - cell "0642564685" [ref=e5714]:
+                        - generic [ref=e5715]: "0642564685"
+                      - cell "-" [ref=e5716]:
+                        - generic [ref=e5717]: "-"
+                      - cell "-" [ref=e5718]:
+                        - generic [ref=e5720] [cursor=pointer]: "-"
+                      - cell "-" [ref=e5721]:
+                        - generic [ref=e5723] [cursor=pointer]: "-"
+                      - cell "Draft" [ref=e5724]:
+                        - generic [ref=e5727]: Draft
+                      - cell "28/04/2026" [ref=e5728]
+                      - cell [ref=e5729]:
+                        - img [ref=e5732] [cursor=pointer]
+                    - row "5 guide G.Dulaya มูฮัมหมัดดลนียา วาอีบาสู 0831911021 1-033872 1 1 Active 18/06/2026" [ref=e5736]:
+                      - cell "5" [ref=e5737]
+                      - cell "guide" [ref=e5738]:
+                        - img "guide" [ref=e5741]
+                      - cell "G.Dulaya" [ref=e5742]:
+                        - generic [ref=e5743]: G.Dulaya
+                      - cell "มูฮัมหมัดดลนียา วาอีบาสู" [ref=e5744]:
+                        - link "มูฮัมหมัดดลนียา วาอีบาสู" [ref=e5745] [cursor=pointer]:
+                          - /url: guide/535?guide_type=guide
+                          - generic [ref=e5746]: มูฮัมหมัดดลนียา วาอีบาสู
+                      - cell "0831911021" [ref=e5747]:
+                        - generic [ref=e5748]: "0831911021"
+                      - cell "1-033872" [ref=e5749]:
+                        - generic [ref=e5750]: 1-033872
+                      - cell "1" [ref=e5751]:
+                        - generic [ref=e5753] [cursor=pointer]: "1"
+                      - cell "1" [ref=e5754]:
+                        - generic [ref=e5756] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e5757]:
+                        - generic [ref=e5760]: Active
+                      - cell "18/06/2026" [ref=e5761]
+                      - cell [ref=e5762]:
+                        - img [ref=e5765] [cursor=pointer]
+                    - row "6 G.Phatcharaporn ภัชราภรณ์ งอยกุดจิก 0810005697 1-037385 1 1 Active 19/05/2026" [ref=e5769]:
+                      - cell "6" [ref=e5770]
+                      - cell [ref=e5771]:
+                        - img [ref=e5774]
+                      - cell "G.Phatcharaporn" [ref=e5776]:
+                        - generic [ref=e5777]: G.Phatcharaporn
+                      - cell "ภัชราภรณ์ งอยกุดจิก" [ref=e5778]:
+                        - link "ภัชราภรณ์ งอยกุดจิก" [ref=e5779] [cursor=pointer]:
+                          - /url: guide/504?guide_type=guide
+                          - generic [ref=e5780]: ภัชราภรณ์ งอยกุดจิก
+                      - cell "0810005697" [ref=e5781]:
+                        - generic [ref=e5782]: "0810005697"
+                      - cell "1-037385" [ref=e5783]:
+                        - generic [ref=e5784]: 1-037385
+                      - cell "1" [ref=e5785]:
+                        - generic [ref=e5787] [cursor=pointer]: "1"
+                      - cell "1" [ref=e5788]:
+                        - generic [ref=e5790] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e5791]:
+                        - generic [ref=e5794]: Active
+                      - cell "19/05/2026" [ref=e5795]
+                      - cell [ref=e5796]:
+                        - img [ref=e5799] [cursor=pointer]
+                    - row "7 G.Ruchirada รุจิรดา แก้วศิริ 0818204994 1-013445 1 1 Active 19/05/2026" [ref=e5803]:
+                      - cell "7" [ref=e5804]
+                      - cell [ref=e5805]:
+                        - img [ref=e5808]
+                      - cell "G.Ruchirada" [ref=e5810]:
+                        - generic [ref=e5811]: G.Ruchirada
+                      - cell "รุจิรดา แก้วศิริ" [ref=e5812]:
+                        - link "รุจิรดา แก้วศิริ" [ref=e5813] [cursor=pointer]:
+                          - /url: guide/505?guide_type=guide
+                          - generic [ref=e5814]: รุจิรดา แก้วศิริ
+                      - cell "0818204994" [ref=e5815]:
+                        - generic [ref=e5816]: "0818204994"
+                      - cell "1-013445" [ref=e5817]:
+                        - generic [ref=e5818]: 1-013445
+                      - cell "1" [ref=e5819]:
+                        - generic [ref=e5821] [cursor=pointer]: "1"
+                      - cell "1" [ref=e5822]:
+                        - generic [ref=e5824] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e5825]:
+                        - generic [ref=e5828]: Active
+                      - cell "19/05/2026" [ref=e5829]
+                      - cell [ref=e5830]:
+                        - img [ref=e5833] [cursor=pointer]
+                    - row "8 G.Rojjana โรจนา ลอนใหม่ 0949546509 1-034730 1 1 Active 19/05/2026" [ref=e5837]:
+                      - cell "8" [ref=e5838]
+                      - cell [ref=e5839]:
+                        - img [ref=e5842]
+                      - cell "G.Rojjana" [ref=e5844]:
+                        - generic [ref=e5845]: G.Rojjana
+                      - cell "โรจนา ลอนใหม่" [ref=e5846]:
+                        - link "โรจนา ลอนใหม่" [ref=e5847] [cursor=pointer]:
+                          - /url: guide/506?guide_type=guide
+                          - generic [ref=e5848]: โรจนา ลอนใหม่
+                      - cell "0949546509" [ref=e5849]:
+                        - generic [ref=e5850]: "0949546509"
+                      - cell "1-034730" [ref=e5851]:
+                        - generic [ref=e5852]: 1-034730
+                      - cell "1" [ref=e5853]:
+                        - generic [ref=e5855] [cursor=pointer]: "1"
+                      - cell "1" [ref=e5856]:
+                        - generic [ref=e5858] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e5859]:
+                        - generic [ref=e5862]: Active
+                      - cell "19/05/2026" [ref=e5863]
+                      - cell [ref=e5864]:
+                        - img [ref=e5867] [cursor=pointer]
+                    - row "9 G.Nawarat นวรัตน์ เงินเจริญ 0944829070 1-026703 1 1 Active 19/05/2026" [ref=e5871]:
+                      - cell "9" [ref=e5872]
+                      - cell [ref=e5873]:
+                        - img [ref=e5876]
+                      - cell "G.Nawarat" [ref=e5878]:
+                        - generic [ref=e5879]: G.Nawarat
+                      - cell "นวรัตน์ เงินเจริญ" [ref=e5880]:
+                        - link "นวรัตน์ เงินเจริญ" [ref=e5881] [cursor=pointer]:
+                          - /url: guide/507?guide_type=guide
+                          - generic [ref=e5882]: นวรัตน์ เงินเจริญ
+                      - cell "0944829070" [ref=e5883]:
+                        - generic [ref=e5884]: "0944829070"
+                      - cell "1-026703" [ref=e5885]:
+                        - generic [ref=e5886]: 1-026703
+                      - cell "1" [ref=e5887]:
+                        - generic [ref=e5889] [cursor=pointer]: "1"
+                      - cell "1" [ref=e5890]:
+                        - generic [ref=e5892] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e5893]:
+                        - generic [ref=e5896]: Active
+                      - cell "19/05/2026" [ref=e5897]
+                      - cell [ref=e5898]:
+                        - img [ref=e5901] [cursor=pointer]
+                    - row "10 G.Sunday ชัยภัทร วิทิตปริวรรต 0624242316 1-039887 1 1 Active 19/05/2026" [ref=e5905]:
+                      - cell "10" [ref=e5906]
+                      - cell [ref=e5907]:
+                        - img [ref=e5910]
+                      - cell "G.Sunday" [ref=e5912]:
+                        - generic [ref=e5913]: G.Sunday
+                      - cell "ชัยภัทร วิทิตปริวรรต" [ref=e5914]:
+                        - link "ชัยภัทร วิทิตปริวรรต" [ref=e5915] [cursor=pointer]:
+                          - /url: guide/502?guide_type=guide
+                          - generic [ref=e5916]: ชัยภัทร วิทิตปริวรรต
+                      - cell "0624242316" [ref=e5917]:
+                        - generic [ref=e5918]: "0624242316"
+                      - cell "1-039887" [ref=e5919]:
+                        - generic [ref=e5920]: 1-039887
+                      - cell "1" [ref=e5921]:
+                        - generic [ref=e5923] [cursor=pointer]: "1"
+                      - cell "1" [ref=e5924]:
+                        - generic [ref=e5926] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e5927]:
+                        - generic [ref=e5930]: Active
+                      - cell "19/05/2026" [ref=e5931]
+                      - cell [ref=e5932]:
+                        - img [ref=e5935] [cursor=pointer]
+                    - row "11 G.Naroon นรุณ พินธุโสภณ 0945614190 1-039870 1 1 Active 19/05/2026" [ref=e5939]:
+                      - cell "11" [ref=e5940]
+                      - cell [ref=e5941]:
+                        - img [ref=e5944]
+                      - cell "G.Naroon" [ref=e5946]:
+                        - generic [ref=e5947]: G.Naroon
+                      - cell "นรุณ พินธุโสภณ" [ref=e5948]:
+                        - link "นรุณ พินธุโสภณ" [ref=e5949] [cursor=pointer]:
+                          - /url: guide/509?guide_type=guide
+                          - generic [ref=e5950]: นรุณ พินธุโสภณ
+                      - cell "0945614190" [ref=e5951]:
+                        - generic [ref=e5952]: "0945614190"
+                      - cell "1-039870" [ref=e5953]:
+                        - generic [ref=e5954]: 1-039870
+                      - cell "1" [ref=e5955]:
+                        - generic [ref=e5957] [cursor=pointer]: "1"
+                      - cell "1" [ref=e5958]:
+                        - generic [ref=e5960] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e5961]:
+                        - generic [ref=e5964]: Active
+                      - cell "19/05/2026" [ref=e5965]
+                      - cell [ref=e5966]:
+                        - img [ref=e5969] [cursor=pointer]
+                    - row "12 G.Valuncha วลัญชา ศรีนาค 0817012049 1-016954 1 1 Active 19/05/2026" [ref=e5973]:
+                      - cell "12" [ref=e5974]
+                      - cell [ref=e5975]:
+                        - img [ref=e5978]
+                      - cell "G.Valuncha" [ref=e5980]:
+                        - generic [ref=e5981]: G.Valuncha
+                      - cell "วลัญชา ศรีนาค" [ref=e5982]:
+                        - link "วลัญชา ศรีนาค" [ref=e5983] [cursor=pointer]:
+                          - /url: guide/510?guide_type=guide
+                          - generic [ref=e5984]: วลัญชา ศรีนาค
+                      - cell "0817012049" [ref=e5985]:
+                        - generic [ref=e5986]: "0817012049"
+                      - cell "1-016954" [ref=e5987]:
+                        - generic [ref=e5988]: 1-016954
+                      - cell "1" [ref=e5989]:
+                        - generic [ref=e5991] [cursor=pointer]: "1"
+                      - cell "1" [ref=e5992]:
+                        - generic [ref=e5994] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e5995]:
+                        - generic [ref=e5998]: Active
+                      - cell "19/05/2026" [ref=e5999]
+                      - cell [ref=e6000]:
+                        - img [ref=e6003] [cursor=pointer]
+                    - row "13 G.Disapol ดิสพล สุขรื่น 0642713332 1-029481 1 1 Active 19/05/2026" [ref=e6007]:
+                      - cell "13" [ref=e6008]
+                      - cell [ref=e6009]:
+                        - img [ref=e6012]
+                      - cell "G.Disapol" [ref=e6014]:
+                        - generic [ref=e6015]: G.Disapol
+                      - cell "ดิสพล สุขรื่น" [ref=e6016]:
+                        - link "ดิสพล สุขรื่น" [ref=e6017] [cursor=pointer]:
+                          - /url: guide/511?guide_type=guide
+                          - generic [ref=e6018]: ดิสพล สุขรื่น
+                      - cell "0642713332" [ref=e6019]:
+                        - generic [ref=e6020]: "0642713332"
+                      - cell "1-029481" [ref=e6021]:
+                        - generic [ref=e6022]: 1-029481
+                      - cell "1" [ref=e6023]:
+                        - generic [ref=e6025] [cursor=pointer]: "1"
+                      - cell "1" [ref=e6026]:
+                        - generic [ref=e6028] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e6029]:
+                        - generic [ref=e6032]: Active
+                      - cell "19/05/2026" [ref=e6033]
+                      - cell [ref=e6034]:
+                        - img [ref=e6037] [cursor=pointer]
+                    - row "14 G.Fern อรหทัย นิยมธรรม 0824699954 1027343 1 1 Active 19/05/2026" [ref=e6041]:
+                      - cell "14" [ref=e6042]
+                      - cell [ref=e6043]:
+                        - img [ref=e6046]
+                      - cell "G.Fern" [ref=e6048]:
+                        - generic [ref=e6049]: G.Fern
+                      - cell "อรหทัย นิยมธรรม" [ref=e6050]:
+                        - link "อรหทัย นิยมธรรม" [ref=e6051] [cursor=pointer]:
+                          - /url: guide/508?guide_type=guide
+                          - generic [ref=e6052]: อรหทัย นิยมธรรม
+                      - cell "0824699954" [ref=e6053]:
+                        - generic [ref=e6054]: "0824699954"
+                      - cell "1027343" [ref=e6055]:
+                        - generic [ref=e6056]: "1027343"
+                      - cell "1" [ref=e6057]:
+                        - generic [ref=e6059] [cursor=pointer]: "1"
+                      - cell "1" [ref=e6060]:
+                        - generic [ref=e6062] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e6063]:
+                        - generic [ref=e6066]: Active
+                      - cell "19/05/2026" [ref=e6067]
+                      - cell [ref=e6068]:
+                        - img [ref=e6071] [cursor=pointer]
+                    - row "15 G.Art-ong อาจองค์ คุ้มบาง 0890192527 1-017420 1 2 Active 19/05/2026" [ref=e6075]:
+                      - cell "15" [ref=e6076]
+                      - cell [ref=e6077]:
+                        - img [ref=e6080]
+                      - cell "G.Art-ong" [ref=e6082]:
+                        - generic [ref=e6083]: G.Art-ong
+                      - cell "อาจองค์ คุ้มบาง" [ref=e6084]:
+                        - link "อาจองค์ คุ้มบาง" [ref=e6085] [cursor=pointer]:
+                          - /url: guide/503?guide_type=guide
+                          - generic [ref=e6086]: อาจองค์ คุ้มบาง
+                      - cell "0890192527" [ref=e6087]:
+                        - generic [ref=e6088]: "0890192527"
+                      - cell "1-017420" [ref=e6089]:
+                        - generic [ref=e6090]: 1-017420
+                      - cell "1" [ref=e6091]:
+                        - generic [ref=e6093] [cursor=pointer]: "1"
+                      - cell "2" [ref=e6094]:
+                        - generic [ref=e6096] [cursor=pointer]: "2"
+                      - cell "Active" [ref=e6097]:
+                        - generic [ref=e6100]: Active
+                      - cell "19/05/2026" [ref=e6101]
+                      - cell [ref=e6102]:
+                        - img [ref=e6105] [cursor=pointer]
+                - list [ref=e6109]:
+                  - listitem "Previous Page" [ref=e6110]:
+                    - button "left" [disabled] [ref=e6111]:
+                      - img "left" [ref=e6112]:
+                        - img [ref=e6113]
+                  - listitem "1" [ref=e6115] [cursor=pointer]:
+                    - generic [ref=e6116]: "1"
+                  - listitem "2" [ref=e6117] [cursor=pointer]:
+                    - generic [ref=e6118]: "2"
+                  - listitem "3" [ref=e6119] [cursor=pointer]:
+                    - generic [ref=e6120]: "3"
+                  - listitem "4" [ref=e6121] [cursor=pointer]:
+                    - generic [ref=e6122]: "4"
+                  - listitem "5" [ref=e6123] [cursor=pointer]:
+                    - generic [ref=e6124]: "5"
+                  - listitem "Next 5 Pages" [ref=e6125] [cursor=pointer]:
+                    - generic [ref=e6127]:
+                      - img "double-right" [ref=e6128]:
+                        - img [ref=e6129]
+                      - generic [ref=e6131]: •••
+                  - listitem "15" [ref=e6132] [cursor=pointer]:
+                    - generic [ref=e6133]: "15"
+                  - listitem "Next Page" [ref=e6134] [cursor=pointer]:
+                    - button "right" [ref=e6135]:
+                      - img "right" [ref=e6136]:
+                        - img [ref=e6137]
+                  - listitem [ref=e6139]:
+                    - generic "Page Size" [ref=e6140] [cursor=pointer]:
+                      - generic [ref=e6142]:
+                        - combobox "Page Size" [ref=e6144]
+                        - generic "15 / page" [ref=e6145]
+                      - generic:
+                        - img:
+                          - img
+  - menu [ref=e6147]:
+    - menuitem "Continue Editing" [ref=e6148] [cursor=pointer]:
+      - img [ref=e6149]
+      - generic [ref=e6151]: Continue Editing

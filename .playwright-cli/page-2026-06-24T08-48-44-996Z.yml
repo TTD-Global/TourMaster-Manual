@@ -1,0 +1,104 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e59]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e66]: Drop off Transport
+            - menuitem "Check In" [expanded] [ref=e67] [cursor=pointer]:
+              - img [ref=e68]
+              - generic [ref=e71]: Check In
+            - menu [ref=e4699]:
+              - generic [ref=e4700]: Excursion
+              - group [ref=e4701]:
+                - menuitem "Check In" [ref=e4702] [cursor=pointer]:
+                  - img [ref=e4703]
+                  - generic [ref=e4705]: Check In
+                - menuitem "Check In List" [ref=e4706] [cursor=pointer]:
+                  - img [ref=e4707]
+                  - generic [ref=e4709]: Check In List
+              - generic [ref=e4710]: Transport
+              - group [ref=e4711]:
+                - menuitem "Check In" [active] [ref=e4712] [cursor=pointer]:
+                  - img [ref=e4713]
+                  - generic [ref=e4715]: Check In
+                - menuitem "Check In List" [ref=e4716] [cursor=pointer]:
+                  - img [ref=e4717]
+                  - generic [ref=e4719]: Check In List
+            - menuitem "Payment" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e76]: Payment
+            - menuitem "Guide Task" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e81]: Guide Task
+          - separator [ref=e82]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Program
+          - menuitem "Seller" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e92]: Seller
+          - menuitem "Vehicle" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Vehicle
+          - menuitem "Employee" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e102]: Employee
+          - menuitem "Zone Transfer" [ref=e103] [cursor=pointer]:
+            - img [ref=e104]
+            - generic [ref=e108]: Zone Transfer
+          - menuitem "User" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]
+            - generic [ref=e113]: User
+          - menuitem "Company" [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e117]: Company
+          - menuitem "User Manual" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: User Manual
+    - generic [ref=e122]:
+      - banner [ref=e123]:
+        - generic [ref=e125]:
+          - generic [ref=e126]: "Wed : 24 Jun 2026, 15:48"
+          - generic [ref=e128] [cursor=pointer]:
+            - generic [ref=e130]: AM
+            - generic [ref=e131]:
+              - generic [ref=e132]: amares123
+              - generic [ref=e133]: Claude test
+            - img [ref=e135]
+      - main [ref=e137]:
+        - generic [ref=e5185]:
+          - generic [ref=e5186]: Check In
+          - img [ref=e5187]
+          - generic [ref=e5189]: Check In
+        - generic [ref=e5191]:
+          - img [ref=e5192]
+          - generic [ref=e5479]:
+            - paragraph [ref=e5480]: Check In
+            - generic [ref=e5481]:
+              - textbox "Enter Booking ID" [ref=e5485]
+              - button [ref=e5487] [cursor=pointer]:
+                - img [ref=e5489]
+          - button "Check In" [disabled] [ref=e5492]

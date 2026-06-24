@@ -1,0 +1,349 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [expanded] [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - menu [ref=e124]:
+            - menuitem "Expense" [active] [ref=e22] [cursor=pointer]:
+              - img [ref=e23]
+              - generic [ref=e25]: Expense
+          - separator [ref=e26]
+          - text: Management
+          - group [ref=e27]:
+            - menuitem "Bookings" [ref=e28] [cursor=pointer]:
+              - img [ref=e29]
+              - generic [ref=e32]: Bookings
+            - menuitem "Excursion" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e36]: Excursion
+            - menuitem "Pick up Transport" [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - generic [ref=e43]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e44] [cursor=pointer]:
+              - img [ref=e45]
+              - generic [ref=e50]: Drop off Transport
+            - menuitem "Check In" [ref=e51] [cursor=pointer]:
+              - img [ref=e52]
+              - generic [ref=e55]: Check In
+            - menuitem "Payment" [ref=e56] [cursor=pointer]:
+              - img [ref=e57]
+              - generic [ref=e60]: Payment
+            - menuitem "Guide Task" [ref=e61] [cursor=pointer]:
+              - img [ref=e62]
+              - generic [ref=e65]: Guide Task
+          - separator [ref=e66]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e67] [cursor=pointer]:
+            - img [ref=e68]
+            - generic [ref=e72]: Program
+          - menuitem "Seller" [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Seller
+          - menuitem "Vehicle" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e80]: Vehicle
+          - menuitem "Employee" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e86]: Employee
+          - menuitem "Zone Transfer" [ref=e87] [cursor=pointer]:
+            - img [ref=e88]
+            - generic [ref=e92]: Zone Transfer
+          - menuitem "User" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e97]: User
+          - menuitem "Company" [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+            - generic [ref=e101]: Company
+          - menuitem "User Manual" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e105]: User Manual
+    - generic [ref=e106]:
+      - banner [ref=e107]:
+        - generic [ref=e109]:
+          - generic [ref=e110]: "Wed : 24 Jun 2026, 10:35"
+          - generic [ref=e112] [cursor=pointer]:
+            - generic [ref=e114]: AM
+            - generic [ref=e115]:
+              - generic [ref=e116]: amares123
+              - generic [ref=e117]: Claude test
+            - img [ref=e119]
+      - main [ref=e121]:
+        - generic [ref=e125]:
+          - generic [ref=e128]: Expense Dashboard
+          - generic [ref=e129]:
+            - generic "Destination" [ref=e130] [cursor=pointer]:
+              - generic [ref=e132]:
+                - combobox "Destination" [ref=e134]
+                - generic: All Destinations
+              - generic:
+                - img:
+                  - img
+            - generic "Program" [ref=e135] [cursor=pointer]:
+              - generic [ref=e137]:
+                - combobox "Program" [ref=e139]
+                - generic: All Programs
+              - generic:
+                - img:
+                  - img
+            - generic [ref=e140]:
+              - textbox "Expense date range" [ref=e142]:
+                - /placeholder: Start date
+                - text: 24/06/2026
+              - generic "to" [ref=e144]:
+                - img "swap-right" [ref=e145]:
+                  - img [ref=e146]
+              - textbox "Expense date range" [ref=e149]:
+                - /placeholder: End date
+                - text: 24/06/2026
+              - generic:
+                - img
+              - button "close-circle" [ref=e150] [cursor=pointer]:
+                - img "close-circle" [ref=e151]:
+                  - img [ref=e152]
+          - generic [ref=e154]:
+            - heading "June 24, 2026" [level=1] [ref=e155]
+            - generic [ref=e156]:
+              - button "Today" [ref=e157]
+              - button "Weekly" [ref=e158]
+              - button "Monthly" [ref=e159]
+              - button "Yearly" [ref=e160]
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - generic [ref=e165]:
+                - generic [ref=e166]:
+                  - img [ref=e168]
+                  - generic [ref=e172]:
+                    - heading "Expense Breakdown by Type" [level=2] [ref=e173]
+                    - paragraph [ref=e174]: Summary of Expenses by Type
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - img "Expense distribution donut chart" [ref=e177]
+                    - generic [ref=e178]:
+                      - generic [ref=e179]: Total Expense
+                      - strong [ref=e180]: ฿ 13,100.00
+                  - generic [ref=e181]:
+                    - generic [ref=e182]:
+                      - generic:
+                        - generic: Guide Fee
+                      - generic [ref=e184]: ฿ 4,000.00
+                      - generic [ref=e185]: 30.53%
+                    - generic [ref=e186]:
+                      - generic:
+                        - generic: Vehicle Cost
+                      - generic [ref=e188]: ฿ 9,100.00
+                      - generic [ref=e189]: 69.47%
+                    - generic [ref=e190]:
+                      - generic [ref=e193]: Other Expense
+                      - generic [ref=e194]: ฿ 0.00
+                      - generic [ref=e195]: 0%
+                    - generic [ref=e196]:
+                      - generic [ref=e199]: Allowance
+                      - generic [ref=e200]: ฿ 0.00
+                      - generic [ref=e201]: 0%
+                    - generic [ref=e202]:
+                      - generic [ref=e205]: Extra Cost
+                      - generic [ref=e206]: ฿ 0.00
+                      - generic [ref=e207]: 0%
+              - generic [ref=e208]:
+                - generic [ref=e209]:
+                  - img [ref=e211]
+                  - generic [ref=e213]:
+                    - heading "Expenses" [level=2] [ref=e214]
+                    - paragraph [ref=e215]: Total expense amount by month
+                  - generic "Chart year" [ref=e217] [cursor=pointer]:
+                    - generic [ref=e219]:
+                      - combobox "Chart year" [ref=e221]
+                      - generic "2026" [ref=e222]
+                    - generic:
+                      - img:
+                        - img
+                - generic [ref=e224]:
+                  - generic [ref=e225]:
+                    - generic [ref=e226]: 2M
+                    - generic [ref=e227]: 1.7M
+                    - generic [ref=e228]: 1.4M
+                    - generic [ref=e229]: 1.1M
+                    - generic [ref=e230]: 857.1K
+                    - generic [ref=e231]: 571.4K
+                    - generic [ref=e232]: 285.7K
+                    - generic [ref=e233]: "-0"
+                  - generic [ref=e234]:
+                    - generic [ref=e235]:
+                      - generic [ref=e236]:
+                        - img "Jan expense 0.00 baht"
+                      - generic [ref=e237]:
+                        - img "Feb expense 0.00 baht"
+                      - generic [ref=e238]:
+                        - img "Mar expense 0.00 baht"
+                      - generic [ref=e239]:
+                        - img "Apr expense 0.00 baht"
+                      - generic [ref=e240]:
+                        - img "May expense 0.00 baht"
+                      - img "Jun expense 1,008,808.00 baht" [ref=e242]
+                      - generic [ref=e243]:
+                        - img "Jul expense 0.00 baht"
+                      - generic [ref=e244]:
+                        - img "Aug expense 0.00 baht"
+                      - generic [ref=e245]:
+                        - img "Sep expense 0.00 baht"
+                      - generic [ref=e246]:
+                        - img "Oct expense 0.00 baht"
+                      - generic [ref=e247]:
+                        - img "Nov expense 0.00 baht"
+                      - generic [ref=e248]:
+                        - img "Dec expense 0.00 baht"
+                    - generic [ref=e249]:
+                      - generic [ref=e250]: Jan
+                      - generic [ref=e251]: Feb
+                      - generic [ref=e252]: Mar
+                      - generic [ref=e253]: Apr
+                      - generic [ref=e254]: May
+                      - generic [ref=e255]: Jun
+                      - generic [ref=e256]: Jul
+                      - generic [ref=e257]: Aug
+                      - generic [ref=e258]: Sep
+                      - generic [ref=e259]: Oct
+                      - generic [ref=e260]: Nov
+                      - generic [ref=e261]: Dec
+                - generic [ref=e263]: Expense
+            - generic [ref=e266]:
+              - generic [ref=e267]:
+                - img [ref=e269]
+                - generic [ref=e271]:
+                  - heading "Monthly Expense Comparison by Type" [level=2] [ref=e272]
+                  - paragraph [ref=e273]: Compare expense by type across months
+                - generic "Table year" [ref=e275] [cursor=pointer]:
+                  - generic [ref=e277]:
+                    - combobox "Table year" [ref=e279]
+                    - generic "2026" [ref=e280]
+                  - generic:
+                    - img:
+                      - img
+              - table [ref=e282]:
+                - rowgroup [ref=e283]:
+                  - row "Amount (฿) Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Total % of total" [ref=e284]:
+                    - columnheader "Amount (฿)" [ref=e285]
+                    - columnheader "Jan" [ref=e286]
+                    - columnheader "Feb" [ref=e287]
+                    - columnheader "Mar" [ref=e288]
+                    - columnheader "Apr" [ref=e289]
+                    - columnheader "May" [ref=e290]
+                    - columnheader "Jun" [ref=e291]
+                    - columnheader "Jul" [ref=e292]
+                    - columnheader "Aug" [ref=e293]
+                    - columnheader "Sep" [ref=e294]
+                    - columnheader "Oct" [ref=e295]
+                    - columnheader "Nov" [ref=e296]
+                    - columnheader "Dec" [ref=e297]
+                    - columnheader "Total" [ref=e298]
+                    - columnheader "% of total" [ref=e299]
+                - rowgroup [ref=e300]:
+                  - row "Guide Fee - - - - - 336,000.00 - - - - - - 336,000.00 33.31 %" [ref=e301]:
+                    - rowheader "Guide Fee" [ref=e302]:
+                      - generic [ref=e303]: Guide Fee
+                    - cell "-" [ref=e305]
+                    - cell "-" [ref=e306]
+                    - cell "-" [ref=e307]
+                    - cell "-" [ref=e308]
+                    - cell "-" [ref=e309]
+                    - cell "336,000.00" [ref=e310]
+                    - cell "-" [ref=e311]
+                    - cell "-" [ref=e312]
+                    - cell "-" [ref=e313]
+                    - cell "-" [ref=e314]
+                    - cell "-" [ref=e315]
+                    - cell "-" [ref=e316]
+                    - cell "336,000.00" [ref=e317]
+                    - cell "33.31 %" [ref=e318]
+                  - row "Vehicle Cost - - - - - 574,647.00 - - - - - - 574,647.00 56.96 %" [ref=e319]:
+                    - rowheader "Vehicle Cost" [ref=e320]:
+                      - generic [ref=e321]: Vehicle Cost
+                    - cell "-" [ref=e323]
+                    - cell "-" [ref=e324]
+                    - cell "-" [ref=e325]
+                    - cell "-" [ref=e326]
+                    - cell "-" [ref=e327]
+                    - cell "574,647.00" [ref=e328]
+                    - cell "-" [ref=e329]
+                    - cell "-" [ref=e330]
+                    - cell "-" [ref=e331]
+                    - cell "-" [ref=e332]
+                    - cell "-" [ref=e333]
+                    - cell "-" [ref=e334]
+                    - cell "574,647.00" [ref=e335]
+                    - cell "56.96 %" [ref=e336]
+                  - row "Other Expense - - - - - 20,724.00 - - - - - - 20,724.00 2.05 %" [ref=e337]:
+                    - rowheader "Other Expense" [ref=e338]:
+                      - generic [ref=e339]: Other Expense
+                    - cell "-" [ref=e341]
+                    - cell "-" [ref=e342]
+                    - cell "-" [ref=e343]
+                    - cell "-" [ref=e344]
+                    - cell "-" [ref=e345]
+                    - cell "20,724.00" [ref=e346]
+                    - cell "-" [ref=e347]
+                    - cell "-" [ref=e348]
+                    - cell "-" [ref=e349]
+                    - cell "-" [ref=e350]
+                    - cell "-" [ref=e351]
+                    - cell "-" [ref=e352]
+                    - cell "20,724.00" [ref=e353]
+                    - cell "2.05 %" [ref=e354]
+                  - row "Allowance - - - - - 38,990.00 - - - - - - 38,990.00 3.86 %" [ref=e355]:
+                    - rowheader "Allowance" [ref=e356]:
+                      - generic [ref=e357]: Allowance
+                    - cell "-" [ref=e359]
+                    - cell "-" [ref=e360]
+                    - cell "-" [ref=e361]
+                    - cell "-" [ref=e362]
+                    - cell "-" [ref=e363]
+                    - cell "38,990.00" [ref=e364]
+                    - cell "-" [ref=e365]
+                    - cell "-" [ref=e366]
+                    - cell "-" [ref=e367]
+                    - cell "-" [ref=e368]
+                    - cell "-" [ref=e369]
+                    - cell "-" [ref=e370]
+                    - cell "38,990.00" [ref=e371]
+                    - cell "3.86 %" [ref=e372]
+                  - row "Extra Cost - - - - - 38,447.00 - - - - - - 38,447.00 3.81 %" [ref=e373]:
+                    - rowheader "Extra Cost" [ref=e374]:
+                      - generic [ref=e375]: Extra Cost
+                    - cell "-" [ref=e377]
+                    - cell "-" [ref=e378]
+                    - cell "-" [ref=e379]
+                    - cell "-" [ref=e380]
+                    - cell "-" [ref=e381]
+                    - cell "38,447.00" [ref=e382]
+                    - cell "-" [ref=e383]
+                    - cell "-" [ref=e384]
+                    - cell "-" [ref=e385]
+                    - cell "-" [ref=e386]
+                    - cell "-" [ref=e387]
+                    - cell "-" [ref=e388]
+                    - cell "38,447.00" [ref=e389]
+                    - cell "3.81 %" [ref=e390]
+                  - row "Total Expense - - - - - 1,008,808.00 - - - - - - 1,008,808.00 -" [ref=e391]:
+                    - rowheader "Total Expense" [ref=e392]
+                    - cell "-" [ref=e393]
+                    - cell "-" [ref=e394]
+                    - cell "-" [ref=e395]
+                    - cell "-" [ref=e396]
+                    - cell "-" [ref=e397]
+                    - cell "1,008,808.00" [ref=e398]
+                    - cell "-" [ref=e399]
+                    - cell "-" [ref=e400]
+                    - cell "-" [ref=e401]
+                    - cell "-" [ref=e402]
+                    - cell "-" [ref=e403]
+                    - cell "-" [ref=e404]
+                    - cell "1,008,808.00" [ref=e405]
+                    - cell "-" [ref=e406]

@@ -1,0 +1,375 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e59]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e66]: Drop off Transport
+            - menuitem "Check In" [expanded] [ref=e67] [cursor=pointer]:
+              - img [ref=e68]
+              - generic [ref=e71]: Check In
+            - menu [ref=e4699]:
+              - generic [ref=e4700]: Excursion
+              - group [ref=e4701]:
+                - menuitem "Check In" [ref=e4702] [cursor=pointer]:
+                  - img [ref=e4703]
+                  - generic [ref=e4705]: Check In
+                - menuitem "Check In List" [active] [ref=e4706] [cursor=pointer]:
+                  - img [ref=e4707]
+                  - generic [ref=e4709]: Check In List
+              - generic [ref=e4710]: Transport
+              - group [ref=e4711]:
+                - menuitem "Check In" [ref=e4712] [cursor=pointer]:
+                  - img [ref=e4713]
+                  - generic [ref=e4715]: Check In
+                - menuitem "Check In List" [ref=e4716] [cursor=pointer]:
+                  - img [ref=e4717]
+                  - generic [ref=e4719]: Check In List
+            - menuitem "Payment" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e76]: Payment
+            - menuitem "Guide Task" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e81]: Guide Task
+          - separator [ref=e82]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Program
+          - menuitem "Seller" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e92]: Seller
+          - menuitem "Vehicle" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Vehicle
+          - menuitem "Employee" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e102]: Employee
+          - menuitem "Zone Transfer" [ref=e103] [cursor=pointer]:
+            - img [ref=e104]
+            - generic [ref=e108]: Zone Transfer
+          - menuitem "User" [ref=e109] [cursor=pointer]:
+            - img [ref=e110]
+            - generic [ref=e113]: User
+          - menuitem "Company" [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e117]: Company
+          - menuitem "User Manual" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: User Manual
+    - generic [ref=e122]:
+      - banner [ref=e123]:
+        - generic [ref=e125]:
+          - generic [ref=e126]: "Wed : 24 Jun 2026, 15:44"
+          - generic [ref=e128] [cursor=pointer]:
+            - generic [ref=e130]: AM
+            - generic [ref=e131]:
+              - generic [ref=e132]: amares123
+              - generic [ref=e133]: Claude test
+            - img [ref=e135]
+      - main [ref=e137]:
+        - generic [ref=e4720]:
+          - generic [ref=e4721]:
+            - generic [ref=e4723]:
+              - generic [ref=e4724]: Check In
+              - img [ref=e4725]
+              - generic [ref=e4727]: Check In List
+            - generic [ref=e4728]:
+              - generic [ref=e4730]:
+                - img [ref=e4732]
+                - textbox "Select Date" [ref=e4736]: 24/06/2026
+              - generic [ref=e4739]:
+                - img [ref=e4741]
+                - textbox "Enter search" [ref=e4744]
+              - button "Export" [ref=e4746] [cursor=pointer]:
+                - img [ref=e4748]
+                - generic [ref=e4751]: Export
+                - img [ref=e4753]
+          - generic [ref=e4755]:
+            - generic [ref=e4756]:
+              - generic [ref=e4757]:
+                - paragraph [ref=e4758]: "24"
+                - paragraph [ref=e4759]: Waiting
+              - img [ref=e4761]
+            - generic [ref=e4763]:
+              - generic [ref=e4764]:
+                - paragraph [ref=e4765]: "29"
+                - paragraph [ref=e4766]: Checked In
+              - img [ref=e4768]
+            - generic [ref=e4771]:
+              - generic [ref=e4772]:
+                - paragraph [ref=e4773]: "2"
+                - paragraph [ref=e4774]: No show
+              - img [ref=e4776]
+            - generic [ref=e4781]:
+              - generic [ref=e4782]:
+                - paragraph [ref=e4783]: "7"
+                - paragraph [ref=e4784]: Amount Trip
+              - img [ref=e4786]
+            - generic [ref=e4789]:
+              - generic [ref=e4790]:
+                - paragraph [ref=e4791]: "55"
+                - paragraph [ref=e4792]: Amount Pax
+              - img [ref=e4794]
+          - generic [ref=e4799]:
+            - generic [ref=e4800]:
+              - tablist [ref=e4801]:
+                - generic [ref=e4803]:
+                  - tab "All 7" [selected] [ref=e4805] [cursor=pointer]:
+                    - generic [ref=e4807]:
+                      - text: All
+                      - generic [ref=e4809]: "7"
+                  - tab "Pending 2" [ref=e4811] [cursor=pointer]:
+                    - generic [ref=e4813]:
+                      - text: Pending
+                      - generic [ref=e4815]: "2"
+                  - tab "Completed 5" [ref=e4817] [cursor=pointer]:
+                    - generic [ref=e4819]:
+                      - text: Completed
+                      - generic [ref=e4821]: "5"
+              - generic:
+                - generic:
+                  - tabpanel "All 7"
+            - generic [ref=e4825]:
+              - table [ref=e4829]:
+                - rowgroup [ref=e4845]:
+                  - row "# Trip Code Travel Date Trip Type Trip Round Program Registration Personnel Guide Pax Waiting Checked In No show Action" [ref=e4846]:
+                    - columnheader "#" [ref=e4847]
+                    - columnheader "Trip Code" [ref=e4848]
+                    - columnheader "Travel Date" [ref=e4849]
+                    - columnheader "Trip Type" [ref=e4850]
+                    - columnheader "Trip Round" [ref=e4851]
+                    - columnheader "Program" [ref=e4852]
+                    - columnheader "Registration" [ref=e4853]
+                    - columnheader "Personnel" [ref=e4854]
+                    - columnheader "Guide" [ref=e4855]
+                    - columnheader "Pax" [ref=e4856]
+                    - columnheader "Waiting" [ref=e4857]
+                    - columnheader "Checked In" [ref=e4858]
+                    - columnheader "No show" [ref=e4859]
+                    - columnheader "Action" [ref=e4860]
+                - rowgroup [ref=e4861]:
+                  - 'row "1 EC26PZJ7 24/06/2026 Join In 07:30 Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch BUS (36) : นน-1133 Romio อรอนงค์ ปาละวิสุทธิ์ 10 0 9 1" [ref=e4862]':
+                    - cell "1" [ref=e4863]
+                    - cell "EC26PZJ7" [ref=e4864]:
+                      - generic [ref=e4866] [cursor=pointer]: EC26PZJ7
+                    - cell "24/06/2026" [ref=e4867]
+                    - cell "Join In" [ref=e4868]:
+                      - generic [ref=e4870]:
+                        - img [ref=e4872]
+                        - generic [ref=e4877]: Join In
+                    - cell "07:30" [ref=e4878]
+                    - 'cell "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch" [ref=e4879]':
+                      - generic [ref=e4881] [cursor=pointer]: "Phuket : Maya Bay, Phi Phi & Bamboo Islands with Lunch"
+                    - 'cell "BUS (36) : นน-1133" [ref=e4882]':
+                      - generic [ref=e4884]: "BUS (36) : นน-1133"
+                    - cell "Romio" [ref=e4885]:
+                      - generic [ref=e4887]: Romio
+                    - cell "อรอนงค์ ปาละวิสุทธิ์" [ref=e4888]:
+                      - generic [ref=e4890]: อรอนงค์ ปาละวิสุทธิ์
+                    - cell "10" [ref=e4891]
+                    - cell "0" [ref=e4892]
+                    - cell "9" [ref=e4893]
+                    - cell "1" [ref=e4894]
+                    - cell [ref=e4895]:
+                      - img [ref=e4897] [cursor=pointer]
+                  - 'row "2 EC26UGQN 24/06/2026 Private 07:30 Damnoen + Buffalo Cafe + Maeklong BUS (36) : นน-1122 TEST22 จีระเดช ชูธวัช 16 16 0 0" [ref=e4901]':
+                    - cell "2" [ref=e4902]
+                    - cell "EC26UGQN" [ref=e4903]:
+                      - generic [ref=e4905] [cursor=pointer]: EC26UGQN
+                    - cell "24/06/2026" [ref=e4906]
+                    - cell "Private" [ref=e4907]:
+                      - generic [ref=e4909]:
+                        - img [ref=e4911]
+                        - generic [ref=e4914]: Private
+                    - cell "07:30" [ref=e4915]
+                    - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e4916]:
+                      - generic [ref=e4918] [cursor=pointer]: Damnoen + Buffalo Cafe + Maeklong
+                    - 'cell "BUS (36) : นน-1122" [ref=e4919]':
+                      - generic [ref=e4921]: "BUS (36) : นน-1122"
+                    - cell "TEST22" [ref=e4922]:
+                      - generic [ref=e4924]: TEST22
+                    - cell "จีระเดช ชูธวัช" [ref=e4925]:
+                      - generic [ref=e4927]: จีระเดช ชูธวัช
+                    - cell "16" [ref=e4928]
+                    - cell "16" [ref=e4929]
+                    - cell "0" [ref=e4930]
+                    - cell "0" [ref=e4931]
+                    - cell [ref=e4932]:
+                      - img [ref=e4934] [cursor=pointer]
+                  - 'row "3 EC262UPI 24/06/2026 Private 07:30 Damnoen + Buffalo Cafe + Maeklong VAN (12) : กง-6352 K.yee ปริษา วิทยาวรการ 6 0 6 0" [ref=e4938]':
+                    - cell "3" [ref=e4939]
+                    - cell "EC262UPI" [ref=e4940]:
+                      - generic [ref=e4942] [cursor=pointer]: EC262UPI
+                    - cell "24/06/2026" [ref=e4943]
+                    - cell "Private" [ref=e4944]:
+                      - generic [ref=e4946]:
+                        - img [ref=e4948]
+                        - generic [ref=e4951]: Private
+                    - cell "07:30" [ref=e4952]
+                    - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e4953]:
+                      - generic [ref=e4955] [cursor=pointer]: Damnoen + Buffalo Cafe + Maeklong
+                    - 'cell "VAN (12) : กง-6352" [ref=e4956]':
+                      - generic [ref=e4958]: "VAN (12) : กง-6352"
+                    - cell "K.yee" [ref=e4959]:
+                      - generic [ref=e4961]: K.yee
+                    - cell "ปริษา วิทยาวรการ" [ref=e4962]:
+                      - generic [ref=e4964]: ปริษา วิทยาวรการ
+                    - cell "6" [ref=e4965]
+                    - cell "0" [ref=e4966]
+                    - cell "6" [ref=e4967]
+                    - cell "0" [ref=e4968]
+                    - cell [ref=e4969]:
+                      - img [ref=e4971] [cursor=pointer]
+                  - 'row "4 EC26RUK9 24/06/2026 Private 07:30 Damnoen + Buffalo Cafe + Maeklong VAN (12) : หอ-5566 test โรจนา ลอนใหม่ 2 0 2 0" [ref=e4975]':
+                    - cell "4" [ref=e4976]
+                    - cell "EC26RUK9" [ref=e4977]:
+                      - generic [ref=e4979] [cursor=pointer]: EC26RUK9
+                    - cell "24/06/2026" [ref=e4980]
+                    - cell "Private" [ref=e4981]:
+                      - generic [ref=e4983]:
+                        - img [ref=e4985]
+                        - generic [ref=e4988]: Private
+                    - cell "07:30" [ref=e4989]
+                    - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e4990]:
+                      - generic [ref=e4992] [cursor=pointer]: Damnoen + Buffalo Cafe + Maeklong
+                    - 'cell "VAN (12) : หอ-5566" [ref=e4993]':
+                      - generic [ref=e4995]: "VAN (12) : หอ-5566"
+                    - cell "test" [ref=e4996]:
+                      - generic [ref=e4998]: test
+                    - cell "โรจนา ลอนใหม่" [ref=e4999]:
+                      - generic [ref=e5001]: โรจนา ลอนใหม่
+                    - cell "2" [ref=e5002]
+                    - cell "0" [ref=e5003]
+                    - cell "2" [ref=e5004]
+                    - cell "0" [ref=e5005]
+                    - cell [ref=e5006]:
+                      - img [ref=e5008] [cursor=pointer]
+                  - 'row "5 EC26EWBZ 24/06/2026 Private 07:30 Damnoen + Buffalo Cafe + Maeklong VAN (12) : กง-6352 K.lee รุจิรดา แก้วศิริ 6 0 6 0" [ref=e5012]':
+                    - cell "5" [ref=e5013]
+                    - cell "EC26EWBZ" [ref=e5014]:
+                      - generic [ref=e5016] [cursor=pointer]: EC26EWBZ
+                    - cell "24/06/2026" [ref=e5017]
+                    - cell "Private" [ref=e5018]:
+                      - generic [ref=e5020]:
+                        - img [ref=e5022]
+                        - generic [ref=e5025]: Private
+                    - cell "07:30" [ref=e5026]
+                    - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e5027]:
+                      - generic [ref=e5029] [cursor=pointer]: Damnoen + Buffalo Cafe + Maeklong
+                    - 'cell "VAN (12) : กง-6352" [ref=e5030]':
+                      - generic [ref=e5032]: "VAN (12) : กง-6352"
+                    - cell "K.lee" [ref=e5033]:
+                      - generic [ref=e5035]: K.lee
+                    - cell "รุจิรดา แก้วศิริ" [ref=e5036]:
+                      - generic [ref=e5038]: รุจิรดา แก้วศิริ
+                    - cell "6" [ref=e5039]
+                    - cell "0" [ref=e5040]
+                    - cell "6" [ref=e5041]
+                    - cell "0" [ref=e5042]
+                    - cell [ref=e5043]:
+                      - img [ref=e5045] [cursor=pointer]
+                  - 'row "6 EC26QC1F 24/06/2026 Private 07:30 Damnoen + Buffalo Cafe + Maeklong VAN (12) : กง-6352 guitar วริศรา นราพล 8 8 0 0" [ref=e5049]':
+                    - cell "6" [ref=e5050]
+                    - cell "EC26QC1F" [ref=e5051]:
+                      - generic [ref=e5053] [cursor=pointer]: EC26QC1F
+                    - cell "24/06/2026" [ref=e5054]
+                    - cell "Private" [ref=e5055]:
+                      - generic [ref=e5057]:
+                        - img [ref=e5059]
+                        - generic [ref=e5062]: Private
+                    - cell "07:30" [ref=e5063]
+                    - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e5064]:
+                      - generic [ref=e5066] [cursor=pointer]: Damnoen + Buffalo Cafe + Maeklong
+                    - 'cell "VAN (12) : กง-6352" [ref=e5067]':
+                      - generic [ref=e5069]: "VAN (12) : กง-6352"
+                    - cell "guitar" [ref=e5070]:
+                      - generic [ref=e5072]: guitar
+                    - cell "วริศรา นราพล" [ref=e5073]:
+                      - generic [ref=e5075]: วริศรา นราพล
+                    - cell "8" [ref=e5076]
+                    - cell "8" [ref=e5077]
+                    - cell "0" [ref=e5078]
+                    - cell "0" [ref=e5079]
+                    - cell [ref=e5080]:
+                      - img [ref=e5082] [cursor=pointer]
+                  - 'row "7 EC267WJI 24/06/2026 Join In 07:30 Damnoen + Buffalo Cafe + Maeklong BUS (39) : กข-8888 K.Ar ปราณี อุบสิทธิ์ 7 0 6 1" [ref=e5086]':
+                    - cell "7" [ref=e5087]
+                    - cell "EC267WJI" [ref=e5088]:
+                      - generic [ref=e5090] [cursor=pointer]: EC267WJI
+                    - cell "24/06/2026" [ref=e5091]
+                    - cell "Join In" [ref=e5092]:
+                      - generic [ref=e5094]:
+                        - img [ref=e5096]
+                        - generic [ref=e5101]: Join In
+                    - cell "07:30" [ref=e5102]
+                    - cell "Damnoen + Buffalo Cafe + Maeklong" [ref=e5103]:
+                      - generic [ref=e5105] [cursor=pointer]: Damnoen + Buffalo Cafe + Maeklong
+                    - 'cell "BUS (39) : กข-8888" [ref=e5106]':
+                      - generic [ref=e5108]: "BUS (39) : กข-8888"
+                    - cell "K.Ar" [ref=e5109]:
+                      - generic [ref=e5111]: K.Ar
+                    - cell "ปราณี อุบสิทธิ์" [ref=e5112]:
+                      - generic [ref=e5114]: ปราณี อุบสิทธิ์
+                    - cell "7" [ref=e5115]
+                    - cell "0" [ref=e5116]
+                    - cell "6" [ref=e5117]
+                    - cell "1" [ref=e5118]
+                    - cell [ref=e5119]:
+                      - img [ref=e5121] [cursor=pointer]
+                - rowgroup [ref=e5125]:
+                  - row "Total 55 24 29 2" [ref=e5126]:
+                    - cell "Total" [ref=e5127]
+                    - cell [ref=e5128]
+                    - cell [ref=e5129]
+                    - cell [ref=e5130]
+                    - cell [ref=e5131]
+                    - cell [ref=e5132]
+                    - cell [ref=e5133]
+                    - cell [ref=e5134]
+                    - cell [ref=e5135]
+                    - cell "55" [ref=e5136]
+                    - cell "24" [ref=e5137]
+                    - cell "29" [ref=e5138]
+                    - cell "2" [ref=e5139]
+                    - cell [ref=e5140]
+              - list [ref=e5141]:
+                - listitem "Previous Page" [ref=e5142]:
+                  - button "left" [disabled] [ref=e5143]:
+                    - img "left" [ref=e5144]:
+                      - img [ref=e5145]
+                - listitem "1" [ref=e5147] [cursor=pointer]:
+                  - generic [ref=e5148]: "1"
+                - listitem "Next Page" [ref=e5149]:
+                  - button "right" [disabled] [ref=e5150]:
+                    - img "right" [ref=e5151]:
+                      - img [ref=e5152]
+                - listitem [ref=e5154]:
+                  - generic "Page Size" [ref=e5155] [cursor=pointer]:
+                    - generic [ref=e5157]:
+                      - combobox "Page Size" [ref=e5159]
+                      - generic "15 / page" [ref=e5160]
+                    - generic:
+                      - img:
+                        - img

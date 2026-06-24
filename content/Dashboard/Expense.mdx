@@ -1,0 +1,76 @@
+---
+title: Expense
+sidebar_position: 3
+---
+
+# Expense
+
+**Expense Dashboard** คือ Dashboard ติดตามค่าใช้จ่ายทั้งหมดของบริษัท แสดงสัดส่วนค่าใช้จ่ายแยกตามประเภท และเปรียบเทียบแนวโน้มรายเดือน
+
+เข้าถึงได้จาก **Dashboard → Expense**
+
+---
+
+## ภาพรวม
+
+<div className="manual-img-500">
+
+![Expense Dashboard](/img/Dashboard/dashboard-expense.png)
+
+</div>
+
+### ตัวกรอง
+
+| ตัวกรอง | คำอธิบาย |
+|---------|----------|
+| **All Destinations** | กรองตามจุดหมายปลายทาง |
+| **All Programs** | กรองตามโปรแกรมทัวร์ |
+| **แท็บช่วงเวลา** | Today / Weekly / Monthly / Yearly |
+
+---
+
+## Expense Breakdown by Type
+
+ส่วนบนแสดงแผนภูมิวงกลมสัดส่วนค่าใช้จ่ายแยกตามประเภท พร้อม Summary Cards
+
+| Card | คำอธิบาย |
+|------|----------|
+| **Total Expense** | ค่าใช้จ่ายรวมทั้งหมด |
+| **Guide Fee** | ค่าตอบแทน Guide (พร้อม %) |
+| **Vehicle Cost** | ค่าใช้จ่ายยานพาหนะ (พร้อม %) |
+| **Other Expense** | ค่าใช้จ่ายอื่นๆ (พร้อม %) |
+| **Allowance** | ค่าเบี้ยเลี้ยง (พร้อม %) |
+| **Extra Cost** | ค่าใช้จ่ายพิเศษ (พร้อม %) |
+
+---
+
+## Expenses — กราฟรายเดือน
+
+<div className="manual-img-500">
+
+![Expense Chart](/img/Dashboard/dashboard-expense-chart.png)
+
+</div>
+
+กราฟแท่งแสดง **Total expense amount by month** เปรียบเทียบค่าใช้จ่ายรวมแต่ละเดือนในปีที่เลือก สามารถเลือกปีได้จาก dropdown
+
+---
+
+## Monthly Expense Comparison by Type
+
+<div className="manual-img-500">
+
+![Expense Table](/img/Dashboard/dashboard-expense-table.png)
+
+</div>
+
+ตารางเปรียบเทียบค่าใช้จ่ายแยกตามประเภทในแต่ละเดือน
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **Amount (฿)** | ประเภทค่าใช้จ่าย |
+| **Jan – Dec** | ยอดค่าใช้จ่ายในแต่ละเดือน |
+| **Total** | ยอดรวมตลอดปี |
+| **% of total** | สัดส่วนเทียบกับค่าใช้จ่ายรวม |
+
+แถวในตาราง ได้แก่ Guide Fee, Vehicle Cost, Other Expense, Allowance, Extra Cost และ **Total Expense** (แถวสรุป)

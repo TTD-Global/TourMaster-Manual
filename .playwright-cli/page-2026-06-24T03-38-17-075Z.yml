@@ -1,0 +1,195 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [expanded] [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - menu:
+            - menuitem "Company Overview" [ref=e22] [cursor=pointer]:
+              - img [ref=e23]
+              - generic [ref=e25]: Company Overview
+            - menuitem "Tour" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+              - generic [ref=e29]: Tour
+            - menuitem "Vehicle" [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+              - generic [ref=e33]: Vehicle
+            - menuitem "Guide" [ref=e34] [cursor=pointer]:
+              - img [ref=e35]
+              - generic [ref=e37]: Guide
+            - menuitem "Expense" [ref=e38] [cursor=pointer]:
+              - img [ref=e39]
+              - generic [ref=e41]: Expense
+            - menuitem "KPI" [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+              - generic [ref=e45]: KPI
+          - separator [ref=e46]
+          - text: Management
+          - group [ref=e47]:
+            - menuitem "Bookings" [ref=e48] [cursor=pointer]:
+              - img [ref=e49]
+              - generic [ref=e52]: Bookings
+            - menuitem "Excursion" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e56]: Excursion
+            - menuitem "Pick up Transport" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e63]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e70]: Drop off Transport
+            - menuitem "Check In" [ref=e71] [cursor=pointer]:
+              - img [ref=e72]
+              - generic [ref=e75]: Check In
+            - menuitem "Payment" [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+              - generic [ref=e80]: Payment
+            - menuitem "Guide Task" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e85]: Guide Task
+          - separator [ref=e86]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e87] [cursor=pointer]:
+            - img [ref=e88]
+            - generic [ref=e92]: Program
+          - menuitem "Seller" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e96]: Seller
+          - menuitem "Vehicle" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e100]: Vehicle
+          - menuitem "Employee" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e106]: Employee
+          - menuitem "Zone Transfer" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e112]: Zone Transfer
+          - menuitem "User" [ref=e113] [cursor=pointer]:
+            - img [ref=e114]
+            - generic [ref=e117]: User
+          - menuitem "Company" [ref=e118] [cursor=pointer]:
+            - img [ref=e119]
+            - generic [ref=e121]: Company
+          - menuitem "User Manual" [ref=e122] [cursor=pointer]:
+            - img [ref=e123]
+            - generic [ref=e125]: User Manual
+    - generic [ref=e126]:
+      - banner [ref=e127]:
+        - generic [ref=e129]:
+          - generic [ref=e130]: "Wed : 24 Jun 2026, 10:38"
+          - generic [ref=e132] [cursor=pointer]:
+            - generic [ref=e134]: AM
+            - generic [ref=e135]:
+              - generic [ref=e136]: amares123
+              - generic [ref=e137]: Claude test
+            - img [ref=e139]
+      - main [ref=e141]:
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic [ref=e144]: Dashboard
+            - img [ref=e145]
+            - generic [ref=e147]: Guide
+          - generic [ref=e148]:
+            - generic [ref=e149]:
+              - button "Today" [ref=e150]
+              - button "7 Days" [ref=e151]
+              - button "30 Days" [ref=e152]
+              - button "12 Months" [ref=e153]
+            - generic [ref=e154]:
+              - textbox "Start date" [ref=e156]: 24/06/2026
+              - generic "to" [ref=e158]:
+                - img "swap-right" [ref=e159]:
+                  - img [ref=e160]
+              - textbox "End date" [ref=e163]: 24/06/2026
+              - generic:
+                - img
+              - button "close-circle" [ref=e164] [cursor=pointer]:
+                - img "close-circle" [ref=e165]:
+                  - img [ref=e166]
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - heading "Guide Dashboard" [level=1] [ref=e170]
+              - img [ref=e171]
+            - paragraph [ref=e173]: June 24, 2026
+          - generic [ref=e174]:
+            - generic [ref=e175]:
+              - generic [ref=e176]:
+                - generic [ref=e177]:
+                  - generic [ref=e178]:
+                    - heading "Total Guide" [level=2] [ref=e179]
+                    - paragraph [ref=e180]: "0"
+                  - img [ref=e182]
+                - generic [ref=e186]:
+                  - img [ref=e187]
+                  - generic [ref=e189]: 0%
+              - generic [ref=e190]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Guide
+                  - generic [ref=e195]: "0"
+                - generic [ref=e198]:
+                  - generic [ref=e199]: Staff
+                  - generic [ref=e200]: "0"
+            - generic [ref=e201]:
+              - generic [ref=e202]:
+                - generic [ref=e203]:
+                  - generic [ref=e204]:
+                    - heading "Guide & Staff used" [level=2] [ref=e205]
+                    - paragraph [ref=e206]: "0"
+                  - img [ref=e208]
+                - generic [ref=e212]:
+                  - img [ref=e213]
+                  - generic [ref=e215]: 0%
+              - generic [ref=e216]:
+                - generic [ref=e219]:
+                  - generic [ref=e220]: Guide
+                  - generic [ref=e221]: "0"
+                - generic [ref=e224]:
+                  - generic [ref=e225]: Staff
+                  - generic [ref=e226]: "0"
+            - generic [ref=e227]:
+              - generic [ref=e228]:
+                - generic [ref=e229]:
+                  - generic [ref=e230]:
+                    - heading "Total Trip" [level=2] [ref=e231]
+                    - paragraph [ref=e232]: "0"
+                  - img [ref=e234]
+                - generic [ref=e237]:
+                  - img [ref=e238]
+                  - generic [ref=e240]: 0%
+              - generic [ref=e241]:
+                - generic [ref=e243]:
+                  - generic [ref=e244]: Private Trip
+                  - generic [ref=e245]: "0"
+                - generic [ref=e248]:
+                  - generic [ref=e249]: Join In Trip
+                  - generic [ref=e250]: "0"
+          - generic [ref=e252]:
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - heading "Guide usage by program" [level=2] [ref=e255]
+                - button "View all programs" [ref=e256]
+              - generic [ref=e258]: No data found
+            - generic [ref=e259]:
+              - generic [ref=e260]:
+                - generic [ref=e261]:
+                  - generic [ref=e262]:
+                    - generic [ref=e263]:
+                      - heading "Total Participants" [level=2] [ref=e264]
+                      - paragraph [ref=e265]: "0"
+                    - img [ref=e267]
+                  - generic [ref=e272]:
+                    - img [ref=e273]
+                    - generic [ref=e275]: 0%
+                - generic [ref=e277]: No data found
+              - generic [ref=e278]:
+                - generic [ref=e279]:
+                  - heading "Top guides assigned most tasks" [level=2] [ref=e280]
+                  - button "View guide ranking" [ref=e281]
+                - generic [ref=e283]: No data found

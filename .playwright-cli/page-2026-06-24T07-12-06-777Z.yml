@@ -1,0 +1,429 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menuitem "Guide Task" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e61]: Guide Task
+          - separator [ref=e62]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e63] [cursor=pointer]:
+            - img [ref=e64]
+            - generic [ref=e68]: Program
+          - menuitem "Seller" [ref=e69] [cursor=pointer]:
+            - img [ref=e70]
+            - generic [ref=e72]: Seller
+          - menuitem "Vehicle" [ref=e73] [cursor=pointer]:
+            - img [ref=e74]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menu [ref=e220]:
+            - menuitem "Employee summary" [ref=e83] [cursor=pointer]:
+              - img [ref=e84]
+              - generic [ref=e86]: Employee summary
+            - menuitem "Guide / Staff" [ref=e87] [cursor=pointer]:
+              - img [ref=e88]
+              - generic [ref=e90]: Guide / Staff
+            - menuitem "Other" [ref=e91] [cursor=pointer]:
+              - img [ref=e92]
+              - generic [ref=e94]: Other
+            - menuitem "Positions" [ref=e95] [cursor=pointer]:
+              - img [ref=e96]
+              - generic [ref=e98]: Positions
+          - menuitem "Zone Transfer" [ref=e99] [cursor=pointer]:
+            - img [ref=e100]
+            - generic [ref=e104]: Zone Transfer
+          - menuitem "User" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e109]: User
+          - menuitem "Company" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: Company
+          - menuitem "User Manual" [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e117]: User Manual
+    - generic [ref=e118]:
+      - banner [ref=e119]:
+        - generic [ref=e121]:
+          - generic [ref=e122]: "Wed : 24 Jun 2026, 14:12"
+          - generic [ref=e124] [cursor=pointer]:
+            - generic [ref=e126]: AM
+            - generic [ref=e127]:
+              - generic [ref=e128]: amares123
+              - generic [ref=e129]: Claude test
+            - img [ref=e131]
+      - main [ref=e133]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e136]:
+              - generic [ref=e137]: Employee
+              - img [ref=e138]
+              - generic [ref=e140]: Other
+            - button "Create Other" [ref=e142] [cursor=pointer]:
+              - img [ref=e144]
+              - text: Create Other
+          - generic [ref=e147]:
+            - generic [ref=e150]:
+              - img [ref=e152]
+              - textbox "Search" [ref=e155]
+            - button "Filter" [ref=e157] [cursor=pointer]:
+              - img [ref=e159]
+              - text: Filter
+            - button "Export" [ref=e162] [cursor=pointer]:
+              - img [ref=e164]
+              - generic [ref=e167]: Export
+              - img [ref=e169]
+          - generic [ref=e174]:
+            - table [ref=e178]:
+              - rowgroup [ref=e189]:
+                - row "# Image Position Name Phone Number Registration Status Last Modify Date Action" [ref=e190]:
+                  - columnheader "#" [ref=e191]
+                  - columnheader "Image" [ref=e192]
+                  - columnheader "Position" [ref=e193]
+                  - columnheader "Name" [ref=e194]
+                  - columnheader "Phone Number" [ref=e195]
+                  - columnheader "Registration" [ref=e196]
+                  - columnheader "Status" [ref=e197]
+                  - columnheader "Last Modify Date" [ref=e198]
+                  - columnheader "Action" [ref=e199]
+              - rowgroup [ref=e200]:
+                - row "1 Assistant captain yee 06879864644 - Active 24/06/2026" [ref=e221]:
+                  - cell "1" [ref=e222]
+                  - cell [ref=e223]:
+                    - img [ref=e226]
+                  - cell "Assistant captain" [ref=e228]:
+                    - generic [ref=e229]: Assistant captain
+                  - cell "yee" [ref=e230]:
+                    - generic [ref=e231]: yee
+                  - cell "06879864644" [ref=e232]:
+                    - generic [ref=e233]: "06879864644"
+                  - cell "-" [ref=e234]:
+                    - generic [ref=e235]: "-"
+                  - cell "Active" [ref=e236]:
+                    - generic [ref=e239]: Active
+                  - cell "24/06/2026" [ref=e240]
+                  - cell [ref=e241]:
+                    - img [ref=e244] [cursor=pointer]
+                - row "2 Assistant captain wee 06879864677 - Active 24/06/2026" [ref=e248]:
+                  - cell "2" [ref=e249]
+                  - cell [ref=e250]:
+                    - img [ref=e253]
+                  - cell "Assistant captain" [ref=e255]:
+                    - generic [ref=e256]: Assistant captain
+                  - cell "wee" [ref=e257]:
+                    - generic [ref=e258]: wee
+                  - cell "06879864677" [ref=e259]:
+                    - generic [ref=e260]: "06879864677"
+                  - cell "-" [ref=e261]:
+                    - generic [ref=e262]: "-"
+                  - cell "Active" [ref=e263]:
+                    - generic [ref=e266]: Active
+                  - cell "24/06/2026" [ref=e267]
+                  - cell [ref=e268]:
+                    - img [ref=e271] [cursor=pointer]
+                - row "3 Driver Romio 06879864897 - Active 23/06/2026" [ref=e275]:
+                  - cell "3" [ref=e276]
+                  - cell [ref=e277]:
+                    - img [ref=e280]
+                  - cell "Driver" [ref=e282]:
+                    - generic [ref=e283]: Driver
+                  - cell "Romio" [ref=e284]:
+                    - generic [ref=e285]: Romio
+                  - cell "06879864897" [ref=e286]:
+                    - generic [ref=e287]: "06879864897"
+                  - cell "-" [ref=e288]:
+                    - generic [ref=e289]: "-"
+                  - cell "Active" [ref=e290]:
+                    - generic [ref=e293]: Active
+                  - cell "23/06/2026" [ref=e294]
+                  - cell [ref=e295]:
+                    - img [ref=e298] [cursor=pointer]
+                - row "4 Driver K.Ar 06879864644 - Active 23/06/2026" [ref=e302]:
+                  - cell "4" [ref=e303]
+                  - cell [ref=e304]:
+                    - img [ref=e307]
+                  - cell "Driver" [ref=e309]:
+                    - generic [ref=e310]: Driver
+                  - cell "K.Ar" [ref=e311]:
+                    - generic [ref=e312]: K.Ar
+                  - cell "06879864644" [ref=e313]:
+                    - generic [ref=e314]: "06879864644"
+                  - cell "-" [ref=e315]:
+                    - generic [ref=e316]: "-"
+                  - cell "Active" [ref=e317]:
+                    - generic [ref=e320]: Active
+                  - cell "23/06/2026" [ref=e321]
+                  - cell [ref=e322]:
+                    - img [ref=e325] [cursor=pointer]
+                - row "5 Captain Siriporn Kaewta 082-555-7788 - Active 16/06/2026" [ref=e329]:
+                  - cell "5" [ref=e330]
+                  - cell [ref=e331]:
+                    - img [ref=e334]
+                  - cell "Captain" [ref=e336]:
+                    - generic [ref=e337]: Captain
+                  - cell "Siriporn Kaewta" [ref=e338]:
+                    - generic [ref=e339]: Siriporn Kaewta
+                  - cell "082-555-7788" [ref=e340]:
+                    - generic [ref=e341]: 082-555-7788
+                  - cell "-" [ref=e342]:
+                    - generic [ref=e343]: "-"
+                  - cell "Active" [ref=e344]:
+                    - generic [ref=e347]: Active
+                  - cell "16/06/2026" [ref=e348]
+                  - cell [ref=e349]:
+                    - img [ref=e352] [cursor=pointer]
+                - row "6 Driver TestOtherE2E 0991234567 กข-3333 Active 16/06/2026" [ref=e356]:
+                  - cell "6" [ref=e357]
+                  - cell [ref=e358]:
+                    - img [ref=e361]
+                  - cell "Driver" [ref=e363]:
+                    - generic [ref=e364]: Driver
+                  - cell "TestOtherE2E" [ref=e365]:
+                    - generic [ref=e366]: TestOtherE2E
+                  - cell "0991234567" [ref=e367]:
+                    - generic [ref=e368]: "0991234567"
+                  - cell "กข-3333" [ref=e369]:
+                    - generic [ref=e370]: กข-3333
+                  - cell "Active" [ref=e371]:
+                    - generic [ref=e374]: Active
+                  - cell "16/06/2026" [ref=e375]
+                  - cell [ref=e376]:
+                    - img [ref=e379] [cursor=pointer]
+                - row "7 Driver OtherE2E1779332501400Edited 0991234567 กง-1234 Active 21/05/2026" [ref=e383]:
+                  - cell "7" [ref=e384]
+                  - cell [ref=e385]:
+                    - img [ref=e388]
+                  - cell "Driver" [ref=e390]:
+                    - generic [ref=e391]: Driver
+                  - cell "OtherE2E1779332501400Edited" [ref=e392]:
+                    - generic [ref=e393]: OtherE2E1779332501400Edited
+                  - cell "0991234567" [ref=e394]:
+                    - generic [ref=e395]: "0991234567"
+                  - cell "กง-1234" [ref=e396]:
+                    - generic [ref=e397]: กง-1234
+                  - cell "Active" [ref=e398]:
+                    - generic [ref=e401]: Active
+                  - cell "21/05/2026" [ref=e402]
+                  - cell [ref=e403]:
+                    - img [ref=e406] [cursor=pointer]
+                - row "8 Driver OtherE2E1779331786677Edited 0991234567 กง-1234 Active 21/05/2026" [ref=e410]:
+                  - cell "8" [ref=e411]
+                  - cell [ref=e412]:
+                    - img [ref=e415]
+                  - cell "Driver" [ref=e417]:
+                    - generic [ref=e418]: Driver
+                  - cell "OtherE2E1779331786677Edited" [ref=e419]:
+                    - generic [ref=e420]: OtherE2E1779331786677Edited
+                  - cell "0991234567" [ref=e421]:
+                    - generic [ref=e422]: "0991234567"
+                  - cell "กง-1234" [ref=e423]:
+                    - generic [ref=e424]: กง-1234
+                  - cell "Active" [ref=e425]:
+                    - generic [ref=e428]: Active
+                  - cell "21/05/2026" [ref=e429]
+                  - cell [ref=e430]:
+                    - img [ref=e433] [cursor=pointer]
+                - row "9 Captain 1dwad 23 - Active 19/05/2026" [ref=e437]:
+                  - cell "9" [ref=e438]
+                  - cell [ref=e439]:
+                    - img [ref=e442]
+                  - cell "Captain" [ref=e444]:
+                    - generic [ref=e445]: Captain
+                  - cell "1dwad" [ref=e446]:
+                    - generic [ref=e447]: 1dwad
+                  - cell "23" [ref=e448]:
+                    - generic [ref=e449]: "23"
+                  - cell "-" [ref=e450]:
+                    - generic [ref=e451]: "-"
+                  - cell "Active" [ref=e452]:
+                    - generic [ref=e455]: Active
+                  - cell "19/05/2026" [ref=e456]
+                  - cell [ref=e457]:
+                    - img [ref=e460] [cursor=pointer]
+                - row "10 Driver fgdsgdfgd 05464546468 - Active 05/03/2026" [ref=e464]:
+                  - cell "10" [ref=e465]
+                  - cell [ref=e466]:
+                    - img [ref=e469]
+                  - cell "Driver" [ref=e471]:
+                    - generic [ref=e472]: Driver
+                  - cell "fgdsgdfgd" [ref=e473]:
+                    - generic [ref=e474]: fgdsgdfgd
+                  - cell "05464546468" [ref=e475]:
+                    - generic [ref=e476]: "05464546468"
+                  - cell "-" [ref=e477]:
+                    - generic [ref=e478]: "-"
+                  - cell "Active" [ref=e479]:
+                    - generic [ref=e482]: Active
+                  - cell "05/03/2026" [ref=e483]
+                  - cell [ref=e484]:
+                    - img [ref=e487] [cursor=pointer]
+                - row "11 Driver TEST22 098-0221123 - Active 03/03/2026" [ref=e491]:
+                  - cell "11" [ref=e492]
+                  - cell [ref=e493]:
+                    - img [ref=e496]
+                  - cell "Driver" [ref=e498]:
+                    - generic [ref=e499]: Driver
+                  - cell "TEST22" [ref=e500]:
+                    - generic [ref=e501]: TEST22
+                  - cell "098-0221123" [ref=e502]:
+                    - generic [ref=e503]: 098-0221123
+                  - cell "-" [ref=e504]:
+                    - generic [ref=e505]: "-"
+                  - cell "Active" [ref=e506]:
+                    - generic [ref=e509]: Active
+                  - cell "03/03/2026" [ref=e510]
+                  - cell [ref=e511]:
+                    - img [ref=e514] [cursor=pointer]
+                - row "12 IT Support surang##310 093-9999999 กข-8888 Active 06/02/2026" [ref=e518]:
+                  - cell "12" [ref=e519]
+                  - cell [ref=e520]:
+                    - img [ref=e523]
+                  - cell "IT Support" [ref=e525]:
+                    - generic [ref=e526]: IT Support
+                  - cell "surang##310" [ref=e527]:
+                    - generic [ref=e528]: surang##310
+                  - cell "093-9999999" [ref=e529]:
+                    - generic [ref=e530]: 093-9999999
+                  - cell "กข-8888" [ref=e531]:
+                    - generic [ref=e532]: กข-8888
+                  - cell "Active" [ref=e533]:
+                    - generic [ref=e536]: Active
+                  - cell "06/02/2026" [ref=e537]
+                  - cell [ref=e538]:
+                    - img [ref=e541] [cursor=pointer]
+                - row "13 Driver surang##309 4444444444 กข-1234 Active 06/02/2026" [ref=e545]:
+                  - cell "13" [ref=e546]
+                  - cell [ref=e547]:
+                    - img [ref=e550]
+                  - cell "Driver" [ref=e552]:
+                    - generic [ref=e553]: Driver
+                  - cell "surang##309" [ref=e554]:
+                    - generic [ref=e555]: surang##309
+                  - cell "4444444444" [ref=e556]:
+                    - generic [ref=e557]: "4444444444"
+                  - cell "กข-1234" [ref=e558]:
+                    - generic [ref=e559]: กข-1234
+                  - cell "Active" [ref=e560]:
+                    - generic [ref=e563]: Active
+                  - cell "06/02/2026" [ref=e564]
+                  - cell [ref=e565]:
+                    - img [ref=e568] [cursor=pointer]
+                - row "14 IT Support surang##311 092-5555555 กข-9999 Active 06/02/2026" [ref=e572]:
+                  - cell "14" [ref=e573]
+                  - cell [ref=e574]:
+                    - img [ref=e577]
+                  - cell "IT Support" [ref=e579]:
+                    - generic [ref=e580]: IT Support
+                  - cell "surang##311" [ref=e581]:
+                    - generic [ref=e582]: surang##311
+                  - cell "092-5555555" [ref=e583]:
+                    - generic [ref=e584]: 092-5555555
+                  - cell "กข-9999" [ref=e585]:
+                    - generic [ref=e586]: กข-9999
+                  - cell "Active" [ref=e587]:
+                    - generic [ref=e590]: Active
+                  - cell "06/02/2026" [ref=e591]
+                  - cell [ref=e592]:
+                    - img [ref=e595] [cursor=pointer]
+                - row "15 Driver test 0867564456 จร-1233 Active 30/01/2026" [ref=e599]:
+                  - cell "15" [ref=e600]
+                  - cell [ref=e601]:
+                    - img [ref=e604]
+                  - cell "Driver" [ref=e606]:
+                    - generic [ref=e607]: Driver
+                  - cell "test" [ref=e608]:
+                    - generic [ref=e609]: test
+                  - cell "0867564456" [ref=e610]:
+                    - generic [ref=e611]: "0867564456"
+                  - cell "จร-1233" [ref=e612]:
+                    - generic [ref=e613]: จร-1233
+                  - cell "Active" [ref=e614]:
+                    - generic [ref=e617]: Active
+                  - cell "30/01/2026" [ref=e618]
+                  - cell [ref=e619]:
+                    - img [ref=e622] [cursor=pointer]
+            - list [ref=e626]:
+              - listitem "Previous Page" [ref=e627]:
+                - button "left" [disabled] [ref=e628]:
+                  - img "left" [ref=e629]:
+                    - img [ref=e630]
+              - listitem "1" [ref=e632] [cursor=pointer]:
+                - generic [ref=e633]: "1"
+              - listitem "2" [ref=e634] [cursor=pointer]:
+                - generic [ref=e635]: "2"
+              - listitem "Next Page" [ref=e636] [cursor=pointer]:
+                - button "right" [ref=e637]:
+                  - img "right" [ref=e638]:
+                    - img [ref=e639]
+              - listitem [ref=e641]:
+                - generic "Page Size" [ref=e642] [cursor=pointer]:
+                  - generic [ref=e644]:
+                    - combobox "Page Size" [ref=e646]
+                    - generic "15 / page" [ref=e647]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e648]:
+    - dialog:
+      - generic [ref=e650]:
+        - generic [ref=e651]:
+          - generic [ref=e652]:
+            - generic [ref=e654]: Filter
+            - img [ref=e656] [cursor=pointer]
+          - generic [ref=e660]:
+            - generic [ref=e661]:
+              - generic [ref=e662]: Positions
+              - generic [ref=e664] [cursor=pointer]:
+                - generic [ref=e666]:
+                  - combobox [ref=e668]
+                  - generic: Please select
+                - generic:
+                  - img
+            - generic [ref=e669]:
+              - generic [ref=e670]: Name
+              - textbox "Please enter" [ref=e672]
+            - generic [ref=e674]:
+              - generic [ref=e675]: Status
+              - generic [ref=e677] [cursor=pointer]:
+                - generic [ref=e679]:
+                  - combobox [ref=e681]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e682]:
+          - button "Clear all" [ref=e683] [cursor=pointer]
+          - button "Search" [ref=e684] [cursor=pointer]:
+            - img [ref=e686]
+            - text: Search
