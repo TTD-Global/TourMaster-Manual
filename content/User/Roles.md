@@ -48,8 +48,8 @@ sidebar_position: 2
 
 แสดงสถานะการใช้งานของ Role แบ่งเป็น 2 สถานะ
 
-- **Active** — _เปิดการใช้งาน_ สิทธิ์นี้ แสดงเป็น Badge สีเขียว
-- **Inactive** — _ปิดการใช้งาน_ สิทธิ์นี้ แสดงเป็น Badge สีแดง
+- <span class="badge badge-active">Active</span> — _เปิดการใช้งาน_ สิทธิ์นี้
+- <span class="badge badge-inactive">Inactive</span> — _ปิดการใช้งาน_ สิทธิ์นี้
 
 ![สถานะ Role Active และ Inactive](/img/roles-status2.jpg)
 

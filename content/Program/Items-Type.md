@@ -23,8 +23,8 @@ sidebar_position: 2
 | **Item Type** | ชื่อประเภทรายการค่าใช้จ่าย (คลิกได้เพื่อดูรายละเอียด) |
 | **Items quantity** | จำนวน Sub Item ที่อยู่ภายใต้ Item Type นี้ (คลิกเพื่อดูรายการ) |
 | **Status** | สถานะการใช้งาน |
-| | **Active**: เปิดใช้งาน (Badge สีเขียว) |
-| | **Inactive**: ปิดใช้งาน (Badge สีแดง) |
+| | <span class="badge badge-active">Active</span> เปิดใช้งาน |
+| | <span class="badge badge-inactive">Inactive</span> ปิดใช้งาน |
 | **Last Modify Date** | วันที่แก้ไขล่าสุด |
 | **Action** | ปุ่ม `...` สำหรับจัดการ |
 

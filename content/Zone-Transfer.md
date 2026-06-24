@@ -22,8 +22,8 @@ title: Zone Transfer
 | **Zone Transfer Name** | ชื่อโซน (คลิกได้เพื่อดูรายละเอียด) |
 | **Zone Transfer Quantity** | จำนวนจุดย่อยภายในโซนนี้ (คลิกได้) |
 | **Status** | สถานะการใช้งาน |
-| | **Active**: เปิดใช้งาน (Badge สีเขียว) |
-| | **Inactive**: ปิดใช้งาน (Badge สีแดง) |
+| | <span class="badge badge-active">Active</span> เปิดใช้งาน |
+| | <span class="badge badge-inactive">Inactive</span> ปิดใช้งาน |
 | **Last Modify Date** | วันที่แก้ไขล่าสุด |
 | **Action** | ปุ่ม `...` สำหรับจัดการ |
 
