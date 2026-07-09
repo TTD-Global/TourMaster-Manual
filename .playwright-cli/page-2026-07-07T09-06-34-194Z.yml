@@ -1,0 +1,139 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [expanded] [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menu [ref=e40]:
+              - menuitem "Summary" [ref=e41] [cursor=pointer]:
+                - img [ref=e42]
+                - generic [ref=e44]: Summary
+              - menuitem "Supplier Group" [ref=e45] [cursor=pointer]:
+                - img [ref=e46]
+                - generic [ref=e48]: Supplier Group
+              - menuitem "Own Vehicle Group" [ref=e49] [cursor=pointer]:
+                - img [ref=e50]
+                - generic [ref=e52]: Own Vehicle Group
+              - menuitem "Job Order" [ref=e53] [cursor=pointer]:
+                - img [ref=e54]
+                - generic [ref=e56]: Job Order
+            - menuitem "Drop off Transport" [ref=e57] [cursor=pointer]:
+              - img [ref=e58]
+              - generic [ref=e63]: Drop off Transport
+            - menuitem "Check In" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Check In
+            - menuitem "Payment" [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+              - generic [ref=e73]: Payment
+          - separator [ref=e74]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e75] [cursor=pointer]:
+            - img [ref=e76]
+            - generic [ref=e80]: Program
+          - menuitem "Seller" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e84]: Seller
+          - menuitem "Vehicle" [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+            - generic [ref=e93]: Vehicle
+          - menuitem "Employee" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e99]: Employee
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Tue : 07 Jul 2026, 16:06"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e139]:
+              - generic [ref=e140]: Pick Up Transport
+              - img [ref=e141]
+              - generic [ref=e143]: Job Order
+            - generic [ref=e144]:
+              - button "Export" [ref=e145] [cursor=pointer]:
+                - img [ref=e147]
+                - generic [ref=e150]: Export
+                - img [ref=e152]
+              - generic [ref=e154]:
+                - img [ref=e156]
+                - textbox "Select Travel Date" [ref=e160]: 07/07/2026
+              - generic [ref=e163]:
+                - img [ref=e165]
+                - textbox "Search" [ref=e168]
+          - generic [ref=e171]:
+            - tablist [ref=e172]:
+              - generic [ref=e174]:
+                - tab "All 0" [selected] [ref=e176] [cursor=pointer]:
+                  - generic [ref=e178]:
+                    - text: All
+                    - generic [ref=e180]: "0"
+                - tab "Pending 0" [ref=e182] [cursor=pointer]:
+                  - generic [ref=e184]:
+                    - text: Pending
+                    - generic [ref=e186]: "0"
+                - tab "Completed 0" [ref=e188] [cursor=pointer]:
+                  - generic [ref=e190]:
+                    - text: Completed
+                    - generic [ref=e192]: "0"
+            - tabpanel "All 0" [ref=e195]:
+              - table [ref=e205]:
+                - rowgroup [ref=e217]:
+                  - 'row "Select all # Trip Code Destination Zone Personnel Registration Pax Pick-up Time Status Action" [ref=e218]':
+                    - 'columnheader "Select all #" [ref=e219]':
+                      - generic [ref=e220]:
+                        - generic [ref=e221]:
+                          - generic:
+                            - checkbox "Select all" [disabled]
+                        - generic [ref=e222]: "#"
+                    - columnheader "Trip Code" [ref=e223]
+                    - columnheader "Destination" [ref=e224]
+                    - columnheader "Zone" [ref=e225]
+                    - columnheader "Personnel" [ref=e226]
+                    - columnheader "Registration" [ref=e227]
+                    - columnheader "Pax" [ref=e228]
+                    - columnheader "Pick-up Time" [ref=e229]
+                    - columnheader "Status" [ref=e230]
+                    - columnheader "Action" [ref=e231]
+                - rowgroup [ref=e232]:
+                  - row [ref=e233]:
+                    - cell [ref=e234]:
+                      - img [ref=e237]

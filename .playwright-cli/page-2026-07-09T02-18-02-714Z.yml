@@ -1,0 +1,164 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e35]
+          - text: Management
+          - group [ref=e36]:
+            - menuitem "Bookings" [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - generic [ref=e41]: Bookings
+            - menuitem "Excursion" [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+              - generic [ref=e45]: Excursion
+            - menuitem "Pick up Transport" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+              - generic [ref=e52]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e59]: Drop off Transport
+            - menuitem "Check In" [expanded] [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e64]: Check In
+            - menu [ref=e133]:
+              - menuitem "Check In" [ref=e134] [cursor=pointer]:
+                - img [ref=e135]
+                - generic [ref=e137]: Check In
+              - menuitem "Check In List" [active] [ref=e138] [cursor=pointer]:
+                - img [ref=e139]
+                - generic [ref=e141]: Check In List
+            - menuitem "Payment" [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e69]: Payment
+          - separator [ref=e70]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e71] [cursor=pointer]:
+            - img [ref=e72]
+            - generic [ref=e76]: Program
+          - menuitem "Seller" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e80]: Seller
+          - menuitem "Vehicle" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e89]: Vehicle
+          - menuitem "Employee" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Employee
+          - menuitem "Zone Transfer" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e101]: Zone Transfer
+          - menuitem "User" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e106]: User
+          - menuitem "Company" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Company
+          - menuitem "User Manual" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: User Manual
+    - generic [ref=e115]:
+      - banner [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "Thu : 09 Jul 2026, 09:18"
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: AM
+            - generic [ref=e124]:
+              - generic [ref=e125]: amares
+              - generic [ref=e126]: Superadmin
+            - img [ref=e128]
+      - main [ref=e130]:
+        - generic [ref=e486]:
+          - generic [ref=e487]:
+            - generic [ref=e489]:
+              - generic [ref=e490]: Check In
+              - img [ref=e491]
+              - generic [ref=e493]: Check In List
+            - generic [ref=e494]:
+              - generic [ref=e496]:
+                - img [ref=e498]
+                - textbox "Select Date" [ref=e502]: 09/07/2026
+              - generic [ref=e505]:
+                - img [ref=e507]
+                - textbox "Enter search" [ref=e510]
+              - button "Export" [ref=e512] [cursor=pointer]:
+                - img [ref=e514]
+                - generic [ref=e517]: Export
+                - img [ref=e519]
+          - group "Check-in type" [ref=e522]:
+            - button "Excursion" [pressed] [ref=e523]
+            - button "Transport" [ref=e524]
+          - generic [ref=e525]:
+            - generic [ref=e526]:
+              - generic [ref=e527]:
+                - paragraph [ref=e528]: "0"
+                - paragraph [ref=e529]: Waiting
+              - img [ref=e531]
+            - generic [ref=e533]:
+              - generic [ref=e534]:
+                - paragraph [ref=e535]: "0"
+                - paragraph [ref=e536]: Checked In
+              - img [ref=e538]
+            - generic [ref=e541]:
+              - generic [ref=e542]:
+                - paragraph [ref=e543]: "0"
+                - paragraph [ref=e544]: No show
+              - img [ref=e546]
+            - generic [ref=e551]:
+              - generic [ref=e552]:
+                - paragraph [ref=e553]: "0"
+                - paragraph [ref=e554]: Amount Trip
+              - img [ref=e556]
+            - generic [ref=e559]:
+              - generic [ref=e560]:
+                - paragraph [ref=e561]: "0"
+                - paragraph [ref=e562]: Amount Pax
+              - img [ref=e564]
+          - generic [ref=e569]:
+            - generic [ref=e570]:
+              - tablist [ref=e571]:
+                - generic [ref=e573]:
+                  - tab "All 0" [selected] [ref=e575] [cursor=pointer]:
+                    - generic [ref=e577]:
+                      - text: All
+                      - generic [ref=e579]: "0"
+                  - tab "Pending 0" [ref=e581] [cursor=pointer]:
+                    - generic [ref=e583]:
+                      - text: Pending
+                      - generic [ref=e585]: "0"
+                  - tab "Completed 0" [ref=e587] [cursor=pointer]:
+                    - generic [ref=e589]:
+                      - text: Completed
+                      - generic [ref=e591]: "0"
+              - generic:
+                - generic:
+                  - tabpanel "All 0"
+            - table [ref=e599]:
+              - rowgroup [ref=e615]:
+                - row "# Trip Code Travel Date Trip Type Trip Round Program Registration Personnel Guide Pax Waiting Checked In No show Action" [ref=e616]:
+                  - columnheader "#" [ref=e617]
+                  - columnheader "Trip Code" [ref=e618]
+                  - columnheader "Travel Date" [ref=e619]
+                  - columnheader "Trip Type" [ref=e620]
+                  - columnheader "Trip Round" [ref=e621]
+                  - columnheader "Program" [ref=e622]
+                  - columnheader "Registration" [ref=e623]
+                  - columnheader "Personnel" [ref=e624]
+                  - columnheader "Guide" [ref=e625]
+                  - columnheader "Pax" [ref=e626]
+                  - columnheader "Waiting" [ref=e627]
+                  - columnheader "Checked In" [ref=e628]
+                  - columnheader "No show" [ref=e629]
+                  - columnheader "Action" [ref=e630]
+              - rowgroup [ref=e631]:
+                - row [ref=e632]:
+                  - cell [ref=e633]:
+                    - img [ref=e636]

@@ -1,0 +1,26 @@
+[     135ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     135ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     150ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     150ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     181ms] [LOG] company null @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     192ms] [LOG] company null @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     289ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle:0
+[     289ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle:0
+[     289ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle:0
+[     307ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     359ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     706ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     863ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   43002ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   43007ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   43199ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   43537ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   43702ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   44272ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   44272ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   44283ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   44283ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   44431ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/group-type/30:0
+[   44431ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/group-type/30:0
+[   44431ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/group-type/30:0
+[   44431ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0

@@ -1,0 +1,251 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menu [ref=e214]:
+            - menuitem "Group Type" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Group Type
+            - menuitem "Supplier List" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]: Supplier List
+            - menuitem "Own Vehicle" [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+              - generic [ref=e88]: Own Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 07 Jul 2026, 16:40"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e442]:
+          - generic [ref=e444]:
+            - generic [ref=e445]:
+              - generic [ref=e446]: Vehicle
+              - img [ref=e447]
+              - generic [ref=e449] [cursor=pointer]: Supplier List
+              - img [ref=e450]
+              - generic [ref=e452]: View
+            - button "Close" [ref=e454] [cursor=pointer]
+          - generic [ref=e456]:
+            - generic [ref=e457]:
+              - img [ref=e459]
+              - generic [ref=e461]: Kewalee
+              - generic [ref=e463]:
+                - generic [ref=e464]: "Status :"
+                - button "Active" [ref=e466] [cursor=pointer]:
+                  - generic [ref=e469]: Active
+                  - img [ref=e473]
+            - generic [ref=e476]:
+              - generic [ref=e477]:
+                - generic [ref=e479] [cursor=pointer]: General Detail
+                - generic [ref=e481] [cursor=pointer]: Supplier Login
+                - generic [ref=e483] [cursor=pointer]: Registration
+                - generic [ref=e485] [cursor=pointer]: Personnel list
+              - button "Add Registration" [ref=e680] [cursor=pointer]:
+                - img [ref=e682]
+                - text: Add Registration
+            - generic [ref=e686]:
+              - generic [ref=e687]:
+                - generic [ref=e688]: Registration
+                - generic [ref=e691]:
+                  - img [ref=e693]
+                  - textbox "Search" [ref=e696]
+              - generic [ref=e704]:
+                - table [ref=e708]:
+                  - rowgroup [ref=e715]:
+                    - row "# Registration Group Type Active Action" [ref=e716]:
+                      - columnheader "#" [ref=e717]
+                      - columnheader "Registration" [ref=e718]
+                      - columnheader "Group Type" [ref=e719]
+                      - columnheader "Active" [ref=e720]
+                      - columnheader "Action" [ref=e721]
+                  - rowgroup [ref=e722]:
+                    - row "1 กข1234 MPV (4)" [ref=e723]:
+                      - cell "1" [ref=e724]
+                      - cell "กข1234" [ref=e725]
+                      - cell "MPV (4)" [ref=e726]:
+                        - generic [ref=e727]: MPV (4)
+                      - cell [ref=e728]:
+                        - switch [checked] [ref=e731] [cursor=pointer]
+                      - cell [ref=e734]:
+                        - img [ref=e737] [cursor=pointer]
+                    - row "2 ขค5678 MPV (4)" [ref=e741]:
+                      - cell "2" [ref=e742]
+                      - cell "ขค5678" [ref=e743]
+                      - cell "MPV (4)" [ref=e744]:
+                        - generic [ref=e745]: MPV (4)
+                      - cell [ref=e746]:
+                        - switch [checked] [ref=e749] [cursor=pointer]
+                      - cell [ref=e752]:
+                        - img [ref=e755] [cursor=pointer]
+                    - row "3 งจ2468 SEDAN (2)" [ref=e759]:
+                      - cell "3" [ref=e760]
+                      - cell "งจ2468" [ref=e761]
+                      - cell "SEDAN (2)" [ref=e762]:
+                        - generic [ref=e763]: SEDAN (2)
+                      - cell [ref=e764]:
+                        - switch [checked] [ref=e767] [cursor=pointer]
+                      - cell [ref=e770]:
+                        - img [ref=e773] [cursor=pointer]
+                    - row "4 ฉช1357 SEDAN (2)" [ref=e777]:
+                      - cell "4" [ref=e778]
+                      - cell "ฉช1357" [ref=e779]
+                      - cell "SEDAN (2)" [ref=e780]:
+                        - generic [ref=e781]: SEDAN (2)
+                      - cell [ref=e782]:
+                        - switch [checked] [ref=e785] [cursor=pointer]
+                      - cell [ref=e788]:
+                        - img [ref=e791] [cursor=pointer]
+                    - row "5 ฝพ2020 SEDAN (2)" [ref=e795]:
+                      - cell "5" [ref=e796]
+                      - cell "ฝพ2020" [ref=e797]
+                      - cell "SEDAN (2)" [ref=e798]:
+                        - generic [ref=e799]: SEDAN (2)
+                      - cell [ref=e800]:
+                        - switch [checked] [ref=e803] [cursor=pointer]
+                      - cell [ref=e806]:
+                        - img [ref=e809] [cursor=pointer]
+                    - row "6 ญฎ9087 VAN (12)" [ref=e813]:
+                      - cell "6" [ref=e814]
+                      - cell "ญฎ9087" [ref=e815]
+                      - cell "VAN (12)" [ref=e816]:
+                        - generic [ref=e817]: VAN (12)
+                      - cell [ref=e818]:
+                        - switch [checked] [ref=e821] [cursor=pointer]
+                      - cell [ref=e824]:
+                        - img [ref=e827] [cursor=pointer]
+                    - row "7 ฐฑ1122 VAN (12)" [ref=e831]:
+                      - cell "7" [ref=e832]
+                      - cell "ฐฑ1122" [ref=e833]
+                      - cell "VAN (12)" [ref=e834]:
+                        - generic [ref=e835]: VAN (12)
+                      - cell [ref=e836]:
+                        - switch [checked] [ref=e839] [cursor=pointer]
+                      - cell [ref=e842]:
+                        - img [ref=e845] [cursor=pointer]
+                    - row "8 ณด3344 VAN (12)" [ref=e849]:
+                      - cell "8" [ref=e850]
+                      - cell "ณด3344" [ref=e851]
+                      - cell "VAN (12)" [ref=e852]:
+                        - generic [ref=e853]: VAN (12)
+                      - cell [ref=e854]:
+                        - switch [checked] [ref=e857] [cursor=pointer]
+                      - cell [ref=e860]:
+                        - img [ref=e863] [cursor=pointer]
+                    - row "9 ตถ5566 VAN (8)" [ref=e867]:
+                      - cell "9" [ref=e868]
+                      - cell "ตถ5566" [ref=e869]
+                      - cell "VAN (8)" [ref=e870]:
+                        - generic [ref=e871]: VAN (8)
+                      - cell [ref=e872]:
+                        - switch [checked] [ref=e875] [cursor=pointer]
+                      - cell [ref=e878]:
+                        - img [ref=e881] [cursor=pointer]
+                    - row "10 ทธ7788 VAN (8)" [ref=e885]:
+                      - cell "10" [ref=e886]
+                      - cell "ทธ7788" [ref=e887]
+                      - cell "VAN (8)" [ref=e888]:
+                        - generic [ref=e889]: VAN (8)
+                      - cell [ref=e890]:
+                        - switch [checked] [ref=e893] [cursor=pointer]
+                      - cell [ref=e896]:
+                        - img [ref=e899] [cursor=pointer]
+                    - row "11 นบ9900 VAN (10)" [ref=e903]:
+                      - cell "11" [ref=e904]
+                      - cell "นบ9900" [ref=e905]
+                      - cell "VAN (10)" [ref=e906]:
+                        - generic [ref=e907]: VAN (10)
+                      - cell [ref=e908]:
+                        - switch [checked] [ref=e911] [cursor=pointer]
+                      - cell [ref=e914]:
+                        - img [ref=e917] [cursor=pointer]
+                    - row "12 ปผ1010 VAN (10)" [ref=e921]:
+                      - cell "12" [ref=e922]
+                      - cell "ปผ1010" [ref=e923]
+                      - cell "VAN (10)" [ref=e924]:
+                        - generic [ref=e925]: VAN (10)
+                      - cell [ref=e926]:
+                        - switch [checked] [ref=e929] [cursor=pointer]
+                      - cell [ref=e932]:
+                        - img [ref=e935] [cursor=pointer]
+                - list [ref=e939]:
+                  - listitem "Previous Page" [ref=e940]:
+                    - button "left" [disabled] [ref=e941]:
+                      - img "left" [ref=e942]:
+                        - img [ref=e943]
+                  - listitem "1" [ref=e945] [cursor=pointer]:
+                    - generic [ref=e946]: "1"
+                  - listitem "Next Page" [ref=e947]:
+                    - button "right" [disabled] [ref=e948]:
+                      - img "right" [ref=e949]:
+                        - img [ref=e950]
+                  - listitem [ref=e952]:
+                    - generic "Page Size" [ref=e953] [cursor=pointer]:
+                      - generic [ref=e955]:
+                        - combobox "Page Size" [ref=e957]
+                        - generic "15 / page" [ref=e958]
+                      - generic:
+                        - img:
+                          - img

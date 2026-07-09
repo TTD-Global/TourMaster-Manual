@@ -1,0 +1,163 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [expanded] [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menu [ref=e787]:
+            - menuitem "User List" [ref=e788] [cursor=pointer]:
+              - img [ref=e789]
+              - generic [ref=e791]: User List
+            - menuitem "Role" [active] [ref=e792] [cursor=pointer]:
+              - img [ref=e793]
+              - generic [ref=e795]: Role
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Tue : 07 Jul 2026, 15:28"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e796]:
+          - generic [ref=e797]:
+            - generic [ref=e798]:
+              - generic [ref=e799]: User
+              - img [ref=e800]
+              - generic [ref=e802]: Roles
+            - button "Create Roles" [ref=e804] [cursor=pointer]:
+              - img [ref=e806]
+              - text: Create Roles
+          - generic [ref=e809]:
+            - generic [ref=e812]:
+              - img [ref=e814]
+              - textbox "Search" [ref=e817]
+            - button "Filter" [ref=e819] [cursor=pointer]:
+              - img [ref=e821]
+              - text: Filter
+            - button "Export" [ref=e824] [cursor=pointer]:
+              - img [ref=e826]
+              - generic [ref=e829]: Export
+              - img [ref=e831]
+          - generic [ref=e836]:
+            - table [ref=e840]:
+              - rowgroup [ref=e847]:
+                - row "# Roles List Status Last Modify Date Action" [ref=e848]:
+                  - columnheader "#" [ref=e849]
+                  - columnheader "Roles List" [ref=e850]
+                  - columnheader "Status" [ref=e851]
+                  - columnheader "Last Modify Date" [ref=e852]
+                  - columnheader "Action" [ref=e853]
+              - rowgroup [ref=e854]:
+                - row "1 79864512 Active 06/07/2026" [ref=e855]:
+                  - cell "1" [ref=e856]
+                  - cell "79864512" [ref=e857]:
+                    - link "79864512" [ref=e858] [cursor=pointer]:
+                      - /url: /user/roles/3
+                      - paragraph [ref=e859]: "79864512"
+                  - cell "Active" [ref=e860]:
+                    - generic [ref=e863]: Active
+                  - cell "06/07/2026" [ref=e864]:
+                    - generic [ref=e865]: 06/07/2026
+                  - cell [ref=e866]:
+                    - img [ref=e869] [cursor=pointer]
+                - row "2 HUi Test Active 06/07/2026" [ref=e873]:
+                  - cell "2" [ref=e874]
+                  - cell "HUi Test" [ref=e875]:
+                    - link "HUi Test" [ref=e876] [cursor=pointer]:
+                      - /url: /user/roles/2
+                      - paragraph [ref=e877]: HUi Test
+                  - cell "Active" [ref=e878]:
+                    - generic [ref=e881]: Active
+                  - cell "06/07/2026" [ref=e882]:
+                    - generic [ref=e883]: 06/07/2026
+                  - cell [ref=e884]:
+                    - img [ref=e887] [cursor=pointer]
+                - row "3 Superadmin Active 29/06/2026" [ref=e891]:
+                  - cell "3" [ref=e892]
+                  - cell "Superadmin" [ref=e893]:
+                    - link "Superadmin" [ref=e894] [cursor=pointer]:
+                      - /url: /user/roles/1
+                      - paragraph [ref=e895]: Superadmin
+                  - cell "Active" [ref=e896]:
+                    - generic [ref=e899]: Active
+                  - cell "29/06/2026" [ref=e900]:
+                    - generic [ref=e901]: 29/06/2026
+                  - cell [ref=e902]:
+                    - img [ref=e905] [cursor=pointer]
+            - list [ref=e909]:
+              - listitem "Previous Page" [ref=e910]:
+                - button "left" [disabled] [ref=e911]:
+                  - img "left" [ref=e912]:
+                    - img [ref=e913]
+              - listitem "1" [ref=e915] [cursor=pointer]:
+                - generic [ref=e916]: "1"
+              - listitem "Next Page" [ref=e917]:
+                - button "right" [disabled] [ref=e918]:
+                  - img "right" [ref=e919]:
+                    - img [ref=e920]
+              - listitem [ref=e922]:
+                - generic "Page Size" [ref=e923] [cursor=pointer]:
+                  - generic [ref=e925]:
+                    - combobox "Page Size" [ref=e927]
+                    - generic "20 / page" [ref=e928]
+                  - generic:
+                    - img:
+                      - img

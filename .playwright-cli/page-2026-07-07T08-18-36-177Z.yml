@@ -1,0 +1,109 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menu [ref=e217]:
+            - menuitem "Group Type" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Group Type
+            - menuitem "Supplier List" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]: Supplier List
+            - menuitem "Own Vehicle" [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+              - generic [ref=e88]: Own Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 07 Jul 2026, 15:17"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e518]:
+          - generic [ref=e520]:
+            - generic [ref=e521]:
+              - generic [ref=e522] [cursor=pointer]: Own Vehicle
+              - img [ref=e523]
+              - generic [ref=e525] [cursor=pointer]: Registration
+              - img [ref=e526]
+              - generic [ref=e528]: View
+            - generic [ref=e529]:
+              - button "Close" [ref=e530] [cursor=pointer]
+              - button "Edit" [ref=e531] [cursor=pointer]:
+                - img [ref=e533]
+                - text: Edit
+          - generic [ref=e541]:
+            - generic [ref=e542]:
+              - generic [ref=e543]: Registration Detail
+              - generic [ref=e544]:
+                - generic [ref=e545]: "Status :"
+                - generic [ref=e548]: Active
+            - generic [ref=e550]:
+              - generic [ref=e551]:
+                - generic [ref=e552]: Group Type
+                - generic [ref=e556]:
+                  - combobox [disabled] [ref=e558]
+                  - generic "3 เครื่องยนต์(45ที่นั่ง) (45)" [ref=e559]
+              - generic [ref=e560]:
+                - generic [ref=e561]: Registration
+                - textbox "Please enter" [disabled] [ref=e563]: เกาะพีพีทัวร์ 33

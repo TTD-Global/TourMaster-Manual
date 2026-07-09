@@ -1,0 +1,12 @@
+[     202ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     202ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     215ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     215ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     290ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     290ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     346ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/tour/pick-up/job-order?page=1&page_size=10&date=2026-07-07:0
+[     346ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/tour/pick-up/job-order?page=1&page_size=10&date=2026-07-07:0
+[     346ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/tour/pick-up/job-order?page=1&page_size=10&date=2026-07-07:0
+[     447ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     450ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     450ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0

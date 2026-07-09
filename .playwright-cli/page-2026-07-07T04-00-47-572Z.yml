@@ -1,0 +1,16 @@
+- generic [ref=e2]:
+  - region "Skip to main content":
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#__docusaurus_skipToContent_fallback"
+  - navigation "Main" [ref=e4]:
+    - generic [ref=e6]:
+      - link "Tour Master" [ref=e7] [cursor=pointer]:
+        - /url: /TourMaster-Manual/content/Dashboard/Company-Overview
+        - img "Tour Master" [ref=e9]
+      - link "User Manual" [ref=e10] [cursor=pointer]:
+        - /url: /TourMaster-Manual/content/Dashboard/Company-Overview
+  - main [ref=e12]:
+    - generic [ref=e14]:
+      - heading "Page Not Found" [level=1] [ref=e15]
+      - paragraph [ref=e16]: We could not find what you were looking for.
+      - paragraph [ref=e17]: Please contact the owner of the site that linked you to the original URL and let them know their link is broken.

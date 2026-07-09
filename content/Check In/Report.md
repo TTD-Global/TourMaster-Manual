@@ -1,6 +1,7 @@
 ---
 title: Report (Check In)
 sidebar_position: 3
+toc_max_heading_level: 2
 ---
 
 # Report — Check In

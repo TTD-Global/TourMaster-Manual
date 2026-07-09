@@ -1,0 +1,622 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [expanded] [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menu [ref=e787]:
+            - menuitem "User List" [ref=e788] [cursor=pointer]:
+              - img [ref=e789]
+              - generic [ref=e791]: User List
+            - menuitem "Role" [ref=e792] [cursor=pointer]:
+              - img [ref=e793]
+              - generic [ref=e795]: Role
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Tue : 07 Jul 2026, 15:28"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e936]:
+          - generic [ref=e938]:
+            - generic [ref=e939]: User
+            - img [ref=e940]
+            - generic [ref=e942] [cursor=pointer]: Roles
+            - img [ref=e943]
+            - generic [ref=e945]: Edit
+          - generic [ref=e954]:
+            - generic [ref=e957]:
+              - generic [ref=e958]:
+                - generic [ref=e959]: Role Detail
+                - generic [ref=e960]:
+                  - generic [ref=e961]: "Status :"
+                  - button "Active" [ref=e1771] [cursor=pointer]:
+                    - generic [ref=e1774]: Active
+                    - img [ref=e1778]
+              - generic [ref=e967]:
+                - generic [ref=e968]: Role Name *
+                - generic [ref=e969]:
+                  - textbox "Please enter" [ref=e970]: "79864512"
+                  - button "close-circle" [ref=e1780] [cursor=pointer]:
+                    - img "close-circle" [ref=e1781]:
+                      - img [ref=e1782]
+            - generic [ref=e974]:
+              - generic [ref=e976]: Role Permissions
+              - generic [ref=e978]:
+                - generic [ref=e1784] [cursor=pointer]: Select All
+                - table [ref=e979]:
+                  - rowgroup [ref=e980]:
+                    - row "Function View Create Edit Delete" [ref=e981]:
+                      - columnheader "Function" [ref=e982]
+                      - columnheader "View" [ref=e983]
+                      - columnheader "Create" [ref=e984]
+                      - columnheader "Edit" [ref=e985]
+                      - columnheader "Delete" [ref=e986]
+                  - rowgroup [ref=e987]:
+                    - row "Dashboard" [ref=e988]:
+                      - cell "Dashboard" [ref=e989]:
+                        - generic [ref=e991]: Dashboard
+                    - row "Company Overview" [ref=e992]:
+                      - cell "Company Overview" [ref=e993]:
+                        - generic [ref=e994]:
+                          - checkbox [ref=e1786] [cursor=pointer]
+                          - generic [ref=e998]: Company Overview
+                      - cell [ref=e999]:
+                        - checkbox [ref=e1789] [cursor=pointer]
+                      - cell [ref=e1003]
+                      - cell [ref=e1004]
+                      - cell [ref=e1005]
+                    - row "Guide" [ref=e1006]:
+                      - cell "Guide" [ref=e1007]:
+                        - generic [ref=e1008]:
+                          - checkbox [ref=e1792] [cursor=pointer]
+                          - generic [ref=e1012]: Guide
+                      - cell [ref=e1013]:
+                        - checkbox [ref=e1795] [cursor=pointer]
+                      - cell [ref=e1017]
+                      - cell [ref=e1018]
+                      - cell [ref=e1019]
+                    - row "Expense" [ref=e1020]:
+                      - cell "Expense" [ref=e1021]:
+                        - generic [ref=e1022]:
+                          - checkbox [ref=e1798] [cursor=pointer]
+                          - generic [ref=e1026]: Expense
+                      - cell [ref=e1027]:
+                        - checkbox [ref=e1801] [cursor=pointer]
+                      - cell [ref=e1031]
+                      - cell [ref=e1032]
+                      - cell [ref=e1033]
+                    - row [ref=e1034]:
+                      - cell [ref=e1035]
+                    - row "Management" [ref=e1036]:
+                      - cell "Management" [ref=e1037]:
+                        - generic [ref=e1039]: Management
+                    - row "Booking" [ref=e1040]:
+                      - cell "Booking" [ref=e1041]:
+                        - generic [ref=e1042]:
+                          - checkbox [checked] [ref=e1804] [cursor=pointer]
+                          - generic [ref=e1046]: Booking
+                    - row "Overview" [ref=e1047]:
+                      - cell "Overview" [ref=e1048]:
+                        - generic [ref=e1049]:
+                          - checkbox [checked] [ref=e1807] [cursor=pointer]
+                          - generic [ref=e1053]: Overview
+                      - cell [ref=e1054]:
+                        - checkbox [checked] [ref=e1810] [cursor=pointer]
+                      - cell [ref=e1058]
+                      - cell [ref=e1059]
+                      - cell [ref=e1060]
+                    - row "Create Booking" [ref=e1061]:
+                      - cell "Create Booking" [ref=e1062]:
+                        - generic [ref=e1063]:
+                          - checkbox [checked] [ref=e1813] [cursor=pointer]
+                          - generic [ref=e1067]: Create Booking
+                      - cell [ref=e1068]
+                      - cell [ref=e1069]:
+                        - checkbox [checked] [ref=e1816] [cursor=pointer]
+                      - cell [ref=e1073]
+                      - cell [ref=e1074]
+                    - row "Booking List" [ref=e1075]:
+                      - cell "Booking List" [ref=e1076]:
+                        - generic [ref=e1077]:
+                          - checkbox [checked] [ref=e1819] [cursor=pointer]
+                          - generic [ref=e1081]: Booking List
+                      - cell [ref=e1082]:
+                        - checkbox [checked] [ref=e1822] [cursor=pointer]
+                      - cell [ref=e1086]
+                      - cell [ref=e1087]:
+                        - checkbox [checked] [ref=e1825] [cursor=pointer]
+                      - cell [ref=e1091]
+                    - row "Excursion" [ref=e1092]:
+                      - cell "Excursion" [ref=e1093]:
+                        - generic [ref=e1094]:
+                          - checkbox [checked] [ref=e1828] [cursor=pointer]
+                          - generic [ref=e1098]: Excursion
+                    - row "Summary" [ref=e1099]:
+                      - cell "Summary" [ref=e1100]:
+                        - generic [ref=e1101]:
+                          - checkbox [checked] [ref=e1831] [cursor=pointer]
+                          - generic [ref=e1105]: Summary
+                      - cell [ref=e1106]:
+                        - checkbox [checked] [ref=e1834] [cursor=pointer]
+                      - cell [ref=e1110]
+                      - cell [ref=e1111]
+                      - cell [ref=e1112]
+                    - row "Supplier Group" [ref=e1113]:
+                      - cell "Supplier Group" [ref=e1114]:
+                        - generic [ref=e1115]:
+                          - checkbox [checked] [ref=e1837] [cursor=pointer]
+                          - generic [ref=e1119]: Supplier Group
+                      - cell [ref=e1120]:
+                        - checkbox [checked] [ref=e1840] [cursor=pointer]
+                      - cell [ref=e1124]:
+                        - checkbox [checked] [ref=e1843] [cursor=pointer]
+                      - cell [ref=e1128]:
+                        - checkbox [checked] [ref=e1846] [cursor=pointer]
+                      - cell [ref=e1132]
+                    - row "Own Vehicle Group" [ref=e1133]:
+                      - cell "Own Vehicle Group" [ref=e1134]:
+                        - generic [ref=e1135]:
+                          - checkbox [ref=e1849] [cursor=pointer]
+                          - generic [ref=e1139]: Own Vehicle Group
+                      - cell [ref=e1140]:
+                        - checkbox [ref=e1852] [cursor=pointer]
+                      - cell [ref=e1144]:
+                        - checkbox [ref=e1855] [cursor=pointer]
+                      - cell [ref=e1148]:
+                        - checkbox [ref=e1858] [cursor=pointer]
+                      - cell [ref=e1152]
+                    - row "Job Order" [ref=e1153]:
+                      - cell "Job Order" [ref=e1154]:
+                        - generic [ref=e1155]:
+                          - checkbox [checked] [ref=e1861] [cursor=pointer]
+                          - generic [ref=e1159]: Job Order
+                      - cell [ref=e1160]:
+                        - checkbox [checked] [ref=e1864] [cursor=pointer]
+                      - cell [ref=e1164]
+                      - cell [ref=e1165]:
+                        - checkbox [checked] [ref=e1867] [cursor=pointer]
+                      - cell [ref=e1169]
+                    - row "Pick up Transport" [ref=e1170]:
+                      - cell "Pick up Transport" [ref=e1171]:
+                        - generic [ref=e1172]:
+                          - checkbox [checked] [ref=e1870] [cursor=pointer]
+                          - generic [ref=e1176]: Pick up Transport
+                    - row "Summary" [ref=e1177]:
+                      - cell "Summary" [ref=e1178]:
+                        - generic [ref=e1179]:
+                          - checkbox [checked] [ref=e1873] [cursor=pointer]
+                          - generic [ref=e1183]: Summary
+                      - cell [ref=e1184]:
+                        - checkbox [checked] [ref=e1876] [cursor=pointer]
+                      - cell [ref=e1188]
+                      - cell [ref=e1189]
+                      - cell [ref=e1190]
+                    - row "Supplier Group" [ref=e1191]:
+                      - cell "Supplier Group" [ref=e1192]:
+                        - generic [ref=e1193]:
+                          - checkbox [checked] [ref=e1879] [cursor=pointer]
+                          - generic [ref=e1197]: Supplier Group
+                      - cell [ref=e1198]:
+                        - checkbox [checked] [ref=e1882] [cursor=pointer]
+                      - cell [ref=e1202]:
+                        - checkbox [checked] [ref=e1885] [cursor=pointer]
+                      - cell [ref=e1206]:
+                        - checkbox [checked] [ref=e1888] [cursor=pointer]
+                      - cell [ref=e1210]
+                    - row "Own Vehicle Group" [ref=e1211]:
+                      - cell "Own Vehicle Group" [ref=e1212]:
+                        - generic [ref=e1213]:
+                          - checkbox [ref=e1891] [cursor=pointer]
+                          - generic [ref=e1217]: Own Vehicle Group
+                      - cell [ref=e1218]:
+                        - checkbox [ref=e1894] [cursor=pointer]
+                      - cell [ref=e1222]:
+                        - checkbox [ref=e1897] [cursor=pointer]
+                      - cell [ref=e1226]:
+                        - checkbox [ref=e1900] [cursor=pointer]
+                      - cell [ref=e1230]
+                    - row "Job Order" [ref=e1231]:
+                      - cell "Job Order" [ref=e1232]:
+                        - generic [ref=e1233]:
+                          - checkbox [checked] [ref=e1903] [cursor=pointer]
+                          - generic [ref=e1237]: Job Order
+                      - cell [ref=e1238]:
+                        - checkbox [checked] [ref=e1906] [cursor=pointer]
+                      - cell [ref=e1242]
+                      - cell [ref=e1243]:
+                        - checkbox [checked] [ref=e1909] [cursor=pointer]
+                      - cell [ref=e1247]
+                    - row "Drop off Transport" [ref=e1248]:
+                      - cell "Drop off Transport" [ref=e1249]:
+                        - generic [ref=e1250]:
+                          - checkbox [checked] [ref=e1912] [cursor=pointer]
+                          - generic [ref=e1254]: Drop off Transport
+                    - row "Summary" [ref=e1255]:
+                      - cell "Summary" [ref=e1256]:
+                        - generic [ref=e1257]:
+                          - checkbox [checked] [ref=e1915] [cursor=pointer]
+                          - generic [ref=e1261]: Summary
+                      - cell [ref=e1262]:
+                        - checkbox [checked] [ref=e1918] [cursor=pointer]
+                      - cell [ref=e1266]
+                      - cell [ref=e1267]
+                      - cell [ref=e1268]
+                    - row "Supplier Group" [ref=e1269]:
+                      - cell "Supplier Group" [ref=e1270]:
+                        - generic [ref=e1271]:
+                          - checkbox [checked] [ref=e1921] [cursor=pointer]
+                          - generic [ref=e1275]: Supplier Group
+                      - cell [ref=e1276]:
+                        - checkbox [checked] [ref=e1924] [cursor=pointer]
+                      - cell [ref=e1280]:
+                        - checkbox [checked] [ref=e1927] [cursor=pointer]
+                      - cell [ref=e1284]:
+                        - checkbox [checked] [ref=e1930] [cursor=pointer]
+                      - cell [ref=e1288]
+                    - row "Own Vehicle Group" [ref=e1289]:
+                      - cell "Own Vehicle Group" [ref=e1290]:
+                        - generic [ref=e1291]:
+                          - checkbox [ref=e1933] [cursor=pointer]
+                          - generic [ref=e1295]: Own Vehicle Group
+                      - cell [ref=e1296]:
+                        - checkbox [ref=e1936] [cursor=pointer]
+                      - cell [ref=e1300]:
+                        - checkbox [ref=e1939] [cursor=pointer]
+                      - cell [ref=e1304]:
+                        - checkbox [ref=e1942] [cursor=pointer]
+                      - cell [ref=e1308]
+                    - row "Job Order" [ref=e1309]:
+                      - cell "Job Order" [ref=e1310]:
+                        - generic [ref=e1311]:
+                          - checkbox [checked] [ref=e1945] [cursor=pointer]
+                          - generic [ref=e1315]: Job Order
+                      - cell [ref=e1316]:
+                        - checkbox [checked] [ref=e1948] [cursor=pointer]
+                      - cell [ref=e1320]
+                      - cell [ref=e1321]:
+                        - checkbox [checked] [ref=e1951] [cursor=pointer]
+                      - cell [ref=e1325]
+                    - row "Check In" [ref=e1326]:
+                      - cell "Check In" [ref=e1327]:
+                        - generic [ref=e1328]:
+                          - checkbox [ref=e1954] [cursor=pointer]
+                          - generic [ref=e1332]: Check In
+                    - row "Check In" [ref=e1333]:
+                      - cell "Check In" [ref=e1334]:
+                        - generic [ref=e1335]:
+                          - checkbox [ref=e1957] [cursor=pointer]
+                          - generic [ref=e1339]: Check In
+                      - cell [ref=e1340]:
+                        - checkbox [ref=e1960] [cursor=pointer]
+                      - cell [ref=e1344]:
+                        - checkbox [ref=e1963] [cursor=pointer]
+                      - cell [ref=e1348]:
+                        - checkbox [ref=e1966] [cursor=pointer]
+                      - cell [ref=e1352]
+                    - row "Check In List" [ref=e1353]:
+                      - cell "Check In List" [ref=e1354]:
+                        - generic [ref=e1355]:
+                          - checkbox [ref=e1969] [cursor=pointer]
+                          - generic [ref=e1359]: Check In List
+                      - cell [ref=e1360]:
+                        - checkbox [ref=e1972] [cursor=pointer]
+                      - cell [ref=e1364]:
+                        - checkbox [ref=e1975] [cursor=pointer]
+                      - cell [ref=e1368]:
+                        - checkbox [ref=e1978] [cursor=pointer]
+                      - cell [ref=e1372]
+                    - row "Payment" [ref=e1373]:
+                      - cell "Payment" [ref=e1374]:
+                        - generic [ref=e1375]:
+                          - checkbox [ref=e1981] [cursor=pointer]
+                          - generic [ref=e1379]: Payment
+                    - row "Advance" [ref=e1380]:
+                      - cell "Advance" [ref=e1381]:
+                        - generic [ref=e1382]:
+                          - checkbox [ref=e1984] [cursor=pointer]
+                          - generic [ref=e1386]: Advance
+                      - cell [ref=e1387]:
+                        - checkbox [ref=e1987] [cursor=pointer]
+                      - cell [ref=e1391]
+                      - cell [ref=e1392]:
+                        - checkbox [ref=e1990] [cursor=pointer]
+                      - cell [ref=e1396]
+                    - row "Expense" [ref=e1397]:
+                      - cell "Expense" [ref=e1398]:
+                        - generic [ref=e1399]:
+                          - checkbox [ref=e1993] [cursor=pointer]
+                          - generic [ref=e1403]: Expense
+                      - cell [ref=e1404]:
+                        - checkbox [ref=e1996] [cursor=pointer]
+                      - cell [ref=e1408]
+                      - cell [ref=e1409]:
+                        - checkbox [ref=e1999] [cursor=pointer]
+                      - cell [ref=e1413]
+                    - row "Balance" [ref=e1414]:
+                      - cell "Balance" [ref=e1415]:
+                        - generic [ref=e1416]:
+                          - checkbox [ref=e2002] [cursor=pointer]
+                          - generic [ref=e1420]: Balance
+                      - cell [ref=e1421]:
+                        - checkbox [ref=e2005] [cursor=pointer]
+                      - cell [ref=e1425]
+                      - cell [ref=e1426]:
+                        - checkbox [ref=e2008] [cursor=pointer]
+                      - cell [ref=e1430]
+                    - row "Report" [ref=e1431]:
+                      - cell "Report" [ref=e1432]:
+                        - generic [ref=e1433]:
+                          - checkbox [ref=e2011] [cursor=pointer]
+                          - generic [ref=e1437]: Report
+                      - cell [ref=e1438]:
+                        - checkbox [ref=e2014] [cursor=pointer]
+                      - cell [ref=e1442]
+                      - cell [ref=e1443]
+                      - cell [ref=e1444]
+                    - row [ref=e1445]:
+                      - cell [ref=e1446]
+                    - row "Setting" [ref=e1447]:
+                      - cell "Setting" [ref=e1448]:
+                        - generic [ref=e1450]: Setting
+                    - row "Program" [ref=e1451]:
+                      - cell "Program" [ref=e1452]:
+                        - generic [ref=e1453]:
+                          - checkbox [checked] [ref=e2017] [cursor=pointer]
+                          - generic [ref=e1457]: Program
+                    - row "Program List" [ref=e1458]:
+                      - cell "Program List" [ref=e1459]:
+                        - generic [ref=e1460]:
+                          - checkbox [checked] [ref=e2020] [cursor=pointer]
+                          - generic [ref=e1464]: Program List
+                      - cell [ref=e1465]:
+                        - checkbox [checked] [ref=e2023] [cursor=pointer]
+                      - cell [ref=e1469]:
+                        - checkbox [checked] [ref=e2026] [cursor=pointer]
+                      - cell [ref=e1473]:
+                        - checkbox [checked] [ref=e2029] [cursor=pointer]
+                      - cell [ref=e1477]
+                    - row "Items Type" [ref=e1478]:
+                      - cell "Items Type" [ref=e1479]:
+                        - generic [ref=e1480]:
+                          - checkbox [checked] [ref=e2032] [cursor=pointer]
+                          - generic [ref=e1484]: Items Type
+                      - cell [ref=e1485]:
+                        - checkbox [checked] [ref=e2035] [cursor=pointer]
+                      - cell [ref=e1489]:
+                        - checkbox [checked] [ref=e2038] [cursor=pointer]
+                      - cell [ref=e1493]:
+                        - checkbox [checked] [ref=e2041] [cursor=pointer]
+                      - cell [ref=e1497]
+                    - row "Unit" [ref=e1498]:
+                      - cell "Unit" [ref=e1499]:
+                        - generic [ref=e1500]:
+                          - checkbox [checked] [ref=e2044] [cursor=pointer]
+                          - generic [ref=e1504]: Unit
+                      - cell [ref=e1505]:
+                        - checkbox [checked] [ref=e2047] [cursor=pointer]
+                      - cell [ref=e1509]:
+                        - checkbox [checked] [ref=e2050] [cursor=pointer]
+                      - cell [ref=e1513]:
+                        - checkbox [checked] [ref=e2053] [cursor=pointer]
+                      - cell [ref=e1517]
+                    - row "Seller" [ref=e1518]:
+                      - cell "Seller" [ref=e1519]:
+                        - generic [ref=e1520]:
+                          - checkbox [checked] [ref=e2056] [cursor=pointer]
+                          - generic [ref=e1524]: Seller
+                      - cell [ref=e1525]:
+                        - checkbox [checked] [ref=e2059] [cursor=pointer]
+                      - cell [ref=e1529]:
+                        - checkbox [checked] [ref=e2062] [cursor=pointer]
+                      - cell [ref=e1533]:
+                        - checkbox [checked] [ref=e2065] [cursor=pointer]
+                      - cell [ref=e1537]
+                    - row "Vehicle" [ref=e1538]:
+                      - cell "Vehicle" [ref=e1539]:
+                        - generic [ref=e1540]:
+                          - checkbox [checked] [ref=e2068] [cursor=pointer]
+                          - generic [ref=e1544]: Vehicle
+                    - row "Group Type" [ref=e1545]:
+                      - cell "Group Type" [ref=e1546]:
+                        - generic [ref=e1547]:
+                          - checkbox [checked] [ref=e2071] [cursor=pointer]
+                          - generic [ref=e1551]: Group Type
+                      - cell [ref=e1552]:
+                        - checkbox [checked] [ref=e2074] [cursor=pointer]
+                      - cell [ref=e1556]:
+                        - checkbox [checked] [ref=e2077] [cursor=pointer]
+                      - cell [ref=e1560]:
+                        - checkbox [checked] [ref=e2080] [cursor=pointer]
+                      - cell [ref=e1564]
+                    - row "Supplier List" [ref=e1565]:
+                      - cell "Supplier List" [ref=e1566]:
+                        - generic [ref=e1567]:
+                          - checkbox [checked] [ref=e2083] [cursor=pointer]
+                          - generic [ref=e1571]: Supplier List
+                      - cell [ref=e1572]:
+                        - checkbox [checked] [ref=e2086] [cursor=pointer]
+                      - cell [ref=e1576]:
+                        - checkbox [checked] [ref=e2089] [cursor=pointer]
+                      - cell [ref=e1580]:
+                        - checkbox [checked] [ref=e2092] [cursor=pointer]
+                      - cell [ref=e1584]
+                    - row "Own Vehicle" [ref=e1585]:
+                      - cell "Own Vehicle" [ref=e1586]:
+                        - generic [ref=e1587]:
+                          - checkbox [checked] [ref=e2095] [cursor=pointer]
+                          - generic [ref=e1591]: Own Vehicle
+                      - cell [ref=e1592]:
+                        - checkbox [checked] [ref=e2098] [cursor=pointer]
+                      - cell [ref=e1596]:
+                        - checkbox [checked] [ref=e2101] [cursor=pointer]
+                      - cell [ref=e1600]:
+                        - checkbox [checked] [ref=e2104] [cursor=pointer]
+                      - cell [ref=e1604]
+                    - row "Employee" [ref=e1605]:
+                      - cell "Employee" [ref=e1606]:
+                        - generic [ref=e1607]:
+                          - checkbox [checked] [ref=e2107] [cursor=pointer]
+                          - generic [ref=e1611]: Employee
+                    - row "Employee summary" [ref=e1612]:
+                      - cell "Employee summary" [ref=e1613]:
+                        - generic [ref=e1614]:
+                          - checkbox [checked] [ref=e2110] [cursor=pointer]
+                          - generic [ref=e1618]: Employee summary
+                      - cell [ref=e1619]:
+                        - checkbox [checked] [ref=e2113] [cursor=pointer]
+                      - cell [ref=e1623]
+                      - cell [ref=e1624]
+                      - cell [ref=e1625]
+                    - row "Guide / Staff" [ref=e1626]:
+                      - cell "Guide / Staff" [ref=e1627]:
+                        - generic [ref=e1628]:
+                          - checkbox [checked] [ref=e2116] [cursor=pointer]
+                          - generic [ref=e1632]: Guide / Staff
+                      - cell [ref=e1633]:
+                        - checkbox [checked] [ref=e2119] [cursor=pointer]
+                      - cell [ref=e1637]:
+                        - checkbox [checked] [ref=e2122] [cursor=pointer]
+                      - cell [ref=e1641]:
+                        - checkbox [checked] [ref=e2125] [cursor=pointer]
+                      - cell [ref=e1645]
+                    - row "Other" [ref=e1646]:
+                      - cell "Other" [ref=e1647]:
+                        - generic [ref=e1648]:
+                          - checkbox [checked] [ref=e2128] [cursor=pointer]
+                          - generic [ref=e1652]: Other
+                      - cell [ref=e1653]:
+                        - checkbox [checked] [ref=e2131] [cursor=pointer]
+                      - cell [ref=e1657]:
+                        - checkbox [checked] [ref=e2134] [cursor=pointer]
+                      - cell [ref=e1661]:
+                        - checkbox [checked] [ref=e2137] [cursor=pointer]
+                      - cell [ref=e1665]
+                    - row "Positions" [ref=e1666]:
+                      - cell "Positions" [ref=e1667]:
+                        - generic [ref=e1668]:
+                          - checkbox [checked] [ref=e2140] [cursor=pointer]
+                          - generic [ref=e1672]: Positions
+                      - cell [ref=e1673]:
+                        - checkbox [checked] [ref=e2143] [cursor=pointer]
+                      - cell [ref=e1677]:
+                        - checkbox [checked] [ref=e2146] [cursor=pointer]
+                      - cell [ref=e1681]:
+                        - checkbox [checked] [ref=e2149] [cursor=pointer]
+                      - cell [ref=e1685]
+                    - row "Zone Transfer" [ref=e1686]:
+                      - cell "Zone Transfer" [ref=e1687]:
+                        - generic [ref=e1688]:
+                          - checkbox [checked] [ref=e2152] [cursor=pointer]
+                          - generic [ref=e1692]: Zone Transfer
+                      - cell [ref=e1693]:
+                        - checkbox [checked] [ref=e2155] [cursor=pointer]
+                      - cell [ref=e1697]:
+                        - checkbox [checked] [ref=e2158] [cursor=pointer]
+                      - cell [ref=e1701]:
+                        - checkbox [checked] [ref=e2161] [cursor=pointer]
+                      - cell [ref=e1705]
+                    - row "User" [ref=e1706]:
+                      - cell "User" [ref=e1707]:
+                        - generic [ref=e1708]:
+                          - checkbox [checked] [ref=e2164] [cursor=pointer]
+                          - generic [ref=e1712]: User
+                    - row "User List" [ref=e1713]:
+                      - cell "User List" [ref=e1714]:
+                        - generic [ref=e1715]:
+                          - checkbox [checked] [ref=e2167] [cursor=pointer]
+                          - generic [ref=e1719]: User List
+                      - cell [ref=e1720]:
+                        - checkbox [checked] [ref=e2170] [cursor=pointer]
+                      - cell [ref=e1724]:
+                        - checkbox [checked] [ref=e2173] [cursor=pointer]
+                      - cell [ref=e1728]:
+                        - checkbox [checked] [ref=e2176] [cursor=pointer]
+                      - cell [ref=e1732]
+                    - row "Roles" [ref=e1733]:
+                      - cell "Roles" [ref=e1734]:
+                        - generic [ref=e1735]:
+                          - checkbox [checked] [ref=e2179] [cursor=pointer]
+                          - generic [ref=e1739]: Roles
+                      - cell [ref=e1740]:
+                        - checkbox [checked] [ref=e2182] [cursor=pointer]
+                      - cell [ref=e1744]:
+                        - checkbox [checked] [ref=e2185] [cursor=pointer]
+                      - cell [ref=e1748]:
+                        - checkbox [checked] [ref=e2188] [cursor=pointer]
+                      - cell [ref=e1752]
+                    - row "Company" [ref=e1753]:
+                      - cell "Company" [ref=e1754]:
+                        - generic [ref=e1755]:
+                          - checkbox [checked] [ref=e2191] [cursor=pointer]
+                          - generic [ref=e1759]: Company
+                      - cell [ref=e1760]:
+                        - checkbox [checked] [ref=e2194] [cursor=pointer]
+                      - cell [ref=e1764]
+                      - cell [ref=e1765]:
+                        - checkbox [checked] [ref=e2197] [cursor=pointer]
+                      - cell [ref=e1769]
+            - generic [ref=e2199]:
+              - button "Cancel" [ref=e2200] [cursor=pointer]
+              - button "Save" [ref=e2201] [cursor=pointer]:
+                - img [ref=e2203]
+                - text: Save

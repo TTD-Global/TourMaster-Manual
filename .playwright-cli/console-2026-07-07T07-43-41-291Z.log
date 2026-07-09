@@ -1,0 +1,14 @@
+[     185ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     185ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     208ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     209ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     392ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/TSB-07262MSJ:0
+[     392ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/TSB-07262MSJ:0
+[     392ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/TSB-07262MSJ:0
+[     464ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     489ms] [ERROR] Failed to load resource: the server responded with a status of 500 () @ https://dev-green-api.techmaster.in.th/api/bookings/TSB-07262MSJ/booking:0
+[     530ms] Error: Internal server error
+    at s (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:114905)
+    at async Object.get (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:116305)
+    at async Object.getBookingById (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:6614)
+    at async y (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:125164)

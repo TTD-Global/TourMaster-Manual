@@ -1,0 +1,47 @@
+[     293ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…yOTh9.7edOwizjvnQ0im21ve-LEjpNrax3sgbBH-fWnrWHx2M, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     296ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     322ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     322ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     624ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/16:0
+[     624ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/16:0
+[     624ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/16:0
+[     724ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/bookings/agent:0
+[     725ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/auth/profile:0
+[     727ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/bookings/16/booking:0
+[     728ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/bookings/contact-method:0
+[     867ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/auth/refresh:0
+[     867ms] [LOG] Logging out... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     876ms] [ERROR] Profile fetch failed: Error: Authentication failed
+    at Object.get (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:116267)
+    at async Object.fetchProfile (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:23856) @ https://dev-green.techmaster.in.th/_next/static/chunks/1684-68efaae8b20bdbab.js:0
+[     877ms] [LOG] Logging out... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     877ms] [ERROR] Failed to fetch profile after rehydration: Error: Failed to fetch user profile
+    at Object.fetchProfile (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:24012) @ https://dev-green.techmaster.in.th/_next/static/chunks/1684-68efaae8b20bdbab.js:0
+[     877ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/auth/refresh:0
+[     877ms] [LOG] Logging out... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     889ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/auth/refresh:0
+[     889ms] [LOG] Logging out... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     890ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/auth/refresh:0
+[     890ms] [LOG] Logging out... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     897ms] Error: Authentication failed
+    at Object.get (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:116267)
+    at async Object.getBookingById (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:6614)
+    at async y (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:125164)
+[     897ms] Error: Authentication failed
+    at Object.get (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:116267)
+    at async Object.getAgentBooking (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:4093)
+    at async r (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:124838)
+[     898ms] Error: Authentication failed
+    at Object.get (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:116267)
+    at async Object.getContactMethod (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:4360)
+    at async o (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:124875)
+[    1068ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/login:0
+[  131520ms] [LOG] Attempting login... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[  131861ms] [LOG] Login successful, setting tokens @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[  131861ms] [LOG] Fetching profile after login... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[  131861ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[  131863ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[  132006ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[  132292ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[  132292ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[  132292ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0

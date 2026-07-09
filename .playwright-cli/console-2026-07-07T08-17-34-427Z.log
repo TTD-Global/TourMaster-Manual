@@ -1,0 +1,13 @@
+[      89ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[      89ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[      98ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[      98ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     122ms] [LOG] company null @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     130ms] [LOG] company null @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     228ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle:0
+[     228ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle:0
+[     228ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/vehicle/own-vehicle:0
+[     245ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     288ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     642ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     802ms] [LOG] company {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0

@@ -1,6 +1,7 @@
 ---
 title: Own Vehicle
 sidebar_position: 2
+toc_max_heading_level: 2
 ---
 
 # Own Vehicle
@@ -74,6 +75,12 @@ sidebar_position: 2
 แสดงข้อมูลทะเบียนรถหรือบุคลากรแบบ read-only
 
 ### Edit
+
+<div className="manual-img-500">
+
+![Own Vehicle Edit](/img/Vehicle/own-vehicle-edit.png)
+
+</div>
 
 แก้ไขข้อมูลได้ทุกส่วน รวมถึงเปลี่ยนสถานะ Active / Inactive
 

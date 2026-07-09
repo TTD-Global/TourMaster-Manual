@@ -1,0 +1,383 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [expanded] [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menu [ref=e262]:
+              - menuitem "Overview" [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e32]: Overview
+              - menuitem "Create Booking" [ref=e33] [cursor=pointer]:
+                - img [ref=e34]
+                - generic [ref=e36]: Create Booking
+              - menuitem "Booking List" [ref=e37] [cursor=pointer]:
+                - img [ref=e38]
+                - generic [ref=e40]: Booking List
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Vehicle
+          - menuitem "Employee" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Mon : 06 Jul 2026, 17:19"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares
+              - generic [ref=e120]: Superadmin
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e129]:
+              - generic [ref=e130]: Booking
+              - img [ref=e131]
+              - generic [ref=e133]: Booking List
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - img [ref=e137]
+                - textbox "Select Travel Date" [ref=e141]: 02/07/2026
+              - button "Export" [ref=e142] [cursor=pointer]:
+                - img [ref=e144]
+                - generic [ref=e147]: Export
+                - img [ref=e149]
+              - button "Advance Search" [ref=e152] [cursor=pointer]:
+                - img [ref=e154]
+                - text: Advance Search
+              - button "Create Booking" [ref=e157] [cursor=pointer]:
+                - img [ref=e159]
+                - text: Create Booking
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - paragraph [ref=e164]: In Progress
+              - generic [ref=e165]:
+                - generic [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]:
+                    - paragraph [ref=e168]: "0"
+                    - paragraph [ref=e169]: Reserved
+                  - img [ref=e171]
+                - generic [ref=e173] [cursor=pointer]:
+                  - generic [ref=e174]:
+                    - paragraph [ref=e175]: "9"
+                    - paragraph [ref=e176]: Confirmed
+                  - img [ref=e178]
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - paragraph [ref=e185]: Processed
+                - paragraph [ref=e186]:
+                  - img [ref=e187]
+                  - text: Filtered to Completed and Canceled in July 2026
+              - generic [ref=e189]:
+                - generic [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]:
+                    - paragraph [ref=e192]: "0"
+                    - paragraph [ref=e193]: Completed
+                  - img [ref=e195]
+                - generic [ref=e198] [cursor=pointer]:
+                  - generic [ref=e199]:
+                    - paragraph [ref=e200]: "0"
+                    - paragraph [ref=e201]: Canceled
+                  - img [ref=e203]
+          - generic [ref=e210]:
+            - table [ref=e214]:
+              - rowgroup [ref=e228]:
+                - row "# Seller Travel Date Booking Date Booking No. Trip Type Trip Round Program Pax Trip Code Status Action" [ref=e229]:
+                  - columnheader "#" [ref=e230]
+                  - columnheader "Seller" [ref=e231]
+                  - columnheader "Travel Date" [ref=e232]
+                  - columnheader "Booking Date" [ref=e233]
+                  - columnheader "Booking No." [ref=e234]
+                  - columnheader "Trip Type" [ref=e235]
+                  - columnheader "Trip Round" [ref=e236]
+                  - columnheader "Program" [ref=e237]
+                  - columnheader "Pax" [ref=e238]
+                  - columnheader "Trip Code" [ref=e239]
+                  - columnheader "Status" [ref=e240]
+                  - columnheader "Action" [ref=e241]
+              - rowgroup [ref=e242]:
+                - row "1 [TTD] Klook 02/07/2026 02/07/2026 TSB-0726DM72 Private 07:00 [TTD][Private] Damnoen Saduak Floating Market and Maeklong Railway Market Tour 3 EC260TIV Confirmed" [ref=e263]:
+                  - cell "1" [ref=e264]
+                  - cell "[TTD] Klook" [ref=e265]:
+                    - generic [ref=e267]: "[TTD] Klook"
+                  - cell "02/07/2026" [ref=e268]
+                  - cell "02/07/2026" [ref=e269]
+                  - cell "TSB-0726DM72" [ref=e270]:
+                    - generic [ref=e272] [cursor=pointer]: TSB-0726DM72
+                  - cell "Private" [ref=e273]:
+                    - generic [ref=e275]:
+                      - img [ref=e277]
+                      - generic [ref=e280]: Private
+                  - cell "07:00" [ref=e281]
+                  - cell "[TTD][Private] Damnoen Saduak Floating Market and Maeklong Railway Market Tour" [ref=e282]:
+                    - generic [ref=e283] [cursor=pointer]: "[TTD][Private] Damnoen Saduak Floating Market and Maeklong Railway Market Tour"
+                  - cell "3" [ref=e284]:
+                    - generic [ref=e287] [cursor=pointer]: "3"
+                  - cell "EC260TIV" [ref=e288]:
+                    - generic [ref=e291] [cursor=pointer]: EC260TIV
+                  - cell "Confirmed" [ref=e292]:
+                    - generic [ref=e295]: Confirmed
+                  - cell [ref=e296]:
+                    - img [ref=e299] [cursor=pointer]
+                - row "2 [Oneasia] Klook 02/07/2026 02/07/2026 TSB-0726GP1X Join In 07:30 [One asia] Join-In · Damnoen Saduak & Maeklong Railway 2 TF26POF6 +1 Confirmed" [ref=e303]:
+                  - cell "2" [ref=e304]
+                  - cell "[Oneasia] Klook" [ref=e305]:
+                    - generic [ref=e307]: "[Oneasia] Klook"
+                  - cell "02/07/2026" [ref=e308]
+                  - cell "02/07/2026" [ref=e309]
+                  - cell "TSB-0726GP1X" [ref=e310]:
+                    - generic [ref=e312] [cursor=pointer]: TSB-0726GP1X
+                  - cell "Join In" [ref=e313]:
+                    - generic [ref=e315]:
+                      - img [ref=e317]
+                      - generic [ref=e322]: Join In
+                  - cell "07:30" [ref=e323]
+                  - cell "[One asia] Join-In · Damnoen Saduak & Maeklong Railway" [ref=e324]:
+                    - generic [ref=e325] [cursor=pointer]: "[One asia] Join-In · Damnoen Saduak & Maeklong Railway"
+                  - cell "2" [ref=e326]:
+                    - generic [ref=e329] [cursor=pointer]: "2"
+                  - cell "TF26POF6 +1" [ref=e330]:
+                    - generic [ref=e331]:
+                      - generic [ref=e333] [cursor=pointer]: TF26POF6
+                      - generic [ref=e334] [cursor=pointer]: "+1"
+                  - cell "Confirmed" [ref=e335]:
+                    - generic [ref=e338]: Confirmed
+                  - cell [ref=e339]:
+                    - img [ref=e342] [cursor=pointer]
+                - row "3 [TTD] Klook 02/07/2026 02/07/2026 TSB-0726T8LE Join In 07:30 [One asia] Join-In · Damnoen Saduak & Maeklong Railway 6 EC26IXXE Confirmed" [ref=e346]:
+                  - cell "3" [ref=e347]
+                  - cell "[TTD] Klook" [ref=e348]:
+                    - generic [ref=e350]: "[TTD] Klook"
+                  - cell "02/07/2026" [ref=e351]
+                  - cell "02/07/2026" [ref=e352]
+                  - cell "TSB-0726T8LE" [ref=e353]:
+                    - generic [ref=e355] [cursor=pointer]: TSB-0726T8LE
+                  - cell "Join In" [ref=e356]:
+                    - generic [ref=e358]:
+                      - img [ref=e360]
+                      - generic [ref=e365]: Join In
+                  - cell "07:30" [ref=e366]
+                  - cell "[One asia] Join-In · Damnoen Saduak & Maeklong Railway" [ref=e367]:
+                    - generic [ref=e368] [cursor=pointer]: "[One asia] Join-In · Damnoen Saduak & Maeklong Railway"
+                  - cell "6" [ref=e369]:
+                    - generic [ref=e372] [cursor=pointer]: "6"
+                  - cell "EC26IXXE" [ref=e373]:
+                    - generic [ref=e376] [cursor=pointer]: EC26IXXE
+                  - cell "Confirmed" [ref=e377]:
+                    - generic [ref=e380]: Confirmed
+                  - cell [ref=e381]:
+                    - img [ref=e384] [cursor=pointer]
+                - row "4 Phi Phi 02/07/2026 02/07/2026 TSB-0726M6UK Join In 09:00 (PhiPhi) Hong Island By Luxury longtail boat 2 EC26FEBV +1 Confirmed" [ref=e388]:
+                  - cell "4" [ref=e389]
+                  - cell "Phi Phi" [ref=e390]:
+                    - generic [ref=e392]: Phi Phi
+                  - cell "02/07/2026" [ref=e393]
+                  - cell "02/07/2026" [ref=e394]
+                  - cell "TSB-0726M6UK" [ref=e395]:
+                    - generic [ref=e397] [cursor=pointer]: TSB-0726M6UK
+                  - cell "Join In" [ref=e398]:
+                    - generic [ref=e400]:
+                      - img [ref=e402]
+                      - generic [ref=e407]: Join In
+                  - cell "09:00" [ref=e408]
+                  - cell "(PhiPhi) Hong Island By Luxury longtail boat" [ref=e409]:
+                    - generic [ref=e410] [cursor=pointer]: (PhiPhi) Hong Island By Luxury longtail boat
+                  - cell "2" [ref=e411]:
+                    - generic [ref=e414] [cursor=pointer]: "2"
+                  - cell "EC26FEBV +1" [ref=e415]:
+                    - generic [ref=e416]:
+                      - generic [ref=e418] [cursor=pointer]: EC26FEBV
+                      - generic [ref=e419] [cursor=pointer]: "+1"
+                  - cell "Confirmed" [ref=e420]:
+                    - generic [ref=e423]: Confirmed
+                  - cell [ref=e424]:
+                    - img [ref=e427] [cursor=pointer]
+                - row "5 Phi Phi 02/07/2026 02/07/2026 TSB-0726N3I9 Join In 09:00 (PhiPhi) Hong Island By Luxury longtail boat 5 TF261EJE +1 Confirmed" [ref=e431]:
+                  - cell "5" [ref=e432]
+                  - cell "Phi Phi" [ref=e433]:
+                    - generic [ref=e435]: Phi Phi
+                  - cell "02/07/2026" [ref=e436]
+                  - cell "02/07/2026" [ref=e437]
+                  - cell "TSB-0726N3I9" [ref=e438]:
+                    - generic [ref=e440] [cursor=pointer]: TSB-0726N3I9
+                  - cell "Join In" [ref=e441]:
+                    - generic [ref=e443]:
+                      - img [ref=e445]
+                      - generic [ref=e450]: Join In
+                  - cell "09:00" [ref=e451]
+                  - cell "(PhiPhi) Hong Island By Luxury longtail boat" [ref=e452]:
+                    - generic [ref=e453] [cursor=pointer]: (PhiPhi) Hong Island By Luxury longtail boat
+                  - cell "5" [ref=e454]:
+                    - generic [ref=e457] [cursor=pointer]: "5"
+                  - cell "TF261EJE +1" [ref=e458]:
+                    - generic [ref=e459]:
+                      - generic [ref=e461] [cursor=pointer]: TF261EJE
+                      - generic [ref=e462] [cursor=pointer]: "+1"
+                  - cell "Confirmed" [ref=e463]:
+                    - generic [ref=e466]: Confirmed
+                  - cell [ref=e467]:
+                    - img [ref=e470] [cursor=pointer]
+                - row "6 Phi Phi 02/07/2026 02/07/2026 TSB-0726EPLX Join In 13:00 (PhiPhi) Hong Island By Luxury longtail boat 5 TF260CL1 +1 Confirmed" [ref=e474]:
+                  - cell "6" [ref=e475]
+                  - cell "Phi Phi" [ref=e476]:
+                    - generic [ref=e478]: Phi Phi
+                  - cell "02/07/2026" [ref=e479]
+                  - cell "02/07/2026" [ref=e480]
+                  - cell "TSB-0726EPLX" [ref=e481]:
+                    - generic [ref=e483] [cursor=pointer]: TSB-0726EPLX
+                  - cell "Join In" [ref=e484]:
+                    - generic [ref=e486]:
+                      - img [ref=e488]
+                      - generic [ref=e493]: Join In
+                  - cell "13:00" [ref=e494]
+                  - cell "(PhiPhi) Hong Island By Luxury longtail boat" [ref=e495]:
+                    - generic [ref=e496] [cursor=pointer]: (PhiPhi) Hong Island By Luxury longtail boat
+                  - cell "5" [ref=e497]:
+                    - generic [ref=e500] [cursor=pointer]: "5"
+                  - cell "TF260CL1 +1" [ref=e501]:
+                    - generic [ref=e502]:
+                      - generic [ref=e504] [cursor=pointer]: TF260CL1
+                      - generic [ref=e505] [cursor=pointer]: "+1"
+                  - cell "Confirmed" [ref=e506]:
+                    - generic [ref=e509]: Confirmed
+                  - cell [ref=e510]:
+                    - img [ref=e513] [cursor=pointer]
+                - row "7 Phi Phi 02/07/2026 02/07/2026 TSB-0726NAF1 Join In 13:00 (PhiPhi) Hong Island By Luxury longtail boat 4 EC26V7IR +1 Confirmed" [ref=e517]:
+                  - cell "7" [ref=e518]
+                  - cell "Phi Phi" [ref=e519]:
+                    - generic [ref=e521]: Phi Phi
+                  - cell "02/07/2026" [ref=e522]
+                  - cell "02/07/2026" [ref=e523]
+                  - cell "TSB-0726NAF1" [ref=e524]:
+                    - generic [ref=e526] [cursor=pointer]: TSB-0726NAF1
+                  - cell "Join In" [ref=e527]:
+                    - generic [ref=e529]:
+                      - img [ref=e531]
+                      - generic [ref=e536]: Join In
+                  - cell "13:00" [ref=e537]
+                  - cell "(PhiPhi) Hong Island By Luxury longtail boat" [ref=e538]:
+                    - generic [ref=e539] [cursor=pointer]: (PhiPhi) Hong Island By Luxury longtail boat
+                  - cell "4" [ref=e540]:
+                    - generic [ref=e543] [cursor=pointer]: "4"
+                  - cell "EC26V7IR +1" [ref=e544]:
+                    - generic [ref=e545]:
+                      - generic [ref=e547] [cursor=pointer]: EC26V7IR
+                      - generic [ref=e548] [cursor=pointer]: "+1"
+                  - cell "Confirmed" [ref=e549]:
+                    - generic [ref=e552]: Confirmed
+                  - cell [ref=e553]:
+                    - img [ref=e556] [cursor=pointer]
+                - 'row "8 KLOOK 02/07/2026 02/07/2026 TESTNAJA2 Join In 16:00 Flavors of Chinatown: Bangkok Half-Day Food Walking Tour 5 - Confirmed" [ref=e560]':
+                  - cell "8" [ref=e561]
+                  - cell "KLOOK" [ref=e562]:
+                    - generic [ref=e564]: KLOOK
+                  - cell "02/07/2026" [ref=e565]
+                  - cell "02/07/2026" [ref=e566]
+                  - cell "TESTNAJA2" [ref=e567]:
+                    - generic [ref=e569] [cursor=pointer]: TESTNAJA2
+                  - cell "Join In" [ref=e570]:
+                    - generic [ref=e572]:
+                      - img [ref=e574]
+                      - generic [ref=e579]: Join In
+                  - cell "16:00" [ref=e580]
+                  - 'cell "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour" [ref=e581]':
+                    - generic [ref=e582] [cursor=pointer]: "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour"
+                  - cell "5" [ref=e583]:
+                    - generic [ref=e586] [cursor=pointer]: "5"
+                  - cell "-" [ref=e587]
+                  - cell "Confirmed" [ref=e588]:
+                    - generic [ref=e591]: Confirmed
+                  - cell [ref=e592]:
+                    - img [ref=e595] [cursor=pointer]
+                - 'row "9 KLOOK 02/07/2026 02/07/2026 TESTNAJA Join In 16:00 Flavors of Chinatown: Bangkok Half-Day Food Walking Tour 4 - Confirmed" [ref=e599]':
+                  - cell "9" [ref=e600]
+                  - cell "KLOOK" [ref=e601]:
+                    - generic [ref=e603]: KLOOK
+                  - cell "02/07/2026" [ref=e604]
+                  - cell "02/07/2026" [ref=e605]
+                  - cell "TESTNAJA" [ref=e606]:
+                    - generic [ref=e608] [cursor=pointer]: TESTNAJA
+                  - cell "Join In" [ref=e609]:
+                    - generic [ref=e611]:
+                      - img [ref=e613]
+                      - generic [ref=e618]: Join In
+                  - cell "16:00" [ref=e619]
+                  - 'cell "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour" [ref=e620]':
+                    - generic [ref=e621] [cursor=pointer]: "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour"
+                  - cell "4" [ref=e622]:
+                    - generic [ref=e625] [cursor=pointer]: "4"
+                  - cell "-" [ref=e626]
+                  - cell "Confirmed" [ref=e627]:
+                    - generic [ref=e630]: Confirmed
+                  - cell [ref=e631]:
+                    - img [ref=e634] [cursor=pointer]
+            - list [ref=e638]:
+              - listitem "Previous Page" [ref=e639]:
+                - button "left" [disabled] [ref=e640]:
+                  - img "left" [ref=e641]:
+                    - img [ref=e642]
+              - listitem "1" [ref=e644] [cursor=pointer]:
+                - generic [ref=e645]: "1"
+              - listitem "Next Page" [ref=e646]:
+                - button "right" [disabled] [ref=e647]:
+                  - img "right" [ref=e648]:
+                    - img [ref=e649]
+              - listitem [ref=e651]:
+                - generic "Page Size" [ref=e652] [cursor=pointer]:
+                  - generic [ref=e654]:
+                    - combobox "Page Size" [ref=e656]
+                    - generic "15 / page" [ref=e657]
+                  - generic:
+                    - img:
+                      - img

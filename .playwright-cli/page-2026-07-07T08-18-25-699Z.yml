@@ -1,0 +1,275 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menu [ref=e217]:
+            - menuitem "Group Type" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Group Type
+            - menuitem "Supplier List" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]: Supplier List
+            - menuitem "Own Vehicle" [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+              - generic [ref=e88]: Own Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 07 Jul 2026, 15:17"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e133]:
+            - generic [ref=e134]: Vehicle
+            - img [ref=e135]
+            - generic [ref=e137]: Own Vehicle
+            - img [ref=e138]
+            - generic [ref=e140]: View
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - img "own vehicle" [ref=e218]
+              - generic [ref=e147]: บริษัท ทีทีดี โกลเบิล จำกัด
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - generic [ref=e152] [cursor=pointer]: Registration
+                - generic [ref=e154] [cursor=pointer]: Personnel list
+              - button "Add Registration" [ref=e155] [cursor=pointer]:
+                - img [ref=e157]
+                - text: Add Registration
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - generic [ref=e163]: Registration
+                - generic [ref=e166]:
+                  - img [ref=e168]
+                  - textbox "Search" [ref=e171]
+              - generic [ref=e179]:
+                - table [ref=e183]:
+                  - rowgroup [ref=e190]:
+                    - row "# Registration Group Type Active Action" [ref=e191]:
+                      - columnheader "#" [ref=e192]
+                      - columnheader "Registration" [ref=e193]
+                      - columnheader "Group Type" [ref=e194]
+                      - columnheader "Active" [ref=e195]
+                      - columnheader "Action" [ref=e196]
+                  - rowgroup [ref=e197]:
+                    - row "1 เกาะพีพีทัวร์ 33 3 เครื่องยนต์(45ที่นั่ง) (45)" [ref=e219]:
+                      - cell "1" [ref=e220]
+                      - cell "เกาะพีพีทัวร์ 33" [ref=e221]
+                      - cell "3 เครื่องยนต์(45ที่นั่ง) (45)" [ref=e222]:
+                        - generic [ref=e223] [cursor=pointer]: 3 เครื่องยนต์(45ที่นั่ง) (45)
+                      - cell [ref=e224]:
+                        - switch [checked] [ref=e227] [cursor=pointer]
+                      - cell [ref=e230]:
+                        - img [ref=e233] [cursor=pointer]
+                    - row "2 แกรนด์แบล็คเพิร์ล 1 เครื่องยนต์ (10 ที่นั่ง) (12)" [ref=e237]:
+                      - cell "2" [ref=e238]
+                      - cell "แกรนด์แบล็คเพิร์ล" [ref=e239]
+                      - cell "1 เครื่องยนต์ (10 ที่นั่ง) (12)" [ref=e240]:
+                        - generic [ref=e241] [cursor=pointer]: 1 เครื่องยนต์ (10 ที่นั่ง) (12)
+                      - cell [ref=e242]:
+                        - switch [checked] [ref=e245] [cursor=pointer]
+                      - cell [ref=e248]:
+                        - img [ref=e251] [cursor=pointer]
+                    - row "3 อ่าวนางสปีด 9 (1ENG) 1 เครื่องยนต์ (10 ที่นั่ง) (12)" [ref=e255]:
+                      - cell "3" [ref=e256]
+                      - cell "อ่าวนางสปีด 9 (1ENG)" [ref=e257]
+                      - cell "1 เครื่องยนต์ (10 ที่นั่ง) (12)" [ref=e258]:
+                        - generic [ref=e259] [cursor=pointer]: 1 เครื่องยนต์ (10 ที่นั่ง) (12)
+                      - cell [ref=e260]:
+                        - switch [checked] [ref=e263] [cursor=pointer]
+                      - cell [ref=e266]:
+                        - img [ref=e269] [cursor=pointer]
+                    - row "4 ออคิด 5 3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e273]:
+                      - cell "4" [ref=e274]
+                      - cell "ออคิด 5" [ref=e275]
+                      - cell "3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e276]:
+                        - generic [ref=e277] [cursor=pointer]: 3 เครื่องยนต์ (40 ที่นั่ง) (45)
+                      - cell [ref=e278]:
+                        - switch [checked] [ref=e281] [cursor=pointer]
+                      - cell [ref=e284]:
+                        - img [ref=e287] [cursor=pointer]
+                    - row "5 อ่าวนางทราเวล 555 3 เครื่องยนต์(45ที่นั่ง) (45)" [ref=e291]:
+                      - cell "5" [ref=e292]
+                      - cell "อ่าวนางทราเวล 555" [ref=e293]
+                      - cell "3 เครื่องยนต์(45ที่นั่ง) (45)" [ref=e294]:
+                        - generic [ref=e295] [cursor=pointer]: 3 เครื่องยนต์(45ที่นั่ง) (45)
+                      - cell [ref=e296]:
+                        - switch [checked] [ref=e299] [cursor=pointer]
+                      - cell [ref=e302]:
+                        - img [ref=e305] [cursor=pointer]
+                    - row "6 อ่าวนางสปีด11 3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e309]:
+                      - cell "6" [ref=e310]
+                      - cell "อ่าวนางสปีด11" [ref=e311]
+                      - cell "3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e312]:
+                        - generic [ref=e313] [cursor=pointer]: 3 เครื่องยนต์ (40 ที่นั่ง) (45)
+                      - cell [ref=e314]:
+                        - switch [checked] [ref=e317] [cursor=pointer]
+                      - cell [ref=e320]:
+                        - img [ref=e323] [cursor=pointer]
+                    - row "7 นข 2337 (น้องแชงค์) Truck (10)" [ref=e327]:
+                      - cell "7" [ref=e328]
+                      - cell "นข 2337 (น้องแชงค์)" [ref=e329]
+                      - cell "Truck (10)" [ref=e330]:
+                        - generic [ref=e331]: Truck (10)
+                      - cell [ref=e332]:
+                        - switch [checked] [ref=e335] [cursor=pointer]
+                      - cell [ref=e338]:
+                        - img [ref=e341] [cursor=pointer]
+                    - row "8 หวันยี่หวา 1 เครื่องยนต์ (10ที่นั่ง) (10)" [ref=e345]:
+                      - cell "8" [ref=e346]
+                      - cell "หวันยี่หวา" [ref=e347]
+                      - cell "1 เครื่องยนต์ (10ที่นั่ง) (10)" [ref=e348]:
+                        - generic [ref=e349] [cursor=pointer]: 1 เครื่องยนต์ (10ที่นั่ง) (10)
+                      - cell [ref=e350]:
+                        - switch [checked] [ref=e353] [cursor=pointer]
+                      - cell [ref=e356]:
+                        - img [ref=e359] [cursor=pointer]
+                    - row "9 30-0476 BUS 40 SEAT (40)" [ref=e363]:
+                      - cell "9" [ref=e364]
+                      - cell "30-0476" [ref=e365]
+                      - cell "BUS 40 SEAT (40)" [ref=e366]:
+                        - generic [ref=e367]: BUS 40 SEAT (40)
+                      - cell [ref=e368]:
+                        - switch [checked] [ref=e371] [cursor=pointer]
+                      - cell [ref=e374]:
+                        - img [ref=e377] [cursor=pointer]
+                    - row "10 30-0622 BUS 40 SEAT (40)" [ref=e381]:
+                      - cell "10" [ref=e382]
+                      - cell "30-0622" [ref=e383]
+                      - cell "BUS 40 SEAT (40)" [ref=e384]:
+                        - generic [ref=e385]: BUS 40 SEAT (40)
+                      - cell [ref=e386]:
+                        - switch [checked] [ref=e389] [cursor=pointer]
+                      - cell [ref=e392]:
+                        - img [ref=e395] [cursor=pointer]
+                    - row "11 30-0621 BUS 40 SEAT (40)" [ref=e399]:
+                      - cell "11" [ref=e400]
+                      - cell "30-0621" [ref=e401]
+                      - cell "BUS 40 SEAT (40)" [ref=e402]:
+                        - generic [ref=e403]: BUS 40 SEAT (40)
+                      - cell [ref=e404]:
+                        - switch [checked] [ref=e407] [cursor=pointer]
+                      - cell [ref=e410]:
+                        - img [ref=e413] [cursor=pointer]
+                    - row "12 30-0620 BUS 40 SEAT (40)" [ref=e417]:
+                      - cell "12" [ref=e418]
+                      - cell "30-0620" [ref=e419]
+                      - cell "BUS 40 SEAT (40)" [ref=e420]:
+                        - generic [ref=e421]: BUS 40 SEAT (40)
+                      - cell [ref=e422]:
+                        - switch [checked] [ref=e425] [cursor=pointer]
+                      - cell [ref=e428]:
+                        - img [ref=e431] [cursor=pointer]
+                    - row "13 เกาะพีพีทัวร์ 77 3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e435]:
+                      - cell "13" [ref=e436]
+                      - cell "เกาะพีพีทัวร์ 77" [ref=e437]
+                      - cell "3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e438]:
+                        - generic [ref=e439] [cursor=pointer]: 3 เครื่องยนต์ (40 ที่นั่ง) (45)
+                      - cell [ref=e440]:
+                        - switch [checked] [ref=e443] [cursor=pointer]
+                      - cell [ref=e446]:
+                        - img [ref=e449] [cursor=pointer]
+                    - row "14 เกาะพีพีทัวร์ 22 3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e453]:
+                      - cell "14" [ref=e454]
+                      - cell "เกาะพีพีทัวร์ 22" [ref=e455]
+                      - cell "3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e456]:
+                        - generic [ref=e457] [cursor=pointer]: 3 เครื่องยนต์ (40 ที่นั่ง) (45)
+                      - cell [ref=e458]:
+                        - switch [checked] [ref=e461] [cursor=pointer]
+                      - cell [ref=e464]:
+                        - img [ref=e467] [cursor=pointer]
+                    - row "15 เกาะพีพีทัวร์ 33 3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e471]:
+                      - cell "15" [ref=e472]
+                      - cell "เกาะพีพีทัวร์ 33" [ref=e473]
+                      - cell "3 เครื่องยนต์ (40 ที่นั่ง) (45)" [ref=e474]:
+                        - generic [ref=e475] [cursor=pointer]: 3 เครื่องยนต์ (40 ที่นั่ง) (45)
+                      - cell [ref=e476]:
+                        - switch [checked] [ref=e479] [cursor=pointer]
+                      - cell [ref=e482]:
+                        - img [ref=e485] [cursor=pointer]
+                - list [ref=e489]:
+                  - listitem "Previous Page" [ref=e490]:
+                    - button "left" [disabled] [ref=e491]:
+                      - img "left" [ref=e492]:
+                        - img [ref=e493]
+                  - listitem "1" [ref=e495] [cursor=pointer]:
+                    - generic [ref=e496]: "1"
+                  - listitem "2" [ref=e497] [cursor=pointer]:
+                    - generic [ref=e498]: "2"
+                  - listitem "Next Page" [ref=e499] [cursor=pointer]:
+                    - button "right" [ref=e500]:
+                      - img "right" [ref=e501]:
+                        - img [ref=e502]
+                  - listitem [ref=e504]:
+                    - generic "Page Size" [ref=e505] [cursor=pointer]:
+                      - generic [ref=e507]:
+                        - combobox "Page Size" [ref=e509]
+                        - generic "15 / page" [ref=e510]
+                      - generic:
+                        - img:
+                          - img
+  - menu [ref=e512]:
+    - menuitem "View" [ref=e513] [cursor=pointer]:
+      - img [ref=e514]
+      - generic [ref=e517]: View

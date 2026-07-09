@@ -1,0 +1,191 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menu [ref=e83]:
+            - menuitem "Employee summary" [ref=e84] [cursor=pointer]:
+              - img [ref=e85]
+              - generic [ref=e87]: Employee summary
+            - menuitem "Guide / Staff" [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+              - generic [ref=e91]: Guide / Staff
+            - menuitem "Other" [ref=e92] [cursor=pointer]:
+              - img [ref=e93]
+              - generic [ref=e95]: Other
+            - menuitem "Positions" [ref=e96] [cursor=pointer]:
+              - img [ref=e97]
+              - generic [ref=e99]: Positions
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Tue : 07 Jul 2026, 15:43"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e790]:
+          - generic [ref=e792]:
+            - generic [ref=e793]: Guide
+            - img [ref=e794]
+            - generic [ref=e796] [cursor=pointer]: Guide List
+            - img [ref=e797]
+            - generic [ref=e799]: Edit Guide
+          - generic [ref=e803]:
+            - generic [ref=e804]:
+              - img [ref=e806]
+              - text: Kristintat Phothiwoorn (G.Amp)
+            - generic [ref=e808]:
+              - generic [ref=e809]: "Status :"
+              - button "Active" [ref=e811] [cursor=pointer]:
+                - generic [ref=e814]: Active
+                - img [ref=e818]
+          - generic [ref=e821]:
+            - generic [ref=e823]:
+              - generic [ref=e825]: General Detail
+              - generic [ref=e827]: Guide Detail
+              - generic [ref=e829]: Bank Detail
+              - generic [ref=e831]: Task History
+            - generic [ref=e838]:
+              - generic [ref=e839]:
+                - generic [ref=e840]:
+                  - paragraph [ref=e842]: General Detail
+                  - generic [ref=e912]:
+                    - generic [ref=e913]: "Status :"
+                    - button "Approved" [ref=e915] [cursor=pointer]:
+                      - generic [ref=e918]: Approved
+                      - img [ref=e922]
+                - generic [ref=e847]:
+                  - img [ref=e849]
+                  - img [ref=e926] [cursor=pointer]
+                - generic [ref=e851]:
+                  - generic [ref=e852]:
+                    - generic [ref=e854]:
+                      - generic [ref=e855]: Title
+                      - generic [ref=e857] [cursor=pointer]:
+                        - generic [ref=e859]:
+                          - combobox [ref=e861]
+                          - generic "-" [ref=e862]
+                        - generic:
+                          - img
+                        - img [ref=e931]:
+                          - img [ref=e932]
+                    - generic [ref=e863]:
+                      - generic [ref=e864]: First Name *
+                      - generic [ref=e865]:
+                        - textbox "Please enter" [ref=e866]: Kristintat
+                        - button "close-circle" [ref=e934] [cursor=pointer]:
+                          - img "close-circle" [ref=e935]:
+                            - img [ref=e936]
+                  - generic [ref=e868]:
+                    - generic [ref=e869]: Last Name
+                    - generic [ref=e870]:
+                      - textbox "Please enter" [ref=e871]: Phothiwoorn
+                      - button "close-circle" [ref=e938] [cursor=pointer]:
+                        - img "close-circle" [ref=e939]:
+                          - img [ref=e940]
+                  - generic [ref=e873]:
+                    - generic [ref=e874]: Nickname *
+                    - generic [ref=e875]:
+                      - textbox "Please enter" [ref=e876]: Amp
+                      - button "close-circle" [ref=e942] [cursor=pointer]:
+                        - img "close-circle" [ref=e943]:
+                          - img [ref=e944]
+                  - generic [ref=e879]:
+                    - generic [ref=e880]: ID Card Number *
+                    - generic [ref=e881]:
+                      - textbox "Please enter" [ref=e882]: 3 1101 01923 68 0
+                      - button "close-circle" [ref=e946] [cursor=pointer]:
+                        - img "close-circle" [ref=e947]:
+                          - img [ref=e948]
+                  - generic [ref=e885]:
+                    - generic [ref=e886]: Date of Birth
+                    - generic [ref=e887]:
+                      - img [ref=e889]
+                      - textbox "Select date" [ref=e893]
+                  - generic [ref=e895]:
+                    - generic [ref=e896]: Line ID
+                    - textbox "Please enter" [ref=e898]
+                  - generic [ref=e901]:
+                    - generic [ref=e902]: Phone Number *
+                    - generic [ref=e903]:
+                      - textbox "Please enter" [ref=e904]: "+66648830986"
+                      - button "close-circle" [ref=e950] [cursor=pointer]:
+                        - img "close-circle" [ref=e951]:
+                          - img [ref=e952]
+                  - generic [ref=e907]:
+                    - generic [ref=e908]: Line User ID
+                    - textbox "Please enter" [ref=e910]
+                - generic [ref=e954]:
+                  - paragraph [ref=e955]: Upload ID Card Number Photos
+                  - generic [ref=e956]:
+                    - generic [ref=e958] [cursor=pointer]:
+                      - img [ref=e959]
+                      - generic [ref=e961]:
+                        - generic [ref=e962]: Upload photos here
+                        - generic [ref=e963]: Please upload file. according to the specified type and size
+                        - button "Upload" [ref=e964]
+                    - paragraph [ref=e965]: "Supported files: JPG, PNG, Heic, JPEG, size not exceeding 5 MB."
+              - generic [ref=e966]:
+                - button "Cancel" [ref=e967] [cursor=pointer]
+                - button "Save" [ref=e968] [cursor=pointer]:
+                  - img [ref=e970]
+                  - text: Save

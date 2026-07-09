@@ -1,0 +1,276 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menu [ref=e77]:
+            - menuitem "Group Type" [ref=e78] [cursor=pointer]:
+              - img [ref=e79]
+              - generic [ref=e81]: Group Type
+            - menuitem "Supplier List" [ref=e82] [cursor=pointer]:
+              - img [ref=e83]
+              - generic [ref=e85]: Supplier List
+            - menuitem "Own Vehicle" [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+              - generic [ref=e89]: Own Vehicle
+          - menuitem "Employee" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Employee
+          - menuitem "Zone Transfer" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e101]: Zone Transfer
+          - menuitem "User" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e106]: User
+          - menuitem "Company" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Company
+          - menuitem "User Manual" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: User Manual
+    - generic [ref=e115]:
+      - banner [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "Tue : 07 Jul 2026, 15:57"
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: AM
+            - generic [ref=e124]:
+              - generic [ref=e125]: amares
+              - generic [ref=e126]: Superadmin
+            - img [ref=e128]
+      - main [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: Vehicle
+              - img [ref=e136]
+              - generic [ref=e138]: Supplier List
+            - button "Create Supplier" [ref=e140] [cursor=pointer]:
+              - img [ref=e142]
+              - text: Create Supplier
+          - generic [ref=e145]:
+            - generic [ref=e148]:
+              - img [ref=e150]
+              - textbox "Search" [ref=e153]
+            - button "Filter" [ref=e155] [cursor=pointer]:
+              - img [ref=e157]
+              - text: Filter
+            - button "Export" [ref=e160] [cursor=pointer]:
+              - img [ref=e162]
+              - generic [ref=e165]: Export
+              - img [ref=e167]
+          - generic [ref=e173]:
+            - table [ref=e177]:
+              - rowgroup [ref=e186]:
+                - row "# Image Supplier Name Group Type quantity Status Last Modify Date Action" [ref=e187]:
+                  - columnheader "#" [ref=e188]
+                  - columnheader "Image" [ref=e189]
+                  - columnheader "Supplier Name" [ref=e190]
+                  - columnheader "Group Type quantity" [ref=e191]
+                  - columnheader "Status" [ref=e192]
+                  - columnheader "Last Modify Date" [ref=e193]
+                  - columnheader "Action" [ref=e194]
+              - rowgroup [ref=e195]:
+                - row "1 TTD 1 Active 02/07/2026" [ref=e215]:
+                  - cell "1" [ref=e216]
+                  - cell [ref=e217]:
+                    - img [ref=e220]
+                  - cell "TTD" [ref=e222]:
+                    - link "TTD" [ref=e223] [cursor=pointer]:
+                      - /url: /vehicle/supplier/8
+                      - paragraph [ref=e224]: TTD
+                  - cell "1" [ref=e225]:
+                    - generic [ref=e227] [cursor=pointer]: "1"
+                  - cell "Active" [ref=e228]:
+                    - generic [ref=e231]: Active
+                  - cell "02/07/2026" [ref=e232]
+                  - cell [ref=e233]:
+                    - img [ref=e236] [cursor=pointer]
+                - row "2 ATC (ASIA TRAVEL COLLECTION CO.,LTD.) 3 Active 30/06/2026" [ref=e240]:
+                  - cell "2" [ref=e241]
+                  - cell [ref=e242]:
+                    - img [ref=e245]
+                  - cell "ATC (ASIA TRAVEL COLLECTION CO.,LTD.)" [ref=e247]:
+                    - link "ATC (ASIA TRAVEL COLLECTION CO.,LTD.)" [ref=e248] [cursor=pointer]:
+                      - /url: /vehicle/supplier/1
+                      - paragraph [ref=e249]: ATC (ASIA TRAVEL COLLECTION CO.,LTD.)
+                  - cell "3" [ref=e250]:
+                    - generic [ref=e252] [cursor=pointer]: "3"
+                  - cell "Active" [ref=e253]:
+                    - generic [ref=e256]: Active
+                  - cell "30/06/2026" [ref=e257]
+                  - cell [ref=e258]:
+                    - img [ref=e261] [cursor=pointer]
+                - row "3 LOTTE 3 Active 30/06/2026" [ref=e265]:
+                  - cell "3" [ref=e266]
+                  - cell [ref=e267]:
+                    - img [ref=e270]
+                  - cell "LOTTE" [ref=e272]:
+                    - link "LOTTE" [ref=e273] [cursor=pointer]:
+                      - /url: /vehicle/supplier/4
+                      - paragraph [ref=e274]: LOTTE
+                  - cell "3" [ref=e275]:
+                    - generic [ref=e277] [cursor=pointer]: "3"
+                  - cell "Active" [ref=e278]:
+                    - generic [ref=e281]: Active
+                  - cell "30/06/2026" [ref=e282]
+                  - cell [ref=e283]:
+                    - img [ref=e286] [cursor=pointer]
+                - row "4 Kewalee 5 Active 29/06/2026" [ref=e290]:
+                  - cell "4" [ref=e291]
+                  - cell [ref=e292]:
+                    - img [ref=e295]
+                  - cell "Kewalee" [ref=e297]:
+                    - link "Kewalee" [ref=e298] [cursor=pointer]:
+                      - /url: /vehicle/supplier/6
+                      - paragraph [ref=e299]: Kewalee
+                  - cell "5" [ref=e300]:
+                    - generic [ref=e302] [cursor=pointer]: "5"
+                  - cell "Active" [ref=e303]:
+                    - generic [ref=e306]: Active
+                  - cell "29/06/2026" [ref=e307]
+                  - cell [ref=e308]:
+                    - img [ref=e311] [cursor=pointer]
+                - row "5 Samak Transport 3 Active 29/06/2026" [ref=e315]:
+                  - cell "5" [ref=e316]
+                  - cell [ref=e317]:
+                    - img [ref=e320]
+                  - cell "Samak Transport" [ref=e322]:
+                    - link "Samak Transport" [ref=e323] [cursor=pointer]:
+                      - /url: /vehicle/supplier/3
+                      - paragraph [ref=e324]: Samak Transport
+                  - cell "3" [ref=e325]:
+                    - generic [ref=e327] [cursor=pointer]: "3"
+                  - cell "Active" [ref=e328]:
+                    - generic [ref=e331]: Active
+                  - cell "29/06/2026" [ref=e332]
+                  - cell [ref=e333]:
+                    - img [ref=e336] [cursor=pointer]
+                - row "6 Junior Plus 7 Active 29/06/2026" [ref=e340]:
+                  - cell "6" [ref=e341]
+                  - cell [ref=e342]:
+                    - img [ref=e345]
+                  - cell "Junior Plus" [ref=e347]:
+                    - link "Junior Plus" [ref=e348] [cursor=pointer]:
+                      - /url: /vehicle/supplier/2
+                      - paragraph [ref=e349]: Junior Plus
+                  - cell "7" [ref=e350]:
+                    - generic [ref=e352] [cursor=pointer]: "7"
+                  - cell "Active" [ref=e353]:
+                    - generic [ref=e356]: Active
+                  - cell "29/06/2026" [ref=e357]
+                  - cell [ref=e358]:
+                    - img [ref=e361] [cursor=pointer]
+                - row "7 PANPAT Transport 2 Active 29/06/2026" [ref=e365]:
+                  - cell "7" [ref=e366]
+                  - cell [ref=e367]:
+                    - img [ref=e370]
+                  - cell "PANPAT Transport" [ref=e372]:
+                    - link "PANPAT Transport" [ref=e373] [cursor=pointer]:
+                      - /url: /vehicle/supplier/7
+                      - paragraph [ref=e374]: PANPAT Transport
+                  - cell "2" [ref=e375]:
+                    - generic [ref=e377] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e378]:
+                    - generic [ref=e381]: Active
+                  - cell "29/06/2026" [ref=e382]
+                  - cell [ref=e383]:
+                    - img [ref=e386] [cursor=pointer]
+                - row "8 Dash MV 2 Active 29/06/2026" [ref=e390]:
+                  - cell "8" [ref=e391]
+                  - cell [ref=e392]:
+                    - img [ref=e395]
+                  - cell "Dash MV" [ref=e397]:
+                    - link "Dash MV" [ref=e398] [cursor=pointer]:
+                      - /url: /vehicle/supplier/5
+                      - paragraph [ref=e399]: Dash MV
+                  - cell "2" [ref=e400]:
+                    - generic [ref=e402] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e403]:
+                    - generic [ref=e406]: Active
+                  - cell "29/06/2026" [ref=e407]
+                  - cell [ref=e408]:
+                    - img [ref=e411] [cursor=pointer]
+            - list [ref=e415]:
+              - listitem "Previous Page" [ref=e416]:
+                - button "left" [disabled] [ref=e417]:
+                  - img "left" [ref=e418]:
+                    - img [ref=e419]
+              - listitem "1" [ref=e421] [cursor=pointer]:
+                - generic [ref=e422]: "1"
+              - listitem "Next Page" [ref=e423]:
+                - button "right" [disabled] [ref=e424]:
+                  - img "right" [ref=e425]:
+                    - img [ref=e426]
+              - listitem [ref=e428]:
+                - generic "Page Size" [ref=e429] [cursor=pointer]:
+                  - generic [ref=e431]:
+                    - combobox "Page Size" [ref=e433]
+                    - generic "15 / page" [ref=e434]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e435]:
+    - dialog:
+      - generic [ref=e437]:
+        - generic [ref=e438]:
+          - generic [ref=e439]:
+            - generic [ref=e441]: Filter
+            - img [ref=e443] [cursor=pointer]
+          - generic [ref=e447]:
+            - generic [ref=e448]:
+              - generic [ref=e449]: Supplier Name
+              - textbox "Please enter" [ref=e451]
+            - generic [ref=e453]:
+              - generic [ref=e454]: Status
+              - generic [ref=e456] [cursor=pointer]:
+                - generic [ref=e458]:
+                  - combobox [ref=e460]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e461]:
+          - button "Clear all" [ref=e462] [cursor=pointer]
+          - button "Search" [ref=e463] [cursor=pointer]:
+            - img [ref=e465]
+            - text: Search

@@ -1,6 +1,7 @@
 ---
 title: Item Type
 sidebar_position: 2
+toc_max_heading_level: 2
 ---
 
 # Item Type
@@ -64,27 +65,6 @@ sidebar_position: 2
 
 ---
 
-## Action
-
-กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Item Type เพื่อดูรายละเอียด
-
-:::caution ข้อควรระวัง
-ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
-:::
-
-### View
-
-แสดงข้อมูล Item Type แบบ read-only พร้อมรายชื่อ Sub Item ทั้งหมด
-
-- กดปุ่ม **Edit** เพื่อเข้าสู่โหมดแก้ไข
-
-### Edit
-
-แก้ไขชื่อ Item Type, เพิ่ม/ลบ Sub Item และเปลี่ยนสถานะ Active / Inactive
-
-1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
-2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
-
 ## Create
 
 กดปุ่ม **Create Item Type** แล้วกรอกข้อมูลในฟอร์ม
@@ -118,3 +98,32 @@ sidebar_position: 2
 :::tip เคล็ดลับ
 Sub Item เป็นตัวเลือกเสริม — สามารถสร้าง Item Type โดยไม่มี Sub Item ได้ และเพิ่ม Sub Item ภายหลังผ่าน Edit ได้เช่นกัน
 :::
+
+---
+
+## Action
+
+กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Item Type เพื่อดูรายละเอียด
+
+:::caution ข้อควรระวัง
+ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
+:::
+
+### View
+
+แสดงข้อมูล Item Type แบบ read-only พร้อมรายชื่อ Sub Item ทั้งหมด
+
+- กดปุ่ม **Edit** เพื่อเข้าสู่โหมดแก้ไข
+
+### Edit
+
+<div className="manual-img-500">
+
+![Item Type Edit](/img/Program/item-type-edit.png)
+
+</div>
+
+แก้ไขชื่อ Item Type, เพิ่ม/ลบ Sub Item และเปลี่ยนสถานะ Active / Inactive
+
+1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
+2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก

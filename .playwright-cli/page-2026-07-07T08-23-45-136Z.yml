@@ -1,0 +1,198 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e35]
+          - text: Management
+          - group [ref=e36]:
+            - menuitem "Bookings" [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - generic [ref=e41]: Bookings
+            - menuitem "Excursion" [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+              - generic [ref=e45]: Excursion
+            - menuitem "Pick up Transport" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+              - generic [ref=e52]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e59]: Drop off Transport
+            - menuitem "Check In" [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e64]: Check In
+            - menuitem "Payment" [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e69]: Payment
+          - separator [ref=e70]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e71] [cursor=pointer]:
+            - img [ref=e72]
+            - generic [ref=e76]: Program
+          - menuitem "Seller" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e80]: Seller
+          - menuitem "Vehicle" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e89]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Employee
+          - menu [ref=e133]:
+            - menuitem "Employee summary" [ref=e134] [cursor=pointer]:
+              - img [ref=e135]
+              - generic [ref=e137]: Employee summary
+            - menuitem "Guide / Staff" [ref=e138] [cursor=pointer]:
+              - img [ref=e139]
+              - generic [ref=e141]: Guide / Staff
+            - menuitem "Other" [ref=e142] [cursor=pointer]:
+              - img [ref=e143]
+              - generic [ref=e145]: Other
+            - menuitem "Positions" [ref=e146] [cursor=pointer]:
+              - img [ref=e147]
+              - generic [ref=e149]: Positions
+          - menuitem "Zone Transfer" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e101]: Zone Transfer
+          - menuitem "User" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e106]: User
+          - menuitem "Company" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Company
+          - menuitem "User Manual" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: User Manual
+    - generic [ref=e115]:
+      - banner [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "Tue : 07 Jul 2026, 15:23"
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: AM
+            - generic [ref=e124]:
+              - generic [ref=e125]: amares
+              - generic [ref=e126]: Superadmin
+            - img [ref=e128]
+      - main [ref=e130]:
+        - generic [ref=e1181]:
+          - generic [ref=e1182]:
+            - generic [ref=e1183]:
+              - generic [ref=e1184]: Employee
+              - img [ref=e1185]
+              - generic [ref=e1187]: Positions
+            - button "Create Position" [ref=e1189] [cursor=pointer]:
+              - img [ref=e1191]
+              - text: Create Position
+          - generic [ref=e1194]:
+            - generic [ref=e1197]:
+              - img [ref=e1199]
+              - textbox "Search" [ref=e1202]
+            - button "Filter" [ref=e1204] [cursor=pointer]:
+              - img [ref=e1206]
+              - text: Filter
+            - button "Export" [ref=e1209] [cursor=pointer]:
+              - img [ref=e1211]
+              - generic [ref=e1214]: Export
+              - img [ref=e1216]
+          - generic [ref=e1221]:
+            - table [ref=e1225]:
+              - rowgroup [ref=e1232]:
+                - row "# Position List Status Last Modify Date Action" [ref=e1233]:
+                  - columnheader "#" [ref=e1234]
+                  - columnheader "Position List" [ref=e1235]
+                  - columnheader "Status" [ref=e1236]
+                  - columnheader "Last Modify Date" [ref=e1237]
+                  - columnheader "Action" [ref=e1238]
+              - rowgroup [ref=e1239]:
+                - row "1 Guide ( Default ) Active 29/06/2026" [ref=e1240]:
+                  - cell "1" [ref=e1241]
+                  - cell "Guide ( Default )" [ref=e1242]:
+                    - generic [ref=e1243]:
+                      - link "Guide" [ref=e1244] [cursor=pointer]:
+                        - /url: /employee/positions/1
+                        - paragraph [ref=e1245]: Guide
+                      - generic [ref=e1246]: ( Default )
+                  - cell "Active" [ref=e1247]:
+                    - generic [ref=e1250]: Active
+                  - cell "29/06/2026" [ref=e1251]
+                  - cell [ref=e1252]:
+                    - img [ref=e1255] [cursor=pointer]
+                - row "2 Staff ( Default ) Active 29/06/2026" [ref=e1259]:
+                  - cell "2" [ref=e1260]
+                  - cell "Staff ( Default )" [ref=e1261]:
+                    - generic [ref=e1262]:
+                      - link "Staff" [ref=e1263] [cursor=pointer]:
+                        - /url: /employee/positions/2
+                        - paragraph [ref=e1264]: Staff
+                      - generic [ref=e1265]: ( Default )
+                  - cell "Active" [ref=e1266]:
+                    - generic [ref=e1269]: Active
+                  - cell "29/06/2026" [ref=e1270]
+                  - cell [ref=e1271]:
+                    - img [ref=e1274] [cursor=pointer]
+                - row "3 Driver ( Default ) Active 29/06/2026" [ref=e1278]:
+                  - cell "3" [ref=e1279]
+                  - cell "Driver ( Default )" [ref=e1280]:
+                    - generic [ref=e1281]:
+                      - link "Driver" [ref=e1282] [cursor=pointer]:
+                        - /url: /employee/positions/3
+                        - paragraph [ref=e1283]: Driver
+                      - generic [ref=e1284]: ( Default )
+                  - cell "Active" [ref=e1285]:
+                    - generic [ref=e1288]: Active
+                  - cell "29/06/2026" [ref=e1289]
+                  - cell [ref=e1290]:
+                    - img [ref=e1293] [cursor=pointer]
+                - row "4 Captain Active 30/06/2026" [ref=e1297]:
+                  - cell "4" [ref=e1298]
+                  - cell "Captain" [ref=e1299]:
+                    - link "Captain" [ref=e1301] [cursor=pointer]:
+                      - /url: /employee/positions/4
+                      - paragraph [ref=e1302]: Captain
+                  - cell "Active" [ref=e1303]:
+                    - generic [ref=e1306]: Active
+                  - cell "30/06/2026" [ref=e1307]
+                  - cell [ref=e1308]:
+                    - img [ref=e1311] [cursor=pointer]
+                - row "5 Assist. Captain Active 30/06/2026" [ref=e1315]:
+                  - cell "5" [ref=e1316]
+                  - cell "Assist. Captain" [ref=e1317]:
+                    - link "Assist. Captain" [ref=e1319] [cursor=pointer]:
+                      - /url: /employee/positions/5
+                      - paragraph [ref=e1320]: Assist. Captain
+                  - cell "Active" [ref=e1321]:
+                    - generic [ref=e1324]: Active
+                  - cell "30/06/2026" [ref=e1325]
+                  - cell [ref=e1326]:
+                    - img [ref=e1329] [cursor=pointer]
+            - list [ref=e1333]:
+              - listitem "Previous Page" [ref=e1334]:
+                - button "left" [disabled] [ref=e1335]:
+                  - img "left" [ref=e1336]:
+                    - img [ref=e1337]
+              - listitem "1" [ref=e1339] [cursor=pointer]:
+                - generic [ref=e1340]: "1"
+              - listitem "Next Page" [ref=e1341]:
+                - button "right" [disabled] [ref=e1342]:
+                  - img "right" [ref=e1343]:
+                    - img [ref=e1344]
+              - listitem [ref=e1346]:
+                - generic "Page Size" [ref=e1347] [cursor=pointer]:
+                  - generic [ref=e1349]:
+                    - combobox "Page Size" [ref=e1351]
+                    - generic "15 / page" [ref=e1352]
+                  - generic:
+                    - img:
+                      - img
+  - menu [ref=e1354]:
+    - menuitem "View" [ref=e1355] [cursor=pointer]:
+      - img [ref=e1356]
+      - generic [ref=e1359]: View

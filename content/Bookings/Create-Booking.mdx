@@ -1,23 +1,30 @@
 ---
 title: Create Booking
 sidebar_position: 3
+toc_max_heading_level: 2
 ---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 # Create Booking
 
-หน้า **Create Booking** ใช้สำหรับสร้าง Booking ใหม่ให้ลูกค้า ฟอร์มแบ่งออกเป็น 5 ส่วน
+หน้า **Create Booking** ใช้สำหรับสร้าง Booking ใหม่ให้ลูกค้า
 
 กดปุ่ม **Create Booking** จากหน้า Booking List เพื่อเข้าสู่หน้านี้
 
 ---
 
+<Tabs>
+  <TabItem value="form" label="สร้าง Booking" default>
+
+## ภาพรวมหน้า
+
+![Create Booking](/img/Bookings/booking-create-form.png)
+
+---
+
 ## Booking Details
-
-<div className="manual-img-500">
-
-![Create Booking — Booking Details](/img/Bookings/booking-create.png)
-
-</div>
 
 เลือก **Booking Travel Date** (วันที่เดินทาง) ที่มุมขวาบนก่อน แล้วกรอกข้อมูลส่วน Booking Details
 
@@ -30,7 +37,7 @@ sidebar_position: 3
 | **Option** | Option เพิ่มเติม (dropdown) | — |
 | **Trip Type** | ประเภท Trip (dropdown) | ✅ |
 | **Trip round** | รอบเวลา Trip (dropdown) | ✅ |
-| **Language** | ภาษาที่ต้องการ (dropdown) | ✅ |
+| **Language** | ภาษาที่ต้องการ (dropdown) | — |
 
 ---
 
@@ -47,12 +54,6 @@ sidebar_position: 3
 ---
 
 ## Unit Details
-
-<div className="manual-img-500">
-
-![Create Booking — Unit Details](/img/Bookings/booking-create-unit.png)
-
-</div>
 
 ส่วน **Unit Details** แสดงรายการบริการที่รวมอยู่ใน Program ที่เลือก (โหลดอัตโนมัติหลังเลือก Program Name)
 
@@ -78,16 +79,20 @@ sidebar_position: 3
 
 ## Location Details
 
-<div className="manual-img-500">
-
-![Create Booking — Location & Remark](/img/Bookings/booking-create-location.png)
-
-</div>
+![Location Details](/img/Bookings/booking-create-location.png)
 
 | ฟิลด์ | คำอธิบาย | จำเป็น |
 |-------|----------|:------:|
+| **Meeting point location** | สถานที่นัดพบ | — |
+| **Pick up location** | สถานที่รับลูกค้า | — |
+| **Pick-up time** | เวลารับลูกค้า | — |
+| **Pick-up address** | ที่อยู่สำหรับรับลูกค้า | — |
 | **Drop - off point** | จุด Drop-off ที่ต้องการ | — |
 | **Drop - off remark** | หมายเหตุเพิ่มเติมเกี่ยวกับ Drop-off | — |
+
+:::caution ข้อควรระวัง
+หาก Trip Type เป็น **Excursion** หรือ **Join In** ฟิลด์ Pickup (Meeting point location, Pick up location, Pick-up time, Pick-up address) จะไม่แสดงขึ้นมาให้กรอก
+:::
 
 ---
 
@@ -110,3 +115,49 @@ sidebar_position: 3
 :::tip เคล็ดลับ
 ควรสร้าง Seller, Program และ Trip round ใน Setting ก่อน เพื่อให้มีข้อมูลให้เลือกในฟอร์ม
 :::
+
+  </TabItem>
+  <TabItem value="all-bookings" label="All Bookings">
+
+## All Bookings
+
+![All Bookings](/img/Bookings/booking-create-all.png)
+
+ส่วนด้านล่างของหน้า Create Booking แสดงรายการ Booking ที่มีอยู่แล้วในวัน **Booking Travel Date** เดียวกัน แบ่งออกเป็น 2 กลุ่ม
+
+| ข้อมูลสรุป | คำอธิบาย |
+|-----------|----------|
+| **Total Booking** | จำนวน Booking ทั้งหมด |
+| **Total Pax** | จำนวนผู้เดินทางรวม |
+| **Total Income** | ยอดรวมรายได้ |
+
+กดปุ่ม **Route Summary** เพื่อดูสรุปเส้นทางของวันนั้น
+
+---
+
+### Join In Booking
+
+Booking แบบ Join In — ลูกค้าหลายกลุ่มร่วม Trip เดียวกัน
+
+### Private Booking
+
+Booking แบบ Private — ลูกค้าจอง Trip เป็นของตัวเอง
+
+ทั้งสองตารางแสดงคอลัมน์เดียวกัน
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Seller** | ชื่อ Seller |
+| **Travel Date** | วันที่เดินทาง |
+| **Booking Date** | วันที่สร้าง Booking |
+| **Booking No.** | เลขที่ Booking |
+| **Trip Round** | รอบของ Trip |
+| **Program** | ชื่อโปรแกรม |
+| **Pax** | จำนวนผู้เดินทาง |
+| **Trip Code** | รหัส Trip |
+| **Status** | สถานะ Booking |
+| **Action** | ปุ่มจัดการ |
+
+  </TabItem>
+</Tabs>

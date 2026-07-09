@@ -1,0 +1,393 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [expanded] [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menu [ref=e64]:
+            - menuitem "Program List" [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e68]: Program List
+            - menuitem "Item Type" [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+              - generic [ref=e72]: Item Type
+            - menuitem "Unit" [ref=e73] [cursor=pointer]:
+              - img [ref=e74]
+              - generic [ref=e76]: Unit
+          - menuitem "Seller" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e80]: Seller
+          - menuitem "Vehicle" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e89]: Vehicle
+          - menuitem "Employee" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Employee
+          - menuitem "Zone Transfer" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e101]: Zone Transfer
+          - menuitem "User" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e106]: User
+          - menuitem "Company" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Company
+          - menuitem "User Manual" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: User Manual
+    - generic [ref=e115]:
+      - banner [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "Tue : 07 Jul 2026, 15:57"
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: AM
+            - generic [ref=e124]:
+              - generic [ref=e125]: amares
+              - generic [ref=e126]: Superadmin
+            - img [ref=e128]
+      - main [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: Program
+              - img [ref=e135]
+              - generic [ref=e137]: Program List
+            - button "Create Program" [ref=e139] [cursor=pointer]:
+              - img [ref=e141]
+              - text: Create Program
+          - generic [ref=e143]:
+            - tablist [ref=e144]:
+              - generic [ref=e146]:
+                - tab "All product 32" [selected] [ref=e244] [cursor=pointer]:
+                  - generic [ref=e150]:
+                    - text: All product
+                    - generic [ref=e152]: "32"
+                - tab "Active 30" [ref=e245] [cursor=pointer]:
+                  - generic [ref=e156]:
+                    - text: Active
+                    - generic [ref=e158]: "30"
+                - tab "Inactive 1" [ref=e246] [cursor=pointer]:
+                  - generic [ref=e162]:
+                    - text: Inactive
+                    - generic [ref=e164]: "1"
+                - tab "Draft 1" [ref=e247] [cursor=pointer]:
+                  - generic [ref=e168]:
+                    - text: Draft
+                    - generic [ref=e170]: "1"
+              - generic [ref=e172]:
+                - generic [ref=e175]:
+                  - img [ref=e177]
+                  - textbox "Search" [ref=e180]
+                - button "Filter" [ref=e182] [cursor=pointer]:
+                  - img [ref=e184]
+                  - text: Filter
+                - button "Export" [ref=e187] [cursor=pointer]:
+                  - img [ref=e189]
+                  - generic [ref=e192]: Export
+                  - img [ref=e194]
+            - tabpanel "All product 32" [ref=e248]:
+              - generic [ref=e202]:
+                - table [ref=e206]:
+                  - rowgroup [ref=e215]:
+                    - row "# Program Code Program Name Seller Quantity Status Last Modify Date Action" [ref=e216]:
+                      - columnheader "#" [ref=e217]
+                      - columnheader "Program Code" [ref=e218]
+                      - columnheader "Program Name" [ref=e219]
+                      - columnheader "Seller Quantity" [ref=e220]
+                      - columnheader "Status" [ref=e221]
+                      - columnheader "Last Modify Date" [ref=e222]
+                      - columnheader "Action" [ref=e223]
+                  - rowgroup [ref=e224]:
+                    - row "1 Program-00031 1111111 - Draft 07/07/2026" [ref=e249]:
+                      - cell "1" [ref=e250]
+                      - cell "Program-00031" [ref=e251]
+                      - cell "1111111" [ref=e252]:
+                        - link "1111111" [ref=e253] [cursor=pointer]:
+                          - /url: /program/program-list/create?id=31
+                          - paragraph [ref=e254]: "1111111"
+                      - cell "-" [ref=e255]:
+                        - generic [ref=e257] [cursor=pointer]: "-"
+                      - cell "Draft" [ref=e258]:
+                        - generic [ref=e261]: Draft
+                      - cell "07/07/2026" [ref=e262]
+                      - cell [ref=e263]:
+                        - img [ref=e266] [cursor=pointer]
+                    - row "2 Program-00032 aaaaa - Active 07/07/2026" [ref=e270]:
+                      - cell "2" [ref=e271]
+                      - cell "Program-00032" [ref=e272]
+                      - cell "aaaaa" [ref=e273]:
+                        - link "aaaaa" [ref=e274] [cursor=pointer]:
+                          - /url: /program/program-list/32
+                          - paragraph [ref=e275]: aaaaa
+                      - cell "-" [ref=e276]:
+                        - generic [ref=e278] [cursor=pointer]: "-"
+                      - cell "Active" [ref=e279]:
+                        - generic [ref=e282]: Active
+                      - cell "07/07/2026" [ref=e283]
+                      - cell [ref=e284]:
+                        - img [ref=e287] [cursor=pointer]
+                    - row "3 Program-00029 join in - Active 07/07/2026" [ref=e291]:
+                      - cell "3" [ref=e292]
+                      - cell "Program-00029" [ref=e293]
+                      - cell "join in" [ref=e294]:
+                        - link "join in" [ref=e295] [cursor=pointer]:
+                          - /url: /program/program-list/29
+                          - paragraph [ref=e296]: join in
+                      - cell "-" [ref=e297]:
+                        - generic [ref=e299] [cursor=pointer]: "-"
+                      - cell "Active" [ref=e300]:
+                        - generic [ref=e303]: Active
+                      - cell "07/07/2026" [ref=e304]
+                      - cell [ref=e305]:
+                        - img [ref=e308] [cursor=pointer]
+                    - row "4 Program-00030 private - Active 07/07/2026" [ref=e312]:
+                      - cell "4" [ref=e313]
+                      - cell "Program-00030" [ref=e314]
+                      - cell "private" [ref=e315]:
+                        - link "private" [ref=e316] [cursor=pointer]:
+                          - /url: /program/program-list/30
+                          - paragraph [ref=e317]: private
+                      - cell "-" [ref=e318]:
+                        - generic [ref=e320] [cursor=pointer]: "-"
+                      - cell "Active" [ref=e321]:
+                        - generic [ref=e324]: Active
+                      - cell "07/07/2026" [ref=e325]
+                      - cell [ref=e326]:
+                        - img [ref=e329] [cursor=pointer]
+                    - row "5 Program-00028 private - Active 07/07/2026" [ref=e333]:
+                      - cell "5" [ref=e334]
+                      - cell "Program-00028" [ref=e335]
+                      - cell "private" [ref=e336]:
+                        - link "private" [ref=e337] [cursor=pointer]:
+                          - /url: /program/program-list/28
+                          - paragraph [ref=e338]: private
+                      - cell "-" [ref=e339]:
+                        - generic [ref=e341] [cursor=pointer]: "-"
+                      - cell "Active" [ref=e342]:
+                        - generic [ref=e345]: Active
+                      - cell "07/07/2026" [ref=e346]
+                      - cell [ref=e347]:
+                        - img [ref=e350] [cursor=pointer]
+                    - row "6 Program-00027 join in - Active 07/07/2026" [ref=e354]:
+                      - cell "6" [ref=e355]
+                      - cell "Program-00027" [ref=e356]
+                      - cell "join in" [ref=e357]:
+                        - link "join in" [ref=e358] [cursor=pointer]:
+                          - /url: /program/program-list/27
+                          - paragraph [ref=e359]: join in
+                      - cell "-" [ref=e360]:
+                        - generic [ref=e362] [cursor=pointer]: "-"
+                      - cell "Active" [ref=e363]:
+                        - generic [ref=e366]: Active
+                      - cell "07/07/2026" [ref=e367]
+                      - cell [ref=e368]:
+                        - img [ref=e371] [cursor=pointer]
+                    - row "7 Program-00026 1 - Active 07/07/2026" [ref=e375]:
+                      - cell "7" [ref=e376]
+                      - cell "Program-00026" [ref=e377]
+                      - cell "1" [ref=e378]:
+                        - link "1" [ref=e379] [cursor=pointer]:
+                          - /url: /program/program-list/26
+                          - paragraph [ref=e380]: "1"
+                      - cell "-" [ref=e381]:
+                        - generic [ref=e383] [cursor=pointer]: "-"
+                      - cell "Active" [ref=e384]:
+                        - generic [ref=e387]: Active
+                      - cell "07/07/2026" [ref=e388]
+                      - cell [ref=e389]:
+                        - img [ref=e392] [cursor=pointer]
+                    - row "8 Program-00024 test tar 2 Active 07/07/2026" [ref=e396]:
+                      - cell "8" [ref=e397]
+                      - cell "Program-00024" [ref=e398]
+                      - cell "test tar" [ref=e399]:
+                        - link "test tar" [ref=e400] [cursor=pointer]:
+                          - /url: /program/program-list/24
+                          - paragraph [ref=e401]: test tar
+                      - cell "2" [ref=e402]:
+                        - generic [ref=e404] [cursor=pointer]: "2"
+                      - cell "Active" [ref=e405]:
+                        - generic [ref=e408]: Active
+                      - cell "07/07/2026" [ref=e409]
+                      - cell [ref=e410]:
+                        - img [ref=e413] [cursor=pointer]
+                    - row "9 Program-00003 [One asia ]Private · Sugar House, Floating & Maeklong Train 2 Active 07/07/2026" [ref=e417]:
+                      - cell "9" [ref=e418]
+                      - cell "Program-00003" [ref=e419]
+                      - cell "[One asia ]Private · Sugar House, Floating & Maeklong Train" [ref=e420]:
+                        - link "[One asia ]Private · Sugar House, Floating & Maeklong Train" [ref=e421] [cursor=pointer]:
+                          - /url: /program/program-list/3
+                          - paragraph [ref=e422]: "[One asia ]Private · Sugar House, Floating & Maeklong Train"
+                      - cell "2" [ref=e423]:
+                        - generic [ref=e425] [cursor=pointer]: "2"
+                      - cell "Active" [ref=e426]:
+                        - generic [ref=e429]: Active
+                      - cell "07/07/2026" [ref=e430]
+                      - cell [ref=e431]:
+                        - img [ref=e434] [cursor=pointer]
+                    - row "10 Program-00025 test tar 2 1 Active 07/07/2026" [ref=e438]:
+                      - cell "10" [ref=e439]
+                      - cell "Program-00025" [ref=e440]
+                      - cell "test tar 2" [ref=e441]:
+                        - link "test tar 2" [ref=e442] [cursor=pointer]:
+                          - /url: /program/program-list/25
+                          - paragraph [ref=e443]: test tar 2
+                      - cell "1" [ref=e444]:
+                        - generic [ref=e446] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e447]:
+                        - generic [ref=e450]: Active
+                      - cell "07/07/2026" [ref=e451]
+                      - cell [ref=e452]:
+                        - img [ref=e455] [cursor=pointer]
+                    - row "11 Program-00023 ทัวร์ธรรมมะกระตุกจิตกระชากใจ 1 Active 07/07/2026" [ref=e459]:
+                      - cell "11" [ref=e460]
+                      - cell "Program-00023" [ref=e461]
+                      - cell "ทัวร์ธรรมมะกระตุกจิตกระชากใจ" [ref=e462]:
+                        - link "ทัวร์ธรรมมะกระตุกจิตกระชากใจ" [ref=e463] [cursor=pointer]:
+                          - /url: /program/program-list/23
+                          - paragraph [ref=e464]: ทัวร์ธรรมมะกระตุกจิตกระชากใจ
+                      - cell "1" [ref=e465]:
+                        - generic [ref=e467] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e468]:
+                        - generic [ref=e471]: Active
+                      - cell "07/07/2026" [ref=e472]
+                      - cell [ref=e473]:
+                        - img [ref=e476] [cursor=pointer]
+                    - row "12 Program-00020 ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat] 1 Active 07/07/2026" [ref=e480]:
+                      - cell "12" [ref=e481]
+                      - cell "Program-00020" [ref=e482]
+                      - cell "ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]" [ref=e483]:
+                        - link "ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]" [ref=e484] [cursor=pointer]:
+                          - /url: /program/program-list/20
+                          - paragraph [ref=e485]: ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]
+                      - cell "1" [ref=e486]:
+                        - generic [ref=e488] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e489]:
+                        - generic [ref=e492]: Active
+                      - cell "07/07/2026" [ref=e493]
+                      - cell [ref=e494]:
+                        - img [ref=e497] [cursor=pointer]
+                    - 'row "13 Program-00022 Flavors of Chinatown: Bangkok Half-Day Food Walking Tour 1 Active 02/07/2026" [ref=e501]':
+                      - cell "13" [ref=e502]
+                      - cell "Program-00022" [ref=e503]
+                      - 'cell "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour" [ref=e504]':
+                        - 'link "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour" [ref=e505] [cursor=pointer]':
+                          - /url: /program/program-list/22
+                          - paragraph [ref=e506]: "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour"
+                      - cell "1" [ref=e507]:
+                        - generic [ref=e509] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e510]:
+                        - generic [ref=e513]: Active
+                      - cell "02/07/2026" [ref=e514]
+                      - cell [ref=e515]:
+                        - img [ref=e518] [cursor=pointer]
+                    - row "14 Program-00021 [Own Tour] Damnoen+Buffalo+Maeklong 1 Active 02/07/2026" [ref=e522]:
+                      - cell "14" [ref=e523]
+                      - cell "Program-00021" [ref=e524]
+                      - cell "[Own Tour] Damnoen+Buffalo+Maeklong" [ref=e525]:
+                        - link "[Own Tour] Damnoen+Buffalo+Maeklong" [ref=e526] [cursor=pointer]:
+                          - /url: /program/program-list/21
+                          - paragraph [ref=e527]: "[Own Tour] Damnoen+Buffalo+Maeklong"
+                      - cell "1" [ref=e528]:
+                        - generic [ref=e530] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e531]:
+                        - generic [ref=e534]: Active
+                      - cell "02/07/2026" [ref=e535]
+                      - cell [ref=e536]:
+                        - img [ref=e539] [cursor=pointer]
+                    - row "15 Program-00019 (PhiPhi) Hong Island By Luxury longtail boat 1 Active 02/07/2026" [ref=e543]:
+                      - cell "15" [ref=e544]
+                      - cell "Program-00019" [ref=e545]
+                      - cell "(PhiPhi) Hong Island By Luxury longtail boat" [ref=e546]:
+                        - link "(PhiPhi) Hong Island By Luxury longtail boat" [ref=e547] [cursor=pointer]:
+                          - /url: /program/program-list/19
+                          - paragraph [ref=e548]: (PhiPhi) Hong Island By Luxury longtail boat
+                      - cell "1" [ref=e549]:
+                        - generic [ref=e551] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e552]:
+                        - generic [ref=e555]: Active
+                      - cell "02/07/2026" [ref=e556]
+                      - cell [ref=e557]:
+                        - img [ref=e560] [cursor=pointer]
+                - list [ref=e564]:
+                  - listitem "Previous Page" [ref=e565]:
+                    - button "left" [disabled] [ref=e566]:
+                      - img "left" [ref=e567]:
+                        - img [ref=e568]
+                  - listitem "1" [ref=e570] [cursor=pointer]:
+                    - generic [ref=e571]: "1"
+                  - listitem "2" [ref=e572] [cursor=pointer]:
+                    - generic [ref=e573]: "2"
+                  - listitem "3" [ref=e574] [cursor=pointer]:
+                    - generic [ref=e575]: "3"
+                  - listitem "Next Page" [ref=e576] [cursor=pointer]:
+                    - button "right" [ref=e577]:
+                      - img "right" [ref=e578]:
+                        - img [ref=e579]
+                  - listitem [ref=e581]:
+                    - generic "Page Size" [ref=e582] [cursor=pointer]:
+                      - generic [ref=e584]:
+                        - combobox "Page Size" [ref=e586]
+                        - generic "15 / page" [ref=e587]
+                      - generic:
+                        - img:
+                          - img
+  - generic [ref=e588]:
+    - dialog:
+      - generic [ref=e590]:
+        - generic [ref=e591]:
+          - generic [ref=e592]:
+            - generic [ref=e594]: Filter
+            - img [ref=e596] [cursor=pointer]
+          - generic [ref=e600]:
+            - generic [ref=e601]:
+              - generic [ref=e602]: Program code
+              - textbox "Please enter" [ref=e604]
+            - generic [ref=e606]:
+              - generic [ref=e607]: Program name
+              - textbox "Please enter" [ref=e609]
+            - generic [ref=e611]:
+              - generic [ref=e612]: Status
+              - generic [ref=e614] [cursor=pointer]:
+                - generic [ref=e616]:
+                  - combobox [ref=e618]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e619]:
+          - button "Clear all" [ref=e620] [cursor=pointer]
+          - button "Search" [ref=e621] [cursor=pointer]:
+            - img [ref=e623]
+            - text: Search

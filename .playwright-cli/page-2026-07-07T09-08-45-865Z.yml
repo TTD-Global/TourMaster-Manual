@@ -1,0 +1,496 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [expanded] [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menu [ref=e589]:
+              - menuitem "Overview" [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e32]: Overview
+              - menuitem "Create Booking" [ref=e590] [cursor=pointer]:
+                - img [ref=e591]
+                - generic [ref=e593]: Create Booking
+              - menuitem "Booking List" [ref=e594] [cursor=pointer]:
+                - img [ref=e595]
+                - generic [ref=e597]: Booking List
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 07 Jul 2026, 16:07"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e132]:
+            - generic [ref=e133]: Booking
+            - img [ref=e134]
+            - generic [ref=e136]: Create Booking
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - paragraph [ref=e141]: Create New Booking
+                - generic [ref=e142] [cursor=pointer]:
+                  - generic: Booking Travel Date
+                  - generic [ref=e143]:
+                    - img [ref=e144]
+                    - generic: 07/07/2026
+                  - generic [ref=e146]:
+                    - generic:
+                      - textbox "Select date": 07/07/2026
+              - generic [ref=e147]:
+                - generic [ref=e148]:
+                  - generic [ref=e150]:
+                    - img [ref=e152]
+                    - text: Booking Details
+                  - img [ref=e156] [cursor=pointer]
+                - generic [ref=e160]:
+                  - generic [ref=e161]:
+                    - generic [ref=e162]:
+                      - generic [ref=e163]: Seller *
+                      - generic [ref=e165] [cursor=pointer]:
+                        - generic [ref=e167]:
+                          - combobox [ref=e169]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e170]:
+                      - generic [ref=e171]: Booking No. *
+                      - textbox "Please enter" [ref=e173]
+                    - generic [ref=e175]:
+                      - generic [ref=e176]: Program Name *
+                      - generic [ref=e178] [cursor=pointer]:
+                        - generic [ref=e180]:
+                          - combobox [ref=e182]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e183]:
+                      - generic [ref=e184]: Payment
+                      - generic [ref=e186] [cursor=pointer]:
+                        - generic [ref=e188]:
+                          - combobox [ref=e190]
+                          - generic: Please select
+                        - generic:
+                          - img
+                  - generic [ref=e191]:
+                    - generic [ref=e192]:
+                      - generic [ref=e193]: Option
+                      - generic [ref=e195] [cursor=pointer]:
+                        - generic [ref=e197]:
+                          - combobox [ref=e199]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e200]:
+                      - generic [ref=e201]: Trip Type *
+                      - generic [ref=e203] [cursor=pointer]:
+                        - generic [ref=e205]:
+                          - combobox [ref=e207]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e208]:
+                      - generic [ref=e209]: Trip round *
+                      - generic [ref=e211] [cursor=pointer]:
+                        - generic [ref=e212]:
+                          - img [ref=e214]
+                          - generic [ref=e217]:
+                            - combobox [ref=e219]
+                            - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e220]:
+                      - generic [ref=e221]: Language
+                      - generic [ref=e223] [cursor=pointer]:
+                        - generic [ref=e225]:
+                          - combobox [ref=e227]
+                          - generic: Please select
+                        - generic:
+                          - img
+              - generic [ref=e228]:
+                - generic [ref=e229]:
+                  - generic [ref=e231]:
+                    - img [ref=e233]
+                    - text: Customer Details
+                  - img [ref=e237] [cursor=pointer]
+                - generic [ref=e241]:
+                  - generic [ref=e242]:
+                    - generic [ref=e243]: Customer Name *
+                    - textbox "Please enter" [ref=e245]
+                  - generic [ref=e247]:
+                    - generic [ref=e248]: Nationality
+                    - textbox "Please enter" [ref=e250]
+                  - generic [ref=e252]:
+                    - generic [ref=e253]: Email
+                    - textbox "Please enter" [ref=e255]
+                  - generic [ref=e257]:
+                    - generic [ref=e258]: Phone number
+                    - textbox "Please enter" [ref=e260]
+                  - generic [ref=e262]:
+                    - generic [ref=e263]: Contact method
+                    - generic [ref=e265] [cursor=pointer]:
+                      - generic [ref=e267]:
+                        - combobox [ref=e269]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - textbox [disabled] [ref=e273]
+              - generic [ref=e275]:
+                - generic [ref=e276]:
+                  - generic [ref=e278]:
+                    - img [ref=e280]
+                    - text: Unit Details
+                  - img [ref=e286] [cursor=pointer]
+                - generic [ref=e289]:
+                  - generic [ref=e290]:
+                    - generic [ref=e291]: Unit
+                    - generic [ref=e292]: Price
+                    - generic [ref=e293]: Quantity
+                    - generic [ref=e294]: KB
+                    - generic [ref=e295]: Total
+                  - generic [ref=e296]:
+                    - img [ref=e298]
+                    - generic [ref=e315]:
+                      - generic [ref=e316]: Sub total
+                      - generic [ref=e317]: ฿ 0.00
+                    - generic [ref=e318]:
+                      - generic [ref=e319]:
+                        - img [ref=e321]
+                        - text: Discount
+                      - generic [ref=e328]:
+                        - generic:
+                          - paragraph: ฿
+                        - generic [ref=e329]:
+                          - generic:
+                            - button "Increase Value":
+                              - img "up":
+                                - img
+                            - button "Decrease Value":
+                              - img "down":
+                                - img
+                          - spinbutton "0.00" [ref=e331]
+                    - generic [ref=e332]:
+                      - generic [ref=e334]:
+                        - paragraph [ref=e335]: Total Pax
+                        - paragraph [ref=e336]: "0"
+                      - generic [ref=e338]:
+                        - paragraph [ref=e339]: Total KB
+                        - paragraph [ref=e340]: ฿ 0.00
+                      - generic [ref=e342]:
+                        - paragraph [ref=e343]: Total Price
+                        - paragraph [ref=e344]: ฿ 0.00
+              - generic [ref=e345]:
+                - generic [ref=e346]:
+                  - generic [ref=e348]:
+                    - img [ref=e350]
+                    - text: Location Details
+                  - img [ref=e354] [cursor=pointer]
+                - generic [ref=e359]:
+                  - generic [ref=e360]:
+                    - generic [ref=e361]: Drop - off point
+                    - generic [ref=e365]:
+                      - combobox [ref=e367]
+                      - generic: Please select or enter
+                  - generic [ref=e368]:
+                    - generic [ref=e369]: Drop - off remark
+                    - textbox "Please enter" [ref=e371]
+              - generic [ref=e373]:
+                - generic [ref=e374]:
+                  - generic [ref=e376]:
+                    - img [ref=e378]
+                    - text: Remark
+                  - img [ref=e383] [cursor=pointer]
+                - generic [ref=e387]:
+                  - generic [ref=e388]: Remark
+                  - textbox "Enter any special requests or additional information..." [ref=e389]
+            - generic [ref=e391]:
+              - button "Clear Form" [ref=e392] [cursor=pointer]
+              - button "Create Booking" [disabled] [ref=e394]:
+                - img [ref=e396]
+                - text: Create Booking
+              - button "Create & Confirm" [disabled] [ref=e397]:
+                - img [ref=e399]
+                - text: Create & Confirm
+            - generic [ref=e403]:
+              - generic [ref=e404]:
+                - generic [ref=e405]:
+                  - paragraph [ref=e406]: All Bookings
+                  - generic [ref=e407]:
+                    - generic [ref=e408]:
+                      - text: Total Booking
+                      - generic [ref=e409]: "5"
+                    - generic [ref=e410]:
+                      - text: Total Pax
+                      - generic [ref=e411]: "17"
+                    - generic [ref=e412]:
+                      - text: Total Income
+                      - generic [ref=e413]: ฿ 11,300.00
+                - generic [ref=e416]:
+                  - img [ref=e418]
+                  - textbox "Search by Booking No, Customer na..." [ref=e421]
+              - generic [ref=e423]:
+                - generic [ref=e424]:
+                  - generic [ref=e425]:
+                    - img [ref=e427]
+                    - paragraph [ref=e432]: Join In Booking
+                  - button "Route Summary" [ref=e433] [cursor=pointer]:
+                    - img [ref=e435]
+                    - text: Route Summary
+                - generic [ref=e438]:
+                  - generic [ref=e439]:
+                    - generic [ref=e440]:
+                      - text: Total Booking
+                      - generic [ref=e441]: "3"
+                    - generic [ref=e442]:
+                      - text: Total Pax
+                      - generic [ref=e443]: "10"
+                    - generic [ref=e444]:
+                      - text: Total Income
+                      - generic [ref=e445]: ฿ 8,800.00
+                  - generic [ref=e446]:
+                    - img [ref=e447]
+                    - text: Minimum to run
+                - generic [ref=e457]:
+                  - table [ref=e461]:
+                    - rowgroup [ref=e474]:
+                      - row "# Seller Travel Date Booking Date Booking No. Trip Round Program Pax Trip Code Status Action" [ref=e475]:
+                        - columnheader "#" [ref=e476]
+                        - columnheader "Seller" [ref=e477]
+                        - columnheader "Travel Date" [ref=e478]
+                        - columnheader "Booking Date" [ref=e479]
+                        - columnheader "Booking No." [ref=e480]
+                        - columnheader "Trip Round" [ref=e481]
+                        - columnheader "Program" [ref=e482]
+                        - columnheader "Pax" [ref=e483]
+                        - columnheader "Trip Code" [ref=e484]
+                        - columnheader "Status" [ref=e485]
+                        - columnheader "Action" [ref=e486]
+                    - rowgroup [ref=e487]:
+                      - row "1 Phi Phi 07/07/2026 07/07/2026 TSB-0726VXQ2 08:30 ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat] 4 EC261QAL Confirmed" [ref=e598]:
+                        - cell "1" [ref=e599]
+                        - cell "Phi Phi" [ref=e600]:
+                          - generic [ref=e602]: Phi Phi
+                        - cell "07/07/2026" [ref=e603]
+                        - cell "07/07/2026" [ref=e604]
+                        - cell "TSB-0726VXQ2" [ref=e605]:
+                          - generic [ref=e607] [cursor=pointer]: TSB-0726VXQ2
+                        - cell "08:30" [ref=e608]
+                        - cell "ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]" [ref=e609]:
+                          - generic [ref=e610] [cursor=pointer]: ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]
+                        - cell "4" [ref=e611]:
+                          - generic [ref=e614] [cursor=pointer]: "4"
+                        - cell "EC261QAL" [ref=e615]:
+                          - generic [ref=e618] [cursor=pointer]: EC261QAL
+                        - cell "Confirmed" [ref=e619]:
+                          - generic [ref=e622]: Confirmed
+                        - cell [ref=e623]:
+                          - img [ref=e626] [cursor=pointer]
+                      - row "2 Phi Phi 07/07/2026 07/07/2026 TSB-07262MSJ 08:30 ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat] 4 EC261QAL Confirmed" [ref=e630]:
+                        - cell "2" [ref=e631]
+                        - cell "Phi Phi" [ref=e632]:
+                          - generic [ref=e634]: Phi Phi
+                        - cell "07/07/2026" [ref=e635]
+                        - cell "07/07/2026" [ref=e636]
+                        - cell "TSB-07262MSJ" [ref=e637]:
+                          - generic [ref=e639] [cursor=pointer]: TSB-07262MSJ
+                        - cell "08:30" [ref=e640]
+                        - cell "ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]" [ref=e641]:
+                          - generic [ref=e642] [cursor=pointer]: ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]
+                        - cell "4" [ref=e643]:
+                          - generic [ref=e646] [cursor=pointer]: "4"
+                        - cell "EC261QAL" [ref=e647]:
+                          - generic [ref=e650] [cursor=pointer]: EC261QAL
+                        - cell "Confirmed" [ref=e651]:
+                          - generic [ref=e654]: Confirmed
+                        - cell [ref=e655]:
+                          - img [ref=e658] [cursor=pointer]
+                      - 'row "3 KLOOK 07/07/2026 06/07/2026 TESTEIEIE1 16:00 Flavors of Chinatown: Bangkok Half-Day Food Walking Tour 2 - Confirmed" [ref=e662]':
+                        - cell "3" [ref=e663]
+                        - cell "KLOOK" [ref=e664]:
+                          - generic [ref=e666]: KLOOK
+                        - cell "07/07/2026" [ref=e667]
+                        - cell "06/07/2026" [ref=e668]
+                        - cell "TESTEIEIE1" [ref=e669]:
+                          - generic [ref=e671] [cursor=pointer]: TESTEIEIE1
+                        - cell "16:00" [ref=e672]
+                        - 'cell "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour" [ref=e673]':
+                          - generic [ref=e674] [cursor=pointer]: "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour"
+                        - cell "2" [ref=e675]:
+                          - generic [ref=e678] [cursor=pointer]: "2"
+                        - cell "-" [ref=e679]
+                        - cell "Confirmed" [ref=e680]:
+                          - generic [ref=e683]: Confirmed
+                        - cell [ref=e684]:
+                          - img [ref=e687] [cursor=pointer]
+                  - list [ref=e691]:
+                    - listitem "Previous Page" [ref=e692]:
+                      - button "left" [disabled] [ref=e693]:
+                        - img "left" [ref=e694]:
+                          - img [ref=e695]
+                    - listitem "1" [ref=e697] [cursor=pointer]:
+                      - generic [ref=e698]: "1"
+                    - listitem "Next Page" [ref=e699]:
+                      - button "right" [disabled] [ref=e700]:
+                        - img "right" [ref=e701]:
+                          - img [ref=e702]
+                    - listitem [ref=e704]:
+                      - generic "Page Size" [ref=e705] [cursor=pointer]:
+                        - generic [ref=e707]:
+                          - combobox "Page Size" [ref=e709]
+                          - generic "20 / page" [ref=e710]
+                        - generic:
+                          - img:
+                            - img
+              - generic [ref=e507]:
+                - generic [ref=e508]:
+                  - generic [ref=e509]:
+                    - img [ref=e511]
+                    - paragraph [ref=e514]: Private Booking
+                  - button "Route Summary" [ref=e515] [cursor=pointer]:
+                    - img [ref=e517]
+                    - text: Route Summary
+                - generic [ref=e520]:
+                  - generic [ref=e521]:
+                    - generic [ref=e522]:
+                      - text: Total Booking
+                      - generic [ref=e523]: "2"
+                    - generic [ref=e524]:
+                      - text: Total Pax
+                      - generic [ref=e525]: "7"
+                    - generic [ref=e526]:
+                      - text: Total Income
+                      - generic [ref=e527]: ฿ 2,500.00
+                  - generic [ref=e528]:
+                    - img [ref=e529]
+                    - text: Minimum to run
+                - generic [ref=e539]:
+                  - table [ref=e543]:
+                    - rowgroup [ref=e556]:
+                      - row "# Seller Travel Date Booking Date Booking No. Trip Round Program Pax Trip Code Status Action" [ref=e557]:
+                        - columnheader "#" [ref=e558]
+                        - columnheader "Seller" [ref=e559]
+                        - columnheader "Travel Date" [ref=e560]
+                        - columnheader "Booking Date" [ref=e561]
+                        - columnheader "Booking No." [ref=e562]
+                        - columnheader "Trip Round" [ref=e563]
+                        - columnheader "Program" [ref=e564]
+                        - columnheader "Pax" [ref=e565]
+                        - columnheader "Trip Code" [ref=e566]
+                        - columnheader "Status" [ref=e567]
+                        - columnheader "Action" [ref=e568]
+                    - rowgroup [ref=e569]:
+                      - row "1 [TTD] Klook 07/07/2026 07/07/2026 TSB-0726D8JS 07:30 [One asia ]Private · Sugar House, Floating & Maeklong Train 2 - Confirmed" [ref=e711]:
+                        - cell "1" [ref=e712]
+                        - cell "[TTD] Klook" [ref=e713]:
+                          - generic [ref=e715]: "[TTD] Klook"
+                        - cell "07/07/2026" [ref=e716]
+                        - cell "07/07/2026" [ref=e717]
+                        - cell "TSB-0726D8JS" [ref=e718]:
+                          - generic [ref=e720] [cursor=pointer]: TSB-0726D8JS
+                        - cell "07:30" [ref=e721]
+                        - cell "[One asia ]Private · Sugar House, Floating & Maeklong Train" [ref=e722]:
+                          - generic [ref=e723] [cursor=pointer]: "[One asia ]Private · Sugar House, Floating & Maeklong Train"
+                        - cell "2" [ref=e724]:
+                          - generic [ref=e727] [cursor=pointer]: "2"
+                        - cell "-" [ref=e728]
+                        - cell "Confirmed" [ref=e729]:
+                          - generic [ref=e732]: Confirmed
+                        - cell [ref=e733]:
+                          - img [ref=e736] [cursor=pointer]
+                      - row "2 [TTD] Klook 07/07/2026 07/07/2026 TSB-07262AXI 07:30 [One asia ]Private · Sugar House, Floating & Maeklong Train 5 EC26VEEY Confirmed" [ref=e740]:
+                        - cell "2" [ref=e741]
+                        - cell "[TTD] Klook" [ref=e742]:
+                          - generic [ref=e744]: "[TTD] Klook"
+                        - cell "07/07/2026" [ref=e745]
+                        - cell "07/07/2026" [ref=e746]
+                        - cell "TSB-07262AXI" [ref=e747]:
+                          - generic [ref=e749] [cursor=pointer]: TSB-07262AXI
+                        - cell "07:30" [ref=e750]
+                        - cell "[One asia ]Private · Sugar House, Floating & Maeklong Train" [ref=e751]:
+                          - generic [ref=e752] [cursor=pointer]: "[One asia ]Private · Sugar House, Floating & Maeklong Train"
+                        - cell "5" [ref=e753]:
+                          - generic [ref=e756] [cursor=pointer]: "5"
+                        - cell "EC26VEEY" [ref=e757]:
+                          - generic [ref=e760] [cursor=pointer]: EC26VEEY
+                        - cell "Confirmed" [ref=e761]:
+                          - generic [ref=e764]: Confirmed
+                        - cell [ref=e765]:
+                          - img [ref=e768] [cursor=pointer]
+                  - list [ref=e772]:
+                    - listitem "Previous Page" [ref=e773]:
+                      - button "left" [disabled] [ref=e774]:
+                        - img "left" [ref=e775]:
+                          - img [ref=e776]
+                    - listitem "1" [ref=e778] [cursor=pointer]:
+                      - generic [ref=e779]: "1"
+                    - listitem "Next Page" [ref=e780]:
+                      - button "right" [disabled] [ref=e781]:
+                        - img "right" [ref=e782]:
+                          - img [ref=e783]
+                    - listitem [ref=e785]:
+                      - generic "Page Size" [ref=e786] [cursor=pointer]:
+                        - generic [ref=e788]:
+                          - combobox "Page Size" [ref=e790]
+                          - generic "20 / page" [ref=e791]
+                        - generic:
+                          - img:
+                            - img

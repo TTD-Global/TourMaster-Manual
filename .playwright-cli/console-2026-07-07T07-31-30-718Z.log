@@ -1,0 +1,18 @@
+[     112ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     112ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     125ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     125ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     154ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     154ms] [LOG] permissions [SELLER] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     179ms] [LOG] 1 @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/agents/page-3f6f1b66636d3bea.js:0
+[     264ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     264ms] [LOG] permissions [SELLER] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     273ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/agents?page=1&page_size=15:0
+[     273ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/agents?page=1&page_size=15:0
+[     273ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/agents?page=1&page_size=15:0
+[     277ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     279ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     279ms] [LOG] permissions [SELLER] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     851ms] [LOG] 1 @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/agents/page-3f6f1b66636d3bea.js:0
+[     930ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     930ms] [LOG] permissions [SELLER] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0

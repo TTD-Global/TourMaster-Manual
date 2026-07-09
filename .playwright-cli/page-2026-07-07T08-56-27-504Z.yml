@@ -1,0 +1,529 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menu [ref=e83]:
+            - menuitem "Employee summary" [ref=e84] [cursor=pointer]:
+              - img [ref=e85]
+              - generic [ref=e87]: Employee summary
+            - menuitem "Guide / Staff" [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+              - generic [ref=e91]: Guide / Staff
+            - menuitem "Other" [ref=e92] [cursor=pointer]:
+              - img [ref=e93]
+              - generic [ref=e95]: Other
+            - menuitem "Positions" [ref=e96] [cursor=pointer]:
+              - img [ref=e97]
+              - generic [ref=e99]: Positions
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Tue : 07 Jul 2026, 15:56"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e138]: Employee
+              - img [ref=e139]
+              - generic [ref=e141]: Guide / Staff
+            - button "Create Guide" [ref=e143] [cursor=pointer]:
+              - img [ref=e145]
+              - text: Create Guide
+          - generic [ref=e147]:
+            - tablist [ref=e148]:
+              - generic [ref=e150]:
+                - tab "Guide List 56" [selected] [ref=e244] [cursor=pointer]:
+                  - generic [ref=e154]:
+                    - text: Guide List
+                    - generic [ref=e156]: "56"
+                - tab "Staff List 1" [ref=e245] [cursor=pointer]:
+                  - generic [ref=e160]:
+                    - text: Staff List
+                    - generic [ref=e162]: "1"
+              - generic [ref=e164]:
+                - generic [ref=e167]:
+                  - img [ref=e169]
+                  - textbox "Search" [ref=e172]
+                - button "Filter" [ref=e174] [cursor=pointer]:
+                  - img [ref=e176]
+                  - text: Filter
+                - button "Export" [ref=e179] [cursor=pointer]:
+                  - img [ref=e181]
+                  - generic [ref=e184]: Export
+                  - img [ref=e186]
+            - tabpanel "Guide List 56" [ref=e246]:
+              - generic [ref=e194]:
+                - table [ref=e198]:
+                  - rowgroup [ref=e211]:
+                    - row "# Image Nickname Guide Name Phone Number License No. Work Area Language Status Last Modify Date Action" [ref=e212]:
+                      - columnheader "#" [ref=e213]
+                      - columnheader "Image" [ref=e214]
+                      - columnheader "Nickname" [ref=e215]
+                      - columnheader "Guide Name" [ref=e216]
+                      - columnheader "Phone Number" [ref=e217]
+                      - columnheader "License No." [ref=e218]
+                      - columnheader "Work Area" [ref=e219]
+                      - columnheader "Language" [ref=e220]
+                      - columnheader "Status" [ref=e221]
+                      - columnheader "Last Modify Date" [ref=e222]
+                      - columnheader "Action" [ref=e223]
+                  - rowgroup [ref=e224]:
+                    - row "1 G.fasf sdfgf 23423 - - - Draft 02/07/2026" [ref=e247]:
+                      - cell "1" [ref=e248]
+                      - cell [ref=e249]:
+                        - img [ref=e252]
+                      - cell "G.fasf" [ref=e254]:
+                        - generic [ref=e255]: G.fasf
+                      - cell "sdfgf" [ref=e256]:
+                        - link "sdfgf" [ref=e257] [cursor=pointer]:
+                          - /url: guide/create?id=5&guide_type=guide
+                          - generic [ref=e258]: sdfgf
+                      - cell "23423" [ref=e259]:
+                        - generic [ref=e260]: "23423"
+                      - cell "-" [ref=e261]:
+                        - generic [ref=e262]: "-"
+                      - cell "-" [ref=e263]:
+                        - generic [ref=e265] [cursor=pointer]: "-"
+                      - cell "-" [ref=e266]:
+                        - generic [ref=e268] [cursor=pointer]: "-"
+                      - cell "Draft" [ref=e269]:
+                        - generic [ref=e272]: Draft
+                      - cell "02/07/2026" [ref=e273]
+                      - cell [ref=e274]:
+                        - img [ref=e277] [cursor=pointer]
+                    - row "2 G.Amp Kristintat Phothiwoorn +66648830986 1-022499 1 1 Active 07/07/2026" [ref=e281]:
+                      - cell "2" [ref=e282]
+                      - cell [ref=e283]:
+                        - img [ref=e286]
+                      - cell "G.Amp" [ref=e288]:
+                        - generic [ref=e289]: G.Amp
+                      - cell "Kristintat Phothiwoorn" [ref=e290]:
+                        - link "Kristintat Phothiwoorn" [ref=e291] [cursor=pointer]:
+                          - /url: guide/8?guide_type=guide
+                          - generic [ref=e292]: Kristintat Phothiwoorn
+                      - cell "+66648830986" [ref=e293]:
+                        - generic [ref=e294]: "+66648830986"
+                      - cell "1-022499" [ref=e295]:
+                        - generic [ref=e296]: 1-022499
+                      - cell "1" [ref=e297]:
+                        - generic [ref=e299] [cursor=pointer]: "1"
+                      - cell "1" [ref=e300]:
+                        - generic [ref=e302] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e303]:
+                        - generic [ref=e306]: Active
+                      - cell "07/07/2026" [ref=e307]
+                      - cell [ref=e308]:
+                        - img [ref=e311] [cursor=pointer]
+                    - row "3 G.Aod-JP Kusuma Nongpromma +66854082424 1-000678 1 1 Active 07/07/2026" [ref=e315]:
+                      - cell "3" [ref=e316]
+                      - cell [ref=e317]:
+                        - img [ref=e320]
+                      - cell "G.Aod-JP" [ref=e322]:
+                        - generic [ref=e323]: G.Aod-JP
+                      - cell "Kusuma Nongpromma" [ref=e324]:
+                        - link "Kusuma Nongpromma" [ref=e325] [cursor=pointer]:
+                          - /url: guide/9?guide_type=guide
+                          - generic [ref=e326]: Kusuma Nongpromma
+                      - cell "+66854082424" [ref=e327]:
+                        - generic [ref=e328]: "+66854082424"
+                      - cell "1-000678" [ref=e329]:
+                        - generic [ref=e330]: 1-000678
+                      - cell "1" [ref=e331]:
+                        - generic [ref=e333] [cursor=pointer]: "1"
+                      - cell "1" [ref=e334]:
+                        - generic [ref=e336] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e337]:
+                        - generic [ref=e340]: Active
+                      - cell "07/07/2026" [ref=e341]
+                      - cell [ref=e342]:
+                        - img [ref=e345] [cursor=pointer]
+                    - row "4 G.Aoy Sirinan Janpra-ob +66864027464 1-001710 1 1 Active 07/07/2026" [ref=e349]:
+                      - cell "4" [ref=e350]
+                      - cell [ref=e351]:
+                        - img [ref=e354]
+                      - cell "G.Aoy" [ref=e356]:
+                        - generic [ref=e357]: G.Aoy
+                      - cell "Sirinan Janpra-ob" [ref=e358]:
+                        - link "Sirinan Janpra-ob" [ref=e359] [cursor=pointer]:
+                          - /url: guide/10?guide_type=guide
+                          - generic [ref=e360]: Sirinan Janpra-ob
+                      - cell "+66864027464" [ref=e361]:
+                        - generic [ref=e362]: "+66864027464"
+                      - cell "1-001710" [ref=e363]:
+                        - generic [ref=e364]: 1-001710
+                      - cell "1" [ref=e365]:
+                        - generic [ref=e367] [cursor=pointer]: "1"
+                      - cell "1" [ref=e368]:
+                        - generic [ref=e370] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e371]:
+                        - generic [ref=e374]: Active
+                      - cell "07/07/2026" [ref=e375]
+                      - cell [ref=e376]:
+                        - img [ref=e379] [cursor=pointer]
+                    - row "5 G.Aum-007 Theerayuth khamplong +66988260350 1-006326 1 1 Active 07/07/2026" [ref=e383]:
+                      - cell "5" [ref=e384]
+                      - cell [ref=e385]:
+                        - img [ref=e388]
+                      - cell "G.Aum-007" [ref=e390]:
+                        - generic [ref=e391]: G.Aum-007
+                      - cell "Theerayuth khamplong" [ref=e392]:
+                        - link "Theerayuth khamplong" [ref=e393] [cursor=pointer]:
+                          - /url: guide/11?guide_type=guide
+                          - generic [ref=e394]: Theerayuth khamplong
+                      - cell "+66988260350" [ref=e395]:
+                        - generic [ref=e396]: "+66988260350"
+                      - cell "1-006326" [ref=e397]:
+                        - generic [ref=e398]: 1-006326
+                      - cell "1" [ref=e399]:
+                        - generic [ref=e401] [cursor=pointer]: "1"
+                      - cell "1" [ref=e402]:
+                        - generic [ref=e404] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e405]:
+                        - generic [ref=e408]: Active
+                      - cell "07/07/2026" [ref=e409]
+                      - cell [ref=e410]:
+                        - img [ref=e413] [cursor=pointer]
+                    - row "6 G.Bamboo-013 Maiphai Lalong +66655690964 1-041777 1 2 Active 07/07/2026" [ref=e417]:
+                      - cell "6" [ref=e418]
+                      - cell [ref=e419]:
+                        - img [ref=e422]
+                      - cell "G.Bamboo-013" [ref=e424]:
+                        - generic [ref=e425]: G.Bamboo-013
+                      - cell "Maiphai Lalong" [ref=e426]:
+                        - link "Maiphai Lalong" [ref=e427] [cursor=pointer]:
+                          - /url: guide/12?guide_type=guide
+                          - generic [ref=e428]: Maiphai Lalong
+                      - cell "+66655690964" [ref=e429]:
+                        - generic [ref=e430]: "+66655690964"
+                      - cell "1-041777" [ref=e431]:
+                        - generic [ref=e432]: 1-041777
+                      - cell "1" [ref=e433]:
+                        - generic [ref=e435] [cursor=pointer]: "1"
+                      - cell "2" [ref=e436]:
+                        - generic [ref=e438] [cursor=pointer]: "2"
+                      - cell "Active" [ref=e439]:
+                        - generic [ref=e442]: Active
+                      - cell "07/07/2026" [ref=e443]
+                      - cell [ref=e444]:
+                        - img [ref=e447] [cursor=pointer]
+                    - row "7 G.Bank-015 Kiattisak Sripangsaen +66916108488 1-030272 1 1 Active 07/07/2026" [ref=e451]:
+                      - cell "7" [ref=e452]
+                      - cell [ref=e453]:
+                        - img [ref=e456]
+                      - cell "G.Bank-015" [ref=e458]:
+                        - generic [ref=e459]: G.Bank-015
+                      - cell "Kiattisak Sripangsaen" [ref=e460]:
+                        - link "Kiattisak Sripangsaen" [ref=e461] [cursor=pointer]:
+                          - /url: guide/13?guide_type=guide
+                          - generic [ref=e462]: Kiattisak Sripangsaen
+                      - cell "+66916108488" [ref=e463]:
+                        - generic [ref=e464]: "+66916108488"
+                      - cell "1-030272" [ref=e465]:
+                        - generic [ref=e466]: 1-030272
+                      - cell "1" [ref=e467]:
+                        - generic [ref=e469] [cursor=pointer]: "1"
+                      - cell "1" [ref=e470]:
+                        - generic [ref=e472] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e473]:
+                        - generic [ref=e476]: Active
+                      - cell "07/07/2026" [ref=e477]
+                      - cell [ref=e478]:
+                        - img [ref=e481] [cursor=pointer]
+                    - row "8 G.A-025 Kornsaran Wongkaweesirapat +66875922246 1-009078 1 2 Active 07/07/2026" [ref=e485]:
+                      - cell "8" [ref=e486]
+                      - cell [ref=e487]:
+                        - img [ref=e490]
+                      - cell "G.A-025" [ref=e492]:
+                        - generic [ref=e493]: G.A-025
+                      - cell "Kornsaran Wongkaweesirapat" [ref=e494]:
+                        - link "Kornsaran Wongkaweesirapat" [ref=e495] [cursor=pointer]:
+                          - /url: guide/7?guide_type=guide
+                          - generic [ref=e496]: Kornsaran Wongkaweesirapat
+                      - cell "+66875922246" [ref=e497]:
+                        - generic [ref=e498]: "+66875922246"
+                      - cell "1-009078" [ref=e499]:
+                        - generic [ref=e500]: 1-009078
+                      - cell "1" [ref=e501]:
+                        - generic [ref=e503] [cursor=pointer]: "1"
+                      - cell "2" [ref=e504]:
+                        - generic [ref=e506] [cursor=pointer]: "2"
+                      - cell "Active" [ref=e507]:
+                        - generic [ref=e510]: Active
+                      - cell "07/07/2026" [ref=e511]
+                      - cell [ref=e512]:
+                        - img [ref=e515] [cursor=pointer]
+                    - row "9 G.B-Hua Hin Monticha Ozawa +66908869418 1-035639 1 1 Active 07/07/2026" [ref=e519]:
+                      - cell "9" [ref=e520]
+                      - cell [ref=e521]:
+                        - img [ref=e524]
+                      - cell "G.B-Hua Hin" [ref=e526]:
+                        - generic [ref=e527]: G.B-Hua Hin
+                      - cell "Monticha Ozawa" [ref=e528]:
+                        - link "Monticha Ozawa" [ref=e529] [cursor=pointer]:
+                          - /url: guide/15?guide_type=guide
+                          - generic [ref=e530]: Monticha Ozawa
+                      - cell "+66908869418" [ref=e531]:
+                        - generic [ref=e532]: "+66908869418"
+                      - cell "1-035639" [ref=e533]:
+                        - generic [ref=e534]: 1-035639
+                      - cell "1" [ref=e535]:
+                        - generic [ref=e537] [cursor=pointer]: "1"
+                      - cell "1" [ref=e538]:
+                        - generic [ref=e540] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e541]:
+                        - generic [ref=e544]: Active
+                      - cell "07/07/2026" [ref=e545]
+                      - cell [ref=e546]:
+                        - img [ref=e549] [cursor=pointer]
+                    - row "10 G.Book Jutharat Phompun +66898225810 1-006430 1 1 Active 07/07/2026" [ref=e553]:
+                      - cell "10" [ref=e554]
+                      - cell [ref=e555]:
+                        - img [ref=e558]
+                      - cell "G.Book" [ref=e560]:
+                        - generic [ref=e561]: G.Book
+                      - cell "Jutharat Phompun" [ref=e562]:
+                        - link "Jutharat Phompun" [ref=e563] [cursor=pointer]:
+                          - /url: guide/16?guide_type=guide
+                          - generic [ref=e564]: Jutharat Phompun
+                      - cell "+66898225810" [ref=e565]:
+                        - generic [ref=e566]: "+66898225810"
+                      - cell "1-006430" [ref=e567]:
+                        - generic [ref=e568]: 1-006430
+                      - cell "1" [ref=e569]:
+                        - generic [ref=e571] [cursor=pointer]: "1"
+                      - cell "1" [ref=e572]:
+                        - generic [ref=e574] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e575]:
+                        - generic [ref=e578]: Active
+                      - cell "07/07/2026" [ref=e579]
+                      - cell [ref=e580]:
+                        - img [ref=e583] [cursor=pointer]
+                    - row "11 G.Chatri Chatri Naewsuwan +66807837061 1-021084 1 1 Active 07/07/2026" [ref=e587]:
+                      - cell "11" [ref=e588]
+                      - cell [ref=e589]:
+                        - img [ref=e592]
+                      - cell "G.Chatri" [ref=e594]:
+                        - generic [ref=e595]: G.Chatri
+                      - cell "Chatri Naewsuwan" [ref=e596]:
+                        - link "Chatri Naewsuwan" [ref=e597] [cursor=pointer]:
+                          - /url: guide/17?guide_type=guide
+                          - generic [ref=e598]: Chatri Naewsuwan
+                      - cell "+66807837061" [ref=e599]:
+                        - generic [ref=e600]: "+66807837061"
+                      - cell "1-021084" [ref=e601]:
+                        - generic [ref=e602]: 1-021084
+                      - cell "1" [ref=e603]:
+                        - generic [ref=e605] [cursor=pointer]: "1"
+                      - cell "1" [ref=e606]:
+                        - generic [ref=e608] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e609]:
+                        - generic [ref=e612]: Active
+                      - cell "07/07/2026" [ref=e613]
+                      - cell [ref=e614]:
+                        - img [ref=e617] [cursor=pointer]
+                    - row "12 G.ChenLhong-005 Bandit Em-on +66809004555 1-038613 1 1 Active 07/07/2026" [ref=e621]:
+                      - cell "12" [ref=e622]
+                      - cell [ref=e623]:
+                        - img [ref=e626]
+                      - cell "G.ChenLhong-005" [ref=e628]:
+                        - generic [ref=e629]: G.ChenLhong-005
+                      - cell "Bandit Em-on" [ref=e630]:
+                        - link "Bandit Em-on" [ref=e631] [cursor=pointer]:
+                          - /url: guide/18?guide_type=guide
+                          - generic [ref=e632]: Bandit Em-on
+                      - cell "+66809004555" [ref=e633]:
+                        - generic [ref=e634]: "+66809004555"
+                      - cell "1-038613" [ref=e635]:
+                        - generic [ref=e636]: 1-038613
+                      - cell "1" [ref=e637]:
+                        - generic [ref=e639] [cursor=pointer]: "1"
+                      - cell "1" [ref=e640]:
+                        - generic [ref=e642] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e643]:
+                        - generic [ref=e646]: Active
+                      - cell "07/07/2026" [ref=e647]
+                      - cell [ref=e648]:
+                        - img [ref=e651] [cursor=pointer]
+                    - row "13 G.Chicky-004 Thotsaphon Norasan +66932414811 1-035016 1 1 Active 07/07/2026" [ref=e655]:
+                      - cell "13" [ref=e656]
+                      - cell [ref=e657]:
+                        - img [ref=e660]
+                      - cell "G.Chicky-004" [ref=e662]:
+                        - generic [ref=e663]: G.Chicky-004
+                      - cell "Thotsaphon Norasan" [ref=e664]:
+                        - link "Thotsaphon Norasan" [ref=e665] [cursor=pointer]:
+                          - /url: guide/19?guide_type=guide
+                          - generic [ref=e666]: Thotsaphon Norasan
+                      - cell "+66932414811" [ref=e667]:
+                        - generic [ref=e668]: "+66932414811"
+                      - cell "1-035016" [ref=e669]:
+                        - generic [ref=e670]: 1-035016
+                      - cell "1" [ref=e671]:
+                        - generic [ref=e673] [cursor=pointer]: "1"
+                      - cell "1" [ref=e674]:
+                        - generic [ref=e676] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e677]:
+                        - generic [ref=e680]: Active
+                      - cell "07/07/2026" [ref=e681]
+                      - cell [ref=e682]:
+                        - img [ref=e685] [cursor=pointer]
+                    - row "14 G.Elwen-017 Watchara Saksinprasit +66939247895 1-012891 1 1 Active 07/07/2026" [ref=e689]:
+                      - cell "14" [ref=e690]
+                      - cell [ref=e691]:
+                        - img [ref=e694]
+                      - cell "G.Elwen-017" [ref=e696]:
+                        - generic [ref=e697]: G.Elwen-017
+                      - cell "Watchara Saksinprasit" [ref=e698]:
+                        - link "Watchara Saksinprasit" [ref=e699] [cursor=pointer]:
+                          - /url: guide/20?guide_type=guide
+                          - generic [ref=e700]: Watchara Saksinprasit
+                      - cell "+66939247895" [ref=e701]:
+                        - generic [ref=e702]: "+66939247895"
+                      - cell "1-012891" [ref=e703]:
+                        - generic [ref=e704]: 1-012891
+                      - cell "1" [ref=e705]:
+                        - generic [ref=e707] [cursor=pointer]: "1"
+                      - cell "1" [ref=e708]:
+                        - generic [ref=e710] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e711]:
+                        - generic [ref=e714]: Active
+                      - cell "07/07/2026" [ref=e715]
+                      - cell [ref=e716]:
+                        - img [ref=e719] [cursor=pointer]
+                    - row "15 G.Benjy Tewika Phoemsin +6622942463 1-010206 1 1 Active 07/07/2026" [ref=e723]:
+                      - cell "15" [ref=e724]
+                      - cell [ref=e725]:
+                        - img [ref=e728]
+                      - cell "G.Benjy" [ref=e730]:
+                        - generic [ref=e731]: G.Benjy
+                      - cell "Tewika Phoemsin" [ref=e732]:
+                        - link "Tewika Phoemsin" [ref=e733] [cursor=pointer]:
+                          - /url: guide/14?guide_type=guide
+                          - generic [ref=e734]: Tewika Phoemsin
+                      - cell "+6622942463" [ref=e735]:
+                        - generic [ref=e736]: "+6622942463"
+                      - cell "1-010206" [ref=e737]:
+                        - generic [ref=e738]: 1-010206
+                      - cell "1" [ref=e739]:
+                        - generic [ref=e741] [cursor=pointer]: "1"
+                      - cell "1" [ref=e742]:
+                        - generic [ref=e744] [cursor=pointer]: "1"
+                      - cell "Active" [ref=e745]:
+                        - generic [ref=e748]: Active
+                      - cell "07/07/2026" [ref=e749]
+                      - cell [ref=e750]:
+                        - img [ref=e753] [cursor=pointer]
+                - list [ref=e757]:
+                  - listitem "Previous Page" [ref=e758]:
+                    - button "left" [disabled] [ref=e759]:
+                      - img "left" [ref=e760]:
+                        - img [ref=e761]
+                  - listitem "1" [ref=e763] [cursor=pointer]:
+                    - generic [ref=e764]: "1"
+                  - listitem "2" [ref=e765] [cursor=pointer]:
+                    - generic [ref=e766]: "2"
+                  - listitem "3" [ref=e767] [cursor=pointer]:
+                    - generic [ref=e768]: "3"
+                  - listitem "4" [ref=e769] [cursor=pointer]:
+                    - generic [ref=e770]: "4"
+                  - listitem "Next Page" [ref=e771] [cursor=pointer]:
+                    - button "right" [ref=e772]:
+                      - img "right" [ref=e773]:
+                        - img [ref=e774]
+                  - listitem [ref=e776]:
+                    - generic "Page Size" [ref=e777] [cursor=pointer]:
+                      - generic [ref=e779]:
+                        - combobox "Page Size" [ref=e781]
+                        - generic "15 / page" [ref=e782]
+                      - generic:
+                        - img:
+                          - img
+  - generic [ref=e783]:
+    - dialog:
+      - generic [ref=e785]:
+        - generic [ref=e786]:
+          - generic [ref=e787]:
+            - generic [ref=e789]: Filter
+            - img [ref=e791] [cursor=pointer]
+          - generic [ref=e795]:
+            - generic [ref=e796]:
+              - generic [ref=e797]: Name
+              - textbox "Please enter" [ref=e799]
+            - generic [ref=e801]:
+              - generic [ref=e802]: Nick Name
+              - textbox "Please enter" [ref=e804]
+            - generic [ref=e806]:
+              - generic [ref=e807]: Status
+              - generic [ref=e809] [cursor=pointer]:
+                - generic [ref=e811]:
+                  - combobox [ref=e813]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e814]:
+          - button "Clear all" [ref=e815] [cursor=pointer]
+          - button "Search" [ref=e816] [cursor=pointer]:
+            - img [ref=e818]
+            - text: Search

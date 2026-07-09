@@ -1,6 +1,7 @@
 ---
 title: Supplier List
 sidebar_position: 3
+toc_max_heading_level: 2
 ---
 
 import Tabs from '@theme/Tabs';
@@ -68,28 +69,6 @@ import TabItem from '@theme/TabItem';
 
 ---
 
-## Action
-
-กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Supplier เพื่อดูรายละเอียด
-
-:::caution ข้อควรระวัง
-ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
-:::
-
-### View
-
-แสดงข้อมูล Supplier แบบ read-only ประกอบด้วย 4 แท็บ ได้แก่ **General Detail**, **Supplier Login**, **Registration** และ **Personnel list**
-
-- กดปุ่ม **Edit** เพื่อเข้าสู่โหมดแก้ไข
-- **Status** — เปลี่ยนสถานะ Active / Inactive ได้จากหน้า View โดยตรง
-
-### Edit
-
-แก้ไขข้อมูล Supplier ได้ทุกส่วน รวมถึง Reset Password ของ Supplier Login
-
-1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
-2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
-
 ## Create
 
 กดปุ่ม **Create Supplier** แล้วกรอกข้อมูลตาม 2 ขั้นตอน
@@ -138,6 +117,12 @@ import TabItem from '@theme/TabItem';
 
 ### Supplier Login
 
+<div className="manual-img-500">
+
+![Create Supplier - Supplier Login](/img/Vehicle/supplier-create-login.png)
+
+</div>
+
 สร้างบัญชีสำหรับ Supplier Login เพื่อให้ Driver ของ Supplier เข้าสู่ระบบตรวจสอบงานได้
 
 | ฟิลด์ | คำอธิบาย | จำเป็น |
@@ -155,3 +140,157 @@ import TabItem from '@theme/TabItem';
 </TabItem>
 
 </Tabs>
+
+---
+
+## View
+
+คลิกที่ชื่อ Supplier หรือกดปุ่ม `...` → **View** เพื่อดูรายละเอียด
+
+หน้า View แบ่งเป็น 4 แท็บ ปุ่ม **Edit** อยู่มุมขวาบนของหน้า
+
+:::caution ข้อควรระวัง
+ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
+:::
+
+### General Detail
+
+<div className="manual-img-500">
+
+![Supplier View - General Detail](/img/Vehicle/supplier-view-general.png)
+
+</div>
+
+แสดงข้อมูลทั่วไปของ Supplier ได้แก่ รูปโปรไฟล์, ชื่อ, ข้อมูลติดต่อ, ที่อยู่, Arrangement Type, Bank Detail และ Group Type ที่ผูกไว้
+
+- **Status** — เปลี่ยนสถานะ Active / Inactive ได้จากหน้า View โดยตรง
+
+---
+
+### Supplier Login
+
+<div className="manual-img-500">
+
+![Supplier View - Supplier Login](/img/Vehicle/supplier-view-login.png)
+
+</div>
+
+แสดงข้อมูลบัญชีที่ใช้ Login ระบบ
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Username** | ชื่อบัญชีเข้าสู่ระบบของ Supplier |
+| **Password / Confirm Password** | แสดงเป็น `••••••••` (ไม่เปิดเผยรหัสผ่าน) |
+
+---
+
+### Registration
+
+<div className="manual-img-500">
+
+![Supplier View - Registration](/img/Vehicle/supplier-view-registration.png)
+
+</div>
+
+แสดงรายการทะเบียนรถของ Supplier ทั้งหมด
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Registration** | เลขทะเบียนรถ |
+| **Group Type** | ประเภทรถที่ผูกไว้ |
+| **Active** | Toggle เปิด/ปิดการใช้งาน |
+| **Action** | ปุ่มจัดการ (แก้ไข / ลบ) |
+
+#### Add Registration
+
+<div className="manual-img-500">
+
+![Add Registration](/img/Vehicle/supplier-add-registration.png)
+
+</div>
+
+1. กดปุ่ม **Add Registration** มุมขวาบนของแท็บ
+2. กด **Add group type** เพื่อเปิด Modal เลือกประเภทรถ
+
+<div className="manual-img-500">
+
+![Add Group Type Modal](/img/Vehicle/supplier-add-group-type-modal.png)
+
+</div>
+
+3. เลือก **Group Type** ที่ต้องการ (เลือกได้หลายรายการ) แล้วกด **Confirm**
+4. กรอกหมายเลขทะเบียนรถสำหรับแต่ละ Group Type ที่เลือก
+5. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+
+:::tip เคล็ดลับ
+สามารถกด **Add group type** ซ้ำได้เพื่อเพิ่มทะเบียนรถหลายประเภทในครั้งเดียว
+:::
+
+---
+
+### Personnel list
+
+<div className="manual-img-500">
+
+![Supplier View - Personnel list](/img/Vehicle/supplier-view-personnel.png)
+
+</div>
+
+แสดงรายชื่อบุคลากร (Driver / Guide) ของ Supplier
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Image** | รูปโปรไฟล์ |
+| **Position** | ตำแหน่ง เช่น Driver |
+| **Name** | ชื่อบุคลากร (คลิกได้เพื่อดูรายละเอียด) |
+| **Phone Number** | เบอร์โทรศัพท์ |
+| **Registration** | ทะเบียนรถที่ผูกไว้ |
+| **Action** | ปุ่มจัดการ (แก้ไข / ลบ) |
+
+#### Add Personnel
+
+<div className="manual-img-500">
+
+![Add Personnel](/img/Vehicle/supplier-add-personnel.png)
+
+</div>
+
+1. กดปุ่ม **Add Personnel** มุมขวาบนของแท็บ
+2. กรอกข้อมูลในฟอร์ม
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| รูปโปรไฟล์ | อัปโหลดรูปบุคลากร | — |
+| **Position** | ตำแหน่งงาน (dropdown) | ✅ |
+| **Name** | ชื่อ-นามสกุลบุคลากร | ✅ |
+| **Phone Number** | เบอร์โทรศัพท์ | ✅ |
+| **Email** | อีเมล | — |
+| **Registration** | เลขทะเบียนรถที่มอบหมาย (dropdown) | — |
+
+3. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+
+---
+
+## Edit
+
+กดปุ่ม **Edit** ภายในหน้า View เพื่อเข้าสู่โหมดแก้ไข
+
+<div className="manual-img-500">
+
+![Supplier Edit - General Detail](/img/Vehicle/supplier-edit-general.png)
+
+</div>
+
+หน้า Edit มีโครงสร้าง 4 แท็บเหมือนกับหน้า View ทุกประการ สามารถแก้ไขข้อมูลได้ในทุกแท็บ
+
+| แท็บ | สิ่งที่แก้ไขได้ |
+|------|----------------|
+| **General Detail** | ข้อมูลทั่วไป, Bank Detail, Group Type |
+| **Supplier Login** | Username, Password (Reset Password) |
+| **Registration** | เพิ่ม / แก้ไข / ลบทะเบียนรถ |
+| **Personnel list** | เพิ่ม / แก้ไข / ลบบุคลากร |
+
+1. แก้ไขข้อมูลในแท็บที่ต้องการ
+2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก

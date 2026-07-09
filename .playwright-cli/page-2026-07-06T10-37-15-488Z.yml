@@ -1,0 +1,24 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e162]:
+    - generic [ref=e163]:
+      - img "Logo" [ref=e164]
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - generic [ref=e167]: Login
+          - generic [ref=e168]: Welcome to login
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - generic [ref=e172]: Username
+            - generic [ref=e173]:
+              - img [ref=e175]
+              - textbox "Please enter" [ref=e177]
+          - generic [ref=e179]:
+            - generic [ref=e180]: Password
+            - generic [ref=e181]:
+              - img [ref=e183]
+              - textbox "Please enter" [ref=e189]
+              - img "eye-invisible" [ref=e191] [cursor=pointer]:
+                - img [ref=e192]
+          - button "LOGIN" [ref=e195] [cursor=pointer]
+    - generic [ref=e196]: "v.0.0.53 : 2026-07-03"

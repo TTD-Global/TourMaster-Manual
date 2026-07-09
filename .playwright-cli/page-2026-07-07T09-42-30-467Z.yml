@@ -1,0 +1,241 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menu [ref=e155]:
+            - menuitem "Group Type" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Group Type
+            - menuitem "Supplier List" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]: Supplier List
+            - menuitem "Own Vehicle" [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+              - generic [ref=e88]: Own Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 07 Jul 2026, 16:42"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: Vehicle
+              - img [ref=e135]
+              - generic [ref=e137] [cursor=pointer]: Supplier List
+              - img [ref=e138]
+              - generic [ref=e140]: View
+            - button "Close" [ref=e142] [cursor=pointer]
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - img [ref=e160]
+              - generic [ref=e162]: Kewalee
+              - generic [ref=e164]:
+                - generic [ref=e165]: "Status :"
+                - button "Active" [ref=e167] [cursor=pointer]:
+                  - generic [ref=e170]: Active
+                  - img [ref=e174]
+            - generic [ref=e177]:
+              - generic [ref=e178]:
+                - generic [ref=e180] [cursor=pointer]: General Detail
+                - generic [ref=e182] [cursor=pointer]: Supplier Login
+                - generic [ref=e184] [cursor=pointer]: Registration
+                - generic [ref=e186] [cursor=pointer]: Personnel list
+              - button "Add Personnel" [ref=e348] [cursor=pointer]:
+                - img [ref=e350]
+                - text: Add Personnel
+            - generic [ref=e354]:
+              - generic [ref=e355]:
+                - generic [ref=e356]: Personnel List
+                - generic [ref=e359]:
+                  - img [ref=e361]
+                  - textbox "Search" [ref=e364]
+              - generic [ref=e372]:
+                - table [ref=e376]:
+                  - rowgroup [ref=e385]:
+                    - row "# Image Position Name Phone Number Registration Action" [ref=e386]:
+                      - columnheader "#" [ref=e387]
+                      - columnheader "Image" [ref=e388]
+                      - columnheader "Position" [ref=e389]
+                      - columnheader "Name" [ref=e390]
+                      - columnheader "Phone Number" [ref=e391]
+                      - columnheader "Registration" [ref=e392]
+                      - columnheader "Action" [ref=e393]
+                  - rowgroup [ref=e394]:
+                    - 'row "1 Driver ธนกร ศรีสุข 086-789-0123 ทธ7788 : VAN (8)" [ref=e395]':
+                      - cell "1" [ref=e396]
+                      - cell [ref=e397]:
+                        - img [ref=e400]
+                      - cell "Driver" [ref=e402]:
+                        - generic [ref=e403]: Driver
+                      - cell "ธนกร ศรีสุข" [ref=e404]:
+                        - link "ธนกร ศรีสุข" [ref=e405] [cursor=pointer]:
+                          - /url: /vehicle/supplier/6/personnel/11
+                          - generic [ref=e407]: ธนกร ศรีสุข
+                      - cell "086-789-0123" [ref=e408]:
+                        - generic [ref=e409]: 086-789-0123
+                      - 'cell "ทธ7788 : VAN (8)" [ref=e410]':
+                        - generic [ref=e411]: "ทธ7788 : VAN (8)"
+                      - cell [ref=e412]:
+                        - img [ref=e415] [cursor=pointer]
+                    - 'row "2 Driver ประเสริฐ มีทรัพย์ 085-678-9012 นบ9900 : VAN (10)" [ref=e419]':
+                      - cell "2" [ref=e420]
+                      - cell [ref=e421]:
+                        - img [ref=e424]
+                      - cell "Driver" [ref=e426]:
+                        - generic [ref=e427]: Driver
+                      - cell "ประเสริฐ มีทรัพย์" [ref=e428]:
+                        - link "ประเสริฐ มีทรัพย์" [ref=e429] [cursor=pointer]:
+                          - /url: /vehicle/supplier/6/personnel/9
+                          - generic [ref=e431]: ประเสริฐ มีทรัพย์
+                      - cell "085-678-9012" [ref=e432]:
+                        - generic [ref=e433]: 085-678-9012
+                      - 'cell "นบ9900 : VAN (10)" [ref=e434]':
+                        - generic [ref=e435]: "นบ9900 : VAN (10)"
+                      - cell [ref=e436]:
+                        - img [ref=e439] [cursor=pointer]
+                    - 'row "3 Driver สุชาติ คงเจริญ 084-567-8901 ตถ5566 : VAN (8)" [ref=e443]':
+                      - cell "3" [ref=e444]
+                      - cell [ref=e445]:
+                        - img [ref=e448]
+                      - cell "Driver" [ref=e450]:
+                        - generic [ref=e451]: Driver
+                      - cell "สุชาติ คงเจริญ" [ref=e452]:
+                        - link "สุชาติ คงเจริญ" [ref=e453] [cursor=pointer]:
+                          - /url: /vehicle/supplier/6/personnel/8
+                          - generic [ref=e455]: สุชาติ คงเจริญ
+                      - cell "084-567-8901" [ref=e456]:
+                        - generic [ref=e457]: 084-567-8901
+                      - 'cell "ตถ5566 : VAN (8)" [ref=e458]':
+                        - generic [ref=e459]: "ตถ5566 : VAN (8)"
+                      - cell [ref=e460]:
+                        - img [ref=e463] [cursor=pointer]
+                    - 'row "4 Driver อนันต์ แสงทอง 083-456-7890 ญฎ9087 : VAN (12)" [ref=e467]':
+                      - cell "4" [ref=e468]
+                      - cell [ref=e469]:
+                        - img [ref=e472]
+                      - cell "Driver" [ref=e474]:
+                        - generic [ref=e475]: Driver
+                      - cell "อนันต์ แสงทอง" [ref=e476]:
+                        - link "อนันต์ แสงทอง" [ref=e477] [cursor=pointer]:
+                          - /url: /vehicle/supplier/6/personnel/7
+                          - generic [ref=e479]: อนันต์ แสงทอง
+                      - cell "083-456-7890" [ref=e480]:
+                        - generic [ref=e481]: 083-456-7890
+                      - 'cell "ญฎ9087 : VAN (12)" [ref=e482]':
+                        - generic [ref=e483]: "ญฎ9087 : VAN (12)"
+                      - cell [ref=e484]:
+                        - img [ref=e487] [cursor=pointer]
+                    - 'row "5 Driver วิชัย ทองสุข 082-345-6789 งจ2468 : SEDAN (2)" [ref=e491]':
+                      - cell "5" [ref=e492]
+                      - cell [ref=e493]:
+                        - img [ref=e496]
+                      - cell "Driver" [ref=e498]:
+                        - generic [ref=e499]: Driver
+                      - cell "วิชัย ทองสุข" [ref=e500]:
+                        - link "วิชัย ทองสุข" [ref=e501] [cursor=pointer]:
+                          - /url: /vehicle/supplier/6/personnel/6
+                          - generic [ref=e503]: วิชัย ทองสุข
+                      - cell "082-345-6789" [ref=e504]:
+                        - generic [ref=e505]: 082-345-6789
+                      - 'cell "งจ2468 : SEDAN (2)" [ref=e506]':
+                        - generic [ref=e507]: "งจ2468 : SEDAN (2)"
+                      - cell [ref=e508]:
+                        - img [ref=e511] [cursor=pointer]
+                    - 'row "6 Driver สมชาย ใจดี 081-234-5678 กข1234 : MPV (4)" [ref=e515]':
+                      - cell "6" [ref=e516]
+                      - cell [ref=e517]:
+                        - img [ref=e520]
+                      - cell "Driver" [ref=e522]:
+                        - generic [ref=e523]: Driver
+                      - cell "สมชาย ใจดี" [ref=e524]:
+                        - link "สมชาย ใจดี" [ref=e525] [cursor=pointer]:
+                          - /url: /vehicle/supplier/6/personnel/5
+                          - generic [ref=e527]: สมชาย ใจดี
+                      - cell "081-234-5678" [ref=e528]:
+                        - generic [ref=e529]: 081-234-5678
+                      - 'cell "กข1234 : MPV (4)" [ref=e530]':
+                        - generic [ref=e531]: "กข1234 : MPV (4)"
+                      - cell [ref=e532]:
+                        - img [ref=e535] [cursor=pointer]
+                - list [ref=e539]:
+                  - listitem "Previous Page" [ref=e540]:
+                    - button "left" [disabled] [ref=e541]:
+                      - img "left" [ref=e542]:
+                        - img [ref=e543]
+                  - listitem "1" [ref=e545] [cursor=pointer]:
+                    - generic [ref=e546]: "1"
+                  - listitem "Next Page" [ref=e547]:
+                    - button "right" [disabled] [ref=e548]:
+                      - img "right" [ref=e549]:
+                        - img [ref=e550]
+                  - listitem [ref=e552]:
+                    - generic "Page Size" [ref=e553] [cursor=pointer]:
+                      - generic [ref=e555]:
+                        - combobox "Page Size" [ref=e557]
+                        - generic "15 / page" [ref=e558]
+                      - generic:
+                        - img:
+                          - img

@@ -1,0 +1,243 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [expanded] [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menu [ref=e267]:
+              - menuitem "Overview" [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e32]: Overview
+              - menuitem "Create Booking" [ref=e33] [cursor=pointer]:
+                - img [ref=e34]
+                - generic [ref=e36]: Create Booking
+              - menuitem "Booking List" [ref=e37] [cursor=pointer]:
+                - img [ref=e38]
+                - generic [ref=e40]: Booking List
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 07 Jul 2026, 15:28"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: Booking
+              - img [ref=e136]
+              - generic [ref=e138]: Booking List
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - img [ref=e142]
+                - textbox "Select Travel Date" [ref=e146]: 07/07/2026
+              - button "Export" [ref=e147] [cursor=pointer]:
+                - img [ref=e149]
+                - generic [ref=e152]: Export
+                - img [ref=e154]
+              - button "Advance Search" [ref=e157] [cursor=pointer]:
+                - img [ref=e159]
+                - text: Advance Search
+              - button "Create Booking" [ref=e162] [cursor=pointer]:
+                - img [ref=e164]
+                - text: Create Booking
+          - generic [ref=e166]:
+            - generic [ref=e167]:
+              - paragraph [ref=e169]: In Progress
+              - generic [ref=e170]:
+                - generic [ref=e171] [cursor=pointer]:
+                  - generic [ref=e172]:
+                    - paragraph [ref=e173]: "0"
+                    - paragraph [ref=e174]: Reserved
+                  - img [ref=e176]
+                - generic [ref=e178] [cursor=pointer]:
+                  - generic [ref=e179]:
+                    - paragraph [ref=e180]: "3"
+                    - paragraph [ref=e181]: Confirmed
+                  - img [ref=e183]
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - paragraph [ref=e190]: Processed
+                - paragraph [ref=e191]:
+                  - img [ref=e192]
+                  - text: Filtered to Completed and Canceled in July 2026
+              - generic [ref=e194]:
+                - generic [ref=e195] [cursor=pointer]:
+                  - generic [ref=e196]:
+                    - paragraph [ref=e197]: "0"
+                    - paragraph [ref=e198]: Completed
+                  - img [ref=e200]
+                - generic [ref=e203] [cursor=pointer]:
+                  - generic [ref=e204]:
+                    - paragraph [ref=e205]: "0"
+                    - paragraph [ref=e206]: Canceled
+                  - img [ref=e208]
+          - generic [ref=e215]:
+            - table [ref=e219]:
+              - rowgroup [ref=e233]:
+                - row "# Seller Travel Date Booking Date Booking No. Trip Type Trip Round Program Pax Trip Code Status Action" [ref=e234]:
+                  - columnheader "#" [ref=e235]
+                  - columnheader "Seller" [ref=e236]
+                  - columnheader "Travel Date" [ref=e237]
+                  - columnheader "Booking Date" [ref=e238]
+                  - columnheader "Booking No." [ref=e239]
+                  - columnheader "Trip Type" [ref=e240]
+                  - columnheader "Trip Round" [ref=e241]
+                  - columnheader "Program" [ref=e242]
+                  - columnheader "Pax" [ref=e243]
+                  - columnheader "Trip Code" [ref=e244]
+                  - columnheader "Status" [ref=e245]
+                  - columnheader "Action" [ref=e246]
+              - rowgroup [ref=e247]:
+                - row "1 Phi Phi 07/07/2026 07/07/2026 TSB-0726VXQ2 Join In 08:30 ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat] 4 EC261QAL Confirmed" [ref=e268]:
+                  - cell "1" [ref=e269]
+                  - cell "Phi Phi" [ref=e270]:
+                    - generic [ref=e272]: Phi Phi
+                  - cell "07/07/2026" [ref=e273]
+                  - cell "07/07/2026" [ref=e274]
+                  - cell "TSB-0726VXQ2" [ref=e275]:
+                    - generic [ref=e277] [cursor=pointer]: TSB-0726VXQ2
+                  - cell "Join In" [ref=e278]:
+                    - generic [ref=e280]:
+                      - img [ref=e282]
+                      - generic [ref=e287]: Join In
+                  - cell "08:30" [ref=e288]
+                  - cell "ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]" [ref=e289]:
+                    - generic [ref=e290] [cursor=pointer]: ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]
+                  - cell "4" [ref=e291]:
+                    - generic [ref=e294] [cursor=pointer]: "4"
+                  - cell "EC261QAL" [ref=e295]:
+                    - generic [ref=e298] [cursor=pointer]: EC261QAL
+                  - cell "Confirmed" [ref=e299]:
+                    - generic [ref=e302]: Confirmed
+                  - cell [ref=e303]:
+                    - img [ref=e306] [cursor=pointer]
+                - row "2 Phi Phi 07/07/2026 07/07/2026 TSB-07262MSJ Join In 08:30 ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat] 4 EC261QAL Confirmed" [ref=e310]:
+                  - cell "2" [ref=e311]
+                  - cell "Phi Phi" [ref=e312]:
+                    - generic [ref=e314]: Phi Phi
+                  - cell "07/07/2026" [ref=e315]
+                  - cell "07/07/2026" [ref=e316]
+                  - cell "TSB-07262MSJ" [ref=e317]:
+                    - generic [ref=e319] [cursor=pointer]: TSB-07262MSJ
+                  - cell "Join In" [ref=e320]:
+                    - generic [ref=e322]:
+                      - img [ref=e324]
+                      - generic [ref=e329]: Join In
+                  - cell "08:30" [ref=e330]
+                  - cell "ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]" [ref=e331]:
+                    - generic [ref=e332] [cursor=pointer]: ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]
+                  - cell "4" [ref=e333]:
+                    - generic [ref=e336] [cursor=pointer]: "4"
+                  - cell "EC261QAL" [ref=e337]:
+                    - generic [ref=e340] [cursor=pointer]: EC261QAL
+                  - cell "Confirmed" [ref=e341]:
+                    - generic [ref=e344]: Confirmed
+                  - cell [ref=e345]:
+                    - img [ref=e348] [cursor=pointer]
+                - 'row "3 KLOOK 07/07/2026 06/07/2026 TESTEIEIE1 Join In 16:00 Flavors of Chinatown: Bangkok Half-Day Food Walking Tour 2 - Confirmed" [ref=e352]':
+                  - cell "3" [ref=e353]
+                  - cell "KLOOK" [ref=e354]:
+                    - generic [ref=e356]: KLOOK
+                  - cell "07/07/2026" [ref=e357]
+                  - cell "06/07/2026" [ref=e358]
+                  - cell "TESTEIEIE1" [ref=e359]:
+                    - generic [ref=e361] [cursor=pointer]: TESTEIEIE1
+                  - cell "Join In" [ref=e362]:
+                    - generic [ref=e364]:
+                      - img [ref=e366]
+                      - generic [ref=e371]: Join In
+                  - cell "16:00" [ref=e372]
+                  - 'cell "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour" [ref=e373]':
+                    - generic [ref=e374] [cursor=pointer]: "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour"
+                  - cell "2" [ref=e375]:
+                    - generic [ref=e378] [cursor=pointer]: "2"
+                  - cell "-" [ref=e379]
+                  - cell "Confirmed" [ref=e380]:
+                    - generic [ref=e383]: Confirmed
+                  - cell [ref=e384]:
+                    - img [ref=e387] [cursor=pointer]
+            - list [ref=e391]:
+              - listitem "Previous Page" [ref=e392]:
+                - button "left" [disabled] [ref=e393]:
+                  - img "left" [ref=e394]:
+                    - img [ref=e395]
+              - listitem "1" [ref=e397] [cursor=pointer]:
+                - generic [ref=e398]: "1"
+              - listitem "Next Page" [ref=e399]:
+                - button "right" [disabled] [ref=e400]:
+                  - img "right" [ref=e401]:
+                    - img [ref=e402]
+              - listitem [ref=e404]:
+                - generic "Page Size" [ref=e405] [cursor=pointer]:
+                  - generic [ref=e407]:
+                    - combobox "Page Size" [ref=e409]
+                    - generic "15 / page" [ref=e410]
+                  - generic:
+                    - img:
+                      - img
+  - menu [ref=e412]:
+    - menuitem "View" [ref=e413] [cursor=pointer]:
+      - img [ref=e414]
+      - generic [ref=e417]: View
+    - menuitem "Cancel Booking" [ref=e418] [cursor=pointer]:
+      - img [ref=e419]
+      - generic [ref=e423]: Cancel Booking

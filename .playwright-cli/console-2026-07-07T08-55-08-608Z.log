@@ -1,0 +1,27 @@
+[      93ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[      93ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     104ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     104ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     133ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     133ms] [LOG] permissions [USER_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     244ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     245ms] [LOG] permissions [USER_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     254ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/user-list?page=1&page_size=15:0
+[     255ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/user-list?page=1&page_size=15:0
+[     255ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/user-list?page=1&page_size=15:0
+[     263ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     266ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     266ms] [LOG] permissions [USER_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     919ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     919ms] [LOG] permissions [USER_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   11053ms] [LOG] {} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   11073ms] [LOG] {} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   11169ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/user-list/11:0
+[   11169ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/user-list/11:0
+[   11169ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/user-list/11:0
+[   11169ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/user-list/11:0
+[   11232ms] [LOG] {} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   11235ms] [LOG] {} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   11248ms] [LOG] {} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   36166ms] [LOG] {} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   45100ms] [LOG] {} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0

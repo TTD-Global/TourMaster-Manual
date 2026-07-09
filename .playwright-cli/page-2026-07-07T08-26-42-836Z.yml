@@ -1,0 +1,112 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menu [ref=e83]:
+            - menuitem "Employee summary" [ref=e84] [cursor=pointer]:
+              - img [ref=e85]
+              - generic [ref=e87]: Employee summary
+            - menuitem "Guide / Staff" [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+              - generic [ref=e91]: Guide / Staff
+            - menuitem "Other" [ref=e92] [cursor=pointer]:
+              - img [ref=e93]
+              - generic [ref=e95]: Other
+            - menuitem "Positions" [ref=e96] [cursor=pointer]:
+              - img [ref=e97]
+              - generic [ref=e99]: Positions
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Tue : 07 Jul 2026, 15:26"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e333]:
+          - generic [ref=e335]:
+            - generic [ref=e336]: Employee
+            - img [ref=e337]
+            - generic [ref=e339] [cursor=pointer]: Positions
+            - img [ref=e340]
+            - generic [ref=e342]: Edit Positions
+          - generic [ref=e351]:
+            - generic [ref=e354]:
+              - generic [ref=e355]:
+                - generic [ref=e356]: General Detail
+                - generic [ref=e357]:
+                  - generic [ref=e358]: "Status :"
+                  - button "Active" [ref=e369] [cursor=pointer]:
+                    - generic [ref=e372]: Active
+                    - img [ref=e376]
+              - generic [ref=e363]:
+                - generic [ref=e364]: Position Name *
+                - generic [ref=e365]:
+                  - textbox "Please enter" [ref=e366]: Captain
+                  - button "close-circle" [ref=e378] [cursor=pointer]:
+                    - img "close-circle" [ref=e379]:
+                      - img [ref=e380]
+            - generic [ref=e382]:
+              - button "Cancel" [ref=e383] [cursor=pointer]
+              - button "Save" [ref=e384] [cursor=pointer]:
+                - img [ref=e386]
+                - text: Save

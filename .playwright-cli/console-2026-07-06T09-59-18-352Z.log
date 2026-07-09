@@ -1,0 +1,63 @@
+[      98ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…yOTh9.7edOwizjvnQ0im21ve-LEjpNrax3sgbBH-fWnrWHx2M, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[      98ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     108ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     108ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     249ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     263ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/overview:0
+[     263ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/overview:0
+[     263ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/overview:0
+[    4695ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-641600b6165b7f30.js:0
+[    4695ms] [LOG] permissions [BOOKING_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-641600b6165b7f30.js:0
+[    4897ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-641600b6165b7f30.js:0
+[    4897ms] [LOG] permissions [BOOKING_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-641600b6165b7f30.js:0
+[    5518ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-641600b6165b7f30.js:0
+[    5518ms] [LOG] permissions [BOOKING_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-641600b6165b7f30.js:0
+[   43227ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…yOTh9.7edOwizjvnQ0im21ve-LEjpNrax3sgbBH-fWnrWHx2M, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   43227ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   43253ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   43253ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   43295ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43295ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43306ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43306ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43340ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43340ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43341ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43341ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43358ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43358ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43360ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43360ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43422ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/create?date=2026-07-06:0
+[   43422ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/create?date=2026-07-06:0
+[   43422ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/create?date=2026-07-06:0
+[   43426ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43426ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43428ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43428ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43470ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   43509ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43509ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43510ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43510ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43550ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43550ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43551ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43551ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43847ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43848ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43850ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43851ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43863ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43863ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43865ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   43865ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   44007ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   44007ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   44009ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   44009ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   44018ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   44024ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   44024ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   44025ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   44025ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0

@@ -1,0 +1,181 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e34]
+          - text: Management
+          - group [ref=e35]:
+            - menuitem "Bookings" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e40]: Bookings
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Vehicle
+          - menu [ref=e128]:
+            - menuitem "Group Type" [ref=e129] [cursor=pointer]:
+              - img [ref=e130]
+              - generic [ref=e132]: Group Type
+            - menuitem "Supplier List" [ref=e133] [cursor=pointer]:
+              - img [ref=e134]
+              - generic [ref=e136]: Supplier List
+            - menuitem "Own Vehicle" [ref=e137] [cursor=pointer]:
+              - img [ref=e138]
+              - generic [ref=e140]: Own Vehicle
+          - menuitem "Employee" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Tue : 07 Jul 2026, 09:46"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares
+              - generic [ref=e120]: Superadmin
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e426]:
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - generic [ref=e430]: Vehicle
+              - img [ref=e431]
+              - generic [ref=e433] [cursor=pointer]: Supplier List
+              - img [ref=e434]
+              - generic [ref=e436]: View
+            - button "Close" [ref=e438] [cursor=pointer]
+          - generic [ref=e440]:
+            - generic [ref=e441]:
+              - img [ref=e443]
+              - generic [ref=e445]: TTD
+              - generic [ref=e447]:
+                - generic [ref=e448]: "Status :"
+                - button "Active" [ref=e450] [cursor=pointer]:
+                  - generic [ref=e453]: Active
+                  - img [ref=e457]
+            - generic [ref=e460]:
+              - generic [ref=e461]:
+                - generic [ref=e463] [cursor=pointer]: General Detail
+                - generic [ref=e465] [cursor=pointer]: Supplier Login
+                - generic [ref=e467] [cursor=pointer]: Registration
+                - generic [ref=e469] [cursor=pointer]: Personnel list
+              - button "Edit" [ref=e470] [cursor=pointer]:
+                - img [ref=e472]
+                - text: Edit
+            - generic [ref=e478]:
+              - generic [ref=e480]: General Detail
+              - generic [ref=e484]:
+                - generic [ref=e485]:
+                  - paragraph [ref=e486]: Image
+                  - img [ref=e490]
+                - generic [ref=e493]:
+                  - generic [ref=e494]: Supplier Name
+                  - textbox "Please enter" [disabled] [ref=e496]: TTD
+                - generic [ref=e498]:
+                  - generic [ref=e499]: Contract Person
+                  - textbox "Please enter" [disabled] [ref=e501]
+                - generic [ref=e503]:
+                  - generic [ref=e504]: Line ID
+                  - textbox "Please enter" [disabled] [ref=e506]
+                - generic [ref=e508]:
+                  - generic [ref=e509]: Phone Number
+                  - textbox "Please enter" [disabled] [ref=e511]
+                - generic [ref=e513]:
+                  - generic [ref=e514]: Email
+                  - textbox "Please enter" [disabled] [ref=e516]
+                - generic [ref=e519]:
+                  - generic [ref=e520]: Address
+                  - textbox "Please enter" [disabled] [ref=e522]
+                - generic [ref=e524]:
+                  - generic [ref=e525]:
+                    - generic [ref=e526]: Country
+                    - generic [ref=e530]:
+                      - combobox [disabled] [ref=e532]
+                      - generic: Please select
+                  - generic [ref=e533]:
+                    - generic [ref=e534]: Destination
+                    - generic [ref=e538]:
+                      - combobox [disabled] [ref=e540]
+                      - generic: Please select
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: District
+                    - generic [ref=e546]:
+                      - combobox [disabled] [ref=e548]
+                      - generic: Please select
+                  - generic [ref=e549]:
+                    - generic [ref=e550]: Sub-district
+                    - generic [ref=e554]:
+                      - combobox [disabled] [ref=e556]
+                      - generic: Please select
+                  - generic [ref=e557]:
+                    - generic [ref=e558]: Postal Code
+                    - textbox "Please enter" [disabled] [ref=e560]
+                - generic [ref=e562]:
+                  - paragraph [ref=e563]: Arrangement Type
+                  - generic [ref=e568]:
+                    - generic [ref=e570]:
+                      - generic:
+                        - checkbox "Excursion" [checked] [disabled]
+                      - generic [ref=e572]:
+                        - paragraph [ref=e573]: Excursion
+                        - paragraph
+                    - generic [ref=e575]:
+                      - generic:
+                        - checkbox "Transport" [disabled]
+                      - generic [ref=e577]:
+                        - paragraph [ref=e578]: Transport
+                        - paragraph
+            - generic [ref=e582]:
+              - generic [ref=e584]: Bank Detail
+              - generic [ref=e589]:
+                - generic [ref=e590]: Payment Method
+                - generic [ref=e594]:
+                  - combobox [disabled] [ref=e596]
+                  - generic: Please select
+            - generic [ref=e600]:
+              - generic [ref=e602]: Group Type Detail
+              - textbox "Please enter" [disabled] [ref=e609]: GUIDE ONLY (15)

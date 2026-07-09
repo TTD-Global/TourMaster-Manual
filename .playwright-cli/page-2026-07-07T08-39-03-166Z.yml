@@ -1,0 +1,128 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Zone Transfer
+          - menuitem "User" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e93]: User
+          - menuitem "Company" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e97]: Company
+          - menuitem "User Manual" [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+            - generic [ref=e101]: User Manual
+    - generic [ref=e102]:
+      - banner [ref=e103]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: "Tue : 07 Jul 2026, 15:38"
+          - generic [ref=e108] [cursor=pointer]:
+            - generic [ref=e110]: AM
+            - generic [ref=e111]:
+              - generic [ref=e112]: amares
+              - generic [ref=e113]: Superadmin
+            - img [ref=e115]
+      - main [ref=e117]:
+        - generic [ref=e284]:
+          - generic [ref=e287]:
+            - generic [ref=e288] [cursor=pointer]: Zone Transfer
+            - img [ref=e289]
+            - generic [ref=e291]: Edit
+          - generic [ref=e301]:
+            - generic [ref=e305]:
+              - generic [ref=e306]:
+                - generic [ref=e307]: Zone Transfer Detail
+                - generic [ref=e308]:
+                  - generic [ref=e309]: "Status :"
+                  - button "Active" [ref=e351] [cursor=pointer]:
+                    - generic [ref=e354]: Active
+                    - img [ref=e358]
+              - generic [ref=e314]:
+                - generic [ref=e316]:
+                  - generic [ref=e317]: Destination *
+                  - generic [ref=e319] [cursor=pointer]:
+                    - generic [ref=e321]:
+                      - combobox [ref=e323]
+                      - generic "Bangkok" [ref=e324]
+                    - generic:
+                      - img
+                    - img [ref=e361]:
+                      - img [ref=e362]
+                - generic [ref=e325]:
+                  - paragraph [ref=e326]: Zone transfer *
+                  - paragraph [ref=e328]: Zone Transfer Name
+                  - generic [ref=e329]:
+                    - generic [ref=e330]:
+                      - textbox "Enter zone name" [ref=e333]: Riverside Area+Zone 2
+                      - button [ref=e364]:
+                        - img [ref=e365]
+                    - generic [ref=e334]:
+                      - textbox "Enter zone name" [ref=e337]: Don Mueang
+                      - button [ref=e371]:
+                        - img [ref=e372]
+                    - generic [ref=e338]:
+                      - textbox "Enter zone name" [ref=e341]: qweeqw
+                      - button [ref=e378]:
+                        - img [ref=e379]
+                    - generic [ref=e342]:
+                      - textbox "Enter zone name" [ref=e345]: qweqfs
+                      - button [ref=e385]:
+                        - img [ref=e386]
+                    - generic [ref=e346]:
+                      - textbox "Enter zone name" [ref=e349]: asdff
+                      - button [ref=e392]:
+                        - img [ref=e393]
+                  - button "Add Zone Transfer" [ref=e400] [cursor=pointer]:
+                    - img [ref=e402]
+                    - text: Add Zone Transfer
+            - generic [ref=e404]:
+              - button "Cancel" [ref=e405] [cursor=pointer]
+              - button "Save" [ref=e406] [cursor=pointer]:
+                - img [ref=e408]
+                - text: Save

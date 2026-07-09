@@ -1,0 +1,49 @@
+[     123ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     123ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     133ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     133ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     183ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     184ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     190ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     190ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     224ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     224ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     226ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     226ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     243ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     243ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     244ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     245ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     276ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     302ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/create:0
+[     302ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/create:0
+[     302ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list/create:0
+[     319ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     319ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     320ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     320ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     408ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     408ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     409ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     409ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     418ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     418ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     419ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     419ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     728ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     728ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     729ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     729ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     736ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     736ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     737ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     738ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(0), total_program: 0, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     892ms] [LOG] {items: Array(1), total_program: 1, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     897ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(1), total_program: 1, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     897ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(1), total_program: 1, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     901ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(1), total_program: 1, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     901ms] [LOG] {items: Array(0), total_program: 0, total_pax: 0} {items: Array(1), total_program: 1, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     928ms] [LOG] {items: Array(2), total_program: 2, total_pax: 0} {items: Array(1), total_program: 1, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     928ms] [LOG] {items: Array(2), total_program: 2, total_pax: 0} {items: Array(1), total_program: 1, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     931ms] [LOG] {items: Array(2), total_program: 2, total_pax: 0} {items: Array(1), total_program: 1, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     931ms] [LOG] {items: Array(2), total_program: 2, total_pax: 0} {items: Array(1), total_program: 1, total_pax: 0} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0

@@ -1,6 +1,7 @@
 ---
 title: Booking List
 sidebar_position: 1
+toc_max_heading_level: 2
 ---
 
 # Booking List

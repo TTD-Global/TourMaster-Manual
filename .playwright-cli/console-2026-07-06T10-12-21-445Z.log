@@ -1,0 +1,14 @@
+[     182ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…yOTh9.7edOwizjvnQ0im21ve-LEjpNrax3sgbBH-fWnrWHx2M, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     182ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     193ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     193ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     361ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/overview:0
+[     362ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/overview:0
+[     362ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/overview:0
+[     568ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[   11891ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   11891ms] [LOG] permissions [BOOKING_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   12216ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   12216ms] [LOG] permissions [BOOKING_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   12855ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[   12855ms] [LOG] permissions [BOOKING_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0

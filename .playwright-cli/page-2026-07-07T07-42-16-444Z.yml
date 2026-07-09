@@ -1,0 +1,110 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e71]: Vehicle
+          - menuitem "Employee" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e77]: Employee
+          - menuitem "Zone Transfer" [ref=e78] [cursor=pointer]:
+            - img [ref=e79]
+            - generic [ref=e83]: Zone Transfer
+          - menuitem "User" [expanded] [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e88]: User
+          - menu:
+            - menuitem "User List" [ref=e89] [cursor=pointer]:
+              - img [ref=e90]
+              - generic [ref=e92]: User List
+            - menuitem "Role" [ref=e93] [cursor=pointer]:
+              - img [ref=e94]
+              - generic [ref=e96]: Role
+          - menuitem "Company" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e100]: Company
+          - menuitem "User Manual" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: User Manual
+    - generic [ref=e105]:
+      - banner [ref=e106]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: "Tue : 07 Jul 2026, 14:42"
+          - generic [ref=e111] [cursor=pointer]:
+            - generic [ref=e113]: AM
+            - generic [ref=e114]:
+              - generic [ref=e115]: amares
+              - generic [ref=e116]: Superadmin
+            - img [ref=e118]
+      - main [ref=e120]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: User
+              - img [ref=e125]
+              - generic [ref=e127]: Roles
+            - button "Create Roles" [ref=e129] [cursor=pointer]:
+              - img [ref=e131]
+              - text: Create Roles
+          - generic [ref=e134]:
+            - generic [ref=e137]:
+              - img [ref=e139]
+              - textbox "Search" [ref=e142]
+            - button "Filter" [ref=e144] [cursor=pointer]:
+              - img [ref=e146]
+              - text: Filter
+            - button "Export" [ref=e149] [cursor=pointer]:
+              - img [ref=e151]
+              - generic [ref=e154]: Export
+              - img [ref=e156]
+          - table [ref=e165]:
+            - rowgroup [ref=e172]:
+              - row "# Roles List Status Last Modify Date Action" [ref=e173]:
+                - columnheader "#" [ref=e174]
+                - columnheader "Roles List" [ref=e175]
+                - columnheader "Status" [ref=e176]
+                - columnheader "Last Modify Date" [ref=e177]
+                - columnheader "Action" [ref=e178]
+            - rowgroup [ref=e179]:
+              - row [ref=e180]:
+                - cell [ref=e181]:
+                  - img [ref=e183]

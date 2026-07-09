@@ -1,0 +1,20 @@
+[     935ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     937ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[    1022ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[    1022ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[    1085ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0
+[    1085ms] [LOG] permissions [PROGRAM_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0
+[    1235ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[    1235ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[    1235ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[    1283ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/auth/profile:0
+[    1425ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://dev-green-api.techmaster.in.th/api/auth/refresh:0
+[    1425ms] [LOG] Logging out... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[    1429ms] [ERROR] Profile fetch failed: Error: Authentication failed
+    at Object.get (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:116267)
+    at async Object.fetchProfile (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:23856) @ https://dev-green.techmaster.in.th/_next/static/chunks/1684-68efaae8b20bdbab.js:0
+[    1430ms] [LOG] Logging out... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[    1430ms] [ERROR] Failed to fetch profile after rehydration: Error: Failed to fetch user profile
+    at Object.fetchProfile (https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:1:24012) @ https://dev-green.techmaster.in.th/_next/static/chunks/1684-68efaae8b20bdbab.js:0
+[    1610ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/login:0
+[    1646ms] [LOG] Logging out... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0

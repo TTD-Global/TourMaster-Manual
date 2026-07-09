@@ -1,0 +1,22 @@
+[     164ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     165ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     177ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     177ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     227ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     227ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     235ms] [LOG] initialData.region_code undefined @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     235ms] [LOG] companyData null @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     334ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/company:0
+[     334ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/company:0
+[     334ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/company:0
+[     359ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     363ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     363ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     382ms] [LOG] initialData.region_code 10 @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     382ms] [LOG] companyData {id: 1, logo: Object, name: บริษัท ทีทีดี โกลเบิล จำกัด, address: 1, province_code: 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   10615ms] [LOG] companySealFile null @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   10615ms] [LOG] authorizedSignatureFile null @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   10623ms] [LOG] companySealFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/76efee48-1399-4ba0-8eab-6836ce5f3ef1.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[   10623ms] [LOG] authorizedSignatureFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/c1eb6cbe-e942-4197-a4af-18308a4d2f98.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[  265360ms] [LOG] companySealFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/76efee48-1399-4ba0-8eab-6836ce5f3ef1.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[  265360ms] [LOG] authorizedSignatureFile https://dev-tourmaster-bucket.s3.ap-southeast-1.amazonaws.com/companies/c1eb6cbe-e942-4197-a4af-18308a4d2f98.png @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0

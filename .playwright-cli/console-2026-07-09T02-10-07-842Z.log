@@ -1,0 +1,11 @@
+[     425ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: null, isAuthenticated: false} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     763ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "username"): (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/login:0
+[   21396ms] [LOG] Attempting login... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[   21652ms] [LOG] Login successful, setting tokens @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[   21652ms] [LOG] Fetching profile after login... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[   21652ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[   21652ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[   21734ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[   21966ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[   21966ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0
+[   21966ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/dashboard:0

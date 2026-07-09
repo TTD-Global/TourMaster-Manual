@@ -1,0 +1,12 @@
+[     106ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…wMDR9.uZTAuszASRUdU8oU5Oy6sZiw9ZHaYrU1h52GhPzDSw0, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     106ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     122ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     122ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     153ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0
+[     153ms] [LOG] permissions [PROGRAM_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0
+[     213ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     215ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0
+[     215ms] [LOG] permissions [PROGRAM_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0
+[     284ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[     284ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[     284ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0

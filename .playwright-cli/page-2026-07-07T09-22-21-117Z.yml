@@ -1,0 +1,195 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menu [ref=e77]:
+            - menuitem "Group Type" [ref=e78] [cursor=pointer]:
+              - img [ref=e79]
+              - generic [ref=e81]: Group Type
+            - menuitem "Supplier List" [ref=e82] [cursor=pointer]:
+              - img [ref=e83]
+              - generic [ref=e85]: Supplier List
+            - menuitem "Own Vehicle" [ref=e86] [cursor=pointer]:
+              - img [ref=e87]
+              - generic [ref=e89]: Own Vehicle
+          - menuitem "Employee" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Employee
+          - menuitem "Zone Transfer" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e101]: Zone Transfer
+          - menuitem "User" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e106]: User
+          - menuitem "Company" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Company
+          - menuitem "User Manual" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: User Manual
+    - generic [ref=e115]:
+      - banner [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "Tue : 07 Jul 2026, 16:18"
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: AM
+            - generic [ref=e124]:
+              - generic [ref=e125]: amares
+              - generic [ref=e126]: Superadmin
+            - img [ref=e128]
+      - main [ref=e130]:
+        - generic [ref=e435]:
+          - generic [ref=e437]:
+            - generic [ref=e438]:
+              - generic [ref=e439]: Vehicle
+              - img [ref=e440]
+              - generic [ref=e442] [cursor=pointer]: Supplier List
+              - img [ref=e443]
+              - generic [ref=e445]: Create Supplier
+            - button "Cancel" [ref=e447] [cursor=pointer]
+          - generic [ref=e449]:
+            - generic [ref=e450]:
+              - generic [ref=e452] [cursor=pointer]:
+                - generic [ref=e453]:
+                  - generic [ref=e454]: "1"
+                  - generic [ref=e455]: General Detail
+                - generic [ref=e456]: Add General details
+              - img [ref=e458]
+              - generic [ref=e460]:
+                - generic [ref=e461]:
+                  - generic [ref=e462]: "2"
+                  - generic [ref=e463]: Supplier Login
+                - generic [ref=e464]: Add Supplier login details
+            - generic [ref=e467]:
+              - generic [ref=e469]: General Detail
+              - generic [ref=e473]:
+                - generic [ref=e474]:
+                  - paragraph [ref=e475]: Image
+                  - generic [ref=e477]:
+                    - img [ref=e479]
+                    - img [ref=e483] [cursor=pointer]
+                - generic [ref=e488]:
+                  - generic [ref=e489]: Supplier Name *
+                  - textbox "Please enter" [ref=e491]
+                - generic [ref=e493]:
+                  - generic [ref=e494]: Contract Person
+                  - textbox "Please enter" [ref=e496]
+                - generic [ref=e498]:
+                  - generic [ref=e499]: Line ID
+                  - textbox "Please enter" [ref=e501]
+                - generic [ref=e503]:
+                  - generic [ref=e504]: Phone Number
+                  - textbox "Please enter" [ref=e506]
+                - generic [ref=e508]:
+                  - generic [ref=e509]: Email
+                  - textbox "Please enter" [ref=e511]
+                - generic [ref=e514]:
+                  - generic [ref=e515]: Address
+                  - textbox "Please enter" [ref=e517]
+                - generic [ref=e519]:
+                  - generic [ref=e520]:
+                    - generic [ref=e521]: Country
+                    - generic [ref=e523] [cursor=pointer]:
+                      - generic [ref=e525]:
+                        - combobox [ref=e527]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - generic [ref=e528]:
+                    - generic [ref=e529]: Destination
+                    - generic [ref=e531] [cursor=pointer]:
+                      - generic [ref=e533]:
+                        - combobox [ref=e535]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - generic [ref=e536]:
+                    - generic [ref=e537]: District
+                    - generic [ref=e539] [cursor=pointer]:
+                      - generic [ref=e541]:
+                        - combobox [ref=e543]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - generic [ref=e544]:
+                    - generic [ref=e545]: Sub-district
+                    - generic [ref=e547] [cursor=pointer]:
+                      - generic [ref=e549]:
+                        - combobox [ref=e551]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - generic [ref=e552]:
+                    - generic [ref=e553]: Postal Code
+                    - textbox "Please enter" [ref=e555]
+                - generic [ref=e557]:
+                  - paragraph [ref=e558]: Arrangement Type *
+                  - generic [ref=e563]:
+                    - generic [ref=e565] [cursor=pointer]:
+                      - checkbox "Excursion" [ref=e567]
+                      - generic [ref=e570]:
+                        - paragraph [ref=e571]: Excursion
+                        - paragraph
+                    - generic [ref=e573] [cursor=pointer]:
+                      - checkbox "Transport" [ref=e575]
+                      - generic [ref=e578]:
+                        - paragraph [ref=e579]: Transport
+                        - paragraph
+            - generic [ref=e582]:
+              - generic [ref=e584]: Bank Detail
+              - generic [ref=e589]:
+                - generic [ref=e590]: Payment Method
+                - generic [ref=e592] [cursor=pointer]:
+                  - generic [ref=e594]:
+                    - combobox [ref=e596]
+                    - generic: Please select
+                  - generic:
+                    - img
+            - generic [ref=e598]:
+              - button "Save and exit" [disabled] [ref=e599]:
+                - img [ref=e601]
+                - text: Save and exit
+              - button "Continue" [disabled] [ref=e605]:
+                - text: Continue
+                - img [ref=e607]

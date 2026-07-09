@@ -1,0 +1,166 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Zone Transfer
+          - menuitem "User" [expanded] [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e93]: User
+          - menu [ref=e212]:
+            - menuitem "User List" [ref=e94] [cursor=pointer]:
+              - img [ref=e95]
+              - generic [ref=e97]: User List
+            - menuitem "Role" [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+              - generic [ref=e101]: Role
+          - menuitem "Company" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e105]: Company
+          - menuitem "User Manual" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: User Manual
+    - generic [ref=e110]:
+      - banner [ref=e111]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: "Tue : 07 Jul 2026, 15:55"
+          - generic [ref=e116] [cursor=pointer]:
+            - generic [ref=e118]: AM
+            - generic [ref=e119]:
+              - generic [ref=e120]: amares
+              - generic [ref=e121]: Superadmin
+            - img [ref=e123]
+      - main [ref=e125]:
+        - generic [ref=e536]:
+          - generic [ref=e538]:
+            - generic [ref=e539]: User
+            - img [ref=e540]
+            - generic [ref=e542] [cursor=pointer]: User List
+            - img [ref=e543]
+            - generic [ref=e545]: Edit
+          - generic [ref=e554]:
+            - generic [ref=e557]:
+              - generic [ref=e558]:
+                - generic [ref=e559]: General Detail
+                - generic [ref=e560]:
+                  - generic [ref=e561]: "Status :"
+                  - button "Active" [ref=e641] [cursor=pointer]:
+                    - generic [ref=e644]: Active
+                    - img [ref=e648]
+              - generic [ref=e566]:
+                - generic [ref=e567]:
+                  - paragraph [ref=e568]: Image
+                  - generic [ref=e570]:
+                    - img [ref=e572]
+                    - img [ref=e652] [cursor=pointer]
+                - generic [ref=e575]:
+                  - generic [ref=e576]: Employee code
+                  - generic [ref=e577]:
+                    - textbox "Please enter" [ref=e578]: xxxx-adminta
+                    - button "close-circle" [ref=e656] [cursor=pointer]:
+                      - img "close-circle" [ref=e657]:
+                        - img [ref=e658]
+                - generic [ref=e580]:
+                  - generic [ref=e581]: First Name
+                  - generic [ref=e582]:
+                    - textbox "Please enter" [ref=e583]: Admin
+                    - button "close-circle" [ref=e660] [cursor=pointer]:
+                      - img "close-circle" [ref=e661]:
+                        - img [ref=e662]
+                - generic [ref=e585]:
+                  - generic [ref=e586]: Last Name
+                  - generic [ref=e587]:
+                    - textbox "Please enter" [ref=e588]: Tha
+                    - button "close-circle" [ref=e664] [cursor=pointer]:
+                      - img "close-circle" [ref=e665]:
+                        - img [ref=e666]
+                - generic [ref=e590]:
+                  - generic [ref=e591]: Email
+                  - textbox "Please enter" [ref=e593]
+                - generic [ref=e595]:
+                  - generic [ref=e596]: Phone
+                  - textbox "ex. 099-xxxxxxx" [ref=e598]
+            - generic [ref=e602]:
+              - generic [ref=e604]: Security
+              - generic [ref=e606]:
+                - generic [ref=e607]:
+                  - generic [ref=e608]:
+                    - generic [ref=e609]: Role *
+                    - generic [ref=e611] [cursor=pointer]:
+                      - generic [ref=e613]:
+                        - combobox [ref=e615]
+                        - generic "Superadmin" [ref=e616]
+                      - generic:
+                        - img
+                      - img [ref=e669]:
+                        - img [ref=e670]
+                  - generic [ref=e617]:
+                    - generic [ref=e618]: Username *
+                    - generic [ref=e619]:
+                      - textbox "Please enter" [ref=e620]: adminta
+                      - button "close-circle" [ref=e672] [cursor=pointer]:
+                        - img "close-circle" [ref=e673]:
+                          - img [ref=e674]
+                  - generic [ref=e622]:
+                    - generic [ref=e623]: Password *
+                    - generic [ref=e624]:
+                      - textbox "Please enter" [disabled] [ref=e625]: "123456789"
+                      - img "eye-invisible" [ref=e627]:
+                        - img [ref=e628]
+                  - generic [ref=e631]:
+                    - generic [ref=e632]: Confirm Password *
+                    - generic [ref=e633]:
+                      - textbox "Please enter" [disabled] [ref=e634]: "123456789"
+                      - img "eye-invisible" [ref=e636]:
+                        - img [ref=e637]
+                - generic [ref=e676] [cursor=pointer]: Reset Password
+            - generic [ref=e677]:
+              - button "Cancel" [ref=e678] [cursor=pointer]
+              - button "Save" [ref=e679] [cursor=pointer]:
+                - img [ref=e681]
+                - text: Save

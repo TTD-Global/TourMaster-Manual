@@ -1,0 +1,12 @@
+[     170ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…yOTh9.7edOwizjvnQ0im21ve-LEjpNrax3sgbBH-fWnrWHx2M, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     170ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     183ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     183ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     216ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[     217ms] [LOG] permissions [BOOKING_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[     356ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list?date=2026-07-02&status=confirmed&order=DESC&page=1&page_size=15:0
+[     356ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list?date=2026-07-02&status=confirmed&order=DESC&page=1&page_size=15:0
+[     356ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/booking/booking-list?date=2026-07-02&status=confirmed&order=DESC&page=1&page_size=15:0
+[     386ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     389ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0
+[     389ms] [LOG] permissions [BOOKING_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-3c23223443b3d566.js:0

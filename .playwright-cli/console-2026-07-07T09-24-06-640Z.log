@@ -1,0 +1,16 @@
+[     107ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     108ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     120ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     120ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     155ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     155ms] [LOG] permissions [PROGRAM_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     272ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     275ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     275ms] [LOG] permissions [PROGRAM_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     284ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     284ms] [LOG] permissions [PROGRAM_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     288ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[     288ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[     288ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[     951ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0
+[     951ms] [LOG] permissions [PROGRAM_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-83c7978e1ad12359.js:0

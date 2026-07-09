@@ -1,0 +1,82 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e206]:
+    - complementary [ref=e207]:
+      - generic [ref=e209]:
+        - generic [ref=e210]:
+          - img "Tour Master Logo" [ref=e213]
+          - img [ref=e215] [cursor=pointer]
+        - menu [ref=e220]:
+          - menuitem "Dashboard" [expanded] [ref=e221] [cursor=pointer]:
+            - img [ref=e222]
+            - generic [ref=e224]: Dashboard
+          - menu [ref=e225]:
+            - menuitem "Company Overview" [ref=e226] [cursor=pointer]:
+              - img [ref=e227]
+              - generic [ref=e229]: Company Overview
+            - menuitem "Guide" [ref=e230] [cursor=pointer]:
+              - img [ref=e231]
+              - generic [ref=e233]: Guide
+            - menuitem "Expense" [ref=e234] [cursor=pointer]:
+              - img [ref=e235]
+              - generic [ref=e237]: Expense
+          - separator [ref=e238]
+          - text: Management
+          - group [ref=e239]:
+            - menuitem "Bookings" [ref=e240] [cursor=pointer]:
+              - img [ref=e241]
+              - generic [ref=e244]: Bookings
+            - menuitem "Excursion" [ref=e245] [cursor=pointer]:
+              - img [ref=e246]
+              - generic [ref=e248]: Excursion
+            - menuitem "Pick up Transport" [ref=e249] [cursor=pointer]:
+              - img [ref=e250]
+              - generic [ref=e255]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e256] [cursor=pointer]:
+              - img [ref=e257]
+              - generic [ref=e262]: Drop off Transport
+            - menuitem "Check In" [ref=e263] [cursor=pointer]:
+              - img [ref=e264]
+              - generic [ref=e267]: Check In
+            - menuitem "Payment" [ref=e268] [cursor=pointer]:
+              - img [ref=e269]
+              - generic [ref=e272]: Payment
+          - separator [ref=e273]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e274] [cursor=pointer]:
+            - img [ref=e275]
+            - generic [ref=e279]: Program
+          - menuitem "Seller" [ref=e280] [cursor=pointer]:
+            - img [ref=e281]
+            - generic [ref=e283]: Seller
+          - menuitem "Vehicle" [ref=e284] [cursor=pointer]:
+            - img [ref=e285]
+            - generic [ref=e287]: Vehicle
+          - menuitem "Employee" [ref=e288] [cursor=pointer]:
+            - img [ref=e289]
+            - generic [ref=e293]: Employee
+          - menuitem "Zone Transfer" [ref=e294] [cursor=pointer]:
+            - img [ref=e295]
+            - generic [ref=e299]: Zone Transfer
+          - menuitem "User" [ref=e300] [cursor=pointer]:
+            - img [ref=e301]
+            - generic [ref=e304]: User
+          - menuitem "Company" [ref=e305] [cursor=pointer]:
+            - img [ref=e306]
+            - generic [ref=e308]: Company
+          - menuitem "User Manual" [ref=e309] [cursor=pointer]:
+            - img [ref=e310]
+            - generic [ref=e312]: User Manual
+    - generic [ref=e313]:
+      - banner [ref=e314]:
+        - generic [ref=e316]:
+          - generic [ref=e317]: "Mon : 06 Jul 2026, 17:37"
+          - generic [ref=e319] [cursor=pointer]:
+            - generic [ref=e321]: AM
+            - generic [ref=e322]:
+              - generic [ref=e323]: amares
+              - generic [ref=e324]: Superadmin
+            - img [ref=e326]
+      - main [ref=e328]:
+        - heading "Welcome back, amares amares" [level=1] [ref=e330]

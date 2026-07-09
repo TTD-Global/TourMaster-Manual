@@ -1,0 +1,16 @@
+[     135ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     136ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     146ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     146ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     183ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     183ms] [LOG] permissions [USER_ROLE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     219ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/roles:0
+[     219ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/roles:0
+[     219ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/user/roles:0
+[     293ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     293ms] [LOG] permissions [USER_ROLE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     311ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     313ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     313ms] [LOG] permissions [USER_ROLE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     961ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0
+[     961ms] [LOG] permissions [USER_ROLE_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-0b2c8a67e0387296.js:0

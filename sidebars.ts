@@ -147,6 +147,7 @@ const sidebars: SidebarsConfig = {
         //  'User/Access-Log'
       ],
     },
+    "Company",
   ],
 };
 

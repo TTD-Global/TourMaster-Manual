@@ -1,0 +1,264 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [expanded] [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menu [ref=e262]:
+              - menuitem "Overview" [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e32]: Overview
+              - menuitem "Create Booking" [ref=e33] [cursor=pointer]:
+                - img [ref=e34]
+                - generic [ref=e36]: Create Booking
+              - menuitem "Booking List" [ref=e37] [cursor=pointer]:
+                - img [ref=e38]
+                - generic [ref=e40]: Booking List
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Vehicle
+          - menuitem "Employee" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Mon : 06 Jul 2026, 17:08"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares
+              - generic [ref=e120]: Superadmin
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e129]:
+              - generic [ref=e130]: Booking
+              - img [ref=e131]
+              - generic [ref=e133]: Booking List
+            - generic [ref=e134]:
+              - generic [ref=e135]:
+                - img [ref=e137]
+                - textbox "Select Travel Date" [active] [ref=e141]: 06/07/2026
+              - button "Export" [ref=e142] [cursor=pointer]:
+                - img [ref=e144]
+                - generic [ref=e147]: Export
+                - img [ref=e149]
+              - button "Advance Search" [ref=e152] [cursor=pointer]:
+                - img [ref=e154]
+                - text: Advance Search
+              - button "Create Booking" [ref=e157] [cursor=pointer]:
+                - img [ref=e159]
+                - text: Create Booking
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - paragraph [ref=e164]: In Progress
+              - generic [ref=e165]:
+                - generic [ref=e166] [cursor=pointer]:
+                  - generic [ref=e167]:
+                    - paragraph [ref=e168]: "0"
+                    - paragraph [ref=e169]: Reserved
+                  - img [ref=e171]
+                - generic [ref=e173] [cursor=pointer]:
+                  - generic [ref=e174]:
+                    - paragraph [ref=e175]: "0"
+                    - paragraph [ref=e176]: Confirmed
+                  - img [ref=e178]
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - paragraph [ref=e185]: Processed
+                - paragraph [ref=e186]:
+                  - img [ref=e187]
+                  - text: Filtered to Completed and Canceled in July 2026
+              - generic [ref=e189]:
+                - generic [ref=e190] [cursor=pointer]:
+                  - generic [ref=e191]:
+                    - paragraph [ref=e192]: "0"
+                    - paragraph [ref=e193]: Completed
+                  - img [ref=e195]
+                - generic [ref=e198] [cursor=pointer]:
+                  - generic [ref=e199]:
+                    - paragraph [ref=e200]: "0"
+                    - paragraph [ref=e201]: Canceled
+                  - img [ref=e203]
+          - table [ref=e214]:
+            - rowgroup [ref=e228]:
+              - row "# Seller Travel Date Booking Date Booking No. Trip Type Trip Round Program Pax Trip Code Status Action" [ref=e229]:
+                - columnheader "#" [ref=e230]
+                - columnheader "Seller" [ref=e231]
+                - columnheader "Travel Date" [ref=e232]
+                - columnheader "Booking Date" [ref=e233]
+                - columnheader "Booking No." [ref=e234]
+                - columnheader "Trip Type" [ref=e235]
+                - columnheader "Trip Round" [ref=e236]
+                - columnheader "Program" [ref=e237]
+                - columnheader "Pax" [ref=e238]
+                - columnheader "Trip Code" [ref=e239]
+                - columnheader "Status" [ref=e240]
+                - columnheader "Action" [ref=e241]
+            - rowgroup [ref=e242]:
+              - row [ref=e243]:
+                - cell [ref=e244]:
+                  - img [ref=e246]
+  - generic [ref=e265]:
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - button "Last year (Control + left)" [ref=e269] [cursor=pointer]
+        - button "Previous month (PageUp)" [ref=e271] [cursor=pointer]
+        - generic [ref=e273]:
+          - button "Choose a month" [ref=e274] [cursor=pointer]: Jul
+          - button "Choose a year" [ref=e275] [cursor=pointer]: "2026"
+        - button "Next month (PageDown)" [ref=e276] [cursor=pointer]
+        - button "Next year (Control + right)" [ref=e278] [cursor=pointer]
+      - table [ref=e281]:
+        - rowgroup [ref=e282]:
+          - row "Su Mo Tu We Th Fr Sa" [ref=e283]:
+            - columnheader "Su" [ref=e284]
+            - columnheader "Mo" [ref=e285]
+            - columnheader "Tu" [ref=e286]
+            - columnheader "We" [ref=e287]
+            - columnheader "Th" [ref=e288]
+            - columnheader "Fr" [ref=e289]
+            - columnheader "Sa" [ref=e290]
+        - rowgroup [ref=e291]:
+          - row "28 29 30 1 2 3 4" [ref=e292]:
+            - cell "28" [ref=e293] [cursor=pointer]:
+              - generic [ref=e294]: "28"
+            - cell "29" [ref=e295] [cursor=pointer]:
+              - generic [ref=e296]: "29"
+            - cell "30" [ref=e297] [cursor=pointer]:
+              - generic [ref=e298]: "30"
+            - cell "1" [ref=e299] [cursor=pointer]:
+              - generic [ref=e300]: "1"
+            - cell "2" [ref=e301] [cursor=pointer]:
+              - generic [ref=e302]: "2"
+            - cell "3" [ref=e303] [cursor=pointer]:
+              - generic [ref=e304]: "3"
+            - cell "4" [ref=e305] [cursor=pointer]:
+              - generic [ref=e306]: "4"
+          - row "5 6 7 8 9 10 11" [ref=e307]:
+            - cell "5" [ref=e308] [cursor=pointer]:
+              - generic [ref=e309]: "5"
+            - cell "6" [ref=e310] [cursor=pointer]:
+              - generic [ref=e311]: "6"
+            - cell "7" [ref=e312] [cursor=pointer]:
+              - generic [ref=e313]: "7"
+            - cell "8" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]: "8"
+            - cell "9" [ref=e316] [cursor=pointer]:
+              - generic [ref=e317]: "9"
+            - cell "10" [ref=e318] [cursor=pointer]:
+              - generic [ref=e319]: "10"
+            - cell "11" [ref=e320] [cursor=pointer]:
+              - generic [ref=e321]: "11"
+          - row "12 13 14 15 16 17 18" [ref=e322]:
+            - cell "12" [ref=e323] [cursor=pointer]:
+              - generic [ref=e324]: "12"
+            - cell "13" [ref=e325] [cursor=pointer]:
+              - generic [ref=e326]: "13"
+            - cell "14" [ref=e327] [cursor=pointer]:
+              - generic [ref=e328]: "14"
+            - cell "15" [ref=e329] [cursor=pointer]:
+              - generic [ref=e330]: "15"
+            - cell "16" [ref=e331] [cursor=pointer]:
+              - generic [ref=e332]: "16"
+            - cell "17" [ref=e333] [cursor=pointer]:
+              - generic [ref=e334]: "17"
+            - cell "18" [ref=e335] [cursor=pointer]:
+              - generic [ref=e336]: "18"
+          - row "19 20 21 22 23 24 25" [ref=e337]:
+            - cell "19" [ref=e338] [cursor=pointer]:
+              - generic [ref=e339]: "19"
+            - cell "20" [ref=e340] [cursor=pointer]:
+              - generic [ref=e341]: "20"
+            - cell "21" [ref=e342] [cursor=pointer]:
+              - generic [ref=e343]: "21"
+            - cell "22" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]: "22"
+            - cell "23" [ref=e346] [cursor=pointer]:
+              - generic [ref=e347]: "23"
+            - cell "24" [ref=e348] [cursor=pointer]:
+              - generic [ref=e349]: "24"
+            - cell "25" [ref=e350] [cursor=pointer]:
+              - generic [ref=e351]: "25"
+          - row "26 27 28 29 30 31 1" [ref=e352]:
+            - cell "26" [ref=e353] [cursor=pointer]:
+              - generic [ref=e354]: "26"
+            - cell "27" [ref=e355] [cursor=pointer]:
+              - generic [ref=e356]: "27"
+            - cell "28" [ref=e357] [cursor=pointer]:
+              - generic [ref=e358]: "28"
+            - cell "29" [ref=e359] [cursor=pointer]:
+              - generic [ref=e360]: "29"
+            - cell "30" [ref=e361] [cursor=pointer]:
+              - generic [ref=e362]: "30"
+            - cell "31" [ref=e363] [cursor=pointer]:
+              - generic [ref=e364]: "31"
+            - cell "1" [ref=e365] [cursor=pointer]:
+              - generic [ref=e366]: "1"
+          - row "2 3 4 5 6 7 8" [ref=e367]:
+            - cell "2" [ref=e368] [cursor=pointer]:
+              - generic [ref=e369]: "2"
+            - cell "3" [ref=e370] [cursor=pointer]:
+              - generic [ref=e371]: "3"
+            - cell "4" [ref=e372] [cursor=pointer]:
+              - generic [ref=e373]: "4"
+            - cell "5" [ref=e374] [cursor=pointer]:
+              - generic [ref=e375]: "5"
+            - cell "6" [ref=e376] [cursor=pointer]:
+              - generic [ref=e377]: "6"
+            - cell "7" [ref=e378] [cursor=pointer]:
+              - generic [ref=e379]: "7"
+            - cell "8" [ref=e380] [cursor=pointer]:
+              - generic [ref=e381]: "8"
+    - list [ref=e383]:
+      - listitem [ref=e384]: Today

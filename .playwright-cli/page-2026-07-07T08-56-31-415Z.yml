@@ -1,0 +1,352 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [expanded] [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menu [ref=e64]:
+            - menuitem "Program List" [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e68]: Program List
+            - menuitem "Item Type" [ref=e69] [cursor=pointer]:
+              - img [ref=e70]
+              - generic [ref=e72]: Item Type
+            - menuitem "Unit" [ref=e73] [cursor=pointer]:
+              - img [ref=e74]
+              - generic [ref=e76]: Unit
+          - menuitem "Seller" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e80]: Seller
+          - menuitem "Vehicle" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e89]: Vehicle
+          - menuitem "Employee" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Employee
+          - menuitem "Zone Transfer" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e101]: Zone Transfer
+          - menuitem "User" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e106]: User
+          - menuitem "Company" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Company
+          - menuitem "User Manual" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: User Manual
+    - generic [ref=e115]:
+      - banner [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "Tue : 07 Jul 2026, 15:56"
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: AM
+            - generic [ref=e124]:
+              - generic [ref=e125]: amares
+              - generic [ref=e126]: Superadmin
+            - img [ref=e128]
+      - main [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - generic [ref=e135]: Program
+              - img [ref=e136]
+              - generic [ref=e138]: Item Type
+            - button "Create Item Type" [ref=e140] [cursor=pointer]:
+              - img [ref=e142]
+              - text: Create Item Type
+          - generic [ref=e145]:
+            - generic [ref=e148]:
+              - img [ref=e150]
+              - textbox "Search" [ref=e153]
+            - button "Filter" [ref=e155] [cursor=pointer]:
+              - img [ref=e157]
+              - text: Filter
+            - button "Export" [ref=e160] [cursor=pointer]:
+              - img [ref=e162]
+              - generic [ref=e165]: Export
+              - img [ref=e167]
+          - generic [ref=e172]:
+            - table [ref=e176]:
+              - rowgroup [ref=e184]:
+                - row "# Item Type Items quantity Status Last Modify Date Action" [ref=e185]:
+                  - columnheader "#" [ref=e186]
+                  - columnheader "Item Type" [ref=e187]
+                  - columnheader "Items quantity" [ref=e188]
+                  - columnheader "Status" [ref=e189]
+                  - columnheader "Last Modify Date" [ref=e190]
+                  - columnheader "Action" [ref=e191]
+              - rowgroup [ref=e192]:
+                - row "1 ค่าตั๋วอุทธยาน 4 Active 07/07/2026" [ref=e212]:
+                  - cell "1" [ref=e213]
+                  - cell "ค่าตั๋วอุทธยาน" [ref=e214]:
+                    - link "ค่าตั๋วอุทธยาน" [ref=e215] [cursor=pointer]:
+                      - /url: /program/items-type/107
+                      - paragraph [ref=e216]: ค่าตั๋วอุทธยาน
+                  - cell "4" [ref=e217]:
+                    - generic [ref=e219] [cursor=pointer]: "4"
+                  - cell "Active" [ref=e220]:
+                    - generic [ref=e223]: Active
+                  - cell "07/07/2026" [ref=e224]
+                  - cell [ref=e225]:
+                    - img [ref=e228] [cursor=pointer]
+                - row "2 เส้นทางรถ 26 Active 02/07/2026" [ref=e232]:
+                  - cell "2" [ref=e233]
+                  - cell "เส้นทางรถ" [ref=e234]:
+                    - link "เส้นทางรถ" [ref=e235] [cursor=pointer]:
+                      - /url: /program/items-type/77
+                      - paragraph [ref=e236]: เส้นทางรถ
+                  - cell "26" [ref=e237]:
+                    - generic [ref=e239] [cursor=pointer]: "26"
+                  - cell "Active" [ref=e240]:
+                    - generic [ref=e243]: Active
+                  - cell "02/07/2026" [ref=e244]
+                  - cell [ref=e245]:
+                    - img [ref=e248] [cursor=pointer]
+                - row "3 ค่าใช้จ่ายรถ 4 Active 01/07/2026" [ref=e252]:
+                  - cell "3" [ref=e253]
+                  - cell "ค่าใช้จ่ายรถ" [ref=e254]:
+                    - link "ค่าใช้จ่ายรถ" [ref=e255] [cursor=pointer]:
+                      - /url: /program/items-type/73
+                      - paragraph [ref=e256]: ค่าใช้จ่ายรถ
+                  - cell "4" [ref=e257]:
+                    - generic [ref=e259] [cursor=pointer]: "4"
+                  - cell "Active" [ref=e260]:
+                    - generic [ref=e263]: Active
+                  - cell "01/07/2026" [ref=e264]
+                  - cell [ref=e265]:
+                    - img [ref=e268] [cursor=pointer]
+                - row "4 ค่าใช้จ่ายของเรือ 8 Active 01/07/2026" [ref=e272]:
+                  - cell "4" [ref=e273]
+                  - cell "ค่าใช้จ่ายของเรือ" [ref=e274]:
+                    - link "ค่าใช้จ่ายของเรือ" [ref=e275] [cursor=pointer]:
+                      - /url: /program/items-type/64
+                      - paragraph [ref=e276]: ค่าใช้จ่ายของเรือ
+                  - cell "8" [ref=e277]:
+                    - generic [ref=e279] [cursor=pointer]: "8"
+                  - cell "Active" [ref=e280]:
+                    - generic [ref=e283]: Active
+                  - cell "01/07/2026" [ref=e284]
+                  - cell [ref=e285]:
+                    - img [ref=e288] [cursor=pointer]
+                - row "5 ตั๋วเข้าชม 28 Active 29/06/2026" [ref=e292]:
+                  - cell "5" [ref=e293]
+                  - cell "ตั๋วเข้าชม" [ref=e294]:
+                    - link "ตั๋วเข้าชม" [ref=e295] [cursor=pointer]:
+                      - /url: /program/items-type/17
+                      - paragraph [ref=e296]: ตั๋วเข้าชม
+                  - cell "28" [ref=e297]:
+                    - generic [ref=e299] [cursor=pointer]: "28"
+                  - cell "Active" [ref=e300]:
+                    - generic [ref=e303]: Active
+                  - cell "29/06/2026" [ref=e304]
+                  - cell [ref=e305]:
+                    - img [ref=e308] [cursor=pointer]
+                - row "6 อาหารว่าง 6 Active 29/06/2026" [ref=e312]:
+                  - cell "6" [ref=e313]
+                  - cell "อาหารว่าง" [ref=e314]:
+                    - link "อาหารว่าง" [ref=e315] [cursor=pointer]:
+                      - /url: /program/items-type/4
+                      - paragraph [ref=e316]: อาหารว่าง
+                  - cell "6" [ref=e317]:
+                    - generic [ref=e319] [cursor=pointer]: "6"
+                  - cell "Active" [ref=e320]:
+                    - generic [ref=e323]: Active
+                  - cell "29/06/2026" [ref=e324]
+                  - cell [ref=e325]:
+                    - img [ref=e328] [cursor=pointer]
+                - row "7 ค่าน้ำดื่ม+ผ้าเย็น+ขนม 1 Active 29/06/2026" [ref=e332]:
+                  - cell "7" [ref=e333]
+                  - cell "ค่าน้ำดื่ม+ผ้าเย็น+ขนม" [ref=e334]:
+                    - link "ค่าน้ำดื่ม+ผ้าเย็น+ขนม" [ref=e335] [cursor=pointer]:
+                      - /url: /program/items-type/59
+                      - paragraph [ref=e336]: ค่าน้ำดื่ม+ผ้าเย็น+ขนม
+                  - cell "1" [ref=e337]:
+                    - generic [ref=e339] [cursor=pointer]: "1"
+                  - cell "Active" [ref=e340]:
+                    - generic [ref=e343]: Active
+                  - cell "29/06/2026" [ref=e344]
+                  - cell [ref=e345]:
+                    - img [ref=e348] [cursor=pointer]
+                - row "8 ค่าเบี้ยเลี้ยง - Active 29/06/2026" [ref=e352]:
+                  - cell "8" [ref=e353]
+                  - cell "ค่าเบี้ยเลี้ยง" [ref=e354]:
+                    - link "ค่าเบี้ยเลี้ยง" [ref=e355] [cursor=pointer]:
+                      - /url: /program/items-type/57
+                      - paragraph [ref=e356]: ค่าเบี้ยเลี้ยง
+                  - cell "-" [ref=e357]:
+                    - generic [ref=e359] [cursor=pointer]: "-"
+                  - cell "Active" [ref=e360]:
+                    - generic [ref=e363]: Active
+                  - cell "29/06/2026" [ref=e364]
+                  - cell [ref=e365]:
+                    - img [ref=e368] [cursor=pointer]
+                - row "9 ค่าน้ำมัน - Active 29/06/2026" [ref=e372]:
+                  - cell "9" [ref=e373]
+                  - cell "ค่าน้ำมัน" [ref=e374]:
+                    - link "ค่าน้ำมัน" [ref=e375] [cursor=pointer]:
+                      - /url: /program/items-type/56
+                      - paragraph [ref=e376]: ค่าน้ำมัน
+                  - cell "-" [ref=e377]:
+                    - generic [ref=e379] [cursor=pointer]: "-"
+                  - cell "Active" [ref=e380]:
+                    - generic [ref=e383]: Active
+                  - cell "29/06/2026" [ref=e384]
+                  - cell [ref=e385]:
+                    - img [ref=e388] [cursor=pointer]
+                - row "10 ค่าทางด่วน - Active 29/06/2026" [ref=e392]:
+                  - cell "10" [ref=e393]
+                  - cell "ค่าทางด่วน" [ref=e394]:
+                    - link "ค่าทางด่วน" [ref=e395] [cursor=pointer]:
+                      - /url: /program/items-type/55
+                      - paragraph [ref=e396]: ค่าทางด่วน
+                  - cell "-" [ref=e397]:
+                    - generic [ref=e399] [cursor=pointer]: "-"
+                  - cell "Active" [ref=e400]:
+                    - generic [ref=e403]: Active
+                  - cell "29/06/2026" [ref=e404]
+                  - cell [ref=e405]:
+                    - img [ref=e408] [cursor=pointer]
+                - row "11 ค่าจอดรถ - Active 29/06/2026" [ref=e412]:
+                  - cell "11" [ref=e413]
+                  - cell "ค่าจอดรถ" [ref=e414]:
+                    - link "ค่าจอดรถ" [ref=e415] [cursor=pointer]:
+                      - /url: /program/items-type/54
+                      - paragraph [ref=e416]: ค่าจอดรถ
+                  - cell "-" [ref=e417]:
+                    - generic [ref=e419] [cursor=pointer]: "-"
+                  - cell "Active" [ref=e420]:
+                    - generic [ref=e423]: Active
+                  - cell "29/06/2026" [ref=e424]
+                  - cell [ref=e425]:
+                    - img [ref=e428] [cursor=pointer]
+                - row "12 ประกันการเดินทาง - Active 29/06/2026" [ref=e432]:
+                  - cell "12" [ref=e433]
+                  - cell "ประกันการเดินทาง" [ref=e434]:
+                    - link "ประกันการเดินทาง" [ref=e435] [cursor=pointer]:
+                      - /url: /program/items-type/53
+                      - paragraph [ref=e436]: ประกันการเดินทาง
+                  - cell "-" [ref=e437]:
+                    - generic [ref=e439] [cursor=pointer]: "-"
+                  - cell "Active" [ref=e440]:
+                    - generic [ref=e443]: Active
+                  - cell "29/06/2026" [ref=e444]
+                  - cell [ref=e445]:
+                    - img [ref=e448] [cursor=pointer]
+                - row "13 ค่าบริการเสริม 7 Active 29/06/2026" [ref=e452]:
+                  - cell "13" [ref=e453]
+                  - cell "ค่าบริการเสริม" [ref=e454]:
+                    - link "ค่าบริการเสริม" [ref=e455] [cursor=pointer]:
+                      - /url: /program/items-type/45
+                      - paragraph [ref=e456]: ค่าบริการเสริม
+                  - cell "7" [ref=e457]:
+                    - generic [ref=e459] [cursor=pointer]: "7"
+                  - cell "Active" [ref=e460]:
+                    - generic [ref=e463]: Active
+                  - cell "29/06/2026" [ref=e464]
+                  - cell [ref=e465]:
+                    - img [ref=e468] [cursor=pointer]
+                - row "14 ค่าเรือนำเที่ยว 4 Active 29/06/2026" [ref=e472]:
+                  - cell "14" [ref=e473]
+                  - cell "ค่าเรือนำเที่ยว" [ref=e474]:
+                    - link "ค่าเรือนำเที่ยว" [ref=e475] [cursor=pointer]:
+                      - /url: /program/items-type/12
+                      - paragraph [ref=e476]: ค่าเรือนำเที่ยว
+                  - cell "4" [ref=e477]:
+                    - generic [ref=e479] [cursor=pointer]: "4"
+                  - cell "Active" [ref=e480]:
+                    - generic [ref=e483]: Active
+                  - cell "29/06/2026" [ref=e484]
+                  - cell [ref=e485]:
+                    - img [ref=e488] [cursor=pointer]
+                - row "15 อาหาร 3 Active 29/06/2026" [ref=e492]:
+                  - cell "15" [ref=e493]
+                  - cell "อาหาร" [ref=e494]:
+                    - link "อาหาร" [ref=e495] [cursor=pointer]:
+                      - /url: /program/items-type/8
+                      - paragraph [ref=e496]: อาหาร
+                  - cell "3" [ref=e497]:
+                    - generic [ref=e499] [cursor=pointer]: "3"
+                  - cell "Active" [ref=e500]:
+                    - generic [ref=e503]: Active
+                  - cell "29/06/2026" [ref=e504]
+                  - cell [ref=e505]:
+                    - img [ref=e508] [cursor=pointer]
+            - list [ref=e512]:
+              - listitem "Previous Page" [ref=e513]:
+                - button "left" [disabled] [ref=e514]:
+                  - img "left" [ref=e515]:
+                    - img [ref=e516]
+              - listitem "1" [ref=e518] [cursor=pointer]:
+                - generic [ref=e519]: "1"
+              - listitem "2" [ref=e520] [cursor=pointer]:
+                - generic [ref=e521]: "2"
+              - listitem "Next Page" [ref=e522] [cursor=pointer]:
+                - button "right" [ref=e523]:
+                  - img "right" [ref=e524]:
+                    - img [ref=e525]
+              - listitem [ref=e527]:
+                - generic "Page Size" [ref=e528] [cursor=pointer]:
+                  - generic [ref=e530]:
+                    - combobox "Page Size" [ref=e532]
+                    - generic "15 / page" [ref=e533]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e534]:
+    - dialog:
+      - generic [ref=e536]:
+        - generic [ref=e537]:
+          - generic [ref=e538]:
+            - generic [ref=e540]: Filter
+            - img [ref=e542] [cursor=pointer]
+          - generic [ref=e546]:
+            - generic [ref=e547]:
+              - generic [ref=e548]: Item Type Name
+              - textbox "Please enter" [ref=e550]
+            - generic [ref=e552]:
+              - generic [ref=e553]: Status
+              - generic [ref=e555] [cursor=pointer]:
+                - generic [ref=e557]:
+                  - combobox [ref=e559]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e560]:
+          - button "Clear all" [ref=e561] [cursor=pointer]
+          - button "Search" [ref=e562] [cursor=pointer]:
+            - img [ref=e564]
+            - text: Search

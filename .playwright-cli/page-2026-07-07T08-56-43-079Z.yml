@@ -1,0 +1,248 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Zone Transfer
+          - menuitem "User" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e93]: User
+          - menuitem "Company" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e97]: Company
+          - menuitem "User Manual" [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+            - generic [ref=e101]: User Manual
+    - generic [ref=e102]:
+      - banner [ref=e103]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: "Tue : 07 Jul 2026, 15:56"
+          - generic [ref=e108] [cursor=pointer]:
+            - generic [ref=e110]: AM
+            - generic [ref=e111]:
+              - generic [ref=e112]: amares
+              - generic [ref=e113]: Superadmin
+            - img [ref=e115]
+      - main [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e120]:
+            - generic [ref=e122]: Seller
+            - button "Create Seller" [ref=e124] [cursor=pointer]:
+              - img [ref=e126]
+              - text: Create Seller
+          - generic [ref=e129]:
+            - generic [ref=e132]:
+              - img [ref=e134]
+              - textbox "Search" [ref=e137]
+            - button "Filter" [ref=e139] [cursor=pointer]:
+              - img [ref=e141]
+              - text: Filter
+            - button "Export" [ref=e144] [cursor=pointer]:
+              - img [ref=e146]
+              - generic [ref=e149]: Export
+              - img [ref=e151]
+          - generic [ref=e156]:
+            - table [ref=e160]:
+              - rowgroup [ref=e169]:
+                - row "# Image Seller Name Program Quantity Status Last Modify Date Action" [ref=e170]:
+                  - columnheader "#" [ref=e171]
+                  - columnheader "Image" [ref=e172]
+                  - columnheader "Seller Name" [ref=e173]
+                  - columnheader "Program Quantity" [ref=e174]
+                  - columnheader "Status" [ref=e175]
+                  - columnheader "Last Modify Date" [ref=e176]
+                  - columnheader "Action" [ref=e177]
+              - rowgroup [ref=e178]:
+                - row "1 ฮุยทัวร์ 1 Active 07/07/2026" [ref=e198]:
+                  - cell "1" [ref=e199]
+                  - cell [ref=e200]:
+                    - img [ref=e203]
+                  - cell "ฮุยทัวร์" [ref=e205]:
+                    - link "ฮุยทัวร์" [ref=e206] [cursor=pointer]:
+                      - /url: /agents/7
+                      - paragraph [ref=e207]: ฮุยทัวร์
+                  - cell "1" [ref=e208]:
+                    - generic [ref=e210] [cursor=pointer]: "1"
+                  - cell "Active" [ref=e211]:
+                    - generic [ref=e214]: Active
+                  - cell "07/07/2026" [ref=e215]
+                  - cell [ref=e216]:
+                    - img [ref=e219] [cursor=pointer]
+                - row "2 KLOOK 2 Active 02/07/2026" [ref=e223]:
+                  - cell "2" [ref=e224]
+                  - cell [ref=e225]:
+                    - img [ref=e228]
+                  - cell "KLOOK" [ref=e230]:
+                    - link "KLOOK" [ref=e231] [cursor=pointer]:
+                      - /url: /agents/6
+                      - paragraph [ref=e232]: KLOOK
+                  - cell "2" [ref=e233]:
+                    - generic [ref=e235] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e236]:
+                    - generic [ref=e239]: Active
+                  - cell "02/07/2026" [ref=e240]
+                  - cell [ref=e241]:
+                    - img [ref=e244] [cursor=pointer]
+                - row "3 Phi Phi 2 Active 01/07/2026" [ref=e248]:
+                  - cell "3" [ref=e249]
+                  - cell [ref=e250]:
+                    - img [ref=e253]
+                  - cell "Phi Phi" [ref=e255]:
+                    - link "Phi Phi" [ref=e256] [cursor=pointer]:
+                      - /url: /agents/5
+                      - paragraph [ref=e257]: Phi Phi
+                  - cell "2" [ref=e258]:
+                    - generic [ref=e260] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e261]:
+                    - generic [ref=e264]: Active
+                  - cell "01/07/2026" [ref=e265]
+                  - cell [ref=e266]:
+                    - img [ref=e269] [cursor=pointer]
+                - row "4 [Oneasia] Klook 6 Active 30/06/2026" [ref=e273]:
+                  - cell "4" [ref=e274]
+                  - cell [ref=e275]:
+                    - img [ref=e278]
+                  - cell "[Oneasia] Klook" [ref=e280]:
+                    - link "[Oneasia] Klook" [ref=e281] [cursor=pointer]:
+                      - /url: /agents/1
+                      - paragraph [ref=e282]: "[Oneasia] Klook"
+                  - cell "6" [ref=e283]:
+                    - generic [ref=e285] [cursor=pointer]: "6"
+                  - cell "Active" [ref=e286]:
+                    - generic [ref=e289]: Active
+                  - cell "30/06/2026" [ref=e290]
+                  - cell [ref=e291]:
+                    - img [ref=e294] [cursor=pointer]
+                - row "5 TTD 1 Active 29/06/2026" [ref=e298]:
+                  - cell "5" [ref=e299]
+                  - cell [ref=e300]:
+                    - img [ref=e303]
+                  - cell "TTD" [ref=e305]:
+                    - link "TTD" [ref=e306] [cursor=pointer]:
+                      - /url: /agents/4
+                      - paragraph [ref=e307]: TTD
+                  - cell "1" [ref=e308]:
+                    - generic [ref=e310] [cursor=pointer]: "1"
+                  - cell "Active" [ref=e311]:
+                    - generic [ref=e314]: Active
+                  - cell "29/06/2026" [ref=e315]
+                  - cell [ref=e316]:
+                    - img [ref=e319] [cursor=pointer]
+                - row "6 One Asia 2 Active 29/06/2026" [ref=e323]:
+                  - cell "6" [ref=e324]
+                  - cell [ref=e325]:
+                    - img [ref=e328]
+                  - cell "One Asia" [ref=e330]:
+                    - link "One Asia" [ref=e331] [cursor=pointer]:
+                      - /url: /agents/3
+                      - paragraph [ref=e332]: One Asia
+                  - cell "2" [ref=e333]:
+                    - generic [ref=e335] [cursor=pointer]: "2"
+                  - cell "Active" [ref=e336]:
+                    - generic [ref=e339]: Active
+                  - cell "29/06/2026" [ref=e340]
+                  - cell [ref=e341]:
+                    - img [ref=e344] [cursor=pointer]
+                - row "7 [TTD] Klook 16 Active 29/06/2026" [ref=e348]:
+                  - cell "7" [ref=e349]
+                  - cell [ref=e350]:
+                    - img [ref=e353]
+                  - cell "[TTD] Klook" [ref=e355]:
+                    - link "[TTD] Klook" [ref=e356] [cursor=pointer]:
+                      - /url: /agents/2
+                      - paragraph [ref=e357]: "[TTD] Klook"
+                  - cell "16" [ref=e358]:
+                    - generic [ref=e360] [cursor=pointer]: "16"
+                  - cell "Active" [ref=e361]:
+                    - generic [ref=e364]: Active
+                  - cell "29/06/2026" [ref=e365]
+                  - cell [ref=e366]:
+                    - img [ref=e369] [cursor=pointer]
+            - list [ref=e373]:
+              - listitem "Previous Page" [ref=e374]:
+                - button "left" [disabled] [ref=e375]:
+                  - img "left" [ref=e376]:
+                    - img [ref=e377]
+              - listitem "1" [ref=e379] [cursor=pointer]:
+                - generic [ref=e380]: "1"
+              - listitem "Next Page" [ref=e381]:
+                - button "right" [disabled] [ref=e382]:
+                  - img "right" [ref=e383]:
+                    - img [ref=e384]
+              - listitem [ref=e386]:
+                - generic "Page Size" [ref=e387] [cursor=pointer]:
+                  - generic [ref=e389]:
+                    - combobox "Page Size" [ref=e391]
+                    - generic "15 / page" [ref=e392]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e393]:
+    - dialog:
+      - generic [ref=e395]:
+        - generic [ref=e396]:
+          - generic [ref=e397]:
+            - generic [ref=e399]: Filter
+            - img [ref=e401] [cursor=pointer]
+          - generic [ref=e405]:
+            - generic [ref=e406]:
+              - generic [ref=e407]: Seller Name
+              - textbox "Please enter" [ref=e409]
+            - generic [ref=e411]:
+              - generic [ref=e412]: Status
+              - generic [ref=e414] [cursor=pointer]:
+                - generic [ref=e416]:
+                  - combobox [ref=e418]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e419]:
+          - button "Clear all" [ref=e420] [cursor=pointer]
+          - button "Search" [ref=e421] [cursor=pointer]:
+            - img [ref=e423]
+            - text: Search

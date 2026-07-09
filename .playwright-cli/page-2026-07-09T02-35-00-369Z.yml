@@ -1,0 +1,112 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [expanded] [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menu:
+              - menuitem "Check In" [ref=e52] [cursor=pointer]:
+                - img [ref=e53]
+                - generic [ref=e55]: Check In
+              - menuitem "Check In List" [ref=e56] [cursor=pointer]:
+                - img [ref=e57]
+                - generic [ref=e59]: Check In List
+            - menuitem "Payment" [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e64]: Payment
+          - separator [ref=e65]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e66] [cursor=pointer]:
+            - img [ref=e67]
+            - generic [ref=e71]: Program
+          - menuitem "Seller" [ref=e72] [cursor=pointer]:
+            - img [ref=e73]
+            - generic [ref=e75]: Seller
+          - menuitem "Vehicle" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e84]: Vehicle
+          - menuitem "Employee" [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+            - generic [ref=e90]: Employee
+          - menuitem "Zone Transfer" [ref=e91] [cursor=pointer]:
+            - img [ref=e92]
+            - generic [ref=e96]: Zone Transfer
+          - menuitem "User" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e101]: User
+          - menuitem "Company" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e105]: Company
+          - menuitem "User Manual" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: User Manual
+    - generic [ref=e110]:
+      - banner [ref=e111]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: "Thu : 09 Jul 2026, 09:35"
+          - generic [ref=e116] [cursor=pointer]:
+            - generic [ref=e118]: AM
+            - generic [ref=e119]:
+              - generic [ref=e120]: amares
+              - generic [ref=e121]: Superadmin
+            - img [ref=e123]
+      - main [ref=e125]:
+        - generic [ref=e127]:
+          - generic [ref=e128]: Check In
+          - img [ref=e129]
+          - generic [ref=e131]: Check In
+        - main [ref=e132]:
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - img [ref=e138]
+                - heading "Check in for" [level=1] [ref=e142]
+              - group "Check-in type" [ref=e143]:
+                - button "Excursion" [pressed] [ref=e144]
+                - button "Transport" [ref=e145]
+            - img [ref=e146]
+            - generic [ref=e433]:
+              - generic [ref=e434]:
+                - generic [ref=e435]: Booking ID
+                - generic [ref=e436]:
+                  - generic [ref=e437]: Checking in as
+                  - generic [ref=e438]: Excursion
+              - generic [ref=e440]:
+                - generic [ref=e444]:
+                  - combobox "Booking ID" [ref=e446]
+                  - generic: Enter Booking ID
+                - button "Scan booking ID" [ref=e447] [cursor=pointer]:
+                  - img [ref=e449]
+            - button "Check In" [disabled] [ref=e452]
+          - region "Recent check-in" [ref=e453]:
+            - generic [ref=e454]:
+              - img [ref=e455]
+              - heading "Recent check-in" [level=2] [ref=e465]
+              - generic [ref=e466]:
+                - generic [ref=e467]: •
+                - text: Today

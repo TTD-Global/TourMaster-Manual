@@ -294,15 +294,6 @@ article {
   width: 100% !important;
 }
 
-/*
- * ธีมใส่ .docItemCol_* { max-width: 75% !important } ไว้ให้คอลัมน์ TOC
- * เราซ่อน TOC แล้ว — ต้อง override ด้วย !important ไม่งั้นจะเหลือพื้นว่างทางขวา (แถบม่วงใน DevTools)
- */
-.docs-doc-page [class*='docItemCol'] {
-  --ifm-col-width: 100% !important;
-  flex: 0 0 100% !important;
-  max-width: 100% !important;
-}
 
 .docs-doc-page article {
   box-sizing: border-box;
@@ -315,17 +306,17 @@ article {
   margin-top: 1rem !important;
 }
 
-/* แถว Infima: อย่าจัดกึ่งกลาง — จะทำให้คอลัมน์เนื้อหาลอยกลางและเห็น margin เทาเยอะ */
+/* แถว Infima: อย่าจัดกึ่งกลาง + ให้ content column ขยายเต็มพื้นที่ที่เหลือ */
 .docs-doc-page .row {
   justify-content: flex-start;
 }
 
-/* ซ่อน TOC แล้ว — คอลัมน์เนื้อหาเต็มแถว (สำรองคู่กับ docItemCol ด้านบน) */
-.docs-doc-page .row > .col:not(.col--3) {
-  --ifm-col-width: 100% !important;
-  flex: 0 0 100% !important;
+.docs-doc-page [class*='docItemCol'] {
+  flex: 1 1 0 !important;
   max-width: 100% !important;
+  min-width: 0;
 }
+
 
 /* ฟิลด์จำเป็น — แสดงเฉพาะเครื่องหมาย * เป็นสีแดง (เช่น Roles.md) */
 .required-asterisk {
@@ -434,14 +425,27 @@ code {
   padding: 0.1em 0.35em;
 }
 
+/* ─── Right TOC ──────────────────────────────────────────────────── */
+.col--3 {
+  flex: 0 0 auto !important;
+  width: fit-content !important;
+  padding-inline: 0 !important;
+}
+
+.table-of-contents {
+  padding-inline: var(--ifm-toc-padding-horizontal) !important;
+  width: fit-content;
+}
+
+.table-of-contents__link {
+  white-space: nowrap;
+}
+
 /* ─── Pagination ─────────────────────────────────────────────────── */
 .pagination-nav__link          { border-color: #97BEE4; }
 .pagination-nav__link:hover    { border-color: #006AFF; background-color: #F8FCFF; }
 .pagination-nav__label         { color: #006AFF; }
 .pagination-nav__sublabel      { color: #2A4B6A; }
-
-/* ─── Hide right TOC ─────────────────────────────────────────────── */
-.col--3 { display: none !important; }
 
 /* ─── Status Badges ──────────────────────────────────────────────── */
 .badge {

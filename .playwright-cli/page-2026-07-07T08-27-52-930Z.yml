@@ -1,0 +1,155 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menu [ref=e83]:
+            - menuitem "Employee summary" [ref=e84] [cursor=pointer]:
+              - img [ref=e85]
+              - generic [ref=e87]: Employee summary
+            - menuitem "Guide / Staff" [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+              - generic [ref=e91]: Guide / Staff
+            - menuitem "Other" [ref=e92] [cursor=pointer]:
+              - img [ref=e93]
+              - generic [ref=e95]: Other
+            - menuitem "Positions" [ref=e96] [cursor=pointer]:
+              - img [ref=e97]
+              - generic [ref=e99]: Positions
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [expanded] [active] [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menu [ref=e787]:
+            - menuitem "User List" [ref=e788] [cursor=pointer]:
+              - img [ref=e789]
+              - generic [ref=e791]: User List
+            - menuitem "Role" [ref=e792] [cursor=pointer]:
+              - img [ref=e793]
+              - generic [ref=e795]: Role
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Tue : 07 Jul 2026, 15:26"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e673]:
+          - generic [ref=e676]:
+            - generic [ref=e677] [cursor=pointer]: Employee
+            - img [ref=e678]
+            - generic [ref=e680]: Edit
+          - generic [ref=e690]:
+            - generic [ref=e694]:
+              - generic [ref=e696]:
+                - generic [ref=e697]: "Status :"
+                - button "Active" [ref=e744] [cursor=pointer]:
+                  - generic [ref=e747]: Active
+                  - img [ref=e751]
+              - generic [ref=e702]:
+                - generic [ref=e703]:
+                  - paragraph [ref=e704]: Image
+                  - generic [ref=e706]:
+                    - img [ref=e708]
+                    - img [ref=e755] [cursor=pointer]
+                - generic [ref=e710]:
+                  - generic [ref=e711]: Position *
+                  - generic [ref=e713] [cursor=pointer]:
+                    - generic [ref=e715]:
+                      - combobox [ref=e717]
+                      - generic "Driver" [ref=e718]
+                    - generic:
+                      - img
+                    - img [ref=e760]:
+                      - img [ref=e761]
+                - generic [ref=e719]:
+                  - generic [ref=e720]: Name *
+                  - generic [ref=e721]:
+                    - textbox "Please enter" [ref=e722]: Amares Tester
+                    - button "close-circle" [ref=e763] [cursor=pointer]:
+                      - img "close-circle" [ref=e764]:
+                        - img [ref=e765]
+                - generic [ref=e724]:
+                  - generic [ref=e725]: Phone Number *
+                  - generic [ref=e726]:
+                    - textbox "Please enter" [ref=e727]: "0800551885"
+                    - button "close-circle" [ref=e767] [cursor=pointer]:
+                      - img "close-circle" [ref=e768]:
+                        - img [ref=e769]
+                - generic [ref=e729]:
+                  - generic [ref=e730]: Email
+                  - generic [ref=e731]:
+                    - textbox "Please enter" [ref=e732]: amares.w@ttdthailand.com
+                    - button "close-circle" [ref=e771] [cursor=pointer]:
+                      - img "close-circle" [ref=e772]:
+                        - img [ref=e773]
+                - generic [ref=e734]:
+                  - generic [ref=e735]: Registration
+                  - generic [ref=e737] [cursor=pointer]:
+                    - generic [ref=e739]:
+                      - combobox [ref=e741]
+                      - generic "32" [ref=e742]
+                    - generic:
+                      - img
+                    - img [ref=e776]:
+                      - img [ref=e777]
+            - generic [ref=e779]:
+              - button "Cancel" [ref=e780] [cursor=pointer]
+              - button "Save" [ref=e781] [cursor=pointer]:
+                - img [ref=e783]
+                - text: Save

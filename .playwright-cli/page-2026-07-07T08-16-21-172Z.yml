@@ -1,0 +1,333 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menu [ref=e214]:
+            - menuitem "Group Type" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+              - generic [ref=e80]: Group Type
+            - menuitem "Supplier List" [ref=e81] [cursor=pointer]:
+              - img [ref=e82]
+              - generic [ref=e84]: Supplier List
+            - menuitem "Own Vehicle" [ref=e85] [cursor=pointer]:
+              - img [ref=e86]
+              - generic [ref=e88]: Own Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 07 Jul 2026, 15:16"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: Vehicle
+              - img [ref=e135]
+              - generic [ref=e137]: Group Type
+            - button "Create Group Type" [ref=e139] [cursor=pointer]:
+              - img [ref=e141]
+              - text: Create Group Type
+          - generic [ref=e144]:
+            - generic [ref=e147]:
+              - img [ref=e149]
+              - textbox "Search" [ref=e152]
+            - button "Filter" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
+              - text: Filter
+            - button "Export" [ref=e159] [cursor=pointer]:
+              - img [ref=e161]
+              - generic [ref=e164]: Export
+              - img [ref=e166]
+          - generic [ref=e172]:
+            - table [ref=e176]:
+              - rowgroup [ref=e185]:
+                - row "# Group type Name Capacity Arrangement Type Status Last Modify Date Action" [ref=e186]:
+                  - columnheader "#" [ref=e187]
+                  - columnheader "Group type Name" [ref=e188]
+                  - columnheader "Capacity" [ref=e189]
+                  - columnheader "Arrangement Type" [ref=e190]
+                  - columnheader "Status" [ref=e191]
+                  - columnheader "Last Modify Date" [ref=e192]
+                  - columnheader "Action" [ref=e193]
+              - rowgroup [ref=e194]:
+                - row "1 GUIDE ONLY 15 Excursion Active 02/07/2026" [ref=e215]:
+                  - cell "1" [ref=e216]
+                  - cell "GUIDE ONLY" [ref=e217]:
+                    - link "GUIDE ONLY" [ref=e218] [cursor=pointer]:
+                      - /url: /vehicle/group-type/30
+                      - paragraph [ref=e219]: GUIDE ONLY
+                  - cell "15" [ref=e220]
+                  - cell "Excursion" [ref=e221]
+                  - cell "Active" [ref=e222]:
+                    - generic [ref=e225]: Active
+                  - cell "02/07/2026" [ref=e226]
+                  - cell [ref=e227]:
+                    - img [ref=e230] [cursor=pointer]
+                - row "2 Van 13 Excursion, Transport Active 01/07/2026" [ref=e234]:
+                  - cell "2" [ref=e235]
+                  - cell "Van" [ref=e236]:
+                    - link "Van" [ref=e237] [cursor=pointer]:
+                      - /url: /vehicle/group-type/29
+                      - paragraph [ref=e238]: Van
+                  - cell "13" [ref=e239]
+                  - cell "Excursion, Transport" [ref=e240]
+                  - cell "Active" [ref=e241]:
+                    - generic [ref=e244]: Active
+                  - cell "01/07/2026" [ref=e245]
+                  - cell [ref=e246]:
+                    - img [ref=e249] [cursor=pointer]
+                - row "3 Truck 10 Excursion, Transport Active 01/07/2026" [ref=e253]:
+                  - cell "3" [ref=e254]
+                  - cell "Truck" [ref=e255]:
+                    - link "Truck" [ref=e256] [cursor=pointer]:
+                      - /url: /vehicle/group-type/28
+                      - paragraph [ref=e257]: Truck
+                  - cell "10" [ref=e258]
+                  - cell "Excursion, Transport" [ref=e259]
+                  - cell "Active" [ref=e260]:
+                    - generic [ref=e263]: Active
+                  - cell "01/07/2026" [ref=e264]
+                  - cell [ref=e265]:
+                    - img [ref=e268] [cursor=pointer]
+                - row "4 2 เครื่องยนต์ (20 ที่นั่ง) 20 Excursion, Transport Active 01/07/2026" [ref=e272]:
+                  - cell "4" [ref=e273]
+                  - cell "2 เครื่องยนต์ (20 ที่นั่ง)" [ref=e274]:
+                    - link "2 เครื่องยนต์ (20 ที่นั่ง)" [ref=e275] [cursor=pointer]:
+                      - /url: /vehicle/group-type/25
+                      - paragraph [ref=e276]: 2 เครื่องยนต์ (20 ที่นั่ง)
+                  - cell "20" [ref=e277]
+                  - cell "Excursion, Transport" [ref=e278]
+                  - cell "Active" [ref=e279]:
+                    - generic [ref=e282]: Active
+                  - cell "01/07/2026" [ref=e283]
+                  - cell [ref=e284]:
+                    - img [ref=e287] [cursor=pointer]
+                - row "5 3 เครื่องยนต์ (35 ที่นั่ง) 40 Excursion, Transport Active 01/07/2026" [ref=e291]:
+                  - cell "5" [ref=e292]
+                  - cell "3 เครื่องยนต์ (35 ที่นั่ง)" [ref=e293]:
+                    - link "3 เครื่องยนต์ (35 ที่นั่ง)" [ref=e294] [cursor=pointer]:
+                      - /url: /vehicle/group-type/26
+                      - paragraph [ref=e295]: 3 เครื่องยนต์ (35 ที่นั่ง)
+                  - cell "40" [ref=e296]
+                  - cell "Excursion, Transport" [ref=e297]
+                  - cell "Active" [ref=e298]:
+                    - generic [ref=e301]: Active
+                  - cell "01/07/2026" [ref=e302]
+                  - cell [ref=e303]:
+                    - img [ref=e306] [cursor=pointer]
+                - row "6 1 เครื่องยนต์ (10 ที่นั่ง) 12 Excursion, Transport Active 01/07/2026" [ref=e310]:
+                  - cell "6" [ref=e311]
+                  - cell "1 เครื่องยนต์ (10 ที่นั่ง)" [ref=e312]:
+                    - link "1 เครื่องยนต์ (10 ที่นั่ง)" [ref=e313] [cursor=pointer]:
+                      - /url: /vehicle/group-type/27
+                      - paragraph [ref=e314]: 1 เครื่องยนต์ (10 ที่นั่ง)
+                  - cell "12" [ref=e315]
+                  - cell "Excursion, Transport" [ref=e316]
+                  - cell "Active" [ref=e317]:
+                    - generic [ref=e320]: Active
+                  - cell "01/07/2026" [ref=e321]
+                  - cell [ref=e322]:
+                    - img [ref=e325] [cursor=pointer]
+                - row "7 3 เครื่องยนต์(45ที่นั่ง) 45 Excursion, Transport Active 01/07/2026" [ref=e329]:
+                  - cell "7" [ref=e330]
+                  - cell "3 เครื่องยนต์(45ที่นั่ง)" [ref=e331]:
+                    - link "3 เครื่องยนต์(45ที่นั่ง)" [ref=e332] [cursor=pointer]:
+                      - /url: /vehicle/group-type/22
+                      - paragraph [ref=e333]: 3 เครื่องยนต์(45ที่นั่ง)
+                  - cell "45" [ref=e334]
+                  - cell "Excursion, Transport" [ref=e335]
+                  - cell "Active" [ref=e336]:
+                    - generic [ref=e339]: Active
+                  - cell "01/07/2026" [ref=e340]
+                  - cell [ref=e341]:
+                    - img [ref=e344] [cursor=pointer]
+                - row "8 2 เครื่องยนต์(30ที่นั่ง) 30 Excursion, Transport Active 01/07/2026" [ref=e348]:
+                  - cell "8" [ref=e349]
+                  - cell "2 เครื่องยนต์(30ที่นั่ง)" [ref=e350]:
+                    - link "2 เครื่องยนต์(30ที่นั่ง)" [ref=e351] [cursor=pointer]:
+                      - /url: /vehicle/group-type/24
+                      - paragraph [ref=e352]: 2 เครื่องยนต์(30ที่นั่ง)
+                  - cell "30" [ref=e353]
+                  - cell "Excursion, Transport" [ref=e354]
+                  - cell "Active" [ref=e355]:
+                    - generic [ref=e358]: Active
+                  - cell "01/07/2026" [ref=e359]
+                  - cell [ref=e360]:
+                    - img [ref=e363] [cursor=pointer]
+                - row "9 2 เครื่องยนต์(20 ที่นั่ง) 25 Excursion, Transport Active 01/07/2026" [ref=e367]:
+                  - cell "9" [ref=e368]
+                  - cell "2 เครื่องยนต์(20 ที่นั่ง)" [ref=e369]:
+                    - link "2 เครื่องยนต์(20 ที่นั่ง)" [ref=e370] [cursor=pointer]:
+                      - /url: /vehicle/group-type/23
+                      - paragraph [ref=e371]: 2 เครื่องยนต์(20 ที่นั่ง)
+                  - cell "25" [ref=e372]
+                  - cell "Excursion, Transport" [ref=e373]
+                  - cell "Active" [ref=e374]:
+                    - generic [ref=e377]: Active
+                  - cell "01/07/2026" [ref=e378]
+                  - cell [ref=e379]:
+                    - img [ref=e382] [cursor=pointer]
+                - row "10 CAR 4 Excursion Active 30/06/2026" [ref=e386]:
+                  - cell "10" [ref=e387]
+                  - cell "CAR" [ref=e388]:
+                    - link "CAR" [ref=e389] [cursor=pointer]:
+                      - /url: /vehicle/group-type/21
+                      - paragraph [ref=e390]: CAR
+                  - cell "4" [ref=e391]
+                  - cell "Excursion" [ref=e392]
+                  - cell "Active" [ref=e393]:
+                    - generic [ref=e396]: Active
+                  - cell "30/06/2026" [ref=e397]
+                  - cell [ref=e398]:
+                    - img [ref=e401] [cursor=pointer]
+                - row "11 Bus 36 Excursion, Transport Active 30/06/2026" [ref=e405]:
+                  - cell "11" [ref=e406]
+                  - cell "Bus" [ref=e407]:
+                    - link "Bus" [ref=e408] [cursor=pointer]:
+                      - /url: /vehicle/group-type/20
+                      - paragraph [ref=e409]: Bus
+                  - cell "36" [ref=e410]
+                  - cell "Excursion, Transport" [ref=e411]
+                  - cell "Active" [ref=e412]:
+                    - generic [ref=e415]: Active
+                  - cell "30/06/2026" [ref=e416]
+                  - cell [ref=e417]:
+                    - img [ref=e420] [cursor=pointer]
+                - row "12 BUS 40 SEAT 40 Excursion, Transport Active 30/06/2026" [ref=e424]:
+                  - cell "12" [ref=e425]
+                  - cell "BUS 40 SEAT" [ref=e426]:
+                    - link "BUS 40 SEAT" [ref=e427] [cursor=pointer]:
+                      - /url: /vehicle/group-type/19
+                      - paragraph [ref=e428]: BUS 40 SEAT
+                  - cell "40" [ref=e429]
+                  - cell "Excursion, Transport" [ref=e430]
+                  - cell "Active" [ref=e431]:
+                    - generic [ref=e434]: Active
+                  - cell "30/06/2026" [ref=e435]
+                  - cell [ref=e436]:
+                    - img [ref=e439] [cursor=pointer]
+                - row "13 1 เครื่องยนต์ (10ที่นั่ง) 10 Excursion Active 30/06/2026" [ref=e443]:
+                  - cell "13" [ref=e444]
+                  - cell "1 เครื่องยนต์ (10ที่นั่ง)" [ref=e445]:
+                    - link "1 เครื่องยนต์ (10ที่นั่ง)" [ref=e446] [cursor=pointer]:
+                      - /url: /vehicle/group-type/18
+                      - paragraph [ref=e447]: 1 เครื่องยนต์ (10ที่นั่ง)
+                  - cell "10" [ref=e448]
+                  - cell "Excursion" [ref=e449]
+                  - cell "Active" [ref=e450]:
+                    - generic [ref=e453]: Active
+                  - cell "30/06/2026" [ref=e454]
+                  - cell [ref=e455]:
+                    - img [ref=e458] [cursor=pointer]
+                - row "14 3 เครื่องยนต์ (40 ที่นั่ง) 45 Excursion Active 30/06/2026" [ref=e462]:
+                  - cell "14" [ref=e463]
+                  - cell "3 เครื่องยนต์ (40 ที่นั่ง)" [ref=e464]:
+                    - link "3 เครื่องยนต์ (40 ที่นั่ง)" [ref=e465] [cursor=pointer]:
+                      - /url: /vehicle/group-type/17
+                      - paragraph [ref=e466]: 3 เครื่องยนต์ (40 ที่นั่ง)
+                  - cell "45" [ref=e467]
+                  - cell "Excursion" [ref=e468]
+                  - cell "Active" [ref=e469]:
+                    - generic [ref=e472]: Active
+                  - cell "30/06/2026" [ref=e473]
+                  - cell [ref=e474]:
+                    - img [ref=e477] [cursor=pointer]
+                - row "15 มินิบัส 20 Excursion, Transport Active 30/06/2026" [ref=e481]:
+                  - cell "15" [ref=e482]
+                  - cell "มินิบัส" [ref=e483]:
+                    - link "มินิบัส" [ref=e484] [cursor=pointer]:
+                      - /url: /vehicle/group-type/16
+                      - paragraph [ref=e485]: มินิบัส
+                  - cell "20" [ref=e486]
+                  - cell "Excursion, Transport" [ref=e487]
+                  - cell "Active" [ref=e488]:
+                    - generic [ref=e491]: Active
+                  - cell "30/06/2026" [ref=e492]
+                  - cell [ref=e493]:
+                    - img [ref=e496] [cursor=pointer]
+            - list [ref=e500]:
+              - listitem "Previous Page" [ref=e501]:
+                - button "left" [disabled] [ref=e502]:
+                  - img "left" [ref=e503]:
+                    - img [ref=e504]
+              - listitem "1" [ref=e506] [cursor=pointer]:
+                - generic [ref=e507]: "1"
+              - listitem "2" [ref=e508] [cursor=pointer]:
+                - generic [ref=e509]: "2"
+              - listitem "Next Page" [ref=e510] [cursor=pointer]:
+                - button "right" [ref=e511]:
+                  - img "right" [ref=e512]:
+                    - img [ref=e513]
+              - listitem [ref=e515]:
+                - generic "Page Size" [ref=e516] [cursor=pointer]:
+                  - generic [ref=e518]:
+                    - combobox "Page Size" [ref=e520]
+                    - generic "15 / page" [ref=e521]
+                  - generic:
+                    - img:
+                      - img
+  - menu [ref=e523]:
+    - menuitem "View" [ref=e524] [cursor=pointer]:
+      - img [ref=e525]
+      - generic [ref=e528]: View

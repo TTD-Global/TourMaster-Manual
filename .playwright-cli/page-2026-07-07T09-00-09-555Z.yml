@@ -1,0 +1,227 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e35]
+          - text: Management
+          - group [ref=e36]:
+            - menuitem "Bookings" [ref=e37] [cursor=pointer]:
+              - img [ref=e38]
+              - generic [ref=e41]: Bookings
+            - menuitem "Excursion" [expanded] [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+              - generic [ref=e45]: Excursion
+            - menu [ref=e133]:
+              - menuitem "Summary" [ref=e134] [cursor=pointer]:
+                - img [ref=e135]
+                - generic [ref=e137]: Summary
+              - menuitem "Supplier Group" [ref=e138] [cursor=pointer]:
+                - img [ref=e139]
+                - generic [ref=e141]: Supplier Group
+              - menuitem "Own Vehicle Group" [ref=e142] [cursor=pointer]:
+                - img [ref=e143]
+                - generic [ref=e145]: Own Vehicle Group
+              - menuitem "Job Order" [active] [ref=e146] [cursor=pointer]:
+                - img [ref=e147]
+                - generic [ref=e149]: Job Order
+            - menuitem "Pick up Transport" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+              - generic [ref=e52]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e59]: Drop off Transport
+            - menuitem "Check In" [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e64]: Check In
+            - menuitem "Payment" [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e69]: Payment
+          - separator [ref=e70]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e71] [cursor=pointer]:
+            - img [ref=e72]
+            - generic [ref=e76]: Program
+          - menuitem "Seller" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e80]: Seller
+          - menuitem "Vehicle" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e89]: Vehicle
+          - menuitem "Employee" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Employee
+          - menuitem "Zone Transfer" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e101]: Zone Transfer
+          - menuitem "User" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e106]: User
+          - menuitem "Company" [ref=e107] [cursor=pointer]:
+            - img [ref=e108]
+            - generic [ref=e110]: Company
+          - menuitem "User Manual" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: User Manual
+    - generic [ref=e115]:
+      - banner [ref=e116]:
+        - generic [ref=e118]:
+          - generic [ref=e119]: "Tue : 07 Jul 2026, 16:00"
+          - generic [ref=e121] [cursor=pointer]:
+            - generic [ref=e123]: AM
+            - generic [ref=e124]:
+              - generic [ref=e125]: amares
+              - generic [ref=e126]: Superadmin
+            - img [ref=e128]
+      - main [ref=e130]:
+        - generic [ref=e150]:
+          - generic [ref=e151]:
+            - generic [ref=e154]:
+              - generic [ref=e155]: Tour
+              - img [ref=e156]
+              - generic [ref=e158]: Job Order
+            - generic [ref=e159]:
+              - button "Export" [ref=e160] [cursor=pointer]:
+                - img [ref=e162]
+                - generic [ref=e165]: Export
+                - img [ref=e167]
+              - generic [ref=e169]:
+                - img [ref=e171]
+                - textbox "Select Travel Date" [ref=e175]: 07/07/2026
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - textbox "Search" [ref=e183]
+              - button "Advance Search" [ref=e186] [cursor=pointer]:
+                - img [ref=e188]
+                - text: Advance Search
+          - generic [ref=e192]:
+            - tablist [ref=e193]:
+              - generic [ref=e195]:
+                - tab "All 2" [selected] [ref=e197] [cursor=pointer]:
+                  - generic [ref=e199]:
+                    - text: All
+                    - generic [ref=e201]: "2"
+                - tab "Pending 0" [ref=e203] [cursor=pointer]:
+                  - generic [ref=e205]:
+                    - text: Pending
+                    - generic [ref=e207]: "0"
+                - tab "Completed 2" [ref=e209] [cursor=pointer]:
+                  - generic [ref=e211]:
+                    - text: Completed
+                    - generic [ref=e213]: "2"
+            - tabpanel "All 2" [ref=e216]:
+              - generic [ref=e222]:
+                - table [ref=e226]:
+                  - rowgroup [ref=e240]:
+                    - 'row "Select all # Trip Code Travel Date Trip Type Trip Round Program Pax Registration Personnel Guide Status Action" [ref=e241]':
+                      - 'columnheader "Select all #" [ref=e242]':
+                        - generic [ref=e243]:
+                          - generic [ref=e244]:
+                            - generic:
+                              - checkbox "Select all" [disabled]
+                          - generic [ref=e245]: "#"
+                      - columnheader "Trip Code" [ref=e246]
+                      - columnheader "Travel Date" [ref=e247]
+                      - columnheader "Trip Type" [ref=e248]
+                      - columnheader "Trip Round" [ref=e249]
+                      - columnheader "Program" [ref=e250]
+                      - columnheader "Pax" [ref=e251]
+                      - columnheader "Registration" [ref=e252]
+                      - columnheader "Personnel" [ref=e253]
+                      - columnheader "Guide" [ref=e254]
+                      - columnheader "Status" [ref=e255]
+                      - columnheader "Action" [ref=e256]
+                  - rowgroup [ref=e257]:
+                    - 'row "1 EC26VEEY 07/07/2026 Private 07:30 [One asia ]Private · Sugar House, Floating & Maeklong Train 5/10 VAN (10) : นบ9900 ประเสริฐ มีทรัพย์ : 085-678-9012 G.Aod-JP : +66854082424 Completed" [ref=e258]':
+                      - cell "1" [ref=e259]:
+                        - generic [ref=e260]:
+                          - generic [ref=e262]:
+                            - generic:
+                              - checkbox [disabled]
+                          - generic [ref=e263]: "1"
+                      - cell "EC26VEEY" [ref=e264]:
+                        - link "EC26VEEY" [ref=e265] [cursor=pointer]:
+                          - /url: /tour/job-order/36
+                          - paragraph [ref=e266]: EC26VEEY
+                      - cell "07/07/2026" [ref=e267]
+                      - cell "Private" [ref=e268]:
+                        - generic [ref=e269]:
+                          - img [ref=e271]
+                          - generic [ref=e274]: Private
+                      - cell "07:30" [ref=e275]
+                      - cell "[One asia ]Private · Sugar House, Floating & Maeklong Train" [ref=e276]:
+                        - generic [ref=e277] [cursor=pointer]: "[One asia ]Private · Sugar House, Floating & Maeklong Train"
+                      - cell "5/10" [ref=e278]:
+                        - link "5/10" [ref=e279] [cursor=pointer]:
+                          - /url: "#"
+                          - paragraph [ref=e280]: 5/10
+                      - 'cell "VAN (10) : นบ9900" [ref=e281]':
+                        - generic [ref=e282]: "VAN (10) : นบ9900"
+                      - 'cell "ประเสริฐ มีทรัพย์ : 085-678-9012" [ref=e283]':
+                        - generic [ref=e284] [cursor=pointer]: "ประเสริฐ มีทรัพย์ : 085-678-9012"
+                      - 'cell "G.Aod-JP : +66854082424" [ref=e285]':
+                        - generic [ref=e286]: "G.Aod-JP : +66854082424"
+                      - cell "Completed" [ref=e287]:
+                        - generic [ref=e290]: Completed
+                      - cell [ref=e291]:
+                        - img [ref=e294] [cursor=pointer]
+                    - 'row "2 EC261QAL 07/07/2026 Join In 08:30 ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat] 8/12 1 เครื่องยนต์ (10 ที่นั่ง) (12) : อ่าวนางสปีด 9 (1ENG) วสันต์ สมใจ (เอียด) : 082-2764258 G.Amp : +66648830986 Completed" [ref=e298]':
+                      - cell "2" [ref=e299]:
+                        - generic [ref=e300]:
+                          - generic [ref=e302]:
+                            - generic:
+                              - checkbox [disabled]
+                          - generic [ref=e303]: "2"
+                      - cell "EC261QAL" [ref=e304]:
+                        - link "EC261QAL" [ref=e305] [cursor=pointer]:
+                          - /url: /tour/job-order/35
+                          - paragraph [ref=e306]: EC261QAL
+                      - cell "07/07/2026" [ref=e307]
+                      - cell "Join In" [ref=e308]:
+                        - generic [ref=e309]:
+                          - img [ref=e311]
+                          - generic [ref=e316]: Join In
+                      - cell "08:30" [ref=e317]
+                      - cell "ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]" [ref=e318]:
+                        - generic [ref=e319] [cursor=pointer]: ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]
+                      - cell "8/12" [ref=e320]:
+                        - link "8/12" [ref=e321] [cursor=pointer]:
+                          - /url: "#"
+                          - paragraph [ref=e322]: 8/12
+                      - 'cell "1 เครื่องยนต์ (10 ที่นั่ง) (12) : อ่าวนางสปีด 9 (1ENG)" [ref=e323]':
+                        - generic [ref=e324] [cursor=pointer]: "1 เครื่องยนต์ (10 ที่นั่ง) (12) : อ่าวนางสปีด 9 (1ENG)"
+                      - 'cell "วสันต์ สมใจ (เอียด) : 082-2764258" [ref=e325]':
+                        - generic [ref=e326] [cursor=pointer]: "วสันต์ สมใจ (เอียด) : 082-2764258"
+                      - 'cell "G.Amp : +66648830986" [ref=e327]':
+                        - generic [ref=e328]: "G.Amp : +66648830986"
+                      - cell "Completed" [ref=e329]:
+                        - generic [ref=e332]: Completed
+                      - cell [ref=e333]:
+                        - img [ref=e336] [cursor=pointer]
+                - list [ref=e340]:
+                  - listitem "Previous Page" [ref=e341]:
+                    - button "left" [disabled] [ref=e342]:
+                      - img "left" [ref=e343]:
+                        - img [ref=e344]
+                  - listitem "1" [ref=e346] [cursor=pointer]:
+                    - generic [ref=e347]: "1"
+                  - listitem "Next Page" [ref=e348]:
+                    - button "right" [disabled] [ref=e349]:
+                      - img "right" [ref=e350]:
+                        - img [ref=e351]
+                  - listitem [ref=e353]:
+                    - generic "Page Size" [ref=e354] [cursor=pointer]:
+                      - generic [ref=e356]:
+                        - combobox "Page Size" [ref=e358]
+                        - generic "15 / page" [ref=e359]
+                      - generic:
+                        - img:
+                          - img

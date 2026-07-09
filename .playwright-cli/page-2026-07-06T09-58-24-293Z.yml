@@ -1,0 +1,597 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [expanded] [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menu:
+              - menuitem "Overview" [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e32]: Overview
+              - menuitem "Create Booking" [ref=e33] [cursor=pointer]:
+                - img [ref=e34]
+                - generic [ref=e36]: Create Booking
+              - menuitem "Booking List" [ref=e37] [cursor=pointer]:
+                - img [ref=e38]
+                - generic [ref=e40]: Booking List
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Vehicle
+          - menuitem "Employee" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Mon : 06 Jul 2026, 16:58"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares
+              - generic [ref=e120]: Superadmin
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]:
+              - generic [ref=e128] [cursor=pointer]:
+                - generic [ref=e130]:
+                  - combobox [ref=e132]
+                  - generic: All Destinations
+                - generic:
+                  - img:
+                    - img
+              - generic [ref=e133] [cursor=pointer]:
+                - generic [ref=e135]:
+                  - combobox [ref=e137]
+                  - generic: All Programs
+                - img [ref=e138]:
+                  - img [ref=e139]
+              - generic [ref=e141]:
+                - textbox "Start date" [ref=e143]: 06/07/2026
+                - generic "to" [ref=e145]:
+                  - img "swap-right" [ref=e146]:
+                    - img [ref=e147]
+                - textbox "End date" [ref=e150]: 06/07/2026
+                - generic:
+                  - img
+                - button "close-circle" [ref=e151] [cursor=pointer]:
+                  - img "close-circle" [ref=e152]:
+                    - img [ref=e153]
+            - generic [ref=e155]:
+              - generic [ref=e156]:
+                - button "Booking Date" [ref=e157]
+                - button "Travel Date" [ref=e158]
+              - generic [ref=e159]:
+                - paragraph [ref=e160]: July 06, 2026
+                - generic [ref=e161]:
+                  - button "Today" [ref=e162]
+                  - button "Weekly" [ref=e163]
+                  - button "Monthly" [ref=e164]
+                  - button "Yearly" [ref=e165]
+            - generic [ref=e167]:
+              - heading "Summary" [level=1] [ref=e168]
+              - img [ref=e169]
+            - generic [ref=e171]:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Booking Over View" [level=2]
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic: Total Booking
+                          - generic: "0"
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic: Completed
+                            - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic: Confirmed
+                            - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic: Waiting
+                            - generic: "0"
+                        - generic:
+                          - generic:
+                            - generic: Canceled
+                            - generic: "0"
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading "Total Participants" [level=2]
+                        - paragraph: "0"
+                      - generic:
+                        - img
+                    - generic:
+                      - generic: ↑
+                      - generic: 0%
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                      - generic:
+                        - heading "Booking Summary" [level=2]
+                        - paragraph: Total Booking & Participants
+                      - button "2026":
+                        - generic: "2026"
+                    - generic:
+                      - img:
+                        - generic: "5"
+                        - generic: "4"
+                        - generic: "3"
+                        - generic: "2"
+                        - generic: "1"
+                        - generic: "0"
+                        - generic: Jan
+                        - generic: Feb
+                        - generic: Mar
+                        - generic: Apr
+                        - generic: May
+                        - generic: Jun
+                        - generic: Jul
+                        - generic: Aug
+                        - generic: Sep
+                        - generic: Oct
+                        - generic: Nov
+                        - generic: Dec
+                    - generic:
+                      - generic: Booking
+                      - generic: Participants
+          - generic [ref=e180]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - combobox
+                        - generic: All Destinations
+                    - generic:
+                      - img:
+                        - img
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - combobox
+                        - generic: All Programs
+                    - generic:
+                      - img:
+                        - img
+                - generic:
+                  - button "Today"
+                  - generic:
+                    - generic:
+                      - textbox "Select month": July, 2026
+                      - generic:
+                        - img "calendar":
+                          - img
+                      - button "close-circle":
+                        - img "close-circle":
+                          - img
+                  - generic:
+                    - button:
+                      - img
+                    - button:
+                      - img
+                - generic:
+                  - generic:
+                    - img
+                    - text: Booking
+                  - generic:
+                    - img
+                    - text: Participants
+                - generic:
+                  - generic:
+                    - generic: Sun
+                    - generic: Mon
+                    - generic: Tue
+                    - generic: Wed
+                    - generic: Thu
+                    - generic: Fri
+                    - generic: Sat
+                  - generic:
+                    - button "View booking details for June 28, 2026" [disabled]:
+                      - generic:
+                        - generic: "28"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for June 29, 2026" [disabled]:
+                      - generic:
+                        - generic: "29"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for June 30, 2026" [disabled]:
+                      - generic:
+                        - generic: "30"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 1, 2026":
+                      - generic:
+                        - generic: "1"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 2, 2026":
+                      - generic:
+                        - generic: "2"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 3, 2026":
+                      - generic:
+                        - generic: "3"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 4, 2026":
+                      - generic:
+                        - generic: "4"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 5, 2026":
+                      - generic:
+                        - generic: "5"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 6, 2026":
+                      - generic:
+                        - generic: "6"
+                        - generic: Today
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 7, 2026":
+                      - generic:
+                        - generic: "7"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 8, 2026":
+                      - generic:
+                        - generic: "8"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 9, 2026":
+                      - generic:
+                        - generic: "9"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 10, 2026":
+                      - generic:
+                        - generic: "10"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 11, 2026":
+                      - generic:
+                        - generic: "11"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 12, 2026":
+                      - generic:
+                        - generic: "12"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 13, 2026":
+                      - generic:
+                        - generic: "13"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 14, 2026":
+                      - generic:
+                        - generic: "14"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 15, 2026":
+                      - generic:
+                        - generic: "15"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 16, 2026":
+                      - generic:
+                        - generic: "16"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 17, 2026":
+                      - generic:
+                        - generic: "17"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 18, 2026":
+                      - generic:
+                        - generic: "18"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 19, 2026":
+                      - generic:
+                        - generic: "19"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 20, 2026":
+                      - generic:
+                        - generic: "20"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 21, 2026":
+                      - generic:
+                        - generic: "21"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 22, 2026":
+                      - generic:
+                        - generic: "22"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 23, 2026":
+                      - generic:
+                        - generic: "23"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 24, 2026":
+                      - generic:
+                        - generic: "24"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 25, 2026":
+                      - generic:
+                        - generic: "25"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 26, 2026":
+                      - generic:
+                        - generic: "26"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 27, 2026":
+                      - generic:
+                        - generic: "27"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 28, 2026":
+                      - generic:
+                        - generic: "28"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 29, 2026":
+                      - generic:
+                        - generic: "29"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 30, 2026":
+                      - generic:
+                        - generic: "30"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for July 31, 2026":
+                      - generic:
+                        - generic: "31"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"
+                    - button "View booking details for August 1, 2026" [disabled]:
+                      - generic:
+                        - generic: "1"
+                      - generic:
+                        - generic:
+                          - img
+                          - text: "0"
+                        - generic:
+                          - img
+                          - text: "0"

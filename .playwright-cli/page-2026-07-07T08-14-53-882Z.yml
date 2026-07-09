@@ -1,0 +1,149 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Zone Transfer
+          - menuitem "User" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e93]: User
+          - menuitem "Company" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e97]: Company
+          - menuitem "User Manual" [ref=e98] [cursor=pointer]:
+            - img [ref=e99]
+            - generic [ref=e101]: User Manual
+    - generic [ref=e102]:
+      - banner [ref=e103]:
+        - generic [ref=e105]:
+          - generic [ref=e106]: "Tue : 07 Jul 2026, 15:13"
+          - generic [ref=e108] [cursor=pointer]:
+            - generic [ref=e110]: AM
+            - generic [ref=e111]:
+              - generic [ref=e112]: amares
+              - generic [ref=e113]: Superadmin
+            - img [ref=e115]
+      - main [ref=e117]:
+        - generic [ref=e400]:
+          - generic [ref=e402]:
+            - generic [ref=e403]:
+              - generic [ref=e404] [cursor=pointer]: Seller
+              - img [ref=e405]
+              - generic [ref=e407]: View
+            - generic [ref=e408]:
+              - button "Close" [ref=e409] [cursor=pointer]
+              - button "Edit" [ref=e410] [cursor=pointer]:
+                - img [ref=e412]
+                - text: Edit
+          - generic [ref=e417]:
+            - generic [ref=e420]:
+              - generic [ref=e421]:
+                - generic [ref=e422]:
+                  - img [ref=e424]
+                  - text: "Seller : ฮุยทัวร์"
+                - generic [ref=e426]:
+                  - generic [ref=e427]: "Status :"
+                  - generic [ref=e430]: Active
+              - generic [ref=e432]:
+                - generic [ref=e433]:
+                  - img [ref=e435]
+                  - generic [ref=e437]: ":"
+                  - generic [ref=e438]: "-"
+                - generic [ref=e439]:
+                  - img [ref=e441]
+                  - generic [ref=e444]: ":"
+                  - generic [ref=e445]: "-"
+                - generic [ref=e446]:
+                  - img [ref=e448]
+                  - generic [ref=e451]: ":"
+                  - generic [ref=e452]: "-"
+            - generic [ref=e455]:
+              - generic [ref=e456]:
+                - generic [ref=e457]: Program List
+                - button "Add Program" [ref=e458] [cursor=pointer]:
+                  - img [ref=e460]
+                  - text: Add Program
+              - generic [ref=e466]:
+                - table [ref=e470]:
+                  - rowgroup [ref=e477]:
+                    - row "# Program Name Time Slots Active Action" [ref=e478]:
+                      - columnheader "#" [ref=e479]
+                      - columnheader "Program Name" [ref=e480]
+                      - columnheader "Time Slots" [ref=e481]
+                      - columnheader "Active" [ref=e482]
+                      - columnheader "Action" [ref=e483]
+                  - rowgroup [ref=e484]:
+                    - row "1 ทัวร์ธรรมมะกระตุกจิตกระชากใจ 1" [ref=e485]:
+                      - cell "1" [ref=e486]
+                      - cell "ทัวร์ธรรมมะกระตุกจิตกระชากใจ" [ref=e487]:
+                        - paragraph [ref=e488] [cursor=pointer]: ทัวร์ธรรมมะกระตุกจิตกระชากใจ
+                      - cell "1" [ref=e489]:
+                        - paragraph [ref=e490]: "1"
+                      - cell [ref=e491]:
+                        - switch [checked] [ref=e493] [cursor=pointer]
+                      - cell [ref=e496]:
+                        - img [ref=e499] [cursor=pointer]
+                - list [ref=e503]:
+                  - listitem "Previous Page" [ref=e504]:
+                    - button "left" [disabled] [ref=e505]:
+                      - img "left" [ref=e506]:
+                        - img [ref=e507]
+                  - listitem "1" [ref=e509] [cursor=pointer]:
+                    - generic [ref=e510]: "1"
+                  - listitem "Next Page" [ref=e511]:
+                    - button "right" [disabled] [ref=e512]:
+                      - img "right" [ref=e513]:
+                        - img [ref=e514]
+                  - listitem [ref=e516]:
+                    - generic "Page Size" [ref=e517] [cursor=pointer]:
+                      - generic [ref=e519]:
+                        - combobox "Page Size" [ref=e521]
+                        - generic "15 / page" [ref=e522]
+                      - generic:
+                        - img:
+                          - img

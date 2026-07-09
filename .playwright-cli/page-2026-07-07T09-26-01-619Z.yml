@@ -1,0 +1,270 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [expanded] [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menu [ref=e243]:
+            - menuitem "Program List" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e67]: Program List
+            - menuitem "Item Type" [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Item Type
+            - menuitem "Unit" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e75]: Unit
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 07 Jul 2026, 16:25"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e588]:
+          - generic [ref=e589]:
+            - generic [ref=e590]:
+              - generic [ref=e591]: Program
+              - img [ref=e592]
+              - generic [ref=e594] [cursor=pointer]: Program List
+              - img [ref=e595]
+              - generic [ref=e597]: Create Program
+            - button "Cancel" [ref=e599] [cursor=pointer]
+          - generic [ref=e600]:
+            - generic [ref=e602] [cursor=pointer]:
+              - generic [ref=e603]:
+                - img [ref=e604]
+                - generic [ref=e606]: Program Detail
+              - generic [ref=e607]: Add general informations
+            - img [ref=e609]
+            - generic [ref=e611] [cursor=pointer]:
+              - generic [ref=e612]:
+                - generic [ref=e759]: "2"
+                - generic [ref=e615]: Itinerary
+              - generic [ref=e616]: Add travel itinerary details
+            - img [ref=e618]
+            - generic [ref=e620] [cursor=pointer]:
+              - generic [ref=e621]:
+                - generic [ref=e760]: "3"
+                - generic [ref=e624]: Cost
+              - generic [ref=e625]: Add cost details
+            - img [ref=e627]
+            - generic [ref=e629] [cursor=pointer]:
+              - generic [ref=e630]:
+                - generic [ref=e761]: "4"
+                - generic [ref=e632]: Unit
+              - generic [ref=e633]: Add units for each option
+            - img [ref=e635]
+            - generic [ref=e637]:
+              - generic [ref=e638]:
+                - generic [ref=e639]: "5"
+                - generic [ref=e640]: Seller
+              - generic [ref=e641]: Specify units for each option
+          - generic [ref=e762]:
+            - generic [ref=e763]:
+              - paragraph [ref=e764]: Itinerary Detail
+              - generic [ref=e766]:
+                - tablist [ref=e767]:
+                  - generic [ref=e769]:
+                    - tab "02:00" [selected] [ref=e771] [cursor=pointer]
+                    - button "Add tab" [ref=e772] [cursor=pointer]:
+                      - img [ref=e774]
+                  - button "Preview" [ref=e777] [cursor=pointer]:
+                    - img [ref=e778]
+                    - generic [ref=e781]: Preview
+                - tabpanel "02:00" [ref=e784]:
+                  - generic [ref=e785]:
+                    - generic [ref=e786]:
+                      - generic [ref=e787]: Trip round *
+                      - generic [ref=e789]:
+                        - textbox "Please select" [ref=e790]: 02:00
+                        - generic:
+                          - img "clock-circle":
+                            - img
+                    - generic [ref=e791]:
+                      - paragraph [ref=e792]: "Trip Type * :"
+                      - generic [ref=e793]:
+                        - generic [ref=e795]:
+                          - generic [ref=e798] [cursor=pointer]:
+                            - checkbox "Join In" [checked] [ref=e800]
+                            - generic [ref=e804]:
+                              - img [ref=e806]
+                              - generic [ref=e811]: Join In
+                          - generic [ref=e815] [cursor=pointer]:
+                            - checkbox "Minimum to run" [ref=e817]
+                            - paragraph [ref=e822]: Minimum to run
+                        - generic [ref=e827] [cursor=pointer]:
+                          - checkbox "Private" [checked] [ref=e829]
+                          - generic [ref=e833]:
+                            - img [ref=e835]
+                            - generic [ref=e838]: Private
+                  - generic [ref=e839]:
+                    - generic [ref=e840]:
+                      - generic [ref=e841] [cursor=pointer]:
+                        - heading "Join In" [level=3] [ref=e843]:
+                          - generic [ref=e844]:
+                            - img [ref=e846]
+                            - generic [ref=e851]: Join In
+                        - img [ref=e853]
+                      - generic [ref=e857]:
+                        - tablist [ref=e858]:
+                          - generic [ref=e860]:
+                            - tab "ภาษาไทย" [selected] [ref=e862] [cursor=pointer]
+                            - tab "English" [ref=e864] [cursor=pointer]
+                        - tabpanel "ภาษาไทย" [ref=e867]:
+                          - generic [ref=e868]:
+                            - generic [ref=e870]:
+                              - generic [ref=e871]: Meeting Point
+                              - textbox "Please enter" [ref=e872]: hyuj
+                            - generic [ref=e873]:
+                              - generic [ref=e874]:
+                                - img [ref=e876]
+                                - generic [ref=e878]:
+                                  - heading "Trip Start Time" [level=3] [ref=e879]
+                                  - generic [ref=e880]:
+                                    - generic [ref=e882]:
+                                      - generic [ref=e883]: Start time
+                                      - generic [ref=e885]:
+                                        - textbox "00:00:00" [ref=e886]
+                                        - generic:
+                                          - img "clock-circle":
+                                            - img
+                                    - generic [ref=e888]:
+                                      - generic [ref=e889]: Detail
+                                      - textbox "Please enter detail" [ref=e891]
+                              - generic [ref=e893]:
+                                - img [ref=e895]
+                                - generic [ref=e897]:
+                                  - heading "Itinerary Times" [level=3] [ref=e898]
+                                  - button "Add Time" [ref=e900] [cursor=pointer]:
+                                    - img [ref=e902]
+                                    - text: Add Time
+                              - generic [ref=e904]:
+                                - img [ref=e906]
+                                - generic [ref=e908]:
+                                  - heading "To Drop off point" [level=3] [ref=e909]
+                                  - button "Add Drop off point" [ref=e911] [cursor=pointer]:
+                                    - img [ref=e913]
+                                    - text: Add Drop off point
+                                  - generic [ref=e917]:
+                                    - generic [ref=e918]: Detail
+                                    - textbox "Please enter" [ref=e919]
+                    - generic [ref=e920]:
+                      - generic [ref=e921] [cursor=pointer]:
+                        - heading "Private" [level=3] [ref=e923]:
+                          - generic [ref=e924]:
+                            - img [ref=e926]
+                            - generic [ref=e929]: Private
+                        - img [ref=e931]
+                      - generic [ref=e935]:
+                        - tablist [ref=e936]:
+                          - generic [ref=e938]:
+                            - tab "ภาษาไทย" [selected] [ref=e940] [cursor=pointer]
+                            - tab "English" [ref=e942] [cursor=pointer]
+                        - tabpanel "ภาษาไทย" [ref=e945]:
+                          - generic [ref=e946]:
+                            - generic [ref=e948]:
+                              - generic [ref=e949]: Meeting Point
+                              - textbox "Please enter" [ref=e950]
+                            - generic [ref=e951]:
+                              - generic [ref=e952]:
+                                - img [ref=e954]
+                                - generic [ref=e956]:
+                                  - heading "Trip Start Time" [level=3] [ref=e957]
+                                  - generic [ref=e958]:
+                                    - generic [ref=e960]:
+                                      - generic [ref=e961]: Start time
+                                      - generic [ref=e963]:
+                                        - textbox "00:00:00" [ref=e964]
+                                        - generic:
+                                          - img "clock-circle":
+                                            - img
+                                    - generic [ref=e966]:
+                                      - generic [ref=e967]: Detail
+                                      - textbox "Please enter detail" [ref=e969]
+                              - generic [ref=e971]:
+                                - img [ref=e973]
+                                - generic [ref=e975]:
+                                  - heading "Itinerary Times" [level=3] [ref=e976]
+                                  - button "Add Time" [ref=e978] [cursor=pointer]:
+                                    - img [ref=e980]
+                                    - text: Add Time
+                              - generic [ref=e982]:
+                                - img [ref=e984]
+                                - generic [ref=e986]:
+                                  - heading "To Hotel/Personal Address" [level=3] [ref=e987]
+                                  - button "Add Drop off point" [ref=e989] [cursor=pointer]:
+                                    - img [ref=e991]
+                                    - text: Add Drop off point
+                                  - generic [ref=e995]:
+                                    - generic [ref=e996]: Detail
+                                    - textbox "Please enter" [ref=e997]
+            - generic [ref=e998]:
+              - button "Previous" [ref=e999] [cursor=pointer]:
+                - img [ref=e1001]
+                - text: Previous
+              - generic [ref=e1003]:
+                - button "Save and exit" [ref=e1004] [cursor=pointer]:
+                  - img [ref=e1006]
+                  - text: Save and exit
+                - button "Continue" [ref=e1010] [cursor=pointer]:
+                  - text: Continue
+                  - img [ref=e1012]

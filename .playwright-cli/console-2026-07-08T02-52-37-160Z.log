@@ -1,0 +1,12 @@
+[     233ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…yNzV9.Atc2c6OHOukGOfRAP-o3qIZHhhntJfMfI7FGjE_KydQ, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     233ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     255ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     255ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     288ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0
+[     288ms] [LOG] permissions [PROGRAM_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0
+[     412ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[     412ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[     412ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/program/program-list?page=1&page_size=15:0
+[     469ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     472ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0
+[     472ms] [LOG] permissions [PROGRAM_LIST_VIEW] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-309e8b09727e66d2.js:0

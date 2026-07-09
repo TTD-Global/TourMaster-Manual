@@ -1,0 +1,136 @@
+---
+title: Company
+sidebar_position: 8
+toc_max_heading_level: 2
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Company
+
+**Company Profile** ใช้จัดการข้อมูลโปรไฟล์บริษัท ข้อมูลที่บันทึกไว้จะถูกนำไปแสดงในเอกสารที่ระบบสร้างให้อัตโนมัติ เช่น Job Order
+
+เข้าถึงได้จาก **Setting → Company** ในเมนูหลัก
+
+:::info
+แต่ละแท็บมีปุ่ม **Edit** แยกกัน — การแก้ไขในแท็บหนึ่งไม่กระทบข้อมูลในแท็บอื่น
+:::
+
+---
+
+<Tabs>
+<TabItem value="general" label="General Detail" default>
+
+### ภาพรวม
+
+![Company General Detail](/img/Company/company-general.png)
+
+แสดงข้อมูลทั่วไปของบริษัท แบ่งเป็น 2 ส่วน
+
+**Company Information**
+
+| ข้อมูล | คำอธิบาย |
+|-------|----------|
+| **Company Logo** | โลโก้บริษัท |
+| **Company Name (ภาษาไทย)** | ชื่อบริษัทภาษาไทย |
+| **Address (ภาษาไทย)** | ที่อยู่บริษัทภาษาไทย |
+| **Destination / District / Sub-district / Postal Code** | ที่อยู่แบบ dropdown |
+| **Phone Number** | เบอร์โทรศัพท์ |
+| **Email** | อีเมลบริษัท |
+
+**Registration & Links**
+
+| ข้อมูล | คำอธิบาย |
+|-------|----------|
+| **TAT License** | หมายเลขใบอนุญาต TAT |
+| **Company registration number** | เลขทะเบียนนิติบุคคล |
+| **Website and social media** | เว็บไซต์หรือ social media |
+
+---
+
+### Edit
+
+กดปุ่ม **Edit** บนแท็บ General Detail เพื่อแก้ไขข้อมูลบริษัท
+
+![Company General Detail Edit](/img/Company/company-general-edit.png)
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Company Logo** | อัปโหลดโลโก้บริษัท (JPG / PNG / Heic / JPEG ไม่เกิน 5 MB) | — |
+| **Company Name (ภาษาไทย)** | ชื่อบริษัทภาษาไทย | ✅ |
+| **Address (ภาษาไทย)** | ที่อยู่บริษัทภาษาไทย | ✅ |
+| **Destination** | จังหวัด (dropdown) | ✅ |
+| **District** | เขต/อำเภอ (dropdown) | ✅ |
+| **Sub-district** | แขวง/ตำบล (dropdown) | ✅ |
+| **Postal Code** | รหัสไปรษณีย์ | ✅ |
+| **Phone Number** | เบอร์โทรศัพท์ | ✅ |
+| **Email** | อีเมลบริษัท | — |
+| **TAT License** | หมายเลขใบอนุญาต TAT | ✅ |
+| **Company registration number** | เลขทะเบียนนิติบุคคล | — |
+| **Website and social media** | เว็บไซต์หรือ social media | — |
+
+กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+
+</TabItem>
+<TabItem value="authorization" label="Company Authorization">
+
+### ภาพรวม
+
+![Company Authorization](/img/Company/company-authorization.png)
+
+แสดงข้อมูลที่จะปรากฏในเอกสารระบบ เช่น Job Order
+
+| ข้อมูล | คำอธิบาย |
+|-------|----------|
+| **Company Seal** | ตราประทับบริษัท (รูปภาพ) |
+| **Authorized Company Representative** | ลายเซ็นผู้มีอำนาจลงนาม (รูปภาพ) |
+
+---
+
+### Edit
+
+กดปุ่ม **Edit** บนแท็บ Company Authorization เพื่อแก้ไขรูปภาพ
+
+![Company Authorization Edit](/img/Company/company-authorization-edit.png)
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|:------:|
+| **Company Seal** | อัปโหลดตราประทับบริษัท (JPG / PNG / Heic / JPEG ไม่เกิน 5 MB) | — |
+| **Authorized Company Representative** | อัปโหลดลายเซ็นผู้มีอำนาจลงนาม (JPG / PNG / Heic / JPEG ไม่เกิน 5 MB) | — |
+
+กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+
+</TabItem>
+<TabItem value="setting" label="Setting">
+
+### ภาพรวม
+
+![Company Setting](/img/Company/company-setting.png)
+
+แสดงการตั้งค่า Vehicle Source — กำหนดว่าบริษัทใช้รถและบุคลากรรูปแบบใด
+
+| การตั้งค่า | คำอธิบาย |
+|-----------|----------|
+| **Supplier** | ใช้ผู้ให้บริการภายนอก (Supplier) สำหรับรถและบุคลากร |
+| **Own Vehicle** | ใช้รถและบุคลากรของบริษัทเอง |
+
+:::caution ข้อควรระวัง
+ต้องเปิดใช้งานอย่างน้อย 1 ตัวเลือก — ไม่สามารถปิดทั้ง Supplier และ Own Vehicle พร้อมกันได้
+:::
+
+---
+
+### Edit
+
+กดปุ่ม **Edit** บนแท็บ Setting เพื่อเปิด/ปิดการใช้งาน Vehicle Source
+
+![Company Setting Edit](/img/Company/company-setting-edit.png)
+
+- สลับ toggle **Supplier** เพื่อเปิด/ปิดการใช้ผู้ให้บริการภายนอก
+- สลับ toggle **Own Vehicle** เพื่อเปิด/ปิดการใช้รถของบริษัทเอง
+
+กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
+
+</TabItem>
+</Tabs>

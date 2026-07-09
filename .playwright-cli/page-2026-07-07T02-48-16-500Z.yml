@@ -1,0 +1,161 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e34]
+          - text: Management
+          - group [ref=e35]:
+            - menuitem "Bookings" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e40]: Bookings
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [expanded] [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Vehicle
+          - menu [ref=e128]:
+            - menuitem "Group Type" [ref=e129] [cursor=pointer]:
+              - img [ref=e130]
+              - generic [ref=e132]: Group Type
+            - menuitem "Supplier List" [ref=e133] [cursor=pointer]:
+              - img [ref=e134]
+              - generic [ref=e136]: Supplier List
+            - menuitem "Own Vehicle" [ref=e137] [cursor=pointer]:
+              - img [ref=e138]
+              - generic [ref=e140]: Own Vehicle
+          - menuitem "Employee" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e89]: Employee
+          - menuitem "Zone Transfer" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+            - generic [ref=e95]: Zone Transfer
+          - menuitem "User" [ref=e96] [cursor=pointer]:
+            - img [ref=e97]
+            - generic [ref=e100]: User
+          - menuitem "Company" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e104]: Company
+          - menuitem "User Manual" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e108]: User Manual
+    - generic [ref=e109]:
+      - banner [ref=e110]:
+        - generic [ref=e112]:
+          - generic [ref=e113]: "Tue : 07 Jul 2026, 09:46"
+          - generic [ref=e115] [cursor=pointer]:
+            - generic [ref=e117]: AM
+            - generic [ref=e118]:
+              - generic [ref=e119]: amares
+              - generic [ref=e120]: Superadmin
+            - img [ref=e122]
+      - main [ref=e124]:
+        - generic [ref=e426]:
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - generic [ref=e430]: Vehicle
+              - img [ref=e431]
+              - generic [ref=e433] [cursor=pointer]: Supplier List
+              - img [ref=e434]
+              - generic [ref=e436]: View
+            - button "Close" [ref=e438] [cursor=pointer]
+          - generic [ref=e440]:
+            - generic [ref=e441]:
+              - img [ref=e443]
+              - generic [ref=e445]: TTD
+              - generic [ref=e447]:
+                - generic [ref=e448]: "Status :"
+                - button "Active" [ref=e450] [cursor=pointer]:
+                  - generic [ref=e453]: Active
+                  - img [ref=e457]
+            - generic [ref=e460]:
+              - generic [ref=e461]:
+                - generic [ref=e463] [cursor=pointer]: General Detail
+                - generic [ref=e465] [cursor=pointer]: Supplier Login
+                - generic [ref=e467] [cursor=pointer]: Registration
+                - generic [ref=e469] [cursor=pointer]: Personnel list
+              - button "Add Personnel" [ref=e692] [cursor=pointer]:
+                - img [ref=e694]
+                - text: Add Personnel
+            - generic [ref=e698]:
+              - generic [ref=e699]:
+                - generic [ref=e700]: Personnel List
+                - generic [ref=e703]:
+                  - img [ref=e705]
+                  - textbox "Search" [ref=e708]
+              - generic [ref=e716]:
+                - table [ref=e720]:
+                  - rowgroup [ref=e729]:
+                    - row "# Image Position Name Phone Number Registration Action" [ref=e730]:
+                      - columnheader "#" [ref=e731]
+                      - columnheader "Image" [ref=e732]
+                      - columnheader "Position" [ref=e733]
+                      - columnheader "Name" [ref=e734]
+                      - columnheader "Phone Number" [ref=e735]
+                      - columnheader "Registration" [ref=e736]
+                      - columnheader "Action" [ref=e737]
+                  - rowgroup [ref=e738]:
+                    - row "1 Driver hee 12332 -" [ref=e739]:
+                      - cell "1" [ref=e740]
+                      - cell [ref=e741]:
+                        - img [ref=e744]
+                      - cell "Driver" [ref=e746]:
+                        - generic [ref=e747]: Driver
+                      - cell "hee" [ref=e748]:
+                        - link "hee" [ref=e749] [cursor=pointer]:
+                          - /url: /vehicle/supplier/8/personnel/34
+                          - generic [ref=e751]: hee
+                      - cell "12332" [ref=e752]:
+                        - generic [ref=e753]: "12332"
+                      - cell "-" [ref=e754]:
+                        - generic [ref=e755]: "-"
+                      - cell [ref=e756]:
+                        - img [ref=e759] [cursor=pointer]
+                - list [ref=e763]:
+                  - listitem "Previous Page" [ref=e764]:
+                    - button "left" [disabled] [ref=e765]:
+                      - img "left" [ref=e766]:
+                        - img [ref=e767]
+                  - listitem "1" [ref=e769] [cursor=pointer]:
+                    - generic [ref=e770]: "1"
+                  - listitem "Next Page" [ref=e771]:
+                    - button "right" [disabled] [ref=e772]:
+                      - img "right" [ref=e773]:
+                        - img [ref=e774]
+                  - listitem [ref=e776]:
+                    - generic "Page Size" [ref=e777] [cursor=pointer]:
+                      - generic [ref=e779]:
+                        - combobox "Page Size" [ref=e781]
+                        - generic "15 / page" [ref=e782]
+                      - generic:
+                        - img:
+                          - img

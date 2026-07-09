@@ -1,0 +1,214 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [expanded] [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menu:
+            - menuitem "Program List" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e67]: Program List
+            - menuitem "Item Type" [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Item Type
+            - menuitem "Unit" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e75]: Unit
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Wed : 08 Jul 2026, 09:48"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Program
+              - img [ref=e134]
+              - generic [ref=e136] [cursor=pointer]: Program List
+              - img [ref=e137]
+              - generic [ref=e139]: View
+            - button "Close" [ref=e141] [cursor=pointer]
+          - generic [ref=e142]:
+            - generic [ref=e143]:
+              - img [ref=e146]
+              - generic [ref=e150]:
+                - generic [ref=e151]: "Status :"
+                - button "Active" [ref=e153] [cursor=pointer]:
+                  - generic [ref=e156]: Active
+                  - img [ref=e160]
+            - generic [ref=e162]:
+              - generic [ref=e164]: "Destination:"
+              - generic [ref=e166]: "Language:"
+          - generic [ref=e167]:
+            - generic [ref=e168]:
+              - generic [ref=e169]:
+                - generic [ref=e171] [cursor=pointer]: Program Detail
+                - generic [ref=e173] [cursor=pointer]: Itinerary
+                - generic [ref=e175] [cursor=pointer]: Cost
+                - generic [ref=e177] [cursor=pointer]: Unit
+                - generic [ref=e179] [cursor=pointer]: Seller
+                - generic [ref=e181] [cursor=pointer]: Connectivity
+              - button "Edit" [ref=e182] [cursor=pointer]:
+                - img [ref=e184]
+                - text: Edit
+            - generic [ref=e189]:
+              - generic [ref=e192]:
+                - generic [ref=e194]: Program Detail
+                - generic [ref=e196]:
+                  - generic [ref=e198]:
+                    - generic [ref=e199]: Program name
+                    - textbox "ex. Floating Market & Ancient City Day Tour from Bangkok" [disabled] [ref=e201]
+                  - generic [ref=e203]:
+                    - generic [ref=e204]: Destination
+                    - generic [ref=e208]:
+                      - combobox [disabled] [ref=e210]
+                      - generic: Please select
+                  - generic [ref=e211]:
+                    - generic [ref=e212]: Service Language
+                    - generic [ref=e213] [cursor=pointer]:
+                      - generic [ref=e215]:
+                        - combobox "Service Language" [disabled] [ref=e219]
+                        - generic: Please select
+                      - generic:
+                        - img:
+                          - img
+                  - generic [ref=e220]:
+                    - paragraph [ref=e221]: Package Availability
+                    - generic [ref=e223]:
+                      - generic [ref=e224]:
+                        - generic [ref=e225]:
+                          - generic:
+                            - checkbox [disabled]
+                        - generic [ref=e226] [cursor=pointer]: All
+                      - generic [ref=e228]:
+                        - generic [ref=e230]:
+                          - generic:
+                            - checkbox "Mon" [disabled]
+                          - generic [ref=e232]:
+                            - paragraph [ref=e233]: Mon
+                            - paragraph
+                        - generic [ref=e235]:
+                          - generic:
+                            - checkbox "Tue" [disabled]
+                          - generic [ref=e237]:
+                            - paragraph [ref=e238]: Tue
+                            - paragraph
+                        - generic [ref=e240]:
+                          - generic:
+                            - checkbox "Wed" [disabled]
+                          - generic [ref=e242]:
+                            - paragraph [ref=e243]: Wed
+                            - paragraph
+                        - generic [ref=e245]:
+                          - generic:
+                            - checkbox "Thu" [disabled]
+                          - generic [ref=e247]:
+                            - paragraph [ref=e248]: Thu
+                            - paragraph
+                        - generic [ref=e250]:
+                          - generic:
+                            - checkbox "Fri" [disabled]
+                          - generic [ref=e252]:
+                            - paragraph [ref=e253]: Fri
+                            - paragraph
+                        - generic [ref=e255]:
+                          - generic:
+                            - checkbox "Sat" [disabled]
+                          - generic [ref=e257]:
+                            - paragraph [ref=e258]: Sat
+                            - paragraph
+                        - generic [ref=e260]:
+                          - generic:
+                            - checkbox "Sun" [disabled]
+                          - generic [ref=e262]:
+                            - paragraph [ref=e263]: Sun
+                            - paragraph
+              - generic [ref=e266]:
+                - generic [ref=e268]: Arrangement Type
+                - generic [ref=e274]:
+                  - generic [ref=e276]:
+                    - generic:
+                      - checkbox "Excursion" [disabled]
+                    - generic [ref=e278]:
+                      - paragraph [ref=e279]: Excursion
+                      - paragraph
+                  - generic [ref=e281]:
+                    - generic:
+                      - checkbox "Transport" [disabled]
+                    - generic [ref=e283]:
+                      - paragraph [ref=e284]: Transport
+                      - paragraph
+              - generic [ref=e287]:
+                - generic [ref=e289]:
+                  - text: Booking Management
+                  - img [ref=e291]
+                - generic [ref=e295]:
+                  - generic [ref=e296]:
+                    - radio "Auto confirm" [checked] [disabled] [ref=e298]
+                    - generic [ref=e300]: Auto confirm
+                  - generic [ref=e301]:
+                    - radio "Manual" [disabled] [ref=e303]
+                    - generic [ref=e305]: Manual
+              - generic [ref=e310]:
+                - text: Option Detail
+                - img [ref=e312]

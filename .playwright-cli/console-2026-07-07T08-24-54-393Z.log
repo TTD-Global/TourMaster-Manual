@@ -1,0 +1,15 @@
+[     105ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…1NDd9.ml7TrWE6HWnTEkmD62wkvUWytLG2b1B6WF4py_y2aOs, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     105ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     116ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     116ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     157ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     157ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     157ms] [LOG] {page: 1, page_size: 15, name: , status: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/employee/positions/page-7ae51aebcc628a86.js:0
+[     268ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/9327-aae10a05b743876b.js:0
+[     271ms] [LOG] hasAccess true @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     271ms] [LOG] permissions [] @ https://dev-green.techmaster.in.th/_next/static/chunks/5871-44dcc03fbff18943.js:0
+[     276ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/positions?page=1&page_size=15:0
+[     276ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/positions?page=1&page_size=15:0
+[     276ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/employee/positions?page=1&page_size=15:0
+[     684ms] [LOG] {page: 1, page_size: 15, name: , status: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/employee/positions/page-7ae51aebcc628a86.js:0
+[     844ms] [LOG] {page: 1, page_size: 15, name: , status: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/employee/positions/page-7ae51aebcc628a86.js:0

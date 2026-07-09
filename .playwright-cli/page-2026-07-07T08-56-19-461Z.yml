@@ -1,0 +1,288 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [expanded] [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menu [ref=e83]:
+            - menuitem "Employee summary" [ref=e84] [cursor=pointer]:
+              - img [ref=e85]
+              - generic [ref=e87]: Employee summary
+            - menuitem "Guide / Staff" [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+              - generic [ref=e91]: Guide / Staff
+            - menuitem "Other" [ref=e92] [cursor=pointer]:
+              - img [ref=e93]
+              - generic [ref=e95]: Other
+            - menuitem "Positions" [ref=e96] [cursor=pointer]:
+              - img [ref=e97]
+              - generic [ref=e99]: Positions
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Tue : 07 Jul 2026, 15:56"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - generic [ref=e138]: Employee
+              - img [ref=e139]
+              - generic [ref=e141]: Other
+            - button "Create Other" [ref=e143] [cursor=pointer]:
+              - img [ref=e145]
+              - text: Create Other
+          - generic [ref=e148]:
+            - generic [ref=e151]:
+              - img [ref=e153]
+              - textbox "Search" [ref=e156]
+            - button "Filter" [ref=e158] [cursor=pointer]:
+              - img [ref=e160]
+              - text: Filter
+            - button "Export" [ref=e163] [cursor=pointer]:
+              - img [ref=e165]
+              - generic [ref=e168]: Export
+              - img [ref=e170]
+          - generic [ref=e175]:
+            - table [ref=e179]:
+              - rowgroup [ref=e190]:
+                - row "# Image Position Name Phone Number Registration Status Last Modify Date Action" [ref=e191]:
+                  - columnheader "#" [ref=e192]
+                  - columnheader "Image" [ref=e193]
+                  - columnheader "Position" [ref=e194]
+                  - columnheader "Name" [ref=e195]
+                  - columnheader "Phone Number" [ref=e196]
+                  - columnheader "Registration" [ref=e197]
+                  - columnheader "Status" [ref=e198]
+                  - columnheader "Last Modify Date" [ref=e199]
+                  - columnheader "Action" [ref=e200]
+              - rowgroup [ref=e201]:
+                - 'row "1 Driver กระทวย 234234234234 แกรนด์แบล็คเพิร์ล : 1 เครื่องยนต์ (10 ที่นั่ง) (12) Active 07/07/2026" [ref=e221]':
+                  - cell "1" [ref=e222]
+                  - cell [ref=e223]:
+                    - img [ref=e226]
+                  - cell "Driver" [ref=e228]:
+                    - generic [ref=e229]: Driver
+                  - cell "กระทวย" [ref=e230]:
+                    - generic [ref=e231]: กระทวย
+                  - cell "234234234234" [ref=e232]:
+                    - generic [ref=e233]: "234234234234"
+                  - 'cell "แกรนด์แบล็คเพิร์ล : 1 เครื่องยนต์ (10 ที่นั่ง) (12)" [ref=e234]':
+                    - generic [ref=e235] [cursor=pointer]: "แกรนด์แบล็คเพิร์ล : 1 เครื่องยนต์ (10 ที่นั่ง) (12)"
+                  - cell "Active" [ref=e236]:
+                    - generic [ref=e239]: Active
+                  - cell "07/07/2026" [ref=e240]
+                  - cell [ref=e241]:
+                    - img [ref=e244] [cursor=pointer]
+                - 'row "2 Driver Amares Tester 0800551885 30-0476 : BUS 40 SEAT (40) Active 07/07/2026" [ref=e248]':
+                  - cell "2" [ref=e249]
+                  - cell [ref=e250]:
+                    - img [ref=e253]
+                  - cell "Driver" [ref=e255]:
+                    - generic [ref=e256]: Driver
+                  - cell "Amares Tester" [ref=e257]:
+                    - generic [ref=e258]: Amares Tester
+                  - cell "0800551885" [ref=e259]:
+                    - generic [ref=e260]: "0800551885"
+                  - 'cell "30-0476 : BUS 40 SEAT (40)" [ref=e261]':
+                    - generic [ref=e262]: "30-0476 : BUS 40 SEAT (40)"
+                  - cell "Active" [ref=e263]:
+                    - generic [ref=e266]: Active
+                  - cell "07/07/2026" [ref=e267]
+                  - cell [ref=e268]:
+                    - img [ref=e271] [cursor=pointer]
+                - 'row "3 Driver น้องแชงค์ 132456 นข 2337 (น้องแชงค์) : Truck (10) Active 02/07/2026" [ref=e275]':
+                  - cell "3" [ref=e276]
+                  - cell [ref=e277]:
+                    - img [ref=e280]
+                  - cell "Driver" [ref=e282]:
+                    - generic [ref=e283]: Driver
+                  - cell "น้องแชงค์" [ref=e284]:
+                    - generic [ref=e285]: น้องแชงค์
+                  - cell "132456" [ref=e286]:
+                    - generic [ref=e287]: "132456"
+                  - 'cell "นข 2337 (น้องแชงค์) : Truck (10)" [ref=e288]':
+                    - generic [ref=e289] [cursor=pointer]: "นข 2337 (น้องแชงค์) : Truck (10)"
+                  - cell "Active" [ref=e290]:
+                    - generic [ref=e293]: Active
+                  - cell "02/07/2026" [ref=e294]
+                  - cell [ref=e295]:
+                    - img [ref=e298] [cursor=pointer]
+                - row "4 Assist. Captain วราธิวัตร ระบำเพลิง (โต) 0889585269 - Active 01/07/2026" [ref=e302]:
+                  - cell "4" [ref=e303]
+                  - cell [ref=e304]:
+                    - img [ref=e307]
+                  - cell "Assist. Captain" [ref=e309]:
+                    - generic [ref=e310]: Assist. Captain
+                  - cell "วราธิวัตร ระบำเพลิง (โต)" [ref=e311]:
+                    - generic [ref=e312]: วราธิวัตร ระบำเพลิง (โต)
+                  - cell "0889585269" [ref=e313]:
+                    - generic [ref=e314]: "0889585269"
+                  - cell "-" [ref=e315]:
+                    - generic [ref=e316]: "-"
+                  - cell "Active" [ref=e317]:
+                    - generic [ref=e320]: Active
+                  - cell "01/07/2026" [ref=e321]
+                  - cell [ref=e322]:
+                    - img [ref=e325] [cursor=pointer]
+                - row "5 Captain ปิยเมธ 06879864657 - Active 01/07/2026" [ref=e329]:
+                  - cell "5" [ref=e330]
+                  - cell [ref=e331]:
+                    - img [ref=e334]
+                  - cell "Captain" [ref=e336]:
+                    - generic [ref=e337]: Captain
+                  - cell "ปิยเมธ" [ref=e338]:
+                    - generic [ref=e339]: ปิยเมธ
+                  - cell "06879864657" [ref=e340]:
+                    - generic [ref=e341]: "06879864657"
+                  - cell "-" [ref=e342]:
+                    - generic [ref=e343]: "-"
+                  - cell "Active" [ref=e344]:
+                    - generic [ref=e347]: Active
+                  - cell "01/07/2026" [ref=e348]
+                  - cell [ref=e349]:
+                    - img [ref=e352] [cursor=pointer]
+                - 'row "6 Captain ยุทธกิจ สิงห์ฬาระ ( บังโกด) +66 2 860-3700 หวันยี่หวา : 1 เครื่องยนต์ (10ที่นั่ง) (10) Active 01/07/2026" [ref=e356]':
+                  - cell "6" [ref=e357]
+                  - cell [ref=e358]:
+                    - img [ref=e361]
+                  - cell "Captain" [ref=e363]:
+                    - generic [ref=e364]: Captain
+                  - cell "ยุทธกิจ สิงห์ฬาระ ( บังโกด)" [ref=e365]:
+                    - generic [ref=e366]: ยุทธกิจ สิงห์ฬาระ ( บังโกด)
+                  - cell "+66 2 860-3700" [ref=e367]:
+                    - generic [ref=e368]: +66 2 860-3700
+                  - 'cell "หวันยี่หวา : 1 เครื่องยนต์ (10ที่นั่ง) (10)" [ref=e369]':
+                    - generic [ref=e370] [cursor=pointer]: "หวันยี่หวา : 1 เครื่องยนต์ (10ที่นั่ง) (10)"
+                  - cell "Active" [ref=e371]:
+                    - generic [ref=e374]: Active
+                  - cell "01/07/2026" [ref=e375]
+                  - cell [ref=e376]:
+                    - img [ref=e379] [cursor=pointer]
+                - 'row "7 Driver วสันต์ สมใจ (เอียด) 082-2764258 30-0620 : BUS 40 SEAT (40) Active 30/06/2026" [ref=e383]':
+                  - cell "7" [ref=e384]
+                  - cell [ref=e385]:
+                    - img [ref=e388]
+                  - cell "Driver" [ref=e390]:
+                    - generic [ref=e391]: Driver
+                  - cell "วสันต์ สมใจ (เอียด)" [ref=e392]:
+                    - generic [ref=e393]: วสันต์ สมใจ (เอียด)
+                  - cell "082-2764258" [ref=e394]:
+                    - generic [ref=e395]: 082-2764258
+                  - 'cell "30-0620 : BUS 40 SEAT (40)" [ref=e396]':
+                    - generic [ref=e397]: "30-0620 : BUS 40 SEAT (40)"
+                  - cell "Active" [ref=e398]:
+                    - generic [ref=e401]: Active
+                  - cell "30/06/2026" [ref=e402]
+                  - cell [ref=e403]:
+                    - img [ref=e406] [cursor=pointer]
+            - list [ref=e410]:
+              - listitem "Previous Page" [ref=e411]:
+                - button "left" [disabled] [ref=e412]:
+                  - img "left" [ref=e413]:
+                    - img [ref=e414]
+              - listitem "1" [ref=e416] [cursor=pointer]:
+                - generic [ref=e417]: "1"
+              - listitem "Next Page" [ref=e418]:
+                - button "right" [disabled] [ref=e419]:
+                  - img "right" [ref=e420]:
+                    - img [ref=e421]
+              - listitem [ref=e423]:
+                - generic "Page Size" [ref=e424] [cursor=pointer]:
+                  - generic [ref=e426]:
+                    - combobox "Page Size" [ref=e428]
+                    - generic "15 / page" [ref=e429]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e430]:
+    - dialog:
+      - generic [ref=e432]:
+        - generic [ref=e433]:
+          - generic [ref=e434]:
+            - generic [ref=e436]: Filter
+            - img [ref=e438] [cursor=pointer]
+          - generic [ref=e442]:
+            - generic [ref=e443]:
+              - generic [ref=e444]: Positions
+              - generic [ref=e446] [cursor=pointer]:
+                - generic [ref=e448]:
+                  - combobox [ref=e450]
+                  - generic: Please select
+                - generic:
+                  - img
+            - generic [ref=e451]:
+              - generic [ref=e452]: Name
+              - textbox "Please enter" [ref=e454]
+            - generic [ref=e456]:
+              - generic [ref=e457]: Status
+              - generic [ref=e459] [cursor=pointer]:
+                - generic [ref=e461]:
+                  - combobox [ref=e463]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e464]:
+          - button "Clear all" [ref=e465] [cursor=pointer]
+          - button "Search" [ref=e466] [cursor=pointer]:
+            - img [ref=e468]
+            - text: Search

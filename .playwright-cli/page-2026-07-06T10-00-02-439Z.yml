@@ -1,0 +1,375 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [expanded] [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menu [ref=e29]:
+              - menuitem "Overview" [ref=e30] [cursor=pointer]:
+                - img [ref=e31]
+                - generic [ref=e33]: Overview
+              - menuitem "Create Booking" [ref=e34] [cursor=pointer]:
+                - img [ref=e35]
+                - generic [ref=e37]: Create Booking
+              - menuitem "Booking List" [ref=e38] [cursor=pointer]:
+                - img [ref=e39]
+                - generic [ref=e41]: Booking List
+            - menuitem "Excursion" [ref=e42] [cursor=pointer]:
+              - img [ref=e43]
+              - generic [ref=e45]: Excursion
+            - menuitem "Pick up Transport" [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+              - generic [ref=e52]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e53] [cursor=pointer]:
+              - img [ref=e54]
+              - generic [ref=e59]: Drop off Transport
+            - menuitem "Check In" [ref=e60] [cursor=pointer]:
+              - img [ref=e61]
+              - generic [ref=e64]: Check In
+            - menuitem "Payment" [ref=e65] [cursor=pointer]:
+              - img [ref=e66]
+              - generic [ref=e69]: Payment
+          - separator [ref=e70]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e71] [cursor=pointer]:
+            - img [ref=e72]
+            - generic [ref=e76]: Program
+          - menuitem "Seller" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e80]: Seller
+          - menuitem "Vehicle" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e84]: Vehicle
+          - menuitem "Employee" [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+            - generic [ref=e90]: Employee
+          - menuitem "Zone Transfer" [ref=e91] [cursor=pointer]:
+            - img [ref=e92]
+            - generic [ref=e96]: Zone Transfer
+          - menuitem "User" [ref=e97] [cursor=pointer]:
+            - img [ref=e98]
+            - generic [ref=e101]: User
+          - menuitem "Company" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e105]: Company
+          - menuitem "User Manual" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: User Manual
+    - generic [ref=e110]:
+      - banner [ref=e111]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: "Mon : 06 Jul 2026, 17:00"
+          - generic [ref=e116] [cursor=pointer]:
+            - generic [ref=e118]: AM
+            - generic [ref=e119]:
+              - generic [ref=e120]: amares
+              - generic [ref=e121]: Superadmin
+            - img [ref=e123]
+      - main [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e128]:
+            - generic [ref=e129]: Booking
+            - img [ref=e130]
+            - generic [ref=e132]: Create Booking
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - paragraph [ref=e137]: Create New Booking
+                - generic [ref=e138] [cursor=pointer]:
+                  - generic: Booking Travel Date
+                  - generic [ref=e139]:
+                    - img [ref=e140]
+                    - generic: 06/07/2026
+                  - generic [ref=e142]:
+                    - generic:
+                      - textbox "Select date": 06/07/2026
+              - generic [ref=e143]:
+                - generic [ref=e144]:
+                  - generic [ref=e146]:
+                    - img [ref=e148]
+                    - text: Booking Details
+                  - img [ref=e152] [cursor=pointer]
+                - generic [ref=e156]:
+                  - generic [ref=e157]:
+                    - generic [ref=e158]:
+                      - generic [ref=e159]: Seller *
+                      - generic [ref=e161] [cursor=pointer]:
+                        - generic [ref=e163]:
+                          - combobox [ref=e165]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e166]:
+                      - generic [ref=e167]: Booking No. *
+                      - textbox "Please enter" [ref=e169]
+                    - generic [ref=e171]:
+                      - generic [ref=e172]: Program Name *
+                      - generic [ref=e174] [cursor=pointer]:
+                        - generic [ref=e176]:
+                          - combobox [ref=e178]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e179]:
+                      - generic [ref=e180]: Payment
+                      - generic [ref=e182] [cursor=pointer]:
+                        - generic [ref=e184]:
+                          - combobox [ref=e186]
+                          - generic: Please select
+                        - generic:
+                          - img
+                  - generic [ref=e187]:
+                    - generic [ref=e188]:
+                      - generic [ref=e189]: Option
+                      - generic [ref=e191] [cursor=pointer]:
+                        - generic [ref=e193]:
+                          - combobox [ref=e195]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e196]:
+                      - generic [ref=e197]: Trip Type *
+                      - generic [ref=e199] [cursor=pointer]:
+                        - generic [ref=e201]:
+                          - combobox [ref=e203]
+                          - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e204]:
+                      - generic [ref=e205]: Trip round *
+                      - generic [ref=e207] [cursor=pointer]:
+                        - generic [ref=e208]:
+                          - img [ref=e210]
+                          - generic [ref=e213]:
+                            - combobox [ref=e215]
+                            - generic: Please select
+                        - generic:
+                          - img
+                    - generic [ref=e216]:
+                      - generic [ref=e217]: Language
+                      - generic [ref=e219] [cursor=pointer]:
+                        - generic [ref=e221]:
+                          - combobox [ref=e223]
+                          - generic: Please select
+                        - generic:
+                          - img
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - generic [ref=e227]:
+                    - img [ref=e229]
+                    - text: Customer Details
+                  - img [ref=e233] [cursor=pointer]
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: Customer Name *
+                    - textbox "Please enter" [ref=e241]
+                  - generic [ref=e243]:
+                    - generic [ref=e244]: Nationality
+                    - textbox "Please enter" [ref=e246]
+                  - generic [ref=e248]:
+                    - generic [ref=e249]: Email
+                    - textbox "Please enter" [ref=e251]
+                  - generic [ref=e253]:
+                    - generic [ref=e254]: Phone number
+                    - textbox "Please enter" [ref=e256]
+                  - generic [ref=e258]:
+                    - generic [ref=e259]: Contact method
+                    - generic [ref=e261] [cursor=pointer]:
+                      - generic [ref=e263]:
+                        - combobox [ref=e265]
+                        - generic: Please select
+                      - generic:
+                        - img
+                  - textbox [disabled] [ref=e269]
+              - generic [ref=e271]:
+                - generic [ref=e272]:
+                  - generic [ref=e274]:
+                    - img [ref=e276]
+                    - text: Unit Details
+                  - img [ref=e282] [cursor=pointer]
+                - generic [ref=e285]:
+                  - generic [ref=e286]:
+                    - generic [ref=e287]: Unit
+                    - generic [ref=e288]: Price
+                    - generic [ref=e289]: Quantity
+                    - generic [ref=e290]: KB
+                    - generic [ref=e291]: Total
+                  - generic [ref=e292]:
+                    - img [ref=e294]
+                    - generic [ref=e311]:
+                      - generic [ref=e312]: Sub total
+                      - generic [ref=e313]: ฿ 0.00
+                    - generic [ref=e314]:
+                      - generic [ref=e315]:
+                        - img [ref=e317]
+                        - text: Discount
+                      - generic [ref=e324]:
+                        - generic:
+                          - paragraph: ฿
+                        - generic [ref=e325]:
+                          - generic:
+                            - button "Increase Value":
+                              - img "up":
+                                - img
+                            - button "Decrease Value":
+                              - img "down":
+                                - img
+                          - spinbutton "0.00" [ref=e327]
+                    - generic [ref=e328]:
+                      - generic [ref=e330]:
+                        - paragraph [ref=e331]: Total Pax
+                        - paragraph [ref=e332]: "0"
+                      - generic [ref=e334]:
+                        - paragraph [ref=e335]: Total KB
+                        - paragraph [ref=e336]: ฿ 0.00
+                      - generic [ref=e338]:
+                        - paragraph [ref=e339]: Total Price
+                        - paragraph [ref=e340]: ฿ 0.00
+              - generic [ref=e341]:
+                - generic [ref=e342]:
+                  - generic [ref=e344]:
+                    - img [ref=e346]
+                    - text: Location Details
+                  - img [ref=e350] [cursor=pointer]
+                - generic [ref=e355]:
+                  - generic [ref=e356]:
+                    - generic [ref=e357]: Drop - off point
+                    - generic [ref=e361]:
+                      - combobox [ref=e363]
+                      - generic: Please select or enter
+                  - generic [ref=e364]:
+                    - generic [ref=e365]: Drop - off remark
+                    - textbox "Please enter" [ref=e367]
+              - generic [ref=e369]:
+                - generic [ref=e370]:
+                  - generic [ref=e372]:
+                    - img [ref=e374]
+                    - text: Remark
+                  - img [ref=e379] [cursor=pointer]
+                - generic [ref=e383]:
+                  - generic [ref=e384]: Remark
+                  - textbox "Enter any special requests or additional information..." [ref=e385]
+            - generic [ref=e387]:
+              - button "Clear Form" [ref=e388] [cursor=pointer]
+              - button "Create Booking" [disabled] [ref=e390]:
+                - img [ref=e392]
+                - text: Create Booking
+              - button "Create & Confirm" [disabled] [ref=e393]:
+                - img [ref=e395]
+                - text: Create & Confirm
+            - generic [ref=e399]:
+              - generic [ref=e400]:
+                - generic [ref=e401]:
+                  - paragraph [ref=e402]: All Bookings
+                  - generic [ref=e403]:
+                    - generic [ref=e404]:
+                      - text: Total Booking
+                      - generic [ref=e405]: "0"
+                    - generic [ref=e406]:
+                      - text: Total Pax
+                      - generic [ref=e407]: "0"
+                    - generic [ref=e408]:
+                      - text: Total Income
+                      - generic [ref=e409]: ฿ 0.00
+                - generic [ref=e412]:
+                  - img [ref=e414]
+                  - textbox "Search by Booking No, Customer na..." [ref=e417]
+              - generic [ref=e419]:
+                - generic [ref=e420]:
+                  - generic [ref=e421]:
+                    - img [ref=e423]
+                    - paragraph [ref=e428]: Join In Booking
+                  - button "Route Summary" [ref=e429] [cursor=pointer]:
+                    - img [ref=e431]
+                    - text: Route Summary
+                - generic [ref=e434]:
+                  - generic [ref=e435]:
+                    - generic [ref=e436]:
+                      - text: Total Booking
+                      - generic [ref=e437]: "0"
+                    - generic [ref=e438]:
+                      - text: Total Pax
+                      - generic [ref=e439]: "0"
+                    - generic [ref=e440]:
+                      - text: Total Income
+                      - generic [ref=e441]: ฿ 0.00
+                  - generic [ref=e442]:
+                    - img [ref=e443]
+                    - text: Minimum to run
+                - table [ref=e457]:
+                  - rowgroup [ref=e470]:
+                    - row "# Seller Travel Date Booking Date Booking No. Trip Round Program Pax Trip Code Status Action" [ref=e471]:
+                      - columnheader "#" [ref=e472]
+                      - columnheader "Seller" [ref=e473]
+                      - columnheader "Travel Date" [ref=e474]
+                      - columnheader "Booking Date" [ref=e475]
+                      - columnheader "Booking No." [ref=e476]
+                      - columnheader "Trip Round" [ref=e477]
+                      - columnheader "Program" [ref=e478]
+                      - columnheader "Pax" [ref=e479]
+                      - columnheader "Trip Code" [ref=e480]
+                      - columnheader "Status" [ref=e481]
+                      - columnheader "Action" [ref=e482]
+                  - rowgroup [ref=e483]:
+                    - row [ref=e484]:
+                      - cell [ref=e485]:
+                        - img [ref=e487]
+              - generic [ref=e503]:
+                - generic [ref=e504]:
+                  - generic [ref=e505]:
+                    - img [ref=e507]
+                    - paragraph [ref=e510]: Private Booking
+                  - button "Route Summary" [ref=e511] [cursor=pointer]:
+                    - img [ref=e513]
+                    - text: Route Summary
+                - generic [ref=e516]:
+                  - generic [ref=e517]:
+                    - generic [ref=e518]:
+                      - text: Total Booking
+                      - generic [ref=e519]: "0"
+                    - generic [ref=e520]:
+                      - text: Total Pax
+                      - generic [ref=e521]: "0"
+                    - generic [ref=e522]:
+                      - text: Total Income
+                      - generic [ref=e523]: ฿ 0.00
+                  - generic [ref=e524]:
+                    - img [ref=e525]
+                    - text: Minimum to run
+                - generic [ref=e534]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - table:
+                            - rowgroup:
+                              - row "# Seller Travel Date Booking Date Booking No. Trip Round Program Pax Trip Code Status Action":
+                                - columnheader "#"
+                                - columnheader "Seller"
+                                - columnheader "Travel Date"
+                                - columnheader "Booking Date"
+                                - columnheader "Booking No."
+                                - columnheader "Trip Round"
+                                - columnheader "Program"
+                                - columnheader "Pax"
+                                - columnheader "Trip Code"
+                                - columnheader "Status"
+                                - columnheader "Action"
+                            - rowgroup:
+                              - row:
+                                - cell:
+                                  - generic:
+                                    - img

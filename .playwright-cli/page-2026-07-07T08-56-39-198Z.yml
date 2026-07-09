@@ -1,0 +1,187 @@
+- generic [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menuitem "Seller" [ref=e64] [cursor=pointer]:
+            - img [ref=e65]
+            - generic [ref=e67]: Seller
+          - menuitem "Vehicle" [ref=e68] [cursor=pointer]:
+            - img [ref=e69]
+            - generic [ref=e76]: Vehicle
+          - menuitem "Employee" [ref=e77] [cursor=pointer]:
+            - img [ref=e78]
+            - generic [ref=e82]: Employee
+          - menuitem "Zone Transfer" [ref=e83] [cursor=pointer]:
+            - img [ref=e84]
+            - generic [ref=e88]: Zone Transfer
+          - menuitem "User" [expanded] [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e93]: User
+          - menu [ref=e204]:
+            - menuitem "User List" [ref=e94] [cursor=pointer]:
+              - img [ref=e95]
+              - generic [ref=e97]: User List
+            - menuitem "Role" [ref=e98] [cursor=pointer]:
+              - img [ref=e99]
+              - generic [ref=e101]: Role
+          - menuitem "Company" [ref=e102] [cursor=pointer]:
+            - img [ref=e103]
+            - generic [ref=e105]: Company
+          - menuitem "User Manual" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: User Manual
+    - generic [ref=e110]:
+      - banner [ref=e111]:
+        - generic [ref=e113]:
+          - generic [ref=e114]: "Tue : 07 Jul 2026, 15:56"
+          - generic [ref=e116] [cursor=pointer]:
+            - generic [ref=e118]: AM
+            - generic [ref=e119]:
+              - generic [ref=e120]: amares
+              - generic [ref=e121]: Superadmin
+            - img [ref=e123]
+      - main [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128]:
+              - generic [ref=e129]: User
+              - img [ref=e130]
+              - generic [ref=e132]: Roles
+            - button "Create Roles" [ref=e134] [cursor=pointer]:
+              - img [ref=e136]
+              - text: Create Roles
+          - generic [ref=e139]:
+            - generic [ref=e142]:
+              - img [ref=e144]
+              - textbox "Search" [ref=e147]
+            - button "Filter" [ref=e149] [cursor=pointer]:
+              - img [ref=e151]
+              - text: Filter
+            - button "Export" [ref=e154] [cursor=pointer]:
+              - img [ref=e156]
+              - generic [ref=e159]: Export
+              - img [ref=e161]
+          - generic [ref=e166]:
+            - table [ref=e170]:
+              - rowgroup [ref=e177]:
+                - row "# Roles List Status Last Modify Date Action" [ref=e178]:
+                  - columnheader "#" [ref=e179]
+                  - columnheader "Roles List" [ref=e180]
+                  - columnheader "Status" [ref=e181]
+                  - columnheader "Last Modify Date" [ref=e182]
+                  - columnheader "Action" [ref=e183]
+              - rowgroup [ref=e184]:
+                - row "1 79864512 Active 06/07/2026" [ref=e205]:
+                  - cell "1" [ref=e206]
+                  - cell "79864512" [ref=e207]:
+                    - link "79864512" [ref=e208] [cursor=pointer]:
+                      - /url: /user/roles/3
+                      - paragraph [ref=e209]: "79864512"
+                  - cell "Active" [ref=e210]:
+                    - generic [ref=e213]: Active
+                  - cell "06/07/2026" [ref=e214]:
+                    - generic [ref=e215]: 06/07/2026
+                  - cell [ref=e216]:
+                    - img [ref=e219] [cursor=pointer]
+                - row "2 HUi Test Active 06/07/2026" [ref=e223]:
+                  - cell "2" [ref=e224]
+                  - cell "HUi Test" [ref=e225]:
+                    - link "HUi Test" [ref=e226] [cursor=pointer]:
+                      - /url: /user/roles/2
+                      - paragraph [ref=e227]: HUi Test
+                  - cell "Active" [ref=e228]:
+                    - generic [ref=e231]: Active
+                  - cell "06/07/2026" [ref=e232]:
+                    - generic [ref=e233]: 06/07/2026
+                  - cell [ref=e234]:
+                    - img [ref=e237] [cursor=pointer]
+                - row "3 Superadmin Active 29/06/2026" [ref=e241]:
+                  - cell "3" [ref=e242]
+                  - cell "Superadmin" [ref=e243]:
+                    - link "Superadmin" [ref=e244] [cursor=pointer]:
+                      - /url: /user/roles/1
+                      - paragraph [ref=e245]: Superadmin
+                  - cell "Active" [ref=e246]:
+                    - generic [ref=e249]: Active
+                  - cell "29/06/2026" [ref=e250]:
+                    - generic [ref=e251]: 29/06/2026
+                  - cell [ref=e252]:
+                    - img [ref=e255] [cursor=pointer]
+            - list [ref=e259]:
+              - listitem "Previous Page" [ref=e260]:
+                - button "left" [disabled] [ref=e261]:
+                  - img "left" [ref=e262]:
+                    - img [ref=e263]
+              - listitem "1" [ref=e265] [cursor=pointer]:
+                - generic [ref=e266]: "1"
+              - listitem "Next Page" [ref=e267]:
+                - button "right" [disabled] [ref=e268]:
+                  - img "right" [ref=e269]:
+                    - img [ref=e270]
+              - listitem [ref=e272]:
+                - generic "Page Size" [ref=e273] [cursor=pointer]:
+                  - generic [ref=e275]:
+                    - combobox "Page Size" [ref=e277]
+                    - generic "20 / page" [ref=e278]
+                  - generic:
+                    - img:
+                      - img
+  - generic [ref=e279]:
+    - dialog:
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - generic [ref=e283]:
+            - generic [ref=e285]: Filter
+            - img [ref=e287] [cursor=pointer]
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - generic [ref=e293]: Roles
+              - textbox "Please enter" [ref=e295]
+            - generic [ref=e297]:
+              - generic [ref=e298]: Status
+              - generic [ref=e300] [cursor=pointer]:
+                - generic [ref=e302]:
+                  - combobox [ref=e304]
+                  - generic: Please select
+                - generic:
+                  - img
+        - generic [ref=e305]:
+          - button "Clear all" [ref=e306] [cursor=pointer]
+          - button "Search" [ref=e307] [cursor=pointer]:
+            - img [ref=e309]
+            - text: Search

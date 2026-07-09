@@ -1,6 +1,7 @@
 ---
 title: Booking List
 sidebar_position: 2
+toc_max_heading_level: 2
 ---
 
 # Booking List
@@ -45,7 +46,7 @@ sidebar_position: 2
 | **Booking Date** | วันที่สร้าง Booking |
 | **Booking No.** | เลขที่ Booking (คลิกได้เพื่อดูรายละเอียด) |
 | **Trip Type** | ประเภทของ Trip |
-| **Travel Time** | เวลาเดินทาง |
+| **Trip Round** | รอบของ Trip |
 | **Program** | ชื่อโปรแกรมทัวร์ |
 | **Pax** | จำนวนผู้เดินทาง |
 | **Trip Code** | รหัส Trip |
@@ -75,7 +76,7 @@ sidebar_position: 2
 
 ### Date Filter
 
-เลือกวันที่ที่ต้องการดูรายการ Booking สามารถสลับโหมดได้ระหว่าง **Booking Date** (วันที่สร้าง Booking) และ **Travel Date** (วันที่เดินทาง)
+เลือกวันที่ที่ต้องการดูรายการ Booking
 
 ### Advance Search
 
@@ -85,7 +86,18 @@ sidebar_position: 2
 
 </div>
 
-ค้นหาขั้นสูงโดยกรองจากหลายเงื่อนไขพร้อมกัน เช่น Seller, Program, Trip Type, Status กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+ค้นหาขั้นสูงโดยกรองจากหลายเงื่อนไขพร้อมกัน กด **Search** เพื่อค้นหา หรือ **Clear all** เพื่อล้างเงื่อนไข
+
+| ฟิลด์ | คำอธิบาย |
+|-------|----------|
+| **Filter by** | เลือกกรองตาม Booking Date หรือ Travel Date |
+| **Date From** | ช่วงวันที่ (Start date — End date) |
+| **Program** | กรองตามชื่อโปรแกรม |
+| **Booking No.** | ค้นหาด้วยเลขที่ Booking |
+| **Trip type** | กรองตามประเภท Trip |
+| **Trip code** | ค้นหาด้วยรหัส Trip |
+| **Seller** | กรองตาม Seller |
+| **Status** | กรองตามสถานะ |
 
 ---
 
@@ -97,9 +109,19 @@ sidebar_position: 2
 
 แสดงรายละเอียด Booking แบบ read-only
 
+![Booking View](/img/Bookings/booking-view.png)
+
+ข้อมูลที่แสดงในหน้า View ประกอบด้วย Booking Details, Customer Details, Unit Details, Location Details, Remark และ **Trip Details** ซึ่งแสดงข้อมูล Trip ที่ถูก assign แล้ว เช่น Trip Code, Vehicle, Driver และ Guide
+
 - กดปุ่ม **Edit** เพื่อเข้าสู่โหมดแก้ไข
 
 ### Edit
+
+<div className="manual-img-500">
+
+![Booking Edit](/img/Bookings/booking-edit.png)
+
+</div>
 
 แก้ไขข้อมูล Booking ที่มีสถานะ **Reserved** หรือ **Confirmed**
 

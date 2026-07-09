@@ -1,0 +1,306 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [expanded] [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menu [ref=e267]:
+              - menuitem "Overview" [ref=e29] [cursor=pointer]:
+                - img [ref=e30]
+                - generic [ref=e32]: Overview
+              - menuitem "Create Booking" [ref=e33] [cursor=pointer]:
+                - img [ref=e34]
+                - generic [ref=e36]: Create Booking
+              - menuitem "Booking List" [ref=e37] [cursor=pointer]:
+                - img [ref=e38]
+                - generic [ref=e40]: Booking List
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Tue : 07 Jul 2026, 15:44"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - generic [ref=e426]:
+              - generic [ref=e427]: Booking
+              - img [ref=e428]
+              - generic [ref=e430]: View Booking
+            - generic [ref=e431]:
+              - button "Close" [ref=e432] [cursor=pointer]
+              - button "Edit" [ref=e433] [cursor=pointer]:
+                - img [ref=e435]
+                - text: Edit
+          - generic [ref=e441]:
+            - generic [ref=e442]:
+              - generic [ref=e443]:
+                - img "logo" [ref=e445]
+                - paragraph [ref=e446]: ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]
+              - generic [ref=e447]:
+                - generic [ref=e448]:
+                  - text: "Trip Type :"
+                  - generic [ref=e449]:
+                    - img [ref=e451]
+                    - generic [ref=e456]: Join In
+                - generic [ref=e457]:
+                  - text: "Status :"
+                  - generic [ref=e460]: Confirmed
+                - generic [ref=e461]:
+                  - text: "Paid :"
+                  - generic [ref=e462]:
+                    - img [ref=e464]
+                    - generic [ref=e466]: Pending
+            - generic [ref=e467]:
+              - generic [ref=e468]:
+                - generic [ref=e470]:
+                  - img [ref=e472]
+                  - text: Booking Details
+                - img [ref=e476] [cursor=pointer]
+              - generic [ref=e480]:
+                - generic [ref=e481]:
+                  - generic [ref=e482]:
+                    - generic [ref=e483]: Seller
+                    - generic [ref=e487]:
+                      - combobox [disabled] [ref=e489]
+                      - generic "Phi Phi" [ref=e490]
+                  - generic [ref=e491]:
+                    - generic [ref=e492]: Booking No.
+                    - textbox "Please enter" [disabled] [ref=e494]: TSB-0726VXQ2
+                  - generic [ref=e496]:
+                    - generic [ref=e497]: Travel Date
+                    - generic [ref=e498]:
+                      - img [ref=e500]
+                      - textbox "Select date" [disabled] [ref=e504]: 07/07/2026
+                  - generic [ref=e505]:
+                    - generic [ref=e506]: Payment
+                    - generic [ref=e510]:
+                      - combobox [disabled] [ref=e512]
+                      - generic "Pending" [ref=e513]
+                - generic [ref=e514]:
+                  - generic [ref=e515]:
+                    - generic [ref=e516]: Option
+                    - generic [ref=e520]:
+                      - combobox [disabled] [ref=e522]
+                      - generic "รวมรถ(รับ-ส่ง) + ไม่รวมค่าธรรมเนียมอุทยาน" [ref=e523]
+                  - generic [ref=e524]:
+                    - generic [ref=e525]: Trip Type
+                    - generic [ref=e529]:
+                      - combobox [disabled] [ref=e531]
+                      - generic [ref=e533]:
+                        - img [ref=e535]
+                        - generic [ref=e540]: Join In
+                  - generic [ref=e541]:
+                    - generic [ref=e542]: Trip round
+                    - generic [ref=e545]:
+                      - img [ref=e547]
+                      - generic [ref=e550]:
+                        - combobox [disabled] [ref=e552]
+                        - generic "08:30" [ref=e553]
+                  - generic [ref=e554]:
+                    - generic [ref=e555]: Language
+                    - generic [ref=e559]:
+                      - combobox [disabled] [ref=e561]
+                      - generic "English" [ref=e562]
+            - generic [ref=e563]:
+              - generic [ref=e564]:
+                - generic [ref=e566]:
+                  - img [ref=e568]
+                  - text: Customer Details
+                - img [ref=e572] [cursor=pointer]
+              - generic [ref=e576]:
+                - generic [ref=e577]:
+                  - generic [ref=e578]: Customer Name
+                  - textbox "Please enter" [disabled] [ref=e580]: ugyutg
+                - generic [ref=e582]:
+                  - generic [ref=e583]: Nationality
+                  - textbox "Please enter" [disabled] [ref=e585]
+                - generic [ref=e587]:
+                  - generic [ref=e588]: Email
+                  - textbox "Please enter" [disabled] [ref=e590]
+                - generic [ref=e592]:
+                  - generic [ref=e593]: Phone number
+                  - textbox "Please enter" [disabled] [ref=e595]
+                - generic [ref=e597]:
+                  - generic [ref=e598]: Contact method
+                  - generic [ref=e602]:
+                    - combobox [disabled] [ref=e604]
+                    - generic: Please select
+                - textbox [disabled] [ref=e608]
+            - generic [ref=e610]:
+              - generic [ref=e611]:
+                - generic [ref=e613]:
+                  - img [ref=e615]
+                  - text: Unit Details
+                - img [ref=e621] [cursor=pointer]
+              - generic [ref=e624]:
+                - generic [ref=e625]:
+                  - generic [ref=e626]: Unit
+                  - generic [ref=e627]: Price
+                  - generic [ref=e628]: Quantity
+                  - generic [ref=e629]: KB
+                  - generic [ref=e630]: Total
+                - generic [ref=e631]:
+                  - generic [ref=e632]:
+                    - generic [ref=e633]: Adult
+                    - generic [ref=e634]: "900.00"
+                    - paragraph [ref=e637]: "3"
+                    - generic [ref=e638]: ฿ 0.00
+                    - generic [ref=e639]: ฿ 2,700.00
+                  - generic [ref=e640]:
+                    - generic [ref=e641]: Child
+                    - generic [ref=e642]: "700.00"
+                    - paragraph [ref=e645]: "1"
+                    - generic [ref=e646]: ฿ 0.00
+                    - generic [ref=e647]: ฿ 700.00
+                  - generic [ref=e649]:
+                    - generic [ref=e650]: Sub total
+                    - generic [ref=e651]: ฿ 3,400.00
+                  - generic [ref=e652]:
+                    - generic [ref=e653]:
+                      - img [ref=e655]
+                      - text: Discount
+                    - generic [ref=e662]:
+                      - generic:
+                        - paragraph: ฿
+                      - spinbutton "0.00" [disabled] [ref=e665]: "0"
+                  - generic [ref=e666]:
+                    - generic [ref=e668]:
+                      - paragraph [ref=e669]: Total Pax
+                      - paragraph [ref=e670]: "4"
+                    - generic [ref=e672]:
+                      - paragraph [ref=e673]: Total KB
+                      - paragraph [ref=e674]: ฿ 0.00
+                    - generic [ref=e676]:
+                      - paragraph [ref=e677]: Total Price
+                      - paragraph [ref=e678]: ฿ 3,400.00
+            - generic [ref=e679]:
+              - generic [ref=e680]:
+                - generic [ref=e682]:
+                  - img [ref=e684]
+                  - text: Location Details
+                - img [ref=e688] [cursor=pointer]
+              - generic [ref=e692]:
+                - generic [ref=e693]:
+                  - generic [ref=e694]: Meeting point location
+                  - textbox "Please enter" [disabled] [ref=e696]: ท่าเรือเกาะพีพีทัวร์
+                - generic [ref=e698]:
+                  - generic [ref=e699]: Pick up location
+                  - textbox "Please enter" [disabled] [ref=e701]: pp hotel
+                - generic [ref=e703]:
+                  - generic [ref=e704]:
+                    - generic [ref=e705]: Pick-up time
+                    - generic [ref=e706]:
+                      - img [ref=e708]
+                      - textbox "Please select" [disabled] [ref=e712]: 07:50
+                  - generic [ref=e714]:
+                    - generic [ref=e715]: Pick-up address
+                    - textbox "Please enter" [disabled] [ref=e717]
+                - generic [ref=e719]:
+                  - generic [ref=e720]:
+                    - generic [ref=e721]: Drop - off point
+                    - combobox [disabled] [ref=e727]: pp hotel
+                  - generic [ref=e728]:
+                    - generic [ref=e729]: Drop - off remark
+                    - textbox "Please enter" [disabled] [ref=e731]
+            - generic [ref=e733]:
+              - generic [ref=e734]:
+                - generic [ref=e736]:
+                  - img [ref=e738]
+                  - text: Remark
+                - img [ref=e743] [cursor=pointer]
+              - generic [ref=e747]:
+                - generic [ref=e748]: Remark
+                - textbox "Enter any special requests or additional information..." [disabled] [ref=e749]
+            - generic [ref=e750]:
+              - generic [ref=e751]:
+                - generic [ref=e753]:
+                  - img [ref=e755]
+                  - text: Trip Details
+                - img [ref=e760] [cursor=pointer]
+              - generic [ref=e764]:
+                - paragraph [ref=e767]: Excursion Details
+                - generic [ref=e768]:
+                  - generic [ref=e770]:
+                    - paragraph [ref=e771]: "Trip Code :"
+                    - paragraph [ref=e772] [cursor=pointer]: EC261QAL
+                    - img [ref=e773] [cursor=pointer]
+                  - generic [ref=e776]:
+                    - generic [ref=e779]:
+                      - img [ref=e780]
+                      - generic [ref=e783]: Vehicle Detail
+                      - generic [ref=e784]:
+                        - paragraph [ref=e785]: 1 เครื่องยนต์ (10 ที่นั่ง) (12)
+                        - paragraph [ref=e786]: อ่าวนางสปีด 9 (1ENG)
+                    - generic [ref=e789]:
+                      - img [ref=e790]
+                      - generic [ref=e793]: Personnel Detail
+                      - generic [ref=e795]:
+                        - paragraph [ref=e796]: Driver
+                        - paragraph [ref=e797]: ": วสันต์ สมใจ (เอียด)"
+                        - paragraph [ref=e798]: 082-2764258
+                    - generic [ref=e801]:
+                      - img [ref=e802]
+                      - generic [ref=e805]: Guide Detail
+                      - generic [ref=e807]:
+                        - paragraph [ref=e808]: "Guide 1 :"
+                        - paragraph [ref=e809]: Kristintat Phothiwoorn
+                        - paragraph [ref=e810]: "+66648830986"

@@ -1,0 +1,752 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+          - separator [ref=e57]
+          - text: Setting
+          - group
+          - menuitem "Program" [expanded] [ref=e58] [cursor=pointer]:
+            - img [ref=e59]
+            - generic [ref=e63]: Program
+          - menu [ref=e355]:
+            - menuitem "Program List" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e67]: Program List
+            - menuitem "Item Type" [ref=e68] [cursor=pointer]:
+              - img [ref=e69]
+              - generic [ref=e71]: Item Type
+            - menuitem "Unit" [ref=e72] [cursor=pointer]:
+              - img [ref=e73]
+              - generic [ref=e75]: Unit
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Wed : 08 Jul 2026, 10:50"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Program
+              - img [ref=e134]
+              - generic [ref=e136] [cursor=pointer]: Program List
+              - img [ref=e137]
+              - generic [ref=e139]: Create Program
+            - button "Cancel" [ref=e141] [cursor=pointer]
+          - generic [ref=e142]:
+            - generic [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]:
+                - img [ref=e356]
+                - generic [ref=e147]: Program Detail
+              - generic [ref=e148]: Add general informations
+            - img [ref=e150]
+            - generic [ref=e152] [cursor=pointer]:
+              - generic [ref=e153]:
+                - img [ref=e358]
+                - generic [ref=e155]: Itinerary
+              - generic [ref=e156]: Add travel itinerary details
+            - img [ref=e158]
+            - generic [ref=e160] [cursor=pointer]:
+              - generic [ref=e161]:
+                - generic [ref=e386]: "3"
+                - generic [ref=e163]: Cost
+              - generic [ref=e164]: Add cost details
+            - img [ref=e166]
+            - generic [ref=e168] [cursor=pointer]:
+              - generic [ref=e169]:
+                - generic [ref=e387]: "4"
+                - generic [ref=e171]: Unit
+              - generic [ref=e172]: Add units for each option
+            - img [ref=e174]
+            - generic [ref=e176] [cursor=pointer]:
+              - generic [ref=e177]:
+                - generic [ref=e388]: "5"
+                - generic [ref=e179]: Seller
+              - generic [ref=e180]: Specify units for each option
+          - generic [ref=e389]:
+            - generic [ref=e392]:
+              - generic [ref=e393]:
+                - generic [ref=e394]: Trip Round
+                - tablist [ref=e395]:
+                  - tab "07:30" [selected] [ref=e399] [cursor=pointer]
+              - tabpanel "07:30" [ref=e402]:
+                - generic [ref=e403]:
+                  - generic [ref=e404]: Cost details
+                  - generic [ref=e406]:
+                    - tablist [ref=e407]:
+                      - tab "Private" [selected] [ref=e411] [cursor=pointer]:
+                        - generic [ref=e412]:
+                          - img [ref=e414]
+                          - generic [ref=e417]: Private
+                    - tabpanel "Private" [ref=e420]:
+                      - generic [ref=e421]:
+                        - generic [ref=e422]:
+                          - generic [ref=e423] [cursor=pointer]:
+                            - heading "Guide fee *" [level=3] [ref=e425]:
+                              - generic [ref=e426]:
+                                - img [ref=e428]
+                                - generic [ref=e431]:
+                                  - generic [ref=e432]: Guide fee
+                                  - generic [ref=e433]: "*"
+                                - img [ref=e435]
+                            - img [ref=e438]
+                          - generic [ref=e442]:
+                            - generic [ref=e445]:
+                              - generic [ref=e446] [cursor=pointer]:
+                                - radio "Included" [checked] [ref=e448]
+                                - generic [ref=e450]: Included
+                              - generic [ref=e451] [cursor=pointer]:
+                                - radio "Not Included" [ref=e453]
+                                - generic [ref=e455]: Not Included
+                            - generic [ref=e456]:
+                              - generic [ref=e457]:
+                                - generic [ref=e459]:
+                                  - generic [ref=e460]: Guide Type
+                                  - textbox [ref=e462]: Guide1
+                                - generic [ref=e464]:
+                                  - generic [ref=e465]: Payment option
+                                  - generic [ref=e467] [cursor=pointer]:
+                                    - generic [ref=e469]:
+                                      - combobox [ref=e471]
+                                      - generic "Credit" [ref=e472]
+                                    - generic:
+                                      - img
+                                    - img [ref=e474]:
+                                      - img [ref=e475]
+                                - generic [ref=e478]:
+                                  - generic [ref=e479]: Cost Type
+                                  - generic [ref=e481] [cursor=pointer]:
+                                    - generic [ref=e483]:
+                                      - combobox [ref=e485]
+                                      - generic "All" [ref=e486]
+                                    - generic:
+                                      - img
+                                    - img [ref=e488]:
+                                      - img [ref=e489]
+                                - generic [ref=e494]:
+                                  - generic [ref=e495]: Cost (THB)
+                                  - generic [ref=e496]:
+                                    - generic:
+                                      - button "Increase Value":
+                                        - img "up":
+                                          - img
+                                      - button "Decrease Value":
+                                        - img "down":
+                                          - img
+                                    - spinbutton "0.00" [ref=e498]: 1,800
+                              - button [disabled] [ref=e503]:
+                                - img [ref=e505]
+                            - button "Add Guide" [ref=e513] [cursor=pointer]:
+                              - img [ref=e515]
+                              - generic [ref=e517]: Add Guide
+                        - generic [ref=e518]:
+                          - generic [ref=e519] [cursor=pointer]:
+                            - heading "Vehicle Cost *" [level=3] [ref=e521]:
+                              - generic [ref=e522]:
+                                - img [ref=e524]
+                                - generic [ref=e527]:
+                                  - generic [ref=e528]: Vehicle Cost
+                                  - generic [ref=e529]: "*"
+                                - img [ref=e531]
+                            - img [ref=e534]
+                          - generic [ref=e538]:
+                            - generic [ref=e541]:
+                              - generic [ref=e542] [cursor=pointer]:
+                                - radio "Included" [checked] [ref=e544]
+                                - generic [ref=e546]: Included
+                              - generic [ref=e547] [cursor=pointer]:
+                                - radio "Not Included" [ref=e549]
+                                - generic [ref=e551]: Not Included
+                            - generic [ref=e552]:
+                              - generic [ref=e553]:
+                                - heading "Supplier" [level=3] [ref=e555]
+                                - generic [ref=e556]:
+                                  - generic [ref=e558]:
+                                    - generic [ref=e559]: Supplier Name
+                                    - textbox [ref=e561]: Kewalee
+                                  - generic [ref=e562]:
+                                    - generic [ref=e563]:
+                                      - generic [ref=e564]:
+                                        - generic [ref=e566]:
+                                          - generic [ref=e567]: Vehicle
+                                          - textbox [ref=e569]: VAN (10)
+                                        - generic [ref=e571]:
+                                          - generic [ref=e572]: Payment option
+                                          - generic [ref=e574] [cursor=pointer]:
+                                            - generic [ref=e576]:
+                                              - combobox [ref=e578]
+                                              - generic "Credit" [ref=e579]
+                                            - generic:
+                                              - img
+                                            - img [ref=e581]:
+                                              - img [ref=e582]
+                                        - generic [ref=e585]:
+                                          - generic [ref=e586]: Cost (THB)
+                                          - generic [ref=e587]:
+                                            - generic:
+                                              - button "Increase Value":
+                                                - img "up":
+                                                  - img
+                                              - button "Decrease Value":
+                                                - img "down":
+                                                  - img
+                                            - spinbutton "0.00" [ref=e589]: 2,700
+                                      - img [ref=e592] [cursor=pointer]
+                                    - generic [ref=e596]:
+                                      - generic [ref=e597]:
+                                        - generic [ref=e599]:
+                                          - generic [ref=e600]: Vehicle
+                                          - textbox [ref=e602]: VAN (8)
+                                        - generic [ref=e604]:
+                                          - generic [ref=e605]: Payment option
+                                          - generic [ref=e607] [cursor=pointer]:
+                                            - generic [ref=e609]:
+                                              - combobox [ref=e611]
+                                              - generic "Credit" [ref=e612]
+                                            - generic:
+                                              - img
+                                            - img [ref=e614]:
+                                              - img [ref=e615]
+                                        - generic [ref=e618]:
+                                          - generic [ref=e619]: Cost (THB)
+                                          - generic [ref=e620]:
+                                            - generic:
+                                              - button "Increase Value":
+                                                - img "up":
+                                                  - img
+                                              - button "Decrease Value":
+                                                - img "down":
+                                                  - img
+                                            - spinbutton "0.00" [ref=e622]: 2,700
+                                      - img [ref=e625] [cursor=pointer]
+                                    - generic [ref=e629]:
+                                      - generic [ref=e630]:
+                                        - generic [ref=e632]:
+                                          - generic [ref=e633]: Vehicle
+                                          - textbox [ref=e635]: MPV (4)
+                                        - generic [ref=e637]:
+                                          - generic [ref=e638]: Payment option
+                                          - generic [ref=e640] [cursor=pointer]:
+                                            - generic [ref=e642]:
+                                              - combobox [ref=e644]
+                                              - generic "Credit" [ref=e645]
+                                            - generic:
+                                              - img
+                                            - img [ref=e647]:
+                                              - img [ref=e648]
+                                        - generic [ref=e651]:
+                                          - generic [ref=e652]: Cost (THB)
+                                          - generic [ref=e653]:
+                                            - generic:
+                                              - button "Increase Value":
+                                                - img "up":
+                                                  - img
+                                              - button "Decrease Value":
+                                                - img "down":
+                                                  - img
+                                            - spinbutton "0.00" [ref=e655]: 2,500
+                                      - img [ref=e658] [cursor=pointer]
+                              - button [ref=e666] [cursor=pointer]:
+                                - img [ref=e668]
+                            - button "Add Vehicle" [ref=e676] [cursor=pointer]:
+                              - img [ref=e678]
+                              - generic [ref=e680]: Add Vehicle
+                        - generic [ref=e681]:
+                          - generic [ref=e682] [cursor=pointer]:
+                            - heading "Other Expense *" [level=3] [ref=e684]:
+                              - generic [ref=e685]:
+                                - img [ref=e687]
+                                - generic [ref=e690]:
+                                  - generic [ref=e691]: Other Expense
+                                  - generic [ref=e692]: "*"
+                                - img [ref=e694]
+                            - img [ref=e697]
+                          - generic [ref=e701]:
+                            - generic [ref=e704]:
+                              - generic [ref=e705] [cursor=pointer]:
+                                - radio "Included" [checked] [ref=e707]
+                                - generic [ref=e709]: Included
+                              - generic [ref=e710] [cursor=pointer]:
+                                - radio "Not Included" [ref=e712]
+                                - generic [ref=e714]: Not Included
+                            - generic [ref=e715]:
+                              - generic [ref=e716]:
+                                - heading "ประกันการเดินทาง" [level=3] [ref=e718]
+                                - generic [ref=e719]:
+                                  - generic [ref=e721]:
+                                    - generic [ref=e723]: Items
+                                    - textbox [ref=e725]: ประกันการเดินทาง
+                                  - generic [ref=e727]:
+                                    - generic [ref=e729]: Remark
+                                    - generic [ref=e730]:
+                                      - textbox "Please Select" [ref=e731]: "-"
+                                      - button "close-circle" [ref=e733] [cursor=pointer]:
+                                        - img "close-circle" [ref=e734]:
+                                          - img [ref=e735]
+                                  - generic [ref=e738]:
+                                    - generic [ref=e740]: Payment option
+                                    - generic [ref=e742] [cursor=pointer]:
+                                      - generic [ref=e744]:
+                                        - combobox [ref=e746]
+                                        - generic "Credit" [ref=e747]
+                                      - generic:
+                                        - img
+                                      - img [ref=e749]:
+                                        - img [ref=e750]
+                                  - generic [ref=e753]:
+                                    - generic [ref=e755]: Cost Type
+                                    - generic [ref=e757] [cursor=pointer]:
+                                      - generic [ref=e759]:
+                                        - combobox [ref=e761]
+                                        - generic "Person" [ref=e762]
+                                      - generic:
+                                        - img
+                                      - img [ref=e764]:
+                                        - img [ref=e765]
+                                  - generic [ref=e770]:
+                                    - generic [ref=e771]: Cost (THB)
+                                    - generic [ref=e772]:
+                                      - generic:
+                                        - button "Increase Value":
+                                          - img "up":
+                                            - img
+                                        - button "Decrease Value":
+                                          - img "down":
+                                            - img
+                                      - spinbutton "0.00" [ref=e774]: "32"
+                              - button [ref=e778] [cursor=pointer]:
+                                - img [ref=e780]
+                            - generic [ref=e786]:
+                              - generic [ref=e787]:
+                                - heading "น้ำดื่ม" [level=3] [ref=e789]
+                                - generic [ref=e790]:
+                                  - generic [ref=e792]:
+                                    - generic [ref=e794]: Items
+                                    - textbox [ref=e796]: น้ำดื่ม
+                                  - generic [ref=e798]:
+                                    - generic [ref=e800]: Remark
+                                    - generic [ref=e801]:
+                                      - textbox "Please Select" [ref=e802]: น้ำดื่ม 10+ กาแฟ 80
+                                      - button "close-circle" [ref=e804] [cursor=pointer]:
+                                        - img "close-circle" [ref=e805]:
+                                          - img [ref=e806]
+                                  - generic [ref=e809]:
+                                    - generic [ref=e811]: Payment option
+                                    - generic [ref=e813] [cursor=pointer]:
+                                      - generic [ref=e815]:
+                                        - combobox [ref=e817]
+                                        - generic "Credit" [ref=e818]
+                                      - generic:
+                                        - img
+                                      - img [ref=e820]:
+                                        - img [ref=e821]
+                                  - generic [ref=e824]:
+                                    - generic [ref=e826]: Cost Type
+                                    - generic [ref=e828] [cursor=pointer]:
+                                      - generic [ref=e830]:
+                                        - combobox [ref=e832]
+                                        - generic "Person" [ref=e833]
+                                      - generic:
+                                        - img
+                                      - img [ref=e835]:
+                                        - img [ref=e836]
+                                  - generic [ref=e841]:
+                                    - generic [ref=e842]: Cost (THB)
+                                    - generic [ref=e843]:
+                                      - generic:
+                                        - button "Increase Value":
+                                          - img "up":
+                                            - img
+                                        - button "Decrease Value":
+                                          - img "down":
+                                            - img
+                                      - spinbutton "0.00" [ref=e845]: "90"
+                              - button [ref=e849] [cursor=pointer]:
+                                - img [ref=e851]
+                            - generic [ref=e857]:
+                              - generic [ref=e858]:
+                                - heading "ค่าทางด่วน" [level=3] [ref=e860]
+                                - generic [ref=e861]:
+                                  - generic [ref=e863]:
+                                    - generic [ref=e865]: Items
+                                    - textbox [ref=e867]: ค่าทางด่วน
+                                  - generic [ref=e869]:
+                                    - generic [ref=e871]: Remark
+                                    - generic [ref=e872]:
+                                      - textbox "Please Select" [ref=e873]: "-"
+                                      - button "close-circle" [ref=e875] [cursor=pointer]:
+                                        - img "close-circle" [ref=e876]:
+                                          - img [ref=e877]
+                                  - generic [ref=e880]:
+                                    - generic [ref=e882]: Payment option
+                                    - generic [ref=e884] [cursor=pointer]:
+                                      - generic [ref=e886]:
+                                        - combobox [ref=e888]
+                                        - generic "Credit" [ref=e889]
+                                      - generic:
+                                        - img
+                                      - img [ref=e891]:
+                                        - img [ref=e892]
+                                  - generic [ref=e895]:
+                                    - generic [ref=e897]: Cost Type
+                                    - generic [ref=e899] [cursor=pointer]:
+                                      - generic [ref=e901]:
+                                        - combobox [ref=e903]
+                                        - generic "All" [ref=e904]
+                                      - generic:
+                                        - img
+                                      - img [ref=e906]:
+                                        - img [ref=e907]
+                                  - generic [ref=e912]:
+                                    - generic [ref=e913]: Cost (THB)
+                                    - generic [ref=e914]:
+                                      - generic:
+                                        - button "Increase Value":
+                                          - img "up":
+                                            - img
+                                        - button "Decrease Value":
+                                          - img "down":
+                                            - img
+                                      - spinbutton "0.00" [ref=e916]: "100"
+                              - button [ref=e920] [cursor=pointer]:
+                                - img [ref=e922]
+                            - generic [ref=e928]:
+                              - generic [ref=e929]:
+                                - heading "ค่าจอดรถ" [level=3] [ref=e931]
+                                - generic [ref=e932]:
+                                  - generic [ref=e934]:
+                                    - generic [ref=e936]: Items
+                                    - textbox [ref=e938]: ค่าจอดรถ
+                                  - generic [ref=e940]:
+                                    - generic [ref=e942]: Remark
+                                    - generic [ref=e943]:
+                                      - textbox "Please Select" [ref=e944]: "-"
+                                      - button "close-circle" [ref=e946] [cursor=pointer]:
+                                        - img "close-circle" [ref=e947]:
+                                          - img [ref=e948]
+                                  - generic [ref=e951]:
+                                    - generic [ref=e953]: Payment option
+                                    - generic [ref=e955] [cursor=pointer]:
+                                      - generic [ref=e957]:
+                                        - combobox [ref=e959]
+                                        - generic "Credit" [ref=e960]
+                                      - generic:
+                                        - img
+                                      - img [ref=e962]:
+                                        - img [ref=e963]
+                                  - generic [ref=e966]:
+                                    - generic [ref=e968]: Cost Type
+                                    - generic [ref=e970] [cursor=pointer]:
+                                      - generic [ref=e972]:
+                                        - combobox [ref=e974]
+                                        - generic "All" [ref=e975]
+                                      - generic:
+                                        - img
+                                      - img [ref=e977]:
+                                        - img [ref=e978]
+                                  - generic [ref=e983]:
+                                    - generic [ref=e984]: Cost (THB)
+                                    - generic [ref=e985]:
+                                      - generic:
+                                        - button "Increase Value":
+                                          - img "up":
+                                            - img
+                                        - button "Decrease Value":
+                                          - img "down":
+                                            - img
+                                      - spinbutton "0.00" [ref=e987]: "50"
+                              - button [ref=e991] [cursor=pointer]:
+                                - img [ref=e993]
+                            - generic [ref=e999]:
+                              - generic [ref=e1000]:
+                                - heading "ค่าเรือนำเที่ยว" [level=3] [ref=e1002]
+                                - generic [ref=e1003]:
+                                  - generic [ref=e1005]:
+                                    - generic [ref=e1007]: Items
+                                    - textbox [ref=e1009]: เรือดำเนิน
+                                  - generic [ref=e1011]:
+                                    - generic [ref=e1013]: Remark
+                                    - generic [ref=e1014]:
+                                      - textbox "Please Select" [ref=e1015]: "-"
+                                      - button "close-circle" [ref=e1017] [cursor=pointer]:
+                                        - img "close-circle" [ref=e1018]:
+                                          - img [ref=e1019]
+                                  - generic [ref=e1022]:
+                                    - generic [ref=e1024]: Payment option
+                                    - generic [ref=e1026] [cursor=pointer]:
+                                      - generic [ref=e1028]:
+                                        - combobox [ref=e1030]
+                                        - generic "Credit" [ref=e1031]
+                                      - generic:
+                                        - img
+                                      - img [ref=e1033]:
+                                        - img [ref=e1034]
+                                  - generic [ref=e1037]:
+                                    - generic [ref=e1039]: Cost Type
+                                    - generic [ref=e1041] [cursor=pointer]:
+                                      - generic [ref=e1043]:
+                                        - combobox [ref=e1045]
+                                        - generic "Fix" [ref=e1046]
+                                      - generic:
+                                        - img
+                                      - img [ref=e1048]:
+                                        - img [ref=e1049]
+                                  - generic [ref=e1051]:
+                                    - generic [ref=e1052]:
+                                      - generic [ref=e1054]:
+                                        - generic [ref=e1055]: Min (Pax)
+                                        - generic [ref=e1056]:
+                                          - generic:
+                                            - button "Increase Value" [ref=e1057] [cursor=pointer]:
+                                              - img "up" [ref=e1058]:
+                                                - img [ref=e1059]
+                                            - button "Decrease Value" [ref=e1061] [cursor=pointer]:
+                                              - img "down" [ref=e1062]:
+                                                - img [ref=e1063]
+                                          - spinbutton "0" [ref=e1066]: "1"
+                                      - generic [ref=e1068]:
+                                        - generic [ref=e1069]: Max (Pax)
+                                        - generic [ref=e1070]:
+                                          - generic:
+                                            - button "Increase Value" [ref=e1071] [cursor=pointer]:
+                                              - img "up" [ref=e1072]:
+                                                - img [ref=e1073]
+                                            - button "Decrease Value" [ref=e1075] [cursor=pointer]:
+                                              - img "down" [ref=e1076]:
+                                                - img [ref=e1077]
+                                          - spinbutton "0" [ref=e1080]: "6"
+                                      - generic [ref=e1082]:
+                                        - generic [ref=e1083]: Cost (THB)
+                                        - generic [ref=e1084]:
+                                          - generic:
+                                            - button "Increase Value":
+                                              - img "up":
+                                                - img
+                                            - button "Decrease Value":
+                                              - img "down":
+                                                - img
+                                          - spinbutton "0.00" [ref=e1086]: "600"
+                                      - img [ref=e1089] [cursor=pointer]
+                                    - generic [ref=e1093]:
+                                      - generic [ref=e1096]:
+                                        - generic:
+                                          - button "Increase Value" [ref=e1097] [cursor=pointer]:
+                                            - img "up" [ref=e1098]:
+                                              - img [ref=e1099]
+                                          - button "Decrease Value" [ref=e1101] [cursor=pointer]:
+                                            - img "down" [ref=e1102]:
+                                              - img [ref=e1103]
+                                        - spinbutton "0" [ref=e1106]: "7"
+                                      - generic [ref=e1109]:
+                                        - generic:
+                                          - button "Increase Value" [ref=e1110] [cursor=pointer]:
+                                            - img "up" [ref=e1111]:
+                                              - img [ref=e1112]
+                                          - button "Decrease Value" [ref=e1114] [cursor=pointer]:
+                                            - img "down" [ref=e1115]:
+                                              - img [ref=e1116]
+                                        - spinbutton "0" [ref=e1119]: "12"
+                                      - generic [ref=e1122]:
+                                        - generic:
+                                          - button "Increase Value":
+                                            - img "up":
+                                              - img
+                                          - button "Decrease Value":
+                                            - img "down":
+                                              - img
+                                        - spinbutton "0.00" [ref=e1124]: 1,200
+                                      - img [ref=e1127] [cursor=pointer]
+                                    - generic [ref=e1131]:
+                                      - generic [ref=e1134]:
+                                        - generic:
+                                          - button "Increase Value" [ref=e1135] [cursor=pointer]:
+                                            - img "up" [ref=e1136]:
+                                              - img [ref=e1137]
+                                          - button "Decrease Value" [ref=e1139] [cursor=pointer]:
+                                            - img "down" [ref=e1140]:
+                                              - img [ref=e1141]
+                                        - spinbutton "0" [ref=e1144]: "13"
+                                      - generic [ref=e1147]:
+                                        - generic:
+                                          - button "Increase Value" [ref=e1148] [cursor=pointer]:
+                                            - img "up" [ref=e1149]:
+                                              - img [ref=e1150]
+                                          - button "Decrease Value" [ref=e1152] [cursor=pointer]:
+                                            - img "down" [ref=e1153]:
+                                              - img [ref=e1154]
+                                        - spinbutton "0" [ref=e1157]: "18"
+                                      - generic [ref=e1160]:
+                                        - generic:
+                                          - button "Increase Value":
+                                            - img "up":
+                                              - img
+                                          - button "Decrease Value":
+                                            - img "down":
+                                              - img
+                                        - spinbutton "0.00" [ref=e1162]: 1,800
+                                      - img [ref=e1165] [cursor=pointer]
+                                    - generic [ref=e1169]:
+                                      - generic [ref=e1172]:
+                                        - generic:
+                                          - button "Increase Value" [ref=e1173] [cursor=pointer]:
+                                            - img "up" [ref=e1174]:
+                                              - img [ref=e1175]
+                                          - button "Decrease Value" [ref=e1177] [cursor=pointer]:
+                                            - img "down" [ref=e1178]:
+                                              - img [ref=e1179]
+                                        - spinbutton "0" [ref=e1182]: "19"
+                                      - generic [ref=e1185]:
+                                        - generic:
+                                          - button "Increase Value" [ref=e1186] [cursor=pointer]:
+                                            - img "up" [ref=e1187]:
+                                              - img [ref=e1188]
+                                          - button "Decrease Value" [ref=e1190] [cursor=pointer]:
+                                            - img "down" [ref=e1191]:
+                                              - img [ref=e1192]
+                                        - spinbutton "0" [ref=e1195]: "24"
+                                      - generic [ref=e1198]:
+                                        - generic:
+                                          - button "Increase Value":
+                                            - img "up":
+                                              - img
+                                          - button "Decrease Value":
+                                            - img "down":
+                                              - img
+                                        - spinbutton "0.00" [ref=e1200]: 2,400
+                                      - img [ref=e1203] [cursor=pointer]
+                                    - generic [ref=e1207]:
+                                      - generic [ref=e1210]:
+                                        - generic:
+                                          - button "Increase Value" [ref=e1211] [cursor=pointer]:
+                                            - img "up" [ref=e1212]:
+                                              - img [ref=e1213]
+                                          - button "Decrease Value" [ref=e1215] [cursor=pointer]:
+                                            - img "down" [ref=e1216]:
+                                              - img [ref=e1217]
+                                        - spinbutton "0" [ref=e1220]: "25"
+                                      - generic [ref=e1223]:
+                                        - generic:
+                                          - button "Increase Value" [ref=e1224] [cursor=pointer]:
+                                            - img "up" [ref=e1225]:
+                                              - img [ref=e1226]
+                                          - button "Decrease Value" [ref=e1228] [cursor=pointer]:
+                                            - img "down" [ref=e1229]:
+                                              - img [ref=e1230]
+                                        - spinbutton "0" [ref=e1233]: "30"
+                                      - generic [ref=e1236]:
+                                        - generic:
+                                          - button "Increase Value":
+                                            - img "up":
+                                              - img
+                                          - button "Decrease Value":
+                                            - img "down":
+                                              - img
+                                        - spinbutton "0.00" [ref=e1238]: 3,000
+                                      - img [ref=e1241] [cursor=pointer]
+                                    - button "Add fix cost" [ref=e1246] [cursor=pointer]:
+                                      - img [ref=e1248]
+                                      - generic [ref=e1250]: Add fix cost
+                              - button [ref=e1254] [cursor=pointer]:
+                                - img [ref=e1256]
+                            - button "Add Expense" [ref=e1264] [cursor=pointer]:
+                              - img [ref=e1266]
+                              - generic [ref=e1268]: Add Expense
+                        - generic [ref=e1269]:
+                          - generic [ref=e1270] [cursor=pointer]:
+                            - heading "Allowance" [level=3] [ref=e1272]:
+                              - generic [ref=e1273]:
+                                - img [ref=e1275]
+                                - generic [ref=e1280]: Allowance
+                                - img [ref=e1282]
+                            - img [ref=e1285]
+                          - generic [ref=e1292]:
+                            - generic [ref=e1293] [cursor=pointer]:
+                              - radio "Included" [ref=e1295]
+                              - generic [ref=e1297]: Included
+                            - generic [ref=e1298] [cursor=pointer]:
+                              - radio "Not Included" [checked] [ref=e1300]
+                              - generic [ref=e1302]: Not Included
+                        - generic [ref=e1303]:
+                          - generic [ref=e1304]:
+                            - img [ref=e1306]
+                            - generic [ref=e1310]: Extra Cost
+                          - generic [ref=e1312]:
+                            - generic [ref=e1313] [cursor=pointer]:
+                              - 'heading "Option : 1" [level=3] [ref=e1315]':
+                                - generic [ref=e1316]:
+                                  - generic [ref=e1318]: "Option : 1"
+                                  - img [ref=e1320]
+                              - img [ref=e1323]
+                            - generic [ref=e1330]:
+                              - generic [ref=e1331] [cursor=pointer]:
+                                - radio "Extra" [ref=e1333]
+                                - generic [ref=e1335]: Extra
+                              - generic [ref=e1336] [cursor=pointer]:
+                                - radio "Not Extra" [checked] [ref=e1338]
+                                - generic [ref=e1340]: Not Extra
+            - generic [ref=e1341]:
+              - button "Previous" [ref=e1342] [cursor=pointer]:
+                - img [ref=e1344]
+                - text: Previous
+              - generic [ref=e1346]:
+                - button "Save and exit" [ref=e1347] [cursor=pointer]:
+                  - img [ref=e1349]
+                  - text: Save and exit
+                - button "Continue" [ref=e1353] [cursor=pointer]:
+                  - text: Continue
+                  - img [ref=e1355]

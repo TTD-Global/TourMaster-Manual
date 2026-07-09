@@ -1,6 +1,7 @@
 ---
 title: Group Type
 sidebar_position: 1
+toc_max_heading_level: 2
 ---
 
 # Group Type
@@ -65,27 +66,6 @@ sidebar_position: 1
 
 ---
 
-## Action
-
-กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Group Type เพื่อดูรายละเอียด
-
-:::caution ข้อควรระวัง
-ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
-:::
-
-### View
-
-แสดงข้อมูล Group Type แบบ read-only
-
-- กดปุ่ม **Edit** เพื่อเข้าสู่โหมดแก้ไข
-
-### Edit
-
-แก้ไขข้อมูล Group Type ได้ทุกส่วน รวมถึงเปลี่ยนสถานะ Active / Inactive
-
-1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
-2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
-
 ## Create
 
 กดปุ่ม **Create Group Type** แล้วกรอกข้อมูลในฟอร์ม
@@ -114,3 +94,32 @@ sidebar_position: 1
 :::info
 **Recommend** ควรน้อยกว่าหรือเท่ากับ **Capacity** — หากมากกว่าจะไม่สามารถบันทึกได้
 :::
+
+---
+
+## Action
+
+กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อ Group Type เพื่อดูรายละเอียด
+
+:::caution ข้อควรระวัง
+ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
+:::
+
+### View
+
+แสดงข้อมูล Group Type แบบ read-only
+
+- กดปุ่ม **Edit** เพื่อเข้าสู่โหมดแก้ไข
+
+### Edit
+
+<div className="manual-img-500">
+
+![Group Type Edit](/img/Vehicle/group-type-edit.png)
+
+</div>
+
+แก้ไขข้อมูล Group Type ได้ทุกส่วน รวมถึงเปลี่ยนสถานะ Active / Inactive
+
+1. แก้ไขข้อมูลในฟิลด์ที่ต้องการ
+2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก

@@ -1,5 +1,6 @@
 ---
 title: Zone Transfer
+toc_max_heading_level: 2
 ---
 
 # Zone Transfer
@@ -64,25 +65,6 @@ title: Zone Transfer
 
 ---
 
-## Action
-
-กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อโซนเพื่อเข้าดูรายละเอียด
-
-:::caution ข้อควรระวัง
-ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
-:::
-
-### View
-
-แสดงข้อมูล Zone Transfer แบบ read-only พร้อมรายชื่อจุดย่อยทั้งหมดภายในโซน
-
-### Edit
-
-แก้ไขข้อมูล Zone Transfer ได้ทุกส่วน
-
-1. แก้ไขข้อมูลที่ต้องการ
-2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
-
 ## Create
 
 กดปุ่ม **Create Zone Transfer** แล้วกรอกข้อมูลในฟอร์ม
@@ -106,3 +88,30 @@ title: Zone Transfer
 :::tip เคล็ดลับ
 สามารถเพิ่มจุดย่อย (Zone Transfer Name) ได้หลายรายการภายใต้ Destination เดียวกัน โดยกด **Add Zone Transfer** ซ้ำ
 :::
+
+---
+
+## Action
+
+กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อเลือกคำสั่ง หรือคลิกที่ชื่อโซนเพื่อเข้าดูรายละเอียด
+
+:::caution ข้อควรระวัง
+ในโหมด View จะ**ไม่สามารถแก้ไขข้อมูล**ได้ — หากต้องการแก้ไขให้กดปุ่ม **Edit** ภายในหน้า View
+:::
+
+### View
+
+แสดงข้อมูล Zone Transfer แบบ read-only พร้อมรายชื่อจุดย่อยทั้งหมดภายในโซน
+
+### Edit
+
+<div className="manual-img-500">
+
+![Zone Transfer Edit](/img/ZoneTransfer/zone-transfer-edit.png)
+
+</div>
+
+แก้ไขข้อมูล Zone Transfer ได้ทุกส่วน
+
+1. แก้ไขข้อมูลที่ต้องการ
+2. กด **Save** เพื่อบันทึก หรือ **Cancel** เพื่อยกเลิก
