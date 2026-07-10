@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bókun vs Tour System — Comparison</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14212F; --teal:#1B3045; --teal-2:#2C4A68;
+  --coral:#FC5B04; --coral-2:#FF7F3F;
+  --cream:#F5F7FA; --card:#FFFFFF; --line:#E2E6EA; --muted:#5C6773;
+  --radius:18px; --shadow:0 20px 45px -20px rgba(27,48,69,0.25);
+  --ease:cubic-bezier(0.16,1,0.3,1);
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Noto Sans Thai','Prompt',sans-serif;background:var(--cream);color:var(--ink);line-height:1.7;}
+h1,h2,h3,h4{font-family:'Prompt','Noto Sans Thai',sans-serif;font-weight:700;letter-spacing:-0.01em;color:var(--teal);}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px;}
+header{position:sticky;top:0;z-index:50;background:rgba(20,33,47,0.92);backdrop-filter:blur(10px);}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:16px 24px;max-width:1120px;margin:0 auto;}
+.nav .logo{color:#fff;font-weight:800;font-size:20px;}
+.nav .logo span{color:var(--coral);}
+.nav a{color:#cfd8e3;text-decoration:none;font-size:14px;margin-left:28px;}
+
+.hero{background:linear-gradient(160deg,#0A121C,#16324A 55%,#121F2D);color:#fff;padding:90px 0 70px;}
+.hero .wrap{display:flex;flex-direction:column;align-items:center;text-align:center;gap:20px;}
+.eyebrow{display:inline-block;border-radius:999px;padding:6px 14px;font-size:12px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--coral);background:rgba(252,91,4,0.12);}
+.eyebrow.alt{color:#8fb4d8;background:rgba(143,180,216,0.12);}
+.hero h1{font-size:42px;color:#fff;max-width:820px;}
+.hero p.sub{max-width:680px;color:#b9c6d6;font-size:17px;}
+
+.stats{background:var(--teal);color:#fff;padding:34px 0;}
+.stats .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center;}
+.stats .num{font-size:26px;font-weight:800;color:var(--coral-2);}
+.stats .lbl{font-size:13px;color:#c8d3de;margin-top:4px;}
+
+.section{padding:64px 0;}
+.section-head{max-width:720px;margin:0 auto 36px;text-align:center;}
+.section-head h2{font-size:28px;margin-bottom:10px;}
+.section-head p{color:var(--muted);font-size:15px;}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:28px;}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:22px;}
+@media (max-width:800px){.two-col{grid-template-columns:1fr;} .stats .grid{grid-template-columns:repeat(2,1fr);}}
+
+.compare-table{width:100%;border-collapse:collapse;background:var(--card);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);}
+.compare-table th{background:var(--teal);color:#fff;text-align:left;padding:14px 18px;font-size:14px;font-weight:700;}
+.compare-table td{padding:16px 18px;border-top:1px solid var(--line);font-size:14.5px;vertical-align:top;}
+.compare-table td:first-child{font-weight:700;color:var(--teal);width:20%;}
+.compare-table tr:nth-child(even) td{background:#FAFBFC;}
+
+.pillars{background:var(--teal);color:#fff;}
+.pillars .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;}
+.pillar-card{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.12);border-radius:var(--radius);padding:26px;}
+.pillar-card h3{color:#fff;font-size:18px;margin-bottom:12px;}
+.pillar-card ul{padding-left:18px;color:#dbe5ef;font-size:14.5px;}
+.pillar-card li{margin-bottom:8px;}
+
+ul.bullets{padding-left:20px;}
+ul.bullets li{margin-bottom:10px;}
+ul.bullets b{color:var(--teal);}
+
+.callout{background:#FFF4EC;border:1px solid #FFD9BE;border-radius:var(--radius);padding:20px 24px;font-size:14.5px;color:#7A3B10;margin:18px 0;}
+.callout b{color:var(--coral);}
+
+.summary-box{border-left:4px solid var(--coral);background:#fff;border-radius:12px;padding:22px 26px;box-shadow:var(--shadow);font-size:15px;}
+
+.bug-note{background:#fff;border:1px dashed #C9CFD6;border-radius:var(--radius);padding:22px;font-size:14px;color:var(--muted);}
+.bug-note li{margin-bottom:8px;}
+
+.cta{background:linear-gradient(135deg,#16324A,#0A121C);border-radius:28px;color:#fff;text-align:center;padding:50px 30px;margin:0 24px 60px;max-width:1072px;margin-left:auto;margin-right:auto;}
+.cta h2{color:#fff;font-size:26px;margin-bottom:10px;}
+.cta p{color:#b9c6d6;}
+
+footer{background:linear-gradient(160deg,#0A121C,#121F2D);color:#8b97a5;text-align:center;padding:30px 0;font-size:13px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="logo">Tour<span>Compare</span></div>
+    <div>
+      <a href="#overview">ภาพรวม</a>
+      <a href="#menu">โครงสร้าง</a>
+      <a href="#booking">Booking</a>
+      <a href="#channels">ช่องทางขาย</a>
+      <a href="#summary">สรุป</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Product Comparison</span>
+    <h1>Bókun vs Tour System</h1>
+    <p class="sub">สรุปผลการทดลองใช้งานจริงทุกฟังก์ชันของ Bókun (Trial Account) เปรียบเทียบกับ Tour System — จากการทดลองสร้างสินค้าจริง ตั้งค่า Availability/Pricing และทดลอง Quick Book ด้วยตนเอง</p>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="wrap grid">
+    <div><div class="num">2</div><div class="lbl">แนวคิดหลักที่ต่างกัน</div></div>
+    <div><div class="num">8+</div><div class="lbl">เมนูหลักที่สำรวจ</div></div>
+    <div><div class="num">2,000+</div><div class="lbl">Reseller ใน Bókun Marketplace</div></div>
+    <div><div class="num">0</div><div class="lbl">การชำระเงินจริงระหว่างทดสอบ</div></div>
+  </div>
+</section>
+
+<section class="section" id="overview">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow alt">01 · ภาพรวม</span>
+      <h2>ภาพรวมการสำรวจ</h2>
+    </div>
+    <div class="card">
+      <p>ทดลองสร้างบัญชี Bókun Start Trial จริง สร้าง Experience ทดสอบ ("Bangkok Temple Walking Tour") ตั้งค่า Availability, Pricing ครบ, ทดลอง Quick Book, และไล่ดูทุกเมนูหลัก: Bookings, Experiences, Sales tools, Your resellers, Marketplace, Operations, Reports, Settings โดยหลีกเลี่ยงขั้นตอนที่ต้องผูกบัตรเครดิตหรือชำระเงินจริงทั้งหมด</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="menu" style="background:#fff;">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow alt">02 · โครงสร้างเมนูหลัก</span>
+      <h2>Bókun เน้นขาย vs Tour System เน้นปฏิบัติการ</h2>
+    </div>
+    <table class="compare-table">
+      <tr><th>หมวด</th><th>Bókun</th><th>Tour System</th></tr>
+      <tr><td>แนวคิดหลัก</td><td>แพลตฟอร์มขาย + จัดจำหน่าย (OTA Distribution + Booking Engine) เน้นหาลูกค้าและปิดการขาย</td><td>ระบบปฏิบัติการหลังบ้าน (Back-office) เน้นบริหารทริปหลังได้ Booking แล้ว</td></tr>
+      <tr><td>เมนูระดับบนสุด</td><td>Bookings, Experiences, Sales tools, Your resellers, Marketplace, Operations, Reports, App store, Agents</td><td>Dashboard, Bookings, Excursion, Pick-up/Drop-off Transport, Check In, Payment, Program, Vehicle, Employee, User, Zone Transfer</td></tr>
+      <tr><td>จุดเริ่มต้นใช้งาน</td><td>ต้องสร้าง "Experience" (สินค้า) ให้ Active ก่อน เครื่องมือ Booking อื่นๆ ถึงจะปลดล็อก</td><td>ใช้งานได้ทันทีจากข้อมูล Program ที่ตั้งไว้ ไม่มีขั้นตอน "Activate" แยก</td></tr>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow alt">03 · สินค้า/โปรแกรม</span>
+      <h2>Experience (Bókun) vs Program (Tour System)</h2>
+    </div>
+    <div class="two-col">
+      <div class="card">
+        <h3 style="margin-bottom:12px;">Bókun — Wizard ขายสินค้า</h3>
+        <p style="margin-bottom:14px;color:var(--muted);">ใช้ตัวช่วยแบบ wizard ทีละขั้น (Title → Description → Photos → Availability → Pricing) คล้าย "ตัวช่วยสร้างสินค้าขาย" มากกว่า "ตั้งค่าโปรแกรมทัวร์"</p>
+        <ul class="bullets">
+          <li><b>Generate with AI</b> — ปุ่มให้ AI ช่วยเขียนคำโฆษณา/คำบรรยายสินค้า</li>
+          <li><b>Pricing categories</b> หลายแบบ (Adults, Children, Infant, Senior, Youth) ตั้งเป็น Default ได้</li>
+          <li><b>Availability rule</b> แบบ recurring (วันในสัปดาห์ + PAX ขั้นต่ำ-สูงสุด + สี rule)</li>
+          <li><b>Auto FX</b> — แปลงสกุลเงินอัตโนมัติสำหรับขายข้ามประเทศ</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:12px;">Tour System — ควบคุมต้นทุน</h3>
+        <p style="color:var(--muted);">เน้นความละเอียดด้านต้นทุนปฏิบัติการแทน ได้แก่ Itinerary, Cost, Allowance, Seller, Extra Cost, Guide Fee ซึ่ง Bókun ไม่มีแนวคิดนี้เลยในหน้าสร้างสินค้า เพราะ Bókun ใช้ THB เพียงสกุลเดียวและไม่มีชั้นควบคุมต้นทุนราคาต่อทริปแบบนี้</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="booking" style="background:#fff;">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow alt">04 · การสร้าง Booking</span>
+      <h2>2 เส้นทางของ Bókun vs ฟอร์มเดียวจบของ Tour System</h2>
+    </div>
+    <div class="two-col">
+      <div class="card">
+        <h3 style="margin-bottom:10px;">Create Booking (Storefront)</h3>
+        <p style="color:var(--muted);">จำลองหน้าเว็บขายจริงที่ลูกค้าจะเห็น เลือกวันที่ในปฏิทิน เลือกจำนวนคน คำนวณราคาสด</p>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:10px;">Quick Book (Staff-facing)</h3>
+        <p style="color:var(--muted);">Wizard 5 ขั้นตอน: เลือกสินค้า → วันเวลา → จำนวนคน+ราคา → ข้อมูลลูกค้า (optional) → วิธีชำระเงิน (Pay now / Already paid / Pay later)</p>
+      </div>
+    </div>
+    <div class="callout">
+      <b>ข้อสังเกตจากการทดสอบจริง:</b> ในขั้นตอน Quick Book ช่อง "Phone" ที่เป็น Optional เกิด validation error "Invalid phone number" ค้างอยู่แม้ปล่อยว่าง ทำให้กดยืนยัน Booking ไม่สำเร็จแม้เลือก "Pay later" แล้ว — เป็นจุดบกพร่อง (bug) ของ Bókun ที่พบระหว่างทดสอบจริง
+    </div>
+    <div class="card">
+      <p>Tour System ใช้ Create Booking แบบฟอร์มเดียวจบ ผูก Itinerary/Cost/Allowance ที่ตั้งไว้ล่วงหน้าจาก Program ทันที ไม่มีแนวคิด "ตะกร้าสินค้า" หรือ "ช่องทางชำระเงินลูกค้า" เพราะ Tour System ไม่ได้เก็บเงินจากนักท่องเที่ยวโดยตรง</p>
+    </div>
+  </div>
+</section>
+
+<section class="section pillars" id="channels">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">05 · จุดต่างที่ใหญ่ที่สุด</span>
+      <h2 style="color:#fff;">ช่องทางขายและการกระจายสินค้า</h2>
+      <p style="color:#c8d3de;">ส่วนที่ Bókun มีแต่ Tour System ไม่มีเลย เพราะ Bókun ถูกออกแบบให้เป็นทั้งเครื่องมือขายและเครื่องมือปฏิบัติการในตัวเดียว</p>
+    </div>
+    <div class="grid">
+      <div class="pillar-card"><h3>Booking Widgets</h3><ul><li>Button, Booking Calendar, Product page แปะลงเว็บไซต์ตัวเองได้ทันที</li></ul></div>
+      <div class="pillar-card"><h3>OTAs</h3><ul><li>เชื่อมต่อ Viator, GetYourGuide, Airbnb, booknordics, Civitatis, DayTrip4U ด้วยคลิกเดียว</li></ul></div>
+      <div class="pillar-card"><h3>Marketplace</h3><ul><li>เครือข่าย B2B กว่า 2,000 Operator/Reseller พร้อมระบบ Contract, Amendment, Proposal, Conversation</li></ul></div>
+      <div class="pillar-card"><h3>Booking Agents & Referral</h3><ul><li>Local agent จองแทนลูกค้าได้ในระบบ / สร้างลิงก์ติดตามคอมมิชชันสำหรับ Influencer</li></ul></div>
+    </div>
+    <p style="text-align:center;color:#c8d3de;margin-top:24px;font-size:14.5px;">Tour System ไม่มีแนวคิด "ช่องทางขาย" เลย เพราะ Booking ถูกสร้างจากฝ่ายขาย/ระบบภายในอยู่แล้ว จึงเน้นบริหารสิ่งที่เกิดขึ้น "หลัง" ได้ Booking แทน</p>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow alt">06 · Operations</span>
+      <h2>การปฏิบัติงานหน้างาน</h2>
+    </div>
+    <table class="compare-table">
+      <tr><th>หมวด</th><th>Bókun</th><th>Tour System</th></tr>
+      <tr><td>รายชื่อผู้โดยสาร</td><td>Passenger list — export + "diary entry" บันทึกข้อความอิสระต่อวัน</td><td>Check-in / Check-in List — ผูกกับ Actual Pax และ No-show โดยตรง</td></tr>
+      <tr><td>จุดรับ</td><td>Pick-up list — จัดการคนขับ (Manage drivers) ในหน้าเดียวกัน</td><td>Pick-up Transport แยกเป็นชุดเมนู (Own Vehicle / Supplier Group)</td></tr>
+      <tr><td>ข้อมูลลูกค้า</td><td>Customers — CRM เก็บประวัติ/อีเมลลูกค้าทุกคน ส่งอีเมลได้จากระบบ</td><td>ไม่มี — เก็บเฉพาะข้อมูลผู้ใช้งานภายใน ไม่ใช่ CRM ลูกค้า</td></tr>
+      <tr><td>ปิดรอบขาย</td><td>Toggle ปิดรอบรายวันได้ทันที (ฉุกเฉิน/เต็ม)</td><td>ไม่มีฟีเจอร์เฉพาะ ต้องจัดการผ่านสถานะ Booking/Trip</td></tr>
+      <tr><td>ทรัพยากร</td><td>Resource overview report — เห็นภาพรวมการใช้รถ/ทีมงานข้ามสินค้า</td><td>Vehicle/Employee module แยกจัดการเป็นรายแผนก</td></tr>
+    </table>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow alt">07 · รายงาน/การเงิน</span>
+      <h2>มุมมองขาย vs มุมมองต้นทุน</h2>
+    </div>
+    <table class="compare-table">
+      <tr><th>หมวด</th><th>Bókun</th><th>Tour System</th></tr>
+      <tr><td>มุมมองหลัก</td><td>มองจาก "ช่องทางขาย" (Sales overview แยกตาม Channel, Income statement, Referral tracking พร้อมคอมมิชชัน)</td><td>มองจาก "ต้นทุนปฏิบัติการ" (Advance, Expense, Balance, Cost Report แยกตามรถ/ไกด์/Supplier)</td></tr>
+      <tr><td>การคืนเงิน</td><td>Enhanced refund terms — ตั้งเงื่อนไขคืนเงินลูกค้าได้เอง</td><td>ไม่มี เพราะไม่ได้รับชำระเงินจากลูกค้าโดยตรง</td></tr>
+    </table>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow alt">08 · ผู้ใช้งาน & สิทธิ์</span>
+      <h2>User Roles, Connections และ Sales Settings</h2>
+    </div>
+    <div class="card">
+      <ul class="bullets">
+        <li>Bókun มี <b>User Roles</b> สำเร็จรูป 6 แบบ (Admin, Driver/Guide, Product manager, Sales, Sales manager, Technical) — ใกล้เคียงกับ Roles/Permissions ของ Tour System</li>
+        <li>Bókun มี <b>Connections</b> (API keys, Webhooks) เปิดให้ Developer เชื่อมระบบภายนอกเอง — Tour System ไม่มีชั้นนี้ให้ผู้ใช้ทั่วไปเข้าถึง</li>
+        <li>Bókun มี <b>Sales settings</b> ครบชุด (Payment providers: Stripe/PayPal/RePayD, Promo codes, Commission groups, Terms & Conditions) เพราะต้องรับเงินจากลูกค้าโดยตรง</li>
+        <li>หน้า <b>Password & authentication</b> ของ Bókun เป็น self-service เต็มรูปแบบ รองรับ Google SSO ส่วน Tour System ยังเป็นแค่ popup Reset Password ที่ Admin กดให้</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="summary">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow alt">09 · สรุป</span>
+      <h2>จุดแข็ง-จุดต่างที่สำคัญที่สุด</h2>
+    </div>
+    <div class="two-col">
+      <div class="card">
+        <h3 style="margin-bottom:12px;">Bókun แข็งเรื่อง "หาลูกค้า/ขาย"</h3>
+        <ul class="bullets">
+          <li>ช่องทางกระจายสินค้าครบวงจร (Widget, OTA, Marketplace, Agent, Referral)</li>
+          <li>CRM ลูกค้า, Promo code, ระบบชำระเงินในตัว, AI ช่วยเขียนคำโฆษณา</li>
+          <li>เหมาะกับธุรกิจที่ต้องการหาลูกค้าใหม่ผ่านช่องทางออนไลน์หลากหลาย</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3 style="margin-bottom:12px;">Tour System แข็งเรื่อง "ควบคุมงานหลังบ้าน"</h3>
+        <ul class="bullets">
+          <li>ผูก Booking เข้ากับกลุ่ม รถ ไกด์ Job Order และต้นทุนจริงในระบบเดียวอย่างละเอียดกว่ามาก</li>
+          <li>แยกเงินทดรอง/ค่าใช้จ่ายจริง/ยอดชดเชยเป็นขั้นตอนบัญชีเฉพาะ ซึ่ง Bókun ไม่มีแนวคิดนี้</li>
+          <li>เหมาะกับองค์กรที่ Booking เข้ามาจากฝ่ายขายอยู่แล้ว ต้องการควบคุมต้นทุนรายทริปละเอียด</li>
+        </ul>
+      </div>
+    </div>
+    <div class="summary-box" style="margin-top:22px;">
+      สรุปสั้นๆ: Bókun ตอบโจทย์ "ก่อนขาย" และ "ระหว่างขาย" ได้ดีมาก แต่รายละเอียด "หลังขาย" (ปฏิบัติการหน้างาน + ปิดต้นทุน) ตื้นกว่า Tour System ชัดเจน ส่วน Tour System ตรงข้ามกัน คือแทบไม่มีชั้น "ขาย" เลย แต่ลึกมากในชั้น "ปฏิบัติการและต้นทุน" — <b>ทั้งสองระบบจึงเสริมกันได้มากกว่าจะแข่งกันโดยตรง</b>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="background:#fff;">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow alt">10 · ข้อควรทราบ</span>
+      <h2>ข้อควรทราบจากการทดสอบ</h2>
+    </div>
+    <div class="bug-note">
+      <ul>
+        <li>สร้างสินค้าทดสอบ "Bangkok Temple Walking Tour" (#1250611) ไว้ในบัญชี Bókun Trial เพื่อปลดล็อกฟีเจอร์สำรวจ — ยังคง Active อยู่ในระบบ ถ้าต้องการให้ปิด/ลบแจ้งได้</li>
+        <li>ไม่ได้ผูกบัตรเครดิต ไม่ได้เชื่อมต่อ Payment provider ไม่ได้ส่ง Contract ใน Marketplace จริง และไม่มีการชำระเงินใดๆ เกิดขึ้นระหว่างการทดสอบ</li>
+        <li>พบ bug ในขั้นตอน Quick Book ที่ validation ช่อง Phone (Optional) ค้าง Error แม้ปล่อยว่าง ทำให้ไม่สามารถกดยืนยัน Booking แบบ Pay later ให้จบขั้นตอนได้ในการทดสอบนี้</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="cta">
+  <h2>Bókun vs Tour System</h2>
+  <p>สองระบบ สองแนวคิด — ขายกับปฏิบัติการ ที่เสริมกันมากกว่าจะแข่งกัน</p>
+</div>
+
+<footer>
+  © 2026 Tour System Internal Report — จัดทำจากการทดลองใช้งานจริงบน Bókun Trial Account
+</footer>
+
+</body>
+</html>

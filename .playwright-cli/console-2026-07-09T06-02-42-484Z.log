@@ -1,0 +1,14 @@
+[      87ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…wNDJ9.zHoRtEptULlg1cQC3uebE8fBWMQQPLHlNAFbzfTgdio, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[      88ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     102ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     102ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     254ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance?date=2026-07-07&page=1&page_size=15&payment_status=completed:0
+[     254ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance?date=2026-07-07&page=1&page_size=15&payment_status=completed:0
+[     254ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance?date=2026-07-07&page=1&page_size=15&payment_status=completed:0
+[     262ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     811ms] [ERROR] Failed to load resource: the server responded with a status of 400 () @ https://dev-green-api.techmaster.in.th/api/payments/payment-advance/search?date=2026-07-07&page=1&page_size=15&payment_status=completed:0
+[     822ms] Error: payment_status must be one of the following values: pending, approve, reject
+    at l (https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:1:115629)
+    at async Object.get (https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:1:117029)
+    at async Object.getAllAdvance (https://dev-green.techmaster.in.th/_next/static/chunks/5871-3d0d943f84498ebb.js:1:188890)
+    at async l (https://dev-green.techmaster.in.th/_next/static/chunks/5871-3d0d943f84498ebb.js:1:193058)

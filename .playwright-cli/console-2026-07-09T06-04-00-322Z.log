@@ -1,0 +1,14 @@
+[     165ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…wNDJ9.zHoRtEptULlg1cQC3uebE8fBWMQQPLHlNAFbzfTgdio, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     165ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     197ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     197ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     231ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     231ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     338ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance/70:0
+[     338ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance/70:0
+[     338ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance/70:0
+[     426ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     426ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     427ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     427ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     445ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0

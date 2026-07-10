@@ -1,0 +1,8 @@
+[      58ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…wNDJ9.zHoRtEptULlg1cQC3uebE8fBWMQQPLHlNAFbzfTgdio, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[      58ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[      67ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[      68ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     212ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     219ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance?date=2026-08-01&page=1&page_size=15&payment_status=pending:0
+[     219ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance?date=2026-08-01&page=1&page_size=15&payment_status=pending:0
+[     219ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance?date=2026-08-01&page=1&page_size=15&payment_status=pending:0

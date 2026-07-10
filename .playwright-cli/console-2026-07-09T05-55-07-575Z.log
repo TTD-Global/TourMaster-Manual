@@ -1,0 +1,18 @@
+[     156ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…wNDJ9.zHoRtEptULlg1cQC3uebE8fBWMQQPLHlNAFbzfTgdio, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     156ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     170ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     170ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[     349ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance?date=2026-07-07&page=1&page_size=15&payment_status=pending:0
+[     349ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance?date=2026-07-07&page=1&page_size=15&payment_status=pending:0
+[     349ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance?date=2026-07-07&page=1&page_size=15&payment_status=pending:0
+[     398ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-29b91dc214948a75.js:0
+[  176351ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0
+[  176351ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0
+[  176614ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0
+[  176614ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0
+[  176615ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0
+[  176615ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0
+[  215028ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0
+[  215028ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0
+[  234447ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0
+[  234448ms] [LOG] dataExtraAdvance [Object] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-c77b3d9a7b9f7ef6.js:0

@@ -1,0 +1,384 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [expanded] [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menu [ref=e57]:
+              - menuitem "Advance" [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+                - generic [ref=e61]: Advance
+              - menuitem "Expenses" [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+                - generic [ref=e65]: Expenses
+              - menuitem "Balance" [ref=e66] [cursor=pointer]:
+                - img [ref=e67]
+                - generic [ref=e69]: Balance
+              - menuitem "Report" [ref=e70] [cursor=pointer]:
+                - img [ref=e71]
+                - generic [ref=e73]: Report
+          - separator [ref=e74]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e75] [cursor=pointer]:
+            - img [ref=e76]
+            - generic [ref=e80]: Program
+          - menuitem "Seller" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e84]: Seller
+          - menuitem "Vehicle" [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+            - generic [ref=e93]: Vehicle
+          - menuitem "Employee" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e99]: Employee
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Thu : 09 Jul 2026, 12:59"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e402]:
+          - generic [ref=e405]:
+            - generic [ref=e406]: Payment
+            - img [ref=e407]
+            - generic [ref=e409] [cursor=pointer]: Expense
+            - img [ref=e410]
+            - generic [ref=e412]: Edit
+          - generic [ref=e426]:
+            - generic [ref=e427]:
+              - generic [ref=e428]:
+                - paragraph [ref=e429]: "5"
+                - paragraph [ref=e430]: Pax No.ADV
+              - img [ref=e432]
+            - generic [ref=e437]:
+              - generic [ref=e438]:
+                - paragraph [ref=e439]: "4"
+                - paragraph [ref=e440]: Checked In
+              - img [ref=e442]
+            - generic [ref=e445]:
+              - generic [ref=e446]:
+                - paragraph [ref=e447]: "1"
+                - paragraph [ref=e448]: No show
+              - img [ref=e450]
+            - generic [ref=e455]:
+              - generic [ref=e456]:
+                - paragraph [ref=e457]: "4"
+                - paragraph [ref=e458]: Amount Pax Act.
+              - img [ref=e460]
+          - generic [ref=e466]:
+            - generic [ref=e467]:
+              - generic [ref=e468]:
+                - generic [ref=e469]:
+                  - generic [ref=e470]:
+                    - img [ref=e472]
+                    - generic [ref=e474]: 07/07/2026
+                  - generic [ref=e475]:
+                    - img [ref=e477]
+                    - generic [ref=e480]: 07:30
+                  - generic [ref=e481]:
+                    - img [ref=e483]
+                    - generic [ref=e486]: Private
+                - generic [ref=e487]:
+                  - generic [ref=e490]: Pending
+                  - generic [ref=e491]:
+                    - img [ref=e493]
+                    - generic [ref=e496]: 5 / 10
+              - generic [ref=e497]:
+                - generic [ref=e498]:
+                  - img [ref=e500]
+                  - generic [ref=e503]: Trip Code No. EC26VEEY
+                - generic [ref=e505]:
+                  - generic [ref=e506]: Program name
+                  - generic [ref=e507]: ":"
+                  - generic [ref=e508]: "[One asia ]Private · Sugar House, Floating & Maeklong Train"
+                - generic [ref=e510]:
+                  - generic [ref=e511]: Remark
+                  - generic [ref=e512]: ":"
+                  - generic [ref=e513]: "-"
+            - generic [ref=e515]:
+              - paragraph [ref=e516]: Guide Information
+              - generic [ref=e518]:
+                - generic [ref=e519]: Guide Name
+                - generic [ref=e520]: ":"
+                - generic [ref=e521]: G. Aod-JP
+              - generic [ref=e523]:
+                - generic [ref=e524]: Bank Detail
+                - generic [ref=e525]: ":"
+                - generic [ref=e526]:
+                  - img "G. Aod-JP" [ref=e527]
+                  - generic [ref=e528]: "The Siam Commercial Bank Public Company Limited : 113-4-81589-1 Kusuma Nongpromma"
+          - generic [ref=e529]:
+            - generic [ref=e530]:
+              - generic [ref=e531]:
+                - img [ref=e532]
+                - paragraph [ref=e537]: Expense
+              - generic [ref=e538]:
+                - generic [ref=e539]:
+                  - generic [ref=e540]:
+                    - img [ref=e541]
+                    - text: Guide
+                  - table [ref=e552]:
+                    - rowgroup [ref=e561]:
+                      - 'row "Select all # Guide Items Payment Cost Type Cost (Unit) Act.Pax Expense" [ref=e781]':
+                        - 'columnheader "Select all #" [ref=e782]':
+                          - generic [ref=e564]:
+                            - checkbox "Select all" [checked] [ref=e785] [cursor=pointer]
+                            - generic [ref=e565]: "#"
+                        - columnheader "Guide Items" [ref=e566]
+                        - columnheader "Payment" [ref=e567]
+                        - columnheader "Cost Type" [ref=e568]
+                        - columnheader "Cost (Unit)" [ref=e569]
+                        - columnheader "Act.Pax" [ref=e570]
+                        - columnheader "Expense" [ref=e571]
+                    - rowgroup [ref=e572]:
+                      - row "1 Guide 1 Credit All 1,800.00 4 1800" [ref=e787]:
+                        - cell "1" [ref=e574]:
+                          - generic [ref=e575]:
+                            - checkbox [checked] [ref=e791] [cursor=pointer]
+                            - generic [ref=e576]: "1"
+                        - cell "Guide 1" [ref=e577]:
+                          - generic [ref=e578]: Guide 1
+                        - cell "Credit" [ref=e579]
+                        - cell "All" [ref=e580]:
+                          - generic [ref=e581]: All
+                        - cell "1,800.00" [ref=e582]
+                        - cell "4" [ref=e583]:
+                          - spinbutton [ref=e795]: "4"
+                        - cell "1800" [ref=e796]:
+                          - spinbutton [ref=e799]: "1800.00"
+                    - rowgroup [ref=e585]:
+                      - row "Total 1,800.00" [ref=e586]:
+                        - cell "Total" [ref=e587]
+                        - cell [ref=e588]
+                        - cell [ref=e589]
+                        - cell [ref=e590]
+                        - cell [ref=e591]
+                        - cell [ref=e592]
+                        - cell "1,800.00" [ref=e593]
+                - generic [ref=e595]:
+                  - generic [ref=e596]:
+                    - img [ref=e597]
+                    - text: Vehicle Cost
+                  - paragraph [ref=e600]: "Supplier: Kewalee"
+                  - table [ref=e608]:
+                    - rowgroup [ref=e615]:
+                      - 'row "Select all # Vehicle Payment Cost (Unit) Expense" [ref=e800]':
+                        - 'columnheader "Select all #" [ref=e801]':
+                          - generic [ref=e618]:
+                            - checkbox "Select all" [checked] [ref=e804] [cursor=pointer]
+                            - generic [ref=e619]: "#"
+                        - columnheader "Vehicle" [ref=e620]
+                        - columnheader "Payment" [ref=e621]
+                        - columnheader "Cost (Unit)" [ref=e622]
+                        - columnheader "Expense" [ref=e623]
+                    - rowgroup [ref=e624]:
+                      - 'row "1 VAN (10) : นบ9900 Credit 2,700.00 2700" [ref=e806]':
+                        - cell "1" [ref=e626]:
+                          - generic [ref=e627]:
+                            - checkbox [checked] [ref=e810] [cursor=pointer]
+                            - generic [ref=e628]: "1"
+                        - 'cell "VAN (10) : นบ9900" [ref=e629]':
+                          - generic [ref=e630]: "VAN (10) : นบ9900"
+                        - cell "Credit" [ref=e631]
+                        - cell "2,700.00" [ref=e632]
+                        - cell "2700" [ref=e812]:
+                          - spinbutton [ref=e815]: "2700.00"
+                    - rowgroup [ref=e634]:
+                      - row "Total 2,700.00" [ref=e635]:
+                        - cell "Total" [ref=e636]
+                        - cell [ref=e637]
+                        - cell [ref=e638]
+                        - cell [ref=e639]
+                        - cell "2,700.00" [ref=e640]
+                - generic [ref=e642]:
+                  - generic [ref=e643]:
+                    - img [ref=e644]
+                    - text: Other Expense
+                  - table [ref=e654]:
+                    - rowgroup [ref=e663]:
+                      - 'row "Select all # Items Payment Cost Type Cost (Unit) Act.Pax Expense" [ref=e816]':
+                        - 'columnheader "Select all #" [ref=e817]':
+                          - generic [ref=e666]:
+                            - checkbox "Select all" [checked] [ref=e820] [cursor=pointer]
+                            - generic [ref=e667]: "#"
+                        - columnheader "Items" [ref=e668]
+                        - columnheader "Payment" [ref=e669]
+                        - columnheader "Cost Type" [ref=e670]
+                        - columnheader "Cost (Unit)" [ref=e671]
+                        - columnheader "Act.Pax" [ref=e672]
+                        - columnheader "Expense" [ref=e673]
+                    - rowgroup [ref=e674]:
+                      - 'row "1 เรือดำเนิน Remark: - Credit Fix ( 1 - 6 Pax ) 600.00 4 600" [ref=e822]':
+                        - cell "1" [ref=e676]:
+                          - generic [ref=e677]:
+                            - checkbox [checked] [ref=e826] [cursor=pointer]
+                            - generic [ref=e678]: "1"
+                        - 'cell "เรือดำเนิน Remark: -" [ref=e679]':
+                          - generic [ref=e680]:
+                            - generic [ref=e681]: เรือดำเนิน
+                            - paragraph [ref=e682]: "Remark: -"
+                        - cell "Credit" [ref=e683]
+                        - cell "Fix ( 1 - 6 Pax )" [ref=e684]:
+                          - generic [ref=e685]: Fix
+                          - generic [ref=e686]: ( 1 - 6 Pax )
+                        - cell "600.00" [ref=e687]
+                        - cell "4" [ref=e688]:
+                          - spinbutton [ref=e830]: "4"
+                        - cell "600" [ref=e831]:
+                          - spinbutton [ref=e834]: "600.00"
+                      - 'row "2 ค่าจอดรถ Remark: - Credit All 50.00 4 50" [ref=e835]':
+                        - cell "2" [ref=e691]:
+                          - generic [ref=e692]:
+                            - checkbox [checked] [ref=e839] [cursor=pointer]
+                            - generic [ref=e693]: "2"
+                        - 'cell "ค่าจอดรถ Remark: -" [ref=e694]':
+                          - generic [ref=e695]:
+                            - generic [ref=e696]: ค่าจอดรถ
+                            - paragraph [ref=e697]: "Remark: -"
+                        - cell "Credit" [ref=e698]
+                        - cell "All" [ref=e699]:
+                          - generic [ref=e700]: All
+                        - cell "50.00" [ref=e701]
+                        - cell "4" [ref=e702]:
+                          - spinbutton [ref=e843]: "4"
+                        - cell "50" [ref=e844]:
+                          - spinbutton [ref=e847]: "50.00"
+                      - 'row "3 ค่าทางด่วน Remark: - Credit All 100.00 4 100" [ref=e848]':
+                        - cell "3" [ref=e705]:
+                          - generic [ref=e706]:
+                            - checkbox [checked] [ref=e852] [cursor=pointer]
+                            - generic [ref=e707]: "3"
+                        - 'cell "ค่าทางด่วน Remark: -" [ref=e708]':
+                          - generic [ref=e709]:
+                            - generic [ref=e710]: ค่าทางด่วน
+                            - paragraph [ref=e711]: "Remark: -"
+                        - cell "Credit" [ref=e712]
+                        - cell "All" [ref=e713]:
+                          - generic [ref=e714]: All
+                        - cell "100.00" [ref=e715]
+                        - cell "4" [ref=e716]:
+                          - spinbutton [ref=e856]: "4"
+                        - cell "100" [ref=e857]:
+                          - spinbutton [ref=e860]: "100.00"
+                      - 'row "4 น้ำดื่ม Remark: น้ำดื่ม 10+ กาแฟ 80 Credit Person 90.00 4 360" [ref=e861]':
+                        - cell "4" [ref=e719]:
+                          - generic [ref=e720]:
+                            - checkbox [checked] [ref=e865] [cursor=pointer]
+                            - generic [ref=e721]: "4"
+                        - 'cell "น้ำดื่ม Remark: น้ำดื่ม 10+ กาแฟ 80" [ref=e722]':
+                          - generic [ref=e723]:
+                            - generic [ref=e724]: น้ำดื่ม
+                            - paragraph [ref=e725]: "Remark: น้ำดื่ม 10+ กาแฟ 80"
+                        - cell "Credit" [ref=e726]
+                        - cell "Person" [ref=e727]:
+                          - generic [ref=e728]: Person
+                        - cell "90.00" [ref=e729]
+                        - cell "4" [ref=e730]:
+                          - spinbutton [ref=e869]: "4"
+                        - cell "360" [ref=e870]:
+                          - spinbutton [ref=e873]: "360.00"
+                      - 'row "5 ประกันการเดินทาง Remark: - Credit Person 32.00 4 128" [ref=e874]':
+                        - cell "5" [ref=e733]:
+                          - generic [ref=e734]:
+                            - checkbox [checked] [ref=e878] [cursor=pointer]
+                            - generic [ref=e735]: "5"
+                        - 'cell "ประกันการเดินทาง Remark: -" [ref=e736]':
+                          - generic [ref=e737]:
+                            - generic [ref=e738]: ประกันการเดินทาง
+                            - paragraph [ref=e739]: "Remark: -"
+                        - cell "Credit" [ref=e740]
+                        - cell "Person" [ref=e741]:
+                          - generic [ref=e742]: Person
+                        - cell "32.00" [ref=e743]
+                        - cell "4" [ref=e744]:
+                          - spinbutton [ref=e882]: "4"
+                        - cell "128" [ref=e883]:
+                          - spinbutton [ref=e886]: "128.00"
+                    - rowgroup [ref=e746]:
+                      - row "Total 1,238.00" [ref=e747]:
+                        - cell "Total" [ref=e748]
+                        - cell [ref=e749]
+                        - cell [ref=e750]
+                        - cell [ref=e751]
+                        - cell [ref=e752]
+                        - cell [ref=e753]
+                        - cell "1,238.00" [ref=e754]
+                - generic [ref=e888]:
+                  - generic [ref=e889]:
+                    - img [ref=e890]
+                    - text: Extra Expense
+                  - button "Add extra expense" [ref=e893] [cursor=pointer]:
+                    - img [ref=e895]
+                    - text: Add extra expense
+            - generic [ref=e756]:
+              - generic [ref=e757]:
+                - img [ref=e758]
+                - paragraph [ref=e764]: Summary
+              - generic [ref=e765]:
+                - generic [ref=e766]:
+                  - img [ref=e767]
+                  - paragraph [ref=e770]: Cost Items
+                - generic [ref=e771]:
+                  - generic [ref=e772]: Guide
+                  - generic [ref=e773]: ฿1,800.00
+                  - generic [ref=e774]: Vehicle
+                  - generic [ref=e775]: ฿2,700.00
+                  - generic [ref=e776]: Other Expense
+                  - generic [ref=e777]: ฿1,238.00
+                - generic [ref=e778]:
+                  - generic [ref=e779]: Total Cost (THB)
+                  - generic [ref=e780]: ฿5,738.00
+          - generic [ref=e897]:
+            - button "Cancel" [ref=e898] [cursor=pointer]
+            - generic [ref=e899]:
+              - button "Save" [ref=e900] [cursor=pointer]:
+                - img [ref=e902]
+                - text: Save
+              - button "Approve" [ref=e906] [cursor=pointer]:
+                - img [ref=e908]
+                - text: Approve

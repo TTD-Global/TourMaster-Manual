@@ -1,0 +1,8 @@
+[      70ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…wOTh9.Ub_fIbFfklKo6fpVZxjsJXfOaE0AJb-D3CMBGIxaUt4, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[      70ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[      81ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[      81ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     126ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/balance/35:0
+[     126ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/balance/35:0
+[     126ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/balance/35:0
+[     228ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0

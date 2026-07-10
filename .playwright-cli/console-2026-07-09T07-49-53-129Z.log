@@ -1,0 +1,16 @@
+[     176ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…3ODh9.XF0SDmyatFwkk0OBp_VC-PyrvPRuH2oK7NiGiDYk8RE, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     177ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     188ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     188ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     219ms] [LOG] payment null @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/expenses/%5Bid%5D/page-9bb3bbc0343a1802.js:0
+[     219ms] [LOG] data null @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/expenses/%5Bid%5D/page-9bb3bbc0343a1802.js:0
+[     267ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     344ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/expenses/36:0
+[     344ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/expenses/36:0
+[     344ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/expenses/36:0
+[     364ms] [LOG] payment {id: 36, status: active, trip_code: EC26VEEY, trip_type: private, program_remark: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/expenses/%5Bid%5D/page-9bb3bbc0343a1802.js:0
+[     364ms] [LOG] data {travel_date: 07/07/2026, travel_time: 07:30, trip_type: private, tour_status: pending, pax: 5 / 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/expenses/%5Bid%5D/page-9bb3bbc0343a1802.js:0
+[     375ms] [LOG] payment {id: 36, status: active, trip_code: EC26VEEY, trip_type: private, program_remark: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/expenses/%5Bid%5D/page-9bb3bbc0343a1802.js:0
+[     375ms] [LOG] data {travel_date: 07/07/2026, travel_time: 07:30, trip_type: private, tour_status: pending, pax: 5 / 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/expenses/%5Bid%5D/page-9bb3bbc0343a1802.js:0
+[    6654ms] [LOG] payment {id: 36, status: active, trip_code: EC26VEEY, trip_type: private, program_remark: null} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/expenses/%5Bid%5D/page-9bb3bbc0343a1802.js:0
+[    6654ms] [LOG] data {travel_date: 07/07/2026, travel_time: 07:30, trip_type: private, tour_status: pending, pax: 5 / 10} @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/expenses/%5Bid%5D/page-9bb3bbc0343a1802.js:0

@@ -1,0 +1,292 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [expanded] [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menu [ref=e280]:
+              - menuitem "Advance" [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+                - generic [ref=e60]: Advance
+              - menuitem "Expenses" [ref=e61] [cursor=pointer]:
+                - img [ref=e62]
+                - generic [ref=e64]: Expenses
+              - menuitem "Balance" [ref=e65] [cursor=pointer]:
+                - img [ref=e66]
+                - generic [ref=e68]: Balance
+              - menuitem "Report" [ref=e69] [cursor=pointer]:
+                - img [ref=e70]
+                - generic [ref=e72]: Report
+          - separator [ref=e73]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+            - generic [ref=e79]: Program
+          - menuitem "Seller" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Seller
+          - menuitem "Vehicle" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e92]: Vehicle
+          - menuitem "Employee" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e98]: Employee
+          - menuitem "Zone Transfer" [ref=e99] [cursor=pointer]:
+            - img [ref=e100]
+            - generic [ref=e104]: Zone Transfer
+          - menuitem "User" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e109]: User
+          - menuitem "Company" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: Company
+          - menuitem "User Manual" [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e117]: User Manual
+    - generic [ref=e118]:
+      - banner [ref=e119]:
+        - generic [ref=e121]:
+          - generic [ref=e122]: "Thu : 09 Jul 2026, 12:55"
+          - generic [ref=e124] [cursor=pointer]:
+            - generic [ref=e126]: AM
+            - generic [ref=e127]:
+              - generic [ref=e128]: amares
+              - generic [ref=e129]: Superadmin
+            - img [ref=e131]
+      - main [ref=e133]:
+        - generic [ref=e416]:
+          - generic [ref=e419]:
+            - generic [ref=e420]: Payment
+            - img [ref=e421]
+            - generic [ref=e423] [cursor=pointer]: Advance
+            - img [ref=e424]
+            - generic [ref=e426]: Edit
+          - generic [ref=e441]:
+            - generic [ref=e442]:
+              - generic [ref=e443]:
+                - generic [ref=e444]:
+                  - generic [ref=e445]:
+                    - img [ref=e447]
+                    - generic [ref=e449]: 07/07/2026
+                  - generic [ref=e450]:
+                    - img [ref=e452]
+                    - generic [ref=e455]: 16:00
+                  - generic [ref=e456]:
+                    - img [ref=e458]
+                    - generic [ref=e463]: Join In
+                - generic [ref=e464]:
+                  - generic [ref=e467]: Pending
+                  - generic [ref=e468]:
+                    - img [ref=e470]
+                    - generic [ref=e473]: 2 / 15
+              - generic [ref=e474]:
+                - generic [ref=e475]:
+                  - img [ref=e477]
+                  - generic [ref=e480]: Trip Code No. EC26L3HF
+                - generic [ref=e482]:
+                  - generic [ref=e483]: Program name
+                  - generic [ref=e484]: ":"
+                  - generic [ref=e485]: "Flavors of Chinatown: Bangkok Half-Day Food Walking Tour"
+                - generic [ref=e487]:
+                  - generic [ref=e488]: Remark
+                  - generic [ref=e489]: ":"
+                  - generic [ref=e490]: "-"
+            - generic [ref=e492]:
+              - paragraph [ref=e493]: Guide Information
+              - generic [ref=e495]:
+                - generic [ref=e496]: Guide Name
+                - generic [ref=e497]: ":"
+                - generic [ref=e498]: "-"
+              - generic [ref=e500]:
+                - generic [ref=e501]: Bank Detail
+                - generic [ref=e502]: ":"
+                - generic [ref=e504]: "-"
+          - generic [ref=e505]:
+            - generic [ref=e506]:
+              - generic [ref=e507]:
+                - img [ref=e508]
+                - paragraph [ref=e513]: Cash Advance
+              - generic [ref=e514]:
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - img [ref=e517]
+                    - text: Guide
+                  - table [ref=e528]:
+                    - rowgroup [ref=e536]:
+                      - 'row "Select all # Guide Items Cost Type Cost (Unit) Pax Advance Cost" [ref=e693]':
+                        - 'columnheader "Select all #" [ref=e694]':
+                          - generic [ref=e539]:
+                            - checkbox "Select all" [checked] [ref=e697] [cursor=pointer]
+                            - generic [ref=e540]: "#"
+                        - columnheader "Guide Items" [ref=e541]
+                        - columnheader "Cost Type" [ref=e542]
+                        - columnheader "Cost (Unit)" [ref=e543]
+                        - columnheader "Pax" [ref=e544]
+                        - columnheader "Advance Cost" [ref=e545]
+                    - rowgroup [ref=e546]:
+                      - row "1 Guide 1 All 1500 2 1500" [ref=e699]:
+                        - cell "1" [ref=e548]:
+                          - generic [ref=e549]:
+                            - checkbox [checked] [ref=e703] [cursor=pointer]
+                            - generic [ref=e550]: "1"
+                        - cell "Guide 1" [ref=e551]:
+                          - generic [ref=e552]: Guide 1
+                        - cell "All" [ref=e553]:
+                          - generic [ref=e554]: All
+                        - cell "1500" [ref=e705]:
+                          - spinbutton [ref=e708]: "1500.00"
+                        - cell "2" [ref=e556]:
+                          - spinbutton [ref=e711]: "2"
+                        - cell "1500" [ref=e712]:
+                          - spinbutton [ref=e715]: "1500.00"
+                    - rowgroup [ref=e558]:
+                      - row "Total 1,500.00" [ref=e559]:
+                        - cell "Total" [ref=e560]
+                        - cell [ref=e561]
+                        - cell [ref=e562]
+                        - cell [ref=e563]
+                        - cell [ref=e564]
+                        - cell "1,500.00" [ref=e565]
+                - generic [ref=e566]:
+                  - generic [ref=e567]:
+                    - img [ref=e568]
+                    - text: Other Expense
+                  - table [ref=e578]:
+                    - rowgroup [ref=e586]:
+                      - 'row "Select all # Items Cost Type Cost (Unit) Pax Advance Cost" [ref=e716]':
+                        - 'columnheader "Select all #" [ref=e717]':
+                          - generic [ref=e589]:
+                            - checkbox "Select all" [checked] [ref=e720] [cursor=pointer]
+                            - generic [ref=e590]: "#"
+                        - columnheader "Items" [ref=e591]
+                        - columnheader "Cost Type" [ref=e592]
+                        - columnheader "Cost (Unit)" [ref=e593]
+                        - columnheader "Pax" [ref=e594]
+                        - columnheader "Advance Cost" [ref=e595]
+                    - rowgroup [ref=e596]:
+                      - 'row "1 น้ำดื่ม Remark: - Person 20 2 40" [ref=e722]':
+                        - cell "1" [ref=e598]:
+                          - generic [ref=e599]:
+                            - checkbox [checked] [ref=e726] [cursor=pointer]
+                            - generic [ref=e600]: "1"
+                        - 'cell "น้ำดื่ม Remark: -" [ref=e601]':
+                          - generic [ref=e602]:
+                            - generic [ref=e603]: น้ำดื่ม
+                            - paragraph [ref=e604]: "Remark: -"
+                        - cell "Person" [ref=e605]:
+                          - generic [ref=e606]: Person
+                        - cell "20" [ref=e728]:
+                          - spinbutton [ref=e731]: "20.00"
+                        - cell "2" [ref=e608]:
+                          - spinbutton [ref=e734]: "2"
+                        - cell "40" [ref=e735]:
+                          - spinbutton [ref=e738]: "40.00"
+                    - rowgroup [ref=e610]:
+                      - row "Total 40.00" [ref=e611]:
+                        - cell "Total" [ref=e612]
+                        - cell [ref=e613]
+                        - cell [ref=e614]
+                        - cell [ref=e615]
+                        - cell [ref=e616]
+                        - cell "40.00" [ref=e617]
+                - generic [ref=e618]:
+                  - generic [ref=e619]:
+                    - img [ref=e620]
+                    - text: Extra Cost
+                  - generic [ref=e623]: "Option : With Meal"
+                  - table [ref=e631]:
+                    - rowgroup [ref=e639]:
+                      - 'row "Select all # Items Cost Type Cost (Unit) Pax Advance Cost" [ref=e739]':
+                        - 'columnheader "Select all #" [ref=e740]':
+                          - generic [ref=e642]:
+                            - checkbox "Select all" [checked] [ref=e743] [cursor=pointer]
+                            - generic [ref=e643]: "#"
+                        - columnheader "Items" [ref=e644]
+                        - columnheader "Cost Type" [ref=e645]
+                        - columnheader "Cost (Unit)" [ref=e646]
+                        - columnheader "Pax" [ref=e647]
+                        - columnheader "Advance Cost" [ref=e648]
+                    - rowgroup [ref=e649]:
+                      - 'row "1 อาหารเย็น Remark: - Person 300 2 600" [ref=e745]':
+                        - cell "1" [ref=e651]:
+                          - generic [ref=e652]:
+                            - checkbox [checked] [ref=e749] [cursor=pointer]
+                            - generic [ref=e653]: "1"
+                        - 'cell "อาหารเย็น Remark: -" [ref=e654]':
+                          - generic [ref=e655]:
+                            - generic [ref=e656]: อาหารเย็น
+                            - paragraph [ref=e657]: "Remark: -"
+                        - cell "Person" [ref=e658]:
+                          - generic [ref=e659]: Person
+                        - cell "300" [ref=e751]:
+                          - spinbutton [ref=e754]: "300.00"
+                        - cell "2" [ref=e661]:
+                          - spinbutton [ref=e757]: "2"
+                        - cell "600" [ref=e758]:
+                          - spinbutton [ref=e761]: "600.00"
+                    - rowgroup [ref=e663]:
+                      - row "Total 600.00" [ref=e664]:
+                        - cell "Total" [ref=e665]
+                        - cell [ref=e666]
+                        - cell [ref=e667]
+                        - cell [ref=e668]
+                        - cell [ref=e669]
+                        - cell "600.00" [ref=e670]
+                - generic [ref=e764]:
+                  - generic [ref=e765]:
+                    - img [ref=e766]
+                    - text: Extra Advance
+                  - button "Add extra advance" [ref=e771] [cursor=pointer]:
+                    - img [ref=e773]
+                    - text: Add extra advance
+            - generic [ref=e672]:
+              - generic [ref=e673]:
+                - img [ref=e674]
+                - paragraph [ref=e680]: Summary
+              - generic [ref=e681]:
+                - generic [ref=e682]:
+                  - generic [ref=e683]: Total Advance Cost
+                  - generic [ref=e684]: ฿2,140.00
+                - generic [ref=e686]:
+                  - generic [ref=e687]: Extra Advance
+                  - generic [ref=e688]: ฿0.00
+                - generic [ref=e690]:
+                  - generic [ref=e691]: Total
+                  - generic [ref=e692]: ฿2,140.00
+          - generic [ref=e775]:
+            - button "Cancel" [ref=e776] [cursor=pointer]
+            - generic [ref=e777]:
+              - button "Save" [ref=e778] [cursor=pointer]:
+                - img [ref=e780]
+                - text: Save
+              - button "Approve" [ref=e784] [cursor=pointer]:
+                - img [ref=e786]
+                - text: Approve

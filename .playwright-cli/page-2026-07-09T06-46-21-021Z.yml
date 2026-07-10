@@ -1,0 +1,270 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [expanded] [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menu [ref=e286]:
+              - menuitem "Advance" [ref=e57] [cursor=pointer]:
+                - img [ref=e58]
+                - generic [ref=e60]: Advance
+              - menuitem "Expenses" [ref=e61] [cursor=pointer]:
+                - img [ref=e62]
+                - generic [ref=e64]: Expenses
+              - menuitem "Balance" [ref=e65] [cursor=pointer]:
+                - img [ref=e66]
+                - generic [ref=e68]: Balance
+              - menuitem "Report" [ref=e69] [cursor=pointer]:
+                - img [ref=e70]
+                - generic [ref=e72]: Report
+          - separator [ref=e73]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e74] [cursor=pointer]:
+            - img [ref=e75]
+            - generic [ref=e79]: Program
+          - menuitem "Seller" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e83]: Seller
+          - menuitem "Vehicle" [ref=e84] [cursor=pointer]:
+            - img [ref=e85]
+            - generic [ref=e92]: Vehicle
+          - menuitem "Employee" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+            - generic [ref=e98]: Employee
+          - menuitem "Zone Transfer" [ref=e99] [cursor=pointer]:
+            - img [ref=e100]
+            - generic [ref=e104]: Zone Transfer
+          - menuitem "User" [ref=e105] [cursor=pointer]:
+            - img [ref=e106]
+            - generic [ref=e109]: User
+          - menuitem "Company" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: Company
+          - menuitem "User Manual" [ref=e114] [cursor=pointer]:
+            - img [ref=e115]
+            - generic [ref=e117]: User Manual
+    - generic [ref=e118]:
+      - banner [ref=e119]:
+        - generic [ref=e121]:
+          - generic [ref=e122]: "Thu : 09 Jul 2026, 13:45"
+          - generic [ref=e124] [cursor=pointer]:
+            - generic [ref=e126]: AM
+            - generic [ref=e127]:
+              - generic [ref=e128]: amares
+              - generic [ref=e129]: Superadmin
+            - img [ref=e131]
+      - main [ref=e133]:
+        - generic [ref=e375]:
+          - generic [ref=e376]:
+            - generic [ref=e378]:
+              - generic [ref=e379]: Payment
+              - img [ref=e380]
+              - generic [ref=e382] [cursor=pointer]: Balance
+              - img [ref=e383]
+              - generic [ref=e385]: View
+            - generic [ref=e386]:
+              - button "Close" [ref=e387] [cursor=pointer]
+              - button "Approve" [disabled] [ref=e388]:
+                - img [ref=e390]
+                - text: Approve
+              - button "Edit" [ref=e393] [cursor=pointer]:
+                - img [ref=e395]
+                - text: Edit
+          - generic [ref=e399]:
+            - generic [ref=e400]:
+              - generic [ref=e401]:
+                - paragraph [ref=e402]: "8"
+                - paragraph [ref=e403]: Pax No.ADV
+              - img [ref=e405]
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - paragraph [ref=e412]: "4"
+                - paragraph [ref=e413]: Checked In
+              - img [ref=e415]
+            - generic [ref=e418]:
+              - generic [ref=e419]:
+                - paragraph [ref=e420]: "4"
+                - paragraph [ref=e421]: No show
+              - img [ref=e423]
+            - generic [ref=e428]:
+              - generic [ref=e429]:
+                - paragraph [ref=e430]: "4"
+                - paragraph [ref=e431]: Amount Pax Act.
+              - img [ref=e433]
+          - generic [ref=e439]:
+            - generic [ref=e440]:
+              - generic [ref=e441]:
+                - generic [ref=e442]:
+                  - generic [ref=e443]:
+                    - img [ref=e445]
+                    - generic [ref=e447]: 07/07/2026
+                  - generic [ref=e448]:
+                    - img [ref=e450]
+                    - generic [ref=e453]: 08:30
+                  - generic [ref=e454]:
+                    - img [ref=e456]
+                    - generic [ref=e461]: Join In
+                - generic [ref=e462]:
+                  - generic [ref=e465]: Pending
+                  - generic [ref=e466]:
+                    - img [ref=e468]
+                    - generic [ref=e471]: 8 / 12
+              - generic [ref=e472]:
+                - generic [ref=e473]:
+                  - img [ref=e475]
+                  - generic [ref=e478]: Trip Code No. EC261QAL
+                - generic [ref=e480]:
+                  - generic [ref=e481]: Program name
+                  - generic [ref=e482]: ":"
+                  - generic [ref=e483]: ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]
+                - generic [ref=e485]:
+                  - generic [ref=e486]: Remark
+                  - generic [ref=e487]: ":"
+                  - generic [ref=e488]: "-"
+            - generic [ref=e490]:
+              - paragraph [ref=e491]: Guide Information
+              - generic [ref=e493]:
+                - generic [ref=e494]: Guide Name
+                - generic [ref=e495]: ":"
+                - generic [ref=e496]: G. Amp
+              - generic [ref=e498]:
+                - generic [ref=e499]: Bank Detail
+                - generic [ref=e500]: ":"
+                - generic [ref=e501]:
+                  - img "G. Amp" [ref=e502]
+                  - generic [ref=e503]: "Kasikornbank Public Company Limited. : 863-2-14558-7 Kristintat Phothiworn"
+          - generic [ref=e504]:
+            - generic [ref=e505]:
+              - generic [ref=e506]:
+                - img [ref=e507]
+                - paragraph [ref=e512]: Expense
+              - generic [ref=e514]:
+                - generic [ref=e515]:
+                  - img [ref=e516]
+                  - text: Extra Cost
+                - generic [ref=e519]: "Option : รวมรถ(รับ-ส่ง) + ไม่รวมค่าธรรมเนียมอุทยาน"
+                - table [ref=e527]:
+                  - rowgroup [ref=e539]:
+                    - row "# Items Payment Cost Type Cost (Unit) Adv.Pax Adv.Cost Act.Pax Expense Balance" [ref=e540]:
+                      - columnheader "#" [ref=e541]:
+                        - generic [ref=e543]: "#"
+                      - columnheader "Items" [ref=e544]
+                      - columnheader "Payment" [ref=e545]
+                      - columnheader "Cost Type" [ref=e546]
+                      - columnheader "Cost (Unit)" [ref=e547]
+                      - columnheader "Adv.Pax" [ref=e548]
+                      - columnheader "Adv.Cost" [ref=e549]
+                      - columnheader "Act.Pax" [ref=e550]
+                      - columnheader "Expense" [ref=e551]
+                      - columnheader "Balance" [ref=e552]
+                  - rowgroup [ref=e553]:
+                    - 'row "1 [ผู้ใหญ่ต่างชาติ]ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ Remark: - Cash Person 200.00 8 1,600.00 4 800.00 800.00" [ref=e554]':
+                      - cell "1" [ref=e555]:
+                        - generic [ref=e557]: "1"
+                      - 'cell "[ผู้ใหญ่ต่างชาติ]ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ Remark: -" [ref=e558]':
+                        - generic [ref=e559]:
+                          - generic [ref=e560] [cursor=pointer]: "[ผู้ใหญ่ต่างชาติ]ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์"
+                          - paragraph [ref=e561]: "Remark: -"
+                      - cell "Cash" [ref=e562]
+                      - cell "Person" [ref=e563]:
+                        - generic [ref=e564]: Person
+                      - cell "200.00" [ref=e565]
+                      - cell "8" [ref=e566]
+                      - cell "1,600.00" [ref=e567]
+                      - cell "4" [ref=e568]
+                      - cell "800.00" [ref=e569]
+                      - cell "800.00" [ref=e570]
+                    - 'row "2 [เด็กต่างชาติ]ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ Remark: - Cash Person 400.00 8 3,200.00 4 1,600.00 1,600.00" [ref=e571]':
+                      - cell "2" [ref=e572]:
+                        - generic [ref=e574]: "2"
+                      - 'cell "[เด็กต่างชาติ]ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ Remark: -" [ref=e575]':
+                        - generic [ref=e576]:
+                          - generic [ref=e577] [cursor=pointer]: "[เด็กต่างชาติ]ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์"
+                          - paragraph [ref=e578]: "Remark: -"
+                      - cell "Cash" [ref=e579]
+                      - cell "Person" [ref=e580]:
+                        - generic [ref=e581]: Person
+                      - cell "400.00" [ref=e582]
+                      - cell "8" [ref=e583]
+                      - cell "3,200.00" [ref=e584]
+                      - cell "4" [ref=e585]
+                      - cell "1,600.00" [ref=e586]
+                      - cell "1,600.00" [ref=e587]
+                  - rowgroup [ref=e588]:
+                    - row "Total 4,800.00 2,400.00 2,400.00" [ref=e589]:
+                      - cell "Total" [ref=e590]
+                      - cell [ref=e591]
+                      - cell [ref=e592]
+                      - cell [ref=e593]
+                      - cell [ref=e594]
+                      - cell [ref=e595]
+                      - cell "4,800.00" [ref=e596]
+                      - cell [ref=e597]
+                      - cell "2,400.00" [ref=e598]
+                      - cell "2,400.00" [ref=e599]
+            - generic [ref=e600]:
+              - generic [ref=e601]:
+                - generic [ref=e602]:
+                  - img [ref=e603]
+                  - paragraph [ref=e609]: Summary
+                - generic [ref=e610]:
+                  - generic [ref=e611]:
+                    - generic [ref=e612]:
+                      - img [ref=e613]
+                      - generic [ref=e616]: Advance Paid
+                    - generic [ref=e617]: ฿4,800.00
+                  - generic [ref=e618]:
+                    - generic [ref=e619]:
+                      - img [ref=e620]
+                      - generic [ref=e623]: Actual Expense
+                    - generic [ref=e624]: ฿2,400.00
+                  - generic [ref=e626]:
+                    - generic [ref=e627]: Balance
+                    - generic [ref=e628]: ฿2,400.00
+                  - generic [ref=e629]:
+                    - img [ref=e630]
+                    - paragraph [ref=e632]: Refund to company
+              - generic [ref=e633]:
+                - generic [ref=e634]:
+                  - img [ref=e635]
+                  - paragraph [ref=e637]: Expense Attachment
+                - generic [ref=e638] [cursor=pointer]:
+                  - img [ref=e639]
+                  - paragraph [ref=e641]: Upload Slip Here
+                - paragraph [ref=e643]: "Remark : -"
+              - generic [ref=e644]:
+                - generic [ref=e645]:
+                  - img [ref=e646]
+                  - paragraph [ref=e648]: Balance Attachment
+                - generic [ref=e649] [cursor=pointer]:
+                  - img [ref=e650]
+                  - paragraph [ref=e652]: Upload Slip Here
+                - paragraph [ref=e654]: "Remark : -"

@@ -1,0 +1,244 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e2]: Tour System
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e22]
+          - text: Management
+          - group [ref=e23]:
+            - menuitem "Bookings" [ref=e24] [cursor=pointer]:
+              - img [ref=e25]
+              - generic [ref=e28]: Bookings
+            - menuitem "Excursion" [ref=e29] [cursor=pointer]:
+              - img [ref=e30]
+              - generic [ref=e32]: Excursion
+            - menuitem "Pick up Transport" [ref=e33] [cursor=pointer]:
+              - img [ref=e34]
+              - generic [ref=e39]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e40] [cursor=pointer]:
+              - img [ref=e41]
+              - generic [ref=e46]: Drop off Transport
+            - menuitem "Check In" [ref=e47] [cursor=pointer]:
+              - img [ref=e48]
+              - generic [ref=e51]: Check In
+            - menuitem "Payment" [expanded] [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e56]: Payment
+            - menu [ref=e57]:
+              - menuitem "Advance" [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+                - generic [ref=e61]: Advance
+              - menuitem "Expenses" [ref=e62] [cursor=pointer]:
+                - img [ref=e63]
+                - generic [ref=e65]: Expenses
+              - menuitem "Balance" [ref=e66] [cursor=pointer]:
+                - img [ref=e67]
+                - generic [ref=e69]: Balance
+              - menuitem "Report" [ref=e70] [cursor=pointer]:
+                - img [ref=e71]
+                - generic [ref=e73]: Report
+          - separator [ref=e74]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e75] [cursor=pointer]:
+            - img [ref=e76]
+            - generic [ref=e80]: Program
+          - menuitem "Seller" [ref=e81] [cursor=pointer]:
+            - img [ref=e82]
+            - generic [ref=e84]: Seller
+          - menuitem "Vehicle" [ref=e85] [cursor=pointer]:
+            - img [ref=e86]
+            - generic [ref=e93]: Vehicle
+          - menuitem "Employee" [ref=e94] [cursor=pointer]:
+            - img [ref=e95]
+            - generic [ref=e99]: Employee
+          - menuitem "Zone Transfer" [ref=e100] [cursor=pointer]:
+            - img [ref=e101]
+            - generic [ref=e105]: Zone Transfer
+          - menuitem "User" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e110]: User
+          - menuitem "Company" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+            - generic [ref=e114]: Company
+          - menuitem "User Manual" [ref=e115] [cursor=pointer]:
+            - img [ref=e116]
+            - generic [ref=e118]: User Manual
+    - generic [ref=e119]:
+      - banner [ref=e120]:
+        - generic [ref=e122]:
+          - generic [ref=e123]: "Thu : 09 Jul 2026, 12:59"
+          - generic [ref=e125] [cursor=pointer]:
+            - generic [ref=e127]: AM
+            - generic [ref=e128]:
+              - generic [ref=e129]: amares
+              - generic [ref=e130]: Superadmin
+            - img [ref=e132]
+      - main [ref=e134]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e138]:
+              - generic [ref=e139]: Payment
+              - img [ref=e140]
+              - generic [ref=e142]: Expense
+            - generic [ref=e143]:
+              - generic [ref=e145]:
+                - img [ref=e147]
+                - textbox "Select Date" [ref=e151]: 07/07/2026
+              - generic [ref=e154]:
+                - img [ref=e156]
+                - textbox "Enter search" [ref=e159]
+              - button "Export" [ref=e161] [cursor=pointer]:
+                - img [ref=e163]
+                - generic [ref=e166]: Export
+                - img [ref=e168]
+          - generic [ref=e170]:
+            - generic [ref=e171]:
+              - generic [ref=e172]:
+                - paragraph [ref=e173]: "2"
+                - paragraph [ref=e174]: Amount Trip
+              - img [ref=e176]
+            - generic [ref=e179]:
+              - generic [ref=e180]:
+                - paragraph [ref=e181]: 4,800.00
+                - paragraph [ref=e182]: Total Advance
+              - img [ref=e184]
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: 19,050.84
+                - paragraph [ref=e190]: Total Expense
+              - img [ref=e192]
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - tablist [ref=e199]:
+                - generic [ref=e201]:
+                  - tab "Pending 2" [selected] [ref=e269] [cursor=pointer]:
+                    - generic [ref=e205]:
+                      - text: Pending
+                      - generic [ref=e207]: "2"
+                  - tab "Completed 0" [ref=e209] [cursor=pointer]:
+                    - generic [ref=e211]:
+                      - text: Completed
+                      - generic [ref=e213]: "0"
+              - generic:
+                - generic:
+                  - tabpanel "Pending 2"
+            - generic [ref=e217]:
+              - table [ref=e221]:
+                - rowgroup [ref=e234]:
+                  - 'row "Select all # Trip Code Trip Type Trip Round Program Guide Bank Detail Pax Advance Expense Action" [ref=e235]':
+                    - 'columnheader "Select all #" [ref=e236]':
+                      - generic [ref=e237]:
+                        - checkbox "Select all" [ref=e271] [cursor=pointer]
+                        - text: "#"
+                    - columnheader "Trip Code" [ref=e239]
+                    - columnheader "Trip Type" [ref=e240]
+                    - columnheader "Trip Round" [ref=e241]
+                    - columnheader "Program" [ref=e242]
+                    - columnheader "Guide" [ref=e243]
+                    - columnheader "Bank Detail" [ref=e244]
+                    - columnheader "Pax" [ref=e245]
+                    - columnheader "Advance" [ref=e246]
+                    - columnheader "Expense" [ref=e247]
+                    - columnheader "Action" [ref=e248]
+                - rowgroup [ref=e249]:
+                  - row "1 EC26VEEY Private 07:30 [One asia ]Private · Sugar House, Floating & Maeklong Train G. Aod-JP book_bank 113-4-81589-1 Kusuma Nongpromma 5 0.00 5,738.00" [ref=e273]:
+                    - cell "1" [ref=e274]:
+                      - generic [ref=e275]:
+                        - checkbox [ref=e278] [cursor=pointer]
+                        - generic [ref=e280]: "1"
+                    - cell "EC26VEEY" [ref=e281]:
+                      - generic [ref=e283] [cursor=pointer]: EC26VEEY
+                    - cell "Private" [ref=e284]:
+                      - generic [ref=e286]:
+                        - img [ref=e288]
+                        - generic [ref=e291]: Private
+                    - cell "07:30" [ref=e292]
+                    - cell "[One asia ]Private · Sugar House, Floating & Maeklong Train" [ref=e293]:
+                      - generic [ref=e295]: "[One asia ]Private · Sugar House, Floating & Maeklong Train"
+                    - cell "G. Aod-JP" [ref=e296]:
+                      - generic [ref=e297]: G. Aod-JP
+                    - cell "book_bank 113-4-81589-1 Kusuma Nongpromma" [ref=e298]:
+                      - generic [ref=e299]:
+                        - img "book_bank" [ref=e301]
+                        - generic [ref=e302]:
+                          - generic [ref=e303]: 113-4-81589-1
+                          - generic [ref=e304] [cursor=pointer]: Kusuma Nongpromma
+                    - cell "5" [ref=e305]
+                    - cell "0.00" [ref=e306]
+                    - cell "5,738.00" [ref=e307]
+                    - cell [ref=e308]:
+                      - img [ref=e310] [cursor=pointer]
+                  - row "2 EC261QAL Join In 08:30 ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat] G. Amp book_bank 863-2-14558-7 Kristintat Phothiworn 8 4,800.00 13,312.84" [ref=e314]:
+                    - cell "2" [ref=e315]:
+                      - generic [ref=e316]:
+                        - checkbox [ref=e319] [cursor=pointer]
+                        - generic [ref=e321]: "2"
+                    - cell "EC261QAL" [ref=e322]:
+                      - generic [ref=e324] [cursor=pointer]: EC261QAL
+                    - cell "Join In" [ref=e325]:
+                      - generic [ref=e327]:
+                        - img [ref=e329]
+                        - generic [ref=e334]: Join In
+                    - cell "08:30" [ref=e335]
+                    - cell "ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]" [ref=e336]:
+                      - generic [ref=e338]: ทัวร์ 4 เกาะ [ทะเลแหวก+เกาะไก่+ปอดะ+ไร่เลย์ speed boat]
+                    - cell "G. Amp" [ref=e339]:
+                      - generic [ref=e340]: G. Amp
+                    - cell "book_bank 863-2-14558-7 Kristintat Phothiworn" [ref=e341]:
+                      - generic [ref=e342]:
+                        - img "book_bank" [ref=e344]
+                        - generic [ref=e345]:
+                          - generic [ref=e346]: 863-2-14558-7
+                          - generic [ref=e347] [cursor=pointer]: Kristintat Phothiworn
+                    - cell "8" [ref=e348]
+                    - cell "4,800.00" [ref=e349]
+                    - cell "13,312.84" [ref=e350]
+                    - cell [ref=e351]:
+                      - img [ref=e353] [cursor=pointer]
+                - rowgroup [ref=e357]:
+                  - row "Total 4,800.00 19,050.84" [ref=e358]:
+                    - cell "Total" [ref=e359]
+                    - cell [ref=e360]
+                    - cell [ref=e361]
+                    - cell [ref=e362]
+                    - cell [ref=e363]
+                    - cell [ref=e364]
+                    - cell [ref=e365]
+                    - cell [ref=e366]
+                    - cell "4,800.00" [ref=e367]
+                    - cell "19,050.84" [ref=e368]
+                    - cell [ref=e369]
+              - list [ref=e370]:
+                - listitem "Previous Page" [ref=e371]:
+                  - button "left" [disabled] [ref=e372]:
+                    - img "left" [ref=e373]:
+                      - img [ref=e374]
+                - listitem "1" [ref=e376] [cursor=pointer]:
+                  - generic [ref=e377]: "1"
+                - listitem "Next Page" [ref=e378]:
+                  - button "right" [disabled] [ref=e379]:
+                    - img "right" [ref=e380]:
+                      - img [ref=e381]
+                - listitem [ref=e383]:
+                  - generic "Page Size" [ref=e384] [cursor=pointer]:
+                    - generic [ref=e386]:
+                      - combobox "Page Size" [ref=e388]
+                      - generic "15 / page" [ref=e389]
+                    - generic:
+                      - img:
+                        - img
+  - menu [ref=e391]:
+    - menuitem "View" [ref=e392] [cursor=pointer]:
+      - img [ref=e393]
+      - generic [ref=e396]: View
+    - menuitem "Approve" [ref=e397] [cursor=pointer]:
+      - img [ref=e398]
+      - generic [ref=e401]: Approve

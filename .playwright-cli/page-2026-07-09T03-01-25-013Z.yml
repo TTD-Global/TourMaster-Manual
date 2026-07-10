@@ -1,0 +1,321 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [expanded] [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - menu [ref=e190]:
+            - menuitem "Company Overview" [ref=e22] [cursor=pointer]:
+              - img [ref=e23]
+              - generic [ref=e25]: Company Overview
+            - menuitem "Guide" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+              - generic [ref=e29]: Guide
+            - menuitem "Expense" [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+              - generic [ref=e33]: Expense
+          - separator [ref=e34]
+          - text: Management
+          - group [ref=e35]:
+            - menuitem "Bookings" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e40]: Bookings
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Thu : 09 Jul 2026, 10:00"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e133]: Company Overview
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e136] [cursor=pointer]:
+                - generic [ref=e138]:
+                  - combobox [ref=e140]
+                  - generic: All Destinations
+                - generic:
+                  - img:
+                    - img
+              - generic [ref=e141] [cursor=pointer]:
+                - generic [ref=e143]:
+                  - combobox [ref=e145]
+                  - generic: All Programs
+                - generic:
+                  - img:
+                    - img
+              - generic [ref=e149]:
+                - textbox "Start date" [ref=e151]: 09/07/2026
+                - generic "to" [ref=e153]:
+                  - img "swap-right" [ref=e154]:
+                    - img [ref=e155]
+                - textbox "End date" [ref=e158]: 09/07/2026
+                - generic:
+                  - img
+                - button "close-circle" [ref=e159] [cursor=pointer]:
+                  - img "close-circle" [ref=e160]:
+                    - img [ref=e161]
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - button "Overview" [active] [ref=e165]:
+                  - img [ref=e166]
+                  - text: Overview
+                - button "Seller" [ref=e168]:
+                  - img [ref=e169]
+                  - text: Seller
+                - button "Expense" [ref=e174]:
+                  - img [ref=e175]
+                  - text: Expense
+              - generic [ref=e177]:
+                - button "Today" [ref=e178]
+                - button "Weekly" [ref=e179]
+                - button "Monthly" [ref=e180]
+                - button "Yearly" [ref=e181]
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - heading "Summary" [level=1] [ref=e660]
+              - paragraph [ref=e195]: July 09, 2026
+            - generic [ref=e661]:
+              - generic [ref=e662]:
+                - generic [ref=e664]:
+                  - generic [ref=e665]:
+                    - generic [ref=e666]:
+                      - paragraph [ref=e667]: Total Revenue
+                      - paragraph [ref=e668]: ฿ 0.00
+                    - img [ref=e670]
+                  - generic [ref=e675]:
+                    - img [ref=e676]
+                    - text: "-100%"
+                - generic [ref=e680]:
+                  - generic [ref=e681]:
+                    - generic [ref=e682]:
+                      - paragraph [ref=e683]: Total Expenses
+                      - paragraph [ref=e684]: ฿ 0.00
+                    - img [ref=e686]
+                  - generic [ref=e691]:
+                    - img [ref=e692]
+                    - text: "-100%"
+                - generic [ref=e696]:
+                  - generic [ref=e697]:
+                    - generic [ref=e698]:
+                      - paragraph [ref=e699]: Total Profit/Loss
+                      - paragraph [ref=e700]: ฿ 0.00
+                    - img [ref=e702]
+                  - generic [ref=e706]:
+                    - generic [ref=e707]:
+                      - img [ref=e708]
+                      - text: "-100%"
+                    - generic [ref=e711]: Profit 0.00 %
+                - generic [ref=e713]:
+                  - generic [ref=e714]:
+                    - generic [ref=e715]:
+                      - paragraph [ref=e716]: Total Advances
+                      - paragraph [ref=e717]: ฿ 0.00
+                    - img [ref=e719]
+                  - generic [ref=e722]:
+                    - img [ref=e723]
+                    - text: +0%
+              - generic [ref=e726]:
+                - generic [ref=e728]:
+                  - generic [ref=e729]:
+                    - generic [ref=e730]:
+                      - paragraph [ref=e731]: Total Participants
+                      - paragraph [ref=e732]: "0"
+                    - img [ref=e734]
+                  - generic [ref=e740]:
+                    - img [ref=e741]
+                    - text: "-100%"
+                  - generic [ref=e744]:
+                    - generic [ref=e747]:
+                      - paragraph [ref=e748]: Check In
+                      - paragraph [ref=e749]: "0"
+                    - generic [ref=e752]:
+                      - paragraph [ref=e753]: No Show
+                      - paragraph [ref=e754]: "0"
+                - generic [ref=e756]:
+                  - generic [ref=e757]:
+                    - generic [ref=e758]:
+                      - paragraph [ref=e759]: Total Trip
+                      - paragraph [ref=e760]: "0"
+                    - img [ref=e762]
+                  - generic [ref=e766]:
+                    - img [ref=e767]
+                    - text: "-100%"
+                  - generic [ref=e770]:
+                    - generic [ref=e773]:
+                      - paragraph [ref=e774]: Join In
+                      - paragraph [ref=e775]: "0"
+                    - generic [ref=e778]:
+                      - paragraph [ref=e779]: Private
+                      - paragraph [ref=e780]: "0"
+                - generic [ref=e782]:
+                  - generic [ref=e783]:
+                    - generic [ref=e784]:
+                      - paragraph [ref=e785]: Total Guide
+                      - paragraph [ref=e786]: "57"
+                    - img [ref=e788]
+                  - generic [ref=e793]:
+                    - img [ref=e794]
+                    - text: +100%
+                  - generic [ref=e797]:
+                    - generic [ref=e800]:
+                      - paragraph [ref=e801]: Guide
+                      - paragraph [ref=e802]: "56"
+                    - generic [ref=e805]:
+                      - paragraph [ref=e806]: Staff
+                      - paragraph [ref=e807]: "1"
+                - generic [ref=e809]:
+                  - generic [ref=e810]:
+                    - generic [ref=e811]:
+                      - paragraph [ref=e812]: Total Vehicle
+                      - paragraph [ref=e813]: "68"
+                    - img [ref=e815]
+                  - generic [ref=e819]:
+                    - img [ref=e820]
+                    - text: +100%
+                  - generic [ref=e823]:
+                    - generic [ref=e826]:
+                      - paragraph [ref=e827]: Supplier
+                      - paragraph [ref=e828]: "42"
+                    - generic [ref=e831]:
+                      - paragraph [ref=e832]: Own Vehicle
+                      - paragraph [ref=e833]: "26"
+              - generic [ref=e834]:
+                - generic [ref=e836]:
+                  - generic [ref=e837]:
+                    - generic [ref=e838]:
+                      - paragraph [ref=e839]: Total Guide Expenses
+                      - paragraph [ref=e840]: ฿ 0.00
+                    - img [ref=e842]
+                  - generic [ref=e847]:
+                    - img [ref=e848]
+                    - text: "-100%"
+                - generic [ref=e852]:
+                  - generic [ref=e853]:
+                    - generic [ref=e854]:
+                      - paragraph [ref=e855]: Total Vehicle Expenses
+                      - paragraph [ref=e856]: ฿ 0.00
+                    - img [ref=e858]
+                  - generic [ref=e862]:
+                    - img [ref=e863]
+                    - text: "-100%"
+            - generic [ref=e866]:
+              - generic [ref=e867]:
+                - generic [ref=e868]:
+                  - generic [ref=e869]:
+                    - img [ref=e871]
+                    - generic [ref=e875]:
+                      - paragraph [ref=e876]: Bookings by Seller
+                      - paragraph [ref=e877]: Summary of bookings and revenue by seller.
+                  - generic [ref=e878]:
+                    - img [ref=e879]
+                    - text: "-100%"
+                - generic [ref=e884]:
+                  - paragraph [ref=e885]: Total Participants
+                  - paragraph [ref=e886]: "0"
+              - generic [ref=e888]:
+                - generic [ref=e889]:
+                  - img [ref=e891]
+                  - generic [ref=e895]:
+                    - paragraph [ref=e896]: Revenue • Expenses • Profit/Loss
+                    - paragraph [ref=e897]: Monthly revenue, expenses, and profit/loss.
+                  - generic [ref=e899] [cursor=pointer]:
+                    - generic [ref=e901]:
+                      - combobox [ref=e903]
+                      - generic "2026" [ref=e904]
+                    - generic:
+                      - img:
+                        - img
+                - generic [ref=e905]:
+                  - generic [ref=e906]:
+                    - generic [ref=e908]: 100,000
+                    - generic [ref=e911]: 80,000
+                    - generic [ref=e914]: 60,000
+                    - generic [ref=e917]: 40,000
+                    - generic [ref=e920]: 20,000
+                    - generic [ref=e923]: "0"
+                  - generic [ref=e925]:
+                    - generic [ref=e926]: Jan
+                    - generic [ref=e927]: Feb
+                    - generic [ref=e928]: Mar
+                    - generic [ref=e929]: Apr
+                    - generic [ref=e930]: May
+                    - generic [ref=e931]: Jun
+                    - generic [ref=e932]: Jul
+                  - img [ref=e934]
+                - generic [ref=e935]:
+                  - generic [ref=e936]:
+                    - img [ref=e937]
+                    - text: Revenue
+                  - generic [ref=e939]:
+                    - img [ref=e940]
+                    - text: Expense
+                  - generic [ref=e942]:
+                    - img [ref=e943]
+                    - text: Profit
+            - generic [ref=e945]:
+              - generic [ref=e946]:
+                - generic [ref=e947]:
+                  - paragraph [ref=e948]: Program Performance
+                  - paragraph [ref=e949]: Total 0 Programs
+                - button "View All" [ref=e950]
+              - generic [ref=e953]:
+                - generic [ref=e954]: Program List
+                - generic [ref=e955]: Trips
+                - generic [ref=e956]: Total Pax
+                - generic [ref=e957]: Revenue (฿)
+                - generic [ref=e958]: Expenses (฿)
+                - generic [ref=e959]: Profit/Loss (฿)

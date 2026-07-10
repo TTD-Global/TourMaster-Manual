@@ -14,11 +14,7 @@ toc_max_heading_level: 2
 
 ## ตารางรายการ
 
-<div className="manual-img-500">
-
-![Balance](/img/Payment/payment-balance.png)
-
-</div>
+![Balance](/img/Payment/payment-balance-list.png)
 
 ### Summary Card
 
@@ -75,7 +71,69 @@ toc_max_heading_level: 2
 | **Date Filter** | กรองรายการตามวันที่ |
 | **Export** | ส่งออกรายงาน Balance เป็นไฟล์ |
 
-:::info
-Balance คำนวณอัตโนมัติจากข้อมูล Advance และ Expenses ที่บันทึกไว้ สามารถดูสรุปภาพรวมทุก Trip ได้ใน **Report**
-:::
+---
 
+## Action
+
+กดปุ่ม `...` ในคอลัมน์ **Action** เพื่อจัดการรายการ
+
+### View
+
+แสดงรายละเอียดสรุปยอดเงินของ Trip นั้น เปรียบเทียบ Advance กับ Expense จริงในแต่ละหมวดหมู่
+
+![Balance View](/img/Payment/payment-balance-view.png)
+
+#### Guide Information
+
+สรุปข้อมูล Pax สำหรับ Trip นี้
+
+| Card | คำอธิบาย |
+|------|----------|
+| **Pax No.ADV** | จำนวน Pax ที่ใช้คำนวณ Advance (ตอนจองล่วงหน้า) |
+| **Checked In** | จำนวน Pax ที่ Check In จริง |
+| **No show** | จำนวน Pax ที่ไม่มาตามนัด |
+| **Amount Pax Act.** | จำนวน Pax จริงที่ใช้คำนวณค่าใช้จ่าย |
+
+#### Expense
+
+ตารางเปรียบเทียบ Advance กับ Expense จริงรายการต่อรายการ
+
+| คอลัมน์ | คำอธิบาย |
+|---------|----------|
+| **#** | ลำดับที่ |
+| **Items** | รายการค่าใช้จ่าย |
+| **Payment** | ประเภทการชำระ |
+| **Cost Type** | ประเภทการคำนวณ (Person / Car / Trip) |
+| **Cost (Unit)** | ราคาต่อหน่วย |
+| **Adv.Pax** | จำนวน Pax ที่ใช้คำนวณ Advance |
+| **Adv.Cost** | ยอด Advance ต่อรายการ |
+| **Act.Pax** | จำนวน Pax จริง |
+| **Expense** | ยอดค่าใช้จ่ายจริงต่อรายการ |
+| **Balance** | ผลต่าง (Adv.Cost − Expense) ต่อรายการ |
+
+#### Summary
+
+| รายการ | คำอธิบาย |
+|--------|----------|
+| **Advance Paid** | ยอดเงิน Advance ที่เบิกไปทั้งหมด |
+| **Actual Expense** | ยอดค่าใช้จ่ายจริงทั้งหมด |
+| **Balance** | ผลต่างสุดท้าย (Advance − Actual Expense) |
+
+#### Slip / Attachment
+
+| ส่วน | คำอธิบาย |
+|------|----------|
+| **Expense Attachment** | อัปโหลดสลิปหลักฐานค่าใช้จ่าย |
+| **Balance Attachment** | อัปโหลดสลิปการโอนเงินคืน / รับเพิ่ม |
+
+ปุ่มที่มีใน View:
+- **Approve** — อนุมัติรายการ Balance
+- **Edit** — เข้าสู่โหมดแก้ไข
+- **Close** — ปิดหน้า View
+
+:::info เงื่อนไขการแสดงข้อมูลใน Balance
+Trip จะปรากฏใน Balance ได้ก็ต่อเมื่อมีข้อมูลครบทั้ง **Advance** และ **Expenses**
+
+- หาก Program ใช้เฉพาะ **Credit** (ไม่มี Advance) หรือมีเฉพาะ **Expenses** โดยไม่มี Advance — Trip นั้นจะ**ไม่ปรากฏ**ใน Balance
+- Balance คำนวณอัตโนมัติจากข้อมูล Advance และ Expenses ที่บันทึกไว้ สามารถดูสรุปภาพรวมทุก Trip ได้ใน **Report**
+:::

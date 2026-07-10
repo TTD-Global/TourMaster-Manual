@@ -1,0 +1,141 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - separator [ref=e34]
+          - text: Management
+          - group [ref=e35]:
+            - menuitem "Bookings" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e40]: Bookings
+            - menuitem "Excursion" [expanded] [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menu [ref=e296]:
+              - menuitem "Summary" [ref=e297] [cursor=pointer]:
+                - img [ref=e298]
+                - generic [ref=e300]: Summary
+              - menuitem "Supplier Group" [ref=e301] [cursor=pointer]:
+                - img [ref=e302]
+                - generic [ref=e304]: Supplier Group
+              - menuitem "Job Order" [active] [ref=e305] [cursor=pointer]:
+                - img [ref=e306]
+                - generic [ref=e308]: Job Order
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Thu : 09 Jul 2026, 12:43"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e309]:
+          - generic [ref=e310]:
+            - generic [ref=e313]:
+              - generic [ref=e314]: Tour
+              - img [ref=e315]
+              - generic [ref=e317]: Job Order
+            - generic [ref=e318]:
+              - button "Export" [ref=e319] [cursor=pointer]:
+                - img [ref=e321]
+                - generic [ref=e324]: Export
+                - img [ref=e326]
+              - generic [ref=e328]:
+                - img [ref=e330]
+                - textbox "Select Travel Date" [ref=e334]: 09/07/2026
+              - generic [ref=e337]:
+                - img [ref=e339]
+                - textbox "Search" [ref=e342]
+              - button "Advance Search" [ref=e345] [cursor=pointer]:
+                - img [ref=e347]
+                - text: Advance Search
+          - generic [ref=e351]:
+            - tablist [ref=e352]:
+              - generic [ref=e354]:
+                - tab "All 0" [selected] [ref=e356] [cursor=pointer]:
+                  - generic [ref=e358]:
+                    - text: All
+                    - generic [ref=e360]: "0"
+                - tab "Pending 0" [ref=e362] [cursor=pointer]:
+                  - generic [ref=e364]:
+                    - text: Pending
+                    - generic [ref=e366]: "0"
+                - tab "Completed 0" [ref=e368] [cursor=pointer]:
+                  - generic [ref=e370]:
+                    - text: Completed
+                    - generic [ref=e372]: "0"
+            - tabpanel "All 0" [ref=e375]:
+              - table [ref=e385]:
+                - rowgroup [ref=e399]:
+                  - 'row "Select all # Trip Code Travel Date Trip Type Trip Round Program Pax Registration Personnel Guide Status Action" [ref=e400]':
+                    - 'columnheader "Select all #" [ref=e401]':
+                      - generic [ref=e402]:
+                        - generic [ref=e403]:
+                          - generic:
+                            - checkbox "Select all" [disabled]
+                        - generic [ref=e404]: "#"
+                    - columnheader "Trip Code" [ref=e405]
+                    - columnheader "Travel Date" [ref=e406]
+                    - columnheader "Trip Type" [ref=e407]
+                    - columnheader "Trip Round" [ref=e408]
+                    - columnheader "Program" [ref=e409]
+                    - columnheader "Pax" [ref=e410]
+                    - columnheader "Registration" [ref=e411]
+                    - columnheader "Personnel" [ref=e412]
+                    - columnheader "Guide" [ref=e413]
+                    - columnheader "Status" [ref=e414]
+                    - columnheader "Action" [ref=e415]
+                - rowgroup [ref=e416]:
+                  - row [ref=e417]:
+                    - cell [ref=e418]:
+                      - img [ref=e421]

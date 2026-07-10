@@ -1,0 +1,16 @@
+[     173ms] [LOG] Storage rehydrated: {hasState: true, hasAccessToken: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Mywid…3ODh9.XF0SDmyatFwkk0OBp_VC-PyrvPRuH2oK7NiGiDYk8RE, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     173ms] [LOG] Has token after rehydration, fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     186ms] [LOG] Fetch profile called, auth state: {hasAccessToken: true, isAuthenticated: true} @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     186ms] [LOG] Fetching profile... @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     233ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     233ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     284ms] [LOG] Profile fetched successfully @ https://dev-green.techmaster.in.th/_next/static/chunks/7131-d903d57cd9727702.js:0
+[     333ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     333ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     340ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     340ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[     356ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance/70:0
+[     356ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance/70:0
+[     356ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://dev-green.techmaster.in.th/payment/advance/70:0
+[    7280ms] [LOG] dataAllowance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0
+[    7280ms] [LOG] dataExtraAdvance [] @ https://dev-green.techmaster.in.th/_next/static/chunks/app/(auth)/payment/advance/%5Bid%5D/page-826583548ed4670b.js:0

@@ -1,0 +1,180 @@
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - complementary [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - img "Tour Master Logo" [ref=e10]
+          - img [ref=e12] [cursor=pointer]
+        - menu [ref=e17]:
+          - menuitem "Dashboard" [expanded] [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - generic [ref=e21]: Dashboard
+          - menu [ref=e190]:
+            - menuitem "Company Overview" [ref=e22] [cursor=pointer]:
+              - img [ref=e23]
+              - generic [ref=e25]: Company Overview
+            - menuitem "Guide" [ref=e26] [cursor=pointer]:
+              - img [ref=e27]
+              - generic [ref=e29]: Guide
+            - menuitem "Expense" [ref=e30] [cursor=pointer]:
+              - img [ref=e31]
+              - generic [ref=e33]: Expense
+          - separator [ref=e34]
+          - text: Management
+          - group [ref=e35]:
+            - menuitem "Bookings" [ref=e36] [cursor=pointer]:
+              - img [ref=e37]
+              - generic [ref=e40]: Bookings
+            - menuitem "Excursion" [ref=e41] [cursor=pointer]:
+              - img [ref=e42]
+              - generic [ref=e44]: Excursion
+            - menuitem "Pick up Transport" [ref=e45] [cursor=pointer]:
+              - img [ref=e46]
+              - generic [ref=e51]: Pick up Transport
+            - menuitem "Drop off Transport" [ref=e52] [cursor=pointer]:
+              - img [ref=e53]
+              - generic [ref=e58]: Drop off Transport
+            - menuitem "Check In" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+              - generic [ref=e63]: Check In
+            - menuitem "Payment" [ref=e64] [cursor=pointer]:
+              - img [ref=e65]
+              - generic [ref=e68]: Payment
+          - separator [ref=e69]
+          - text: Setting
+          - group
+          - menuitem "Program" [ref=e70] [cursor=pointer]:
+            - img [ref=e71]
+            - generic [ref=e75]: Program
+          - menuitem "Seller" [ref=e76] [cursor=pointer]:
+            - img [ref=e77]
+            - generic [ref=e79]: Seller
+          - menuitem "Vehicle" [ref=e80] [cursor=pointer]:
+            - img [ref=e81]
+            - generic [ref=e88]: Vehicle
+          - menuitem "Employee" [ref=e89] [cursor=pointer]:
+            - img [ref=e90]
+            - generic [ref=e94]: Employee
+          - menuitem "Zone Transfer" [ref=e95] [cursor=pointer]:
+            - img [ref=e96]
+            - generic [ref=e100]: Zone Transfer
+          - menuitem "User" [ref=e101] [cursor=pointer]:
+            - img [ref=e102]
+            - generic [ref=e105]: User
+          - menuitem "Company" [ref=e106] [cursor=pointer]:
+            - img [ref=e107]
+            - generic [ref=e109]: Company
+          - menuitem "User Manual" [ref=e110] [cursor=pointer]:
+            - img [ref=e111]
+            - generic [ref=e113]: User Manual
+    - generic [ref=e114]:
+      - banner [ref=e115]:
+        - generic [ref=e117]:
+          - generic [ref=e118]: "Thu : 09 Jul 2026, 10:00"
+          - generic [ref=e120] [cursor=pointer]:
+            - generic [ref=e122]: AM
+            - generic [ref=e123]:
+              - generic [ref=e124]: amares
+              - generic [ref=e125]: Superadmin
+            - img [ref=e127]
+      - main [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e133]: Company Overview
+          - generic [ref=e134]:
+            - generic [ref=e135]:
+              - generic [ref=e136] [cursor=pointer]:
+                - generic [ref=e138]:
+                  - combobox [ref=e140]
+                  - generic: All Destinations
+                - generic:
+                  - img:
+                    - img
+              - generic [ref=e141] [cursor=pointer]:
+                - generic [ref=e143]:
+                  - combobox [ref=e145]
+                  - generic: All Programs
+                - generic:
+                  - img:
+                    - img
+              - generic [ref=e149]:
+                - textbox "Start date" [ref=e151]: 09/07/2026
+                - generic "to" [ref=e153]:
+                  - img "swap-right" [ref=e154]:
+                    - img [ref=e155]
+                - textbox "End date" [ref=e158]: 09/07/2026
+                - generic:
+                  - img
+                - button "close-circle" [ref=e159] [cursor=pointer]:
+                  - img "close-circle" [ref=e160]:
+                    - img [ref=e161]
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - button "Overview" [ref=e165]:
+                  - img [ref=e166]
+                  - text: Overview
+                - button "Seller" [ref=e168]:
+                  - img [ref=e169]
+                  - text: Seller
+                - button "Expense" [active] [ref=e174]:
+                  - img [ref=e175]
+                  - text: Expense
+              - generic [ref=e177]:
+                - button "Today" [ref=e178]
+                - button "Weekly" [ref=e179]
+                - button "Monthly" [ref=e180]
+                - button "Yearly" [ref=e181]
+          - generic [ref=e192]:
+            - generic [ref=e193]:
+              - heading "Expense" [level=1] [ref=e588]
+              - paragraph [ref=e195]: July 09, 2026
+            - generic [ref=e589]:
+              - generic [ref=e591]:
+                - generic [ref=e592]:
+                  - generic [ref=e593]:
+                    - paragraph [ref=e594]: Total Expenses
+                    - paragraph [ref=e595]: ฿ 0.00
+                  - img [ref=e597]
+                - generic [ref=e602]:
+                  - img [ref=e603]
+                  - text: "-100%"
+              - generic [ref=e607]:
+                - paragraph [ref=e608]: Total by Type
+                - generic [ref=e609]:
+                  - generic [ref=e612]:
+                    - paragraph [ref=e613]: Guide Fee
+                    - paragraph [ref=e614]: ฿0.00
+                  - generic [ref=e617]:
+                    - paragraph [ref=e618]: Vehicle Cost
+                    - paragraph [ref=e619]: ฿0.00
+                  - generic [ref=e622]:
+                    - paragraph [ref=e623]: Other Expense
+                    - paragraph [ref=e624]: ฿0.00
+                  - generic [ref=e627]:
+                    - paragraph [ref=e628]: Allowance
+                    - paragraph [ref=e629]: ฿0.00
+            - generic [ref=e630]:
+              - paragraph [ref=e631]: Expense by Type
+              - generic [ref=e632]:
+                - button "All" [ref=e633]
+                - button "Guide Fee" [ref=e634]
+                - button "Vehicle Cost" [ref=e635]
+                - button "Other Expense" [ref=e636]
+                - button "Allowance" [ref=e637]
+                - button "Extra Cost" [ref=e638]
+              - generic [ref=e640]:
+                - generic [ref=e641]:
+                  - generic [ref=e642]: Type
+                  - generic [ref=e643]: List
+                  - generic [ref=e644]: Total (฿)
+                - generic [ref=e645]: No expense data
+              - generic [ref=e647]:
+                - button "10 / page" [ref=e648]:
+                  - text: 10 / page
+                  - img [ref=e649]
+                - generic [ref=e651]:
+                  - button "Previous page" [disabled] [ref=e652]:
+                    - img [ref=e653]
+                  - button "1" [ref=e656]
+                  - button "Next page" [disabled] [ref=e657]:
+                    - img [ref=e658]

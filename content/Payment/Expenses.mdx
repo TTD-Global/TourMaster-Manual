@@ -14,11 +14,7 @@ toc_max_heading_level: 2
 
 ## ตารางรายการ
 
-<div className="manual-img-500">
-
-![Expenses](/img/Payment/payment-expenses.png)
-
-</div>
+![Expenses](/img/Payment/payment-expenses-list.png)
 
 ### Summary Card
 
@@ -71,8 +67,89 @@ toc_max_heading_level: 2
 
 ### View
 
-แสดงรายละเอียดค่าใช้จ่ายจริงของ Trip นั้น แยกตามรายการ
+แสดงรายละเอียดค่าใช้จ่ายจริงของ Trip นั้น แยกตามประเภท
+
+![Expenses View](/img/Payment/payment-expenses-view.png)
+
+#### Guide Information
+
+ส่วนบนแสดงสรุปจำนวน Pax
+
+| Card | คำอธิบาย |
+|------|----------|
+| **Pax No.ADV** | จำนวน Pax ที่ใช้คำนวณ Advance (ตอนจองล่วงหน้า) |
+| **Checked In** | จำนวน Pax ที่ Check In จริง |
+| **No show** | จำนวน Pax ที่ไม่มาตามนัด |
+| **Amount Pax Act.** | จำนวน Pax จริงที่ใช้คำนวณค่าใช้จ่าย |
+
+#### Expense
+
+ตารางรายการค่าใช้จ่ายจริงแยกตามประเภท
+
+| ส่วน | คำอธิบาย |
+|------|----------|
+| **Guide** | ค่าจ้าง Guide จริง |
+| **Vehicle Cost** | ค่าใช้จ่ายยานพาหนะ (Supplier หรือ Own Vehicle) |
+| **Other Expense** | ค่าใช้จ่ายอื่นๆ เช่น ค่าเข้าชม, ค่าอาหาร |
+
+ทุกตารางมีคอลัมน์: **#** / **Items** / **Cost Type** / **Cost (Unit)** / **Pax** / **Expense Cost**
+
+#### Summary
+
+| รายการ | คำอธิบาย |
+|--------|----------|
+| **Guide** | ค่าใช้จ่ายส่วน Guide รวม |
+| **Vehicle** | ค่าใช้จ่ายส่วนยานพาหนะรวม |
+| **Other Expense** | ค่าใช้จ่ายอื่นๆ รวม |
+| **Total Cost (THB)** | ยอดค่าใช้จ่ายจริงทั้งหมด |
+
+ปุ่มที่มีใน View:
+- **Approve** — อนุมัติรายการ Expenses
+- **Edit** — เข้าสู่โหมดแก้ไข
+- **Close** — ปิดหน้า View
+
+---
+
+### Edit และการเพิ่ม Extra Expense
+
+**Extra Expense** คือรายการค่าใช้จ่ายพิเศษที่เกิดขึ้นระหว่าง Trip นอกเหนือจากที่วางแผนไว้ เช่น ค่าอาหารพิเศษ, ค่าใช้จ่ายฉุกเฉิน
+
+![Expenses Edit](/img/Payment/payment-expenses-edit.png)
+
+#### ขั้นตอนการเพิ่ม Extra Expense
+
+1. กดปุ่ม `...` → **Edit** (หรือเปิด View แล้วกด **Edit**)
+2. เลื่อนลงมาที่ส่วน **Extra Expense** ด้านล่าง แล้วกดปุ่ม **Add extra expense**
+
+![Add extra expense button](/img/Payment/payment-expenses-extra-button.png)
+
+3. หน้าต่าง **Add Extra Expense** จะปรากฏขึ้น — กดที่ช่อง **Items Type** เพื่อเลือกประเภทรายการ
+
+![Extra Expense Form — dropdown เปิด](/img/Payment/payment-expenses-extra-form.png)
+
+4. กรอกข้อมูลในฟอร์ม:
+
+| ฟิลด์ | คำอธิบาย | จำเป็น |
+|-------|----------|--------|
+| **Items Type** | ประเภทรายการค่าใช้จ่าย (เลือกจาก dropdown) | ✅ |
+| **Remark** | หมายเหตุเพิ่มเติม | — |
+| **Cost Type** | วิธีคิดราคา (All / Person / Fix) | ✅ |
+| **Cost (THB)** | ราคา (บาท) | ✅ |
+
+![Extra Expense filled form](/img/Payment/payment-expenses-extra-filled.png)
+
+5. กดปุ่ม **Add Item** หากต้องการเพิ่มหลายรายการในครั้งเดียว
+6. กด **Confirm** เพื่อยืนยัน หรือ **Cancel** เพื่อยกเลิก
+7. กด **Save** เพื่อบันทึกการแก้ไขทั้งหมด
+
+รายการ Extra Expense จะปรากฏในตาราง **Extra Expense** ด้านล่างพร้อมยอดรวมที่อัปเดตอัตโนมัติ
+
+![Extra Expense result table](/img/Payment/payment-expenses-extra-result.png)
 
 :::tip เคล็ดลับ
 ระบบจะนำข้อมูล Expenses ไปคำนวณยอดคงเหลือให้อัตโนมัติใน **Balance**
+:::
+
+:::info
+Expenses ที่ **Approve** แล้วยังสามารถกด **Edit** เพื่อแก้ไขได้ สถานะจะยังคงเป็น **Completed** เหมือนเดิมหลังการแก้ไข
 :::
