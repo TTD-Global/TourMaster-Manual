@@ -1,0 +1,77 @@
+- generic [ref=e55]:
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic:
+          - img "Logo"
+      - button [ref=e64] [cursor=pointer]:
+        - img [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e74]: Management
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e88]: Supplier Task
+      - generic [ref=e92]: Setting
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e98]
+          - generic [ref=e101]: Vehicle
+        - generic [ref=e102]:
+          - button "Personnel list" [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: Personnel list
+          - button "Registration" [ref=e108] [cursor=pointer]:
+            - generic [ref=e112]: Registration
+          - button "Group Type" [ref=e113] [cursor=pointer]:
+            - generic [ref=e117]: Group Type
+  - generic [ref=e118]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: "Fri. 10 Jul. 2026 : 18:19"
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - paragraph [ref=e128]: 99+
+      - generic:
+        - img
+      - button "SA samak User" [ref=e131] [cursor=pointer]:
+        - generic [ref=e135]: SA
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: samak
+          - paragraph [ref=e138]: User
+    - main [ref=e143]:
+      - generic [ref=e145]:
+        - paragraph [ref=e147]: Vehicle
+        - generic [ref=e148]:
+          - img [ref=e150]
+          - paragraph [ref=e152]: Registration
+        - generic [ref=e805]:
+          - img [ref=e807]
+          - paragraph [ref=e809]: Edit Registration Detail
+      - generic [ref=e1342]:
+        - generic [ref=e1343]:
+          - generic [ref=e1344]:
+            - heading "Registration Detail" [level=1] [ref=e1346]
+            - generic [ref=e1348]:
+              - generic [ref=e1349]: "Status :"
+              - button "Active" [ref=e1377] [cursor=pointer]:
+                - generic [ref=e1380]: Active
+                - img [ref=e1382]
+          - generic [ref=e1356]:
+            - generic [ref=e1359]:
+              - generic [ref=e1360]: Group Type*
+              - generic [ref=e1362]:
+                - textbox "Search group type..." [ref=e1364]: "MINIBUS (19) : 19"
+                - button "Clear" [ref=e1384] [cursor=pointer]:
+                  - img [ref=e1385]
+                - button "Toggle dropdown" [ref=e1365] [cursor=pointer]:
+                  - img [ref=e1366]
+            - generic [ref=e1371]:
+              - generic [ref=e1372]: Registration*
+              - generic [ref=e1373]:
+                - textbox "Please enter" [ref=e1374]: เทส1234
+                - button "Clear" [ref=e1387] [cursor=pointer]:
+                  - img [ref=e1388]
+        - generic [ref=e1391]:
+          - button "Cancel" [ref=e1392] [cursor=pointer]:
+            - generic [ref=e1393]: Cancel
+          - button "Save" [ref=e1394] [cursor=pointer]:
+            - img [ref=e1396]
+            - generic [ref=e1399]: Save

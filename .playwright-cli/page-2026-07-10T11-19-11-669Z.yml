@@ -1,0 +1,85 @@
+- generic [ref=e55]:
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic:
+          - img "Logo"
+      - button [ref=e64] [cursor=pointer]:
+        - img [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e74]: Management
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e88]: Supplier Task
+      - generic [ref=e92]: Setting
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e98]
+          - generic [ref=e101]: Vehicle
+        - generic [ref=e102]:
+          - button "Personnel list" [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: Personnel list
+          - button "Registration" [ref=e108] [cursor=pointer]:
+            - generic [ref=e112]: Registration
+          - button "Group Type" [ref=e113] [cursor=pointer]:
+            - generic [ref=e117]: Group Type
+  - generic [ref=e118]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: "Fri. 10 Jul. 2026 : 18:19"
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - paragraph [ref=e128]: 99+
+      - generic:
+        - img
+      - button "SA samak User" [ref=e131] [cursor=pointer]:
+        - generic [ref=e135]: SA
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: samak
+          - paragraph [ref=e138]: User
+    - main [ref=e143]:
+      - generic [ref=e145]:
+        - paragraph [ref=e147]: Vehicle
+        - generic [ref=e148]:
+          - img [ref=e150]
+          - paragraph [ref=e152]: Personnel list
+        - generic [ref=e805]:
+          - img [ref=e807]
+          - paragraph [ref=e809]: Edit Personnel Detail
+      - generic [ref=e1079]:
+        - generic [ref=e1080]:
+          - heading "Personnel Detail" [level=1] [ref=e1083]
+          - generic [ref=e1086]:
+            - generic [ref=e1087]:
+              - paragraph [ref=e1088]: Image
+              - generic [ref=e1089]:
+                - img [ref=e1092] [cursor=pointer]
+                - img [ref=e1096] [cursor=pointer]
+            - generic [ref=e1100]:
+              - generic [ref=e1102]:
+                - generic [ref=e1103]: Position*
+                - generic [ref=e1105]:
+                  - textbox "Search position..." [ref=e1107]
+                  - button "Toggle dropdown" [ref=e1108] [cursor=pointer]:
+                    - img [ref=e1109]
+              - generic [ref=e1113]:
+                - generic [ref=e1114]: Name*
+                - textbox "Please enter" [ref=e1116]
+              - generic [ref=e1119]:
+                - generic [ref=e1120]: Phone Number*
+                - textbox "Please enter" [ref=e1122]
+              - generic [ref=e1125]:
+                - generic [ref=e1126]: Email
+                - textbox "Please enter" [ref=e1128]
+              - generic [ref=e1131]:
+                - generic [ref=e1132]: Registration
+                - generic [ref=e1134]:
+                  - textbox "Search registration..." [ref=e1136]
+                  - button "Toggle dropdown" [ref=e1137] [cursor=pointer]:
+                    - img [ref=e1138]
+        - generic [ref=e1142]:
+          - button "Cancel" [ref=e1143] [cursor=pointer]:
+            - generic [ref=e1144]: Cancel
+          - button "Save" [disabled]:
+            - generic:
+              - img
+            - generic: Save

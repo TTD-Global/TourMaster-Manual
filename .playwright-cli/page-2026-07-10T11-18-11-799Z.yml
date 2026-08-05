@@ -1,0 +1,148 @@
+- generic [ref=e55]:
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic:
+          - img "Logo"
+      - button [ref=e64] [cursor=pointer]:
+        - img [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e74]: Management
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e88]: Supplier Task
+      - generic [ref=e92]: Setting
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e98]
+          - generic [ref=e101]: Vehicle
+        - generic [ref=e102]:
+          - button "Personnel list" [active] [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: Personnel list
+          - button "Registration" [ref=e108] [cursor=pointer]:
+            - generic [ref=e112]: Registration
+          - button "Group Type" [ref=e113] [cursor=pointer]:
+            - generic [ref=e117]: Group Type
+  - generic [ref=e118]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: "Fri. 10 Jul. 2026 : 18:18"
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - paragraph [ref=e128]: 99+
+      - generic:
+        - img
+      - button "SA samak User" [ref=e131] [cursor=pointer]:
+        - generic [ref=e135]: SA
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: samak
+          - paragraph [ref=e138]: User
+    - main [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - paragraph [ref=e147]: Vehicle
+          - generic [ref=e148]:
+            - img [ref=e150]
+            - paragraph [ref=e152]: Personnel list
+        - button "Create Personnel" [ref=e629] [cursor=pointer]:
+          - img [ref=e631]
+          - generic [ref=e633]: Create Personnel
+      - generic [ref=e635]:
+        - generic [ref=e636]:
+          - generic [ref=e637]:
+            - generic [ref=e638]:
+              - generic:
+                - img
+              - textbox "Search" [ref=e639]
+            - button "Filter" [ref=e640] [cursor=pointer]:
+              - generic [ref=e641]:
+                - img [ref=e642]
+                - generic [ref=e645]: Filter
+          - button "Export" [ref=e647] [cursor=pointer]:
+            - generic [ref=e648]:
+              - img [ref=e649]
+              - generic [ref=e652]: Export
+            - img [ref=e654]
+        - table [ref=e659]:
+          - rowgroup [ref=e660]:
+            - row "# Image Position Name Phone Number Registration Status Last Modify Date Action" [ref=e661]:
+              - columnheader "#" [ref=e662]
+              - columnheader "Image" [ref=e663]
+              - columnheader "Position" [ref=e664]
+              - columnheader "Name" [ref=e665]
+              - columnheader "Phone Number" [ref=e666]
+              - columnheader "Registration" [ref=e667]
+              - columnheader "Status" [ref=e668]
+              - columnheader "Last Modify Date" [ref=e669]
+              - columnheader "Action" [ref=e670]
+          - rowgroup [ref=e671]:
+            - 'row "1 Driver ธวัชชัย ใจมั่น 099-567-8901 กข8904 : VAN (10) Active 30/06/2026 More actions" [ref=e672]':
+              - cell "1" [ref=e673]
+              - cell [ref=e674]:
+                - img [ref=e677]
+              - cell "Driver" [ref=e679]
+              - cell "ธวัชชัย ใจมั่น" [ref=e680]:
+                - button "ธวัชชัย ใจมั่น" [ref=e681] [cursor=pointer]
+              - cell "099-567-8901" [ref=e682]
+              - 'cell "กข8904 : VAN (10)" [ref=e683]'
+              - cell "Active" [ref=e684]:
+                - generic [ref=e687]: Active
+              - cell "30/06/2026" [ref=e688]
+              - cell "More actions" [ref=e689]:
+                - button "More actions" [ref=e692] [cursor=pointer]:
+                  - img [ref=e693]
+            - 'row "2 Driver สมบัติ แสงสุวรรณ 098-456-7890 กข3145 : VAN (10) Active 30/06/2026 More actions" [ref=e697]':
+              - cell "2" [ref=e698]
+              - cell [ref=e699]:
+                - img [ref=e702]
+              - cell "Driver" [ref=e704]
+              - cell "สมบัติ แสงสุวรรณ" [ref=e705]:
+                - button "สมบัติ แสงสุวรรณ" [ref=e706] [cursor=pointer]
+              - cell "098-456-7890" [ref=e707]
+              - 'cell "กข3145 : VAN (10)" [ref=e708]'
+              - cell "Active" [ref=e709]:
+                - generic [ref=e712]: Active
+              - cell "30/06/2026" [ref=e713]
+              - cell "More actions" [ref=e714]:
+                - button "More actions" [ref=e717] [cursor=pointer]:
+                  - img [ref=e718]
+            - 'row "3 Driver ณรงค์ชัย ทองดี 097-345-6789 บส9024 : MINIBUS (19) Active 30/06/2026 More actions" [ref=e722]':
+              - cell "3" [ref=e723]
+              - cell [ref=e724]:
+                - img [ref=e727]
+              - cell "Driver" [ref=e729]
+              - cell "ณรงค์ชัย ทองดี" [ref=e730]:
+                - button "ณรงค์ชัย ทองดี" [ref=e731] [cursor=pointer]
+              - cell "097-345-6789" [ref=e732]
+              - 'cell "บส9024 : MINIBUS (19)" [ref=e733]'
+              - cell "Active" [ref=e734]:
+                - generic [ref=e737]: Active
+              - cell "30/06/2026" [ref=e738]
+              - cell "More actions" [ref=e739]:
+                - button "More actions" [ref=e742] [cursor=pointer]:
+                  - img [ref=e743]
+            - 'row "4 Driver อดิศักดิ์ พรหมแก้ว 096-234-5678 จภ4579 : VAN (12) Active 30/06/2026 More actions" [ref=e747]':
+              - cell "4" [ref=e748]
+              - cell [ref=e749]:
+                - img [ref=e752]
+              - cell "Driver" [ref=e754]
+              - cell "อดิศักดิ์ พรหมแก้ว" [ref=e755]:
+                - button "อดิศักดิ์ พรหมแก้ว" [ref=e756] [cursor=pointer]
+              - cell "096-234-5678" [ref=e757]
+              - 'cell "จภ4579 : VAN (12)" [ref=e758]'
+              - cell "Active" [ref=e759]:
+                - generic [ref=e762]: Active
+              - cell "30/06/2026" [ref=e763]
+              - cell "More actions" [ref=e764]:
+                - button "More actions" [ref=e767] [cursor=pointer]:
+                  - img [ref=e768]
+        - generic [ref=e773]:
+          - button "20 / page" [ref=e775] [cursor=pointer]:
+            - generic [ref=e776]: 20 / page
+            - img [ref=e777]
+          - generic [ref=e779]:
+            - button "Previous page" [disabled] [ref=e780]:
+              - img [ref=e781]
+            - button "1" [ref=e784] [cursor=pointer]:
+              - generic [ref=e785]: "1"
+            - button "Next page" [disabled] [ref=e786]:
+              - img [ref=e787]

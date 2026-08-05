@@ -1,0 +1,3 @@
+[     765ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://supplier-login-last.vercel.app/login:0
+[   50216ms] [LOG] Login response: {access_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTgsI…jE0fQ.FTv9IGLGAhZYQLqnCB8TCsEL6R4K-RvEOQc3j8C-GlY, refresh_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTgsI…DE0fQ.jqV1cnR5cj5rRwXUpXfa_CCxJmc3qIvJhb7ddh2ttk4} @ https://supplier-login-last.vercel.app/assets/index-CWLptDEB.js:1
+[   50395ms] [LOG] Get current user response: {id: 3, full_name: Samak Transport, status: active, code: SP-000003, email: null} @ https://supplier-login-last.vercel.app/assets/index-CWLptDEB.js:1

@@ -1,0 +1,151 @@
+- generic [ref=e55]:
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic:
+          - img "Logo"
+      - button [ref=e64] [cursor=pointer]:
+        - img [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e74]: Management
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e88]: Supplier Task
+      - generic [ref=e92]: Setting
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e98]
+          - generic [ref=e101]: Vehicle
+        - generic [ref=e102]:
+          - button "Personnel list" [active] [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: Personnel list
+          - button "Registration" [ref=e108] [cursor=pointer]:
+            - generic [ref=e112]: Registration
+          - button "Group Type" [ref=e113] [cursor=pointer]:
+            - generic [ref=e117]: Group Type
+  - generic [ref=e118]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: "Fri. 10 Jul. 2026 : 18:19"
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - paragraph [ref=e128]: 99+
+      - generic:
+        - img
+      - button "SA samak User" [ref=e131] [cursor=pointer]:
+        - generic [ref=e135]: SA
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: samak
+          - paragraph [ref=e138]: User
+    - main [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - paragraph [ref=e147]: Vehicle
+          - generic [ref=e148]:
+            - img [ref=e150]
+            - paragraph [ref=e152]: Personnel list
+          - generic [ref=e805]:
+            - img [ref=e807]
+            - paragraph [ref=e809]: Edit Personnel Detail
+        - button "Create Personnel" [ref=e918] [cursor=pointer]:
+          - img [ref=e920]
+          - generic [ref=e922]: Create Personnel
+      - generic [ref=e924]:
+        - generic [ref=e925]:
+          - generic [ref=e926]:
+            - generic [ref=e927]:
+              - generic:
+                - img
+              - textbox "Search" [ref=e928]
+            - button "Filter" [ref=e929] [cursor=pointer]:
+              - generic [ref=e930]:
+                - img [ref=e931]
+                - generic [ref=e934]: Filter
+          - button "Export" [ref=e936] [cursor=pointer]:
+            - generic [ref=e937]:
+              - img [ref=e938]
+              - generic [ref=e941]: Export
+            - img [ref=e943]
+        - table [ref=e948]:
+          - rowgroup [ref=e949]:
+            - row "# Image Position Name Phone Number Registration Status Last Modify Date Action" [ref=e950]:
+              - columnheader "#" [ref=e951]
+              - columnheader "Image" [ref=e952]
+              - columnheader "Position" [ref=e953]
+              - columnheader "Name" [ref=e954]
+              - columnheader "Phone Number" [ref=e955]
+              - columnheader "Registration" [ref=e956]
+              - columnheader "Status" [ref=e957]
+              - columnheader "Last Modify Date" [ref=e958]
+              - columnheader "Action" [ref=e959]
+          - rowgroup [ref=e960]:
+            - 'row "1 Driver ธวัชชัย ใจมั่น 099-567-8901 กข8904 : VAN (10) Active 30/06/2026 More actions" [ref=e961]':
+              - cell "1" [ref=e962]
+              - cell [ref=e963]:
+                - img [ref=e966]
+              - cell "Driver" [ref=e968]
+              - cell "ธวัชชัย ใจมั่น" [ref=e969]:
+                - button "ธวัชชัย ใจมั่น" [ref=e970] [cursor=pointer]
+              - cell "099-567-8901" [ref=e971]
+              - 'cell "กข8904 : VAN (10)" [ref=e972]'
+              - cell "Active" [ref=e973]:
+                - generic [ref=e976]: Active
+              - cell "30/06/2026" [ref=e977]
+              - cell "More actions" [ref=e978]:
+                - button "More actions" [ref=e981] [cursor=pointer]:
+                  - img [ref=e982]
+            - 'row "2 Driver สมบัติ แสงสุวรรณ 098-456-7890 กข3145 : VAN (10) Active 30/06/2026 More actions" [ref=e986]':
+              - cell "2" [ref=e987]
+              - cell [ref=e988]:
+                - img [ref=e991]
+              - cell "Driver" [ref=e993]
+              - cell "สมบัติ แสงสุวรรณ" [ref=e994]:
+                - button "สมบัติ แสงสุวรรณ" [ref=e995] [cursor=pointer]
+              - cell "098-456-7890" [ref=e996]
+              - 'cell "กข3145 : VAN (10)" [ref=e997]'
+              - cell "Active" [ref=e998]:
+                - generic [ref=e1001]: Active
+              - cell "30/06/2026" [ref=e1002]
+              - cell "More actions" [ref=e1003]:
+                - button "More actions" [ref=e1006] [cursor=pointer]:
+                  - img [ref=e1007]
+            - 'row "3 Driver ณรงค์ชัย ทองดี 097-345-6789 บส9024 : MINIBUS (19) Active 30/06/2026 More actions" [ref=e1011]':
+              - cell "3" [ref=e1012]
+              - cell [ref=e1013]:
+                - img [ref=e1016]
+              - cell "Driver" [ref=e1018]
+              - cell "ณรงค์ชัย ทองดี" [ref=e1019]:
+                - button "ณรงค์ชัย ทองดี" [ref=e1020] [cursor=pointer]
+              - cell "097-345-6789" [ref=e1021]
+              - 'cell "บส9024 : MINIBUS (19)" [ref=e1022]'
+              - cell "Active" [ref=e1023]:
+                - generic [ref=e1026]: Active
+              - cell "30/06/2026" [ref=e1027]
+              - cell "More actions" [ref=e1028]:
+                - button "More actions" [ref=e1031] [cursor=pointer]:
+                  - img [ref=e1032]
+            - 'row "4 Driver อดิศักดิ์ พรหมแก้ว 096-234-5678 จภ4579 : VAN (12) Active 30/06/2026 More actions" [ref=e1036]':
+              - cell "4" [ref=e1037]
+              - cell [ref=e1038]:
+                - img [ref=e1041]
+              - cell "Driver" [ref=e1043]
+              - cell "อดิศักดิ์ พรหมแก้ว" [ref=e1044]:
+                - button "อดิศักดิ์ พรหมแก้ว" [ref=e1045] [cursor=pointer]
+              - cell "096-234-5678" [ref=e1046]
+              - 'cell "จภ4579 : VAN (12)" [ref=e1047]'
+              - cell "Active" [ref=e1048]:
+                - generic [ref=e1051]: Active
+              - cell "30/06/2026" [ref=e1052]
+              - cell "More actions" [ref=e1053]:
+                - button "More actions" [ref=e1056] [cursor=pointer]:
+                  - img [ref=e1057]
+        - generic [ref=e1062]:
+          - button "20 / page" [ref=e1064] [cursor=pointer]:
+            - generic [ref=e1065]: 20 / page
+            - img [ref=e1066]
+          - generic [ref=e1068]:
+            - button "Previous page" [disabled] [ref=e1069]:
+              - img [ref=e1070]
+            - button "1" [ref=e1073] [cursor=pointer]:
+              - generic [ref=e1074]: "1"
+            - button "Next page" [disabled] [ref=e1075]:
+              - img [ref=e1076]

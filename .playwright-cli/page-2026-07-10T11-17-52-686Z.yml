@@ -1,0 +1,227 @@
+- generic [ref=e55]:
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic:
+          - img "Logo"
+      - button [ref=e64] [cursor=pointer]:
+        - img [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e74]: Management
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e88]: Supplier Task
+      - generic [ref=e92]: Setting
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e98]
+          - generic [ref=e101]: Vehicle
+        - generic [ref=e102]:
+          - button "Personnel list" [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: Personnel list
+          - button "Registration" [ref=e108] [cursor=pointer]:
+            - generic [ref=e112]: Registration
+          - button "Group Type" [ref=e113] [cursor=pointer]:
+            - generic [ref=e117]: Group Type
+  - generic [ref=e118]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: "Fri. 10 Jul. 2026 : 18:17"
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - paragraph [ref=e128]: 99+
+      - generic:
+        - img
+      - button "SA samak User" [ref=e131] [cursor=pointer]:
+        - generic [ref=e135]: SA
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: samak
+          - paragraph [ref=e138]: User
+    - main [ref=e143]:
+      - generic [ref=e145]:
+        - paragraph [ref=e147]: Supplier Task
+        - generic [ref=e148]:
+          - img [ref=e150]
+          - paragraph [ref=e152]: Edit
+      - generic [ref=e317]:
+        - generic [ref=e319]:
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - generic [ref=e322]:
+                - img [ref=e323]
+                - generic [ref=e325]: 10/07/2026
+              - generic [ref=e326]:
+                - img [ref=e327]
+                - generic [ref=e329]: 07:30
+              - generic [ref=e330]:
+                - img [ref=e331]
+                - generic [ref=e336]: Join In
+            - generic [ref=e337]:
+              - generic [ref=e340]: Pending
+              - generic [ref=e341]:
+                - img [ref=e342]
+                - generic [ref=e345]: 5/12
+          - generic [ref=e346]:
+            - generic [ref=e347]:
+              - img [ref=e348]
+              - generic [ref=e351]: EC26CROH
+            - generic [ref=e352]: "Destinations : Bangkok"
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - img [ref=e356]
+              - generic [ref=e360]: Guide Detail
+            - generic [ref=e363]:
+              - generic [ref=e364]:
+                - generic [ref=e365]: Guide 1
+                - generic [ref=e366]: ":"
+                - generic [ref=e367]: "-"
+              - generic [ref=e368]:
+                - img [ref=e369]
+                - generic [ref=e371]: ":"
+                - generic [ref=e372]: "-"
+        - generic [ref=e373]:
+          - button "Itinerary Detail" [ref=e374]:
+            - generic [ref=e375]:
+              - img [ref=e377]
+              - generic [ref=e380]: Itinerary Detail
+            - img [ref=e381]
+          - generic [ref=e383]:
+            - button "ภาษาไทย" [ref=e386]:
+              - generic [ref=e388]: ภาษาไทย
+            - generic [ref=e389]:
+              - generic [ref=e391]:
+                - img [ref=e393]
+                - generic [ref=e397]:
+                  - generic [ref=e398]: 07:30 • ออกเดินทางจากเซ็นทรัลเวิลด์ (โซนฮักไทย)
+                  - generic [ref=e399]: "Meet up point: Central World (Hug Thai Zone)"
+              - generic [ref=e402]:
+                - img [ref=e404]
+                - generic [ref=e408]:
+                  - generic [ref=e409]: 09:30
+                  - generic [ref=e410]: เดินทางถึงตลาดร่มหุบ (ให้เวลาไม่ต่ำกว่า 1 ชม.) เดินชมและถ่ายรูปกับรถไฟ
+              - generic [ref=e412]:
+                - img [ref=e414]
+                - generic [ref=e419]: "รอบรถไฟเข้า: 08:30 / 11:10 / 14:30 / 17:40"
+              - generic [ref=e421]:
+                - img [ref=e423]
+                - generic [ref=e428]: "รอบรถไฟออก: 06:20 / 09:00 / 11:30 / 15:30"
+              - generic [ref=e430]:
+                - img [ref=e432]
+                - generic [ref=e436]:
+                  - generic [ref=e437]: 11:45
+                  - generic [ref=e438]: เดินทางถึงท่าเรือดำเนินสะดวก (ชื่อท่าเรือระบุไว้ในไลน์แจ้งงาน) นั่งเรือหางยาว 40 นาที และเดินชมตลาดน้ำ 1 ชม. (ค่าใช้จ่ายส่วนตัวลูกค้าชำระเอง)
+              - generic [ref=e440]:
+                - img [ref=e442]
+                - generic [ref=e446]:
+                  - generic [ref=e447]: 14:00
+                  - generic [ref=e448]: เดินทางถึงBuffalo Café ให้เวลา 30–40 นาที (ค่าใช้จ่ายส่วนตัวลูกค้าชำระเอง)
+              - generic [ref=e450]:
+                - img [ref=e452]
+                - generic [ref=e456]:
+                  - generic [ref=e457]: 14:30
+                  - generic [ref=e458]: ออกเดินทางกลับกรุงเทพ
+              - generic [ref=e461]:
+                - img [ref=e463]
+                - generic [ref=e468]: "16:30 • Drop-off point: เดินทางถึงเซ็นทรัลเวิลด์ (โซนฮักไทย)"
+        - generic [ref=e469]:
+          - button "Personnel Detail*" [ref=e470]:
+            - generic [ref=e471]:
+              - img [ref=e473]
+              - generic [ref=e478]: Personnel Detail*
+            - img [ref=e479]
+          - generic [ref=e484]:
+            - generic [ref=e485]:
+              - generic [ref=e487]:
+                - generic [ref=e488]: Position
+                - generic [ref=e612]:
+                  - textbox "Search position..." [ref=e614]
+                  - button "Toggle dropdown" [ref=e615] [cursor=pointer]:
+                    - img [ref=e616]
+              - generic [ref=e498]:
+                - generic [ref=e499]: Name
+                - button "Please select Toggle dropdown" [disabled] [ref=e501]:
+                  - generic [ref=e503]: Please select
+                  - button "Toggle dropdown" [ref=e504] [cursor=pointer]:
+                    - img [ref=e505]
+              - generic [ref=e509]:
+                - generic [ref=e510]: Phone Number
+                - textbox "ex. 099-xxxxxxx" [ref=e512]
+            - button "Add Personnel" [ref=e619] [cursor=pointer]:
+              - img [ref=e621]
+              - generic [ref=e623]: Add Personnel
+        - generic [ref=e515]:
+          - button "Vehicle Detail*" [ref=e516]:
+            - generic [ref=e517]:
+              - img [ref=e519]
+              - generic [ref=e522]: Vehicle Detail*
+            - img [ref=e523]
+          - generic [ref=e529]:
+            - generic [ref=e531]:
+              - generic [ref=e532]: Vehicle
+              - textbox "-" [disabled] [ref=e534]: Samak Transport - VAN (12)
+            - generic [ref=e537]:
+              - generic [ref=e538]: Registration
+              - generic [ref=e540]:
+                - textbox "Search registration..." [ref=e542]
+                - button "Toggle dropdown" [ref=e543] [cursor=pointer]:
+                  - img [ref=e544]
+        - generic [ref=e547]:
+          - button "Booking Detail" [ref=e548]:
+            - generic [ref=e549]:
+              - img [ref=e551]
+              - generic [ref=e554]: Booking Detail
+            - img [ref=e555]
+          - generic [ref=e560]:
+            - generic [ref=e561]:
+              - generic [ref=e562]:
+                - generic [ref=e563]: "Language :"
+                - generic [ref=e564]: undefined 3, EN 2
+              - generic [ref=e566]:
+                - textbox "Search Booking" [ref=e567]
+                - img [ref=e568]
+            - table [ref=e573]:
+              - rowgroup [ref=e574]:
+                - row "# Booking No. Customer Name Phone Number Pick-up location Pax Pick-up time Remark" [ref=e575]:
+                  - columnheader "#" [ref=e576]
+                  - columnheader "Booking No." [ref=e577]
+                  - columnheader "Customer Name" [ref=e578]
+                  - columnheader "Phone Number" [ref=e579]
+                  - columnheader "Pick-up location" [ref=e580]
+                  - columnheader "Pax" [ref=e581]
+                  - columnheader "Pick-up time" [ref=e582]:
+                    - generic [ref=e583]:
+                      - img [ref=e584]
+                      - generic [ref=e587]: Pick-up time
+                  - columnheader "Remark" [ref=e588]
+              - rowgroup [ref=e589]:
+                - row "1 TSB-07264VDK test - - 3 - -" [ref=e590]:
+                  - cell "1" [ref=e591]
+                  - cell "TSB-07264VDK" [ref=e592]
+                  - cell "test" [ref=e593]
+                  - cell "-" [ref=e594]
+                  - cell "-" [ref=e595]
+                  - cell "3" [ref=e596]
+                  - cell "-" [ref=e597]
+                  - cell "-" [ref=e598]
+                - row "2 TSB-0726RNBA testets - - 2 - -" [ref=e599]:
+                  - cell "2" [ref=e600]
+                  - cell "TSB-0726RNBA" [ref=e601]
+                  - cell "testets" [ref=e602]
+                  - cell "-" [ref=e603]
+                  - cell "-" [ref=e604]
+                  - cell "2" [ref=e605]
+                  - cell "-" [ref=e606]
+                  - cell "-" [ref=e607]
+        - generic [ref=e609]:
+          - generic [ref=e610]: Remark
+          - textbox "-" [ref=e611]
+        - generic [ref=e625]:
+          - button "Cancel" [ref=e626] [cursor=pointer]:
+            - generic [ref=e627]: Cancel
+          - button "Save as Draft" [disabled]:
+            - generic:
+              - img
+            - generic: Save as Draft
+          - button "Submit and complete" [disabled]:
+            - generic:
+              - img
+            - generic: Submit and complete

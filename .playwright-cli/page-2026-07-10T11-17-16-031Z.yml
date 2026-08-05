@@ -1,0 +1,143 @@
+- generic [ref=e55]:
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic:
+          - img "Logo"
+      - button [ref=e64] [cursor=pointer]:
+        - img [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e74]: Management
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e88]: Supplier Task
+      - generic [ref=e92]: Setting
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e98]
+          - generic [ref=e101]: Vehicle
+        - generic [ref=e102]:
+          - button "Personnel list" [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: Personnel list
+          - button "Registration" [ref=e108] [cursor=pointer]:
+            - generic [ref=e112]: Registration
+          - button "Group Type" [ref=e113] [cursor=pointer]:
+            - generic [ref=e117]: Group Type
+  - generic [ref=e118]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: "Fri. 10 Jul. 2026 : 18:17"
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - paragraph [ref=e128]: 99+
+      - generic:
+        - img
+      - button "SA samak User" [ref=e131] [cursor=pointer]:
+        - generic [ref=e135]: SA
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: samak
+          - paragraph [ref=e138]: User
+    - main [ref=e143]:
+      - generic [ref=e145]:
+        - paragraph [ref=e147]: Management
+        - generic [ref=e148]:
+          - img [ref=e150]
+          - paragraph [ref=e152]: Supplier Task
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - button "Pending 1" [ref=e158]:
+              - generic [ref=e159]:
+                - generic [ref=e160]: Pending
+                - generic [ref=e161]: "1"
+            - button "Completed 0" [ref=e162]:
+              - generic [ref=e163]:
+                - generic [ref=e164]: Completed
+                - generic [ref=e165]: "0"
+          - generic [ref=e166]:
+            - generic [ref=e169] [cursor=pointer]:
+              - img [ref=e171]
+              - generic [ref=e173]: 10/07/2026
+            - generic [ref=e174]:
+              - generic [ref=e175]:
+                - generic:
+                  - img
+                - textbox "Search" [ref=e176]
+              - button "Filter" [ref=e177] [cursor=pointer]:
+                - generic [ref=e178]:
+                  - img [ref=e179]
+                  - generic [ref=e182]: Filter
+            - button "Export" [ref=e184] [cursor=pointer]:
+              - generic [ref=e185]:
+                - img [ref=e186]
+                - generic [ref=e189]: Export
+              - img [ref=e191]
+        - table [ref=e196]:
+          - rowgroup [ref=e197]:
+            - row "# Trip Code Travel Date Trip round Trip Type Destination Zone Program Pax Registration Personnel Guide Pick-up Time Pick-up Location Drop-off Location Drop-off Remark Action" [ref=e198]:
+              - columnheader "#" [ref=e199]
+              - columnheader "Trip Code" [ref=e200]
+              - columnheader "Travel Date" [ref=e201]
+              - columnheader "Trip round" [ref=e202]
+              - columnheader "Trip Type" [ref=e203]
+              - columnheader "Destination" [ref=e204]
+              - columnheader "Zone" [ref=e205]
+              - columnheader "Program" [ref=e206]
+              - columnheader "Pax" [ref=e207]
+              - columnheader "Registration" [ref=e208]
+              - columnheader "Personnel" [ref=e209]
+              - columnheader "Guide" [ref=e210]
+              - columnheader "Pick-up Time" [ref=e211]
+              - columnheader "Pick-up Location" [ref=e212]
+              - columnheader "Drop-off Location" [ref=e213]
+              - columnheader "Drop-off Remark" [ref=e214]
+              - columnheader "Action" [ref=e215]
+          - rowgroup [ref=e216]:
+            - row "1 EC26CROH 10/07/2026 07:30 Join In Bangkok - [One asia] Join-In · Damnoen Saduak & Maeklong Railway 5/12 VAN (12) - - - Central World (Hug Thai Zone) - - More actions View Print Delete" [ref=e272]:
+              - cell "1" [ref=e218]
+              - cell "EC26CROH" [ref=e219]:
+                - button "EC26CROH" [ref=e220] [cursor=pointer]
+              - cell "10/07/2026" [ref=e221]
+              - cell "07:30" [ref=e222]
+              - cell "Join In" [ref=e223]:
+                - generic [ref=e224]:
+                  - img [ref=e225]
+                  - generic [ref=e230]: Join In
+              - cell "Bangkok" [ref=e231]
+              - cell "-" [ref=e232]
+              - cell "[One asia] Join-In · Damnoen Saduak & Maeklong Railway" [ref=e233]:
+                - generic [ref=e235]: "[One asia] Join-In · Damnoen Saduak & Maeklong Railway"
+              - cell "5/12" [ref=e236]:
+                - generic [ref=e237]: 5/12
+              - cell "VAN (12)" [ref=e238]
+              - cell "-" [ref=e239]
+              - cell "-" [ref=e240]
+              - cell "-" [ref=e241]
+              - cell "Central World (Hug Thai Zone)" [ref=e242]:
+                - generic [ref=e244]: Central World (Hug Thai Zone)
+              - cell "-" [ref=e245]
+              - cell "-" [ref=e246]
+              - cell "More actions View Print Delete" [ref=e273]:
+                - generic [ref=e249]:
+                  - button "More actions" [expanded] [active] [ref=e250] [cursor=pointer]:
+                    - img [ref=e251]
+                  - generic [ref=e274]:
+                    - button "View" [ref=e275] [cursor=pointer]:
+                      - img [ref=e277]
+                      - generic [ref=e280]: View
+                    - button "Print" [ref=e281] [cursor=pointer]:
+                      - img [ref=e283]
+                      - generic [ref=e287]: Print
+                    - button "Delete" [ref=e288] [cursor=pointer]:
+                      - img [ref=e290]
+                      - generic [ref=e294]: Delete
+        - generic [ref=e256]:
+          - button "20 / page" [ref=e258] [cursor=pointer]:
+            - generic [ref=e259]: 20 / page
+            - img [ref=e260]
+          - generic [ref=e262]:
+            - button "Previous page" [disabled] [ref=e263]:
+              - img [ref=e264]
+            - button "1" [ref=e267] [cursor=pointer]:
+              - generic [ref=e268]: "1"
+            - button "Next page" [disabled] [ref=e269]:
+              - img [ref=e270]

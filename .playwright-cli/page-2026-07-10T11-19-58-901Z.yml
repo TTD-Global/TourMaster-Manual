@@ -1,0 +1,117 @@
+- generic [ref=e55]:
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic:
+          - img "Logo"
+      - button [ref=e64] [cursor=pointer]:
+        - img [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e74]: Management
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e88]: Supplier Task
+      - generic [ref=e92]: Setting
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e98]
+          - generic [ref=e101]: Vehicle
+        - generic [ref=e102]:
+          - button "Personnel list" [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: Personnel list
+          - button "Registration" [ref=e108] [cursor=pointer]:
+            - generic [ref=e112]: Registration
+          - button "Group Type" [active] [ref=e113] [cursor=pointer]:
+            - generic [ref=e117]: Group Type
+  - generic [ref=e118]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: "Fri. 10 Jul. 2026 : 18:19"
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - paragraph [ref=e128]: 99+
+      - generic:
+        - img
+      - button "SA samak User" [ref=e131] [cursor=pointer]:
+        - generic [ref=e135]: SA
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: samak
+          - paragraph [ref=e138]: User
+    - main [ref=e143]:
+      - generic [ref=e145]:
+        - paragraph [ref=e147]: Vehicle
+        - generic [ref=e148]:
+          - img [ref=e150]
+          - paragraph [ref=e152]: Registration
+        - generic [ref=e805]:
+          - img [ref=e807]
+          - paragraph [ref=e809]: Edit Registration Detail
+      - generic [ref=e1401]:
+        - generic [ref=e1402]:
+          - generic [ref=e1403]:
+            - generic [ref=e1404]:
+              - generic:
+                - img
+              - textbox "Search" [ref=e1405]
+            - button "Filter" [ref=e1406] [cursor=pointer]:
+              - generic [ref=e1407]:
+                - img [ref=e1408]
+                - generic [ref=e1411]: Filter
+          - button "Export" [ref=e1413] [cursor=pointer]:
+            - generic [ref=e1414]:
+              - img [ref=e1415]
+              - generic [ref=e1418]: Export
+            - img [ref=e1420]
+        - table [ref=e1425]:
+          - rowgroup [ref=e1426]:
+            - row "# Group type name Capacity Status Last Modify Date Action" [ref=e1427]:
+              - columnheader "#" [ref=e1428]
+              - columnheader "Group type name" [ref=e1429]
+              - columnheader "Capacity" [ref=e1430]
+              - columnheader "Status" [ref=e1431]
+              - columnheader "Last Modify Date" [ref=e1432]
+              - columnheader "Action" [ref=e1433]
+          - rowgroup [ref=e1434]:
+            - row "1 VAN 10 Active 29/06/2026 More actions" [ref=e1435]:
+              - cell "1" [ref=e1436]
+              - cell "VAN" [ref=e1437]:
+                - button "VAN" [ref=e1438] [cursor=pointer]
+              - cell "10" [ref=e1439]
+              - cell "Active" [ref=e1440]:
+                - generic [ref=e1443]: Active
+              - cell "29/06/2026" [ref=e1444]
+              - cell "More actions" [ref=e1445]:
+                - button "More actions" [ref=e1448] [cursor=pointer]:
+                  - img [ref=e1449]
+            - row "2 MINIBUS 19 Active 29/06/2026 More actions" [ref=e1453]:
+              - cell "2" [ref=e1454]
+              - cell "MINIBUS" [ref=e1455]:
+                - button "MINIBUS" [ref=e1456] [cursor=pointer]
+              - cell "19" [ref=e1457]
+              - cell "Active" [ref=e1458]:
+                - generic [ref=e1461]: Active
+              - cell "29/06/2026" [ref=e1462]
+              - cell "More actions" [ref=e1463]:
+                - button "More actions" [ref=e1466] [cursor=pointer]:
+                  - img [ref=e1467]
+            - row "3 VAN 12 Active 29/06/2026 More actions" [ref=e1471]:
+              - cell "3" [ref=e1472]
+              - cell "VAN" [ref=e1473]:
+                - button "VAN" [ref=e1474] [cursor=pointer]
+              - cell "12" [ref=e1475]
+              - cell "Active" [ref=e1476]:
+                - generic [ref=e1479]: Active
+              - cell "29/06/2026" [ref=e1480]
+              - cell "More actions" [ref=e1481]:
+                - button "More actions" [ref=e1484] [cursor=pointer]:
+                  - img [ref=e1485]
+        - generic [ref=e1490]:
+          - button "20 / page" [ref=e1492] [cursor=pointer]:
+            - generic [ref=e1493]: 20 / page
+            - img [ref=e1494]
+          - generic [ref=e1496]:
+            - button "Previous page" [disabled] [ref=e1497]:
+              - img [ref=e1498]
+            - button "1" [ref=e1501] [cursor=pointer]:
+              - generic [ref=e1502]: "1"
+            - button "Next page" [disabled] [ref=e1503]:
+              - img [ref=e1504]

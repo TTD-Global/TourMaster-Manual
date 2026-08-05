@@ -1,0 +1,86 @@
+- generic [ref=e55]:
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic:
+          - img "Logo"
+      - button [ref=e64] [cursor=pointer]:
+        - img [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e74]: Management
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e88]: Supplier Task
+      - generic [ref=e92]: Setting
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e98]
+          - generic [ref=e101]: Vehicle
+        - generic [ref=e102]:
+          - button "Personnel list" [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: Personnel list
+          - button "Registration" [ref=e108] [cursor=pointer]:
+            - generic [ref=e112]: Registration
+          - button "Group Type" [ref=e113] [cursor=pointer]:
+            - generic [ref=e117]: Group Type
+  - generic [ref=e118]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: "Fri. 10 Jul. 2026 : 18:18"
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - paragraph [ref=e128]: 99+
+      - generic:
+        - img
+      - button "SA samak User" [ref=e131] [cursor=pointer]:
+        - generic [ref=e135]: SA
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: samak
+          - paragraph [ref=e138]: User
+    - main [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - paragraph [ref=e147]: Vehicle
+          - generic [ref=e148]:
+            - img [ref=e150]
+            - paragraph [ref=e152]: Personnel list
+          - generic [ref=e805]:
+            - img [ref=e807]
+            - paragraph [ref=e809]: Personnel Detail
+        - generic [ref=e628]:
+          - button "Close" [ref=e810] [cursor=pointer]:
+            - generic [ref=e633]: Close
+          - button "Edit" [ref=e811] [cursor=pointer]:
+            - img [ref=e813]
+            - generic [ref=e817]: Edit
+      - generic [ref=e820]:
+        - generic [ref=e821]:
+          - heading "Personnel Detail" [level=1] [ref=e823]
+          - generic [ref=e825]:
+            - generic [ref=e826]: "Status :"
+            - generic [ref=e829]: Active
+        - generic [ref=e832]:
+          - generic [ref=e833]:
+            - paragraph [ref=e834]: Image
+            - img [ref=e838]
+          - generic [ref=e840]:
+            - generic [ref=e842]:
+              - generic [ref=e843]: Position*
+              - generic [ref=e845]:
+                - textbox "Search position..." [disabled] [ref=e847]: Driver
+                - button "Toggle dropdown" [ref=e848] [cursor=pointer]:
+                  - img [ref=e849]
+            - generic [ref=e853]:
+              - generic [ref=e854]: Name*
+              - textbox "Please enter" [disabled] [ref=e856]: ธวัชชัย ใจมั่น
+            - generic [ref=e859]:
+              - generic [ref=e860]: Phone Number*
+              - textbox "Please enter" [disabled] [ref=e862]: 099-567-8901
+            - generic [ref=e865]:
+              - generic [ref=e866]: Email
+              - textbox "Please enter" [disabled] [ref=e868]
+            - generic [ref=e871]:
+              - generic [ref=e872]: Registration
+              - generic [ref=e874]:
+                - textbox "Search registration..." [disabled] [ref=e876]: "กข8904 : VAN (10)"
+                - button "Toggle dropdown" [ref=e877] [cursor=pointer]:
+                  - img [ref=e878]

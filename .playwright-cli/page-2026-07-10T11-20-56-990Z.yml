@@ -1,0 +1,165 @@
+- generic [ref=e55]:
+  - generic [ref=e58]:
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - generic:
+          - img "Logo"
+      - button [ref=e64] [cursor=pointer]:
+        - img [ref=e68]
+    - generic [ref=e70]:
+      - generic [ref=e74]: Management
+      - generic [ref=e77] [cursor=pointer]:
+        - img [ref=e80]
+        - generic [ref=e88]: Supplier Task
+      - generic [ref=e92]: Setting
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - img [ref=e98]
+          - generic [ref=e101]: Vehicle
+        - generic [ref=e102]:
+          - button "Personnel list" [ref=e103] [cursor=pointer]:
+            - generic [ref=e107]: Personnel list
+          - button "Registration" [active] [ref=e108] [cursor=pointer]:
+            - generic [ref=e112]: Registration
+          - button "Group Type" [ref=e113] [cursor=pointer]:
+            - generic [ref=e117]: Group Type
+  - generic [ref=e118]:
+    - generic [ref=e121]:
+      - paragraph [ref=e122]: "Fri. 10 Jul. 2026 : 18:20"
+      - generic [ref=e123]:
+        - img [ref=e125]
+        - paragraph [ref=e128]: 99+
+      - generic:
+        - img
+      - button "SA samak User" [ref=e131] [cursor=pointer]:
+        - generic [ref=e135]: SA
+        - generic [ref=e136]:
+          - paragraph [ref=e137]: samak
+          - paragraph [ref=e138]: User
+    - main [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - paragraph [ref=e147]: Vehicle
+          - generic [ref=e148]:
+            - img [ref=e150]
+            - paragraph [ref=e152]: Registration
+          - generic [ref=e805]:
+            - img [ref=e807]
+            - paragraph [ref=e809]: Edit Registration Detail
+        - button "Create Registration" [ref=e1553] [cursor=pointer]:
+          - img [ref=e1555]
+          - generic [ref=e1517]: Create Registration
+      - generic [ref=e1558]:
+        - generic [ref=e1559]:
+          - generic [ref=e1560]:
+            - generic [ref=e1561]:
+              - generic:
+                - img
+              - textbox "Search" [ref=e1562]
+            - button "Filter" [ref=e1563] [cursor=pointer]:
+              - generic [ref=e1564]:
+                - img [ref=e1565]
+                - generic [ref=e1568]: Filter
+          - button "Export" [ref=e1570] [cursor=pointer]:
+            - generic [ref=e1571]:
+              - img [ref=e1572]
+              - generic [ref=e1575]: Export
+            - img [ref=e1577]
+        - table [ref=e1582]:
+          - rowgroup [ref=e1583]:
+            - row "# Registration Group type Active Last Modify Date Action" [ref=e1584]:
+              - columnheader "#" [ref=e1585]
+              - columnheader "Registration" [ref=e1586]
+              - columnheader "Group type" [ref=e1587]
+              - columnheader "Active" [ref=e1588]
+              - columnheader "Last Modify Date" [ref=e1589]
+              - columnheader "Action" [ref=e1590]
+          - rowgroup [ref=e1591]:
+            - row "1 เทส1234 MINIBUS (19) 01/07/2026 More actions" [ref=e1592]:
+              - cell "1" [ref=e1593]
+              - cell "เทส1234" [ref=e1594]:
+                - button "เทส1234" [ref=e1595] [cursor=pointer]
+              - cell "MINIBUS (19)" [ref=e1596]
+              - cell [ref=e1597]:
+                - switch [checked] [ref=e1598] [cursor=pointer]
+              - cell "01/07/2026" [ref=e1600]
+              - cell "More actions" [ref=e1601]:
+                - button "More actions" [ref=e1604] [cursor=pointer]:
+                  - img [ref=e1605]
+            - row "2 กข3145 VAN (10) 30/06/2026 More actions" [ref=e1609]:
+              - cell "2" [ref=e1610]
+              - cell "กข3145" [ref=e1611]:
+                - button "กข3145" [ref=e1612] [cursor=pointer]
+              - cell "VAN (10)" [ref=e1613]
+              - cell [ref=e1614]:
+                - switch [checked] [ref=e1615] [cursor=pointer]
+              - cell "30/06/2026" [ref=e1617]
+              - cell "More actions" [ref=e1618]:
+                - button "More actions" [ref=e1621] [cursor=pointer]:
+                  - img [ref=e1622]
+            - row "3 งน6821 VAN (12) 30/06/2026 More actions" [ref=e1626]:
+              - cell "3" [ref=e1627]
+              - cell "งน6821" [ref=e1628]:
+                - button "งน6821" [ref=e1629] [cursor=pointer]
+              - cell "VAN (12)" [ref=e1630]
+              - cell [ref=e1631]:
+                - switch [checked] [ref=e1632] [cursor=pointer]
+              - cell "30/06/2026" [ref=e1634]
+              - cell "More actions" [ref=e1635]:
+                - button "More actions" [ref=e1638] [cursor=pointer]:
+                  - img [ref=e1639]
+            - row "4 กข8904 VAN (10) 30/06/2026 More actions" [ref=e1643]:
+              - cell "4" [ref=e1644]
+              - cell "กข8904" [ref=e1645]:
+                - button "กข8904" [ref=e1646] [cursor=pointer]
+              - cell "VAN (10)" [ref=e1647]
+              - cell [ref=e1648]:
+                - switch [checked] [ref=e1649] [cursor=pointer]
+              - cell "30/06/2026" [ref=e1651]
+              - cell "More actions" [ref=e1652]:
+                - button "More actions" [ref=e1655] [cursor=pointer]:
+                  - img [ref=e1656]
+            - row "5 ชร7390 MINIBUS (19) 30/06/2026 More actions" [ref=e1660]:
+              - cell "5" [ref=e1661]
+              - cell "ชร7390" [ref=e1662]:
+                - button "ชร7390" [ref=e1663] [cursor=pointer]
+              - cell "MINIBUS (19)" [ref=e1664]
+              - cell [ref=e1665]:
+                - switch [checked] [ref=e1666] [cursor=pointer]
+              - cell "30/06/2026" [ref=e1668]
+              - cell "More actions" [ref=e1669]:
+                - button "More actions" [ref=e1672] [cursor=pointer]:
+                  - img [ref=e1673]
+            - row "6 บส9024 MINIBUS (19) 30/06/2026 More actions" [ref=e1677]:
+              - cell "6" [ref=e1678]
+              - cell "บส9024" [ref=e1679]:
+                - button "บส9024" [ref=e1680] [cursor=pointer]
+              - cell "MINIBUS (19)" [ref=e1681]
+              - cell [ref=e1682]:
+                - switch [checked] [ref=e1683] [cursor=pointer]
+              - cell "30/06/2026" [ref=e1685]
+              - cell "More actions" [ref=e1686]:
+                - button "More actions" [ref=e1689] [cursor=pointer]:
+                  - img [ref=e1690]
+            - row "7 จภ4579 VAN (12) 30/06/2026 More actions" [ref=e1694]:
+              - cell "7" [ref=e1695]
+              - cell "จภ4579" [ref=e1696]:
+                - button "จภ4579" [ref=e1697] [cursor=pointer]
+              - cell "VAN (12)" [ref=e1698]
+              - cell [ref=e1699]:
+                - switch [checked] [ref=e1700] [cursor=pointer]
+              - cell "30/06/2026" [ref=e1702]
+              - cell "More actions" [ref=e1703]:
+                - button "More actions" [ref=e1706] [cursor=pointer]:
+                  - img [ref=e1707]
+        - generic [ref=e1712]:
+          - button "20 / page" [ref=e1714] [cursor=pointer]:
+            - generic [ref=e1715]: 20 / page
+            - img [ref=e1716]
+          - generic [ref=e1718]:
+            - button "Previous page" [disabled] [ref=e1719]:
+              - img [ref=e1720]
+            - button "1" [ref=e1723] [cursor=pointer]:
+              - generic [ref=e1724]: "1"
+            - button "Next page" [disabled] [ref=e1725]:
+              - img [ref=e1726]

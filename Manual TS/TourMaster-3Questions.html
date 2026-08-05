@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tour System — ระบบทำอะไรได้บ้าง / ลดงานอะไร / มีระบบดีกว่าอย่างไร</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;700;800&family=Noto+Sans+Thai:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#14212F; --teal:#1B3045; --teal-2:#2C4A68;
+  --coral:#FC5B04; --coral-2:#FF7F3F;
+  --cream:#F5F7FA; --card:#FFFFFF; --line:#E2E6EA; --muted:#5C6773;
+  --radius:18px; --shadow: 0 20px 45px -20px rgba(27,48,69,0.25);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{margin:0;font-family:'Noto Sans Thai','Prompt',sans-serif;color:var(--ink);background:var(--cream);line-height:1.7;overflow-x:hidden;}
+h1,h2,h3,h4{font-family:'Prompt','Noto Sans Thai',sans-serif;font-weight:700;margin:0;letter-spacing:-0.01em;}
+a{text-decoration:none;color:inherit;}
+.container{max-width:1180px;margin:0 auto;padding:0 24px;}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--coral);background:rgba(252,91,4,0.1);padding:6px 14px;border-radius:999px;margin-bottom:16px;}
+.eyebrow.on-dark{color:#FF9A63;background:rgba(255,255,255,0.1);}
+
+header{position:sticky;top:0;z-index:50;background:rgba(27,48,69,0.96);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,255,255,0.08);}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;}
+.brand{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:700;color:#fff;}
+.brand span{color:var(--coral);}
+.nav-links{display:flex;gap:20px;font-size:12px;font-weight:700;letter-spacing:0.04em;color:#E7F1EF;}
+.nav-links a:hover{color:var(--coral-2);}
+@media (max-width:900px){ .nav-links{display:none;} }
+
+.hero{padding:88px 0 56px;position:relative;overflow:hidden;background:radial-gradient(ellipse 90% 60% at 50% -10%, #16324A 0%, #0A121C 55%), #0A121C;}
+.hero .container{position:relative;z-index:1;text-align:center;display:flex;flex-direction:column;align-items:center;}
+.hero h1{font-size:40px;line-height:1.25;color:#fff;max-width:820px;}
+.hero h1 span{color:var(--coral);}
+.hero p.lead{font-size:17px;color:rgba(255,255,255,0.72);margin:20px 0 0;max-width:700px;}
+
+.section{padding:80px 0;}
+.section.tight{padding:60px 0;}
+.section-head{max-width:720px;margin:0 auto 40px;text-align:center;}
+.section-head .qnum{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--coral);color:#fff;font-weight:800;font-size:15px;margin-bottom:14px;}
+.section-head h2{font-size:30px;color:var(--teal);}
+.section-head p{color:var(--muted);font-size:15.5px;margin-top:12px;}
+#q4 .section-head .qnum{background:#fff;color:var(--coral);}
+#q4 .section-head h2{color:#fff;}
+#q4 .section-head p{color:#c8d3de;}
+
+.feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;}
+.feat-card{background:var(--teal);color:#fff;border-radius:var(--radius);padding:30px 26px;box-shadow:var(--shadow);}
+.feat-card .kicker{color:var(--coral-2);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:0.08em;margin-bottom:10px;display:block;}
+.feat-card h3{font-size:18px;color:#fff;margin-bottom:10px;line-height:1.4;}
+.feat-card p{color:#D9E7E5;font-size:14px;margin:0 0 14px;}
+.feat-card ul{margin:0;padding-left:18px;color:#EAF3F1;font-size:13.6px;}
+.feat-card li{margin-bottom:6px;}
+@media (max-width:900px){ .feat-grid{grid-template-columns:1fr;} }
+
+.reduce-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.reduce-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:26px 22px;transition:transform .3s var(--ease), box-shadow .3s var(--ease);}
+.reduce-card:hover{transform:translateY(-6px);box-shadow:var(--shadow);}
+.reduce-card .r-icon{width:38px;height:38px;border-radius:999px;background:rgba(252,91,4,0.15);color:var(--coral);display:flex;align-items:center;justify-content:center;margin-bottom:14px;font-weight:800;}
+.reduce-card h4{font-size:15px;color:var(--teal);margin-bottom:8px;line-height:1.4;}
+.reduce-card p{font-size:13.6px;color:var(--muted);margin:0;}
+@media (max-width:900px){ .reduce-grid{grid-template-columns:1fr 1fr;} }
+@media (max-width:600px){ .reduce-grid{grid-template-columns:1fr;} }
+
+.vs-table{width:100%;border-collapse:collapse;background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);font-size:14px;}
+.vs-table th{padding:14px 18px;text-align:left;font-size:13px;}
+.vs-table th.without{background:#6B2A1E;color:#fff;}
+.vs-table th.with{background:var(--coral);color:#fff;}
+.vs-table th.aspect{background:var(--teal);color:#fff;width:20%;}
+.vs-table td{padding:14px 18px;border-top:1px solid var(--line);vertical-align:top;color:var(--ink);}
+.vs-table td:first-child{font-weight:700;color:var(--teal);background:#FAFBFC;}
+.vs-table tr:nth-child(even) td:not(:first-child){background:#FAFBFC;}
+
+.cta{background:linear-gradient(135deg,var(--teal),#121F2D);color:#fff;border-radius:28px;padding:56px 48px;text-align:center;margin:0 24px 70px;}
+.cta h2{color:#fff;font-size:26px;margin-bottom:10px;}
+.cta p{color:#c8d3de;font-size:15px;}
+
+footer{background:linear-gradient(160deg,#0A121C,#121F2D);color:#8b97a5;text-align:center;padding:28px 0;font-size:12.5px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav container">
+    <a href="#top" class="brand">Tour<span>System</span></a>
+    <nav class="nav-links">
+      <a href="#q1">สิ่งที่เรามี</a>
+      <a href="#q2">ระบบทำอะไรได้บ้าง</a>
+      <a href="#q3">ลดงานอะไรได้บ้าง</a>
+      <a href="#q4">มี vs ไม่มีระบบ</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="top">
+  <div class="container">
+    <span class="eyebrow on-dark">Tour System Overview</span>
+    <h1><span>All</span> Bookings.<br>In Every Trip.<br><span>One</span> System.</h1>
+    <p class="lead">สรุปจาก Tour System — แพลตฟอร์มเชื่อม Booking การจัดกลุ่ม รถ ไกด์ Supplier, Job Order, Check-in และค่าใช้จ่ายรายทริปไว้ในที่เดียว</p>
+  </div>
+</section>
+
+<section class="section" id="q1" style="background:#fff;">
+  <div class="container">
+    <div class="section-head">
+      <span class="qnum">1</span>
+      <h2>สิ่งที่เรามี</h2>
+      <p>บริการหลักที่ Tour System รองรับการจัดการครบวงจร</p>
+    </div>
+    <div class="feat-grid" style="grid-template-columns:repeat(4,1fr);">
+      <div class="feat-card">
+        <span class="kicker">Vehicle</span>
+        <h3>จัดรถ</h3>
+        <p>จัดสรรรถบริษัทหรือรถจาก Supplier ให้ตรงกับจำนวนผู้โดยสารและเส้นทางของแต่ละทริป</p>
+      </div>
+      <div class="feat-card">
+        <span class="kicker">Boat</span>
+        <h3>จัดเรือ</h3>
+        <p>จัดสรรเรือและ Supplier เรือให้เหมาะกับโปรแกรมและจำนวนผู้เดินทางในแต่ละรอบ</p>
+      </div>
+      <div class="feat-card">
+        <span class="kicker">Tour Program</span>
+        <h3>จัดทัวร์</h3>
+        <p>วางแผนโปรแกรมทัวร์ Itinerary รอบเวลา จุดรับ และไกด์ประจำทริป</p>
+      </div>
+      <div class="feat-card">
+        <span class="kicker">Ticket</span>
+        <h3>จัดตั๋ว</h3>
+        <p>จัดการตั๋วเข้าชมสถานที่หรือกิจกรรมที่ผูกกับ Booking และ Package ของแต่ละทริป</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="q2">
+  <div class="container">
+    <div class="section-head">
+      <span class="qnum">2</span>
+      <h2>ระบบทำอะไรได้บ้าง</h2>
+      <p>Tour System แบ่งการทำงานออกเป็น 3 ช่วงหลัก ตั้งแต่เตรียมทริป ปฏิบัติงานหน้างาน จนถึงปิดต้นทุน</p>
+    </div>
+    <div class="feat-grid">
+      <div class="feat-card">
+        <span class="kicker">Plan Every Trip</span>
+        <h3>เตรียมทุก Booking ให้พร้อมก่อนวันเดินทาง</h3>
+        <ul>
+          <li><b>Booking &amp; Program</b> — เชื่อมลูกค้า โปรแกรม วันเดินทาง รอบ และเงื่อนไขการให้บริการ</li>
+          <li><b>Pickup Planning</b> — จัดการ Pickup Time, Pickup Location, Meeting Point และ Zone</li>
+          <li><b>Cost Setup</b> — กำหนดต้นทุนรถ ไกด์ Supplier ค่า Allowance และรายการค่าใช้จ่ายอื่น</li>
+          <li><b>สถานะความพร้อมของทริป</b> — ตรวจสอบว่าทริปใดยังขาดรถ ขาดไกด์ หรือข้อมูลไม่ครบ</li>
+        </ul>
+      </div>
+      <div class="feat-card">
+        <span class="kicker">Run Daily Operations</span>
+        <h3>ควบคุมคน รถ และผู้โดยสารในวันเดินทาง</h3>
+        <ul>
+          <li><b>Grouping</b> — จัดกลุ่ม Excursion, Pick-up และ Drop-off</li>
+          <li><b>Capacity Control</b> — เลือกทรัพยากรให้เหมาะกับจำนวนผู้เดินทาง</li>
+          <li><b>Assignment</b> — มอบหมาย Supplier รถบริษัท คนขับ และไกด์</li>
+          <li><b>Supplier Portal</b> — เว็บไซต์แยกสำหรับ Supplier ให้กรอกข้อมูลคนขับและป้ายทะเบียนรถที่ใช้งานจริงเอง ข้อมูลส่งเข้าฝั่ง Admin ทันที</li>
+          <li><b>Job Order</b> — สร้างเอกสารปฏิบัติงานจากข้อมูล Trip</li>
+          <li><b>Check-in</b> — ติดตาม Check-in, จำนวนผู้เดินทางจริง และ No-show</li>
+        </ul>
+      </div>
+      <div class="feat-card">
+        <span class="kicker">Control Every Trip Cost</span>
+        <h3>เห็นค่าใช้จ่ายตั้งแต่เบิกเงินก่อนจนถึงกระทบยอด</h3>
+        <ul>
+          <li><b>Advance</b> — เตรียม ตรวจสอบ และอนุมัติเงินก่อนออกทริป</li>
+          <li><b>Expense</b> — บันทึกค่าใช้จ่ายจริงทั้ง Cash และ Credit</li>
+          <li><b>Balance</b> — คำนวณเงินคืนบริษัทหรือเงินที่บริษัทต้องชดเชย</li>
+          <li><b>Reports</b> — สรุปค่าใช้จ่ายตามทริป โปรแกรม Supplier รถ และผู้ปฏิบัติงาน</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="q3" style="background:#fff;">
+  <div class="container">
+    <div class="section-head">
+      <span class="qnum">3</span>
+      <h2>ลดการทำงานอะไรได้บ้าง</h2>
+      <p>เมื่อทุกฝ่ายทำงานจาก Trip เดียวกัน ระบบช่วยตัดขั้นตอนที่ซ้ำซ้อนออกไปได้หลายจุด</p>
+    </div>
+    <div class="reduce-grid">
+      <div class="reduce-card">
+        <div class="r-icon">1</div>
+        <h4>ลดการกรอกข้อมูลซ้ำ</h4>
+        <p>ข้อมูลลูกค้า โปรแกรม รอบ จุดรับ และจำนวนผู้เดินทาง ถูกนำไปใช้ต่อในงานจัดกลุ่ม Job Order, Check-in และค่าใช้จ่าย โดยไม่ต้องคัดลอกซ้ำ</p>
+      </div>
+      <div class="reduce-card">
+        <div class="r-icon">2</div>
+        <h4>ลดเวลาตรวจสอบความพร้อมของทริป</h4>
+        <p>เห็นได้ทันทีว่าทริปใดยังไม่มีรถ ไม่มีไกด์ ยังไม่ได้จัดกลุ่ม หรือข้อมูลสำคัญไม่ครบ โดยไม่ต้องไล่เช็คเอกสารทีละใบ</p>
+      </div>
+      <div class="reduce-card">
+        <div class="r-icon">3</div>
+        <h4>ลดความคลาดเคลื่อนระหว่าง Booking กับหน้างาน</h4>
+        <p>เมื่อจำนวนผู้เดินทาง รอบ หรือสถานะ Check-in เปลี่ยน ทีมที่เกี่ยวข้องเห็นข้อมูลอัปเดตร่วมกันทันที ไม่ต้องแจ้งต่อด้วยมือ</p>
+      </div>
+      <div class="reduce-card">
+        <div class="r-icon">4</div>
+        <h4>ลดการเลือกทรัพยากรผิดพลาด</h4>
+        <p>จัดรถและทรัพยากรให้สัมพันธ์กับจำนวนผู้โดยสารและ Capacity อัตโนมัติ ลดการจัดรถเกินหรือขาด</p>
+      </div>
+      <div class="reduce-card">
+        <div class="r-icon">5</div>
+        <h4>ลดเวลากระทบยอดต้นทุน</h4>
+        <p>เปรียบเทียบ Advance, Expense และ Balance จากข้อมูลเดียวกัน แทนการเทียบเอกสารหลายชุดด้วยมือ</p>
+      </div>
+      <div class="reduce-card">
+        <div class="r-icon">6</div>
+        <h4>ลดเวลาสืบหาผู้รับผิดชอบ</h4>
+        <p>ติดตามสถานะ การอนุมัติ และประวัติการเปลี่ยนแปลงของข้อมูลสำคัญได้จากระบบโดยตรง ไม่ต้องไล่ถามทีละฝ่าย</p>
+      </div>
+      <div class="reduce-card">
+        <div class="r-icon">7</div>
+        <h4>ลดการโทรประสานงานกับ Supplier</h4>
+        <p>Supplier กรอกข้อมูลคนขับและป้ายทะเบียนรถที่จะใช้งานจริงเองผ่าน Supplier Portal ไม่ต้องโทรถามหรือประสานงานด้วยมืออีก</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="q4" style="background:linear-gradient(160deg,#0A121C,#16324A 55%,#121F2D);">
+  <div class="container">
+    <div class="section-head">
+      <span class="qnum">4</span>
+      <h2>มีระบบ กับ ไม่มีระบบ ต่างกันอย่างไร</h2>
+      <p>เทียบการทำงานแบบเดิม (กระจายอยู่หลายที่) กับการทำงานผ่าน Tour System</p>
+    </div>
+    <table class="vs-table">
+      <tr>
+        <th class="aspect">หัวข้อ</th>
+        <th class="without">ไม่มีระบบ</th>
+        <th class="with">มี Tour System</th>
+      </tr>
+      <tr>
+        <td>การกรอกข้อมูล</td>
+        <td>กรอกข้อมูลเดิมซ้ำหลายครั้งในไฟล์ เอกสาร หรือระบบอื่น</td>
+        <td>กรอกครั้งเดียวจาก Booking แล้วใช้ต่อได้ทุกขั้นตอน</td>
+      </tr>
+      <tr>
+        <td>การอัปเดตงาน</td>
+        <td>เมื่อ Booking เปลี่ยน งานที่มอบหมายไว้ก่อนหน้าอาจไม่อัปเดตตาม</td>
+        <td>ทุกฝ่ายเห็นข้อมูลอัปเดตจาก Trip เดียวกันทันที</td>
+      </tr>
+      <tr>
+        <td>ความพร้อมก่อนออกทริป</td>
+        <td>ตรวจสอบยากว่าทริปใดยังขาดรถ ขาดไกด์ หรือยังไม่ได้จัดกลุ่ม</td>
+        <td>เห็นสถานะความพร้อมของแต่ละทริปได้ทันที</td>
+      </tr>
+      <tr>
+        <td>จำนวนผู้เดินทางจริง กับต้นทุน</td>
+        <td>ข้อมูล Check-in และ No-show แยกจากค่าใช้จ่าย คำนวณต้นทุนจริงยาก</td>
+        <td>เชื่อม Check-in, จำนวนผู้เดินทางจริง เข้ากับ Advance/Expense/Balance โดยตรง</td>
+      </tr>
+      <tr>
+        <td>การตรวจสอบยอดเงิน</td>
+        <td>ต้องเทียบเอกสารหลายชุด ทั้ง Advance ค่าใช้จ่ายจริง เงินคืน และยอดชดเชย</td>
+        <td>ดู Advance, Expense, Balance และ Cost Breakdown จากระบบเดียว</td>
+      </tr>
+      <tr>
+        <td>การมองเห็นภาพรวม</td>
+        <td>แต่ละฝ่ายเห็นเฉพาะข้อมูลของตัวเอง ต้องส่งต่อผ่านไฟล์หรือแจ้งด้วยวาจา ไม่มีจุดเดียวที่สรุปภาพรวมทั้งหมด</td>
+        <td>ดูภาพรวมทุกทริป การจอง และค่าใช้จ่ายผ่าน Dashboard ได้ทันที ทุกฝ่าย (ขาย ปฏิบัติการ การเงิน ผู้บริหาร) เห็นข้อมูลที่เกี่ยวข้องจาก Trip เดียวกัน ตาม Role/Permission ของตน</td>
+      </tr>
+      <tr>
+        <td>ข้อมูลคนขับ/ทะเบียนรถ</td>
+        <td>ต้องโทรติดต่อ Supplier เพื่อถามว่าจะใช้รถและคนขับคนไหน แล้วจดบันทึกเอง</td>
+        <td>Supplier กรอกข้อมูลคนขับและป้ายทะเบียนเองผ่าน Supplier Portal ข้อมูลส่งเข้าฝั่ง Admin ทันที ไม่ต้องโทรถาม</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+<div class="cta">
+  <h2>Tour System</h2>
+  <p>เชื่อมฝ่ายขาย ฝ่ายปฏิบัติการ Supplier และฝ่ายการเงิน ให้ทำงานบนข้อมูลทริปเดียวกัน ตั้งแต่ Booking จนถึง Balance</p>
+</div>
+
+<footer>
+  © 2026 Tour System — Tour Operations &amp; Cost Control Platform
+</footer>
+
+</body>
+</html>
